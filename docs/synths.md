@@ -1,6 +1,12 @@
 # The Analog Synthesizers
 
 - [Overview](#overview)
+- [Studio Basics](#studio-basics)
+- [The Synthesizers](#synthesizers)
+  - [Serge system overview](#serge-system-overview)
+  - [Random Source Serge](#random-source-serge)
+  - [73-73 Serge](#73-75-serge)
+  - [Shelfisizer](#the-shelfisizer)
 
 ## Overview
 
@@ -19,6 +25,20 @@ In addition, a number of additional bits and pieces exist in the Audio Lab to he
 - Multiple [Low Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
 - Stereo Genelec speakers.
+
+## Studio Basics
+
+## The Synthesizers
+
+### Serge System Overview
+
+### Random Source Serge
+
+### 73-75 Serge
+
+### The Shelfisizer
+
+
 
 
 [return](./index.md)
