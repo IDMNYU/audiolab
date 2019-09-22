@@ -40,7 +40,7 @@ A green light on the conditioner will confirm that you've got power.
 ### Mixer
 
 The mixer for the analog studio is a Behringer UFX-1204, which takes inputs from the various synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
-![Analog Studio Mixer](./img/ufxmixer.jpg "Analog Studio Mixer")
+![Analog Studio Mixer](./img/ufxmixer.jpg "Analog Studio Mixer" | width=50%)
 
 
 
