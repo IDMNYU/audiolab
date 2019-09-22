@@ -4,8 +4,8 @@
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with. These include:
 
-- a large Serge modular system built by [Patch Point](https://www.patch-point.com/) in Berlin based on designs published by [Random Source](http://randomsource.net/).
-- smaller Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm.
+- a large [Serge modular system](https://en.wikipedia.org/wiki/Serge_synthesizer) built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, based on PCBs designed by [Random Source](http://randomsource.net/).
+- smaller Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm.
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge modules designed by Luke.
 
 In addition, a number of additional bits and pieces exist in the Audio Lab to help people work with the synthesizers:
