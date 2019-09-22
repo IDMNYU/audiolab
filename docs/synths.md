@@ -10,7 +10,9 @@
 
 # Overview
 
-IDM has a collection of analog synthesizers for the users of the Audio Lab to work with. These include:
+![Analog Studio Panorama](./img/analog_overview.jpg "Analog Studio Panorama")
+
+IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. These include:
 
 - a large [Serge modular system](https://en.wikipedia.org/wiki/Serge_synthesizer) built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, based on PCBs designed by [Random Source](http://randomsource.net/).
 - smaller Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm.
@@ -28,7 +30,12 @@ In addition, a number of additional bits and pieces exist in the Audio Lab to he
 
 # Studio Basics
 
-![Studio Panorama](./img/analog_overview.jpg "Analog Studio")
+### Power
+
+The power for *everything* in the analog studio is controled by a single switch, found on the Furman power conditioner on the black rack to the right:
+![Furman Power Conditioner](./img/analogpower.jpg "Furman Power Conditioner")
+
+
 
 # The Synthesizers
 
