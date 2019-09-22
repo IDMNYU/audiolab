@@ -48,4 +48,4 @@ Card access for the IDM Audio Lab is automatically granted for students in IDM a
 
 Other students interested in working in the room (e.g. for capstone or thesis work) must be approved to do so by Luke and Eric.
 
-[RETURN](./index.md)
+[return](./index.md)
