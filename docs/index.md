@@ -1,8 +1,14 @@
-# IDM Audio Lab studio manual
+# integrated digital media: audio lab studio manual
 how to use the IDM / BxmC audio lab (2MTC, rooms 823/824)
 
 fall, 2019
 
-[[the 16-channel audio system]]
+[the multi-channel audio system](./multichannel.md)
 
-[[the analog synthesizers]]
+[the analog synthesizers](./synths.md)
+
+[the piano](./piano.md)
+
+[the control room](./controlroom.md)
+
+
