@@ -28,6 +28,8 @@ In addition, a number of additional bits and pieces exist in the Audio Lab to he
 
 # Studio Basics
 
+![Studio Panorama](./img/analog_overview.jpg "Analog Studio")
+
 # The Synthesizers
 
 ## Serge System Overview
