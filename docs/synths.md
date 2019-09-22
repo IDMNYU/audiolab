@@ -1,4 +1,4 @@
-# The Analog Synthesizers
+# The IDM Analog Synthesizers
 
 - [Overview](#overview)
 - [Studio Basics](#studio-basics)
