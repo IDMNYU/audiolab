@@ -9,7 +9,7 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge modules designed by Luke.
 
 In addition, a number of additional bits and pieces exist in the Audio Lab to help people work with the synthesizers:
-- A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2#googtrans(en|en) Mixer with USB output for recording.
+- A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) MIDI interface.
 - A vintage [IVL Pitchrider 4000](https://www.ivlaudio.com/home) pitch-to-MIDI converter.
