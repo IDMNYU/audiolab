@@ -35,3 +35,12 @@ The Audio Lab is **not a social space**. If you're not working with the equipmen
 - Turn the lights off when you leave (switches are by the door), including the fairie lights and spots in the main lab (the switch is against the back wall by the synthesizers).
 - Make sure the door is closed and locked when you leave.
 - Make sure any equipment you've checked out gets returned to the IDM Equipment Room over in 370 Jay Street.
+
+## Room Reservation Procedure
+
+Users of the Audio Lab need to be invited to the IDM [Skedda Calendar](https://idmnyu.skedda.com/booking) to reserve time. The main studio (824) and control room (823) are independently reservable in half-hour blocks during 2MTC operating hours.
+
+Students in IDM courses can reserve up to 4 hours per week in the Audio Lab.
+
+Students in he analog synth club can reserve up to 2 hours per week in the Audio Lab beyond the regularly scheduled club time.
+
