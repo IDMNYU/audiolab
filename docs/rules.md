@@ -40,9 +40,11 @@ The Audio Lab is **not a social space**. If you're not working with the equipmen
 
 Users of the Audio Lab need to be invited to the IDM [Skedda Calendar](https://idmnyu.skedda.com/booking) to reserve time. The main studio (824) and control room (823) are independently reservable in half-hour blocks during 2MTC operating hours.
 
-Students in IDM courses can reserve up to 4 hours per week in the Audio Lab.
+Students in Audio Foundation Studio can reserve up to **2 hours per week** in the Audio Lab.
 
-Students in the analog synth club can reserve up to 2 hours per week in the Audio Lab beyond the regularly scheduled club time.
+Students in advanced IDM audio courses can reserve up to **4 hours per week** in the Audio Lab.
+
+Students in the analog synth club can reserve up to **2 hours per week** in the Audio Lab beyond the regularly scheduled club time.
 
 Card access for the IDM Audio Lab is automatically granted for students in IDM audio courses and in the synth club. 
 
