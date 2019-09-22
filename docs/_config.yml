@@ -1,2 +1,2 @@
 theme: jekyll-theme-dinky
-size: 18pt
+@font-size-base: 18pt;
