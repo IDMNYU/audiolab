@@ -44,3 +44,4 @@ Students in IDM courses can reserve up to 4 hours per week in the Audio Lab.
 
 Students in the analog synth club can reserve up to 2 hours per week in the Audio Lab beyond the regularly scheduled club time.
 
+Card access for the IDM Audio Lab is automatically granted for students in IDM audio courses and in the synth club. Other students interested in working in the room (e.g. for capstone or thesis work) must be approved to do so by Luke and Eric.
