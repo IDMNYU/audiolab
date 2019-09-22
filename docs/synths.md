@@ -41,7 +41,7 @@ A green light on the conditioner will confirm that you've got power.
 
 The mixer for the analog studio is a Behringer UFX-1204, which takes inputs from the various synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
 ![Analog Studio Mixer](./img/ufxmixer.jpg "Analog Studio Mixer")
-The first four channels of the mixer are mono, and are hardwired to:
+The first four channels of the mixer are mono, and are hard-wired to:
 1. the left output of the "Stereo Mixer" module on the Random Source Serge (the rightmost module on the top panel)
 2. the right output of the "Stereo Mixer" module on the Random Source Serge (the rightmost module on the top panel)
 3. the output of the "XFader" module on the Random Source Serge (the rightmost module on the 3rd panel)
@@ -49,9 +49,11 @@ The first four channels of the mixer are mono, and are hardwired to:
 
 The rest of the mixer consists of 8 additional inputs in stereo pairs. Channels 5/6 have a cable connected that ends in a stereo 1/8" jack so you can connect the analog output of your laptop.
 
-The Mute buttons on each channel reroute the audio to a secondary ("Alt 3-4 Output"). The left ("Alt 3") output of this secondary audio bus is connected to one of the Low-Gain converter boxes to the right, so that you could, for example, connect an electric guitar to the mixer, "mute" its channel, and then connect it to the Serge system.
+The Mute buttons on each channel reroute the audio to a secondary ("Alt 3-4 Output"). The left ("Alt 3") output of this secondary audio bus is connected to one of the Low-Gain converter boxes, so that you could, for example, connect an electric guitar to the mixer, "mute" its channel, and then connect it to the Serge system.
 
 The USB output of the Mixer has a cable connected for your use. If you hook it up to your computer, you can record the output of the synthesizers. The mixer shows up as a multi-channel audio interface, with the input channels on the mixer routed on a per-channel basis (e.g. *input channel 3* on the mixer comes into your computer on *input channel 3* of the interface), and with the "Main Mix" of the mixer coming in on channels 15-16. 
+
+If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio Midi Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to download and install an ASIO driver for the mixer [here](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2/Downloads).
 
 The mixer can send your computer audio either pre- or post-fader (which includes not only the channel level, but also the internal effects and equalization). The red button at the top of the channel below the white Gain knob lets you set this option. In general, the pre-fader (button up) option will give you a cleaner signal, allowing you to post-process the audio once you've recorded it.
 
