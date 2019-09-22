@@ -42,5 +42,5 @@ Users of the Audio Lab need to be invited to the IDM [Skedda Calendar](https://i
 
 Students in IDM courses can reserve up to 4 hours per week in the Audio Lab.
 
-Students in he analog synth club can reserve up to 2 hours per week in the Audio Lab beyond the regularly scheduled club time.
+Students in the analog synth club can reserve up to 2 hours per week in the Audio Lab beyond the regularly scheduled club time.
 
