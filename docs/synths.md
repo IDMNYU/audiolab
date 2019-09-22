@@ -1,5 +1,7 @@
 # The Analog Synthesizers
 
+- [Overview](#overview)
+
 ## Overview
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with. These include:
