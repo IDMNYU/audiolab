@@ -45,7 +45,7 @@ The first four channels of the mixer are mono, and are hard-wired to:
 1. the left output of the "Stereo Mixer" module on the Random Source Serge (the rightmost module on the top panel)
 2. the right output of the "Stereo Mixer" module on the Random Source Serge (the rightmost module on the top panel)
 3. the output of the "XFader" module on the Random Source Serge (the rightmost module on the 3rd panel)
-4. the top ouptut on the "Adapter" module on the 73-75 Serge (the rightmost module on the bottom panel)
+4. the top output on the "Adapter" module on the 73-75 Serge (the rightmost module on the bottom panel)
 
 The rest of the mixer consists of 8 additional inputs in stereo pairs. Channels 5/6 have a cable connected that ends in a stereo 1/8" jack so you can connect the analog output of your laptop.
 
