@@ -1,4 +1,4 @@
-# NYU Integrated Digital Media:
+# NYU Integrated Digital Media
 ## Audio Lab studio manual
 How to use the IDM / BxmC audio lab (2MTC, rooms 823/824)
 
