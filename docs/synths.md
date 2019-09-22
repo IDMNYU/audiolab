@@ -8,7 +8,7 @@
   - [73-73 Serge](#73-75-serge)
   - [Shelfisizer](#the-shelfisizer)
 
-## Overview
+# Overview
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with. These include:
 
@@ -26,17 +26,17 @@ In addition, a number of additional bits and pieces exist in the Audio Lab to he
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
 - Stereo Genelec speakers.
 
-## Studio Basics
+# Studio Basics
 
-## The Synthesizers
+# The Synthesizers
 
-### Serge System Overview
+## Serge System Overview
 
-### Random Source Serge
+## Random Source Serge
 
-### 73-75 Serge
+## 73-75 Serge
 
-### The Shelfisizer
+## The Shelfisizer
 
 
 
