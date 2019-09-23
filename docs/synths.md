@@ -98,13 +98,23 @@ Jacks are colored based on the type of voltage they send (or expect to receive).
 | DC            | 0 to 5V       | Light Blue | Light Grey | Dark Blue |
 | Trigger       | 0 *or* 5V      | Red | Red | Red |
 
+Some modules have additional colors, such as lavender jacks for passive connectors on the 73-75 Adaptor module and orange for the AC-coupled (-5V or 5V) comparator jack on the Random Source Smooth/Stepped Generator module.
 
-Knobs that *scale* (multiply) an input voltage and knobs that *offset* (add to) an input voltage are distinguished on the panel graphics.
+As noted above, these conventions describe the kind of voltage being delivered, not *how* you're going to use it. As in the image above, the output area of the module has black, blue, and red jacks, but all of them could be used to generate audio or control voltage.
+
+Serge modules use small knobs to control parameters, often in conjunction with control voltage. Knobs that *scale* (multiply) an input voltage and knobs that *offset* (add to) an input voltage are distinguished on the panel graphics.
 
 Modules are connected by **patching** within and between module jacks using banana cables.
 
 <img src = "./img/serge_patched2.jpg" width="50%" title="Serge modules patched together" alt="Serge modules patched together">
 
+Banana cables can be stacked by inserting one cable into the back or side of another. The cables in the IDM Audio Lab are stored against the wall to the left of the analog studio area, and are color-coded by length.
+
+<img src = "./img/pomonacables.jpg" width="50%" title="Banana patch cables" alt="Banana patch cables">
+
+In addition, a box labeled "shorting bars!!!" contain small plastic blocks with two banana connectors that can be used to connect two adjacent jacks on most Serge modules.
+
+<img src = "./img/shortingbars.jpg" width="50%" title="Box of shorting bars" alt="Box of shorting bars">
 
 ## Random Source Serge
 
