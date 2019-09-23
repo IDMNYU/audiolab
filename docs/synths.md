@@ -14,7 +14,7 @@
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. These include:
 
-- a large [Serge modular system](https://en.wikipedia.org/wiki/Serge_synthesizer) built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, based on PCBs designed by [Random Source](http://randomsource.net/) and using the "4th Generation" Serge systems from 1979-1980 as inspiration.
+- a large Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, based on PCBs designed by [Random Source](http://randomsource.net/) and using the "4th Generation" Serge systems from 1979-1980 as inspiration.
 - a smaller Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge modules designed and built by Luke.
 
@@ -62,6 +62,15 @@ The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers i
 # The Synthesizers
 
 ## Serge System Overview
+
+Serge (https://en.wikipedia.org/wiki/Serge_synthesizer) synthesizers are analog, modular synthesizers that use or are inspired by the synthesizer designs of [Serge Tcherepnin](https://en.wikipedia.org/wiki/Serge_Tcherepnin). Tcherepnin, while working at CalArts in the 1970s, developed his line of modular synthesizers. His designs found commercial success as a low-cost alternative to other modular synthesis systems available at the time. His company (Serge Modular Music Systems), sold synthesizers under the Serge name until 1986. After that, Tcherepnin licensed his designs *non-exclusively* to a number of manufacturers - Sound Transform Systems in the USA, Elby Designs in Australia, Random Source in Germany, the Human Comparator in Sweden, and Loudest Warning in the UK. In addition, a small but active community of synthesizer designers continue to develop new modules in the Serge format.
+
+Serge synthesizers have a number of characteristics that set them apart from other modular systems of their day, as well as modern modular synthesizers that use the [Eurorack](https://en.wikipedia.org/wiki/Eurorack) format:
+- Serge synthesizers are designed to be arrayed horizontally into panels that are 4U (4 [rack units](https://en.wikipedia.org/wiki/Rack_unit)) high, the same as [Buchla](https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments) systems but distinct from [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer) systems (5U) or Eurorack systems (3U). As a result of this sizing standard, Serge synthesizers are sometimes referred to generically as "4U modular" systems.
+- Serge systems use 4mm [banana connectors](https://en.wikipedia.org/wiki/Banana_connector) for all their internal connectivity, with a common [ground connection](https://en.wikipedia.org/wiki/Ground_(electricity)) used across all the modules in the system. The use of single conductor wires means that, when patching with a Serge, you're connecting the positive wire only. This is in contrast to most other modular systems, which use two-conductor audio cables (such as 1/8" / 3.5mm [phone jack](https://en.wikipedia.org/wiki/Phone_connector_(audio)) for connectivity, allowing for full electrical isolation between modules.
+- Tcherepnin designed his synthesizers with no distinction made between audio and control voltage within the module design. This was a fairly radical departure from contemporary systems, which either had separate modules for generating different types of signals (e.g. Moog) or used different cabling standards to keep different kinds of voltages separate (Buchla). In Serge systems, any oscillator could be listened to, or slowed down below 20Hz to create a time-varying [low-frequency oscillator](https://en.wikipedia.org/wiki/Low-frequency_oscillation). By a similar token, Serge modules that generated ramps, triggers, random signals, and even voltage sequences could be sped up to audio rate to generate triangle waves, square waves, noise, or arbitrary waveforms. Instead, Serge modules distinguish between the type of voltage - AC, DC, or digital/trigger - without implying how they should be patched and at what rate they should be used.
+
+
 
 ## Random Source Serge
 
