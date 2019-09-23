@@ -63,6 +63,8 @@ The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers i
 
 ## Serge System Overview
 
+![Serge Modular System in use](./img/serge_patched.jpg "Serge Modular System in use")
+
 [Serge synthesizers](https://en.wikipedia.org/wiki/Serge_synthesizer) are analog modular synthesizers that incorporate the synthesizer designs of [Serge Tcherepnin](https://en.wikipedia.org/wiki/Serge_Tcherepnin). Tcherepnin, while working at CalArts in the 1970s, developed his line of modular synthesizers after meeting with [Don Buchla](https://en.wikipedia.org/wiki/Don_Buchla) and working with composer [Morton Subotnick](https://en.wikipedia.org/wiki/Morton_Subotnick). His designs found commercial success as a low-cost alternative to other modular synthesis systems available at the time. His company (Serge Modular Music Systems) sold synthesizers under the **Serge** name until 1986. After that, Tcherepnin licensed his designs *non-exclusively* to a number of manufacturers, such as Sound Transform Systems in the USA, Elby Designs in Australia, Random Source in Germany, the Human Comparator in Sweden, and Loudest Warning in the UK. In addition, a number of synthesizer designers, such as Bugbrand, Modcan, Ciat-Lonbarde, and Kilpatrick Audio, continue to develop new modules using a Serge-inspired or Serge-compatible format.
 
 ### What makes a Serge a Serge?
@@ -79,6 +81,11 @@ In terms of overall design, Serge modular systems are considered, alongside Buch
 - They offer sequencing and other "automatic," clock-based behaviors, as well as modules that avoid specific musical conventions but can be used for musical effects, such as sample-and-hold modules. This is in lieu of the Western keyboard-centric performance setups common in "East Coast" synthesizers.
 
 ### Interface standards
+
+Serge synthesizers are made up of **modules** that are 4U (7") tall and multiples of 1" wide. Most (but not all) Serge systems group modules into a single aluminum enclosure (called a "panel" or "boat") that contains up to 16 inches worth of modules and has a single power connector on the rear. The separation between individual modules on a panel is indicated by the panel graphics, usually with a module's name at the top or bottom, and a visual indicator such as a black rounded rectangle or a gap in the decal around the module.
+
+<img src = "./img/serge824_NTO.jpg" width="50%" title="Serge individual module photo" alt="Serge individual module photo">
+
 
 
 
