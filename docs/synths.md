@@ -84,7 +84,7 @@ In terms of overall design, Serge modular systems are considered, alongside Buch
 
 Serge synthesizers are made up of **modules** that are 4U (7") tall and multiples of 1" wide. Most (but not all) Serge systems group modules into a single aluminum enclosure (called a "panel" or "boat") that contains up to 16 inches worth of modules and has a single power connector on the rear. The separation between individual modules on a panel is indicated by the panel graphics, usually with a module's name at the top or bottom, and a visual indicator such as a black rounded rectangle or a gap in the decal around the module.
 
-<img src = "./img/serge824_NTO.jpg" width="50%" title="Serge individual module photo" alt="Serge individual module photo">
+<img src = "./img/serge824_NTO.jpg" width="25%" title="Serge individual module photo" alt="Serge individual module photo">
 
 Modules may have **inputs**, **outputs**, or both, depending on their function. In general, outputs on Serge synthesizers appear *above* and/or *to the right* of the inputs, and are usually visually indicated on the panel graphics. In the image above, the lower portion of the module (where the knobs are) contain the inputs, while the upper area (bounded by a rectangle) contain the output jacks.
 
