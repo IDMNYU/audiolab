@@ -106,15 +106,15 @@ Serge modules use small knobs to control parameters, often in conjunction with c
 
 Modules are connected by **patching** within and between module jacks using banana cables.
 
-<img src = "./img/serge_patched2.jpg" width="50%" title="Serge modules patched together" alt="Serge modules patched together">
+<img src = "./img/serge_patched2.jpg" title="Serge modules patched together" alt="Serge modules patched together">
 
 Banana cables can be stacked by inserting one cable into the back or side of another. The cables in the IDM Audio Lab are stored against the wall to the left of the analog studio area, and are color-coded by length.
 
-<img src = "./img/pomonacables.jpg" width="50%" title="Banana patch cables" alt="Banana patch cables">
+<img src = "./img/pomonacables.jpg" width="25%" title="Banana patch cables" alt="Banana patch cables">
 
 In addition, a box labeled "shorting bars!!!" contain small plastic blocks with two banana connectors that can be used to connect two adjacent jacks on most Serge modules.
 
-<img src = "./img/shortingbars.jpg" width="50%" title="Box of shorting bars" alt="Box of shorting bars">
+<img src = "./img/shortingbars.jpg" width="25%" title="Box of shorting bars" alt="Box of shorting bars">
 
 ## Random Source Serge
 
