@@ -86,7 +86,7 @@ Serge synthesizers have a number of technical characteristics that set them apar
 In terms of overall design, Serge modular systems are considered, alongside Buchla, to be classic ["West Coast"](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizers:
 - They feature a (comparably) large selection of heterogenous modules, to encourage experimentation through a limitless variety of possible connections. This is in contrast to "East Coast" synthesizers which tend to feature oscillators, filters, and amplifiers that are usually patched in sequence and triggered synchronously.
 - They emphasize distortion - frequency and ring modulation, waveshaping - as a synthesis technique to make richer harmonic content from simple waveforms, as opposed to the subtractive synthesis used in "East Coast" synthesizers, with their emphasis on ladder filters shaping harmonically rich oscillators.
-- They offer sequencing and other "automatic," clock-based behaviors, as well as modules that avoid specific musical conventions but can be used for musical effects, such as sample-and-hold modules. This is in lieu of the Western keyboard-centric performance setups common in "East Coast" synthesizers.
+- They offer sequencing and other automatic clock-based behaviors, as well as modules that avoid specific musical conventions but can be used for musical effects, such as sample-and-hold modules and clock dividers. This is in lieu of the Western keyboard-centric performance setups common in "East Coast" synthesizers.
 
 ### Interface standards
 
