@@ -86,7 +86,24 @@ Serge synthesizers are made up of **modules** that are 4U (7") tall and multiple
 
 <img src = "./img/serge824_NTO.jpg" width="50%" title="Serge individual module photo" alt="Serge individual module photo">
 
+Modules may have **inputs**, **outputs**, or both, depending on their function. In general, outputs on Serge synthesizers appear *above* and/or *to the right* of the inputs, and are usually visually indicated on the panel graphics. In the image above, the lower portion of the module (where the knobs are) contain the inputs, while the upper area (bounded by a rectangle) contain the output jacks.
 
+Interface elements on Serge modules consist of jacks (points of connection), LEDs, knobs, toggle switches, push buttons, and, on the TKB module, capacitive touch strips. Interface elements are usually labeled.
+
+Jacks are colored based on the type of voltage they send (or expect to receive). Tcherepnin's original design called for three types of voltage connection, with color codes:
+
+| Voltage Type  | Voltage Range | RS     | 73-75 | Shelfisizer |
+| ------------- |---            |     ---|    ---|          ---|
+| AC            | -2.5V to 2.5V | Black | Brown | Black |
+| DC            | 0 to 5V       | Light Blue | Light Grey | Dark Blue |
+| Trigger       | 0 *or* 5V      | Red | Red | Red |
+
+
+Knobs that *scale* (multiply) an input voltage and knobs that *offset* (add to) an input voltage are distinguished on the panel graphics.
+
+Modules are connected by **patching** within and between module jacks using banana cables.
+
+<img src = "./img/serge_patched2.jpg" width="50%" title="Serge modules patched together" alt="Serge modules patched together">
 
 
 ## Random Source Serge
