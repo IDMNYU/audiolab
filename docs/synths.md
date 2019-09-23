@@ -14,9 +14,9 @@
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. These include:
 
-- a large Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, based on PCBs designed by [Random Source](http://randomsource.net/) and using the "4th Generation" Serge systems from 1979-1980 as inspiration.
+- a large Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
 - a smaller Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
-- the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge modules designed and built by Luke.
+- the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 
 In addition, a number of additional bits and pieces exist in the Audio Lab to help people work with the synthesizers:
 - A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording.
@@ -40,7 +40,9 @@ A green light on the conditioner will confirm that you've got power.
 ### Mixer
 
 The mixer for the analog studio is a Behringer UFX-1204, which takes inputs from the various synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
+
 ![Analog Studio Mixer](./img/ufxmixer.jpg "Analog Studio Mixer")
+
 The first four channels of the mixer are mono, and are hard-wired to:
 1. the left output of the "Stereo Mixer" module on the Random Source Serge (the rightmost module on the top panel)
 2. the right output of the "Stereo Mixer" module on the Random Source Serge (the rightmost module on the top panel)
@@ -65,7 +67,7 @@ The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers i
 
 ![Serge Modular System in use](./img/serge_patched.jpg "Serge Modular System in use")
 
-[Serge synthesizers](https://en.wikipedia.org/wiki/Serge_synthesizer) are analog modular synthesizers that incorporate the synthesizer designs of [Serge Tcherepnin](https://en.wikipedia.org/wiki/Serge_Tcherepnin). Tcherepnin, while working at CalArts in the 1970s, developed his line of modular synthesizers after meeting with [Don Buchla](https://en.wikipedia.org/wiki/Don_Buchla) and working with composer [Morton Subotnick](https://en.wikipedia.org/wiki/Morton_Subotnick). His designs found commercial success as a low-cost alternative to other modular synthesis systems available at the time. His company (Serge Modular Music Systems) sold synthesizers under the **Serge** name until 1986. After that, Tcherepnin licensed his designs *non-exclusively* to a number of manufacturers, such as Sound Transform Systems in the USA, Elby Designs in Australia, Random Source in Germany, the Human Comparator in Sweden, and Loudest Warning in the UK. In addition, a number of synthesizer designers, such as Bugbrand, Modcan, Ciat-Lonbarde, and Kilpatrick Audio, continue to develop new modules using a Serge-inspired or Serge-compatible format.
+[Serge synthesizers](https://en.wikipedia.org/wiki/Serge_synthesizer) are analog modular synthesizers that incorporate the  designs of [Serge Tcherepnin](https://en.wikipedia.org/wiki/Serge_Tcherepnin). Tcherepnin, while working at CalArts in the 1970s, developed his line of modular synthesizers after meeting with [Don Buchla](https://en.wikipedia.org/wiki/Don_Buchla) and working with composer [Morton Subotnick](https://en.wikipedia.org/wiki/Morton_Subotnick). His designs found commercial success as a low-cost alternative to other modular synthesis systems available at the time. His company (Serge Modular Music Systems) sold synthesizers under the **Serge** name until 1986. After that, Tcherepnin licensed his designs *non-exclusively* to a number of manufacturers, such as Sound Transform Systems in the USA, Elby Designs in Australia, Random Source in Germany, the Human Comparator in Sweden, and Loudest Warning in the UK. In addition, a number of synthesizer designers, such as Bugbrand, Modcan, Ciat-Lonbarde, and Kilpatrick Audio, continue to develop new synths using a Serge-inspired or Serge-compatible format.
 
 ### What makes a Serge a Serge?
 
