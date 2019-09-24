@@ -32,6 +32,7 @@ The Audio Lab is **not a social space**. If you're not working with the equipmen
 
 - Clean up after you're done.
 - Turn the power off (**only on the power conditioners**) for the gear you've used.
+- Leave things so that they're ready for the next person. For the analog synthesizers, take your patch down and store your cables back in the rack; for the control room, normalize the mixing board and quit all open applications on the computer.
 - Turn the lights off when you leave (switches are by the door), including the fairie lights and spots in the main lab (the switch is against the back wall by the synthesizers).
 - Make sure the door is closed and locked when you leave.
 - Make sure any equipment you've checked out gets returned to the IDM Equipment Room over in 370 Jay Street.
