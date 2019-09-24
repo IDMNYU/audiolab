@@ -146,18 +146,31 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 #### New Timbral Oscillator
 
-<img src = "./img/serge824_1_1.png" width="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
-
 The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator). 
 
-It outputs five different waveforms 
-- Saw (a DC rising sawtooth)
-- Triangle (DC)
-- Sine (AC)
-- Variable (AC)
-- Puls (sic) (trigger)
+<img src = "./img/serge824_1_1.png" width="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
 
-The NTO takes manual control for base frequency and the waveshape for the "Variable" output. Voltage inputs allow for linear and 1V/OCT control of the oscillator's frequency, portamento (essentially a slew or lag on frequncy changes), the waveshape of the "Variable" output, and the amount of FM applied to the oscillator from the signal 
+1. Rising Sawtooth Wave (DC Output)
+2. Triangle Wave (DC Output)
+3. Sine Wave (AC Output)
+4. Variable Waveform, controlled by *6*, *9*, *12* (AC Output)
+5. Square Wave / Triger Output (labeled "Puls") (Trigger Output)
+6. CV to control the "variable" waveform of *4* (sums with *12*) (DC Input)
+7. First 1V/Oct CV of oscillator frequency (sums with *8*, *18* x *19*, *20*, and *21*) (DC Input)
+8. Second 1V/Oct CV of oscillator frequency (sums with *7*, *18* x *19*, *20*, and *21*) (DC Input)
+9. Scaling knob for *6*
+10. [Linear FM](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis) "Modulator" signal (AC Input)
+11. First ["Portamento"](https://en.wikipedia.org/wiki/Portamento) (frequency slew) CV (sums with *14* and *17*) (DC Input)
+12. Adjustment for "variable" waveform of *4* (sums with *6* x *9*)
+13. CV to control the amount of linear FM *10* (sums with *16*) (DC Input)
+14. Second Portamento CV (sums with *11* and *17*) (DC Input)
+15. [Oscillator Sync](https://en.wikipedia.org/wiki/Oscillator_sync) signal for Saw Output *1* (DC Input, triggers at 2.5V).
+16. Manual control of the amount of linear FM *10*  (sums with *13*)
+17. Manual Portamento control (sums with *11* and *14*)
+18. Linear frequency CV input (scaled by *19*, sums with *7*, *8*, *20*, and *21*) (DC Input)
+19. Scaling knob for *18*
+20. Fine tuning knob for the VCO's base frequency (sums with *7*, *8*, *18* x *19*, and *21*)
+21. Coarse tuning knob for the VCO's base frequency (sums with *7*, *8*, *18* x *19*, and *20*)
 
 
 
