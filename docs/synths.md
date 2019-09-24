@@ -146,7 +146,7 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 #### New Timbral Oscillator
 
-<img src = "./img/serge824_1_1.png" height="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
+<img src = "./img/serge824_1_1.png" width="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
 
 The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator). 
 
