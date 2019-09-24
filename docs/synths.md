@@ -147,9 +147,9 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 <table>
   <tr>
     <td>
-<img src = "./img/serge824_1_1.png" height="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
+<img src = "./img/serge824_1_1.png" height="50%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
     </td>
-    <td>
+    <td valign="top">
       testing one two three.<br>
       my dogt has fleas. yadda yadda yadd aafdfdjfdfdfsdsfaefefef
     </td>
