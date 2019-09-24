@@ -150,14 +150,13 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 
 <img src = "./img/serge824_1_1.png" width="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
 
-*Outputs*:
+ *Outputs*:
 1. Rising Sawtooth Wave (DC)
 2. Triangle Wave (DC)
 3. Sine Wave (AC)
 4. Variable Waveform, controlled by *6*, *9*, *12* (AC)
 5. Square Wave / Triger Output (labeled "Puls") (Trigger)
-
-*Inputs*:
+ *Inputs*:
 6. CV to control the "variable" waveform of *4* (sums with *12*) (DC)
 7. First 1V/Oct CV of oscillator frequency (sums with *8*, *18* x *19*, *20*, and *21*) (DC)
 8. Second 1V/Oct CV of oscillator frequency (sums with *7*, *18* x *19*, *20*, and *21*) (DC)
