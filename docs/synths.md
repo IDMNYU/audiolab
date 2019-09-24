@@ -136,7 +136,7 @@ As mentioned above, patching using banana jacks means that you're only connectin
 
 <img src = "./img/serge824_photo.jpg" width="100%" title="Random Source Serge system" alt="Random Source Serge system">
 
-The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [Random Source "shop" panels](http://randomsource.net/serge_panels) (prebuilt configuration of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). The modules are described below.
+The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [Random Source "shop" panels](http://randomsource.net/serge_panels) (prebuilt configuration of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). These panels incorporate the designs of modules sold by Serge Modular Music Systems sold in 1979-1980, along with a number of innovations by Random Source.
 
 ### Panel 1 (La Bestia II)
 
@@ -159,9 +159,26 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 <img src = "./img/serge7375_photo.jpg" width="100%" title="73-75 Serge system" alt="73-75 Serge system">
 
+The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human Comparator. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's designs, sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random Source panels.
+
+### "Homebuilt" Panel 1
+
+<img src = "./img/serge7375_1.png" width="100%" title="73-75 Panel 1" alt="73-75 Panel 1">
+
+### "Homebuilt" Panel 2
+
+<img src = "./img/serge7375_2.png" width="100%" title="73-75 Panel 2" alt="73-75 Panel 2">
+
+
 ## The Shelfisizer
 
 <img src = "./img/shelfisizer2019_photo.jpg" width="100%" title="2019 Shelfisizer" alt="2019 Shelfisizer">
+
+The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modular systems but also hybrid analog synthesis / microcontroller systems such as the [Buchla 200e](https://buchla.com/systems-design/). These modules use 16mHz [Adafruit Metro Mini](https://www.adafruit.com/product/2590) microcontrollers and simple monolithic IC chips to handle much of the logic that definies the module's behavior, leaving discrete components for the parts of the modules that actually generate analog signals. This makes it simple to prototype modules that require an understanding of "state", such as pattern memory or hysteresis, and allows for a design that has a much lower part count than typical synthesizer modules.
+
+### 2019 Panel
+
+<img src = "./img/shelfisizer2019.png" width="100%" title="Shelfisizer 2019" alt="Shelfisizer 2019">
 
 
 
