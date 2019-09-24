@@ -110,9 +110,9 @@ Some modules have additional colors, such as lavender jacks for passive connecto
 
 As noted above, these conventions describe the kind of voltage being delivered, not *how* you're going to use it. As in the image above, the output area of the module has black, blue, and red jacks, but all of them can be used to generate either audio patched into the speakers or control voltage patched into another module.
 
-Patching the output of a module delivering one type of voltage into a module jack that expects a different type can have unpredictable results. In general, patching a blue (DC) jack into a black (AC) jack will work as expected, though some modules (such as the voltage-controlled filters) are designed to only modify signals in the audio range, so a slow-moving DC signal may end up getting filtered out. Patching a black (AC) source into a blue (DC) destination may have unusual results - the negative voltage in the signal may end up getting clipped to 0V or rectified (flipped into positive voltage). Modules that expect triggers (red jacks) will "fire" when an AC or DC voltage source from a black or blue jack crosses above 2.5V or so, but processing voltage from a trigger source (red jack) through a DC or AC processing module may eliminate its ability to trigger anything.
+Patching the output of a module delivering one type of voltage into a module jack that expects a *different* type can have unpredictable results. In general, patching a blue (DC) jack into a black (AC) jack will work as expected, though some modules (such as the voltage-controlled filters) are designed to only modify signals in the audio range, so a slow-moving DC signal may end up getting filtered out. Patching a black (AC) source into a blue (DC) destination may have unusual results - the negative voltage in the signal may end up getting clipped to 0V or rectified (flipped into positive voltage). Modules that expect triggers (red jacks) will "fire" when an AC or DC voltage source from a black or blue jack crosses above 2.5V or so, but processing voltage from a trigger source (red jack) through a DC or AC processing module may transform the signal in a way that eliminates its ability to trigger anything.
 
-Serge modules use small knobs to control parameters, often in conjunction with control voltage. Knobs that *scale* (multiply) an input voltage and knobs that *offset* (add to) an input voltage are distinguished on the panel graphics.
+Serge modules use small knobs to control parameters, often in conjunction with control voltage. Knobs that *scale* (multiply) an input voltage and knobs that *offset* (add to) an input voltage are distinguished on the panel graphics. Serge scalar knobs are usually *bipolar* and can apply negative scaling by moving the knob to the left. The zero (12 o'clock) position scales the incoming voltage to 0.
 
 Modules are connected by **patching** within and between module jacks using banana cables.
 
@@ -136,13 +136,64 @@ As mentioned above, patching using banana jacks means that you're only connectin
 
 <img src = "./img/serge824_photo.jpg" width="100%" title="Random Source Serge system" alt="Random Source Serge system">
 
+The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [Random Source "shop" panels](http://randomsource.net/serge_panels) (prebuilt configuration of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). These panels incorporate the designs of modules sold by Serge Modular Music Systems sold in 1979-1980, along with a number of innovations by Random Source.
+
+### Panel 1 (La Bestia II)
+
+<img src = "./img/serge824_1.png" width="100%" title="Random Source La Bestia II" alt="Random Source La Bestia II">
+
+#### New Timbral Oscillator
+
+<table>
+  <tr>
+    <td>
+<img src = "./img/serge824_1_1.png" height="50%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
+    </td>
+    <td valign="top">
+      testing one two three.<br>
+      my dogt has fleas. yadda yadda yadd aafdfdjfdfdfsdsfaefefef
+    </td>
+  </tr>
+  </table>
+
+
+### Panel 2 (Edelweiss II)
+
+<img src = "./img/serge824_2.png" width="100%" title="Random Source Edelweiss II" alt="Random Source Edelweiss II">
+
+### Panel 3 (Mantra)
+
+<img src = "./img/serge824_3.png" width="100%" title="Random Source Mantra" alt="Random Source Mantra">
+
+### Panel 4 (TKB)
+
+<img src = "./img/serge824_4.png" width="100%" title="Random Source Touch Activated Keyboard Sequencer" alt="Random Source Touch Activated Keyboard Sequencer">
+
+
 ## 73-75 Serge
 
 <img src = "./img/serge7375_photo.jpg" width="100%" title="73-75 Serge system" alt="73-75 Serge system">
 
+The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human Comparator. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's designs, sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random Source panels.
+
+### "Homebuilt" Panel 1
+
+<img src = "./img/serge7375_1.png" width="100%" title="73-75 Panel 1" alt="73-75 Panel 1">
+
+### "Homebuilt" Panel 2
+
+<img src = "./img/serge7375_2.png" width="100%" title="73-75 Panel 2" alt="73-75 Panel 2">
+
+
 ## The Shelfisizer
 
 <img src = "./img/shelfisizer2019_photo.jpg" width="100%" title="2019 Shelfisizer" alt="2019 Shelfisizer">
+
+The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modular systems but also hybrid analog synthesis / microcontroller systems such as the [Buchla 200e](https://buchla.com/systems-design/). These modules use 16mHz [Adafruit Metro Mini](https://www.adafruit.com/product/2590) microcontrollers and simple monolithic IC chips to handle much of the logic that definies the module's behavior, leaving discrete components for the parts of the modules that actually generate analog signals. This makes it simple to prototype modules that require an understanding of "state", such as pattern memory or hysteresis, and allows for a design that has a much lower part count than typical synthesizer modules.
+
+### 2019 Panel
+
+<img src = "./img/shelfisizer2019.png" width="100%" title="Shelfisizer 2019" alt="Shelfisizer 2019">
 
 
 
