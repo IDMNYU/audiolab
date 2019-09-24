@@ -140,7 +140,9 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 ### Panel 1 (La Bestia II)
 
-<img src = "./img/serge824_1.png" width="100%" title="Random Source La Bestia II" alt="Random Source La Bestia II">
+
+| <img src = "./img/serge824_1.png" width="100%" title="Random Source La Bestia II" alt="Random Source La Bestia II"> | testing one two three |
+    
 
 #### New Timbral Oscillator
 
