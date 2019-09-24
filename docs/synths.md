@@ -114,6 +114,8 @@ Patching the output of a module delivering one type of voltage into a module jac
 
 Serge modules use small knobs to control parameters, often in conjunction with control voltage. Knobs that *scale* (multiply) an input voltage and knobs that *offset* (add to) an input voltage are distinguished on the panel graphics. Serge scalar knobs are usually *bipolar* and can apply negative scaling by moving the knob to the left. The zero (12 o'clock) position scales the incoming voltage to 0.
 
+Serge modules that work with frequency as a parameter (oscillators, filters, slope generators) often have CV inputs for both linear frequency (scaled by a knob) and [1V/OCT](https://en.wikipedia.org/wiki/CV/gate) standard control voltage, allowing the module to be accurately tuned and played by, e.g. a MIDI-to-CV converter. 
+
 Modules are connected by **patching** within and between module jacks using banana cables.
 
 <img src = "./img/serge_patched2.jpg" title="Serge modules patched together" alt="Serge modules patched together">
@@ -144,17 +146,19 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 #### New Timbral Oscillator
 
-<table>
-  <tr>
-    <td>
-<img src = "./img/serge824_1_1.png" height="50%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
-    </td>
-    <td valign="top">
-      testing one two three.<br>
-      my dogt has fleas. yadda yadda yadd aafdfdjfdfdfsdsfaefefef
-    </td>
-  </tr>
-  </table>
+<img src = "./img/serge824_1_1.png" height="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
+
+The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator). 
+
+It outputs five different waveforms 
+- Saw (a DC rising sawtooth)
+- Triangle (DC)
+- Sine (AC)
+- Variable (AC)
+- Puls (sic) (trigger)
+
+The NTO takes manual control for base frequency and the waveshape for the "Variable" output. Voltage inputs allow for linear and 1V/OCT control of the oscillator's frequency, portamento (essentially a slew or lag on frequncy changes), the waveshape of the "Variable" output, and the amount of FM applied to the oscillator from the signal 
+
 
 
 ### Panel 2 (Edelweiss II)
