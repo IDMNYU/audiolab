@@ -295,9 +295,62 @@ The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human C
 
 <img src = "./img/serge7375_1.png" width="100%" title="73-75 Panel 1" alt="73-75 Panel 1">
 
+#### Oscillator
+
+<img src = "./img/serge7375_1_1.png" width="20%" title="Oscillator" alt="Oscillator">
+
+#### Triple Waveshaper
+
+<img src = "./img/serge7375_1_2.png" width="30%" title="TWS" alt="TWS">
+
+#### Peak / Trough
+
+<img src = "./img/serge7375_1_3.png" width="20%" title="Peak / Trough" alt="Peak / Trough">
+
+#### Triple Comparator
+
+<img src = "./img/serge7375_1_4.png" width="20%" title="Triple Comparator" alt="Triple Comparator">
+
+#### Dual Processor
+
+<img src = "./img/serge7375_1_5.png" width="30%" title="Dual Processor" alt="Dual Processor">
+
+#### Ring Modulator
+
+<img src = "./img/serge7375_1_6.png" width="10%" title="Ring" alt="Ring">
+
+#### Gate
+
+<img src = "./img/serge7375_1_7.png" width="10%" title="Gate" alt="Gate">
+
+#### Reverb
+
+<img src = "./img/serge7375_1_8.png" width="10%" title="Reverb" alt="Reverb">
+
+#### Preamp
+
+<img src = "./img/serge7375_1_9.png" width="10%" title="Preamp" alt="Preamp">
+
+
 ### "Homebuilt" Panel 2
 
 <img src = "./img/serge7375_2.png" width="100%" title="73-75 Panel 2" alt="73-75 Panel 2">
+
+#### Positive Slew
+
+<img src = "./img/serge7375_2_1.png" width="30%" title="Positive Slew" alt="Positive Slew">
+
+#### Negative Slew
+
+<img src = "./img/serge7375_2_2.png" width="30%" title="Negative Slew" alt="Negative Slew">
+
+#### Envelope Generator #1, #2, #3
+
+<img src = "./img/serge7375_2_345.png" width="30%" title="Envelope Generator" alt="Envelope Generator">
+
+#### Adapter
+
+<img src = "./img/serge7375_2_6.png" width="10%" title="Adapter" alt="Adapter">
 
 
 ## The Shelfisizer
