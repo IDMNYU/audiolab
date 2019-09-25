@@ -363,6 +363,29 @@ The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modul
 
 <img src = "./img/shelfisizer2019.png" width="100%" title="Shelfisizer 2019" alt="Shelfisizer 2019">
 
+#### Pulse
+
+<img src = "./img/shelfisizer2019_1" width="20%" title="Pulse" alt="Pulse">
+
+#### Onebang
+
+<img src = "./img/shelfisizer2019_2" width="20%" title="Onebang" alt="Onebang">
+
+#### Dust / Dirt
+
+<img src = "./img/shelfisizer2019_3" width="30%" title="Dust / Dirt" alt="Dust / Dirt">
+
+#### Lookup
+
+<img src = "./img/shelfisizer2019_4" width="30%" title="Lookup" alt="Lookup">
+
+#### Square
+
+<img src = "./img/shelfisizer2019_5" width="10%" title="Square" alt="Square">
+
+#### Shift
+
+<img src = "./img/shelfisizer2019_6" width="20%" title="Shift" alt="Shift">
 
 
 [return](./index.md)
