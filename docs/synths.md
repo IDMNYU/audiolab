@@ -212,7 +212,7 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 
 #### Dual Universal Slope Generator #1
 
-<img src = "./img/serge824_2_1.png" width="20%" title="DUSG" alt="DUSG">
+<img src = "./img/serge824_2_1.png" width="30%" title="DUSG" alt="DUSG">
 
 #### Control Voltage Processor
 
@@ -220,7 +220,7 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 
 #### Dual Universal Slope Generator #2
 
-<img src = "./img/serge824_2_3.png" width="20%" title="DUSG" alt="DUSG">
+<img src = "./img/serge824_2_3.png" width="30%" title="DUSG" alt="DUSG">
 
 #### Pulse Divider
 
