@@ -251,7 +251,35 @@ The **Wave Multipliers** module appeared in 1976 and are considered a core circu
 
 #### Smooth / Stepped Generator #1
 
+The **Smooth / Stepped Generator (or SSG)** was designed by Tcherepnin in 1974. Along with the Dual Universal Slope Generator, it's one of the most versatile circuits in the canonical Serge system. Depending on how an SSG is patched, it can function is a slew (envelope follower / lowpass filter), a sample-and-hold circuit, a triangle wave oscillator, or a lowpass gate. When combined with its sidecar **Noise Source** - a small circuit of three jacks - the SSG can be used to develop a wide variety of fluctuating and quantized random voltages, similar to the Buchla 266 [Source of Uncertainty](http://fluxmonkey.com/historicBuchla/266-uncertainty.htm).
+
+The module is divided into two halves: the "Smooth" module at the top, and the "Stepped" at the bottom. In between the two, a Coupler circuit outputs a comparator voltage of the two sides. The sidecar Noise Source provides three different types of random sources to work with.
+
 <img src = "./img/serge824_1_4.png" width="22%" title="SSG" alt="SSG">
+
+1. CV input for the Smooth module's rate (DC INPUT)
+2. CV output for the Smooth module (DC OUTPUT)
+3. Scaling knob for *1*
+4. Cycle trigger (sends a pulse at the end of a cycle set by the Smooth rate) (Trigger OUTPUT)
+5. Knob for Smooth rate amount (sums with *1* x *3*)
+6. Signal input for the Smooth side (AC INPUT)
+7. Hold jack - when set high, Smooth output *2* will freeze and no longer track the module's input (Trigger INPUT)
+8. Sample jack - when set high, Stepped output *14* will sample and hold Stepped input *10* (Trigger INPUT)
+9. CV input for the Stepped module's rate (DC INPUT)
+10. Signal input for the Stepped side (AC INPUT)
+11. Scaling knob for *9*
+12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Trigger OUTPUT)
+13. Knob for Stepped rate amount (sums with *9* x *11*)
+14. CV output for thee Stepped module (DC OUTPUT)
+15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Trigger OUTPUT)
+16. Regular Couple output - 5V if Stepped output is higher than the Smooth output; 0V if not (Trigger OUTPUT)
+17. White noise source (AC OUTPUT)
+18. Pink noise source (AC OUTPUT)
+19. Sample-and-hold "dirty saw" source (DC OUTPUT)
+
+*Notes:*
+
+
 
 #### Dual Slopes #1
 
