@@ -148,7 +148,7 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator).
 
-<img src = "./img/serge824_1_1.png" height="25%" title="NTO" alt="NTO">
+<img src = "./img/serge824_1_1.png" height="15%" title="NTO" alt="NTO">
 
 1. Rising sawtooth wave (DC OUTPUT)
 2. Triangle wave (DC OUTPUT)
