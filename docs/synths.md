@@ -179,7 +179,11 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 
 #### Mixer
 
+The **Mixer** is a utility module that allows you to mix up to three AC sources to a single output using a [high quality operational amplifier](https://www.njr.com/MUSES/) developed by NJR. The mixer is AC-coupled, so it will filter out static (and slow-moving) voltages. The DC-coupled version is called the "Control Voltage Processor".
+
 <img src = "./img/serge824_1_2.png" width="10%" title="Mixer" alt="Mixer">
+
+
 
 #### Wave Multipliers
 
