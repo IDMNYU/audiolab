@@ -282,7 +282,7 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 
 #### Touch Activated Keyboard Sequencer
 
-<img src = "./img/serge824_4_1.png" width="25%" title="TKB" alt="TKB">
+<img src = "./img/serge824_4_1.png" width="100%" title="TKB" alt="TKB">
 
 
 ## 73-75 Serge
