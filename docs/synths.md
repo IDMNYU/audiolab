@@ -148,7 +148,7 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator).
 
-<img src = "./img/serge824_1_1.png" width="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
+<img src = "./img/serge824_1_1.png" width="25%" title="NTO" alt="NTO">
 
 1. Rising sawtooth wave (DC OUTPUT)
 2. Triangle wave (DC OUTPUT)
@@ -177,18 +177,112 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 - The frequency control of the NTO is a summing bus of the multiple voltage inputs. If you want two different voltages interacting to control the oscillator's frequency, using *both* 1V/OCT inputs (*7* and *8*) will give you a cleaner addition of signals than stacking banana cables into one input.
 - Like all Serge modules, feedback is an excellent technique to experiment with, by patching, e.g. the Sine output *3* into the modulator input for the Linear FM *10*.
 
+#### Mixer
+
+<img src = "./img/serge824_1_2.png" width="25%" title="Mixer" alt="Mixer">
+
+#### Wave Multipliers
+
+<img src = "./img/serge824_1_3.png" width="25%" title="Wave Multipliers" alt="Wave Multipliers">
+
+#### Smooth / Stepped Generator #1
+
+<img src = "./img/serge824_1_4.png" width="25%" title="SSG" alt="SSG">
+
+#### Dual Slopes #1
+
+<img src = "./img/serge824_1_5.png" width="25%" title="Dual Slopes" alt="Dual Slopes">
+
+#### Variable Slope Voltage Controlled Filter
+
+<img src = "./img/serge824_1_6.png" width="25%" title="Variable Slope VCF" alt="Variable Slope VCF">
+
+#### Variable Q Voltage Controlled Filter #1
+
+<img src = "./img/serge824_1_7.png" width="25%" title="Variable Q VCF" alt="Variable Q VCF">
+
+#### Stereo Mixer
+
+<img src = "./img/serge824_1_8.png" width="25%" title="Stereo Mixer" alt="Stereo Mixer">
+
 
 ### Panel 2 (Edelweiss II)
 
 <img src = "./img/serge824_2.png" width="100%" title="Random Source Edelweiss II" alt="Random Source Edelweiss II">
 
+#### Dual Universal Slope Generator #1
+
+<img src = "./img/serge824_2_1.png" width="25%" title="DUSG" alt="DUSG">
+
+#### Control Voltage Processor
+
+<img src = "./img/serge824_2_2.png" width="25%" title="CV Processor" alt="CV Processor">
+
+#### Dual Universal Slope Generator #2
+
+<img src = "./img/serge824_2_3.png" width="25%" title="DUSG" alt="DUSG">
+
+#### Pulse Divider
+
+<img src = "./img/serge824_2_4.png" width="25%" title="Divider" alt="Divider">
+
+#### Boolean Logic
+
+<img src = "./img/serge824_2_5.png" width="25%" title="Boolean Logic" alt="Boolean Logic">
+
+#### +N Comparator
+
+<img src = "./img/serge824_2_6.png" width="25%" title="+N Com" alt="+N Com">
+
+#### Smooth / Stepped Generator #2
+
+<img src = "./img/serge824_2_7.png" width="25%" title="Smooth / Stepped Generator" alt="Smooth / Stepped Generator">
+
+#### Random Source
+
+<img src = "./img/serge824_2_8.png" width="25%" title="Random Source" alt="Random Source">
+
+
 ### Panel 3 (Mantra)
 
 <img src = "./img/serge824_3.png" width="100%" title="Random Source Mantra" alt="Random Source Mantra">
 
+#### Sequencer / Programmer
+
+<img src = "./img/serge824_3_1.png" width="25%" title="Sequencer / Programmer" alt="Sequencer / Programmer">
+
+#### Dual Universal Slope Generator XL
+
+<img src = "./img/serge824_3_2.png" width="25%" title="DUSG XL" alt="DUSG XL">
+
+#### Active Pro
+
+<img src = "./img/serge824_3_3.png" width="25%" title="Active Pro" alt="Active Pro">
+
+#### Smooth / Stepped Generator #3
+
+<img src = "./img/serge824_3_4.png" width="25%" title="SSG" alt="SSG">
+
+#### Dual Slopes #2
+
+<img src = "./img/serge824_3_5.png" width="25%" title="Dual Slopes" alt="Dual Slopes">
+
+#### Variable Q Voltage Controlled Filter #2
+
+<img src = "./img/serge824_3_6.png" width="25%" title="Variable Q VCF" alt="Variable Q VCF">
+
+#### XFader
+
+<img src = "./img/serge824_3_7.png" width="25%" title="XFader" alt="XFader">
+
+
 ### Panel 4 (TKB)
 
 <img src = "./img/serge824_4.png" width="100%" title="Random Source Touch Activated Keyboard Sequencer" alt="Random Source Touch Activated Keyboard Sequencer">
+
+#### Touch Activated Keyboard Sequencer
+
+<img src = "./img/serge824_4_1.png" width="25%" title="TKB" alt="TKB">
 
 
 ## 73-75 Serge
