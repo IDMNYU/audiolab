@@ -365,27 +365,27 @@ The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modul
 
 #### Pulse
 
-<img src = "./img/shelfisizer2019_1" width="20%" title="Pulse" alt="Pulse">
+<img src = "./img/shelfisizer2019_1.png" width="20%" title="Pulse" alt="Pulse">
 
 #### Onebang
 
-<img src = "./img/shelfisizer2019_2" width="20%" title="Onebang" alt="Onebang">
+<img src = "./img/shelfisizer2019_2.png" width="20%" title="Onebang" alt="Onebang">
 
 #### Dust / Dirt
 
-<img src = "./img/shelfisizer2019_3" width="30%" title="Dust / Dirt" alt="Dust / Dirt">
+<img src = "./img/shelfisizer2019_3.png" width="30%" title="Dust / Dirt" alt="Dust / Dirt">
 
 #### Lookup
 
-<img src = "./img/shelfisizer2019_4" width="30%" title="Lookup" alt="Lookup">
+<img src = "./img/shelfisizer2019_4.png" width="30%" title="Lookup" alt="Lookup">
 
 #### Square
 
-<img src = "./img/shelfisizer2019_5" width="10%" title="Square" alt="Square">
+<img src = "./img/shelfisizer2019_5.png" width="10%" title="Square" alt="Square">
 
 #### Shift
 
-<img src = "./img/shelfisizer2019_6" width="20%" title="Shift" alt="Shift">
+<img src = "./img/shelfisizer2019_6.png" width="20%" title="Shift" alt="Shift">
 
 
 [return](./index.md)
