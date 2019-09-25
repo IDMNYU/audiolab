@@ -148,7 +148,7 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator).
 
-<img src = "./img/serge824_1_1.png" height="10%" title="NTO" alt="NTO">
+<img src = "./img/serge824_1_1.png" width="20%" title="NTO" alt="NTO">
 
 1. Rising sawtooth wave (DC OUTPUT)
 2. Triangle wave (DC OUTPUT)
@@ -179,31 +179,31 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 
 #### Mixer
 
-<img src = "./img/serge824_1_2.png" width="25%" title="Mixer" alt="Mixer">
+<img src = "./img/serge824_1_2.png" width="10%" title="Mixer" alt="Mixer">
 
 #### Wave Multipliers
 
-<img src = "./img/serge824_1_3.png" width="25%" title="Wave Multipliers" alt="Wave Multipliers">
+<img src = "./img/serge824_1_3.png" width="20%" title="Wave Multipliers" alt="Wave Multipliers">
 
 #### Smooth / Stepped Generator #1
 
-<img src = "./img/serge824_1_4.png" width="25%" title="SSG" alt="SSG">
+<img src = "./img/serge824_1_4.png" width="22%" title="SSG" alt="SSG">
 
 #### Dual Slopes #1
 
-<img src = "./img/serge824_1_5.png" width="25%" title="Dual Slopes" alt="Dual Slopes">
+<img src = "./img/serge824_1_5.png" width="20%" title="Dual Slopes" alt="Dual Slopes">
 
 #### Variable Slope Voltage Controlled Filter
 
-<img src = "./img/serge824_1_6.png" width="25%" title="Variable Slope VCF" alt="Variable Slope VCF">
+<img src = "./img/serge824_1_6.png" width="20%" title="Variable Slope VCF" alt="Variable Slope VCF">
 
 #### Variable Q Voltage Controlled Filter #1
 
-<img src = "./img/serge824_1_7.png" width="25%" title="Variable Q VCF" alt="Variable Q VCF">
+<img src = "./img/serge824_1_7.png" width="20%" title="Variable Q VCF" alt="Variable Q VCF">
 
 #### Stereo Mixer
 
-<img src = "./img/serge824_1_8.png" width="25%" title="Stereo Mixer" alt="Stereo Mixer">
+<img src = "./img/serge824_1_8.png" width="20%" title="Stereo Mixer" alt="Stereo Mixer">
 
 
 ### Panel 2 (Edelweiss II)
@@ -212,35 +212,35 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 
 #### Dual Universal Slope Generator #1
 
-<img src = "./img/serge824_2_1.png" width="25%" title="DUSG" alt="DUSG">
+<img src = "./img/serge824_2_1.png" width="20%" title="DUSG" alt="DUSG">
 
 #### Control Voltage Processor
 
-<img src = "./img/serge824_2_2.png" width="25%" title="CV Processor" alt="CV Processor">
+<img src = "./img/serge824_2_2.png" width="20%" title="CV Processor" alt="CV Processor">
 
 #### Dual Universal Slope Generator #2
 
-<img src = "./img/serge824_2_3.png" width="25%" title="DUSG" alt="DUSG">
+<img src = "./img/serge824_2_3.png" width="20%" title="DUSG" alt="DUSG">
 
 #### Pulse Divider
 
-<img src = "./img/serge824_2_4.png" width="25%" title="Divider" alt="Divider">
+<img src = "./img/serge824_2_4.png" width="10%" title="Divider" alt="Divider">
 
 #### Boolean Logic
 
-<img src = "./img/serge824_2_5.png" width="25%" title="Boolean Logic" alt="Boolean Logic">
+<img src = "./img/serge824_2_5.png" width="20%" title="Boolean Logic" alt="Boolean Logic">
 
 #### +N Comparator
 
-<img src = "./img/serge824_2_6.png" width="25%" title="+N Com" alt="+N Com">
+<img src = "./img/serge824_2_6.png" width="10%" title="+N Com" alt="+N Com">
 
 #### Smooth / Stepped Generator #2
 
-<img src = "./img/serge824_2_7.png" width="25%" title="Smooth / Stepped Generator" alt="Smooth / Stepped Generator">
+<img src = "./img/serge824_2_7.png" width="20%" title="Smooth / Stepped Generator" alt="Smooth / Stepped Generator">
 
 #### Random Source
 
-<img src = "./img/serge824_2_8.png" width="25%" title="Random Source" alt="Random Source">
+<img src = "./img/serge824_2_8.png" width="20%" title="Random Source" alt="Random Source">
 
 
 ### Panel 3 (Mantra)
@@ -249,31 +249,31 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 
 #### Sequencer / Programmer
 
-<img src = "./img/serge824_3_1.png" width="25%" title="Sequencer / Programmer" alt="Sequencer / Programmer">
+<img src = "./img/serge824_3_1.png" width="40%" title="Sequencer / Programmer" alt="Sequencer / Programmer">
 
 #### Dual Universal Slope Generator XL
 
-<img src = "./img/serge824_3_2.png" width="25%" title="DUSG XL" alt="DUSG XL">
+<img src = "./img/serge824_3_2.png" width="40%" title="DUSG XL" alt="DUSG XL">
 
 #### Active Pro
 
-<img src = "./img/serge824_3_3.png" width="25%" title="Active Pro" alt="Active Pro">
+<img src = "./img/serge824_3_3.png" width="10%" title="Active Pro" alt="Active Pro">
 
 #### Smooth / Stepped Generator #3
 
-<img src = "./img/serge824_3_4.png" width="25%" title="SSG" alt="SSG">
+<img src = "./img/serge824_3_4.png" width="22%" title="SSG" alt="SSG">
 
 #### Dual Slopes #2
 
-<img src = "./img/serge824_3_5.png" width="25%" title="Dual Slopes" alt="Dual Slopes">
+<img src = "./img/serge824_3_5.png" width="20%" title="Dual Slopes" alt="Dual Slopes">
 
 #### Variable Q Voltage Controlled Filter #2
 
-<img src = "./img/serge824_3_6.png" width="25%" title="Variable Q VCF" alt="Variable Q VCF">
+<img src = "./img/serge824_3_6.png" width="20%" title="Variable Q VCF" alt="Variable Q VCF">
 
 #### XFader
 
-<img src = "./img/serge824_3_7.png" width="25%" title="XFader" alt="XFader">
+<img src = "./img/serge824_3_7.png" width="10%" title="XFader" alt="XFader">
 
 
 ### Panel 4 (TKB)
