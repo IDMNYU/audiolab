@@ -446,7 +446,8 @@ The **Control Voltage Processor**, originally called the **Dual Voltage Processo
 8. Scalar knob for *7*
 
 *Notes:*
-- the Dual Voltage Processor will also mix bipolar (AC) sources. A static DC signal can be used to "bias" an AC source.
+- the Dual Voltage Processor will also mix bipolar (AC) sources, similar to the Mixer module. 
+- A static DC signal can be used to "bias" an AC source.
 
 #### Dual Universal Slope Generator #2
 
