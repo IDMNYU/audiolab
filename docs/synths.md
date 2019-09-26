@@ -432,7 +432,21 @@ The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more 
 
 #### Control Voltage Processor
 
+The **Control Voltage Processor**, originally called the **Dual Voltage Processor**, is one of Tcherepnin's original 1973 modules, and functions as a mixer / scalar for control voltages. The module is split into two halves, with up to three sources in each half that can be scaled independently, with an overall scalar for each half.
+
 <img src = "./img/serge824_2_2.png" width="20%" title="CV Processor" alt="CV Processor">
+
+1. Overall scaling knob or the output voltage (DC OUTPUT)
+2. Output of the control voltage processor (DC OUTPUT)
+3. First CV input (DC INPUT)
+4. Scalar knob for *3*
+5. Second CV input (DC INPUT)
+6. Scalar knob for *5*
+7. Third CV input (DC INPUT)
+8. Scalar knob for *7*
+
+*Notes:*
+- the Dual Voltage Processor will also mix bipolar (AC) sources. A static DC signal can be used to "bias" an AC source.
 
 #### Dual Universal Slope Generator #2
 
