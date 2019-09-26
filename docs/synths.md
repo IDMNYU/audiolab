@@ -253,19 +253,19 @@ The **Wave Multipliers** module appeared in 1976 and are considered a core circu
 
 The **Smooth / Stepped Generator (or SSG)** was designed by Tcherepnin in 1974. Along with the Dual Universal Slope Generator, it's one of the most versatile circuits in the canonical Serge system. Depending on how an SSG is patched, it can function is a slew (envelope follower / lowpass filter), a sample-and-hold circuit, a triangle wave oscillator, or a lowpass gate. When combined with its sidecar **Noise Source** - a small circuit of three jacks - the SSG can be used to develop a wide variety of fluctuating and quantized random voltages, similar to the Buchla 266 [Source of Uncertainty](http://fluxmonkey.com/historicBuchla/266-uncertainty.htm).
 
-The module is divided into two halves: the "Smooth" module at the top, and the "Stepped" at the bottom. In between the two, a Coupler circuit outputs a comparator voltage of the two sides. The sidecar Noise Source provides three different types of random sources to work with.
+The module is divided into two halves: the "Smooth" side at the top, and the "Stepped" at the bottom. In between the two, a Coupler circuit outputs a comparator voltage of the two sides. The sidecar Noise Source provides three different types of random sources to work with, either with the SSG or with other modules in the system.
 
 <img src = "./img/serge824_1_4.png" width="22%" title="SSG" alt="SSG">
 
-1. CV input for the Smooth module's rate (DC INPUT)
-2. CV output for the Smooth module (DC OUTPUT)
+1. CV input for the Smooth sides's rate (DC INPUT)
+2. CV output for the Smooth side (DC OUTPUT)
 3. Scaling knob for *1*
 4. Cycle trigger (sends a pulse at the end of a cycle set by the Smooth rate) (Trigger OUTPUT)
 5. Knob for Smooth rate amount (sums with *1* x *3*)
 6. Signal input for the Smooth side (AC INPUT)
 7. Hold jack - when set high, Smooth output *2* will freeze and no longer track the module's input (Trigger INPUT)
 8. Sample jack - when set high, Stepped output *14* will sample and hold Stepped input *10* (Trigger INPUT)
-9. CV input for the Stepped module's rate (DC INPUT)
+9. CV input for the Stepped side's rate (DC INPUT)
 10. Signal input for the Stepped side (AC INPUT)
 11. Scaling knob for *9*
 12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Trigger OUTPUT)
@@ -278,12 +278,44 @@ The module is divided into two halves: the "Smooth" module at the top, and the "
 19. Sample-and-hold "dirty saw" source (DC OUTPUT)
 
 *Notes:*
-
-
+- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4) into the input (*6*). The rate knob and VC inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
+- The Stepped side will internally self-oscillate as well (by patching cycle trigger *12* to input *10*, adjusting the frequency via *13*, *9*, and *11*. However, no signal will appear at output jack *14* until you send triggers into the Sample jack (*8*). These triggers can come from anywhere, e.g. from the Cycle output of the Smooth side, or from another module. This creates a classic [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuit where the internal oscillating waveform is being "sampled" by the trigger pulse at the Sample jack and "held" as the output voltage at jack *14*.
+- By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
+- The sidecar Noise Source module provides ideal outputs to experiment with as inputs for either side of the SSG. The Smooth side can be used to generate slow, time-varying random voltages, while the Stepped side, when sampling a random signal, can be used to create classic "computer noises" when patched in as the frequency of an oscillator.
+- Sending an audio signal into the input (*6) of the Smooth side of the SSG and sending an envelope into the CV input (*1*) will, depending where the rate knob (*5*) is set, allow you to use the module as a [low-pass gate](https://electronicmusic.fandom.com/wiki/Lowpass_gate), where the gain on the signal rises with the cutoff frequency of the filter. This setup is great for simulating natural sounding instruments such as percussion where the timbre brightens with the attack of the sound.
+- The three Noise Source outputs generate [white noise](https://en.wikipedia.org/wiki/White_noise), [pink or 1/f noise](https://en.wikipedia.org/wiki/Pink_noise), and a "dirty saw" - a circuit designed by Tcherepnin containing a sawtooth wave that wobbles in frequency and has noise in its signal.
+- The SSG is quite a complex module, and the Serge fans site has [an entire 4-page article](http://www.serge-fans.com/wiz_SSG1.htm) dedicated to patching ideas using it.
 
 #### Dual Slopes #1
 
+The **Dual Slopes** are the Random Source implementation of a 1976 Serge module called the **Dual Transient Generator** (some Serge licensees still use that name; others call it that **Voltage-Controlled Timegen Oscillator**). The module consists of a Dual Universal Slope Generator (DUSG - see below) with a simplified panel interface, optimized for generating LFOs and clock pulses. The module contains two sides:
+- on the left, an envelope generator that's internally wired to act as a self-clocking oscillator. This outputs a falling sawtooth and a pulse (square wave) at a specified frequency. 
+- on the right, a second enevelope generator that can be triggered manually or by the end of the left oscillator's slope. This side outputs a triangle wave with controllable rise and fall times. It can also act as a slew (envelope follower) on a signal input.
+
 <img src = "./img/serge824_1_5.png" width="20%" title="Dual Slopes" alt="Dual Slopes">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Trigger OUTPUT)
+4. Pulse output for the right-hand slope generator (Trigger OUTPUT)
+5. Trigger "link switch", internally patching a trigger generated at the end of the left envelope to trigger the right envelope
+6. Manual trigger input for the right-hand slope generator (Trigger INPUT)
+7. Signal input to the left-hand slope generator, causing it to act as a low-pass filter / envelope follower (AC INPUT)
+8. Signal input to the right-hand slope generator, causing it to act as a low-pass filter / envelope follower (AC INPUT)
+9. 1V-per-octave CV input to control the self-clocking frequency of the left-hand slope generator (sums with *11*) (DC INPUT)
+10. Control knob for the Rise time on the right-hand slope - a higher value is a faster rise
+11. Control knob for the self-clocking frequency of the left-hand slope (sums with *9*)
+12. Control knob for the Fall time on the right-hand slope - a higher value is a faster fall
+13. CV input to control the Fall time on the left-hand slope (scaled by *15*) (DC INPUT)
+14. CV input to control either the Rise or Fall time on the right-hand slope (scaled by *16*) (DC INPUT)
+15. Scaling knob for *13*.
+16. Scaling knob for *16*.
+17. Switch to set whether *14* x *16* controls the Rise or the Fall on the right-hand slope.
+
+*Notes:*
+- A very common use of the Dual Slopes is as a **master clock**. The pulse outputs (*3* and *4*) can be used to drive the Sequencer / Programmer, the TKB, the "sample" on an SSG, or the trigger inputs on slope generators and filters.
+- The Dual Slopes module highlights Tcherepnin's design mantra that the *distinction between control voltage and audio-rate signals is an artificial one*. The module can generate low frequency ramps and pulse trains, as well as audio-rate waveforms.
+- The Dual Slopes module is optimized to leverage a side effect of Serge (and other "West Coast") envelope generators: an envelope, once triggered, *can't be retriggered until it has finished its cycle.* As a result, if the right side of the Dual Slopes has a rise and fall time that's greater than the interval the left side is clocking at, the right-hand slope will act as a **frequency divider**, triggering at 1/2, 1/3, 1/4, etc. the frequency of the slope generator on the left. If you turn the left-hand oscillator up to audio rate, turn on the trigger link switch, and listen to the pulse outputs on the right, you will be able to manipulate the rise and fall times to generate a [subhamonic series](https://en.wikipedia.org/wiki/Undertone_series) of the left side's frequency.
 
 #### Variable Slope Voltage Controlled Filter
 
