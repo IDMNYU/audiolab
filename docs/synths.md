@@ -428,7 +428,7 @@ The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more 
 - voltage sent into the signal input (*4*) of the DUSG will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *1* and *2*. The DUSG performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
 - connecting the gate output *3* to the trigger input *12* of the DUSG will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *1*. Output *2* will put out a different waveform - the red jack on the top slope generator puts out a square wave, and the bottom slope generator outputs an AC inverted triangle wave, centered around 0V.
 - if the rise and fall time add to a greater period than a pulse wave sent to the trigger input *12*, the DUSG can be used as a **harmonic subdivider**. generating an oscillator at 1/2, 1/3, etc. the frequency of the incoming signal.
-- the DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a trigger at input *12* will echo at output *3* at the end of the rise + fall times.
+- the DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a trigger at input *12* will echo at output *3* at the end of the rise and fall times.
 
 #### Control Voltage Processor
 
