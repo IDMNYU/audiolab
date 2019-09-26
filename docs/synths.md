@@ -148,7 +148,7 @@ The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch
 
 The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator).
 
-<img src = "./img/serge824_1_1.png" width="25%" title="New Timbral Oscillator" alt="New Timbral Oscillator">
+<img src = "./img/serge824_1_1.png" width="30%" title="NTO" alt="NTO">
 
 1. Rising sawtooth wave (DC OUTPUT)
 2. Triangle wave (DC OUTPUT)
@@ -177,18 +177,283 @@ The **New Timbral Oscillator (or NTO)** first appeared in 1976, and was (along w
 - The frequency control of the NTO is a summing bus of the multiple voltage inputs. If you want two different voltages interacting to control the oscillator's frequency, using *both* 1V/OCT inputs (*7* and *8*) will give you a cleaner addition of signals than stacking banana cables into one input.
 - Like all Serge modules, feedback is an excellent technique to experiment with, by patching, e.g. the Sine output *3* into the modulator input for the Linear FM *10*.
 
+#### Mixer
+
+The **Mixer** is a utility module that allows you to mix up to three AC sources to a single output using a [high quality operational amplifier](https://www.njr.com/MUSES/) developed by NJR. The mixer is AC-coupled, so it will filter out static (and slow-moving) voltages. The DC-coupled version is called the "Control Voltage Processor".
+
+<img src = "./img/serge824_1_2.png" width="10%" title="Mixer" alt="Mixer">
+
+1. Mixed signal (AC OUTPUT)
+2. Phase switch for first input (IN 1)
+3. First mixer input (AC INPUT)
+4. Second mixer input (AC INPUT)
+5. Third mixer input (AC INPUT)
+6. Scaling knob for *3*
+7. Scaling knob for *4*
+8. Scaling knob for *5*
+
+*Notes:*
+- The phase switch (*2*) is a **three-way** switch - the middle position will turn the first input signal *off*.
+- The scaling knobs (*6-8*) are **logarithmic** audio pots, so 12 o'clock is half power (.707), not half gain (0.5).
+- As mentioned above, this module is **AC-coupled**, so slow control voltages will be filtered. In addition, positive-biased audio rate signals will come out with their DC offset removed. For example, if you input the Saw output of the NTO into the mixer, the incoming signal (0-5V DC) will come out -2.5V to 2.5V AC.
+
+#### Wave Multipliers
+
+The **Wave Multipliers** module appeared in 1976 and are considered an important circuit for achieving the "West Coast" sound of the Serge modular. The module contains three self-contained distortion effects that work by shaping the amplitude of the incoming audio signal. Quoting from the 1982 Serge catalog, Tcherepnin describes the three Wave Multipliers:
+
+> The uppermost section is the simplest of the three multiplier sections. but it has two switchable effects. With the switch 
+> set at the "HI" position, the module functions to "square-up" an incoming signal. This is not the same as a simple 
+> comparator squaring function, though, since there is a rounded flattening of the signal peaks: an effect somewhat similar to 
+> overdriving a tube amplifier (except that in this version the process is voltage controllable!). With the switch in the "LO" 
+> position, the module is a linear gain controlled VCA. This is useful for various functions such as amplitude modulation and 
+> for gating signals into the other sections.
+>
+> The middle Wave Multiplier provides a sweep of the odd harmonics (1, 3, 5, 7, 9, 11 and 13th) when a sine wave is applied to 
+> its input and the knob is turned up or a control voltage is swept from low to high. This effect is similar to overblowing a 
+> wind pipe closed at one end, and thus the module can be used to produce the sounds of various wind instruments. A second 
+> input is included to allow two signals to be mixed before processing, a technique that we have found to be very usable. This 
+> module can be used to explore timbral areas beyond the range of ring modulation because there are more varied harmonics than 
+> the sum and difference tones.
+>
+> The bottom Wave Multiplier performs non-linear wavehaping known as full-wave rectification, but with sophisticated level-
+> compensating conditioning as well. Actually the circuit uses three full-wave rectifier sections linked in a very refined 
+> controllable format. Each section can double the frequency of a sine or triangle wave applied to its input. Thus sweeping 
+> the VC input over its range will produce a smooth timbral transition using the even harmonics (second, fourth, and eighth). 
+> Many other partials are present in this basic sound, however, and the sonorities are very rich and varied. A notable feature 
+> of this multiplier is that the full-wave rectification is not accompanied by a reduction in the output amplitude. There is 
+> no alteration of the essential level of the sound. There are two inputs to provide mixing before processing, and two 
+> outputs. One output is a "squared up" version of the other. This output resembles voltage controlled pulse width modulation 
+> (only much more interesting). 
+
+<img src = "./img/serge824_1_3.png" width="20%" title="Wave Multipliers" alt="Wave Multipliers">
+
+1. CV input for Multiplier 1 amount (DC INPUT)
+2. Processed output of Multiplier 1 (AC OUTPUT)
+3. Scaling knob for Multiplier 1 amount
+4. Signal input for Multiplier 1 (AC INPUT)
+5. High/Low distortion switch for Multiplier 1
+6. Processed output of Multiplier 2 (AC OUTPUT)
+7. CV input for Multiplier 2 amount (DC INPUT)
+8. Second signal input for Multiplier 2 (DC INPUT)
+9. Scaling knob for Multiplier 2 amount
+10. First signal input for Multiplier 2 (AC INPUT)
+11. Second processed ("squared-up") output for Multiplier 3 (DC OUTPUT)
+12. First processed output for Multiplier 3 (AC OUTPUT)
+13. CV input for Multiplier 2 amount (DC INPUT)
+14. Second signal input for Multiplier 3 (AC INPUT)
+15. Scaling knob for Multiplier 3 amount
+16. First signal input for Multiplier 3 (AC INPUT)
+
+*Notes:*
+- The first multiplier can be used in *low* mode as an ordinary [VCA](https://en.wikipedia.org/wiki/Variable-gain_amplifier), and in *high* mode as a simple "clipping" [distortion](https://en.wikipedia.org/wiki/Distortion_(music)) unit. The second multiplier emphasizes odd harmonics through [wave folding](https://www.keithmcmillen.com/blog/simple-synthesis-part-8-wavefolding/); the third emphasizes even harmonic through [full wave rectification](https://www.hackaudio.com/digital-signal-processing/distortion-effects/full-wave-rectification/).
+- The second multiplier has a DC-coupled second input (*8*) which allows you to mix an LFO signal in with the input voltage to add to the distortion effect.
+- Using the multipliers in series or in feedback (patching an output back into the input) can create some pretty crazy sounds.
+
+#### Smooth / Stepped Generator #1
+
+The **Smooth / Stepped Generator (or SSG)** was designed by Tcherepnin in 1974. Along with the Dual Universal Slope Generator, it's one of the most versatile circuits in the canonical Serge system. Depending on how an SSG is patched, it can function as a [slew](https://en.wikipedia.org/wiki/Slew_rate) (envelope follower / lowpass filter), a sample-and-hold circuit, a triangle wave oscillator, or a low-pass gate. When combined with its sidecar **Noise Source** - a small circuit of three jacks - the SSG can be used to develop a wide variety of fluctuating and quantized random voltages, similar to the Buchla 266 [Source of Uncertainty](http://fluxmonkey.com/historicBuchla/266-uncertainty.htm).
+
+The module is divided into two halves: the "Smooth" side at the top, and the "Stepped" at the bottom. In between the two, a Coupler circuit outputs a comparator voltage of the two sides. The sidecar Noise Source provides three different types of random sources to work with, either with the SSG or with other modules in the system.
+
+<img src = "./img/serge824_1_4.png" width="22%" title="SSG" alt="SSG">
+
+1. CV input for the Smooth sides's rate (DC INPUT)
+2. CV output for the Smooth side (DC OUTPUT)
+3. Scaling knob for *1*
+4. Cycle trigger (sends a pulse at the end of a cycle set by the Smooth rate) (Trigger OUTPUT)
+5. Knob for Smooth rate amount (sums with *1* x *3*)
+6. Signal input for the Smooth side (AC INPUT)
+7. Hold jack - when set high, Smooth output *2* will freeze and no longer track the module's input (Trigger INPUT)
+8. Sample jack - when set high, Stepped output *14* will sample and hold Stepped input *10* (Trigger INPUT)
+9. CV input for the Stepped side's rate (DC INPUT)
+10. Signal input for the Stepped side (AC INPUT)
+11. Scaling knob for *9*
+12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Trigger OUTPUT)
+13. Knob for Stepped rate amount (sums with *9* x *11*)
+14. CV output for thee Stepped module (DC OUTPUT)
+15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Trigger OUTPUT)
+16. Regular Couple output - 5V if Stepped output is higher than the Smooth output; 0V if not (Trigger OUTPUT)
+17. White noise source (AC OUTPUT)
+18. Pink noise source (AC OUTPUT)
+19. Sample-and-hold "dirty saw" source (DC OUTPUT)
+
+*Notes:*
+- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and VC inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
+- The Stepped side will also internally self-oscillate - by patching cycle trigger *12* to input *10* and adjusting the frequency via *13*, *9*, and *11*. However, no signal will appear at output jack *14* until you send triggers into the Sample jack (*8*). These triggers can come from anywhere, e.g. from the Cycle output of the Smooth side, or from another module. This creates a classic [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuit where the internal oscillating waveform is being "sampled" by the trigger pulse at the Sample jack and "held" as the output voltage at jack *14*.
+- By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
+- The sidecar Noise Source module provides ideal outputs to experiment with as inputs for either side of the SSG. The Smooth side can be used to generate slow, time-varying random voltages, while the Stepped side, when sampling a random signal, can be used to create classic "bleep-bloop" noises when patched in as the frequency of an oscillator.
+- Sending an audio signal into the input (*6*) of the Smooth side of the SSG and sending an envelope into the CV input (*1*) will, depending where the rate knob (*5*) is set, allow you to use the module as a [low-pass gate](https://electronicmusic.fandom.com/wiki/Lowpass_gate), where the gain on the signal rises with the cutoff frequency of the filter. This setup is great for simulating natural sounding instruments such as percussion where the timbre brightens with the attack of the sound.
+- The three Noise Source outputs generate [white noise](https://en.wikipedia.org/wiki/White_noise), [pink or 1/f noise](https://en.wikipedia.org/wiki/Pink_noise), and a "dirty saw" - a circuit designed by Tcherepnin containing a sawtooth wave that wobbles in frequency and has low-amplitude noise injected in its signal.
+- The SSG is quite a complex module, and the Serge fans site has [an entire 4-page article](http://www.serge-fans.com/wiz_SSG1.htm) dedicated to patching ideas using it.
+
+#### Dual Slopes #1
+
+The **Dual Slopes** are the Random Source implementation of a 1976 Serge module called the **Dual Transient Generator** (some Serge licensees still use that name; STS sells a related module called the **Voltage-Controlled Timegen Oscillator**). The module consists of the circuit for a Dual Universal Slope Generator (DUSG - see below) with a simplified panel interface, optimized for generating harmonically linked oscillators and clock pulses. The module contains two sides:
+- on the left, an envelope generator that's internally wired to act as a self-clocking oscillator. This outputs a falling sawtooth and a pulse (square wave) at a specified frequency. 
+- on the right, a second envelope generator that can be triggered either manually or at the end of the left oscillator's slope. This side outputs a triangle wave with controllable rise and fall times.
+- both sides can also act as a slew (envelope follower) on a signal input.
+
+<img src = "./img/serge824_1_5.png" width="20%" title="Dual Slopes" alt="Dual Slopes">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Trigger OUTPUT)
+4. Pulse output for the right-hand slope generator (Trigger OUTPUT)
+5. Trigger "link switch", internally patching a trigger generated at the end of the left envelope to trigger the right envelope
+6. Manual trigger input for the right-hand slope generator (Trigger INPUT)
+7. Signal input to the left-hand slope generator, causing it to act as a low-pass filter / envelope follower (AC INPUT)
+8. Signal input to the right-hand slope generator, causing it to act as a low-pass filter / envelope follower (AC INPUT)
+9. 1V-per-octave CV input to control the self-clocking frequency of the left-hand slope generator (sums with *11*) (DC INPUT)
+10. Control knob for the Rise time on the right-hand slope - a higher value is a faster rise
+11. Control knob for the self-clocking frequency of the left-hand slope (sums with *9*)
+12. Control knob for the Fall time on the right-hand slope - a higher value is a faster fall
+13. CV input to control the Fall time on the left-hand slope (scaled by *15*) (DC INPUT)
+14. CV input to control either the Rise or Fall time on the right-hand slope (scaled by *16*) (DC INPUT)
+15. Scaling knob for *13*.
+16. Scaling knob for *16*.
+17. Switch to set whether *14* x *16* controls the Rise or the Fall on the right-hand slope.
+
+*Notes:*
+- A very common use of the Dual Slopes is as a **master clock**. The pulse outputs (*3* and *4*) can be used to drive the Sequencer / Programmer, the TKB, the "sample" on an SSG, or the trigger inputs on slope generators and filters.
+- The Dual Slopes module highlights Tcherepnin's design mantra that the *distinction between control voltage and audio-rate signals is an artificial one*. The module can generate low frequency ramps and pulse trains, as well as audio-rate waveforms.
+- The Dual Slopes module is optimized to leverage a side effect of Serge (and other "West Coast") envelope generators: an envelope, once triggered, *can't be retriggered until it has finished its cycle.* As a result, if the right side of the Dual Slopes has a rise and fall time that's greater than the interval the left side is clocking at, the right-hand slope generator will act as a **frequency divider**, triggering its waveform at 1/2, 1/3, 1/4, etc. of the leeft side's frequency. To hear this effect, turn the left-hand oscillator up to audio rate, turn on the trigger link switch, and listen to the pulse outputs generated by the right (*4*). By manipulating the rise and fall times of the right-hand slow (*10* and *12*), you can generate a [subhamonic series](https://en.wikipedia.org/wiki/Undertone_series) of the left side's frequency.
+
+#### Variable Slope Voltage Controlled Filter
+
+Tcherepnin avoided implementing standard audio filters like those found on Moog and ARP synthesizers until 1976, preferring instead to focus on slews, comparators, waveshapers, and other circuits that felt to him more natural as a designer. The **Variable Slope Voltage Controlled Filter (or VCFS)** is a 12dB/octave [state-variable filter](https://en.wikipedia.org/wiki/State_variable_filter) that allows for voltage control over the slope of the filter, as well as its frequency. 
+
+<img src = "./img/serge824_1_6.png" width="20%" title="Variable Slope VCF" alt="Variable Slope VCF">
+
+1. Bandpass filter output (AC OUTPUT)
+2. High-pass filter output (AC OUTPUT)
+3. Low-pass filter output (AC OUTPUT)
+4. Filter input 1 (AC INPUT)
+5. Filter input 2 (AC INPUT)
+6. Mix knob to control the blend between inputs 1 and 2
+7. Q knob for the ["quality"](https://en.wikipedia.org/wiki/Q_factor) (resonance) of the filter. This interacts with the slope to generate the specific behavior of the filter.
+8. 1-volt-per-octave CV input to control the filter frequency (sums with *10* x *12* and *14*) (DC INPUT)
+9. Voltage control input for the filter's slope (scaled by *11* and summed with *13*) (DC INPUT)
+10. VC input for linear control of the filter frequency (scaled by *12* and sums with *8* and *14*)
+11. Scaling knob for *9*.
+12. Scaling knob for *10*.
+13. Knob to set the base slope of the filter
+14. Knob to set the base frequency of the filter
+
+*Notes:*
+- Patching an envelope signal into either the 1V/OCT (*8*) or linear frequency inputs (*10*) allows you to use the VCFS as a low-pass gate.
+- Dynamically adjusting the slope of the VCFS using the CV input *9* using a slow-moving control voltage is a great way to make a filter effect that sounds natural.
+- Patching the bandpass output *1* back into the filter at input 2 (*5*) with a separate input signal at input 1 (*4*) will create a resonant ["comb"](https://en.wikipedia.org/wiki/Comb_filter) at the filter's frequency, where the strength of the effect can be varied with the mix control (*6*).
+
+#### Variable Q Voltage Controlled Filter #1
+
+The **Variable Q Voltage Controlled Filter (or VCFQ)**, sometimes referred to as the **Variable Resonance Filter**, is a 12dB/octave 2-pole state-variable filter that features low-pass, high-bass, band-pass, and band-reject outputs, voltage control over frequency and Q (resonance) of the filter, and multiple inputs, include one with automatic gain control and a trigger input that generates an impulse into the filter. The VCFQ is an **extended range** design, with a switch that allows it to filter sub-audio control voltage signals.
+
+<img src = "./img/serge824_1_7.png" width="20%" title="Variable Q VCF" alt="Variable Q VCF">
+
+1. Bandpass filter output (AC OUTPUT)
+2. High-pass filter output (AC OUTPUT)
+3. Notch (band-reject) filter output (AC OUTPUT)
+4. Low-pass filter output (AC OUTPUT)
+5. Filter input (AC INPUT)
+6. Filter input with automatic gain control (AC INPUT)
+7. Pulse input to "ring" the filter - output will be the impulse response (Trigger INPUT)
+8. High/Low switch to choose the range of the filter between audio ("HIGH") and sub-audio ("LOW") frequencies
+9. 1-volt-per-octave CV input to control the filter frequency (sums with *11* x *13* and *15*) (DC INPUT)
+10. Voltage control input for the filter's Q (summed with *12*) (DC INPUT)
+11. VC input for linear control of the filter frequency (scaled by *13* and sums with *9* and *15*)
+12. Knob to set the base Q of the filter
+13. Scaling knob for *11*
+14. Gain control knob for the filter
+15. Knob to set the base frequency of the filter
+
+*Notes:*
+- the VCFQ can [self-oscillate](https://en.wikipedia.org/wiki/Self-oscillation) by patching the band-pass output (*1*) into the input (*5*). As you increase the Q, the band-pass output will approach a sine wave. The various outputs of the filter will be 90 degrees out of phase with one another.
+- the trigger input *7* can be used to generate filtered percussion straight from a clock source.
+- the LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
+- the Serge fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
+
+#### Stereo Mixer
+
+<img src = "./img/serge824_1_8.png" width="20%" title="Stereo Mixer" alt="Stereo Mixer">
+
 
 ### Panel 2 (Edelweiss II)
 
 <img src = "./img/serge824_2.png" width="100%" title="Random Source Edelweiss II" alt="Random Source Edelweiss II">
 
+#### Dual Universal Slope Generator #1
+
+<img src = "./img/serge824_2_1.png" width="30%" title="DUSG" alt="DUSG">
+
+#### Control Voltage Processor
+
+<img src = "./img/serge824_2_2.png" width="20%" title="CV Processor" alt="CV Processor">
+
+#### Dual Universal Slope Generator #2
+
+<img src = "./img/serge824_2_3.png" width="30%" title="DUSG" alt="DUSG">
+
+#### Pulse Divider
+
+<img src = "./img/serge824_2_4.png" width="10%" title="Divider" alt="Divider">
+
+#### Boolean Logic
+
+<img src = "./img/serge824_2_5.png" width="20%" title="Boolean Logic" alt="Boolean Logic">
+
+#### +N Comparator
+
+<img src = "./img/serge824_2_6.png" width="10%" title="+N Com" alt="+N Com">
+
+#### Smooth / Stepped Generator #2
+
+<img src = "./img/serge824_2_7.png" width="20%" title="Smooth / Stepped Generator" alt="Smooth / Stepped Generator">
+
+#### Random Source
+
+<img src = "./img/serge824_2_8.png" width="20%" title="Random Source" alt="Random Source">
+
+
 ### Panel 3 (Mantra)
 
 <img src = "./img/serge824_3.png" width="100%" title="Random Source Mantra" alt="Random Source Mantra">
 
+#### Sequencer / Programmer
+
+<img src = "./img/serge824_3_1.png" width="40%" title="Sequencer / Programmer" alt="Sequencer / Programmer">
+
+#### Dual Universal Slope Generator XL
+
+<img src = "./img/serge824_3_2.png" width="40%" title="DUSG XL" alt="DUSG XL">
+
+#### Active Pro
+
+<img src = "./img/serge824_3_3.png" width="10%" title="Active Pro" alt="Active Pro">
+
+#### Smooth / Stepped Generator #3
+
+<img src = "./img/serge824_3_4.png" width="22%" title="SSG" alt="SSG">
+
+#### Dual Slopes #2
+
+<img src = "./img/serge824_3_5.png" width="20%" title="Dual Slopes" alt="Dual Slopes">
+
+#### Variable Q Voltage Controlled Filter #2
+
+<img src = "./img/serge824_3_6.png" width="20%" title="Variable Q VCF" alt="Variable Q VCF">
+
+#### XFader
+
+<img src = "./img/serge824_3_7.png" width="10%" title="XFader" alt="XFader">
+
+
 ### Panel 4 (TKB)
 
 <img src = "./img/serge824_4.png" width="100%" title="Random Source Touch Activated Keyboard Sequencer" alt="Random Source Touch Activated Keyboard Sequencer">
+
+#### Touch Activated Keyboard Sequencer
+
+<img src = "./img/serge824_4_1.png" width="100%" title="TKB" alt="TKB">
 
 
 ## 73-75 Serge
@@ -201,9 +466,62 @@ The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human C
 
 <img src = "./img/serge7375_1.png" width="100%" title="73-75 Panel 1" alt="73-75 Panel 1">
 
+#### Oscillator
+
+<img src = "./img/serge7375_1_1.png" width="20%" title="Oscillator" alt="Oscillator">
+
+#### Triple Waveshaper
+
+<img src = "./img/serge7375_1_2.png" width="30%" title="TWS" alt="TWS">
+
+#### Peak / Trough
+
+<img src = "./img/serge7375_1_3.png" width="20%" title="Peak / Trough" alt="Peak / Trough">
+
+#### Triple Comparator
+
+<img src = "./img/serge7375_1_4.png" width="20%" title="Triple Comparator" alt="Triple Comparator">
+
+#### Dual Processor
+
+<img src = "./img/serge7375_1_5.png" width="30%" title="Dual Processor" alt="Dual Processor">
+
+#### Ring Modulator
+
+<img src = "./img/serge7375_1_6.png" width="10%" title="Ring" alt="Ring">
+
+#### Gate
+
+<img src = "./img/serge7375_1_7.png" width="10%" title="Gate" alt="Gate">
+
+#### Reverb
+
+<img src = "./img/serge7375_1_8.png" width="10%" title="Reverb" alt="Reverb">
+
+#### Preamp
+
+<img src = "./img/serge7375_1_9.png" width="10%" title="Preamp" alt="Preamp">
+
+
 ### "Homebuilt" Panel 2
 
 <img src = "./img/serge7375_2.png" width="100%" title="73-75 Panel 2" alt="73-75 Panel 2">
+
+#### Positive Slew
+
+<img src = "./img/serge7375_2_1.png" width="30%" title="Positive Slew" alt="Positive Slew">
+
+#### Negative Slew
+
+<img src = "./img/serge7375_2_2.png" width="30%" title="Negative Slew" alt="Negative Slew">
+
+#### Envelope Generator #1, #2, #3
+
+<img src = "./img/serge7375_2_345.png" width="30%" title="Envelope Generator" alt="Envelope Generator">
+
+#### Adapter
+
+<img src = "./img/serge7375_2_6.png" width="10%" title="Adapter" alt="Adapter">
 
 
 ## The Shelfisizer
@@ -216,6 +534,29 @@ The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modul
 
 <img src = "./img/shelfisizer2019.png" width="100%" title="Shelfisizer 2019" alt="Shelfisizer 2019">
 
+#### Pulse
+
+<img src = "./img/shelfisizer2019_1.png" width="20%" title="Pulse" alt="Pulse">
+
+#### Onebang
+
+<img src = "./img/shelfisizer2019_2.png" width="20%" title="Onebang" alt="Onebang">
+
+#### Dust / Dirt
+
+<img src = "./img/shelfisizer2019_3.png" width="30%" title="Dust / Dirt" alt="Dust / Dirt">
+
+#### Lookup
+
+<img src = "./img/shelfisizer2019_4.png" width="30%" title="Lookup" alt="Lookup">
+
+#### Square
+
+<img src = "./img/shelfisizer2019_5.png" width="10%" title="Square" alt="Square">
+
+#### Shift
+
+<img src = "./img/shelfisizer2019_6.png" width="20%" title="Shift" alt="Shift">
 
 
 [return](./index.md)
