@@ -374,7 +374,26 @@ The **Variable Q Voltage Controlled Filter (or VCFQ)**, sometimes referred to as
 
 #### Stereo Mixer
 
+The **Stereo Mixer** is Random Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment - in the IDM analog studio it's wired to inputs 1 and 2 on the Behringer mixer. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
+
 <img src = "./img/serge824_1_8.png" width="20%" title="Stereo Mixer" alt="Stereo Mixer">
+
+1. 1/4" TRS output of the left channel
+2. 1/4" TRS output of the right channel
+3. Left channel output (AC OUTPUT)
+4. Right channel output (AC OUTPUT)
+5. Auxiliary input for the left channel - bypasses panning and gain (AC INPUT)
+6. Auxiliary input for the right channel - bypasses panning and gain (AC INPUT)
+7. Channel 1 input (AC INPUT)
+8. Channel 2 input (AC INPUT)
+9. Panning voltage control for channel 1 (summed with *11*) (AC INPUT)
+10. Panning voltage control for channel 2 (summed with *12*) (AC INPUT)
+11. Panning knob for channel 1
+12. Panning knob for channel 2
+13. CV gain input for channel 1 (summed with *15*) (DC INPUT)
+14. CV gain input for channel 2 (summed with *16*) (DC INPUT)
+15. Gain control knob for channel 1
+16. Gain control knob for channel 2
 
 
 ### Panel 2 (Edelweiss II)
