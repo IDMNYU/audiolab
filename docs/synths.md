@@ -411,7 +411,7 @@ The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more 
 <img src = "./img/serge824_2_1.png" width="30%" title="DUSG" alt="DUSG">
 
 1. CV Slope Output (DC OUTPUT)
-2. Secondary slope output - a square wave output on the top half, an inverted bipolar output on the bottom half. (Trigger OUTPUT / AC OUTPUT)
+2. Secondary slope output - a square wave output on the top half; an inverted bipolar output on the bottom half (Trigger OUTPUT / AC OUTPUT)
 3. Gate output (Trigger OUTPUT)
 4. Signal input for envelope follower (AC INPUT)
 5. 1 volt-per-octave input for slope generator (DC INPUT)
@@ -451,15 +451,75 @@ The **Control Voltage Processor**, originally called the **Dual Voltage Processo
 
 #### Dual Universal Slope Generator #2
 
+The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more complex Serge modules, developed in 1976 by combining the first generation Envelope Generator module with the Positive and Negative Slew modules. The DUSG can be used as an envelope generator, a low-pass filter / envelope follower, an oscillator, a harmonic subdivider, and a pulse delay. The module has two identical halves. DUSG #2 on the Random Source Serge is a "classic" model, with an inverted bipolar output in addition to the slope output.
+
 <img src = "./img/serge824_2_3.png" width="30%" title="DUSG" alt="DUSG">
+
+1. CV Slope Output (DC OUTPUT)
+2. Secondary inverted bipolar output (AC OUTPUT)
+3. Gate output (Trigger OUTPUT)
+4. Signal input for envelope follower (AC INPUT)
+5. 1 volt-per-octave input for slope generator (DC INPUT)
+6. CV input for envelope rise (scaled by *8* and summed with *10*) (DC INPUT)
+7. CV input for envelope fall (scaled by *9* and summed with *11*) (DC INPUT)
+8. Scaling knob for *6*
+9. Scaling knob for *7*
+10. Base knob for rise time (summed with *6* x *8*)
+11. Base knob for fall time (summed with *7* x *9*)
+12. Envelope trigger input (Trigger INPUT)
+
+*Notes:*
+- a trigger sent into input *12* of the DUSG will fire a single **envelope** at output *1* and *2*, based on the rise and fall times of the slope generator.
+- voltage sent into the signal input (*4*) of the DUSG will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *1* and *2*. The DUSG performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
+- connecting the gate output *3* to the trigger input *12* of the DUSG will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *1*. Output *2* will put out a different waveform - an AC inverted triangle wave, centered around 0V.
+- if the rise and fall time add to a greater period than a pulse wave sent to the trigger input *12*, the DUSG can be used as a **harmonic subdivider**. generating an oscillator at 1/2, 1/3, etc. the frequency of the incoming signal.
+- the DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a trigger at input *12* will echo at output *3* at the end of the rise and fall times.
 
 #### Pulse Divider
 
+The **Pulse Divider** is based on a design by [Ken Stone](https://www.elby-designs.com/webtek/cgs/cgs.htm), who developed a series of Serge-compatible modules in the 1980s and 1990s under the moniker the "Cat Girl Synth", or **CGS**. PCBs for CGS modules are still sold by Elby Designs in Australia. The Pulse Divider takes a pulse input and outputs tiggers on numerical subdivisions, allowing the user to have, e.g. a clock signal input generate a polyrhythmic output.
+
 <img src = "./img/serge824_2_4.png" width="10%" title="Divider" alt="Divider">
+
+1. Pulse input for divider (Trigger INPUT)
+2. Outputs a trigger every 2nd pulse (Trigger OUTPUT)
+3. Outputs a trigger every 3rd pulse (Trigger OUTPUT)
+4. Outputs a trigger every 4th pulse (Trigger OUTPUT)
+5. Outputs a trigger every 5th pulse (Trigger OUTPUT)
+6. Outputs a trigger every 6th pulse (Trigger OUTPUT)
+7. Outputs a trigger every 7th pulse (Trigger OUTPUT)
+8. Outputs a trigger every 8th pulse (Trigger OUTPUT)
+
+*Notes:*
+- The Pulse Divider can be used to bifurcate a (fast) master clock into multiple slower clocks. For example, if you send the pulse output of a Dual Slopes into the Pulse Divider input *1*, and think of that pulse as your 16th notes, then output *2* will be your 8th notes, output *4* will be your quarter notes, output *6* will be dotted-quarter notes, etc.
 
 #### Boolean Logic
 
+The **Boolean Logic** module is another design by Ken Stone, intended to expand on the comparator modules in the original Serge systems. It consists of two basic inverters at the top and bottom, and three submodules that set output voltages HIGH or LOW based on control voltage inputs:
+
+- the AND comparator will output a HIGH value when both of its inputs are over 2.5V
+- the OR comparator will output a HIGH value when either of its inputs are over 2.5V
+- the XOR comparator will output a HIGH value when either, but not both, of its inputs are over 2.5V
+
 <img src = "./img/serge824_2_5.png" width="20%" title="Boolean Logic" alt="Boolean Logic">
+
+1. Input for top inverter (Trigger INPUT)
+2. Output for the top inverter - a HIGH input at *1* will cause a LOW output, and vice versa (Trigger OUTPUT)
+3. Input 1 for the AND comparator (DC INPUT)
+4. Input 2 for the AND comparator (DC INPUT)
+5. Output for the AND comparator (Trigger OUTPUT)
+6. Input 1 for the OR comparator (DC INPUT)
+7. Input 2 for the OR comparator (DC INPUT)
+8. Output for the OR comparator (Trigger OUTPUT)
+9. Input 1 for the XOR comparator (DC INPUT)
+10. Input 2 for the XOR comparator (DC INPUT)
+11. Output for the XOR comparator (Trigger OUTPUT)
+12. Input for bottom inverter (Trigger INPUT)
+13. Output for the bottom inverter - a HIGH input at *12* will cause a LOW output, and vice versa (Trigger OUTPUT)
+
+*Notes:*
+- The outputs will retain a HIGH voltage as long as the "true" state persists at the inputs, making the outputs function as gates rather than triggers.
+- When used with the inverters, the AND/OR/XOR values can be transformed into NAND/NOR/XNOR values.
 
 #### +N Comparator
 
