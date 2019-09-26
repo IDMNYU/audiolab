@@ -367,7 +367,7 @@ The **Variable Q Voltage Controlled Filter (or VCFQ)**, sometimes referred to as
 15. Knob to set the base frequency of the filter
 
 *Notes:*
-- the VCFQ can self-oscillate by patching the band-pass output *1* into the input *5*. As you increase the Q, the band-pass output will approach a sine wave. The various outputs of the filter will be 90 degrees out of phase with one another.
+- the VCFQ can [self-oscillate](https://en.wikipedia.org/wiki/Self-oscillation) by patching the band-pass output (*1*) into the input (*5*). As you increase the Q, the band-pass output will approach a sine wave. The various outputs of the filter will be 90 degrees out of phase with one another.
 - the trigger input *7* can be used to generate filtered percussion straight from a clock source.
 - the LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
 - the Serge fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
