@@ -320,7 +320,7 @@ The **Dual Slopes** are the Random Source implementation of a 1976 Serge module 
 
 #### Variable Slope Voltage Controlled Filter
 
-Tcherepnin avoided implementing standard audio filters in the Serge system until 1976, preferring instead to focus on slews, comparators, waveshapers, and other circuits that felt to him more appropriate. The **Variable Slope Voltage Controlled Filter (or VCFS)** is a 12dB/octave [state-variable filter](https://en.wikipedia.org/wiki/State_variable_filter) that allows for voltage control over the slope of the filter, as well as its frequency. 
+Tcherepnin avoided implementing standard audio filters like those found on Moog and ARP synthesizers until 1976, preferring instead to focus on slews, comparators, waveshapers, and other circuits that felt to him more natural as a designer. The **Variable Slope Voltage Controlled Filter (or VCFS)** is a 12dB/octave [state-variable filter](https://en.wikipedia.org/wiki/State_variable_filter) that allows for voltage control over the slope of the filter, as well as its frequency. 
 
 <img src = "./img/serge824_1_6.png" width="20%" title="Variable Slope VCF" alt="Variable Slope VCF">
 
@@ -346,7 +346,31 @@ Tcherepnin avoided implementing standard audio filters in the Serge system until
 
 #### Variable Q Voltage Controlled Filter #1
 
+The **Variable Q Voltage Controlled Filter (or VCFQ)**, sometimes referred to as the **Variable Resonance Filter**, is a 12dB/octave 2-pole state-variable filter that features low-pass, high-bass, band-pass, and band-reject outputs, voltage control over frequency and Q (resonance) of the filter, and multiple inputs, include one with automatic gain control and a trigger input that generates an impulse into the filter. The VCFQ is an **extended range** design, with a switch that allows it to filter sub-audio control voltage signals.
+
 <img src = "./img/serge824_1_7.png" width="20%" title="Variable Q VCF" alt="Variable Q VCF">
+
+1. Bandpass filter output (AC OUTPUT)
+2. High-pass filter output (AC OUTPUT)
+3. Notch (band-reject) filter output (AC OUTPUT)
+4. Low-pass filter output (AC OUTPUT)
+5. Filter input (AC INPUT)
+6. Filter input with automatic gain control (AC INPUT)
+7. Pulse input to "ring" the filter - output will be the impulse response (Trigger INPUT)
+8. High/Low switch to choose the range of the filter between audio ("HIGH") and sub-audio ("LOW") frequencies
+9. 1-volt-per-octave CV input to control the filter frequency (sums with *11* x *13* and *15*) (DC INPUT)
+10. Voltage control input for the filter's Q (summed with *12*) (DC INPUT)
+11. VC input for linear control of the filter frequency (scaled by *13* and sums with *9* and *15*)
+12. Knob to set the base Q of the filter
+13. Scaling knob for *11*
+14. Gain control knob for the filter
+15. Knob to set the base frequency of the filter
+
+*Notes:*
+- the VCFQ can self-oscillate by patching the band-pass output *1* into the input *5*. As you increase the Q, the band-pass output will approach a sine wave. The various outputs of the filter will be 90 degrees out of phase with one another.
+- the trigger input *7* can be used to generate filtered percussion straight from a clock source.
+- the LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
+- the Serge fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
 
 #### Stereo Mixer
 
