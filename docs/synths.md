@@ -320,7 +320,29 @@ The **Dual Slopes** are the Random Source implementation of a 1976 Serge module 
 
 #### Variable Slope Voltage Controlled Filter
 
+Tcherepnin avoided implementing standard audio filters in the Serge system until 1976, preferring instead to focus on slews, comparators, waveshapers, and other circuits that felt to him more appropriate. The **Variable Slope Voltage Controlled Filter (or VCFS)** is a 12dB/octave [state-variable filter](https://en.wikipedia.org/wiki/State_variable_filter) that allows for voltage control over the slope of the filter, as well as its frequency. 
+
 <img src = "./img/serge824_1_6.png" width="20%" title="Variable Slope VCF" alt="Variable Slope VCF">
+
+1. Bandpass filter output (AC OUTPUT)
+2. High-pass filter output (AC OUTPUT)
+3. Low-pass filter output (AC OUTPUT)
+4. Filter input 1 (AC INPUT)
+5. Filter input 2 (AC INPUT)
+6. Mix knob to control the blend between inputs 1 and 2
+7. Q knob for the ["quality"](https://en.wikipedia.org/wiki/Q_factor) (resonance) of the filter. This interacts with the slope to generate the specific behavior of the filter.
+8. 1-volt-per-octave CV input to control the filter frequency (sums with *10* x *12* and *14*) (DC INPUT)
+9. Voltage control input for the filter's slope (scaled by *11* and summed with *13*) (DC INPUT)
+10. VC input for linear control of the filter frequency (scaled by *12* and sums with *8* and *14*)
+11. Scaling knob for *9*.
+12. Scaling knob for *10*.
+13. Knob to set the base slope of the filter
+14. Knob to set the base frequency of the filter
+
+*Notes:*
+- Patching an envelope signal into either the 1V/OCT (*8*) or linear frequency inputs (*10*) allows you to use the VCFS as a low-pass gate.
+- Dynamically adjusting the slope of the VCFS using the CV input *9* using a slow-moving control voltage is a great way to make a filter effect that sounds natural.
+- Patching the bandpass output *1* back into the filter at input 2 (*5*) with a separate input signal at input 1 (*4*) will create a resonant ["comb"](https://en.wikipedia.org/wiki/Comb_filter) at the filter's frequency, where the strength of the effect can be varied with the mix control (*6*).
 
 #### Variable Q Voltage Controlled Filter #1
 
