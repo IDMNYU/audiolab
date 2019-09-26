@@ -290,7 +290,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 
 The **Dual Slopes** are the Random Source implementation of a 1976 Serge module called the **Dual Transient Generator** (some Serge licensees still use that name; others call it that **Voltage-Controlled Timegen Oscillator**). The module consists of a Dual Universal Slope Generator (DUSG - see below) with a simplified panel interface, optimized for generating LFOs and clock pulses. The module contains two sides:
 - on the left, an envelope generator that's internally wired to act as a self-clocking oscillator. This outputs a falling sawtooth and a pulse (square wave) at a specified frequency. 
-- on the right, a second enevelope generator that can be triggered manually or by the end of the left oscillator's slope. This side outputs a triangle wave with controllable rise and fall times. It can also act as a slew (envelope follower) on a signal input.
+- on the right, a second envelope generator that can be triggered manually or by the end of the left oscillator's slope. This side outputs a triangle wave with controllable rise and fall times. It can also act as a slew (envelope follower) on a signal input.
 
 <img src = "./img/serge824_1_5.png" width="20%" title="Dual Slopes" alt="Dual Slopes">
 
