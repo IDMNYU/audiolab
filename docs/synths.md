@@ -521,9 +521,26 @@ The **Boolean Logic** module is another design by Ken Stone, intended to expand 
 - The outputs will retain a HIGH voltage as long as the "true" state persists at the inputs, making the outputs function as gates rather than triggers.
 - When used with the inverters, the AND/OR/XOR values can be transformed into NAND/NOR/XNOR values.
 
-#### +N Comparator
+#### ÷N Comparator
 
-<img src = "./img/serge824_2_6.png" width="10%" title="+N Com" alt="+N Com">
+The **Divide-by-N Comparator (÷N COM)** is a circuit designed by Tcherepnin in 1979. The circuit is in two sections which have linked functionality. The bottom half of the module is a signal comparator, with a trigger output when one voltage rises above another. Thee top half counts the triggers from the bottom half, emitting its own triggers every *N* steps (hence the name) in increments up to 31. An additional output generates a "staircase" DC wave that rises with the number of steps coming from the comparator.
+
+<img src = "./img/serge824_2_6.png" width="10%" title="÷N Com" alt="÷N Com">
+
+1. "Divide-by-N" output pulse divider output (Trigger OUTPUT)
+2. Staircase output (DC OUTPUT)
+3. Knob for setting number of steps in the pulse divider (1-31)
+4. CV input for setting number of steps in the pulse divider (sums with *3*)
+5. Comparator output (Trigger OUTPUT)
+6. Offset knob for comparator threshold (sums with *8*)
+7. Positive (+) comparator input; if this signal is greater than (*6* + *8*) the trigger *5* will fire and the pulse divider will increment
+8. Negative (-) comparator input (sums with *6*); if this signal is less than *7* the trigger *5* will fire and the pulse divider will increment
+
+*Notes:*
+- the lower half of the ÷N COM module is fairly straightforward; the trigger output *5* will fire whenever the + voltage (*7*) exceeds the - voltage (*8*, which can be offset by the value at knob *6*).
+- unlike the Boolean Logic comparators which generate binary true/false voltages, the trigger circuit on the ÷N COM is a [Schmitt trigger](https://en.wikipedia.org/wiki/Schmitt_trigger), so it has hysteresis and will only fire once per threshold crossing.
+- the upper half of the ÷N COM increments its internal counter everytime the lower half fires its trigger circuit. The values set by knob *3* and CV *4* set the number of steps in its pulse divider. When the count of triggers reaches that value, the pulse divider output *1* fires and the counter resets.
+- the staircase output *2* is one of the most musically interesting devices in the Serge system; Tcherepnin decided to expose the signal counter used in the internal circuitry of the pulse divider and scale it by a specific voltage, in steps of 1/6V (i.e. from 0 to 5.1666V at 31 steps), so that it can be used directly as a [whole tone scale](https://en.wikipedia.org/wiki/Whole_tone_scale) when patched into a 1 volt-per-octave input on an oscillating circuit. This voltage can be scaled to other fixed musical intervals as desired.
 
 #### Smooth / Stepped Generator #2
 
