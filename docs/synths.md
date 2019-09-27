@@ -272,7 +272,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 13. Knob for Stepped rate amount (sums with *9* x *11*)
 14. CV output for thee Stepped module (DC OUTPUT)
 15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Trigger OUTPUT)
-16. Regular Couple output - 5V if Stepped output is higher than the Smooth output; 0V if not (Trigger OUTPUT)
+16. Regular Coupler output - 5V if Stepped output is higher than the Smooth output; 0V if not (Trigger OUTPUT)
 17. White noise source (AC OUTPUT)
 18. Pink noise source (AC OUTPUT)
 19. Sample-and-hold "dirty saw" source (DC OUTPUT)
@@ -544,7 +544,36 @@ The **Divide-by-N Comparator (÷N COM)** is a circuit designed by Tcherepnin in 
 
 #### Smooth / Stepped Generator #2
 
+The **Smooth / Stepped Generator (SSG)** was designed by Tcherepnin in 1974. Along with the Dual Universal Slope Generator, it's one of the most versatile circuits in the canonical Serge system. Depending on how an SSG is patched, it can function as a [slew](https://en.wikipedia.org/wiki/Slew_rate) (envelope follower / lowpass filter), a sample-and-hold circuit, a triangle wave oscillator, or a low-pass gate. SSG #2 on the Random Source Serge system has no sidecar noise circuit, but can receive voltage from elsewhere in the system to create different random effects.
+
+The module is divided into two halves: the "Smooth" side at the top, and the "Stepped" at the bottom. In between the two, a Coupler circuit outputs a comparator voltage of the two sides.
+
 <img src = "./img/serge824_2_7.png" width="20%" title="Smooth / Stepped Generator" alt="Smooth / Stepped Generator">
+
+1. CV input for the Smooth sides's rate (DC INPUT)
+2. CV output for the Smooth side (DC OUTPUT)
+3. Scaling knob for *1*
+4. Cycle trigger (sends a pulse at the end of a cycle set by the Smooth rate) (Trigger OUTPUT)
+5. Knob for Smooth rate amount (sums with *1* x *3*)
+6. Signal input for the Smooth side (AC INPUT)
+7. Hold jack - when set high, Smooth output *2* will freeze and no longer track the module's input (Trigger INPUT)
+8. Sample jack - when set high, Stepped output *14* will sample and hold Stepped input *10* (Trigger INPUT)
+9. CV input for the Stepped side's rate (DC INPUT)
+10. Signal input for the Stepped side (AC INPUT)
+11. Scaling knob for *9*
+12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Trigger OUTPUT)
+13. Knob for Stepped rate amount (sums with *9* x *11*)
+14. CV output for thee Stepped module (DC OUTPUT)
+15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Trigger OUTPUT)
+16. Regular Coupler output - 5V if Stepped output is higher than the Smooth output; 0V if not (Trigger OUTPUT)
+
+*Notes:*
+- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and VC inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
+- The Stepped side will also internally self-oscillate - by patching cycle trigger *12* to input *10* and adjusting the frequency via *13*, *9*, and *11*. However, no signal will appear at output jack *14* until you send triggers into the Sample jack (*8*). These triggers can come from anywhere, e.g. from the Cycle output of the Smooth side, or from another module. This creates a classic [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuit where the internal oscillating waveform is being "sampled" by the trigger pulse at the Sample jack and "held" as the output voltage at jack *14*.
+- By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
+- The sidecar Noise Source module provides ideal outputs to experiment with as inputs for either side of the SSG. The Smooth side can be used to generate slow, time-varying random voltages, while the Stepped side, when sampling a random signal, can be used to create classic "bleep-bloop" noises when patched in as the frequency of an oscillator.
+- Sending an audio signal into the input (*6*) of the Smooth side of the SSG and sending an envelope into the CV input (*1*) will, depending where the rate knob (*5*) is set, allow you to use the module as a [low-pass gate](https://electronicmusic.fandom.com/wiki/Lowpass_gate), where the gain on the signal rises with the cutoff frequency of the filter. This setup is great for simulating natural sounding instruments such as percussion where the timbre brightens with the attack of the sound.
+- The SSG is quite a complex module, and the Serge fans site has [an entire 4-page article](http://www.serge-fans.com/wiz_SSG1.htm) dedicated to patching ideas using it.
 
 #### Random Source
 
