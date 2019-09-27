@@ -807,8 +807,42 @@ The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepn
 
 #### Touch Activated Keyboard Sequencer
 
+The Serge **Touch Activated Keyboard Sequencer (TKB)** had its debut in 1976, and is considered one of the most historically  influential of Tcherepnin's designs. A combination 16-stage preset manager with 4 rows, sequencer, and keyboard controller, this single module takes up an entire panel in our Serge system. It was the most expensive iten in the Serge Modular Music Systems catalog, selling in the 1982 catalog for $900 pre-assembled ($2,400 in 2019 dollars).
+
+Tcherepnin, like Don Buchla, rejected implementing Western-style keyboard controllers with white keys and black keys, arranged according to the chromatic scale. Instead, Tcherepnin used capacitive touch pads arranged in an evenly spaced pattern, similar to the touch strips on the [Buchla model 112](http://synthmuseum.com/buchla/buc11201.html). The touch pads on the TKB would output the voltage presets set by four rows of knobs (A, B, C, and D) above the pads, as well as a voltage based on the "pressure" applied to the key.
+
+Unlike the Buchla touch controllers, the Serge TKB doubled as a sophisticated sequencer, with triggers above each stage, the ability to reverse direction, and so forth. It also included a vertical clock to generate one long (64-value) set of voltages from the four independent rows, a random selector input, and many other features.
+
 <img src = "./img/serge824_4_1.png" width="100%" title="TKB" alt="TKB">
 
+1. "ABCD" 64-stage output, driven by the clock and vertical clock (*15* and *16*) (DC OUTPUT)
+2. CV output for the "A" row of presets (DC OUTPUT)
+3. CV output for the "B" row of presets (DC OUTPUT)
+4. CV output for the "C" row of presets (DC OUTPUT)
+5. CV output for the "D" row of presets (DC OUTPUT)
+6. "Key Vert" CV out - voltage corresponds to the specific key pad pressed in 1/6V increments (similar to the staircase output on the ÷N COM) (DC OUTPUT)
+7. Pulse output when a key is pressed (Trigger OUTPUT)
+8. CV output for key "pressure" - in reality, this corresponds more to the surface area of the pad covered by finger contact than actual pressure (DC OUTPUT)
+9. Reset input - sets the sequencer stage back to 1 (Trigger INPUT)
+10. Vertical reset input - sets the vertical clock back to "A" (Trigger INPUT)
+11. Random input - causes the sequencer to jumb to a random position (Trigger INPUT)
+12. Keyboard on/off switch - when set to "off", the TKB will only respond to external triggers and not the keyboard
+13. Up/Down input - when set HIGH, the sequencer will reverse direction (Trigger INPUT)
+14. Hold input - when set HIGH, the sequencer will pause and ignore clock pulses (Trigger INPUT)
+15. Clock input - pulses will advance the (horizontal) sequencer (Trigger INPUT)
+16. Vertical clock input to advance the row of presets used for the "ABCD" output *1* (Trigger INPUT)
+17. Glide switch - when on, the knobs on row "B" set a portamento (glide) value for the presets on row "A"
+18. Pulse outputs for each stage of the sequencer (Trigger OUTPUT)
+19. "A" row of CV knobs for each preset stage
+20. "B" row of CV knobs for each preset stage
+21. "C" row of CV knobs for each preset stage
+22. "D" row of CV knobs for each preset stage
+23. Capacitive touch pads (the "keys") for the TKB
+
+*Notes:*
+- the TKB allows you to program 4 sequences of preset knobs to control any CV input on the Serge system - scales and melodies for oscillators, but also filter cutoff frequencies, envelope durations, and anything else that you may want to automate. The TKB's clock is typically driven by a pulse generator (such as a Dual Slopes), but clock pulses can come from anywhere, such as the Pulse output of the Random Source module.
+- by using the pulse outputs for the individual sequence stages (*18*), you can trigger external events on other modules. You can also use these outputs, in combination with the Up/Down gate *13* and the "Flip/Flop" on the Active Processor to create smaller loops of sequences within the TKB.
+- the keyboard pressure output *8* puts out a fairly noisy voltage based on capacitance. Patching it into a DUSG or SSG will allow you to smooth this out as well as add lag to the key (e.g. for keyboard-driven slow fades or filter sweeps).
 
 ## 73-75 Serge
 
