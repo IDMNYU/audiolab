@@ -577,8 +577,27 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 
 #### Random Source
 
+The **Random Source** is the eponymous design of the company that designed its PCB in Berlin; it combines two of Tcherepnin's noise modules: the **Random Voltage Generator (RVG)** (left column of the module) and the ***Noise Source*** (right column). The RVG behaves as a pre-patched Smooth / Stepped Generator fed with noise; the Noise Source provides a variety of noise sources to work with as well as a built-in sample-and-hold circuit.
+
 <img src = "./img/serge824_2_8.png" width="20%" title="Random Source" alt="Random Source">
 
+1. Pulse RVG output - generates random pulses at the module rate (specified by *9* x *10* + *12*) (Trigget OUTPUT)
+2. Full-spectrum [white noise](https://en.wikipedia.org/wiki/White_noise) (AC OUTPUT)
+3. Stepped random output - generates discrete random voltages at the module rate (DC OUTPUT)
+4. [Pink Noise](https://en.wikipedia.org/wiki/Pink_noise) (AC OUTPUT)
+5. Smooth random output - generates continuous, low-pass filtered random voltages at the module rate (DC OUTPUT)
+6. "Dirty saw" - a circuit designed by Tcherepnin containing a sawtooth wave that wobbles in frequency and has low-amplitude noise injected in its signal (DC OUTPUT)
+7. Unipolar sample-and-hold output using *6* as its source and trigger *11* or *13* to sample the voltage (DC OUTPUT)
+8. Bipolar sample-and-hold output using *6* as its source and trigger *11* or *13* to sample the voltage (AC OUTPUT)
+9. CV input to set the rate of random outputs *1*, *3*, and *5* (scaled by *10* and sums with *12*) (DC INPUT)
+10. Scalar knob for *9*.
+11. Trigger input for the sample-and-hold outputs *7* and *8* (Trigger INPUT) 
+12. Base rate for random outputs *1*, *3*, and *5* (sums with *9* x *10*)
+13. Button to trigger the sample-and-hold outputs *7* and *8*.
+
+*Notes:*
+- The outputs of the module can be patch-programmed into the rate input *9*. This will create a second-order randomness where the speed of the random generator is itself changing randomly.
+- Pressing button *13* will cause jack *11* to *output* a pulse - hence its label "TRIG I/O". You can use this as a utility trigger button throughout the system, either to test parts of your Serge patch or in performace.
 
 ### Panel 3 (Mantra)
 
