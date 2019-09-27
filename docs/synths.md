@@ -605,7 +605,7 @@ The **Random Source** is the eponymous design of the company that designed its P
 
 #### Sequencer / Programmer
 
-The ***Sequencer / Programmer*** module is Random Source's interpretation of a variety of Serge modules that allowed for multiple stages of preset voltages that could be recalled either manually or in sequence from a pulse input. The module is an eight stage, two row configuration.
+The ***Sequencer / Programmer*** module is Random Source's interpretation of a variety of Serge modules developed over the years. Serge 4-, 5-, 7-, and 8-stage **Sequencing Programmer** modules allowed for multiple stages of preset voltages that could be recalled either manually or in sequence from a pulse input. These stages were often arranged in rows, so that "preset 1" could recall up to four different voltages for different uses. This module is an eight stage, two row configuration.
 
 <img src = "./img/serge824_3_1.png" width="40%" title="Sequencer / Programmer" alt="Sequencer / Programmer">
 
@@ -629,7 +629,40 @@ The ***Sequencer / Programmer*** module is Random Source's interpretation of a v
 
 #### Dual Universal Slope Generator XL
 
+The **Dual Universal Slope Generator XL (DUSG-XL)** is an expanded version of the Dual Universal Slope Generator. Like the SSG, it is one of the more complex Serge modules, developed in 1976 by combining the first generation Envelope Generator module with the Positive and Negative Slew modules. The DUSG can be used as an envelope generator, a low-pass filter / envelope follower, an oscillator, a harmonic subdivider, and a pulse delay. The module has two (nearly) identical halves, along with a sidecar circuit that performs a peak / trough function on the generated slopes against a secondary signal.
+
 <img src = "./img/serge824_3_2.png" width="40%" title="DUSG XL" alt="DUSG XL">
+
+1. Signal input for envelope follower (AC INPUT)
+2. 1 volt-per-octave input for slope generator (DC INPUT)
+3. CV input for envelope rise (scaled by *6* and summed with *5* and *8*) (DC INPUT)
+4. CV input for envelope fall (scaled by *7* and summed with *5* and *9*) (DC INPUT)
+5. CV input for both rise and fall (summed with *3* x *6* + *8* and *4* x *7* + *9*) (DC INPUT)
+6. Scaling knob for *3*
+7. Scaling knob for *4*
+8. Base knob for rise time (summed with *3* x *6* and *5*)
+9. Base knob for fall time (summed with *4* x *7* and *5*)
+10. CV Slope Output (DC OUTPUT)
+11. Unipolar sinusoid output (DC OUTPUT)
+12. Inverted bipolar output (AC OUTPUT)
+13. Gate output that goes HIGH at the start of fall stage (Trigger OUTPUT)
+14. Square wave (pulse) output (Trigger OUTPUT)
+15. Gate / end output (Trigger OUTPUT)
+16. Envelope trigger input (Trigger INPUT)
+17. Peak comparator 2nd input (DC INPUT)
+18. Peak voltage output - the higher of *10* (top half) and *17* (DC OUTPUT)
+19. Trough voltage output - the lower of *10* (bottom half) and *20* (DC OUTPUT)
+20. Trough comparator 2nd input (DC INPUT)
+
+*Notes:*
+- a trigger sent into input *16* of the DUSG-XL will fire a single **envelope** at output *10* based on the rise and fall times of the slope generator.
+- voltage sent into the signal input (*1*) of the DUSG-XL will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *10*. The DUSG XL performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
+- connecting the gate output *15* to the trigger input *16* of the DUSG-XL will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *10*. Outputs *11*, *12*, and *14* (top half) output different waveforms - a sinusoid tracking the rise fall stages, an AC inverted triangle wave centered around 0V, and a pulse (square) wave.
+- if the rise and fall time add to a greater period than a pulse wave sent to the trigger input *16*, the DUSG-XL can be used as a **harmonic subdivider**. generating oscillators at 1/2, 1/3, etc. the frequency of the incoming signal.
+- the DUSG-XL can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a trigger at input *16* will echo at output *15* at the end of the rise and fall times.
+- the DUSG-XL's additional outputs allow for a lot of experimentation with both control- and audio-rate use of the module. For example, output *13* is a square wave that goes HIGH at the start of the fall stage of the envelope. Playing with the relative lengths of the rise and fall will alter the [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of this signal when used as an oscillator.
+- the DUSG-XL has a sidecar circuit that outputs peak (highest) and trough (lowest) signal comparisons of the two halves' output ramps with secondary inputs. This can be used for a variety of thresholding (at control rate) or modulation / distortion (at audio rate) effects.
+- the CV control for the rise and fall times of the envelopes has an additional "Both" input (*5*) on the DUSG-XL, that allows for controlling the overall duration of the envelope shape while maintaining the relative timings of the rise and fall.
 
 #### Active Pro
 
