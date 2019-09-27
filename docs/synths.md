@@ -581,7 +581,7 @@ The **Random Source** is the eponymous design of the company that designed its P
 
 <img src = "./img/serge824_2_8.png" width="20%" title="Random Source" alt="Random Source">
 
-1. Pulse RVG output - generates random pulses at the module rate (specified by *9* x *10* + *12*) (Trigget OUTPUT)
+1. Pulse output - generates random pulses at the module rate (specified by *9* x *10* + *12*) (Trigget OUTPUT)
 2. Full-spectrum [white noise](https://en.wikipedia.org/wiki/White_noise) (AC OUTPUT)
 3. Stepped random output - generates discrete random voltages at the module rate (DC OUTPUT)
 4. [Pink Noise](https://en.wikipedia.org/wiki/Pink_noise) (AC OUTPUT)
