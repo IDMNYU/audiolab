@@ -605,7 +605,27 @@ The **Random Source** is the eponymous design of the company that designed its P
 
 #### Sequencer / Programmer
 
+The ***Sequencer / Programmer*** module is Random Source's interpretation of a variety of Serge modules that allowed for multiple stages of preset voltages that could be recalled either manually or in sequence from a pulse input. The module is an eight stage, two row configuration.
+
 <img src = "./img/serge824_3_1.png" width="40%" title="Sequencer / Programmer" alt="Sequencer / Programmer">
+
+1. CV output for the "A" row of presets (DC OUTPUT)
+2. CV output for the "B" row of presets (DC OUTPUT)
+3. CV output for the difference between the "A" and "B" voltages (DC OUTPUT)
+4. Gate output corresponding to manual button presses (Trigger OUTPUT)
+5. Reset - sets sequencer to first stage (Trigger INPUT)
+6. Up/Down - reverses direction of sequencer when HIGH (Trigger INPUT)
+7. Hold - temporarily disables sequencer when HIGH (Trigger INPUT)
+8. Clock - advances sequence one stage (Trigger INPUT)
+9. Sequencer on/off switch; off position only allows manual presets
+10. Buttons for manual presets
+11. "A" row of CV knobs for each preset stage
+12. "B" row of CV knobs for each preset stage
+
+*Notes:*
+- the Sequencer / Programmer can be used as a 8-button mini-keyboard, with the rows of presets corresponding to notes in a melody, scales, or any other control voltage value you need.
+- the buttons on the programmer control the starting point of the sequencer, allowing you to make it loop through only some of the presets in sequence to make a pattern that's less than 8 steps long.
+- Like most Serge modules, the Sequencer / Programmer can be sequenced at high frequency, causing the CV outputs to generate a voltage curve made up of the preset stages that can be heard as a waveform or used as a periodic control signal.
 
 #### Dual Universal Slope Generator XL
 
