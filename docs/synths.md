@@ -521,7 +521,7 @@ The **Boolean Logic** module is another design by Ken Stone, intended to expand 
 - The outputs will retain a HIGH voltage as long as the "true" state persists at the inputs, making the outputs function as gates rather than triggers.
 - When used with the inverters, the AND/OR/XOR values can be transformed into NAND/NOR/XNOR values.
 
-#### ÷N Comparator
+#### Divide-by-N Comparator
 
 The **Divide-by-N Comparator (÷N COM)** is a circuit designed by Tcherepnin in 1979. The circuit is in two sections which have linked functionality. The bottom half of the module is a signal comparator, with a trigger output when one voltage rises above another. Thee top half counts the triggers from the bottom half, emitting its own triggers every *N* steps (hence the name) in increments up to 31. An additional output generates a "staircase" DC wave that rises with the number of steps coming from the comparator.
 
@@ -664,9 +664,24 @@ The **Dual Universal Slope Generator XL (DUSG-XL)** is an expanded version of th
 - the DUSG-XL has a sidecar circuit that outputs **peak** (highest) and **trough** (lowest) signal comparisons of the two halves' output ramps with secondary inputs. This can be used for a variety of thresholding (at control rate) or modulation / distortion (at audio rate) effects.
 - the CV control for the rise and fall times of the envelopes has an additional "Both" input (*5*) on the DUSG-XL, that allows for controlling the **overall duration** of the envelope shape while maintaining the relative timings of the rise and fall.
 
-#### Active Pro
+#### Active Processor
+
+The **Active Processor (Active Pro)** is based on Tcherepnin's design of the same name from 1979. It consists of a linear, DC-coupled, 2-input crossfader that can mix control voltages and/or audio signals using equal gain (as opposed to equal power) circuitry. The bottom section contains a ["flip-flop"](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) circuit with two outs that alternates which output is set to HIGH based on triggers at the input.
 
 <img src = "./img/serge824_3_3.png" width="10%" title="Active Pro" alt="Active Pro">
+
+1. Crossfaded signal (DC OUTPUT)
+2. Signal input 1 (DC INPUT)
+3. Signal input 2 (DC INPUT)
+4. Crossfade position voltage (sums with *5*)  (DC INPUT)
+5. Crossfade position knob (sums with *4*)
+6. Flip (odd trigger) gate (Trigger OUTPUT)
+7. Flop (even trigger) gate (Trigger OUTPUT)
+6. Flip-flop input (Trigger INPUT)
+
+*Notes:*
+- the Active Processor, in a pinch, can be used as a linear **VCA** by patching one signal into the second input (*2*), setting the control knob *5* fully to the left, and sending an amplitude envelope into *4*.
+- the Flip-Flop circuit, when fed a pulse train or square wave at audio rate, will generate two signals an octave lower and 180 degrees [out of phase](https://en.wikipedia.org/wiki/Phase_(waves)) with one another.
 
 #### Smooth / Stepped Generator #3
 
