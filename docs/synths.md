@@ -4,6 +4,7 @@
 - [Studio Basics](#studio-basics)
 - [The Synthesizers](#synthesizers)
   - [Serge system overview](#serge-system-overview)
+    - [La Bestia II](#panel-1-la-bestia-ii)
   - [Random\*Source Serge](#random-source-serge)
   - [73-73 Serge](#73-75-serge)
   - [Shelfisizer](#the-shelfisizer)
