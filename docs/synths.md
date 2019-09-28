@@ -901,7 +901,18 @@ The Serge **Triple Waveshaper (TWS)**, along with the Wave Multipliers (found on
 
 #### Peak / Trough
 
+The 73-75 **Peak / Trough** is quite simple, but exemplifies Tcherepnin's instrument design aesthetic of "letting the circuit suggest the sound, rather than the sound suggest the circuit". The module outputs has two sides: the left side (the "Peak") outputs the *highest* signal that appears at its inputs; the right side (the "Trough") outputs the *lowest*.
+
 <img src = "./img/serge7375_1_3.png" width="20%" title="Peak / Trough" alt="Peak / Trough">
+
+1. "Peak" (highest) signal of the left-side inputs (DC OUTPUT)
+2. "Trough" (lowest) signal of the right-side inputs (DC OUTPUT)
+3. Inputs for "Peak" circuit (DC INPUT)
+4. Inputs for "Trough" circuit (DC OUTPUT)
+
+*Notes:*
+- The Peak / Trough module is designed for generating complex signal - whether to be used as voltages or audio - by inputing multiple input signals at different frequencies (e.g. from an Envelope Generator).
+- The module can be used to combine gates / pulses as well - the "Peak" side will go HIGH if any input sends a pulse; the "Trough" side will stay LOW unless all the patched inputs are HIGH.
 
 #### Triple Comparator
 
