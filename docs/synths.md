@@ -850,7 +850,7 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 
 <img src = "./img/serge7375_photo.jpg" width="100%" title="73-75 Serge system" alt="73-75 Serge system">
 
-The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human Comparator. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's designs, sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random\*Source panels.
+The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human Comparator. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's synthesizers, built in his home and sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random\*Source panels, but contain many examples of Tcherepnin's innovative designs.
 
 ### "Homebuilt" Panel 1
 
@@ -858,11 +858,46 @@ The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human C
 
 #### Oscillator
 
+The 73-75 **Oscillator** has two sets of oscillator outputs - a variable waveform that goes from sine to square, and a sawtooth waveform. Both oscillators can be tapped as AC or DC signals, and the saw wave can be [synced](https://en.wikipedia.org/wiki/Oscillator_sync).
+
 <img src = "./img/serge7375_1_1.png" width="20%" title="Oscillator" alt="Oscillator">
+
+1. Bipolar variable waveform, controlled by *3* and *4* (AC OUTPUT)
+2. Unipolar variable waveform, controlled by *3* and *4* (DC OUTPUT)
+3. Control knob for variable waveform shape (sine to square - sums with *4*)
+4. CV input for variable waveform shape (sums with *3*) (DC INPUT)
+5. Unipolar sawtooth waveform (DC OUTPUT)
+6. Bipolar sawtooth waveform (AC OUTPUT)
+7. CV frequency 1 (scaled by *9*, sums with *8* x *10* and *12*) (DC INPUT)
+8. CV frequency 2 (scaled by *10*, sums with *7* x *9* and *12*) (DC INPUT)
+9. Scalar knob for *7*
+10. Scalar knob for *8*
+11. Oscillator sync input for sawtooth outputs *5* and *6* (AC INPUT)
+12. Knob for base oscillator frequency (sums with *7* x *9* and *8* x *10*)
+
+*Notes:*
+- the 73-75 Oscillator was developed before Tcherepnin began to adopt the 1 volt-per-octave standard used by Moog synthesizers. As a result, it has a different frequency scaling from the newer circuit designs used in the Random\*Source modules.
+- The Oscillator has two separate CV inputs (*7* and *8*) with independent scaling (*9* and *10*) to modulate the frequency of the oscillators. This allows for, e.g. an audio-rate FM input as well as a set of voltages from a sequencer.
+- The variable waveform output transitions smoothly from a sine to a (nearly) square waveoutput by using an amplifier / clipping circuit. The square wave is not stable enough to be used as a pulse train, but can be patched through a "square-up" module (such as the Square module on the Shelfisizer).
 
 #### Triple Waveshaper
 
+The Serge **Triple Waveshaper (TWS)**, along with the Wave Multipliers (found on the Random\*Source system) are considered classic examples of "West Coast" distortion synthesis circuits. Consisting of three sets of [waveshapers](https://en.wikipedia.org/wiki/Waveshaper) with CV control, the modules are designed to be patch-programmed to interact with one another in different ways. 
+
 <img src = "./img/serge7375_1_2.png" width="30%" title="TWS" alt="TWS">
+
+1. Signal to be waveshaped (AC INPUT)
+2. Waveshaper CV 2 (DC INPUT)
+3. Waveshaper CV 1 (DC INPUT)
+4. Knob for waveshaper amount (summed with *2* and *3*)
+5. Bipolar output (AC OUTPUT)
+6. Unipolar output (DC OUTPUT)
+
+*Notes:*
+- The TWS transfer function circuit will, when turned all the way up, transform a sawtooth wave into a sine wave, according to the T<sub>2</sub> [Chebyshev polynomial](https://en.wikipedia.org/wiki/Chebyshev_polynomials). The intensity of the shaping control (*2* + *3* + *4*) determines the amount of waveshaping. With a sawtooth wave input, this determines which harmonics are subtracted.
+- A sine wave sent into the same transfer function will have its frequency doubled. A harmonically complex signal will distort in complex ways as the transfer function of a waveshaper circuit exhibits nonlinear behavior.
+- The outputs of the TWS can be patch-programmed in series, so that all three waveshapers can distort the same signal.
+- The TWS is also excellent for shaping low-frequency (control) voltages in complex ways. For example, you could feed one waveshaper in the TWS with the output of an Envelope Generator and a second with an oscillator, using the output of the first as the *CV input* of the second.
 
 #### Peak / Trough
 
