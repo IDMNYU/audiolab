@@ -4,7 +4,7 @@
 - [Studio Basics](#studio-basics)
 - [The Synthesizers](#synthesizers)
   - [Serge system overview](#serge-system-overview)
-  - [Random Source Serge](#random-source-serge)
+  - [Random\*Source Serge](#random-source-serge)
   - [73-73 Serge](#73-75-serge)
   - [Shelfisizer](#the-shelfisizer)
 
@@ -14,7 +14,7 @@
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. These include:
 
-- a large (4-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
+- a large (4-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 
@@ -44,9 +44,9 @@ The mixer for the analog studio is a Behringer UFX-1204, which takes inputs from
 ![Analog Studio Mixer](./img/ufxmixer.jpg "Analog Studio Mixer")
 
 The first four channels of the mixer are mono, and are hard-wired to:
-1. the left output of the "Stereo Mixer" module on the Random Source Serge (the rightmost module on the top panel)
-2. the right output of the "Stereo Mixer" module on the Random Source Serge (the rightmost module on the top panel)
-3. the output of the "XFader" module on the Random Source Serge (the rightmost module on the 3rd panel)
+1. the left output of the "Stereo Mixer" module on the Random\*Source Serge (the rightmost module on the top panel)
+2. the right output of the "Stereo Mixer" module on the Random\*Source Serge (the rightmost module on the top panel)
+3. the output of the "XFader" module on the Random\*Source Serge (the rightmost module on the 3rd panel)
 4. the top output on the "Adapter" module on the 73-75 Serge (the rightmost module on the bottom panel)
 
 The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8, 9/10, 11/12). Channels 5/6 have a cable connected that ends in a stereo 1/8" jack so you can connect the analog output of your laptop.
@@ -71,7 +71,7 @@ The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers i
 
 In addition, unlike many of his competitors, Serge also sold his systems as *kits*, where the customer would receive a circuit board, a face plate and decal label, a Ziploc bag of discrete electronic components, and detailed assembly instructions. This DIY approach - similar to [HeathKit radios](https://shop.heathkit.com/page/homepage) popular at the time - allowed Serge systems to be purchased for a fraction of the cost of a Buchla system if the buyer didn't mind doing some soldering. Many licensed Serge systems today are still sold as kits, with a number of builders, such as our friends at [Patch Point](https://www.patch-point.com/) in Berlin, available to professionaly assemble the kits into finished synthesizers using high quality components.
 
-Tcherepnin's designs found commercial success as a low-cost alternative to other modular synthesis systems available at the time. His company (Serge Modular Music Systems) sold synthesizers under the **Serge** name until 1986. After that, Tcherepnin licensed his designs *non-exclusively* to a number of manufacturers, such as [Sound Transform Systems](http://www.serge-fans.com/prices.html) in the USA, [Elby Designs](https://www.elby-designs.com/index.html) in Australia, [Random Source](http://randomsource.net/) in Germany, [the Human Comparator](http://73-75.com) in Sweden, and [Loudest Warning](http://loudestwarning.co.uk) in the UK. In addition, a number of synthesizer designers, such as [Bugbrand](https://bugbrand.co.uk), [Modcan](http://www.modcan.com/), [Ciat-Lonbarde](https://ciat-lonbarde.net), and [Kilpatrick Audio](http://kilpatrickaudio.com/), continue to develop new synths using a Serge-inspired or Serge-compatible format.
+Tcherepnin's designs found commercial success as a low-cost alternative to other modular synthesis systems available at the time. His company (Serge Modular Music Systems) sold synthesizers under the **Serge** name until 1986. After that, Tcherepnin licensed his designs *non-exclusively* to a number of manufacturers, such as [Sound Transform Systems](http://www.serge-fans.com/prices.html) in the USA, [Elby Designs](https://www.elby-designs.com/index.html) in Australia, [Random\*Source](http://randomsource.net/) in Germany, [the Human Comparator](http://73-75.com) in Sweden, and [Loudest Warning](http://loudestwarning.co.uk) in the UK. In addition, a number of synthesizer designers, such as [Bugbrand](https://bugbrand.co.uk), [Modcan](http://www.modcan.com/), [Ciat-Lonbarde](https://ciat-lonbarde.net), and [Kilpatrick Audio](http://kilpatrickaudio.com/), continue to develop new synths using a Serge-inspired or Serge-compatible format.
 
 The [Serge-Fans](http://www.serge-fans.com/history.htm) web page (which doubles as an information site for Sound Transform Systems) is a great resource to learn more about the history of these synthesizers. In addition, there's a nice video interview with Tcherepnin [here](https://www.youtube.com/watch?v=To_gkk9GEpQ).
 
@@ -106,7 +106,7 @@ Jacks are colored based on the type of voltage they send (or expect to receive).
 | DC            | Unipolar continuous (analog) | 0 to 5V       | Light Blue | Light Grey | Dark Blue |
 | Trigger       | Unipolar discrete (digital) | 0 *or* 5V      | Red | Red | Red |
 
-Some modules have additional colors, such as lavender jacks for passive connectors on the 73-75 Adaptor module and orange for the AC-coupled (-5V or 5V) comparator jack on the Random Source Smooth/Stepped Generator module.
+Some modules have additional colors, such as lavender jacks for passive connectors on the 73-75 Adaptor module and orange for the AC-coupled (-5V or 5V) comparator jack on the Random\*Source Smooth/Stepped Generator module.
 
 As noted above, these conventions describe the kind of voltage being delivered, not *how* you're going to use it. As in the image above, the output area of the module has black, blue, and red jacks, but all of them can be used to generate either audio patched into the speakers or control voltage patched into another module.
 
@@ -134,15 +134,15 @@ As mentioned above, patching using banana jacks means that you're only connectin
 
 **Do not remove or replug ground wires - this may prevent the equipment from working properly.**
 
-## Random Source Serge
+## Random\*Source Serge
 
-<img src = "./img/serge824_photo.jpg" width="100%" title="Random Source Serge system" alt="Random Source Serge system">
+<img src = "./img/serge824_photo.jpg" width="100%" title="Random\*Source Serge system" alt="Random\*Source Serge system">
 
-The Random Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [Random Source "shop" panels](http://randomsource.net/serge_panels) (prebuilt configuration of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). These panels incorporate the designs of modules sold by Serge Modular Music Systems sold in 1979-1980, along with a number of innovations by Random Source.
+The Random\*Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [Random\*Source "shop" panels](http://randomsource.net/serge_panels) (prebuilt configuration of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). These panels incorporate the designs of modules sold by Serge Modular Music Systems sold in 1979-1980, along with a number of innovations by Random\*Source.
 
 ### Panel 1 (La Bestia II)
 
-<img src = "./img/serge824_1.png" width="100%" title="Random Source La Bestia II" alt="Random Source La Bestia II">
+<img src = "./img/serge824_1.png" width="100%" title="Random\*Source La Bestia II" alt="Random\*Source La Bestia II">
 
 #### New Timbral Oscillator
 
@@ -288,7 +288,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 
 #### Dual Slopes #1
 
-The **Dual Slopes** are the Random Source implementation of a 1976 Serge module called the **Dual Transient Generator** (some Serge licensees still use that name; STS sells a related module called the **Voltage-Controlled Timegen Oscillator**). The module consists of the circuit for a Dual Universal Slope Generator (DUSG - see below) with a simplified panel interface, optimized for generating harmonically linked oscillators and clock pulses. The module contains two sides:
+The **Dual Slopes** are the Random\*Source implementation of a 1976 Serge module called the **Dual Transient Generator** (some Serge licensees still use that name; STS sells a related module called the **Voltage-Controlled Timegen Oscillator**). The module consists of the circuit for a Dual Universal Slope Generator (DUSG - see below) with a simplified panel interface, optimized for generating harmonically linked oscillators and clock pulses. The module contains two sides:
 - on the left, an envelope generator that's internally wired to act as a self-clocking oscillator. This outputs a falling sawtooth and a pulse (square wave) at a specified frequency. 
 - on the right, a second envelope generator that can be triggered either manually or at the end of the left oscillator's slope. This side outputs a triangle wave with controllable rise and fall times.
 - both sides can also act as a slew (envelope follower) on a signal input.
@@ -374,7 +374,7 @@ The **Variable Q Voltage Controlled Filter (VCFQ)**, sometimes referred to as th
 
 #### Stereo Mixer
 
-The **Stereo Mixer** is Random Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment - in the IDM analog studio it's wired to inputs 1 and 2 on the Behringer mixer. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
+The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment - in the IDM analog studio it's wired to inputs 1 and 2 on the Behringer mixer. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
 
 <img src = "./img/serge824_1_8.png" width="20%" title="Stereo Mixer" alt="Stereo Mixer">
 
@@ -402,11 +402,11 @@ The **Stereo Mixer** is Random Source's take on Tcherepnin's **Dual Channel Ster
 
 ### Panel 2 (Edelweiss II)
 
-<img src = "./img/serge824_2.png" width="100%" title="Random Source Edelweiss II" alt="Random Source Edelweiss II">
+<img src = "./img/serge824_2.png" width="100%" title="Random\*Source Edelweiss II" alt="Random\*Source Edelweiss II">
 
 #### Dual Universal Slope Generator #1
 
-The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more complex Serge modules, developed in 1976 by combining the first generation Envelope Generator module with the Positive and Negative Slew modules. The DUSG can be used as an envelope generator, a low-pass filter / envelope follower, an oscillator, a harmonic subdivider, and a pulse delay. The module has two halves that are almost, but not quite, identical. DUSG #1 on the Random Source Serge is a "contemporary" model, with a pulse output on the top half.
+The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more complex Serge modules, developed in 1976 by combining the first generation Envelope Generator module with the Positive and Negative Slew modules. The DUSG can be used as an envelope generator, a low-pass filter / envelope follower, an oscillator, a harmonic subdivider, and a pulse delay. The module has two halves that are almost, but not quite, identical. DUSG #1 on the Random\*Source Serge is a "contemporary" model, with a pulse output on the top half.
 
 <img src = "./img/serge824_2_1.png" width="30%" title="DUSG" alt="DUSG">
 
@@ -451,7 +451,7 @@ The **Control Voltage Processor**, originally called the **Dual Voltage Processo
 
 #### Dual Universal Slope Generator #2
 
-The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more complex Serge modules, developed in 1976 by combining the first generation Envelope Generator module with the Positive and Negative Slew modules. The DUSG can be used as an envelope generator, a low-pass filter / envelope follower, an oscillator, a harmonic subdivider, and a pulse delay. The module has two identical halves. DUSG #2 on the Random Source Serge is a "classic" model, with an inverted bipolar output in addition to the slope output.
+The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more complex Serge modules, developed in 1976 by combining the first generation Envelope Generator module with the Positive and Negative Slew modules. The DUSG can be used as an envelope generator, a low-pass filter / envelope follower, an oscillator, a harmonic subdivider, and a pulse delay. The module has two identical halves. DUSG #2 on the Random\*Source Serge is a "classic" model, with an inverted bipolar output in addition to the slope output.
 
 <img src = "./img/serge824_2_3.png" width="30%" title="DUSG" alt="DUSG">
 
@@ -544,7 +544,7 @@ The **Divide-by-N Comparator (÷N COM)** is a circuit designed by Tcherepnin in 
 
 #### Smooth / Stepped Generator #2
 
-The **Smooth / Stepped Generator (SSG)** was designed by Tcherepnin in 1974. Along with the Dual Universal Slope Generator, it's one of the most versatile circuits in the canonical Serge system. Depending on how an SSG is patched, it can function as a [slew](https://en.wikipedia.org/wiki/Slew_rate) (envelope follower / lowpass filter), a sample-and-hold circuit, a triangle wave oscillator, or a low-pass gate. SSG #2 on the Random Source Serge system has no sidecar noise circuit, but can receive voltage from elsewhere in the system to create different random effects.
+The **Smooth / Stepped Generator (SSG)** was designed by Tcherepnin in 1974. Along with the Dual Universal Slope Generator, it's one of the most versatile circuits in the canonical Serge system. Depending on how an SSG is patched, it can function as a [slew](https://en.wikipedia.org/wiki/Slew_rate) (envelope follower / lowpass filter), a sample-and-hold circuit, a triangle wave oscillator, or a low-pass gate. SSG #2 on the Random\*Source Serge system has no sidecar noise circuit, but can receive voltage from elsewhere in the system to create different random effects.
 
 The module is divided into two halves: the "Smooth" side at the top, and the "Stepped" at the bottom. In between the two, a Coupler circuit outputs a comparator voltage of the two sides.
 
@@ -601,11 +601,11 @@ The **Random Source** is the eponymous design of the company that designed its P
 
 ### Panel 3 (Mantra)
 
-<img src = "./img/serge824_3.png" width="100%" title="Random Source Mantra" alt="Random Source Mantra">
+<img src = "./img/serge824_3.png" width="100%" title="Random\*Source Mantra" alt="Random\*Source Mantra">
 
 #### Sequencer / Programmer
 
-The ***Sequencer / Programmer*** module is Random Source's interpretation of a variety of Serge modules developed over the years. Serge 4-, 5-, 7-, and 8-stage **Sequencing Programmer** modules allowed for multiple stages of preset voltages that could be recalled either manually or in sequence from a pulse input. These stages were often arranged in rows, so that "preset 1" could recall up to four different voltages for different uses. This module is an eight stage, two row configuration.
+The ***Sequencer / Programmer*** module is Random\*Source's interpretation of a variety of Serge modules developed over the years. Serge 4-, 5-, 7-, and 8-stage **Sequencing Programmer** modules allowed for multiple stages of preset voltages that could be recalled either manually or in sequence from a pulse input. These stages were often arranged in rows, so that "preset 1" could recall up to four different voltages for different uses. This module is an eight stage, two row configuration.
 
 <img src = "./img/serge824_3_1.png" width="40%" title="Sequencer / Programmer" alt="Sequencer / Programmer">
 
@@ -722,7 +722,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 
 #### Dual Slopes #2
 
-The **Dual Slopes** are the Random Source implementation of a 1976 Serge module called the **Dual Transient Generator** (some Serge licensees still use that name; STS sells a related module called the **Voltage-Controlled Timegen Oscillator**). The module consists of the circuit for a Dual Universal Slope Generator (DUSG - see below) with a simplified panel interface, optimized for generating harmonically linked oscillators and clock pulses. The module contains two sides:
+The **Dual Slopes** are the Random\*Source implementation of a 1976 Serge module called the **Dual Transient Generator** (some Serge licensees still use that name; STS sells a related module called the **Voltage-Controlled Timegen Oscillator**). The module consists of the circuit for a Dual Universal Slope Generator (DUSG - see below) with a simplified panel interface, optimized for generating harmonically linked oscillators and clock pulses. The module contains two sides:
 - on the left, an envelope generator that's internally wired to act as a self-clocking oscillator. This outputs a falling sawtooth and a pulse (square wave) at a specified frequency. 
 - on the right, a second envelope generator that can be triggered either manually or at the end of the left oscillator's slope. This side outputs a triangle wave with controllable rise and fall times.
 - both sides can also act as a slew (envelope follower) on a signal input.
@@ -803,7 +803,7 @@ The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepn
 
 ### Panel 4 (TKB)
 
-<img src = "./img/serge824_4.png" width="100%" title="Random Source Touch Activated Keyboard Sequencer" alt="Random Source Touch Activated Keyboard Sequencer">
+<img src = "./img/serge824_4.png" width="100%" title="Random\*Source Touch Activated Keyboard Sequencer" alt="Random\*Source Touch Activated Keyboard Sequencer">
 
 #### Touch Activated Keyboard Sequencer
 
@@ -848,7 +848,7 @@ Unlike the Buchla touch controllers, the Serge TKB doubled as a sophisticated se
 
 <img src = "./img/serge7375_photo.jpg" width="100%" title="73-75 Serge system" alt="73-75 Serge system">
 
-The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human Comparator. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's designs, sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random Source panels.
+The 73-75 Serge was built by Luther Bradfute based on kit designs by the Human Comparator. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's designs, sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random\*Source panels.
 
 ### "Homebuilt" Panel 1
 
