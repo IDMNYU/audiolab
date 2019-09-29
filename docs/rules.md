@@ -18,7 +18,7 @@ The IDM Audio lab is **for the use of IDM faculty, students, staff, and guests w
 
 The IDM Audio Lab is **not a commercial recording studio**. Under no circumstances can you bring clients in to record and then charge them money.
 
-The Audio Lab is **not a social space**. If you're not working with the equipment, please find another space so that other folks can come in and work.
+The Audio Lab is **not a social space**. If you're not working with the equipment, please find another place to hang out so that other folks can come in and work.
 
 ## Rules
 
