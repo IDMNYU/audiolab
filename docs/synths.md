@@ -1105,7 +1105,7 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 <img src = "./img/shelfisizer2019_photo.jpg" width="100%" title="2019 Shelfisizer" alt="2019 Shelfisizer">
 
-The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modular systems but also hybrid analog synthesis / microcontroller systems such as the [Buchla 200e](https://buchla.com/systems-design/). These modules use 16mHz [Adafruit Metro Mini](https://www.adafruit.com/product/2590) microcontrollers and simple monolithic IC chips to handle much of the logic that definies the module's behavior, leaving discrete components for the parts of the modules that actually generate analog signals. The use of microcontrollers makes it simple to prototype modules that require an understanding of "state", such as pattern memory or hysteresis, and allows for a design that has a much lower part count than typical synthesizer modules.
+The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modular systems but also hybrid analog synthesis / microcontroller systems such as the [Buchla 200e](https://buchla.com/systems-design/). These modules use 16mHz [Adafruit Metro Mini](https://www.adafruit.com/product/2590) microcontrollers and simple monolithic IC chips to handle much of the logic that definies the module's behavior, leaving discrete components for the parts of the modules that actually generate analog signals. The use of microcontrollers makes it simple to prototype modules that require an understanding of "state", such as pattern memory or hysteresis, and the use of CMOS ICs allows for a design that has a much lower part count than typical analog synthesizer modules.
 
 ### 2019 Panel
 
@@ -1113,11 +1113,54 @@ The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modul
 
 #### Pulse
 
+The **Pulse** module is a 16-stage, 4-row [**sequencer**](https://en.wikipedia.org/wiki/Music_sequencer) with boolean (on/off) states for each stage of each row. The Arduino in the module saves the current sequence as long as the module has power, and a 4-button interface allows you to dynamically program in patterns for the 4 output rows, as well as a numbe of other functions. The module generates pulses in response to an external clock which advances the current step in the sequence.
+
 <img src = "./img/shelfisizer2019_1.png" width="20%" title="Pulse" alt="Pulse">
+
+1. "A" sequence (Pulse OUTPUT)
+2. "B" sequence (Pulse OUTPUT)
+3. "C" sequence (Pulse OUTPUT)
+4. "D" sequence (Pulse OUTPUT)
+5. "Page" button
+6. "Select" button
+7. "Up" button
+8. "Down" button
+9. External clock (Pulse INPUT)
+10. Interface LEDs
+
+*Notes:*
+- Pulses sent to the Clock input *9* will advance the sequencer on step at a time. Pulses will be sent out of *1*-*4* at sequence stages that are programmed to be "on" for those rows. This is similar in behavior to the sequencer on a simple drum machine.
+- The internal software has seven pages which can be cycled through by pressing the page button *5*. The first shows the current stage by lighting one LED among the sixteen on the panel. Pages 2-5 allow you to program the patterns for outputs A, B, C, and D. The up and down buttons (*7* and *8*) will move a cursor on the LED display, causing the currently selected stage LED to flicker. The select button *6* will invert the current state of that row at that stage, turning on "on" to an "off" and vice versa. The 6th and 7th pages allow you to set the start and end points of the sequence, allowing you to make a sequence that is shorter than 16 stages, begins on a step other than 1, and so on.
+- When page 1 is active (i.e. the LEDs are showing the current stage of the sequencer) the "up" button will cause the sequence to jump to a random stage, the "down" button will reverse the direction of the sequencer, and the "select" button will reset the sequence to stage 1.
 
 #### Onebang
 
+The **Onebang** module generates rhythmic output by comparing up to six input voltages (labeled as A-F) against a threshold, sending out pulses on a clock input. There are 12 modes of operation, which change the way in which the input voltages generate pulses.
+
 <img src = "./img/shelfisizer2019_2.png" width="20%" title="Onebang" alt="Onebang">
+
+1. CV inputs A-F (DC INPUT)
+2. Trigger outputs A-F (Pulse OUTPUT)
+3. External clock (Pulse INPUT)
+4. Mode button
+5. Mode indicator LEDs
+
+*Notes:*
+- The Onebang module decides if a input voltage is HIGH or not based on a ~2.5V threshold.
+- The Onebang module has 12 modes of operation:
+  - 0: if the input voltage on a channel is HIGH, an internal bit is set on the Arduino. On the next clock, a pulse will be fired on that channel and the bit will be reset.
+  - 1: similar to 0, but with [hysteresis](https://en.wikipedia.org/wiki/Hysteresis). The input voltage needs to go LOW again before a new pulse will fire on that channel.
+  - 2: the input value is a probability for a pulse, i.e. the higher the control voltage, the more likely a pulse will occur on the next clock.
+  - 3: each clock pulse causes one trigger to occur across the entire module; the input with the highest voltage will cause the module to fire a pulse at its output.
+  - 4: on a clock pulse, pairs of inputs (A/B, C/D, E/F) are compared, with the higher voltage inputs sending a pulse.
+  - 5: similar to 4, but with hysteresis, i.e. the comparator relationship has to change for a new pulse to be sent.
+  - 6: on a clock pulse, the voltage at input A determines which output (A-F) fires; 0 volts at the input will cause output A to pulse; 5 volts will fire output F; values in between will span all six outputs.
+  - 7: similar to 6, but inputs A and D determine pulses on three outputs each (A-C and D-F).
+  - 8: inputs A/B and D/E are compared as boolean variables for AND, OR, and XOR operations across outputs A-C and D-F.
+  - 9: similar to 8, but with hysteresis, requiring that the output state change before a second pulse can be fired.
+  - 10: similar to 8, but with inputs C and F setting the HIGH threshold for the boolean operations.
+  - 11: similar to 10, but with hysteresis, requiring that the output state change before a second pulse can be fired.
+- The Onebang module is intended to be used experimentally to generate different rhythms. Patching LFOs of different frequencies and phases into the inputs can create a wide variety of rhythms very quickly.
 
 #### Dust / Dirt
 
