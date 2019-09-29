@@ -18,7 +18,7 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 
-In addition, a number of additional bits and pieces exist in the Audio Lab to help people work with the synthesizers:
+In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) MIDI interface.
