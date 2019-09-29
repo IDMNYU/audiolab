@@ -916,7 +916,19 @@ The 73-75 **Peak / Trough** is quite simple, but exemplifies Tcherepnin's instru
 
 #### Triple Comparator
 
+The **Triple Comparator** is Tcherepnin's first "Boolean" module, consisting for three identical circuits that send a pulse output HIGH whenever their "+" input rises above their "-" input. A knob can set a fixed DC threshold instead of a varying "-" input.
+
 <img src = "./img/serge7375_1_4.png" width="20%" title="Triple Comparator" alt="Triple Comparator">
+
+1. Comparator result - HIGH if *2* > *3* + *4*; LOW otherwise (Pulse OUTPUT)
+2. "+" signal (DC INPUT)
+3. "-" signal (sums with *4*) (DC INPUT)
+4. "-" threshold knob (sums with *3*)
+
+*Notes:*
+- the Triple Comparator's pulse output can trigger an envelope, advance a sequencer, or generate a ramp by sending its pulse output through a slew module, in response to the ways in which its input signals interact.
+- the Triple Comparator can easily be used to "square up" an input signal (*2*) against a threshold (*4*), to create an audio square wave, a gate, or a pulse. Sending a DC sawtooth signal from the Oscillator module into the "+" input (*2*), for example, will output a square wave, with the "-" level, set by knob *4*, signal input *3*, or both, determining the [pulse width](https://en.wikipedia.org/wiki/Pulse-width_modulation) of the output signal.
+- the Triple Comparator's outputs are continuous boolean signal comparators, not Schmitt triggers, so the output voltage will remain HIGH as long as the "+" signal is greater than the "-" signal.
 
 #### Dual Processor
 
