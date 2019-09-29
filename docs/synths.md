@@ -108,7 +108,7 @@ Jacks are colored based on the type of voltage they send (or expect to receive).
 | DC            | Unipolar continuous (analog) | 0 to 5V       | Light Blue | Light Grey | Dark Blue |
 | Pulse       | Unipolar discrete (digital) | 0 *or* 5V      | Red | Red | Red |
 
-Some modules have additional colors, such as lavender jacks for passive connectors on the 73-75 Adaptor module and orange for the AC-coupled (-5V or 5V) comparator jack on the Random\*Source Smooth/Stepped Generator module.
+Some modules have additional colors, such as lavender jacks for passive connectors on the 73-75 Adaptor module and orange for the AC-coupled (-5V or 5V) comparator jack on the Random\*Source Smooth / Stepped Generator module.
 
 As noted above, these conventions describe the kind of voltage being delivered, not *how* you're going to use it. As in the image above, the output area of the module has black, blue, and red jacks, but all of them can be used to generate either audio patched into the speakers or control voltage patched into another module.
 
@@ -1113,7 +1113,7 @@ The Shelfisizer is an open-source project by Luke DuBois inspired by Serge modul
 
 #### Pulse
 
-The **Pulse** module is a 16-stage, 4-row [**sequencer**](https://en.wikipedia.org/wiki/Music_sequencer) with boolean (on/off) states for each stage of each row. The Arduino in the module saves the current sequence as long as the module has power, and a 4-button interface allows you to dynamically program in patterns for the 4 output rows, as well as a numbe of other functions. The module generates pulses in response to an external clock which advances the current step in the sequence.
+The **Pulse** module on the Shelfisizer is a 16-stage, 4-row [**sequencer**](https://en.wikipedia.org/wiki/Music_sequencer) with boolean (on/off) states for each stage of each row. The Arduino in the module saves the current sequence as long as the module has power, and a 4-button interface allows you to dynamically program in patterns for the 4 output rows, as well as a numbe of other functions. The module generates pulses in response to an external clock which advances the current step in the sequence.
 
 <img src = "./img/shelfisizer2019_1.png" width="20%" title="Pulse" alt="Pulse">
 
@@ -1135,7 +1135,7 @@ The **Pulse** module is a 16-stage, 4-row [**sequencer**](https://en.wikipedia.o
 
 #### Onebang
 
-The **Onebang** module generates rhythmic output by comparing up to six input voltages (labeled as A-F) against a threshold, sending out pulses on a clock input. There are 12 modes of operation, which change the way in which the input voltages generate pulses.
+The Shelfisizer's **Onebang** module generates rhythmic output by comparing up to six input voltages (labeled as A-F) against a threshold, sending out pulses on a clock input. There are 12 modes of operation, which change the way in which the input voltages generate pulses.
 
 <img src = "./img/shelfisizer2019_2.png" width="20%" title="Onebang" alt="Onebang">
 
@@ -1164,7 +1164,29 @@ The **Onebang** module generates rhythmic output by comparing up to six input vo
 
 #### Dust / Dirt
 
+The **Dust / Dirt** module is the one part of the 2019 Shelfisizer that generates AC voltage ("audio"). It has to modes, allowing it to act either as a pulse triggered, noisy 6-voice drum machine (DIRT), or as a six-channel noise generator with specific characteristics for each channel (DUST).
+
 <img src = "./img/shelfisizer2019_3.png" width="30%" title="Dust / Dirt" alt="Dust / Dirt">
+
+1. Trigger inputs for each channel (Mode 0 only) (Pulse INPUT)
+2. Drum / noise outputs for each channel (AC OUTPUT)
+3. Knobs to control channel parameter
+4. LFO rate knob
+5. LFO depth knob
+6. Mode switch
+
+*Notes:*
+- The Dust/Dirt module generates digital noise from the Arduino microcontroller through a bank of analog filters. The digital noise algorithm and the analog filter topology are unique to each channel:
+  - L1: "kick" noise through a low-pass filter at a 50Hz cutoff.
+  - H1: "snare" noise through a high-pass filter at a 2.3kHz cutoff.
+  - B1: "tom" noise through a band-pass filter at 429Hz.
+  - L2: "thud" noise through a low-pass filter at a 14Hz rolloff.
+  - H2: "scratch" noise through high-pass filter at a 482Hz cutoff.
+  - B2: "ring" noise through a band-pass filter at 4kHz.
+- The Arduino in the Dust/Dirt module uses a [LFSR](https://en.wikipedia.org/wiki/Linear-feedback_shift_register#Galois_LFSRs) technique to generate noise by flipping bits on the digital output pins of the microcontroller. The frequency response of this noise is comparable to the noise generated using a [Zener diode](https://en.wikipedia.org/wiki/Noise_generator#Zener_diode), a common technique in analog synthesizer circuits.
+- In mode 0 (DIRT), the module behaves like a drum machine, with pulse inputs firing short bursts of noise. The parameter knobs for each channel control the average sustain of each "drum" envelope.
+- In mode 1 (DUST), the module channels continuously output noise, and the trigger inputs are ignored. In this mode, the parameter knobs for each channel control the probability of the noise.
+- An internal sine LFO in the Arduino software modulates the sustain / probability of the noise in the two modes. Knobs *4* and *5* control the LFO rate and depth, respectively.
 
 #### Lookup
 
