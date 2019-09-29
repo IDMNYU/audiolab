@@ -876,13 +876,13 @@ The 73-75 **Oscillator** has two sets of oscillator outputs - a variable wavefor
 12. Knob for base oscillator frequency (sums with *7* x *9* and *8* x *10*)
 
 *Notes:*
-- the 73-75 Oscillator was developed before Tcherepnin began to adopt the 1 volt-per-octave standard used by Moog synthesizers. As a result, it has a different frequency scaling from the newer circuit designs used in the Random\*Source modules.
+- the 73-75 Oscillator was developed before Tcherepnin adopted the 1 volt-per-octave standard used by Moog synthesizers. As a result, it has a different frequency scaling from the newer circuit designs used in the Random\*Source modules.
 - The Oscillator has two separate CV inputs (*7* and *8*) with independent scaling (*9* and *10*) to modulate the frequency of the oscillators. This allows for, e.g. an audio-rate FM input as well as a set of voltages from a sequencer.
 - The variable waveform output transitions smoothly from a sine to a (nearly) square waveoutput by using an amplifier / clipping circuit. The square wave is not stable enough to be used as a pulse train, but can be patched through a "square-up" module (such as the Square module on the Shelfisizer).
 
 #### Triple Waveshaper
 
-The Serge **Triple Waveshaper (TWS)**, along with the Wave Multipliers (found on the Random\*Source system) are considered classic examples of "West Coast" distortion synthesis circuits. Consisting of three sets of [waveshapers](https://en.wikipedia.org/wiki/Waveshaper) with CV control, the modules are designed to be patch-programmed to interact with one another in different ways. 
+The Serge **Triple Waveshaper (TWS)**, along with the Wave Multipliers (found on the Random\*Source system), are considered classic examples of modules that perform "West Coast" synthesizer distortion. Consisting of three sets of [waveshapers](https://en.wikipedia.org/wiki/Waveshaper) with CV control, the modules are designed to be patch-programmed to interact with one another in different ways. 
 
 <img src = "./img/serge7375_1_2.png" width="30%" title="TWS" alt="TWS">
 
@@ -901,7 +901,7 @@ The Serge **Triple Waveshaper (TWS)**, along with the Wave Multipliers (found on
 
 #### Peak / Trough
 
-The 73-75 **Peak / Trough** is quite simple, but exemplifies Tcherepnin's instrument design aesthetic of "letting the circuit suggest the sound, rather than the sound suggest the circuit". The module outputs has two sides: the left side (the "Peak") outputs the *highest* signal that appears at its inputs; the right side (the "Trough") outputs the *lowest*.
+The 73-75 **Peak / Trough** is quite simple, but exemplifies Tcherepnin's instrument design aesthetic of "letting the circuit suggest the sound, rather than the sound suggest the circuit". The module has two sides: the left side (the "Peak") outputs the *highest* signal that appears at its inputs; the right side (the "Trough") outputs the *lowest*.
 
 <img src = "./img/serge7375_1_3.png" width="20%" title="Peak / Trough" alt="Peak / Trough">
 
@@ -916,7 +916,7 @@ The 73-75 **Peak / Trough** is quite simple, but exemplifies Tcherepnin's instru
 
 #### Triple Comparator
 
-The **Triple Comparator** is Tcherepnin's first "Boolean" module, consisting for three identical circuits that send a pulse output HIGH whenever their "+" input rises above their "-" input. A knob can set a fixed DC threshold instead of a varying "-" input.
+The **Triple Comparator** is Tcherepnin's first "Boolean" module, consisting of three identical circuits that send a pulse output HIGH whenever their "+" input rises above their "-" input. A knob can set a fixed DC threshold instead of a varying "-" input.
 
 <img src = "./img/serge7375_1_4.png" width="20%" title="Triple Comparator" alt="Triple Comparator">
 
@@ -951,7 +951,7 @@ The **Dual Processor** is a first-generation Tcherepnin design that has survived
 
 #### Ring Modulator
 
-The original Serge **Ring Modulator** allowed for the multiplication of bipolar and unipolar signals to create a variety of effects. A control knob controls the strength of the effect.
+The Serge **Ring Modulator** was one of Tcherepnin's earliest designs, and allows for the multiplication of bipolar and unipolar signals to create a variety of effects. A control knob controls the strength of the effect.
 
 <img src = "./img/serge7375_1_6.png" width="10%" title="Ring" alt="Ring">
 
@@ -988,7 +988,7 @@ The 1973 Serge **Gate** module was Tcherepnin's first [**VCA**](https://en.wikip
 
 #### Reverb
 
-The 1973 Serge **Reverb** unit used a mounted [spring reverberation](https://en.wikipedia.org/wiki/Reverberation#Spring_reverberators) tank on the back of the panel to add a reverb effect to the incoming signal.
+The 1973 Serge **Reverb** unit uses a mounted [spring reverberation](https://en.wikipedia.org/wiki/Reverberation#Spring_reverberators) tank on the back of the panel to add a reverb effect to the incoming signal.
 
 <img src = "./img/serge7375_1_8.png" width="10%" title="Reverb" alt="Reverb">
 
