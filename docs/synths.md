@@ -1181,7 +1181,7 @@ The **Dust / Dirt** module is the one part of the 2019 Shelfisizer that generate
   - H1: "snare" noise through a high-pass filter at a 2.3kHz cutoff.
   - B1: "tom" noise through a band-pass filter at 429Hz.
   - L2: "thud" noise through a low-pass filter at a 14Hz rolloff.
-  - H2: "scratch" noise through high-pass filter at a 482Hz cutoff.
+  - H2: "scratch" noise through a high-pass filter at a 482Hz cutoff.
   - B2: "ring" noise through a band-pass filter at 4kHz.
 - The Arduino in the Dust/Dirt module uses a [Linear-Feeedback Shift Register](https://en.wikipedia.org/wiki/Linear-feedback_shift_register#Galois_LFSRs) technique to generate noise by flipping bits on the digital output pins of the microcontroller. The frequency response of this noise is comparable to the noise generated using a [Zener diode](https://en.wikipedia.org/wiki/Noise_generator#Zener_diode), a common technique in analog synthesizer circuits.
 - In mode 0 (DIRT), the module behaves like a drum machine, with pulse inputs firing short bursts of noise. The parameter knobs for each channel control the average sustain of each "drum" envelope.
