@@ -108,7 +108,7 @@ Interface elements on Serge modules consist of jacks (points of connection), LED
 
 Jacks are colored based on the type of voltage they send (or expect to receive). Tcherepnin's original design called for three types of voltage connection with color codes:
 
-| Voltage Type  | Description     | Voltage Range | RS     | 73-75 | Shelfisizer |
+| Voltage Type  | Description     | Voltage Range | R\*S     | 73-75 | Shelfisizer |
 | ------------- | --- |           ---            |     ---|    ---|          ---|
 | AC            | Bipolar continuous (analog) | -2.5V to 2.5V | Black | Brown | Black |
 | DC            | Unipolar continuous (analog) | 0 to 5V       | Light Blue | Light Grey | Dark Blue |
