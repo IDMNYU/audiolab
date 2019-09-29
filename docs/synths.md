@@ -369,14 +369,14 @@ The **Variable Q Voltage Controlled Filter (VCFQ)**, sometimes referred to as th
 15. Knob to set the base frequency of the filter
 
 *Notes:*
-- the VCFQ can [self-oscillate](https://en.wikipedia.org/wiki/Self-oscillation) by patching the band-pass output (*1*) into the input (*5*). As you increase the Q, the band-pass output will approach a sine wave. The various outputs of the filter will be 90 degrees out of phase with one another.
-- the pulse input *7* can be used to generate filtered percussion straight from a clock source.
-- the LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
-- the Serge fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
+- The VCFQ can [self-oscillate](https://en.wikipedia.org/wiki/Self-oscillation) by patching the band-pass output (*1*) into the input (*5*). As you increase the Q, the band-pass output will approach a sine wave. The various outputs of the filter will be 90 degrees out of phase with one another.
+- The pulse input *7* can be used to generate filtered percussion straight from a clock source.
+- The LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
+- The Serge-Fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
 
 #### Stereo Mixer
 
-The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment - in the IDM analog studio it's wired to inputs 1 and 2 on the Behringer mixer. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
+The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
 
 <img src = "./img/serge824_1_8.png" width="20%" title="Stereo Mixer" alt="Stereo Mixer">
 
@@ -398,9 +398,10 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 16. Gain control knob for channel 2
 
 *Notes:*
-- by lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Dual Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
-- the CV input for panning is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
-- the voltage at the output stage of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
+- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Dual Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
+- The CV input for panning is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
+- The voltage at the output stage of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
+- The two TRS outputs of the Stereo Mixer in the IDM analog studio are wired to inputs 1 and 2 on the Behringer mixer.
 
 ### Panel 2 (Edelweiss II)
 
@@ -426,11 +427,11 @@ The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more 
 12. Envelope trigger input (Pulse INPUT)
 
 *Notes:*
-- a pulse sent into input *12* of the DUSG will fire a single **envelope** at output *1* and *2*, based on the rise and fall times of the slope generator.
-- voltage sent into the signal input (*4*) of the DUSG will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *1* and *2*. The DUSG performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
-- connecting the gate output *3* to the pulse input *12* of the DUSG will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *1*. Output *2* will put out a different waveform - the red jack on the top slope generator puts out a square wave, and the bottom slope generator outputs an AC inverted triangle wave, centered around 0V.
-- if the rise and fall time add to a greater period than a pulse wave sent to the pulse input *12*, the DUSG can be used as a **harmonic subdivider**. generating an oscillator at 1/2, 1/3, etc. the frequency of the incoming signal.
-- the DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a pulse at input *12* will echo at output *3* at the end of the rise and fall times.
+- A pulse sent into input *12* of the DUSG will fire a single **envelope** at output *1* and *2*, based on the rise and fall times of the slope generator.
+- Voltage sent into the signal input (*4*) of the DUSG will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *1* and *2*. The DUSG performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
+- Connecting the gate output *3* to the pulse input *12* of the DUSG will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *1*. Output *2* will put out a different waveform - the red jack on the top slope generator puts out a square wave, and the bottom slope generator outputs an AC inverted triangle wave, centered around 0V.
+- If the rise and fall time add to a greater period than a pulse wave sent to the pulse input *12*, the DUSG can be used as a **harmonic subdivider**. generating an oscillator at 1/2, 1/3, etc. the frequency of the incoming signal.
+- The DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a pulse at input *12* will echo at output *3* at the end of the rise and fall times.
 
 #### Control Voltage Processor
 
@@ -448,7 +449,7 @@ The **Control Voltage Processor**, originally called the **Dual Processor**, is 
 8. Scalar knob for *7*
 
 *Notes:*
-- the Control Voltage Processor will also mix bipolar (AC) sources, similar to the Mixer module. 
+- The Control Voltage Processor will also mix bipolar (AC) sources, similar to the Mixer module. 
 - A static DC signal can be used to "bias" an AC source.
 
 #### Dual Universal Slope Generator #2
@@ -471,11 +472,11 @@ The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more 
 12. Envelope trigger input (Pulse INPUT)
 
 *Notes:*
-- a pulse sent into input *12* of the DUSG will fire a single **envelope** at output *1* and *2*, based on the rise and fall times of the slope generator.
-- voltage sent into the signal input (*4*) of the DUSG will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *1* and *2*. The DUSG performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
-- connecting the gate output *3* to the pulse input *12* of the DUSG will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *1*. Output *2* will put out a different waveform - an AC inverted triangle wave, centered around 0V.
-- if the rise and fall time add to a greater period than a pulse wave sent to the pulse input *12*, the DUSG can be used as a **harmonic subdivider**. generating an oscillator at 1/2, 1/3, etc. the frequency of the incoming signal.
-- the DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a pulse at input *12* will echo at output *3* at the end of the rise and fall times.
+- A pulse sent into input *12* of the DUSG will fire a single **envelope** at output *1* and *2*, based on the rise and fall times of the slope generator.
+- Voltage sent into the signal input (*4*) of the DUSG will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *1* and *2*. The DUSG performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
+- Connecting the gate output *3* to the pulse input *12* of the DUSG will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *1*. Output *2* will put out a different waveform - an AC inverted triangle wave, centered around 0V.
+- If the rise and fall time add to a greater period than a pulse wave sent to the pulse input *12*, the DUSG can be used as a **harmonic subdivider**. generating an oscillator at 1/2, 1/3, etc. the frequency of the incoming signal.
+- The DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a pulse at input *12* will echo at output *3* at the end of the rise and fall times.
 
 #### Pulse Divider
 
@@ -539,10 +540,10 @@ The **Divide-by-N Comparator (÷N COM)** is a circuit designed by Tcherepnin in 
 8. Negative (-) comparator input (sums with *6*); if this signal is less than *7*, pulse output *5* will fire and the pulse divider will increment
 
 *Notes:*
-- the lower half of the ÷N COM module is fairly straightforward; the pulse output *5* will fire whenever the + voltage (*7*) exceeds the - voltage (*8*, which can be offset by the value at knob *6*).
-- unlike the Boolean Logic comparators which generate binary true/false voltages, the trigger circuit on the ÷N COM is a [Schmitt trigger](https://en.wikipedia.org/wiki/Schmitt_trigger), so it has hysteresis and will only fire once per threshold crossing.
-- the upper half of the ÷N COM increments its internal counter everytime the lower half fires its pulse circuit. The values set by knob *3* and CV *4* set the number of steps in its pulse divider. When the count of pulses reaches that value, the pulse divider output *1* fires and the counter resets.
-- the staircase output *2* is one of the most musically interesting devices in the Serge system; Tcherepnin decided to expose the signal counter used in the internal circuitry of the pulse divider and scale it by a specific voltage, in steps of 1/6V (i.e. from 0 to 5.1666V at 31 steps), so that it can be used directly as a [whole tone scale](https://en.wikipedia.org/wiki/Whole_tone_scale) when patched into a 1 volt-per-octave input on an oscillating circuit. This voltage can be scaled to other fixed musical intervals as desired.
+- The lower half of the ÷N COM module is fairly straightforward; the pulse output *5* will fire whenever the + voltage (*7*) exceeds the - voltage (*8*, which can be offset by the value at knob *6*).
+- Unlike the Boolean Logic comparators which generate binary true/false voltages, the trigger circuit on the ÷N COM is a [Schmitt trigger](https://en.wikipedia.org/wiki/Schmitt_trigger), so it has hysteresis and will only fire once per threshold crossing.
+- The upper half of the ÷N COM increments its internal counter everytime the lower half fires its pulse circuit. The values set by knob *3* and CV *4* set the number of steps in its pulse divider. When the count of pulses reaches that value, the pulse divider output *1* fires and the counter resets.
+- The staircase output *2* is one of the most musically interesting devices in the Serge system; Tcherepnin decided to expose the signal counter used in the internal circuitry of the pulse divider and scale it by a specific voltage, in steps of 1/6V (i.e. from 0 to 5.1666V at 31 steps), so that it can be used directly as a [whole tone scale](https://en.wikipedia.org/wiki/Whole_tone_scale) when patched into a 1 volt-per-octave input on an oscillating circuit. This voltage can be scaled to other fixed musical intervals as desired.
 
 #### Smooth / Stepped Generator #2
 
@@ -625,8 +626,8 @@ The ***Sequencer / Programmer*** module is Random\*Source's interpretation of a 
 12. "B" row of CV knobs for each preset stage
 
 *Notes:*
-- the Sequencer / Programmer can be used as an 8-button mini-keyboard, with the rows of presets corresponding to notes in a melody, scales, or any other control voltage value you need.
-- the buttons on the programmer control the starting point of the sequencer, allowing you to make it loop through only some of the presets in sequence to make a pattern that's less than 8 steps long.
+- The Sequencer / Programmer can be used as an 8-button mini-keyboard, with the rows of presets corresponding to notes in a melody, scales, or any other control voltage value you need.
+- The buttons on the programmer control the starting point of the sequencer, allowing you to make it loop through only some of the presets in sequence to make a pattern that's less than 8 steps long.
 - Like most Serge modules, the Sequencer / Programmer can be sequenced at high frequency, causing the CV outputs to generate a voltage curve made up of the preset stages that can be heard as a waveform or used as a periodic control signal.
 
 #### Dual Universal Slope Generator XL
@@ -657,14 +658,14 @@ The **Dual Universal Slope Generator XL (DUSG-XL)** is an expanded version of th
 20. Trough comparator 2nd input (DC INPUT)
 
 *Notes:*
-- a pulse sent into input *16* of the DUSG-XL will fire a single **envelope** at output *10* based on the rise and fall times of the slope generator.
-- voltage sent into the signal input (*1*) of the DUSG-XL will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *10*. The DUSG XL performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
-- connecting the gate output *15* to the trigger input *16* of the DUSG-XL will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *10*. Outputs *11*, *12*, and *14* (top half) output different waveforms - a sinusoid tracking the rise fall stages, an AC inverted triangle wave centered around 0V, and a pulse (square) wave.
-- if the rise and fall time add to a greater period than a pulse wave sent to the trigger input *16*, the DUSG-XL can be used as a **harmonic subdivider**. generating oscillators at 1/2, 1/3, etc. the frequency of the incoming signal.
-- the DUSG-XL can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a pulse at input *16* will echo at output *15* at the end of the rise and fall times.
-- the DUSG-XL's additional outputs allow for a lot of experimentation with both control- and audio-rate use of the module. For example, output *13* is a square wave that goes HIGH at the start of the fall stage of the envelope. Playing with the relative lengths of the rise and fall will alter the [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of this signal when used as an oscillator. Attaching an LFO to the rise and fall times of the envelope allows for a form of **pulse-width modulation** to occur with this output.
-- the DUSG-XL has a sidecar circuit that outputs **peak** (highest) and **trough** (lowest) signal comparisons of the two halves' output ramps with secondary inputs. This can be used for a variety of thresholding (at control rate) or modulation / distortion (at audio rate) effects.
-- the CV control for the rise and fall times of the envelopes has an additional "Both" input (*5*) on the DUSG-XL, that allows for controlling the **overall duration** of the envelope shape while maintaining the relative timings of the rise and fall.
+- A pulse sent into input *16* of the DUSG-XL will fire a single **envelope** at output *10* based on the rise and fall times of the slope generator.
+- Voltage sent into the signal input (*1*) of the DUSG-XL will be slewed (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *10*. The DUSG XL performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
+- Connecting the gate output *15* to the trigger input *16* of the DUSG-XL will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *10*. Outputs *11*, *12*, and *14* (top half) output different waveforms - a sinusoid tracking the rise fall stages, an AC inverted triangle wave centered around 0V, and a pulse (square) wave.
+- If the rise and fall time add to a greater period than a pulse wave sent to the trigger input *16*, the DUSG-XL can be used as a **harmonic subdivider**. generating oscillators at 1/2, 1/3, etc. the frequency of the incoming signal.
+- The DUSG-XL can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a pulse at input *16* will echo at output *15* at the end of the rise and fall times.
+- The DUSG-XL's additional outputs allow for a lot of experimentation with both control- and audio-rate use of the module. For example, output *13* is a square wave that goes HIGH at the start of the fall stage of the envelope. Playing with the relative lengths of the rise and fall will alter the [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of this signal when used as an oscillator. Attaching an LFO to the rise and fall times of the envelope allows for a form of **pulse-width modulation** to occur with this output.
+- The DUSG-XL has a sidecar circuit that outputs **peak** (highest) and **trough** (lowest) signal comparisons of the two halves' output ramps with secondary inputs. This can be used for a variety of thresholding (at control rate) or modulation / distortion (at audio rate) effects.
+- The CV control for the rise and fall times of the envelopes has an additional "Both" input (*5*) on the DUSG-XL, that allows for controlling the **overall duration** of the envelope shape while maintaining the relative timings of the rise and fall.
 
 #### Active Processor
 
@@ -682,8 +683,8 @@ The **Active Processor (Active Pro)** is based on Tcherepnin's design of the sam
 6. Flip-flop input (Pulse INPUT)
 
 *Notes:*
-- the Active Processor, in a pinch, can be used as a linear **VCA** by patching one signal into the second input (*2*), setting the control knob *5* fully to the left, and sending an amplitude envelope into *4*.
-- the Flip-Flop circuit, when fed a pulse train or square wave at audio rate, will generate two signals an octave lower and 180 degrees [out of phase](https://en.wikipedia.org/wiki/Phase_(waves)) with one another.
+- The Active Processor, in a pinch, can be used as a linear **VCA** by patching one signal into the second input (*2*), setting the control knob *5* fully to the left, and sending an amplitude envelope into *4*.
+- The Flip-Flop circuit, when fed a pulse train or square wave at audio rate, will generate two signals an octave lower and 180 degrees [out of phase](https://en.wikipedia.org/wiki/Phase_(waves)) with one another.
 
 #### Smooth / Stepped Generator #3
 
@@ -777,14 +778,14 @@ The **Variable Q Voltage Controlled Filter (VCFQ)**, sometimes referred to as th
 15. Knob to set the base frequency of the filter
 
 *Notes:*
-- the VCFQ can [self-oscillate](https://en.wikipedia.org/wiki/Self-oscillation) by patching the band-pass output (*1*) into the input (*5*). As you increase the Q, the band-pass output will approach a sine wave. The various outputs of the filter will be 90 degrees out of phase with one another.
-- the pulse input *7* can be used to generate filtered percussion straight from a clock source.
-- the LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
-- the Serge fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
+- The VCFQ can [self-oscillate](https://en.wikipedia.org/wiki/Self-oscillation) by patching the band-pass output (*1*) into the input (*5*). As you increase the Q, the band-pass output will approach a sine wave. The various outputs of the filter will be 90 degrees out of phase with one another.
+- The pulse input *7* can be used to generate filtered percussion straight from a clock source.
+- The LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
+- The Serge-Fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
 
 #### Equal Power XFader
 
-The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepnin's **Cross-Fader** module for the Serge. It crossfades two audio (AC) signals, with an additional control for overall gain and a 1/4" TRS output to connect to external audio equipment - in the IDM analog studio it's wired to input 3 on the Behringer mixer. 
+The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepnin's **Cross-Fader** module for the Serge. It crossfades two audio (AC) signals, with an additional control for overall gain and a 1/4" TRS output to connect to external audio equipment. 
 
 <img src = "./img/serge824_3_7.png" width="10%" title="XFader" alt="XFader">
 
@@ -802,6 +803,7 @@ The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepn
 - Unlike the Active Processor, the XFader is AC-coupled, and will reject static or slow-moving DC signals.
 - Also unlike the Active Processor, the XFader uses equal-power (as opposed to equal gain) crossfading, using [Blackmer](http://www.thatcorp.com/2180-series_Pre-Trimmed_Blackmer_IC_Voltage-Controlled_Amplifiers.shtml) VCAs as signal amplifiers.
 - Like the Stereo Mixer, the voltage at the output of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the output banana jack *2*.
+- in the IDM analog studio, the TRS output on the XFader is wired to input 3 on the Behringer Mixer.
 
 ### Panel 4 (TKB)
 
@@ -842,9 +844,10 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 23. Capacitive touch pads (the "keys") for the TKB
 
 *Notes:*
-- the TKB allows you to program 4 sequences of preset knobs to control any CV input on the Serge system - scales and melodies for oscillators, but also filter cutoff frequencies, envelope durations, and anything else that you may want to automate. The TKB's clock is typically driven by a pulse generator (such as a Dual Slopes), but clock pulses can come from anywhere, such as the Pulse output of the Random Source module.
-- by using the pulse outputs for the individual sequence stages (*18*), you can trigger external events on other modules. You can also use these outputs, in combination with the Up/Down gate *13* and the "Flip/Flop" on the Active Processor to create smaller loops of sequences within the TKB.
-- the keyboard pressure output *8* puts out a fairly noisy voltage based on capacitance. Patching it into a DUSG or SSG will allow you to smooth this out as well as add lag to the key (e.g. for keyboard-driven slow fades or filter sweeps).
+- The TKB allows you to program 4 sequences of preset knobs to control any CV input on the Serge system - scales and melodies for oscillators, but also filter cutoff frequencies, envelope durations, and anything else that you may want to automate. The TKB's clock is typically driven by a pulse generator (such as a Dual Slopes), but clock pulses can come from anywhere, such as the Pulse output of the Random Source module.
+- By using the pulse outputs for the individual sequence stages (*18*), you can trigger external events on other modules. You can also use these outputs, in combination with the Up/Down gate *13* and the "Flip/Flop" on the Active Processor to create smaller loops of sequences within the TKB.
+- The keyboard pressure output *8* puts out a fairly noisy voltage based on capacitance. Patching it into a DUSG or SSG will allow you to smooth this out as well as add lag to the key (e.g. for keyboard-driven slow fades or filter sweeps).
+- The TKB can be sequenced at audio rate, and the preset rows can be used as an arbitrary 16-stage waveform for an oscillator.
 
 ## 73-75 Serge
 
@@ -876,7 +879,7 @@ The 73-75 **Oscillator** has two sets of oscillator outputs - a variable wavefor
 12. Knob for base oscillator frequency (sums with *7* x *9* and *8* x *10*)
 
 *Notes:*
-- the 73-75 Oscillator was developed before Tcherepnin adopted the 1 volt-per-octave standard used by Moog synthesizers. As a result, it has a different frequency scaling from the newer circuit designs used in the Random\*Source modules.
+- The 73-75 Oscillator was developed before Tcherepnin adopted the 1 volt-per-octave standard used by Moog synthesizers. As a result, it has a different frequency scaling from the newer circuit designs used in the Random\*Source modules.
 - The Oscillator has two separate CV inputs (*7* and *8*) with independent scaling (*9* and *10*) to modulate the frequency of the oscillators. This allows for, e.g. an audio-rate FM input as well as a set of voltages from a sequencer.
 - The variable waveform output transitions smoothly from a sine to a (nearly) square waveoutput by using an amplifier / clipping circuit. The square wave is not stable enough to be used as a pulse train, but can be patched through a "square-up" module (such as the Square module on the Shelfisizer).
 
@@ -926,9 +929,9 @@ The **Triple Comparator** is Tcherepnin's first "Boolean" module, consisting of 
 4. "-" threshold knob (sums with *3*)
 
 *Notes:*
-- the Triple Comparator's pulse output can trigger an envelope, advance a sequencer, or generate a ramp by sending its pulse output through a slew module, in response to the ways in which its input signals interact.
-- the Triple Comparator can easily be used to "square up" an input signal (*2*) against a threshold (*4*), to create an audio square wave, a gate, or a pulse. Sending a DC sawtooth signal from the Oscillator module into the "+" input (*2*), for example, will output a square wave, with the "-" level, set by knob *4*, signal input *3*, or both, determining the [pulse width](https://en.wikipedia.org/wiki/Pulse-width_modulation) of the output signal.
-- the Triple Comparator's outputs are continuous boolean signal comparators, not Schmitt triggers, so the output voltage will remain HIGH as long as the "+" signal is greater than the "-" signal.
+- The Triple Comparator's pulse output can trigger an envelope, advance a sequencer, or generate a ramp by sending its pulse output through a slew module, in response to the ways in which its input signals interact.
+- The Triple Comparator can easily be used to "square up" an input signal (*2*) against a threshold (*4*), to create an audio square wave, a gate, or a pulse. Sending a DC sawtooth signal from the Oscillator module into the "+" input (*2*), for example, will output a square wave, with the "-" level, set by knob *4*, signal input *3*, or both, determining the [pulse width](https://en.wikipedia.org/wiki/Pulse-width_modulation) of the output signal.
+- The Triple Comparator's outputs are continuous boolean signal comparators, not Schmitt triggers, so the output voltage will remain HIGH as long as the "+" signal is greater than the "-" signal.
 
 #### Dual Processor
 
@@ -946,7 +949,7 @@ The **Dual Processor** is a first-generation Tcherepnin design that has survived
 8. Scalar knob for *7*
 
 *Notes:*
-- the Dual Processor will also mix bipolar (AC) sources, similar to an audio mixer. 
+- The Dual Processor will also mix bipolar (AC) sources, similar to an audio mixer. 
 - A static DC signal can be used to "bias" an AC source.
 
 #### Ring Modulator
@@ -963,11 +966,11 @@ The Serge **Ring Modulator** was one of Tcherepnin's earliest designs, and allow
 6. Effect control knob - fades from X input only to XY (fully modulated)
 
 *Notes:*
-- two bipolar input signals at will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
-- a bipolar input signal in one input and a unipolar input signal in the other wll cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
-- if an audio-rate bipolar signal is used as the X signal (*4*), an envelop signal at the unipolar U input (*3*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
-- if both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
-- the bipolar inputs (*2* and *4*) are *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar inputs (*3* and *5*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
+- Two bipolar input signals at will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
+- A bipolar input signal in one input and a unipolar input signal in the other wll cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
+- If an audio-rate bipolar signal is used as the X signal (*4*), an envelop signal at the unipolar U input (*3*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
+- If both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
+- The bipolar inputs (*2* and *4*) are *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar inputs (*3* and *5*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
 
 #### Gate
 
@@ -983,8 +986,8 @@ The 1973 Serge **Gate** module was Tcherepnin's first [**VCA**](https://en.wikip
 6. Scaling knob for overall gain (scales with *4* and *5*)
 
 *Notes:*
-- the Gate module can be used as a simple VCA by connecting an audio signal to *2* and the output of an envelope generator to *4* or *5*, depending on the amplitude response you need.
-- the unipolar input *3* can be used for control voltage scaling.
+- The Gate module can be used as a simple VCA by connecting an audio signal to *2* and the output of an envelope generator to *4* or *5*, depending on the amplitude response you need.
+- The unipolar input *3* can be used for control voltage scaling.
 
 #### Reverb
 
@@ -1034,11 +1037,11 @@ The **Dual Positive Slew** is the forerunner to the Dual Universal Slope Generat
 9. Slew base amount (sums with *1* x *2*)
 
 *Notes:*
-- the simplest use of the Positive Slew is as an **envelope follower** that limits rising signals. Voltage sent into input *3* will have a lag on rising signals correlated to the slew amount (*9* + *1* x *2*).
-- a pulse at the "Start" trigger will create a rising ramp envelope at *4*, the speed of which is controlled by the slew amount. During the ramp, the gate output *7* will go HIGH. At the end of the ramp, the output signal will drop and the end signal *8* will pulse. Patching *8* back into *5* will turn the positive slew into a rising sawtooth **oscillator**.
-- a pulse at the "Sustain" trigger will perform the same as the "Start" trigger, with the exception that the ramp output and gate (*4* and *7*) will remain HIGH at the end of the slew time.
-- the Positive Slew adds an interesting distortion to audio signals as, unlike a low-pass filter, it leaves falling signals untouched.
-- the Dual Positive Slew is designed to be used with the Dual Negative Slew to perform bidirectional envelope following or create a complete attack-sustain-release (ASR) envelope generator.
+- The simplest use of the Positive Slew is as an **envelope follower** that limits rising signals. Voltage sent into input *3* will have a lag on rising signals correlated to the slew amount (*9* + *1* x *2*).
+- A pulse at the "Start" trigger will create a rising ramp envelope at *4*, the speed of which is controlled by the slew amount. During the ramp, the gate output *7* will go HIGH. At the end of the ramp, the output signal will drop and the end signal *8* will pulse. Patching *8* back into *5* will turn the positive slew into a rising sawtooth **oscillator**.
+- A pulse at the "Sustain" trigger will perform the same as the "Start" trigger, with the exception that the ramp output and gate (*4* and *7*) will remain HIGH at the end of the slew time.
+- The Positive Slew adds an interesting distortion to audio signals as, unlike a low-pass filter, it leaves falling signals untouched.
+- The Dual Positive Slew is designed to be used with the Dual Negative Slew to perform bidirectional envelope following or create a complete attack-sustain-release (ASR) envelope generator.
 
 #### Dual Negative Slew
 
@@ -1054,19 +1057,49 @@ The **Dual Negative Slew** is the complement to the Dual Positive Slew, and like
 6. Slew base amount (sums with *1* x *2*)
 
 *Notes:*
-- the simplest use of the Negative Slew is as an **envelope follower** that limits falling signals. Voltage sent into input *3* will have a lag on rising signals correlated to the slew amount (*6* + *1* x *2*).
-- a pulse at input *3* will create a high voltage output at *4* that gradually falls to 0v at the slew amount, upon which the end trigger *5* will fire a pulse. Patching *6* back into *1* will turn the negative slew into a falling sawtooth **oscillator**.
-- the Negative Slew adds an interesting distortion to audio signals as, unlike a low-pass filter, it leaves rising signals untouched.
-- the Dual Negative Slew is designed to be used with the Dual Positive Slew to perform bidirectional envelope following or create a complete attack-sustain-release (ASR) envelope generator.
+- The simplest use of the Negative Slew is as an **envelope follower** that limits falling signals. Voltage sent into input *3* will have a lag on rising signals correlated to the slew amount (*6* + *1* x *2*).
+- A pulse at input *3* will create a high voltage output at *4* that gradually falls to 0v at the slew amount, upon which the end trigger *5* will fire a pulse. Patching *6* back into *1* will turn the negative slew into a falling sawtooth **oscillator**.
+- The Negative Slew adds an interesting distortion to audio signals as, unlike a low-pass filter, it leaves rising signals untouched.
+- The Dual Negative Slew is designed to be used with the Dual Positive Slew to perform bidirectional envelope following or create a complete attack-sustain-release (ASR) envelope generator.
 
 #### Envelope Generator #1, #2, #3
 
+The 1973 **Envelope Generator (EG)** modules generate attack-release envelopes, with added features to make them usable as oscillators and sample-and-hold modules. The three EG modules in the 73-75 system are identical.
+
 <img src = "./img/serge7375_2_345.png" width="30%" title="Envelope Generator" alt="Envelope Generator">
+
+1. "Start" trigger for the envelope generator (Pulse INPUT)
+2. "End" trigger for the envelope generator (Pulse OUTPUT)
+3. Envelope signal (DC OUTPUT)
+4. Gate signal (Pulse OUTPUT)
+5. Knob to set window size of gate (summed with *6*)
+6. CV input to set window size of gate (summed with *5*) (DC INPUT)
+7. "Cycle" trigger for the envelope generator (Pulse INPUT)
+8. "Hold" trigger for the envelope generator (Pulse INPUT)
+9. CV input for overall duration (sums with *10* and scales *11* and *12*) (DC INPUT)
+10. Base duration for EG (sums with *9* and scales *11* and *12*)
+11. Fall time for envelope (scaled by *9* + *10*)
+12. Rise time for envelope (scaled by *9* + *10*)
+
+*Notes:*
+- The EG can be used as a basic **envelope generator** by sending a pulse to the start input *1*. The voltage at *3* will rise and fall according to the envelope parameters (*9*-*12*), and a gate signal at *4* will go HIGH for all or part of the envelope, depending on the window size setting (*5* + *6*). The end trigger *2* will pulse when the envelope has completed its run.
+- The Cycle input, when set HIGH, wil cause the EG to generate a new envelope immediately after the last one completes; this allows you to use the module as a triangle wave **oscillator**. Patching the end trigger *4* into the start trigger *1* accomplishes more or less the same thing.
+- The Hold input, when set HIGH, will *freeze* all the EG's outputs and pause the timing of the rise/fall cycle. This can be used to create a [**sample-and-hold**](https://en.wikipedia.org/wiki/Sample_and_hold) effect if the envelope output is patched, e.g. into the frequency of an oscillator.
+- The duration, by being CV controllable, allows you to dynamically shorten and lengthen the entire envelope based on external voltage.
+- The envelope generator, like most of Tcherepnin's timing circuits (c.f. the Dual Slopes on the Random\*Source Serge) cannot be retriggered until they've completed their envelope. Driving the EG with a pulse train, and then setting the duration of the envelope to greater than the wavelength of the pulses, allows you to use the EG as a [**subharmonic oscillator**](https://en.wikipedia.org/wiki/Undertone_series), generating tones at 1/2, 1/3, etc. the frequency of the input.
 
 #### Adapter
 
+The **Adapter** is a passive utility module that converts between banana jacks and 1/8" (3.5mm) connectors. There are three pairs of connectors in the module, and each converter can be used as an input or an output to the Serge.
+
 <img src = "./img/serge7375_2_6.png" width="10%" title="Adapter" alt="Adapter">
 
+1. 1/8" connector
+2. Banana connector (any INPUT or OUTPUT)
+
+*Notes:*
+- The Adapter module is passive, and won't perform any filtering, attenuation, AC coupling, or preamplification on the signal in either direction.
+- The first 1/8" adapter jack on the 73-75 Serge in the IDM analog studio is wired to input 4 on the Behringer mixer.
 
 ## The Shelfisizer
 
