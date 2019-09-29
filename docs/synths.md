@@ -142,7 +142,7 @@ As mentioned above, patching using banana jacks means that you're only connectin
 
 <img src = "./img/serge824_photo.jpg" width="100%" title="Random\*Source Serge system" alt="Random\*Source Serge system">
 
-The Random\*Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [Random\*Source "shop" panels](http://randomsource.net/serge_panels) (prebuilt configuration of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). These panels incorporate the designs of modules sold by Serge Modular Music Systems sold in 1979-1980, along with a number of innovations by Random\*Source.
+The Random\*Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [Random\*Source "shop" panels](http://randomsource.net/serge_panels) (prebuilt configuration of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and a few custom modifications for IDM by Darrin and his colleagues.
 
 ### Panel 1 (La Bestia II)
 
