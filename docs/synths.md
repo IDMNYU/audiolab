@@ -30,6 +30,8 @@ In addition, some auxiliary equipment exists in the Audio Lab to help people wor
 
 # Studio Basics
 
+First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Reservation Procedure**](./rules.md). 
+
 ### Power
 
 The power for *everything* in the analog studio is controled by a single switch, found on the Furman power conditioner on the black rack to the right:
