@@ -971,16 +971,47 @@ The original Serge **Ring Modulator** allowed for the multiplication of bipolar 
 
 #### Gate
 
+The 1973 Serge **Gate** module was Tcherepnin's first [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier) design, allowing the amplitude of input signals to be modified by a second envelope signal. The module has inputs for both linear and logarithmic amplitude scaling as well as an overall gain control.
+
 <img src = "./img/serge7375_1_7.png" width="10%" title="Gate" alt="Gate">
+
+1. VCA output (AC OUTPUT)
+2. Bipolar input (sums with *3*) (AC INPUT)
+3. Unipolar input (sums with *2*) (DC INPUT)
+4. Linear CV gain (DC INPUT)
+5. Logarithmic CV gain (DC INPUT)
+6. Scaling knob for overall gain (scales with *4* and *5*)
+
+*Notes:*
+- the Gate module can be used as a simple VCA by connecting an audio signal to *2* and the output of an envelope generator to *4* or *5*, depending on the amplitude response you need.
+- the unipolar input *3* can be used for control voltage scaling.
 
 #### Reverb
 
+The 1973 Serge **Reverb** unit used a mounted [spring reverberation](https://en.wikipedia.org/wiki/Reverberation#Spring_reverberators) tank on the back of the panel to add a reverb effect to the incoming signal.
+
 <img src = "./img/serge7375_1_8.png" width="10%" title="Reverb" alt="Reverb">
+
+1. Mixed reverb outputs (AC OUTPUT)
+2. Mix control knob
+3. Direct reverb outputs (AC OUTPUT)
+4. Reverb input (AC INPUT)
+
+*Notes:*
+- The Reverb module can create a wet/dry mix, or you can directly tap the reverb tank outputs at *3*.
 
 #### Preamp
 
+The Serge *Preamp* provides a gain stage to allow a high-impedance signal to be input into the Serge system.
+
 <img src = "./img/serge7375_1_9.png" width="10%" title="Preamp" alt="Preamp">
 
+1. 1/4" TRS input to the preamplifier
+2. Gain control knob
+3. Amplified outputs (AC OUTPUT)
+
+*Notes:*
+- The Preamp isn't, strictly-speaking, necessary to bring external signals into a Serge system - the Low-Gain converter boxes will work just fine. However, it will help with signals that are high-impedance or deliver a low volume, such as the output of an electric guitar.
 
 ### "Homebuilt" Panel 2
 
