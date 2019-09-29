@@ -191,7 +191,7 @@ The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with
 
 The **Mixer** is a utility module that allows you to mix up to three AC sources to a single output using a [high quality operational amplifier](https://www.njr.com/MUSES/) developed by NJR. The mixer is AC-coupled, so it will filter out static (and slow-moving) voltages. The DC-coupled version is called the "Control Voltage Processor".
 
-<img src = "./img/serge824_1_2.png" width="10%" title="Mixer" alt="Mixer">
+| <img src = "./img/serge824_1_2.png" width="10%" title="Mixer" alt="Mixer"> |
 
 1. Mixed signal (AC OUTPUT)
 2. Phase switch for first input (IN 1)
@@ -201,6 +201,7 @@ The **Mixer** is a utility module that allows you to mix up to three AC sources 
 6. Scaling knob for *3*
 7. Scaling knob for *4*
 8. Scaling knob for *5*
+|
 
 *Notes:*
 - The phase switch (*2*) is a **three-way** switch - the middle position will turn the first input signal *off*.
