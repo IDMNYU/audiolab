@@ -114,7 +114,7 @@ Jacks are colored based on the type of voltage they send (or expect to receive).
 | DC            | Unipolar continuous (analog) | 0 to 5V       | Light Blue | Light Grey | Dark Blue |
 | Pulse \*      | Unipolar discrete (digital) | 0 *or* 5V      | Red | Red | Red |
 
-\* **Serge "Pulse" jacks send far more than pulses** - a better way to think of them is "*digital*", "*binary*", or "*boolean*", insofar as their voltage state is either HIGH (5V) or LOW (0V). Pulse jacks are used for gates, PWM / square waves, comparator / switching signals, as well as pulses.
+\* **Serge "Pulse" jacks send and receive more than pulses** - a better way to think of them is "*digital*", "*binary*", or "*boolean*", insofar as their voltage state is either HIGH (5V) or LOW (0V). Pulse jacks are used for gates, PWM / square waves, comparator / switching signals, as well as pulses.
 
 Some modules have additional colors, such as lavender jacks for passive connectors on the 73-75 Adaptor module and orange for the AC-coupled (-5V or 5V) comparator jack on the Random\*Source Smooth / Stepped Generator module.
 
