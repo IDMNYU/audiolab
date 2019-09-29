@@ -434,11 +434,11 @@ The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more 
 
 #### Control Voltage Processor
 
-The **Control Voltage Processor**, originally called the **Dual Voltage Processor**, is one of Tcherepnin's original 1973 modules, and functions as a mixer / scalar for control voltages. The module is split into two halves, with up to three sources in each half that can be scaled independently, with an overall scalar for each half.
+The **Control Voltage Processor**, originally called the **Dual Processor**, is one of Tcherepnin's original 1973 modules, and functions as a mixer / scalar for control voltages. The module is split into two halves, with up to three sources in each half that can be scaled independently, with an overall scalar for each half.
 
 <img src = "./img/serge824_2_2.png" width="20%" title="CV Processor" alt="CV Processor">
 
-1. Overall scaling knob or the output voltage (DC OUTPUT)
+1. Overall scaling knob or the output voltage
 2. Output of the control voltage processor (DC OUTPUT)
 3. First CV input (DC INPUT)
 4. Scalar knob for *3*
@@ -448,7 +448,7 @@ The **Control Voltage Processor**, originally called the **Dual Voltage Processo
 8. Scalar knob for *7*
 
 *Notes:*
-- the Dual Voltage Processor will also mix bipolar (AC) sources, similar to the Mixer module. 
+- the Control Voltage Processor will also mix bipolar (AC) sources, similar to the Mixer module. 
 - A static DC signal can be used to "bias" an AC source.
 
 #### Dual Universal Slope Generator #2
@@ -932,11 +932,42 @@ The **Triple Comparator** is Tcherepnin's first "Boolean" module, consisting for
 
 #### Dual Processor
 
+The **Dual Processor** is a first-generation Tcherepnin design that has survived, more-or-less unchanged, as a standard module in the Serge repertoire (on our Random\*Source system, it's called the **Control Voltage Processor**). It functions as a mixer / scalar for control voltages. The module is split into two halves, with up to three sources in each half that can be scaled independently, with an overall scalar for each half.
+
 <img src = "./img/serge7375_1_5.png" width="30%" title="Dual Processor" alt="Dual Processor">
+
+1. Output of the control voltage processor (DC OUTPUT)
+2. Overall scaling knob or the output voltage
+3. First CV input (DC INPUT)
+4. Scalar knob for *3*
+5. Second CV input (DC INPUT)
+6. Scalar knob for *5*
+7. Third CV input (DC INPUT)
+8. Scalar knob for *7*
+
+*Notes:*
+- the Dual Processor will also mix bipolar (AC) sources, similar to an audio mixer. 
+- A static DC signal can be used to "bias" an AC source.
 
 #### Ring Modulator
 
+The original Serge **Ring Modulator** allowed for the multiplication of bipolar and unipolar signals to create a variety of effects. A control knob controls the strength of the effect.
+
 <img src = "./img/serge7375_1_6.png" width="10%" title="Ring" alt="Ring">
+
+1. Output of Ring Modulator (AC OUTPUT)
+2. Bipolar Y (Modulator) source (AC INPUT)
+3. Unipolar Y (Modulator) source (DC INPUT)
+4. Bipolar X (Carrier) source (AC INPUT)
+5. Unipolar X (Carrier) source (DC INPUT)
+6. Effect control knob - fades from X input only to XY (fully modulated)
+
+*Notes:*
+- two bipolar input signals at will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
+- a bipolar input signal in one input and a unipolar input signal in the other wll cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
+- if an audio-rate bipolar signal is used as the X signal (*4*), an envelop signal at the unipolar U input (*3*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
+- if both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
+- the bipolar inputs (*2* and *4*) are *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar inputs (*3* and *5*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
 
 #### Gate
 
