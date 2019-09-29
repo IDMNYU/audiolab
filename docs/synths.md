@@ -193,8 +193,6 @@ The **Mixer** is a utility module that allows you to mix up to three AC sources 
 
 <img src = "./img/serge824_1_2.png" width="10%" title="Mixer" alt="Mixer">
 
-<table><tr><td width="50%"><img src = "./img/serge824_1_2.png" title="Mixer" alt="Mixer"></td>
-<td><pre>
 1. Mixed signal (AC OUTPUT)
 2. Phase switch for first input (IN 1)
 3. First mixer input (AC INPUT)
@@ -203,7 +201,6 @@ The **Mixer** is a utility module that allows you to mix up to three AC sources 
 6. Scaling knob for *3*
 7. Scaling knob for *4*
 8. Scaling knob for *5*
-  </pre></td></tr></table>
 
 *Notes:*
 - The phase switch (*2*) is a **three-way** switch - the middle position will turn the first input signal *off*.
