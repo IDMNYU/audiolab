@@ -1164,7 +1164,7 @@ The Shelfisizer's **Onebang** module generates rhythmic output by comparing up t
 
 #### Dust / Dirt
 
-The **Dust / Dirt** module is the one part of the 2019 Shelfisizer that generates AC voltage ("audio"). It has to modes, allowing it to act either as a pulse triggered, noisy 6-voice drum machine (DIRT), or as a six-channel noise generator with specific characteristics for each channel (DUST).
+The **Dust / Dirt** module is the one part of the 2019 Shelfisizer that generates AC voltage ("audio"). It has two modes, allowing it to act either as a pulse triggered, noisy 6-voice drum machine (DIRT), or as a six-channel noise generator with specific characteristics for each channel (DUST).
 
 <img src = "./img/shelfisizer2019_3.png" width="30%" title="Dust / Dirt" alt="Dust / Dirt">
 
