@@ -34,7 +34,7 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 
 ### Power
 
-The power for *everything* in the analog studio is controled by a single switch, found on the Furman power conditioner on the black rack to the right:
+The power for *everything* in the analog studio is controlled by a single switch, found on the Furman power conditioner on the black rack to the right:
 ![Furman Power Conditioner](./img/analogpower.jpg "Furman Power Conditioner")
 A green light on the conditioner will confirm that you've got power.
 **Please use this power switch (and nothing else) to turn on and off all the equipment in the analog studio.**
