@@ -142,7 +142,7 @@ As mentioned above, patching using banana jacks means that you're only connectin
 
 <img src = "./img/groundjack.jpg" width="50%" title="Grounding cable on the rear of the Shelfisizer" alt="Grounding cable on the rear of the Shelfisizer">
 
-**Do not remove or replug ground wires - this may prevent the equipment from working properly.**
+**Do not remove or re-plug ground wires - this may prevent the equipment from working properly.**
 
 ## Random Source Serge
 
