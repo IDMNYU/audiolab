@@ -282,7 +282,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 13. Knob for Stepped rate amount (sums with *9* x *11*)
 14. CV output for thee Stepped module (DC OUTPUT)
 15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Pulse OUTPUT)
-16. Regular Coupler output - 5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
+16. Regular Coupler output - +5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
 17. White noise source (AC OUTPUT)
 18. Pink noise source (AC OUTPUT)
 19. Sample-and-hold "dirty saw" source (DC OUTPUT)
