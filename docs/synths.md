@@ -906,9 +906,9 @@ The Serge **Triple Waveshaper (TWS)**, along with the Wave Multipliers (found on
 
 *Notes:*
 - The TWS transfer function circuit will, when turned all the way up, transform a sawtooth wave into a sine wave, according to the T<sub>2</sub> [Chebyshev polynomial](https://en.wikipedia.org/wiki/Chebyshev_polynomials). The intensity of the shaping control (*2* + *3* + *4*) determines the amount of waveshaping. With a sawtooth wave input, this determines which harmonics are subtracted.
-- A sine wave sent into the same transfer function will have its frequency doubled. A harmonically complex signal will distort in complex ways as the transfer function of a waveshaper circuit exhibits nonlinear behavior.
+- A sine wave sent into the same transfer function will have its frequency doubled. A harmonically rich signal will distort in complex ways as the transfer function of a waveshaper circuit exhibits nonlinear behavior.
 - The outputs of the TWS can be patch-programmed in series, so that all three waveshapers can distort the same signal.
-- The TWS is also excellent for shaping low-frequency (control) voltages in complex ways. For example, you could feed one waveshaper in the TWS with the output of an Envelope Generator and a second with an oscillator, using the output of the first as the *CV input* of the second.
+- The TWS is also excellent for shaping low-frequency signals to generate interesting control voltages. For example, you could feed one waveshaper in the TWS with the output of an Envelope Generator and a second with an oscillator, using the output of the first as the *CV input* of the second.
 
 #### Peak / Trough
 
