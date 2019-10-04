@@ -576,7 +576,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 13. Knob for Stepped rate amount (sums with *9* x *11*)
 14. CV output for thee Stepped module (DC OUTPUT)
 15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Pulse OUTPUT)
-16. Regular Coupler output - 5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
+16. Regular Coupler output - +5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
 
 *Notes:*
 - The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and VC inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
