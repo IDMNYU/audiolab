@@ -2,4 +2,4 @@
 
 ![Audio Speaker Positions](./img/audiolab_speakers.png "Audio Speaker Positions")
 
-[return](./index.md)
+[return to main page](./index.md)
