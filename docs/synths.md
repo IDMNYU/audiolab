@@ -204,7 +204,7 @@ The **Mixer** is a utility module that allows you to mix up to three AC sources 
 
 *Notes:*
 - The phase switch (*2*) is a **three-way** switch - the middle position will turn the first input signal *off*.
-- The scaling knobs (*6-8*) are **logarithmic** audio pots, so 12 o'clock is half power (.707), not half gain (0.5).
+- The scaling knobs (*6-8*) are **logarithmic** audio pots, so 12 o'clock is half power (0.707), not half gain (0.5).
 - As mentioned above, this module is **AC-coupled**, so slow control voltages will be filtered. In addition, positive-biased audio rate signals will come out with their DC offset removed. For example, if you input the Saw output of the NTO into the mixer, the incoming signal (0-5V DC) will come out -2.5V to 2.5V AC.
 
 #### Wave Multipliers
