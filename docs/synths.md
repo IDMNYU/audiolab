@@ -160,7 +160,7 @@ The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with
 
   <img src = "./img/serge824_1_1.png" width="30%" title="NTO" alt="NTO">
 
-<table>
+<table width=50%>
   <tr>
     <th width = "30%">
   <img src = "./img/serge824_1_1.png" title="NTO" alt="NTO">
