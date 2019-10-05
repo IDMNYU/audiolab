@@ -64,6 +64,8 @@ The mixer can send your computer audio either pre- or post-fader (which includes
 
 The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers in the analog studio area. They should let you listen to the synths with plenty of volume, so **please don't adjust the gain controls on the Genelecs**.
 
+[back to top](#top)
+
 # The Synthesizers
 
 ## Serge System Overview
@@ -860,6 +862,8 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 - The keyboard pressure output *8* puts out a fairly noisy voltage based on capacitance. Patching it into a DUSG or SSG will allow you to smooth this out as well as add lag to the key (e.g. for keyboard-driven slow fades or filter sweeps).
 - The TKB can be sequenced at audio rate, and the preset rows can be used as an arbitrary 16-stage waveform for an oscillator.
 
+[back to top](#top)
+
 ## 73-75 Serge
 
 <img src = "./img/serge7375_photo.jpg" width="100%" title="73-75 Serge system" alt="73-75 Serge system">
@@ -1112,6 +1116,8 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 - The Adapter module is passive, and won't perform any filtering, attenuation, AC coupling, or preamplification on the signal in either direction.
 - The first 1/8" adapter jack on the 73-75 Serge in the IDM analog studio is wired to input 4 on the Behringer mixer.
 
+[back to top](#top)
+
 ## The Shelfisizer
 
 <img src = "./img/shelfisizer2019_photo.jpg" width="100%" title="2019 Shelfisizer" alt="2019 Shelfisizer">
@@ -1258,4 +1264,6 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 - Like most Serge modules, the Shift module can be sampled at audio rate; this can result in the shift outputs resembling slightly out-of-phase waveforms.
 - The carry pulse on the Shift module (*3*) will fire when all four stages of the ASR have completed shifting; because sample-and-hold circuits take a non-zero amount of time to acquire voltage, this pulse may be a few microseconds behind the sample trigger (*2*), and should be used to synchronize events that need to take place *after* the module has done a sample-and-shift of its voltages.
 
-[return](./index.md)
+[back to top](#top)
+
+[return to main page](./index.md)
