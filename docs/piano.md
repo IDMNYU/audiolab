@@ -7,4 +7,4 @@ Please follow these rules:
 - If you raise the lid, please close it when you're done.
 - Replace the black protective cover when you're done.
 
-[return](./index.md)
+[return to main page](./index.md)
