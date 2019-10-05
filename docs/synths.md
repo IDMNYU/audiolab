@@ -159,10 +159,10 @@ The Random\*Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patc
 The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator).
 
 <table>
-  <th>
-    <td>
+  <tr>
+    <th>
   <img src = "./img/serge824_1_1.png" width="30%" title="NTO" alt="NTO">
-  </td>
+  </th>
   <th>
 
 1. Rising sawtooth wave (DC OUTPUT)
@@ -186,7 +186,9 @@ The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with
 19. Scaling knob for *18*
 20. Fine tuning knob for the VCO's base frequency (sums with *7*, *8*, *18* x *19*, and *21*)
 21. Coarse tuning knob for the VCO's base frequency (sums with *7*, *8*, *18* x *19*, and *20*)
-</td></th></table>
+
+
+</th></tr></table>
 
 
 *Notes:*
