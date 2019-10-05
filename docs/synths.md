@@ -158,15 +158,8 @@ The Random\*Source Serge was built for IDM in 2018-2019 by Darrin Wiener at Patc
 
 The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with a simpler module called the "Precision VCO") the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator).
 
-  <img src = "./img/serge824_1_1.png" width="30%" title="NTO" alt="NTO">
+<img src = "./img/serge824_1_1.png" width="30%" title="NTO" alt="NTO">
 
-<table>
-  <tr>
-    <td width = "10%">
-  <img src = "./img/serge824_1_1.png" title="NTO" alt="NTO">
-  </td>
-  <td width = "90%">
-<pre>
 1. Rising sawtooth wave (DC OUTPUT)
 2. Triangle wave (DC OUTPUT)
 3. Sine wave (AC OUTPUT)
@@ -188,8 +181,6 @@ The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with
 19. Scaling knob for *18*
 20. Fine tuning knob for the VCO's base frequency (sums with *7*, *8*, *18* x *19*, and *21*)
 21. Coarse tuning knob for the VCO's base frequency (sums with *7*, *8*, *18* x *19*, and *20*)
-</pre></td></tr></table>
-
 
 *Notes:*
 - Four of the five waveform outputs (*1-5*) represent the standard waveforms used in classic analog subtractive synthesis (Sine, Saw, Triangle, Square), with a fifth output allowing for a variable waveform. Be aware that these outputs are **not of the same voltage type** - the Sine and Variable outputs are the only AC ones. Also note that the NTO produces mathematically accurate (as opposed to "good-sounding") oscillators, intended to be usable as source of control voltage (Saw, Triangle) and pulses ("Puls") as well as audio. As a result, the harmonically rich waveforms (especially the Saw) will sound brighter than the equivalent waveforms on, e.g. a Moog.
