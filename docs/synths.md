@@ -27,7 +27,7 @@ In addition, some auxiliary equipment exists in the Audio Lab to help people wor
 - A [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converter.
 - Multiple [Low-Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
-- Stereo Genelec speakers.
+- Stereo [Genelec](https://www.genelec.com/) speakers.
 
 # Studio Basics
 
