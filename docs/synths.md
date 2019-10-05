@@ -164,7 +164,7 @@ The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with
   <tr>
     <td width = "20%">
   <img src = "./img/serge824_1_1.png" title="NTO" alt="NTO">
-  <td>
+  </td>
   <td width = "80%">
 
 1. Rising sawtooth wave (DC OUTPUT)
