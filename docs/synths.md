@@ -162,10 +162,10 @@ The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with
 
 <table>
   <tr>
-    <th width = "25%">
+    <td width = "15%">
   <img src = "./img/serge824_1_1.png" title="NTO" alt="NTO">
-  </th>
-  <th width = "25%">
+  <td>
+  <td width = "25%">
 
 1. Rising sawtooth wave (DC OUTPUT)
 2. Triangle wave (DC OUTPUT)
@@ -190,7 +190,7 @@ The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with
 21. Coarse tuning knob for the VCO's base frequency (sums with *7*, *8*, *18* x *19*, and *20*)
 
 
-</th></tr></table>
+</td></tr></table>
 
 
 *Notes:*
