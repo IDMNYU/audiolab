@@ -508,6 +508,7 @@ The **Pulse Divider** is based on a design by [Ken Stone](https://www.elby-desig
 
 *Notes:*
 - The Pulse Divider can be used to bifurcate a (fast) master clock into multiple slower clocks. For example, if you send the pulse output of a Dual Slopes into the Pulse Divider input *1*, and think of that pulse as your 16th notes, then output *2* will be your 8th notes, output *4* will be your quarter notes, output *6* will be dotted-quarter notes, etc.
+- When used with an audio-rate signal as input (e.g. a square wave), the outputs of the Pulse Divider generate the first eight subharmonics of the input signal.
 
 #### Boolean Logic
 
