@@ -1,5 +1,7 @@
 # Audio Lab Multi-channel System
 
+we have this:
+
 ![Audio Speaker Positions](./img/audiolab_speakers.png "Audio Speaker Positions")
 
 ![Multi-Channel System Interfaces](./img/audiolab_racktop.jpg "Multi-Channel System Interfaces")
