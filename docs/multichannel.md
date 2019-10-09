@@ -6,4 +6,6 @@
 
 ![Multi-Channel System Amps](./img/audiolab_amps.jpg "Multi-Channel System Amps")
 
+![Max Patch Output](./img/audiolab_outputpatch.png "Max Patch Output")
+
 [return to main page](./index.md)
