@@ -2,7 +2,7 @@
 
 we have this:
 
-<img src = "./img/audiolab_speakers.png" width="50%" title="Audio Speaker Positions" alt="Audio Speaker Positions">
+<img src = "./img/audiolab_speakers.png" width="75%" title="Audio Speaker Positions" alt="Audio Speaker Positions">
 
 ![Multi-Channel System Interfaces](./img/audiolab_racktop.jpg "Multi-Channel System Interfaces")
 
