@@ -8,7 +8,7 @@ we have this:
 
 ![Multi-Channel System Amps](./img/audiolab_amps.jpg "Multi-Channel System Amps")
 
-![USB input for MOTU 16A](./img/audiolab_usb.jpg "USB input for MOTU 16A")
+<img src = "./img/audiolab_usb.jpg" width="30%" title="USB input for MOTU 16A" alt="USB input for MOTU 16A">
 
 ![Max Patch Output](./img/audiolab_outputpatch.png "Max Patch Output")
 
