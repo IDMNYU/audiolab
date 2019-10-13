@@ -85,7 +85,11 @@ The MOTU 16A provides 16 channels of audio I/O into your computer. The 828mk3 ac
 * Channel 17 is the subwoofer, via an ADAT link to Main Out L on the 828mk3.
 
 *16A Inputs:*
-* Channels 17-18 are linked via ADAT to the Mic/Instr inputs 1 and 2 on the front panel of the 828mk3. The "Mic/Instr" Jacks on the front of the 828mk3 allow you to connect mic or line-level audio sources in the room; they appear as inputs 17-18 on the 16A. The knobs labeled *TRIM* next to each input allow you to adjust the gain for the input signal. Pressing the knob in will engage and disengage a 20dB pad; pressing and holding the knob will turn on and off 48V phantom power.
+* Channels 17-18 are linked via ADAT to inputs 1 and 2 on the front panel of the 828mk3. 
+  * The "Mic/Instr" Jacks on the front of the 828mk3 allow you to connect mic or line-level audio sources in the room; they appear as inputs 17-18 on the 16A. 
+  * The knobs labeled *TRIM* next to each input allow you to adjust the gain for the input signal. 
+  * Pressing the TRIM knob in will engage and disengage a 20dB pad, indicated by a green light next to the jack.
+  * Pressing and holding the TRIM knob in for a few seconds will turn on and off 48V phantom power, indicated by a red light next to the jack.
 
 To use the 16A, you need to make sure your audio software has it selected as an audio interface. In Max/MSP, your Audio Status window should look something like this:
 
