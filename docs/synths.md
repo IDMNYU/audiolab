@@ -80,7 +80,7 @@ Tcherepnin's designs found commercial success as a low-cost alternative to other
 
 The [Serge-Fans](http://www.serge-fans.com/history.htm) web page (which doubles as an information site for Sound Transform Systems) is a great resource to learn more about the history of these synthesizers.
 
-Ken Stone's [Serge Modular](http://serge.synth.net/) is another great resource, containing links to original manuals, price lists, circuit descriptions, and panel art.
+Ken Stone's [Serge Modular](http://serge.synth.net/) site is another great resource, containing links to original manuals, price lists, circuit descriptions, and panel art.
 
 In addition, there's a nice video interview by Waveshaper Media with Tcherepnin [here](https://www.youtube.com/watch?v=To_gkk9GEpQ).
 
