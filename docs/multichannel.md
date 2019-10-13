@@ -6,6 +6,8 @@ we have this:
 
 ![Multi-Channel System Interfaces](./img/audiolab_racktop.jpg "Multi-Channel System Interfaces")
 
+![Interface Close-Up](./img/audiolab_motu.jpg "Interface Close-Up")
+
 ![Multi-Channel System Amps](./img/audiolab_amps.jpg "Multi-Channel System Amps")
 
 <img src = "./img/audiolab_usb.jpg" width="50%" title="USB input for MOTU 16A" alt="USB input for MOTU 16A">
