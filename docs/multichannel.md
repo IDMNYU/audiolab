@@ -9,7 +9,7 @@
 
 # Overview
 
-The multi-channel audio system in the IDM audio lab consists of **an 8.1 system** - 8 full-range speakers, 1 subwoofer - arrayed in a *double quad* configuration. Each corner of the lab has a full-range speaker (a [Micca COVO-S](https://www.miccatron.com/micca-covo-s-concentric-driver-speaker/)) high in the ceiling and low near the floor. The subwoofer (a [Genelec 7060B](https://www.genelec.com/studio-monitors/7000-series-studio-subwoofers/7060b-studio-subwoofer)) is at floor level in one corner of the room. 
+The multi-channel audio system in the IDM audio lab consists of an **8.1 system** - 8 full-range speakers, 1 subwoofer - arrayed in a *double quad* configuration. Each corner of the lab has a full-range speaker (a [Micca COVO-S](https://www.miccatron.com/micca-covo-s-concentric-driver-speaker/)) high in the ceiling and low near the floor. The subwoofer (a [Genelec 7060B](https://www.genelec.com/studio-monitors/7000-series-studio-subwoofers/7060b-studio-subwoofer)) is at floor level in one corner of the room. 
 
 The room layout below shows the speaker positions and audio channel numbers - the control room is at the bottom of the plan.
 
