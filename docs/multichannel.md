@@ -28,7 +28,7 @@ To work with the system, you will need to download and install the [MOTU AVB / P
 
 **The system is designed to work at a 48kHz sampling rate**. If you are using a DAW that allows you to select a different rate for the 16A, you may encounter problems using the subwoofer or the mic inputs on the 828. The interfaces list 48 as their sampling rate when operating normally:
 
-![Interface Close-Up](./img/audiolab_motu.jpg "Interface Close-Up")
+<img src = "./img/audiolab_motu.jpg" width="50%" title="Interface Close-Up" alt="Interface Close-Up">
 
 # Amplifiers
 
@@ -53,7 +53,7 @@ The MOTU 16A provides 16 channels of audio I/O into your computer. The 828mk3 ac
 
 To use the 16A, you need to make sure your audio software has it selected as an audio interface. In Max/MSP, your Audio Status window should look like this:
 
-![Max Audio Status](./img/audiolab_maxstatus.png "Max Audio Status")
+<img src = "./img/audiolab_maxstatus.png" width="50%" title="Max Audio Status" alt="Max Audio Status">
 
 To send outputs to the different speakers, you would use output channels 1-8 and 17 (for the subwoofer). Similarly, inputs 17 and 18 listen to the front-panel inputs on the 828mk3. In Max/MSP, your **adc~** and **dac~** objects can be assigned to read and write audio to specific channels:
 
