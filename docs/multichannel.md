@@ -29,25 +29,25 @@ When you're finished:
 * Unplug the USB cable, coil it and leave it on the white shelf in the closet for the next user.
 
 Do not:
-* Connect directly to the MOTU 828mk3.
+* Connect directly to the MOTU 828mk3. Only connect to the MOTU 16A.
 * Change the sampling rate or other front-panel settings on either audio interface, or shut them off individually.
-* Change the trim controls on the QSC amplifieer.
+* Change the trim controls on the QSC amplifiers.
 
 # Interfaces
 
 ![Multi-Channel System Interfaces](./img/audiolab_racktop.jpg "Multi-Channel System Interfaces")
 
-To work with the multi-channel system, **use the power switch on the Furman** to turn on the interfaces. *DO NOT SWITCH OFF THE INTERFACES INDIVIDUALLY.*
+To work with the multi-channel system, **use the power switch on the Furman** to turn on the interfaces. **Do not switch off the interfaces individually**.
 
 The audio interfaces are connected to one another via optical cablee, with the 16A as the primary interface.
 
-**You connect to the entire system using the USB cable connected to the 16A**, coiled on the shelf to the right. *Do NOT connect a computer directly to the 828mk3*; it is configured as an expander and acts like an extra set of channels for the 16A.
+**You connect to the system using the USB cable connected to the 16A**, coiled on the shelf to the right. *Do NOT connect a computer directly to the 828mk3*; it is configured as an expander and acts like an extra set of channels for the 16A.
 
 <img src = "./img/audiolab_usb.jpg" width="50%" title="USB input for MOTU 16A" alt="USB input for MOTU 16A">
 
 To work with the system, you will need to download and install the [MOTU AVB / Pro Audio Installer](https://motu.com/download) for your operating system. This will allow your computer to recognize the 16A interface.
 
-**The system is designed to work at a 48kHz sampling rate**. If you are using a DAW that allows you to select a different rate for the 16A, you may encounter problems using the subwoofer or the mic inputs on the 828. The interfaces list 48 as their sampling rate when operating normally:
+**The system is designed to work at a 48kHz sampling rate**. If you are using a DAW that allows you to select a different rate for the 16A, you may encounter problems using the subwoofer or the mic inputs on the 828. The interfaces list 48kHz as their sampling rate when operating normally:
 
 <img src = "./img/audiolab_motu.jpg" width="50%" title="Interface Close-Up" alt="Interface Close-Up">
 
@@ -63,16 +63,16 @@ In addition to the interfaces, you will need to **turn on the bottom amplifier**
 
 The MOTU 16A provides 16 channels of audio I/O into your computer. The 828mk3 acts as an expander, adding another 8 channels.
 
-16A Outputs:
+*16A Outputs:*
 * Channels 1-8 are the full range speakers in the room.
    * The high speakers are channels 1,3,5,7.
    * The low speakers are channels 2,4,6,8.
 * Channel 17 is the subwoofer, via an ADAT link to Main Out L on the 828mk3.
 
-16A Inputs:
+*16A Inputs:*
 * Channels 17-18 are linked via ADAT to the Mic/Instr inputs 1 and 2 on the front panel of the 828mk3. The Mic/Instr Jacks on the front of the 828mk3 allow you to connect mic or line-level audio sources in the room; they appear as inputs 17-18 on the 16A.
 
-To use the 16A, you need to make sure your audio software has it selected as an audio interface. In Max/MSP, your Audio Status window should look like this:
+To use the 16A, you need to make sure your audio software has it selected as an audio interface. In Max/MSP, your Audio Status window should look something like this:
 
 <img src = "./img/audiolab_maxstatus.png" width="50%" title="Max Audio Status" alt="Max Audio Status">
 
