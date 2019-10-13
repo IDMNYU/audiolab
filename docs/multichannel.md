@@ -3,9 +3,9 @@
 
 - [Overview](#overview)
 - [Quickstart](#quickstart)
-- [Interfaces](#interfaces)
-- [Amplifiers](#amplifiers)
-- [Computer I/O](#computer-i/o)
+- [Audio Interfaces](#interfaces)
+- [Power Amplifiers](#amplifiers)
+- [Computer Input and Output](#computer-input-and-output)
 
 # Overview
 
@@ -74,7 +74,7 @@ In addition to the interfaces, you will need to **turn on the bottom amplifier**
 
 [back to top](#top)
 
-# Computer I/O
+# Computer Input and Output
 
 The MOTU 16A provides 16 channels of audio I/O into your computer. The 828mk3 acts as an expander, adding another 8 channels.
 
