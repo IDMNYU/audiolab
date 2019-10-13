@@ -4,13 +4,23 @@
 
 The multi-channel audio system in the IDM audio lab consists of **an 8+1 system** - 8 full-range speakers, 1 subwoofer - arrayed in a *double quad* configuration. Each corner of the lab has a full-rangee speaker high in the ceiling and low near the floor. The subwoofer is at floor level in one corner of the room. 
 
-The room layout below shows the speaker positions and audio channel numbers - for reeference, the control room is at the bottom of the plan.
+The room layout below shows the speaker positions and audio channel numbers - the control room is at the bottom of the plan.
 
 <img src = "./img/audiolab_speakers.png" width="75%" title="Audio Speaker Positions" alt="Audio Speaker Positions">
 
 As the image above shows, the full-range speakers are numbered 1-8 and the subwoofer is numbered 17. The red-colored speakers (1, 3, 5, 7) are at ceiling level and the blue-colored speakers (2, 4, 6, 8, and 17) are near the floor.
 
 The audio for the multi-channel system is controlled by an equipment rack in the closet at the back of the room. The top of the rack consists of a [Furman power conditioner](https://www.furmanpower.com/) and two audio interfaces - a [MOTU 16A](https://motu.com/products/avb/16a) and a [MOTU 828mk3](https://cdn-data.motu.com/manuals/firewire-usb-audio/828mk3_Hybrid_Manual_Mac.pdf). The bottom of the rack contains a pair of [QSC](https://www.qsc.com/) 8-channel power amplifiers.
+
+# Quickstart
+
+To work with the system:
+* Power on the Furman power conditioner
+* Power on the bottom QSC amplifieer
+* Connect to the USB cable attached to the 16A
+* Select the MOTU 16A as your audio interface
+   * Outputs are 1-8 (full-range) and 17 (sub)
+   * Inputs are 17-18 for the front-panel inputs on the MOTU 828mk3
 
 # Interfaces
 
