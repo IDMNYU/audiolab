@@ -2,7 +2,7 @@
 
 # Overview
 
-The multi-channel audio system in the IDM audio lab consists of **an 8+1 system** - 8 full-range speakers, 1 subwoofer - arrayed in a *double quad* configuration. Each corner of the lab has a full-rangee speaker high in the ceiling and low near the floor. The subwoofer is at floor level in one corner of the room. 
+The multi-channel audio system in the IDM audio lab consists of **an 8+1 system** - 8 full-range speakers, 1 subwoofer - arrayed in a *double quad* configuration. Each corner of the lab has a full-range speaker (a [Micca COVO-S](https://www.miccatron.com/micca-covo-s-concentric-driver-speaker/)) high in the ceiling and low near the floor. The subwoofer (a Genelec 7060B](https://www.genelec.com/studio-monitors/7000-series-studio-subwoofers/7060b-studio-subwoofer) is at floor level in one corner of the room. 
 
 The room layout below shows the speaker positions and audio channel numbers - the control room is at the bottom of the plan.
 
@@ -15,12 +15,23 @@ The audio for the multi-channel system is controlled by an equipment rack in the
 # Quickstart
 
 To work with the system:
-* Power on the Furman power conditioner
-* Power on the bottom QSC amplifieer
-* Connect to the USB cable attached to the 16A
-* Select the MOTU 16A as your audio interface
-   * Outputs are 1-8 (full-range) and 17 (sub)
-   * Inputs are 17-18 for the front-panel inputs on the MOTU 828mk3
+* Power on the Furman power conditioner.
+* Power on the bottom QSC amplifier.
+* Connect to the USB cable attached to the 16A.
+* Select the MOTU 16A as your audio interface.
+   * Outputs are 1-8 (full-range) and 17 (sub).
+   * Inputs are 17-18 for the front-panel inputs on the MOTU 828mk3.
+   
+When you're finished:
+* Shut down your audio software.
+* Power off the bottom QSC amplifier.
+* Power off the Furman power conditioner.
+* Unplug the USB cable, coil it and leave it on the white shelf in the closet for the next user.
+
+Do not:
+* Connect directly to the MOTU 828mk3.
+* Change the sampling rate or other front-panel settings on either audio interface, or shut them off individually.
+* Change the trim controls on the QSC amplifieer.
 
 # Interfaces
 
@@ -53,13 +64,13 @@ In addition to the interfaces, you will need to **turn on the bottom amplifier**
 The MOTU 16A provides 16 channels of audio I/O into your computer. The 828mk3 acts as an expander, adding another 8 channels.
 
 16A Outputs:
-• Channels 1-8 are the full range speakers in the room.
-   • The high speakers are channels 1,3,5,7.
-   • The low speakers are channels 2,4,6,8.
-• Channel 17 is the subwoofer, via an ADAT link to Main Out L on the 828mk3.
+* Channels 1-8 are the full range speakers in the room.
+   * The high speakers are channels 1,3,5,7.
+   * The low speakers are channels 2,4,6,8.
+* Channel 17 is the subwoofer, via an ADAT link to Main Out L on the 828mk3.
 
 16A Inputs:
-• Channels 17-18 are linked via ADAT to the Mic/Instr inputs 1 and 2 on the front panel of the 828mk3. The Mic/Instr Jacks on the front of the 828mk3 allow you to connect mic or line-level audio sources in the room; they appear as inputs 17-18 on the 16A.
+* Channels 17-18 are linked via ADAT to the Mic/Instr inputs 1 and 2 on the front panel of the 828mk3. The Mic/Instr Jacks on the front of the 828mk3 allow you to connect mic or line-level audio sources in the room; they appear as inputs 17-18 on the 16A.
 
 To use the 16A, you need to make sure your audio software has it selected as an audio interface. In Max/MSP, your Audio Status window should look like this:
 
