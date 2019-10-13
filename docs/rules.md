@@ -24,10 +24,10 @@ The Audio Lab is **not a social space**. If you're not working with the equipmen
 
 *Please observe the following rules while working in the Audio Lab*
 
-- The Audio Lab is a shared space. Please be respectful of other people's equipment and work that might be ongoing in there. If you need to set up additional equipment, please work with the IDM staff to install it safely and make sure it's clearly got your name on it.
-- If you don't know how to use a particular setup and the directions aren't clear, don't wing it. Ask the audio GRA or one of the IDM faculty or staff for help.
-- No eating or drinking in the room. The rest of the 8th floor of 2MTC is an open space where you can eat and drink all you want.
-- Don't leave the door propped open if you run out for a minute. The 8th floor of 2MTC is used by the entire NYU community, and the Audio Lab has a lot of expensive equipment in it for use by the IDM program.
+- The Audio Lab is a **shared space**. Please be respectful of other people's equipment and work that might be ongoing in there. If you need to set up additional equipment, please work with the IDM staff to install it safely and make sure it's clearly got your name on it.
+- If you don't know how to use a particular setup and the directions aren't clear, **don't wing it**. Ask the audio GRA or one of the IDM faculty or staff for help.
+- **No eating or drinking** in the room. The rest of the 8th floor of 2MTC is an open space where you can eat and drink all you want.
+- **Don't ever leave the door propped open**, even if you run out for a minute. The 8th floor of 2MTC is used by the entire NYU community, and the Audio Lab has a lot of expensive equipment in it for use by the IDM program.
 
 *Please observe the following rules when you're leaving the Audio Lab*
 
