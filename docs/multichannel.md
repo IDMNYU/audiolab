@@ -24,8 +24,8 @@ The audio for the multi-channel system is controlled by an equipment rack in the
 # Quickstart
 
 To work with the system:
-* Power on the Furman power conditioner.
-* Power on the bottom QSC amplifier.
+* Turn on the Furman power conditioner.
+* Turn on the bottom QSC amplifier.
 * Connect to the USB cable attached to the 16A.
 * Select the MOTU 16A as your audio interface.
    * Outputs are 1-8 (full-range) and 17 (sub).
@@ -58,7 +58,7 @@ The audio interfaces are connected to one another via optical cablee, with the 1
 
 To work with the system, you will need to download and install the [MOTU AVB / Pro Audio Installer](https://motu.com/download) for your operating system. This will allow your computer to recognize the 16A interface.
 
-**The system is designed to work at a 48kHz sampling rate**. If you are using a DAW that allows you to select a different rate for the 16A, you may encounter problems using the subwoofer or the mic inputs on the 828. The interfaces list 48kHz as their sampling rate when operating normally:
+**The system is designed to work at a 48kHz sampling rate**. If you are using a DAW that allows you to select a different rate for the 16A, you may encounter problems using the subwoofer or the mic inputs on the 828mk3. The interfaces list 48kHz as their sampling rate when operating normally:
 
 <img src = "./img/audiolab_motu.jpg" width="50%" title="Interface Close-Up" alt="Interface Close-Up">
 
