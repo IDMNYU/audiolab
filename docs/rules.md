@@ -1,6 +1,6 @@
 # IDM Audio Lab - READ THIS FIRST
 
-## Policies
+## Lab Policies
 
 *What the Audio Lab is:*
 
@@ -20,7 +20,7 @@ The IDM Audio Lab is **not a commercial recording studio**. Under no circumstanc
 
 The Audio Lab is **not a social space**. If you're not working with the equipment, please find another place to hang out so that other folks can come in and work.
 
-## Rules
+## Lab Rules
 
 *Please observe the following rules while working in the Audio Lab*
 
