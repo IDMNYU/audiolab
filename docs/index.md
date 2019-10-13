@@ -4,7 +4,7 @@ How to use the IDM / BxmC audio lab (2MTC, rooms 823/824)
 
 Fall, 2019.
 
-**[Policies, Rules, and Room Reservation Procedure](./rules.md)**
+**[Policies, Rules, Reservations, and Contacts](./rules.md)**
 
 **[The Multi-channel Audio System](./multichannel.md)**
 
