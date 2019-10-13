@@ -1,5 +1,5 @@
 <a name="top"></a>
-# Audio Lab Multi-channel System
+# The IDM Multi-Channel Audio System
 
 - [Overview](#overview)
 - [Quickstart](#quickstart)
