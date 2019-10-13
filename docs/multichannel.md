@@ -1,4 +1,11 @@
+<a name="top"></a>
 # Audio Lab Multi-channel System
+
+- [Overview](#overview)
+- [Quickstart](#quickstart)
+- [Interfaces](#interfaces)
+- [Amplifiers](#amplifiers)
+- [Computer I/O](#computer-i/o)
 
 # Overview
 
@@ -11,6 +18,8 @@ The room layout below shows the speaker positions and audio channel numbers - th
 As the image above shows, the full-range speakers are numbered 1-8 and the subwoofer is numbered 17. The red-colored speakers (1, 3, 5, 7) are at ceiling level and the blue-colored speakers (2, 4, 6, 8, and 17) are near the floor.
 
 The audio for the multi-channel system is controlled by an equipment rack in the closet at the back of the room. The top of the rack consists of a [Furman power conditioner](https://www.furmanpower.com/) and two audio interfaces - a [MOTU 16A](https://motu.com/products/avb/16a) and a [MOTU 828mk3](https://cdn-data.motu.com/manuals/firewire-usb-audio/828mk3_Hybrid_Manual_Mac.pdf). The bottom of the rack contains a pair of [QSC](https://www.qsc.com/) 8-channel power amplifiers.
+
+[back to top](#top)
 
 # Quickstart
 
@@ -33,6 +42,8 @@ Do not:
 * Change the sampling rate or other front-panel settings on either audio interface, or shut them off individually.
 * Change the trim controls on the QSC amplifiers.
 
+[back to top](#top)
+
 # Interfaces
 
 ![Multi-Channel System Interfaces](./img/audiolab_racktop.jpg "Multi-Channel System Interfaces")
@@ -51,6 +62,8 @@ To work with the system, you will need to download and install the [MOTU AVB / P
 
 <img src = "./img/audiolab_motu.jpg" width="50%" title="Interface Close-Up" alt="Interface Close-Up">
 
+[back to top](#top)
+
 # Amplifiers
 
 The full-range speakers are amplified by a pair of 8-channel power amplifiers at the bottom of the equipment rack. **Only the bottom amplifier is currently in use.**
@@ -58,6 +71,8 @@ The full-range speakers are amplified by a pair of 8-channel power amplifiers at
 ![Multi-Channel System Amps](./img/audiolab_amps.jpg "Multi-Channel System Amps")
 
 In addition to the interfaces, you will need to **turn on the bottom amplifier** to work with the system.
+
+[back to top](#top)
 
 # Computer I/O
 
@@ -81,5 +96,7 @@ To send outputs to the different speakers, you would use output channels 1-8 and
 ![Max Patch Output](./img/audiolab_outputpatch.png "Max Patch Output")
 
 The [testpatches](https://github.com/IDMNYU/audiolab/tree/master/testpatches) folder of this Github repo has a number of patches to help you test the system.
+
+[back to top](#top)
 
 [return to main page](./index.md)
