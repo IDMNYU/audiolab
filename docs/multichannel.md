@@ -91,7 +91,7 @@ To use the 16A, you need to make sure your audio software has it selected as an 
 
 <img src = "./img/audiolab_maxstatus.png" width="50%" title="Max Audio Status" alt="Max Audio Status">
 
-To send outputs to the different speakers, you would use output channels 1-8 and 17 (for the subwoofer). Similarly, inputs 17 and 18 listen to the front-panel inputs on the 828mk3. In Max/MSP, your **adc~** and **dac~** objects can be assigned to read and write audio to specific channels:
+To send outputs to the different speakers, you would use output channels 1-8 and 17 (for the subwoofer). Similarly, inputs 17 and 18 listen to the front-panel inputs on the 828mk3. In Max/MSP, your **adc~** and **dac~** objects can be assigned to read audio from and write audio to specific channels:
 
 ![Max Patch Output](./img/audiolab_outputpatch.png "Max Patch Output")
 
