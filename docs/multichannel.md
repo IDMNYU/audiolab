@@ -74,7 +74,7 @@ The MOTU 16A provides 16 channels of audio I/O into your computer. The 828mk3 ac
 
 To use the 16A, you need to make sure your audio software has it selected as an audio interface. In Max/MSP, your Audio Status window should look something like this:
 
-<img src = "./img/audiolab_maxstatus.png" width="50%" title="Max Audio Status" alt="Max Audio Status">
+<img src = "./img/audiolab_maxstatus.png" width="30%" title="Max Audio Status" alt="Max Audio Status">
 
 To send outputs to the different speakers, you would use output channels 1-8 and 17 (for the subwoofer). Similarly, inputs 17 and 18 listen to the front-panel inputs on the 828mk3. In Max/MSP, your **adc~** and **dac~** objects can be assigned to read and write audio to specific channels:
 
