@@ -1,4 +1,4 @@
-# Policies, Rules, and Room Reservation Procedure
+# IDM Audio Lab - READ THIS FIRST
 
 ## Policies
 
@@ -51,6 +51,8 @@ Card access for the IDM Audio Lab is automatically granted for students in IDM a
 Other students interested in working in the room (e.g. for capstone or thesis work) must be approved to do so by Luke and Eric.
 
 ## Contact E-mails
+
+Who to write for help:
 
 - R. Luke DuBois - IDM Research Director - dubois@nyu.edu
 - Elton Kwok - IDM Technical Director - eltonkwok@nyu.edu
