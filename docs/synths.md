@@ -214,7 +214,7 @@ The **Mixer** is a utility module that allows you to mix up to three AC sources 
 
 #### Wave Multipliers
 
-The **Wave Multipliers** module appeared in 1976 and are considered an important circuit for achieving the "West Coast" sound of the Serge modular. The module contains three self-contained distortion effects that work by shaping the amplitude of the incoming audio signal. Quoting from the 1982 Serge catalog, Tcherepnin describes the three Wave Multipliers:
+The **Wave Multipliers** module appeared in 1976 and is considered an important circuit for achieving the "West Coast" sound of the Serge modular. The module contains three self-contained distortion effects that work by shaping the amplitude of the incoming audio signal. Quoting from the 1982 Serge catalog, Tcherepnin describes the three Wave Multipliers:
 
 > The uppermost section is the simplest of the three multiplier sections. but it has two switchable effects. With the switch 
 > set at the "HI" position, the module functions to "square-up" an incoming signal. This is not the same as a simple 
