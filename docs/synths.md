@@ -1263,7 +1263,7 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 *Notes:*
 - The Shift module creates a four-stage discrete "memory" of an input voltage, allowing it to be used programatically for melodies, rhythms, or other sonic parameters in your Serge patch.
 - Like most Serge modules, the Shift module can be sampled at audio rate; this can result in the shift outputs resembling slightly out-of-phase waveforms.
-- The carry pulse on the Shift module (*3*) will fire when all four stages of the ASR have completed shifting; because sample-and-hold circuits take a non-zero amount of time to acquire voltage, this pulse may be a few microseconds behind the sample trigger (*2*), and should be used to synchronize events that need to take place *after* the module has done a sample-and-shift of its voltages.
+- The carry pulse on the Shift module (*3*) will fire when all four stages of the ASR have completed shifting; because sample-and-hold circuits take a non-zero amount of time to acquire voltage, this pulse may be a few microseconds behind the sample trigger (*2*), and can be used to synchronize events that need to take place *after* the module has done a sample-and-shift of its voltages.
 
 [back to top](#top)
 
