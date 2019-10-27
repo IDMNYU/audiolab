@@ -9,7 +9,7 @@
   - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
   - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
   - [ARP system overview](#arp-system-overview)
-  - [TTSH)(#ttsh)
+  - [TTSH](#ttsh)
 
 # Overview
 
