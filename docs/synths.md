@@ -2,7 +2,9 @@
 # The IDM Analog Synthesizers
 
 - [Overview](#overview)
+
 - [Studio Basics](#studio-basics)
+
 - [The Synthesizers](#synthesizers)
 
 - [Serge system overview](#serge-system-overview)
