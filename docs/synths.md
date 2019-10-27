@@ -8,6 +8,8 @@
   - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) )
   - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
   - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
+  - [ARP system overview](#arp-system-overview)
+  - [TTSH)(#ttsh)
 
 # Overview
 
@@ -18,13 +20,14 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 - a large (4-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
+- a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) MIDI interface.
 - A vintage [IVL Pitchrider 4000](https://www.ivlaudio.com/home) pitch-to-MIDI converter.
-- A [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converter.
+- Two [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converters.
 - Multiple [Low-Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
 - Stereo [Genelec](https://www.genelec.com/) speakers.
@@ -52,7 +55,11 @@ The first four channels of the mixer are mono, and are hard-wired to:
 3. the output of the "XFader" module on the Random\*Source Serge (the rightmost module on the 3rd panel)
 4. the top output on the "Adapter" module on the 73-75 Serge (the rightmost module on the bottom panel)
 
-The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8, 9/10, 11/12). Channels 5/6 have a cable connected that ends in a stereo 1/8" jack so you can connect the analog output of your laptop.
+The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8, 9/10, 11/12) and are wired to:
+5/6. the left and right output of the TTSH Mixer section.
+7/8. a cable connected that ends in a stereo 1/8" jack so you can connect the analog output of your laptop.
+9/10. empty.
+11/12. empty.
 
 The MUTE buttons on each channel reroute the audio to a secondary ("Alt 3-4") output. The left ("Alt 3") output of this secondary audio bus is connected to one of the Low-Gain converter boxes, so that you could, for example, connect an electric guitar to the mixer, "mute" its channel, and then connect it to the Serge system.
 
