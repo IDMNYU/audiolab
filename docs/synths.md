@@ -65,7 +65,7 @@ The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8,
 11/12: empty.
 </pre>
 
-**Please don't re-plug the synth outputs on the mixer.**
+**Please don't re-plug the synthesizer channels on the mixer.**
 
 The MUTE buttons on each channel reroute the audio to a secondary ("Alt 3-4") output. The left ("Alt 3") output of this secondary audio bus is connected to one of the Low-Gain converter boxes, so that you could, for example, connect an electric guitar to the mixer, "mute" its channel, and then connect it to the Serge system.
 
