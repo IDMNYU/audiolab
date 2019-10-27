@@ -50,16 +50,16 @@ The mixer for the analog studio is a Behringer UFX-1204, which takes inputs from
 ![Analog Studio Mixer](./img/ufxmixer.jpg "Analog Studio Mixer")
 
 The first four channels of the mixer are mono, and are hard-wired to:
-1. the left output of the "Stereo Mixer" module on the Random\*Source Serge (the rightmost module on the top panel)
-2. the right output of the "Stereo Mixer" module on the Random\*Source Serge (the rightmost module on the top panel)
-3. the output of the "XFader" module on the Random\*Source Serge (the rightmost module on the 3rd panel)
-4. the top output on the "Adapter" module on the 73-75 Serge (the rightmost module on the bottom panel)
+- 1: the left output of the "Stereo Mixer" module on the Random\*Source Serge (the rightmost module on the top panel)
+- 2: the right output of the "Stereo Mixer" module on the Random\*Source Serge (the rightmost module on the top panel)
+- 3: the output of the "XFader" module on the Random\*Source Serge (the rightmost module on the 3rd panel)
+- 4: the top output on the "Adapter" module on the 73-75 Serge (the rightmost module on the bottom panel)
 
 The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8, 9/10, 11/12) and are wired to:
-5/6. the left and right output of the TTSH Mixer section.
-7/8. a cable connected that ends in a stereo 1/8" jack so you can connect the analog output of your laptop.
-9/10. empty.
-11/12. empty.
+- 5/6: the left and right output of the TTSH Mixer section.
+- 7/8: a cable connected that ends in a stereo 1/8" jack so you can connect the analog output of your laptop.
+- 9/10: empty.
+- 11/12: empty.
 
 The MUTE buttons on each channel reroute the audio to a secondary ("Alt 3-4") output. The left ("Alt 3") output of this secondary audio bus is connected to one of the Low-Gain converter boxes, so that you could, for example, connect an electric guitar to the mixer, "mute" its channel, and then connect it to the Serge system.
 
