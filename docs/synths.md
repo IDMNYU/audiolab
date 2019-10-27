@@ -60,7 +60,7 @@ The first four channels of the mixer are mono, and are wired to:
 The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8, 9/10, 11/12) and are wired to:
 <pre>
 5/6: the left and right output of the TTSH Mixer section.
-7/8: a cable connected that ends in a stereo 3.5mm jack so you can connect, e.g. the analog output of your laptop.
+7/8: a cable connected that ends in a stereo 3.5mm jack for a laptop connection.
 9/10: empty.
 11/12: empty.
 </pre>
