@@ -50,20 +50,20 @@ The mixer for the analog studio is a Behringer UFX-1204, which takes inputs from
 ![Analog Studio Mixer](./img/ufxmixer.jpg "Analog Studio Mixer")
 
 The first four channels of the mixer are mono, and are wired to:
-<pre>
-1: the left output of the "Stereo Mixer" module on the Random\*Source Serge.
-2: the right output of the "Stereo Mixer" module on the Random\*Source Serge.
+<code>
+1: the left output of the "Stereo Mixer" module on the Random*Source Serge.
+2: the right output of the "Stereo Mixer" module on the Random*Source Serge.
 3: the output of the "XFader" module on the Random\*Source Serge.
 4: the top output on the "Adapter" module on the 73-75 Serge.
-</pre>
+</code>
 
 The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8, 9/10, 11/12) and are wired to:
-<pre>
+<code>
 5/6: the left and right output of the TTSH Mixer section.
 7/8: a cable connected that ends in a stereo 3.5mm jack for a laptop connection.
 9/10: empty.
 11/12: empty.
-</pre>
+</code>
 
 **Please don't re-plug the synthesizer channels on the mixer.**
 
