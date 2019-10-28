@@ -1280,4 +1280,18 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 
 [back to top](#top)
 
+## ARP System Overview
+
+![ARP 2600 in use](./img/arp_orig.jpg "ARP2600 in use")
+
+The [ARP 2600](https://en.wikipedia.org/wiki/ARP_2600) is a 'semi-modular' [analog synthesizer](https://en.wikipedia.org/wiki/Analog_synthesizer) designed by Dennis Colin and [Alan Robert Pearlman](https://en.wikipedia.org/wiki/Alan_R._Pearlman) - [A.R.P.](https://en.wikipedia.org/wiki/ARP_Instruments) himself - and commercially released in 1971.  It was one of the first synthesizers extensively marketed for education, with a retail price of below $3,500.  It is considered one of the canonical synthesizers of its day, so a 'mint' (or fully-restored) ARP 2600 can easily fetch $10,000 or more today.
+
+The ARP 2600 shows up in a lot of strange places... the synth was integral to the sound of artists ranging from [Jean Michel Jarre](https://en.wikipedia.org/wiki/Jean_Michel_Jarre) to [Joy Division](https://en.wikipedia.org/wiki/Joy_Division).  It's also well-known in the sound effects community because of its built-in envelope follower; sound designer [Ben Burtt](https://en.wikipedia.org/wiki/Ben_Burtt) used this to great effect in making the 'voice' of [R2-D2](https://en.wikipedia.org/wiki/R2-D2) in the Star Wars movies.
+
+A scan of the original ARP 2600 owner's manual can be found [here](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf).
+
+A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Service-Manual-Complete-119pgs.pdf).
+
+### What makes an ARP an ARP?
+
 [return to main page](./index.md)
