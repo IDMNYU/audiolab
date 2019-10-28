@@ -1371,7 +1371,7 @@ This module consists of three-submodules:
 
 <img src = "./img/TTSH_1_2.png" height="750px" title="VCO 1" alt="VCO 1">
 
-This module is the first oscillator for the ARP. Sliders at the top provide a base frequency (in two ranges) and the ability to fine tune the oscillator. A toggle switch labeled 'AUDIO/LF' provides two functions - (1) it wires in control voltage from the KBD CV 'keyboard' input so that you can 'play' the oscillator and (2) it switches the oscillator scaling between a low-frequency oscillator (LFO) mode where its range is between 0.3 and 30Hz ('LF' or 'kbd off') and a high frequency mode where it outputs waveforms between 10Hz and 10kHz ('AUDIO' or 'kbd on'). There are patch point output jacks for a sawtooth wave and a square wave from the VCO. The mixer section at the bottom allows for frequency modulation of the oscilator. These inputs *add* to the voltage set by the sliders at the top; this allows you to control the range of FM through a combination of the frequency control sliders and the mixer.
+This module is the first oscillator for the TTSH. Sliders at the top provide a base frequency (in two ranges) and the ability to fine tune the oscillator. A toggle switch labeled 'AUDIO/LF' provides two functions - (1) it wires in control voltage from the KBD CV 'keyboard' input so that you can 'play' the oscillator and (2) it switches the oscillator scaling between a low-frequency oscillator (LFO) mode where its range is between 0.3 and 30Hz ('LF' or 'kbd off') and a high frequency mode where it outputs waveforms between 10Hz and 10kHz ('AUDIO' or 'kbd on'). There are patch point output jacks for a sawtooth wave and a square wave from the VCO. The mixer section at the bottom allows for frequency modulation of the oscilator. These inputs *add* to the voltage set by the sliders at the top; this allows you to control the range of FM through a combination of the frequency control sliders and the mixer.
 - *Default input* - the 'kbd on / kbd off' switch allows you to control the oscillator's frequency directly from the KBD CV input (or any CV source plugged into the left-most 'FM control' jack). In addition, the mixer section lets you bring in three additional sources for FM; the hard-wired options are the output of the sample-and-hold (S/H) module, the ADSR envelope generator, and the sine wave output of VCO 2.
 - *Default output* - the square wave output of VCO 1 is wired by default into the inputs for VCO 2 and the VCF.
 
@@ -1379,7 +1379,7 @@ This module is the first oscillator for the ARP. Sliders at the top provide a ba
 
 <img src = "./img/TTSH_1_3.png" height="750px" title="VCO 2" alt="VCO 2">
 
-This module is the second oscillator for the ARP, and has more features than VCO 1. As with the first oscillator, sliders at the top provide a base frequency and fine tune control. A third slider allows you to set the pulse width for the pulse/pwm wave output. The 'AUDIO / LF' switch provides the same function as on VCO 1, allowing 'keyboard' (KBD CV input) control of the oscillator and switching between LFO and audible frequency mode. There are four output jacks on VCO 2 - a triangle wave, a sawtooth wave, a sine wave, and a [pulse width modulation](https://en.wikipedia.org/wiki/Pulse-width_modulation) generator that can vary continuously between a square wave and a short pulse wave. The mixer section at the bottom allows for frequency modulation of the oscilator, as well as modulation of the pulse width for the pulse/pwm wave output.
+This module is the second oscillator for the TTSH, and has more features than VCO 1. As with the first oscillator, sliders at the top provide a base frequency and fine tune control. A third slider allows you to set the pulse width for the pulse/pwm wave output. The 'AUDIO / LF' switch provides the same function as on VCO 1, allowing 'keyboard' (KBD CV input) control of the oscillator and switching between LFO and audible frequency mode. There are four output jacks on VCO 2 - a triangle wave, a sawtooth wave, a sine wave, and a [pulse width modulation](https://en.wikipedia.org/wiki/Pulse-width_modulation) generator that can vary continuously between a square wave and a short pulse wave. The mixer section at the bottom allows for frequency modulation of the oscilator, as well as modulation of the pulse width for the pulse/pwm wave output.
 - *Default input* - as with VCO 1, the 'AUDIO / LF' switch allows you to control the oscillator's frequency directly from the KBD CV input (or any CV source plugged into the left-most 'FM control' jack). In addition, the mixer section lets you bring in three additional sources for FM; by default, these are the sample-and-hold (S/H) module, the ADSR envelope generator, and the square wave output of VCO 1.
 - *Default output* - the sine wave output of VCO 2 is wired by default into the inputs for VCO 1, VCO 3, and the VCF (as a control source). The pulse/pwm wave output of VCO 2 is wired by default into the VCF as well, as an audio source.
 
@@ -1387,7 +1387,7 @@ This module is the second oscillator for the ARP, and has more features than VCO
 
 <img src = "./img/TTSH_1_4.png" height="750px" title="VCO 3" alt="VCO 3">
 
-VCO3 is the ARP synthesizer's third oscillator, intermediate in complexity between VCO 1 and VCO 2. As with VCO 2, there are sliders for a base frequency, fine tune, and pulse width. The 'AUDIO / LF' switch toggles KBD CV input control of the oscillator and switches between LFO and audible frequency mode. The oscillator has output jacks for a sawtooth and a pulse/pwm wave output. The mixer section at the bottom allows for frequency modulation of the oscilator.
+VCO3 is the TTSH synthesizer's third oscillator, intermediate in complexity between VCO 1 and VCO 2. As with VCO 2, there are sliders for a base frequency, fine tune, and pulse width. The 'AUDIO / LF' switch toggles KBD CV input control of the oscillator and switches between LFO and audible frequency mode. The oscillator has output jacks for a sawtooth and a pulse/pwm wave output. The mixer section at the bottom allows for frequency modulation of the oscilator.
 - *Default input* - as with VCO 1 and VCO 2, the 'AUDIO / LF' switch allows you to control the oscillator's frequency directly from the KBD CV input (or any CV source plugged into the left-most 'FM control' jack). The mixer section lets you bring in three FM sources; by default, these are the output of the noise generator, the ADSR envelope generator, and the sine wave output of VCO 2.
 - *Default output* - the sawtooth wave output of VCO 3 is wired by default into the input of the VCF.
 
@@ -1403,7 +1403,7 @@ The VCF is the ARP 2600's filter. Early versions of the ARP 2600 (and the TTSH) 
 
 <img src = "./img/TTSH_1_6.png" height="750px" title="ADSR/AR" alt="ADSR/AR">
 
-The envelope generator on the ARP 2600 creates control voltage signals that rise and fall in response to a trigger. These are used for amplitude curves, filter curves, etc. This module generates no audio, but can be used with other modules to process audio (e.g. through the FM inputs on the VCOs or the CV input on the VCA). The top half of the module controls an ADSR (attack/decay/sustain/release) envelope with sliders to control each stage of the envelope. The bottom half controls a simple AR (attack/release) envelope with two sliders instead of four. Both envelopes are 'fired' through the same trigger mechanism and cannot be controlled independently: there is a button for manual firing, as well as a jack for an external trigger. There are output jacks for each envelope, as well as utility jacks outputting voltage from the keyboard - a 'gate' output (voltage high on key down, voltage low on key up) and a 'trigger' output (a voltage pulse on key down).
+The envelope generator on the TTSH creates control voltage signals that rise and fall in response to a trigger. These are used for amplitude curves, filter curves, etc. This module generates no audio, but can be used with other modules to process audio (e.g. through the FM inputs on the VCOs or the CV input on the VCA). The top half of the module controls an ADSR (attack/decay/sustain/release) envelope with sliders to control each stage of the envelope. The bottom half controls a simple AR (attack/release) envelope with two sliders instead of four. Both envelopes are 'fired' through the same trigger mechanism and cannot be controlled independently: there is a button for manual firing, as well as a jack for an external trigger. There are output jacks for each envelope, as well as utility jacks outputting voltage from the keyboard - a 'gate' output (voltage high on key down, voltage low on key up) and a 'trigger' output (a voltage pulse on key down).
 - *Default input* - the envelope generators can be controlled via the Keyboard Gate/Trig inputs (with the toggle switch in the up position) or a second voltage jack, with a default wired connection to the sample-and-hold output.
 - *Default output* - the ADSR output is wired by default to FM inputs on all 3 VCOs, as well as a CV input on the VCF. Both ADSR and AR outputs are wired by default to control inputs on the VCA.
 
@@ -1411,7 +1411,7 @@ The envelope generator on the ARP 2600 creates control voltage signals that rise
 
 <img src = "./img/TTSH_1_7.png" height="750px" title="VCA" alt="VCA">
 
-The VCA of the ARP 2600 modulates the amplitude of audio inputs based on control voltage sources.  This allows you to shape the volume of a synthesizer 'note', allowing it to fade in and out. The VCA has a slider to set an 'initial gain' - as with other horizontal sliders on the ARP, these voltages are added to external control voltages, allowing you to offset and scale them when used together with the vertical 'mixer' sliders on the same module. The VCA has two input sources and two control sources, but only one amplifier circuit, which will sum the audio signals and amplify them based on the control voltages to generate one shaped output.  There is a jack for the VCA output.
+The VCA of the TTSH modulates the amplitude of audio inputs based on control voltage sources.  This allows you to shape the volume of a synthesizer 'note', allowing it to fade in and out. The VCA has a slider to set an 'initial gain' - as with other horizontal sliders on the ARP, these voltages are added to external control voltages, allowing you to offset and scale them when used together with the vertical 'mixer' sliders on the same module. The VCA has two input sources and two control sources, but only one amplifier circuit, which will sum the audio signals and amplify them based on the control voltages to generate one shaped output.  There is a jack for the VCA output.
 - *Default input* - the VCA has two audio inputs, which default to the outputs of the VCF and the ring modulator. The two control inputs for the VCA are wired by default to the outputs from the envelope generator module (AR and ADSR).
 - *Default output* - the VCA is wired by default to an input on the mixer module.
 
@@ -1419,7 +1419,7 @@ The VCA of the ARP 2600 modulates the amplitude of audio inputs based on control
 
 <img src = "./img/TTSH_1_8.png" height="750px" title="Mixer" alt="Mixer">
 
-The right-hand module on the top row of the ARP 2600 consists of a final stage mixer, a reverberation unit, and jacks for audio output from the synthesizer:
+The right-hand module on the top row of the TTSH consists of a final stage mixer, a reverberation unit, and jacks for audio output from the synthesizer:
 - the [*Mixer*](https://en.wikipedia.org/wiki/Audio_mixing) module is a two-channel mixer with vertical sliders, a jack above each slider that can 'tap' a direct out of the channel, and a horizontal [pan](https://en.wikipedia.org/wiki/Panning_(audio)) slider to move the mixers output between the left and right output jacks from the synthesizer. There are also additional input jacks to bypass the mixer entirely, wiring their voltage directly to their respective output jacks.
    - *Default input* - the mixer takes the outputs of the VCF and VCA as its default inputs.
    - *Default output* - the mixer terminates its signal path at the two output jacks (labeled 'left output' and 'right output'), as well as the internal speakers and the headphone jack.
@@ -1430,13 +1430,13 @@ The right-hand module on the top row of the ARP 2600 consists of a final stage m
 
 <img src = "./img/TTSH_2_1.png" height="300px" title="Keyboard/Mult" alt="Keyboard/Mult">
 
-On the lower left of the ARP 2600, next to the left speaker, there is a jack that allows exterenal voltage to be wired to all the "KBD CV" inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive 4-in-1 jack that allows you to take any voltage and split it into three outputs using patch cables. On the right of the speaker is a vertical slider for its volume.  
+On the lower left of the TTSH, next to the left speaker, there is a jack that allows exterenal voltage to be wired to all the "KBD CV" inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive 4-in-1 jack that allows you to take any voltage and split it into three outputs using patch cables. On the right of the speaker is a vertical slider for its volume.  
 
 #### 10 - Noise Generator
 
 <img src = "./img/TTSH_2_2.png" height="300px" title="Noise" alt="Noise">
 
-The noise generator for the ARP 2600 provides a random audio source that can be used for a variety of interesting things.  The two vertical sliders allow you to adjust between [white noise](https://en.wikipedia.org/wiki/White_noise) (constant power), [pink noise](https://en.wikipedia.org/wiki/Pink_noise) (1/f power), and [red noise](https://en.wikipedia.org/wiki/Brownian_noise) (1/f2), as well as control the output gain of the module.
+The noise generator for the TTSH provides a random audio source that can be used for a variety of interesting things.  The two vertical sliders allow you to adjust between [white noise](https://en.wikipedia.org/wiki/White_noise) (constant power), [pink noise](https://en.wikipedia.org/wiki/Pink_noise) (1/f power), and [red noise](https://en.wikipedia.org/wiki/Brownian_noise) (1/f2), as well as control the output gain of the module.
 - *Default output* - the noise generator is wired by default to the pulse width input on VCO 2, an FM input on VCO 3, an audio input on the VCF, and the trigger input of the sample-and-hold module
 
 #### 11 - Control Voltage Processor
@@ -1450,7 +1450,7 @@ The control voltage processor module allows for four different control sources t
 
 <img src = "./img/TTSH_2_4.png" height="300px" title="S&H" alt="S&H">
 
-The sample and hold (S/H) module on the ARP 2600 can be used to generate clocks and random audio sources by 'sampling' an input voltage based on an internal or external clock (which does not have to be a clock at all). The internal controls allow for the generation of S/H control voltages with a gain and constant speed controlled by the vertical sliders. Input and output jacks for the switches and clocks of the module allow you to create more complex sample-and-hold systems for the ARP which can simulate sequences, arpeggiators, and rhythmic voltage curves.
+The sample and hold (S/H) module on the TTSH can be used to generate clocks and random audio sources by 'sampling' an input voltage based on an internal or external clock (which does not have to be a clock at all). The internal controls allow for the generation of S/H control voltages with a gain and constant speed controlled by the vertical sliders. Input and output jacks for the switches and clocks of the module allow you to create more complex sample-and-hold systems for the ARP which can simulate sequences, arpeggiators, and rhythmic voltage curves.
 - *Default input* - the sample and hold module's input is wired by default to the output of the noise generator.
 - *Default output* - the sample and hold module's output is wired by default to the inputs of the FM controls on VCOs 1 and 2; the 'gate' output of the module's clock is wired by default to the trigger input on the envelope generator module.
 
@@ -1458,7 +1458,7 @@ The sample and hold (S/H) module on the ARP 2600 can be used to generate clocks 
 
 <img src = "./img/TTSH_2_5.png" height="300px" title="Phones/Power" alt="Phones/Power">
 
-On the lower right of the ARP 2600 is the power switch for the synthesizer, next to the right speaker. The headphone jack for the synthesizer is there as well, just below the power switch. On the left of the speaker is a vertical slider for its volume.
+On the lower right of the TTSH is the power switch for the synthesizer, next to the right speaker. The headphone jack for the synthesizer is there as well, just below the power switch. On the left of the speaker is a vertical slider for its volume.
 
 [back to top](#top)
 
