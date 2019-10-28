@@ -1311,7 +1311,7 @@ The ARP 2600 has 14 or so modules, along with a keyboard, built-in speakers, and
 
 ![TTSH slider](./img/ttsh_slider.jpg "TTSH slider")
 
-This slider lets you mix in a signal to a module (this particular slider is from the ARP filter, but this user interface is consistent across the synth).  Where it gets this signal from depends on *whether or not a cable is patched into the jack* below the slider.  If no cable exists, the synth's default wiring is used, and the symbol below the jack tells you the default source.  In this case, it's the square wave output from 'VCO 1' (the first oscillator on the synth).  If you patch a cable into the jack, that will break the default connection and override it, so that you can wire in any signal you like from elsewhere on the synthesizer.
+This slider lets you mix in a signal to a module (this particular slider is from the TTSH filter, but this user interface is consistent across the synth).  Where it gets this signal from depends on *whether or not a cable is patched into the jack* below the slider.  If no cable exists, the synth's default wiring is used, and the symbol below the jack tells you the default source.  In this case, it's the square wave output from 'VCO 1' (the first oscillator on the synth).  If you patch a cable into the jack, that will break the default connection and override it, so that you can wire in any signal you like from elsewhere on the synthesizer.
 
 *Nearly all modules have one or more sliders* that allow you to control the mix of one or more inputs.  If these sliders are down, the module will receive no input, from its default source or elsewhere, and will rely entirely on its internal circuitry to function.  When a module has multiple inputs, their voltages are summed; in addition, these voltages will also be mixed with any control voltage being generated directly by controls on the module, such as a frequency control on the VCO modules.  This elegant system allows you to *offset and scale* input voltages using controls mounted directly on the module itself rather than having to resort to separate voltage processing modules (although the ARP has one of those as well).  Generally-speaking, the vertical sliders will provide a scalar to the incoming voltage (a *multiplication* of voltage), while horizontal sliders will provide an offset to the incoming voltage (an *addition* of voltage).
 
@@ -1326,6 +1326,14 @@ The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into 
 <img src = "./img/eurocables.jpg" width="50%" title="3.5 mm patch cables" alt="3.5 mm patch cables">
 
 ARP synthesizers use a 10V AC standard for audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages will not trigger the envelope gnereator on an ARP 2600 without being amplified. The ARP 2600 uses a standard scaling of 1 volt-per-octave to represent musical pitch.
+
+[back to top](#top)
+
+## TTSH
+
+<img src = "./img/TTSH_photo_lit.jpg" width="100%" title="TTSH system powered on" alt="TTSH powered on">
+
+
 
 [back to top](#top)
 
