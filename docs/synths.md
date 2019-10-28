@@ -1309,7 +1309,7 @@ The ARP 2600 has 14 or so modules, along with a keyboard, built-in speakers, and
 
 *The most important thing to know about the ARP out is the default wiring between the modules*.  These are indicated by friendly diagrams under the patch points and sliders, e.g.:
 
-![TTSH slider](./images/ttsh_slider.jpg "TTSH slider")
+![TTSH slider](./img/ttsh_slider.jpg "TTSH slider")
 
 This slider lets you mix in a signal to a module (this particular slider is from the ARP filter, but this user interface is consistent across the synth).  Where it gets this signal from depends on *whether or not a cable is patched into the jack* below the slider.  If no cable exists, the synth's default wiring is used, and the symbol below the jack tells you the default source.  In this case, it's the square wave output from 'VCO 1' (the first oscillator on the synth).  If you patch a cable into the jack, that will break the default connection and override it, so that you can wire in any signal you like from elsewhere on the synthesizer.
 
@@ -1319,11 +1319,11 @@ The default wiring allows most of the modules on the ARP to interact with no pat
 
 To override the default wiring, modules can connected by **patching** within and between module jacks using 3.5mm cables:
 
-![ARP 2600 with patch cables](./images/arp_patched.jpg "ARP 2600 with patch cables")
+![ARP 2600 with patch cables](./img/arp_patched.jpg "ARP 2600 with patch cables")
 
 The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the analog studio area, and are color-coded by length.
 
-![3.5 mm patch cables](./images/eurocables.jpg "3.5mm patch cables")
+![3.5 mm patch cables](./img/eurocables.jpg "3.5mm patch cables")
 
 ARP synthesizers use a 10V AC standard for audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages will not trigger the envelope gnereator on an ARP 2600 without being amplified. The ARP 2600 uses a standard scaling of 1 volt-per-octave to represent musical pitch.
 
