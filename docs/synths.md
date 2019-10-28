@@ -1326,7 +1326,7 @@ The default wiring allows most of the modules on the ARP to interact with no pat
 
 To override the default wiring, modules can connected by **patching** within and between module jacks using 3.5mm cables:
 
-![ARP 2600 with patch cables](./img/arp_patched.jpg "ARP 2600 with patch cables")
+![TTSH with patch cables](./img/ttsh_patched.jpg "TTSH with patch cables")
 
 The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the analog studio area, and are color-coded by length.
 
