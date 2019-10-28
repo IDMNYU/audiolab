@@ -1355,20 +1355,29 @@ The **TTSH** (the "Mini Meanie") was custom-built for Luke in 2019 by Darrin Wie
 
 Below is a list of modules (left-to-right, top row then bottom row), an explanation of their capabilities, and their wiring (default input and output).
 
-#### 1 - Pre-Amplifier (PRE-AMP) / Envelope Follower (ENV FOLL) / Ring Modulator (RING MOD)
+#### 1 - Pre-Amplifier (PRE AMP) / Envelope Follower (ENV FOLL) / Ring Modulator (RING MOD)
+
+This module consists of three-submodules:
+- A [**Pre-Amplifier**](https://en.wikipedia.org/wiki/Preamplifier) that allows you to connect an external sound source (mic or line) into the synth, either for processing (e.g. through the filter and amplifier) or to control a parameter of the synth (most likely using the envelope follower). The knob (*2*) and the three-way toggle switch (*3*) allow you to adjust the gain of the input signal. The output patch point (*4*) allows you to wire the pre-amplifier to the rest of the synthesizer.
+- An [**Envelope Follower**](https://en.wikipedia.org/wiki/Envelope_detector), which converts any input audio signal (*5*) into a corresponding control voltage based on a smoothed representation of the amplitude (loudness) of the input. For example, you can use a microphone input to the *pre-amplifier* to generate a CV slope that controls the amplitude of the synthesizers oscillators. This module allowed Ben Burtt to create R2-D2's voice in *Star Wars*.
+- A [**Ring Modulator**](https://en.wikipedia.org/wiki/Ring_modulation), which multiplies two audio signals together (or one audio signal and one CV signal, for more traditional amplitude modulation), creating sideband effects that create a signature 'metallic' or 'robotic' sound. The toggle switch labeled **AUDIO/DC** allows you to select whether the second signal is a sound or a control voltage - if the latter is selected, the second input will become DC-coupled, allowing the module to function as a second VCA for the synthesizer.
 
 <img src = "./img/TTSH_1_1.png" height="500px" title="Pre-Amp/Envelope/RingMod" alt="Pre-Amp/Envelope/RingMod">
 
-This module consists of three-submodules:
-- A [**Pre-Amplifier**](https://en.wikipedia.org/wiki/Preamplifier) that allows you to connect an external sound source (mic or line) into the synth, either for processing (e.g. through the filter and amplifier) or to control a parameter of the synth (most likely using the envelope follower). The knob and the three-way toggle switch allow you to adjust the gain of the input signal. The **output** patch point allows you to wire the pre-amplifier to the rest of the synthesizer.
-  - *Default input* - none.  You can connect any source to the jack to the left of the 'gain' knob.
-  - *Default output* - the **PRE-AMP** is wired by default as the input to the *envelope follower*.
-- An [**Envelope Follower**](https://en.wikipedia.org/wiki/Envelope_detector), which converts any input audio signal into a corresponding control voltage based on a smoothed representation of the amplitude (loudness) of the input. For example, you can use a microphone input to the *pre-amplifier* to generate a CV slope that controls the amplitude of the synthesizers oscillators. This module allowed Ben Burtt to create R2-D2's voice in *Star Wars*.
-  - *Default input* - the output of the **PRE-AMP**.
-  - *Default output* - the **ENV FOLL** output is wired by default into the "lag" input on the **VOLTAGE PROCESSORS**.
-- A [**Ring Modulator**](https://en.wikipedia.org/wiki/Ring_modulation), which multiplies two audio signals together (or one audio signal and one CV signal, for more traditional amplitude modulation), creating sideband effects that create a signature 'metallic' or 'robotic' sound. The toggle switch labeled **AUDIO/DC** allows you to select whether the second signal is a sound or a control voltage - if the latter is selected, the second input will become DC-coupled, allowing the module to function as a second VCA for the synthesizer.
-  - *Default input* - the sawtooth wave output of **VCO 1** and the sine wave output of **VCO 2**.
-  - *Default output* - the **RING MOD** is available as a hard-wired input for the **VCF**.
+1. **PRE AMP** input
+2. **PRE AMP** gain knob
+3. **PRE AMP** gain multiplier switch
+4. **PRE AMP** output (*default destination*: input of **ENV FOLL**)
+5. **ENV FOLL** input (*default source*: **PRE AMP** output)
+6. **ENV FOLL** mix amount
+7. **ENV FOLL** output (*default destination*: "lag" input of **VOLTAGE PROCESSORS**)
+8. **RING MOD** carrier input (*default source*: the sawtooth wave output of **VCO 1**)
+9. **RING MOD** carrier mix amount
+10. **RING MOD** **AUDIO/DC** switch
+11. **RING MOD** modulator input (*default source*: sine output of **VCO 2**)
+12. **RING MOD** modulator mix amount
+13. **RING MOD** output (*default destination*: **VCF**)
+
 
 #### 2 - Voltage Controlled Oscillator (VCO 1)
 
