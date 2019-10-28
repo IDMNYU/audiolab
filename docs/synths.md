@@ -1370,8 +1370,8 @@ This module consists of three-submodules:
 4. **PRE AMP** output (*default destination*: input of **ENV FOLL**)
 5. **ENV FOLL** input (*default source*: **PRE AMP** output)
 6. **ENV FOLL** mix amount
-7. **ENV FOLL** output (*default destination*: "lag" input of **VOLTAGE PROCESSORS**)
-8. **RING MOD** carrier input (*default source*: the sawtooth wave output of **VCO 1**)
+7. **ENV FOLL** output (*default destination*: "lag" input of the **VOLTAGE PROCESSORS**)
+8. **RING MOD** carrier input (*default source*: sawtooth output of **VCO 1**)
 9. **RING MOD** carrier mix amount
 10. **RING MOD** **AUDIO/DC** switch
 11. **RING MOD** modulator input (*default source*: sine output of **VCO 2**)
@@ -1381,11 +1381,22 @@ This module consists of three-submodules:
 
 #### 2 - Voltage Controlled Oscillator (VCO 1)
 
+This module is the first oscillator for the TTSH. Sliders at the top provide a base frequency (in two ranges) and the ability to fine tune the oscillator. A toggle switch labeled **AUDIO/LF** provides two functions - (1) it wires in control voltage from the KBD CV "keyboard" input so that you can play the oscillator with a 1 volt-per-octave signal and (2) it switches the oscillator scaling between a low-frequency oscillator (LFO) mode where its range is between 0.3 and 30Hz (**LF** or **KBD OFF**) and a high frequency mode where it outputs waveforms between 10Hz and 10kHz (**AUDIO** or **KBD ON**). There are patch point output jacks for a sawtooth wave and a square wave from the VCO. The mixer section at the bottom allows for frequency modulation of the oscilator. These inputs *add* to the voltage set by the sliders at the top; this allows you to control the range of FM through a combination of the frequency control sliders and the mixer.
+
 <img src = "./img/TTSH_1_2.png" height="500px" title="VCO 1" alt="VCO 1">
 
-This module is the first oscillator for the TTSH. Sliders at the top provide a base frequency (in two ranges) and the ability to fine tune the oscillator. A toggle switch labeled **AUDIO/LF** provides two functions - (1) it wires in control voltage from the KBD CV "keyboard" input so that you can play the oscillator with a 1 volt-per-octave signal and (2) it switches the oscillator scaling between a low-frequency oscillator (LFO) mode where its range is between 0.3 and 30Hz (**LF** or **KBD OFF**) and a high frequency mode where it outputs waveforms between 10Hz and 10kHz (**AUDIO** or **KBD ON**). There are patch point output jacks for a sawtooth wave and a square wave from the VCO. The mixer section at the bottom allows for frequency modulation of the oscilator. These inputs *add* to the voltage set by the sliders at the top; this allows you to control the range of FM through a combination of the frequency control sliders and the mixer.
-- *Default input* - the **KBD ON / KBD OFF** switch allows you to control the oscillator's frequency directly from the **KBD CV** input (or any CV source plugged into the left-most 'FM control' jack). In addition, the mixer section lets you bring in three additional sources for FM; the hard-wired options are the output of the sample-and-hold (**S/H**) module, the **ADSR** envelope generator, and the sine wave output of **VCO 2**.
-- *Default output* - the square wave output of **VCO 1** is wired by default into the inputs for **VCO 2** and the **VCF**.
+1. Coarse frequency slider
+2. Fine frequency slider
+3. AUDIO/LF switch
+4. Frequency Modulation Input 1 - only engaged in AUDIO mode (*default source*: **KBD CV**)
+5. Frequency Modulation Input 2 (*default source*: **S/H** output)
+6. Frequency Modulation Input 3 (*default source*: **ADSR** output)
+7. Frequency Modulation Input 4 (*default source*: sine output of **VCO 2**)
+8. FM Input 2 mix amount
+9. FM Input 3 mix amount
+10. FM Input 4 mix amount
+11. **VCO 1** Sawtooth output
+12. **VCO 2** Pulse (square wave) output (*default destinations*: **VCO 2** and **VCF**)
 
 #### 3 - Voltage Controlled Oscillator (VCO 2)
 
