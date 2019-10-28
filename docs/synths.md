@@ -1280,4 +1280,53 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 
 [back to top](#top)
 
+## ARP System Overview
+
+![ARP 2600 in use](./img/arp_orig.jpg "ARP2600 in use")
+
+The [ARP 2600](https://en.wikipedia.org/wiki/ARP_2600) is a 'semi-modular' [analog synthesizer](https://en.wikipedia.org/wiki/Analog_synthesizer) designed by Dennis Colin and [Alan Robert Pearlman](https://en.wikipedia.org/wiki/Alan_R._Pearlman) - [A.R.P.](https://en.wikipedia.org/wiki/ARP_Instruments) himself - and commercially released in 1971.  It was one of the first synthesizers extensively marketed for education, with a retail price of below $3,500.  It is considered one of the canonical synthesizers of its day, so a 'mint' (or fully-restored) ARP 2600 can easily fetch $10,000 or more today.
+
+The ARP 2600 shows up in a lot of strange places... the synth was integral to the sound of artists ranging from [Jean Michel Jarre](https://en.wikipedia.org/wiki/Jean_Michel_Jarre) to [Joy Division](https://en.wikipedia.org/wiki/Joy_Division).  It's also well-known in the sound effects community because of its built-in envelope follower; sound designer [Ben Burtt](https://en.wikipedia.org/wiki/Ben_Burtt) used this to great effect in making the 'voice' of [R2-D2](https://en.wikipedia.org/wiki/R2-D2) in the Star Wars movies.
+
+A scan of the original ARP 2600 owner's manual can be found [here](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf).
+
+A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Service-Manual-Complete-119pgs.pdf).
+
+### What makes an ARP an ARP?
+
+The ARP 2600 is:
+- **Semi-modular** : unlike pure modular synthesizers (like the [Buchla](https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments), [Serge](https://en.wikipedia.org/wiki/Serge_synthesizer), and [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer) synthesizers), the ARP 2600 has a *default internal wiring* between the individual modules (similar to [patchbay 'normalization'](https://en.wikipedia.org/wiki/Patch_panel#Normalization) in a recording studio) so that you could bring it home, plug it in, turn it on, and get sound out of the built-in speakers without any additional work.  The patch points on the front of the synthesizer then *override* these internal connections by breaking the internal connection, allowing you to customize how the modules are routed from one to another to make new sounds.  
+- [**Monophonic / monotimbral**](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments#Monophonic) : the ARP 2600, by default, is meant to be played with a keyboard controller, one note at a time, with each note making the same kind of 'sound,' or timbre.  However, with a little bit of work, you can re-patch an ARP to leverage the four sound sources independently of one another to create more than one sound at a time.
+- **Voltage-based** : like most modular synthesizers of the day, the ARP uses voltage for both transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators) and [control voltage](https://en.wikipedia.org/wiki/CV/Gate) to modify parameters of the synthesizer.  These signals are *both* carried over [Switchcraft(R) Tini-D-Jax(R) brand audio jacks](https://en.wikipedia.org/wiki/Phone_connector_(audio)).  This allows you to treat audio signals as control voltage when using the synthesizer so that, for example, an oscillator can be used to 'sweep' the cutoff frequency of a filter.  The downside of this is that *you can accidentally patch a control voltage line into the signal path to the speakers*, which can damage both the speakers and your ears.
+- **Subtractive** : the ARP 2600 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers.  This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the ARP 2600 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
+- **Multiple source / single destination** : many modules on the ARP can mix (add together) signals from a number of inputs without requiring an additional mixer module, but generally have only one patch point for the module's output.  This goes for control voltage as well, so that you can often modulate a parameter of the synthesizer with more than one source at once.  This is different from, e.g. a Buchla synthesizer, where separate mixer modules must be used to combine several oscillators through a single filter, or Serge synthesizers, where [banana jacks](https://en.wikipedia.org/wiki/Banana_connector) can be stacked to send a module's output to several places at once.
+- **Monolithic design** : the ARP 2600 was designed to be a standalone instrument, in contrast to the (fully-modular) ARP 2500 or competitor systems from Moog, etc. As such there was no way to order the ARP 2600 modules à la carte. The ARP 2600 form factor (32"x18") wasn't designed for rack-mounting, but instead to be a complementary width to the 4-octave full-size keyboard that was sold with it.
+- **Tini-Jax** : the ARP used Switchcraft ["Tini-Jax"](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its connections. Somewhat rare today, in the 1960s and 70s this cabling standard was the main competitor to the standard 1/8" or 3.5mm phono jacks used today, and was used by ARP and Buchla as an alterenative to the larger 1/4" phono jacks used by Moog. 3.5mm cables will work in a Tini-Jax socket, but a Tini-Jax cable will break a normal 1/8" jack.
+
+### Interface standards
+
+The ARP 2600 has 14 or so modules, along with a keyboard, built-in speakers, and some other bits and pieces to make it easier to wire into an external sound system.  Larger modules are arrayed along a top row on the main panel, with some smaller modules fitted into a bottom row between the speakers.  The keyboard has some controls as well.  Controls on the ARP consist mostly of [slide potentiometers](https://en.wikipedia.org/wiki/Potentiometer) (sliders), along with a couple of knobs and a toggle switch or two.  Small trim pots are arrayed under rubber protective caps; these are used to fine tune the synthesizer.
+
+*The most important thing to know about the ARP out is the default wiring between the modules*.  These are indicated by friendly diagrams under the patch points and sliders, e.g.:
+
+![TTSH slider](./img/ttsh_slider.jpg "TTSH slider")
+
+This slider lets you mix in a signal to a module (this particular slider is from the ARP filter, but this user interface is consistent across the synth).  Where it gets this signal from depends on *whether or not a cable is patched into the jack* below the slider.  If no cable exists, the synth's default wiring is used, and the symbol below the jack tells you the default source.  In this case, it's the square wave output from 'VCO 1' (the first oscillator on the synth).  If you patch a cable into the jack, that will break the default connection and override it, so that you can wire in any signal you like from elsewhere on the synthesizer.
+
+*Nearly all modules have one or more sliders* that allow you to control the mix of one or more inputs.  If these sliders are down, the module will receive no input, from its default source or elsewhere, and will rely entirely on its internal circuitry to function.  When a module has multiple inputs, their voltages are summed; in addition, these voltages will also be mixed with any control voltage being generated directly by controls on the module, such as a frequency control on the VCO modules.  This elegant system allows you to *offset and scale* input voltages using controls mounted directly on the module itself rather than having to resort to separate voltage processing modules (although the ARP has one of those as well).  Generally-speaking, the vertical sliders will provide a scalar to the incoming voltage (a *multiplication* of voltage), while horizontal sliders will provide an offset to the incoming voltage (an *addition* of voltage).
+
+The default wiring allows most of the modules on the ARP to interact with no patch cords; without any cables inserted, the ARP wires its oscillators (labeled VCO 1, 2, and 3) through the filter (VCF), into an amplifier (VCA), and from there to a mixer that is wired to the built-in speakers.  By looking at the symbols and adjusting the mix sliders, you can follow the signal path of the modules through the synthesizer.
+
+To override the default wiring, modules can connected by **patching** within and between module jacks using 3.5mm cables:
+
+![ARP 2600 with patch cables](./img/arp_patched.jpg "ARP 2600 with patch cables")
+
+The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the analog studio area, and are color-coded by length.
+
+<img src = "./img/eurocables.jpg" width="50%" title="3.5 mm patch cables" alt="3.5 mm patch cables">
+
+ARP synthesizers use a 10V AC standard for audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages will not trigger the envelope gnereator on an ARP 2600 without being amplified. The ARP 2600 uses a standard scaling of 1 volt-per-octave to represent musical pitch.
+
+[back to top](#top)
+
 [return to main page](./index.md)
