@@ -8,7 +8,7 @@
     - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
-  - [ARP system overview](#arp-system-overview)
+  - [ARP 2600 overview](#arp-2600-overview)
     - [TTSH](#ttsh)
 
 # Overview
@@ -1280,7 +1280,7 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 
 [back to top](#top)
 
-## ARP System Overview
+## ARP 2600 Overview
 
 ![ARP 2600 in use](./img/arp_orig.jpg "ARP2600 in use")
 
