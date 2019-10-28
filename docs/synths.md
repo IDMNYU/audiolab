@@ -1339,7 +1339,7 @@ ARP synthesizers use a 10V AC standard for both audio and control voltage, which
 <img src = "./img/TTSH_photo_lit.jpg" width="100%" title="TTSH system powered on" alt="TTSH powered on">
 
 The **TTSH** (the "Mini Meanie") was custom-built for Luke in 2019 by Darrin Wiener and Flavia Ferreira at Patch Point in Berlin. Designed to be as faithful as possible to the original ARP 2600 design, there are a number of differences between the TTSH and a vintage ARP:
-- the TTSH is 75% smaller (24"x 12") than the ARP 2600.
+- the TTSH is 75% of the size (24"x 12") of the ARP 2600.
 - the TTSH uses standard 3.5mm ("Eurorack") cable jacks, unlike the original Switchcraft Tini-Jax used on the original.
 - the TTSH *glows*, using [Bourns PTA](https://www.bourns.com/docs/Product-Datasheets/pta.pdf) slide potentiometers with LEDs. The TTSH in the IDM analog studio is fitted with ultra-bright blue LEDs.
 - the original ARP 2600 had a dedicated cinch-connector on one side for interfacing with its keyboard (sold as an add-on to the system). The TTSH has no keyboard; instead, the jacks that are normaled to the "Keyboard CV" and "Keyboard Gate/Trig" can receive input from, e.g. a Serge module, the CV.OCD converter, an Arduino or elsewhere.
