@@ -1323,7 +1323,7 @@ To override the default wiring, modules can connected by **patching** within and
 
 The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the analog studio area, and are color-coded by length.
 
-![3.5 mm patch cables](./img/eurocables.jpg "3.5mm patch cables")
+<img src = "./img/eurocables.jpg" width="25%" title="3.5 mm patch cables" alt="3.5 mm patch cables">
 
 ARP synthesizers use a 10V AC standard for audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages will not trigger the envelope gnereator on an ARP 2600 without being amplified. The ARP 2600 uses a standard scaling of 1 volt-per-octave to represent musical pitch.
 
