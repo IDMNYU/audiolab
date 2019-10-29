@@ -1597,7 +1597,7 @@ On the lower right of the TTSH is the power switch for the synthesizer, next to 
 2. Headphone jack
 3. TTSH power switch
 
-**Please leave the TTSH power switch in the "on" position and use thee Furman power conditioner to turn on and off the synthesizer.**
+**Please leave the TTSH power switch in the "on" position and use the Furman power conditioner to turn on and off the synthesizer.**
 
 [back to top](#top)
 
