@@ -1424,9 +1424,7 @@ This module is the second oscillator for the TTSH, and has more features than **
 
 #### 4 - Voltage Controlled Oscillator (VCO 3)
 
-**VCO3** is the TTSH synthesizer's third oscillator, intermediate in complexity between **VCO 1** and **VCO 2**. As with **VCO 2**, there are sliders for a base frequency, fine tune, and pulse width. The **AUDIO/LF** switch toggles **KBD CV** input control of the oscillator and switches between LFO and audible frequency mode. The oscillator has output jacks for a sawtooth and a pulse/pwm wave output. The mixer section at the bottom allows for frequency modulation of the oscilator.
-- *Default input* - as with **VCO 1** and **VCO 2**, the **AUDIO/LF** switch allows you to control the oscillator's frequency directly from the **KBD CV** input (or any CV source plugged into the left-most "FM control" jack). The mixer section lets you bring in three FM sources; by default, these are the output of the **S/H** module, the **ADSR** envelope generator, and the sine wave output of **VCO 2**.
-- *Default output* - the sawtooth wave output of **VCO 3** is wired by default into the input of the **VCF**.
+**VCO 3** is the TTSH synthesizer's third oscillator, intermediate in complexity between **VCO 1** and **VCO 2**. As with **VCO 2**, there are sliders for a base frequency, fine tune, and pulse width. The **AUDIO/LF** switch toggles **KBD CV** input control of the oscillator and switches between LFO and audible frequency mode. The oscillator has output jacks for a sawtooth and a pulse/pwm wave output. The mixer section at the bottom allows for frequency modulation of the oscilator.
 
 <img src = "./img/TTSH_1_4.png" height="500px" title="VCO 3" alt="VCO 3">
 
@@ -1545,7 +1543,6 @@ On the lower left of the TTSH, next to the left speaker, there is a jack that al
 #### 10 - Noise Generator (NOISE GEN)
 
 The **NOISE GEN** for the TTSH provides a random audio source that can be used for a variety of interesting things.  The two vertical sliders allow you to adjust between [white noise](https://en.wikipedia.org/wiki/White_noise) (constant power), [pink noise](https://en.wikipedia.org/wiki/Pink_noise) (1/f power), and [red noise](https://en.wikipedia.org/wiki/Brownian_noise) (1/f2), as well as control the output gain of the module.
-- *Default output* - the **NOISE GEN** is wired by default to the pulse width input on **VCO 2**, an FM input on **VCO 3**, an audio input on the **VCF**, and the trigger input of the **S/H** module
 
 <img src = "./img/TTSH_2_2.png" height="200px" title="Noise" alt="Noise">
 
