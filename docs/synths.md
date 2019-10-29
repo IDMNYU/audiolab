@@ -68,7 +68,7 @@ The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8,
 | 9-10           | empty. |
 | 11-12          | empty. |
 
-\* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). They are incorrectly referred to in the USA as 1/8" jacks because (a) we have a cultural aversion to the metric system and (b) they look to be about half the size of 1/4" jacks.
+\* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). They are incorrectly referred to in the USA as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
 
 **Please don't re-plug the synthesizer channels on the mixer.**
 
