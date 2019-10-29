@@ -1388,101 +1388,219 @@ This module is the first oscillator for the TTSH. Sliders at the top provide a b
 1. Coarse frequency slider
 2. Fine frequency slider
 3. AUDIO/LF switch
-4. Frequency Modulation Input 1 - only engaged in AUDIO mode (*default source*: **KBD CV**)
-5. Frequency Modulation Input 2 (*default source*: **S/H** output)
-6. Frequency Modulation Input 3 (*default source*: **ADSR** output)
-7. Frequency Modulation Input 4 (*default source*: sine output of **VCO 2**)
+4. Frequency Modulation (FM) Input 1 - only engaged in AUDIO mode (*default source*: **KBD CV**)
+5. FM Input 2 (*default source*: **S/H** output)
+6. FM Input 3 (*default source*: **ADSR** output)
+7. FM Input 4 (*default source*: sine output of **VCO 2**)
 8. FM Input 2 mix amount
 9. FM Input 3 mix amount
 10. FM Input 4 mix amount
 11. **VCO 1** Sawtooth output
-12. **VCO 2** Pulse (square wave) output (*default destinations*: **VCO 2** and **VCF**)
+12. **VCO 1** Pulse (square wave) output (*default destinations*: **VCO 2** and **VCF**)
 
 #### 3 - Voltage Controlled Oscillator (VCO 2)
 
+This module is the second oscillator for the TTSH, and has more features than **VCO 1**. As with the first oscillator, sliders at the top provide a base frequency and fine tune control. A third slider allows you to set the pulse width for the pulse/pwm wave output. The **AUDIO/LF** switch provides the same function as on **VCO 1**, allowing 'keyboard' (**KBD CV** input) control of the oscillator and switching between LFO and audible frequency mode. There are four output jacks on **VCO 2** - a triangle wave, a sawtooth wave, a sine wave, and a [pulse width modulation](https://en.wikipedia.org/wiki/Pulse-width_modulation) generator that can vary continuously between a square wave and a short pulse wave. The mixer section at the bottom allows for frequency modulation of the oscilator, as well as modulation of the pulse width for the pulse/pwm wave output.
+
 <img src = "./img/TTSH_1_3.png" height="500px" title="VCO 2" alt="VCO 2">
 
-This module is the second oscillator for the TTSH, and has more features than **VCO 1**. As with the first oscillator, sliders at the top provide a base frequency and fine tune control. A third slider allows you to set the pulse width for the pulse/pwm wave output. The **AUDIO/LF** switch provides the same function as on **VCO 1**, allowing 'keyboard' (**KBD CV** input) control of the oscillator and switching between LFO and audible frequency mode. There are four output jacks on **VCO 2** - a triangle wave, a sawtooth wave, a sine wave, and a [pulse width modulation](https://en.wikipedia.org/wiki/Pulse-width_modulation) generator that can vary continuously between a square wave and a short pulse wave. The mixer section at the bottom allows for frequency modulation of the oscilator, as well as modulation of the pulse width for the pulse/pwm wave output.
-- *Default input* - as with **VCO 1**, the **AUDIO/LF** switch allows you to control the oscillator's frequency directly from the **KBD CV** input (or any CV source plugged into the left-most "FM control" jack). In addition, the mixer section lets you bring in three additional sources for FM; by default, these are the sample-and-hold (**S/H**) module, the **ADSR** envelope generator, and the square wave output of **VCO 1**. There is also an input for dynamically controlling the pulse width modulation amount; by default, this is patched to the output of the **NOISE GEN**.
-- *Default output* - the sine wave output of **VCO 2** is wired by default into the inputs for **VCO 1**, **VCO 3**, and the **VCF** (as a control source). The pulse/pwm wave output of **VCO 2** is wired by default into the **VCF** as well, as an audio source.
+1. Coarse frequency slider
+2. Fine frequency slider
+3. Pulse width slider
+4. AUDIO/LF switch
+5. Frequency Modulation (FM) Input 1 - only engaged in AUDIO mode (*default source*: **KBD CV**)
+6. FM Input 2 (*default source*: **S/H** output)
+7. FM Input 3 (*default source*: **ADSR** output)
+8. FM Input 4 (*default source*: pulse output of **VCO 1**)
+9. PWM Input (*default source*: **NOISE GEN** output)
+10. FM Input 2 mix amount
+11. FM Input 3 mix amount
+12. FM Input 4 mix amount
+13. PWM Input mix amount
+14. **VCO 2** Triangle output
+15. **VCO 2** Sawtooth output
+16. **VCO 2** Sine output (*default destinations*: **VCO 1**, **VCO 3**, **VCF**)
+17. **VCO 2** Pulse output (*default destination*: **VCF**)
 
 #### 4 - Voltage Controlled Oscillator (VCO 3)
-
-<img src = "./img/TTSH_1_4.png" height="500px" title="VCO 3" alt="VCO 3">
 
 **VCO3** is the TTSH synthesizer's third oscillator, intermediate in complexity between **VCO 1** and **VCO 2**. As with **VCO 2**, there are sliders for a base frequency, fine tune, and pulse width. The **AUDIO/LF** switch toggles **KBD CV** input control of the oscillator and switches between LFO and audible frequency mode. The oscillator has output jacks for a sawtooth and a pulse/pwm wave output. The mixer section at the bottom allows for frequency modulation of the oscilator.
 - *Default input* - as with **VCO 1** and **VCO 2**, the **AUDIO/LF** switch allows you to control the oscillator's frequency directly from the **KBD CV** input (or any CV source plugged into the left-most "FM control" jack). The mixer section lets you bring in three FM sources; by default, these are the output of the **S/H** module, the **ADSR** envelope generator, and the sine wave output of **VCO 2**.
 - *Default output* - the sawtooth wave output of **VCO 3** is wired by default into the input of the **VCF**.
 
-#### 5 - Voltage Controlled Filter / Resonator (VCF)
+<img src = "./img/TTSH_1_4.png" height="500px" title="VCO 3" alt="VCO 3">
 
-<img src = "./img/TTSH_1_5.png" height="500px" title="VCF" alt="VCF">
+1. Coarse frequency slider
+2. Fine frequency slider
+3. Pulse width slider
+4. AUDIO/LF switch
+5. Frequency Modulation (FM) Input 1 - only engaged in AUDIO mode (*default source*: **KBD CV**)
+6. FM Input 2 (*default source*: **NOISE GEN** output)
+7. FM Input 3 (*default source*: **ADSR** output)
+8. FM Input 4 (*default source*: sine output of **VCO 2**)
+9. FM Input 2 mix amount
+10. FM Input 3 mix amount
+11. PWM Input mix amount
+12. **VCO 3** Sawtooth output (*default destination*: **VCF**)
+13. **VCO 3** Pulse output
+
+#### 5 - Voltage Controlled Filter / Resonator (VCF)
 
 The **VCF** is the ARP 2600's filter. Early versions of the ARP 2600 used a reverse-engineered clone of a ladder filter design used in Moog synthesizers; as a result of legal action, these were replaced with ARP's own design after 1976. The TTSH uses the pre-lawsuit ("Model 4012") filter. In either case, the **VCF** consists of a resonant 24dB/octave low-pass filter with sliders controlling the cut-off frequency (coarse and fine) and a resonance amount. The mixer at the bottom allows you to control both audio inputs to the filter as well as control voltage inputs that vary the cutoff frequency. As with the **VCO**s, the control voltage *adds* to the cutoff frequency set by the sliders, so that you can set the range of CV control with a combination of the frequency controls at the top and the mixer gain for the CV input at the bottom of the module. There is an output jack for custom wiring of the output of the **VCF**.
 
-- *Default input* - the **VCF** will mix in up to five audio sources - these default to the outputs of the **RING MOD**, the square wave output of **VCO 1**, the pulse/pwm output of **VCO 2**, the sawtooth output of **VCO 3**, and the output of the **NOISE GEN**. The **VCF** also allows for CV control of its cutoff frequency from three sources - these default to the **KBD CV** output, the **ADSR** output of the envelope generator module, and the sine wave output of **VCO 2**.
-- *Default output* - the **VCF** is wired by default into the input of the **VCA** and the **MIXER** module.
+<img src = "./img/TTSH_1_5.png" height="500px" title="VCF" alt="VCF">
+
+1. Coarse frequency slider
+2. Fine frequency slider
+3. Resonance slider
+4. Audio Input 1 (*default source*: **RING MOD** output)
+5. Audio Input 2 (*default source*: pulse output of **VCO 1**)
+6. Audio Input 3 (*default source*: pulse output of **VCO 2**)
+7. Audio Input 4 (*default source*: sawtooth output of **VCO 3**)
+8. Audio Input 5 (*default source*: **NOISE GEN** output)
+9. Control Input 1 (*default source*: **KBD CV**)
+10. Control Input 2 (*default source*: **ADSR** output)
+11. Control Input 3 (*default source*: sine output of **VCO 2**)
+12. Audio Input 1 mix amount
+13. Audio Input 2 mix amount
+14. Audio Input 3 mix amount
+15. Audio Input 4 mix amount
+16. Audio Input 5 mix amount
+17. Control Input 2 mix amount
+18. Control Input 3 mix amount
+19. **VCF** output (*default destinations*: **VCA**, **MIXER**)
 
 #### 6 - Envelope Generator (ADSR/AR)
 
+The envelope generator on the TTSH creates control voltage signals that rise and fall in response to a trigger. These are used for amplitude curves, filter curves, etc. This module generates no audio, but can be used with other modules to process audio (e.g. through the FM inputs on the VCOs or the CV input on the VCA). The top half of the module controls an **ADSR** (attack/decay/sustain/release) envelope with sliders to control each stage of the envelope. The bottom half controls a simple **AR** (attack/release) envelope with two sliders instead of four. Both envelopes are "fired" through the same trigger mechanism and cannot be controlled independently: there is a button for manual firing, as well as a jack for an external trigger. There are output jacks for each envelope, as well as utility jacks that on an ARP 2600 output voltage from the keyboard, but on the TTSH allow you to wire in 10V signals to fire the envelopes - a **GATE** input (voltage high on key down, voltage low on key up) and a **TRIGGER** input (a voltage pulse on key down).
+
 <img src = "./img/TTSH_1_6.png" height="500px" title="ADSR/AR" alt="ADSR/AR">
 
-The envelope generator on the TTSH creates control voltage signals that rise and fall in response to a trigger. These are used for amplitude curves, filter curves, etc. This module generates no audio, but can be used with other modules to process audio (e.g. through the FM inputs on the VCOs or the CV input on the VCA). The top half of the module controls an **ADSR** (attack/decay/sustain/release) envelope with sliders to control each stage of the envelope. The bottom half controls a simple **AR** (attack/release) envelope with two sliders instead of four. Both envelopes are "fired" through the same trigger mechanism and cannot be controlled independently: there is a button for manual firing, as well as a jack for an external trigger. There are output jacks for each envelope, as well as utility jacks that on an ARP 2600 output voltage from the keyboard, but on the TTSH allow you to wire in 10V signals to fire the envelopes - a **GATE** input (voltage high on key down, voltage low on key up) and a **TRIGGER** input (a voltage pulse on key down).
-- *Default input* - the envelope generators can be controlled via the **KEYBOARD GATE/TRIG** inputs (with the toggle switch in the up position) or a second voltage jack, with a default wired connection to the **S/H** output.
-- *Default output* - the **ADSR** output is wired by default to FM inputs on all 3 **VCO**s, as well as a CV input on the **VCF**. Both **ADSR** and **AR** outputs are wired by default to control inputs on the **VCA**.
+1. **ADSR** Attack time slider
+2. **ADSR** Decay time slider
+3. **ADSR** Sustain level slider
+4. **ADSR** Release time slider
+5. **ADSR** output (*default destinations*: **VCO 1**, **VCO 2**, **VCO 3**, **VCF**, **VCA**)
+6. **AR** Attack time slider
+7. **AR** Release time slider
+8. **AR** output (*default destination*: **VCA**)
+9. Manual trigger button
+10. Gate input switch
+11. External gate input; active when switch *10* is down (*default source*: **S/H** gate output)
+12. External gate input; active when switch *10* is up
+13. External trigger input; active when switch *10* is up
 
 #### 7 - Voltage Controlled Amplifier (VCA)
 
+The **VCA** of the TTSH modulates the amplitude of audio inputs based on control voltage sources.  This allows you to shape the volume of a synthesizer "note", allowing it to fade in and out. The VCA has a slider to set an *initial gain* - as with other horizontal sliders on the ARP, these voltages are added to external control voltages, allowing you to offset and scale them when used together with the vertical mixer sliders on the same module. The **VCA** has two input sources and two control sources, but only one amplifier circuit, which will sum the audio signals and amplify them based on the control voltages to generate one shaped output.  There is a jack for the **VCA** output.
+
 <img src = "./img/TTSH_1_7.png" height="500px" title="VCA" alt="VCA">
 
-The **VCA** of the TTSH modulates the amplitude of audio inputs based on control voltage sources.  This allows you to shape the volume of a synthesizer "note", allowing it to fade in and out. The VCA has a slider to set an *initial gain* - as with other horizontal sliders on the ARP, these voltages are added to external control voltages, allowing you to offset and scale them when used together with the vertical mixer sliders on the same module. The **VCA** has two input sources and two control sources, but only one amplifier circuit, which will sum the audio signals and amplify them based on the control voltages to generate one shaped output.  There is a jack for the **VCA** output.
-- *Default input* - the **VCA** has two audio inputs, which default to the outputs of the **VCF** and the **RING MOD**. The two control inputs for the **VCA** are wired by default to the outputs from the envelope generator module (**AR** and **ADSR**).
-- *Default output* - the **VCA** is wired by default to an input on the **MIXER** module.
+1. Initial gain slider
+2. Audio Input 1 mix amount
+3. Audio Input 2 mix amount
+4. Control Input 1 mix amount
+5. Control Input 2 mix amount
+6. Audio Input 1 (*default source*: **VCF** output)
+7. Audio Input 2 (*default source*: **RING MOD** output)
+8. Linear Control Input (*default source*: **AR** output)
+9. Exponential Control Input (*default source*: **ADSR** output)
+10. **VCA** output (*default destination*: **MIXER**)
 
 #### 8 - MIXER / REVERBERATOR / Output
 
-<img src = "./img/TTSH_1_8.png" height="500px" title="Mixer" alt="Mixer">
-
 The right-hand module on the top row of the TTSH consists of a final stage mixer, a reverberation unit, and jacks for audio output from the synthesizer:
 - the [**MIXER**](https://en.wikipedia.org/wiki/Audio_mixing) module is a two-channel mixer with vertical sliders, a jack above each slider that can "tap" a direct out of the channel, and a horizontal [pan](https://en.wikipedia.org/wiki/Panning_(audio)) slider to move the mixers output between the left and right output jacks from the synthesizer. There are also additional input jacks to bypass the mixer entirely, wiring their voltage directly to their respective output jacks.
-   - *Default input* - the **MIXER** takes the outputs of the **VCF** and **VCA** as its default inputs.
-   - *Default output* - the **MIXER** terminates its signal path at the two output jacks (labeled "left output" and "right output"), as well as the internal speakers and the headphone jack.
 - the **REVERBERATOR** module is a stereo [spring reverb](https://en.wikipedia.org/wiki/Reverberation#Spring_reverberators) unit that feeds the output jacks, as well as an additional direct output. Vertical sliders allow you to adjust the volume of the reverb in each channel.
-   - *Default input* - the reverberator takes the output of the **MIXER** module as its default input.
+
+<img src = "./img/TTSH_1_8.png" height="500px" title="Mixer" alt="Mixer">
+
+1. TTSH left output
+2. TTSH right output
+3. **MIXER** output pan slider
+4. TTSH Left *input*; sums to **MIXER** and **REVERBERATOR**
+5. **MIXER** output tap
+6. TTSH Right *input*; sums to **MIXER** and **REVERBERATOR**
+7. **MIXER** Input 1 tap
+8. **MIXER** Input 2 tap
+9. **MIXER** Input 1 mix amount
+10. **MIXER** Input 2 mix amount
+11. **MIXER** Input 1 (*default source*: **VCF** output)
+12. **MIXER** Input 2 (*default source*: **VCA** output)
+13. **REVERBERATOR** Input (*default source*: **MIXER** output)
+14. **REVERBERATOR** output tap
+15. **REVERBERATOR** left mix amount
+16. **REVERBERATOR** right mix amount
 
 #### 9 - Keyboard CV (KBD CV) / 4-in-1 / Left Speaker
 
-<img src = "./img/TTSH_2_1.png" height="200px" title="Keyboard/Mult" alt="Keyboard/Mult">
-
 On the lower left of the TTSH, next to the left speaker, there is a jack that allows exterenal voltage to be multiplexed to all the **KBD CV** inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive **4-in-1** jack that allows you to take any voltage and split it into three outputs using patch cables - the Tiny-Jax cables used on the original ARP 2600 couldn't be stacked. On the right of the speaker is a vertical slider for its volume.  
 
-#### 10 - Noise Generator (NOISE GEN)
+<img src = "./img/TTSH_2_1.png" height="200px" title="Keyboard/Mult" alt="Keyboard/Mult">
 
-<img src = "./img/TTSH_2_2.png" height="200px" title="Noise" alt="Noise">
+1. **KBD CV** jack
+2. **4-in-1** jacks
+3. TTSH left speaker volume
+
+#### 10 - Noise Generator (NOISE GEN)
 
 The **NOISE GEN** for the TTSH provides a random audio source that can be used for a variety of interesting things.  The two vertical sliders allow you to adjust between [white noise](https://en.wikipedia.org/wiki/White_noise) (constant power), [pink noise](https://en.wikipedia.org/wiki/Pink_noise) (1/f power), and [red noise](https://en.wikipedia.org/wiki/Brownian_noise) (1/f2), as well as control the output gain of the module.
 - *Default output* - the **NOISE GEN** is wired by default to the pulse width input on **VCO 2**, an FM input on **VCO 3**, an audio input on the **VCF**, and the trigger input of the **S/H** module
 
+<img src = "./img/TTSH_2_2.png" height="200px" title="Noise" alt="Noise">
+
+1. Noise quality slider
+2. Noise gain slider
+3. **NOISE GEN** output (*default destinations*: **VCO 2**, **VCO 3**, **VCF**, **S/H**)
+
 #### 11 - VOLTAGE PROCESSORS
+
+The **VOLTAGE PROCESSORS** module allows for four different control voltage sources to be modified in a variety of ways, including scaling, inverting, summing, offseting, and smoothing (the "lag" amount on the fourth control). None of the outputs are hard-wired, but can be used to create more complex control voltage sources.
 
 <img src = "./img/TTSH_2_3.png" height="200px" title="CV Processor" alt="CV Processor">
 
-The **VOLTAGE PROCESSORS** module allows for four different control voltage sources to be modified in a variety of ways, including scaling, inverting, summing, offseting, and smoothing (the "lag" amount on the fourth control). None of the outputs are hard-wired, but can be used to create more complex control voltage sources.
-- *Default input* - the **VOLTAGE PROCEESSORS**' four sub-modules are wired by default to a -10V DC source, the **KBD CV** source, a +10V DC source, and the output of the **ENV FOLL**.
+1. Processor input/output 1
+2. Processor input 2 (*default source*: TTSH -10V DC)
+3. Processor input/output 3
+4. Processor input 4 (*default source*: **KBD CV**)
+5. Processor input/output 5
+6. Processor input 6 (*default source*: TTSH +10V DC)
+7. Processor input 7 (*default source*: **ENV FOLL** output)
+8. Inverter output 1
+9. Inverter output 2
+10. Lag output
+11. Offset slider 1
+12. Offset slider 2
+13. Offset slider 3
+14. Lag slider
 
 #### 12 - Sample and Hold (S/H)
 
+The sample and hold (**S/H**) module on the TTSH can be used to generate clocks and random audio sources by "sampling" an input voltage based on an internal or external clock (which does not have to be a clock at all). The internal controls allow for the generation of S/H control voltages with an amplitude and rate controlled by the vertical sliders. Input and output jacks for the switches and clocks of the module allow you to create more complex sample-and-hold systems for the TTSH which can simulate sequences, arpeggiators, and rhythmic voltage curves.
+
 <img src = "./img/TTSH_2_4.png" height="200px" title="S&H" alt="S&H">
 
-The sample and hold (**S/H**) module on the TTSH can be used to generate clocks and random audio sources by "sampling" an input voltage based on an internal or external clock (which does not have to be a clock at all). The internal controls allow for the generation of S/H control voltages with an amplitude and rate controlled by the vertical sliders. Input and output jacks for the switches and clocks of the module allow you to create more complex sample-and-hold systems for the TTSH which can simulate sequences, arpeggiators, and rhythmic voltage curves.
-- *Default input* - the **S/H** module's input is wired by default to the output of the **NOISE GEN**.
-- *Default output* - the **S/H** module's output is wired by default to the inputs of the FM controls on **VCO 1** and **VCO 2**; the "clock" output of the **S/H** module is wired by default to the trigger input on the envelope generator (**ADSR/AR**).
+1. **S/H** input (*default source*: **NOISE GEN** output)
+2. Internal clock output (*default destination*: **ADSR/AR**)
+3. **S/H** output (*default destinations*: **VCO 1***, **VCO 2**)
+4. External clock input
+5. **S/H** level slider
+6. Internal clock rate slider
+7. Electronic Switch A
+8. Electronic Switch B
+9. Electronic Switch C
 
 #### 13 - Right Speaker / Power Switch / Headphone Output
 
+On the lower right of the TTSH is the power switch for the synthesizer, next to the right speaker. The headphone jack for the synthesizer is there as well, just below the power switch. On the left of the speaker is a vertical slider for its volume. Plugging headphones into the TTSH will disable the internal speakers - the left and right volume sliders will then control the volume in the headphones.
+
 <img src = "./img/TTSH_2_5.png" height="200px" title="Phones/Power" alt="Phones/Power">
 
-On the lower right of the TTSH is the power switch for the synthesizer, next to the right speaker. The headphone jack for the synthesizer is there as well, just below the power switch. On the left of the speaker is a vertical slider for its volume. Plugging headphones into the TTSH will disable the internal speakers - the left and right volume sliders will then control the volume in the headphones.
+1. TTSH left speaker volume
+2. Headphone jack
+3. TTSH power switch
+
+**Please leave the TTSH power switch in the "on" position and use thee Furman power conditioner to turn on and off the synthesizer.**
 
 [back to top](#top)
 
