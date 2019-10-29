@@ -64,9 +64,11 @@ The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8,
 | Channel  | Input     |
 | ------------- | --- |
 | 5-6            | the left and right output of the TTSH Mixer section. |
-| 7-8            | a cable connected that ends in a stereo 3.5mm jack for a laptop connection. |
+| 7-8            | a cable connected that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
 | 9-10           | empty. |
 | 11-12          | empty. |
+
+\* Audio connector trivia: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). They are incorrectly referred to in the USA as 1/8" jacks because (a) we have a cultural aversion to the metric system and (b) they look to be about half the size of 1/4" jacks.
 
 **Please don't re-plug the synthesizer channels on the mixer.**
 
@@ -1122,7 +1124,7 @@ The 1973 **Envelope Generator (EG)** modules generate attack-release envelopes, 
 
 #### Adapter
 
-The **Adapter** is a passive utility module that converts between banana jacks and 1/8" (3.5mm) connectors. There are three pairs of connectors in the module, and each converter can be used as an input or an output to the Serge.
+The **Adapter** is a passive utility module that converts between banana jacks and 3.5mm / 1/8" connectors. There are three pairs of connectors in the module, and each converter can be used as an input or an output to the Serge.
 
 <img src = "./img/serge7375_2_6.png" width="10%" title="Adapter" alt="Adapter">
 
@@ -1308,7 +1310,7 @@ The ARP 2600 is:
 - **Subtractive** : the ARP 2600 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers. This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the ARP 2600 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
 - **Multiple source / single destination** : many modules on the ARP can mix (add together) signals from a number of inputs without requiring an additional mixer module, but generally have only one patch point for the module's output. This goes for control voltage as well, so that you can often modulate a parameter of the synthesizer with more than one source at once. This is different from, e.g. a Buchla synthesizer, where separate mixer modules must be used to combine several oscillators through a single filter, or Serge synthesizers, where [banana jacks](https://en.wikipedia.org/wiki/Banana_connector) can be stacked to send a module's output to several places at once.
 - **Monolithic design** : the ARP 2600 was intended to be used as a standalone synthesizer, in contrast to the (fully-modular) ARP 2500 or competitor systems from Moog, etc. As such, there was no way to order the ARP 2600 modules à la carte, and a number of design choices, such as its built-in speakers, signal that it was intended to be used as an all-in-one instrument. The ARP 2600 form factor (32"x18") wasn't designed for rack-mounting, but instead to be a complementary width to the 4-octave full-size keyboard that could be bought with it.
-- **Tini-Jax** : ARP used Switchcraft ["Tini-Jax"](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the standard 1/8" or 3.5mm phono jacks used today, and was used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 1/8" jack*.
+- **Tini-Jax** : ARP used Switchcraft ["Tini-Jax"](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the standard 1/8" or 3.5mm phono jacks used today, and was used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*.
 
 ### Interface standards
 
