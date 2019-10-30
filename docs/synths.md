@@ -5,7 +5,7 @@
 - [Studio Basics](#studio-basics)
 - [The Synthesizers](#synthesizers)
   - [Serge system overview](#serge-system-overview)
-    - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) )
+    - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel V](#panel-5) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
   - [ARP 2600 overview](#arp-2600-overview)
@@ -880,6 +880,28 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 - By using the pulse outputs for the individual sequence stages (*18*), you can trigger external events on other modules. You can also use these outputs, in combination with the Up/Down gate *13* and the "Flip/Flop" on the Active Processor to create smaller loops of sequences within the TKB.
 - The keyboard pressure output *8* puts out a fairly noisy voltage based on capacitance. Patching it into a DUSG or SSG will allow you to smooth this out as well as add lag to the key (e.g. for keyboard-driven slow fades or filter sweeps).
 - The TKB can be sequenced at audio rate, and the preset rows can be used as an arbitrary 16-stage waveform for an oscillator.
+
+[back to top](#top)
+
+### Panel 5 (Panel V)
+
+<img src = "./img/serge824_5.png" width="100%" title="Random\*Source Serge Panel V" alt="Random\*Source Serge Panel V">
+
+#### Tau "The Pipe" Phaser
+
+<img src = "./img/serge824_5_1.png" width="100%" title="Tau Phaser" alt="Tau Phaser">
+
+#### Triple + Waveshaper / New Ring (TWS+)
+
+<img src = "./img/serge824_5_2.png" width="100%" title="TWS+" alt="TWS+">
+
+#### Wave Multipliers / Resonant EQ 
+
+<img src = "./img/serge824_5_3.png" width="100%" title="Wave Multipliers / Resonant EQ" alt="Wave Multipliers / Resonant EQ">
+
+#### Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)
+
+<img src = "./img/serge824_5_4.png" width="100%" title="DONKS" alt="DONKS">
 
 [back to top](#top)
 
