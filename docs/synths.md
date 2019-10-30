@@ -911,7 +911,7 @@ The **Tau Phaser** was invented by reknowned electronic music instrument designe
 16. LEDs showing amplitude of outputs *4* and *8*
 
 *Notes:*
-- The Tau Phaser can get **very loud** when the "color" is switch on to engage the feedback. At high feedback stages, it can self-oscillate with no input signal.
+- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At high feedback stages, it can self-oscillate with no input signal.
 
 #### Triple + Waveshaper / New Ring (TWS+)
 
