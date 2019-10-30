@@ -1015,7 +1015,55 @@ The Serge **Resonant Equalizer** was designed by Tcherepnin in 1979, and consist
 
 #### Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)
 
+The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of three amplitude amplitude processing modules. The **Dual Lowpass Gate** is modeled after the Buchla [Quad Lopass Gate Model 292](https://www.modulargrid.net/u/buchla-quad-voltage), developed as part of the "200 Series" in the 1970s; the Lowpass Gate uses [Vactrol](https://en.wikipedia.org/wiki/Resistive_opto-isolator) opto-isolators to create a combination VCF/VCA. The **Timbre** module is based on Buchla's wavefolder circuit used in the [Complex Wave Generator Model 259](https://modularsynthesis.com/roman/buchla259/259cwg.htm) as well as the oscillator in the [Music Easel](https://buchla.com/music-easel/); similar to the Serge Wave Multipliers, the module performs harmonic distortion on an input signal to create a more complex waveform. The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
+
 <img src = "./img/serge824_5_4.png" width="40%" title="DONKS" alt="DONKS">
+
+1. Output for Lowpass Gate channel 1 (AC OUTPUT)
+2. Output for Lowpass Gate channel 2 (AC OUTPUT)
+3. Lowpass Gate mix output (AC OUTPUT)
+4. Crossfader knob for *3*
+5. Lowpass Gate channel 1 input (AC INPUT) 
+6. Lowpass Gate channel 2 input (AC INPUT) 
+7. CV gain input for Lowpass Gate channel 1 input (DC INPUT) 
+8. CV gain input for Lowpass Gate channel 2 input (DC INPUT) 
+9. Gain control knob for Lowpass Gate channel 1 input (DC INPUT) 
+10. Gain control knob for Lowpass Gate channel 1 input (DC INPUT) 
+11. Mode switch for Lowpass Gate channel 1
+12. Mode switch for Lowpass Gate channel 2
+13. Signal output for Timbre module (AC OUTPUT)
+14. CV distortion input for Timbre module (scaled by *16*) (DC INPUT)
+15. Signal input for Timbre module (AC INPUT)
+16. Distortion knob for Timbre module
+17. 1/4" TRS output of the Stereo Mixer left channel
+18. 1/4" TRS output of the Stereo Mixer right channel
+19. Stereo Mixer left channel output (AC OUTPUT)
+20. Stereo Mixer right channel output (AC OUTPUT)
+21. Auxiliary input for the Stereo Mixer left channel - bypasses panning and gain (AC INPUT)
+22. Auxiliary input for the Stereo Mixer right channel - bypasses panning and gain (AC INPUT)
+23. Stereo Mixer channel 1 input (AC INPUT)
+24. Stereo Mixer channel 2 input (AC INPUT)
+25. Panning voltage control for Stereo Mixer channel 1 (summed with *11*) (AC INPUT)
+26. Panning voltage control for Stereo Mixer channel 2 (summed with *12*) (AC INPUT)
+27. Panning knob for Stereo Mixer channel 1
+28. Panning knob for Stereo Mixer channel 2
+29. CV gain input for Stereo Mixer channel 1 (summed with *15*) (DC INPUT)
+30. CV gain input for Stereo Mixer channel 2 (summed with *16*) (DC INPUT)
+31. Gain control knob for Stereo Mixer channel 1
+32. Gain control knob for Stereo Mixer channel 2
+
+*Notes:*
+- The Dual Lowpass gate's mode switch allows you to change it between a full-range VCF, where the CV input sweeps a filter; a VCA, where the CV input boosts the signal; or both. The "sound" of a Lowpass Gate, where amplitude is linked to cutoff frequency, is great for making percussive sounds.
+- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Dual Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
+- The CV input for panning is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
+- The voltage at the output stage of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
+
+
+
+
+
+
+
 
 [back to top](#top)
 
