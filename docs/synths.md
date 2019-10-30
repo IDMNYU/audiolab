@@ -1009,7 +1009,7 @@ The Serge **Resonant Equalizer** was designed by Tcherepnin in 1979, and consist
 - The first multiplier can be used in *low* mode as an ordinary [VCA](https://en.wikipedia.org/wiki/Variable-gain_amplifier), and in *high* mode as a simple "clipping" [distortion](https://en.wikipedia.org/wiki/Distortion_(music)) unit. The second multiplier emphasizes odd harmonics through [wave folding](https://www.keithmcmillen.com/blog/simple-synthesis-part-8-wavefolding/); the third emphasizes even harmonics through [full wave rectification](https://www.hackaudio.com/digital-signal-processing/distortion-effects/full-wave-rectification/).
 - The second multiplier has a DC-coupled second input (*8*) which allows you to mix an LFO signal in with the input voltage to add to the distortion effect.
 - Using the multipliers in series or in feedback (patching an output back into the input) can create some pretty crazy sounds.
-- the Resonant EQ can be used to simulate the "body" of acoustic instruments by creating complex frequency resonances from a synthesized input signal.
+- the Resonant EQ can be used to simulate the body of acoustic instruments by creating complex frequency resonances from a synthesized input signal.
 - the Resonant EQ bands can all resonate at high gains, independently of the feedback stage of the circuit. 
 - An inverted phase at switch *21* will cause the comb filter outputs of the Resonant EQ to "thin" the sound rather than resonate.
 
