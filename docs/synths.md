@@ -883,7 +883,7 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 
 [back to top](#top)
 
-### Panel 5 (Panel V)
+### Panel V
 
 <img src = "./img/serge824_5.png" width="100%" title="Random\*Source Serge Panel V" alt="Random\*Source Serge Panel V">
 
