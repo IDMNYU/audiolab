@@ -889,13 +889,66 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 
 #### Tau "The Pipe" Phaser
 
+The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+
 <img src = "./img/serge824_5_1.png" width="40%" title="Tau Phaser" alt="Tau Phaser">
+
+1. Signal input (AC INPUT)
+2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
+3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
+4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
+5. Input scaling knob
+6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
+7. CV scaling knob
+8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
+9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
+10, Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
+11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
+12. LFO Rate knob (sums with *3*x*7*)
+13. LFO Level (depth) knob
+14. Pitch knob for feedback stage (sums with *2* and *6*)
+15. Feedback amount knob
+16. LEDs showing amplitude of outputs *4* and *8*
+
+*Notes:*
+- The Tau Phaser can get **very loud** when the "color" is switch on to engage the feedback. At high feedback stages, it can self-oscillate with no input signal.
 
 #### Triple + Waveshaper / New Ring (TWS+)
 
+The **Triple + Waveshaper / New Ring (TWS+)** is a module with updated versions of Tcherepnin's original **Triple Waveshaper** and **Ring Modulator** (both of which are on the 73-75 Serge). The **Triple + Waveshaper** consists of three waveshapers that distort an input signal, with voltage control of the shaping curve and "gang" switches that allow them to be used in series. A fourth, fixed waveshaping circuit can be dialed in to further transform the signal. The **New Ring** allows for both amplitude and ring modulation effects by multiplying an audio input signal with an AC or DC "carrier" signal.
+
 <img src = "./img/serge824_5_2.png" width="40%" title="TWS+" alt="TWS+">
 
-#### Wave Multipliers / Resonant EQ 
+1. Waveshaper 1-3 outputs (AC or DC OUTPUT depending on input)
+2. Strength knob of 4th ("+") waveshaper in series after Waveshaper 1
+3. Link switch putting Waveshaper 2 in series after Waveshaper 1
+4. Link switch putting Waveshaper 3 in series after Waveshaper 2
+5. Input signal for Waveshaper 1-3 (AC INPUT)
+6. Gain knob for Waveshaper 1-3
+7. CV 1 input for Waveshaper 1-3
+8. Scalar knob for CV 1
+9. CV 2 input for Waveshaper 1-3
+10. Scalar knob for CV 2
+11. Ring modulator output (AC OUTPUT)
+12. Audio input for ring modular (AC INPUT)
+13. Bipolar "carrier" input for ring modulator (AC INPUT)
+14. Gain knob for *13*
+15. Unipolar "carrier" input for ring modular (DC INPUT)
+16. Scaling knob for *15*
+17. Crossfader knob between DC and AC carrier inputs
+
+*Notes:*
+- The TWS+ transfer function circuits will, when turned all the way up, transform a sawtooth wave into a sine wave, according to the T<sub>2</sub> [Chebyshev polynomial](https://en.wikipedia.org/wiki/Chebyshev_polynomials). The intensity of the shaping control (*7*x*8* + *9*x*10*) determines the amount of waveshaping. With a sawtooth wave input, this determines which harmonics are subtracted.
+- A sine wave sent into the same transfer function will have its frequency doubled. A harmonically rich signal will distort in complex ways as the transfer function of a waveshaper circuit exhibits nonlinear behavior.
+- The outputs of the TWS+ can be linked, so that all three waveshapers can distort the same signal. The link order is from 1-4-2-3, with Waveshaper 4 accessible by fading in knob *2*.
+- The TWS+ is also excellent for shaping low-frequency signals to generate interesting control voltages. For example, you could feed one waveshaper in the TWS with the output of an Envelope Generator and a second with an oscillator, using the output of the first as the *CV input* of the second.
+- Two bipolar input signals in the New Ring will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
+- A bipolar input signal and a unipolar carrier signal will cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the audio spectrum as well as the sidebands.
+- An envelope signal at the DC input (*15*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
+- If both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
+- The bipolar carrier input (*13*) is *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar carrier input (*15*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
+
+#### Wave Multipliers / Resonant EQ
 
 <img src = "./img/serge824_5_3.png" width="40%" title="Wave Multipliers / Resonant EQ" alt="Wave Multipliers / Resonant EQ">
 
@@ -1022,8 +1075,8 @@ The Serge **Ring Modulator** was one of Tcherepnin's earliest designs, and allow
 6. Effect control knob - fades from X input only to XY (fully modulated)
 
 *Notes:*
-- Two bipolar input signals at will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
-- A bipolar input signal in one input and a unipolar input signal in the other wll cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
+- Two bipolar input signals will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
+- A bipolar input signal in one input and a unipolar input signal in the other will cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
 - If an audio-rate bipolar signal is used as the X signal (*4*), an envelope signal at the unipolar Y input (*3*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
 - If both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
 - The bipolar inputs (*2* and *4*) are *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar inputs (*3* and *5*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
