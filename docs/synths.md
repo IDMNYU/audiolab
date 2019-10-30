@@ -17,7 +17,7 @@
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. These include:
 
-- a large (4-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
+- a large (5-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
@@ -171,7 +171,7 @@ As mentioned above, patching using banana jacks means that you're only connectin
 
 <img src = "./img/serge824_photo.jpg" width="100%" title="Random\*Source Serge system" alt="Random\*Source Serge system">
 
-The **Random\*Source Serge** was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [R\*S "shop" panels](http://randomsource.net/serge_panels) (prebuilt configurations of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and a few custom modifications for IDM by Darrin and his colleagues.
+The **Random\*Source Serge** was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [R\*S "shop" panels](http://randomsource.net/serge_panels) (prebuilt configurations of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer), and one custom panel of individual modules. These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and custom modifications for IDM by Darrin and his colleagues.
 
 ### Panel 1 (La Bestia II)
 
@@ -889,19 +889,19 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 
 #### Tau "The Pipe" Phaser
 
-<img src = "./img/serge824_5_1.png" width="100%" title="Tau Phaser" alt="Tau Phaser">
+<img src = "./img/serge824_5_1.png" width="40%" title="Tau Phaser" alt="Tau Phaser">
 
 #### Triple + Waveshaper / New Ring (TWS+)
 
-<img src = "./img/serge824_5_2.png" width="100%" title="TWS+" alt="TWS+">
+<img src = "./img/serge824_5_2.png" width="40%" title="TWS+" alt="TWS+">
 
 #### Wave Multipliers / Resonant EQ 
 
-<img src = "./img/serge824_5_3.png" width="100%" title="Wave Multipliers / Resonant EQ" alt="Wave Multipliers / Resonant EQ">
+<img src = "./img/serge824_5_3.png" width="40%" title="Wave Multipliers / Resonant EQ" alt="Wave Multipliers / Resonant EQ">
 
 #### Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)
 
-<img src = "./img/serge824_5_4.png" width="100%" title="DONKS" alt="DONKS">
+<img src = "./img/serge824_5_4.png" width="40%" title="DONKS" alt="DONKS">
 
 [back to top](#top)
 
