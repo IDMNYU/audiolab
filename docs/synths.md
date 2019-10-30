@@ -5,7 +5,7 @@
 - [Studio Basics](#studio-basics)
 - [The Synthesizers](#synthesizers)
   - [Serge system overview](#serge-system-overview)
-    - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel V](#panel-v) )
+    - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel V](#panel-5-custom) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
   - [ARP 2600 overview](#arp-2600-overview)
@@ -883,7 +883,7 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 
 [back to top](#top)
 
-### Panel V
+### Panel 5 (Custom)
 
 <img src = "./img/serge824_5.png" width="100%" title="Random\*Source Serge Panel V" alt="Random\*Source Serge Panel V">
 
