@@ -948,7 +948,7 @@ The **Triple + Waveshaper / New Ring (TWS+)** is a module with updated versions 
 - If both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
 - The bipolar carrier input (*13*) is *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar carrier input (*15*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
 
-#### Wave Multipliers / Resonant EQ
+#### Wave Multipliers / Resonant Equalizer
 
 The **Wave Multipliers** module appeared in 1976 and is considered an important circuit for achieving the "West Coast" sound of the Serge modular. The module contains three self-contained distortion effects that work by shaping the amplitude of the incoming audio signal. Quoting from the 1982 Serge catalog, Tcherepnin describes the three Wave Multipliers:
 
