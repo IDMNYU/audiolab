@@ -902,7 +902,7 @@ The **Tau Phaser** was invented by reknowned electronic music instrument designe
 7. CV scaling knob
 8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
 9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
-10, Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
+10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
 11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
 12. LFO Rate knob (sums with *3*x*7*)
 13. LFO Level (depth) knob
@@ -950,7 +950,68 @@ The **Triple + Waveshaper / New Ring (TWS+)** is a module with updated versions 
 
 #### Wave Multipliers / Resonant EQ
 
+The **Wave Multipliers** module appeared in 1976 and is considered an important circuit for achieving the "West Coast" sound of the Serge modular. The module contains three self-contained distortion effects that work by shaping the amplitude of the incoming audio signal. Quoting from the 1982 Serge catalog, Tcherepnin describes the three Wave Multipliers:
+
+> The uppermost section is the simplest of the three multiplier sections. but it has two switchable effects. With the switch 
+> set at the "HI" position, the module functions to "square-up" an incoming signal. This is not the same as a simple 
+> comparator squaring function, though, since there is a rounded flattening of the signal peaks: an effect somewhat similar to 
+> overdriving a tube amplifier (except that in this version the process is voltage controllable!). With the switch in the "LO" 
+> position, the module is a linear gain controlled VCA. This is useful for various functions such as amplitude modulation and 
+> for gating signals into the other sections.
+>
+> The middle Wave Multiplier provides a sweep of the odd harmonics (1, 3, 5, 7, 9, 11 and 13th) when a sine wave is applied to 
+> its input and the knob is turned up or a control voltage is swept from low to high. This effect is similar to overblowing a 
+> wind pipe closed at one end, and thus the module can be used to produce the sounds of various wind instruments. A second 
+> input is included to allow two signals to be mixed before processing, a technique that we have found to be very usable. This 
+> module can be used to explore timbral areas beyond the range of ring modulation because there are more varied harmonics than 
+> the sum and difference tones.
+>
+> The bottom Wave Multiplier performs non-linear wavehaping known as full-wave rectification, but with sophisticated level-
+> compensating conditioning as well. Actually the circuit uses three full-wave rectifier sections linked in a very refined 
+> controllable format. Each section can double the frequency of a sine or triangle wave applied to its input. Thus sweeping 
+> the VC input over its range will produce a smooth timbral transition using the even harmonics (second, fourth, and eighth). 
+> Many other partials are present in this basic sound, however, and the sonorities are very rich and varied. A notable feature 
+> of this multiplier is that the full-wave rectification is not accompanied by a reduction in the output amplitude. There is 
+> no alteration of the essential level of the sound. There are two inputs to provide mixing before processing, and two 
+> outputs. One output is a "squared up" version of the other. This output resembles voltage controlled pulse width modulation 
+> (only much more interesting). 
+
+The Serge **Resonant Equalizer** was designed by Tcherepnin in 1979, and consists of a bank of ten parallel bandpass filters, deliberately tuned at a non-integer harmonic interval of a [major seventh](https://en.wikipedia.org/wiki/Major_seventh). The individual filters can boost or cut, and a feedback circuit allows them to resonate as a [comb filter](https://en.wikipedia.org/wiki/Comb_filter), similar to the [Buchla 296](https://modularsynthesis.com/roman/buchla296/296psp.htm). 
+
 <img src = "./img/serge824_5_3.png" width="40%" title="Wave Multipliers / Resonant EQ" alt="Wave Multipliers / Resonant EQ">
+
+1. CV input for Multiplier 1 amount (DC INPUT)
+2. Processed output of Multiplier 1 (AC OUTPUT)
+3. Scaling knob for Multiplier 1 amount
+4. Signal input for Multiplier 1 (AC INPUT)
+5. High/Low distortion switch for Multiplier 1
+6. Processed output of Multiplier 2 (AC OUTPUT)
+7. CV input for Multiplier 2 amount (DC INPUT)
+8. Second signal input for Multiplier 2 (DC INPUT)
+9. Scaling knob for Multiplier 2 amount
+10. First signal input for Multiplier 2 (AC INPUT)
+11. Second processed ("squared-up") output for Multiplier 3 (DC OUTPUT)
+12. First processed output for Multiplier 3 (AC OUTPUT)
+13. CV input for Multiplier 2 amount (DC INPUT)
+14. Second signal input for Multiplier 3 (AC INPUT)
+15. Scaling knob for Multiplier 3 amount
+16. First signal input for Multiplier 3 (AC INPUT)
+17. Output of Resonant EQ (AC OUTPUT)
+18. Positive "Comb" output of Resonant EQ (AC OUTPUT)
+19. Negative "Comb" output of Resonant EQ (AC OUTPUT)
+20. Boost-cut knobs for the ten bandpass filters (29Hz, 61Hz, 115Hz, 218Hz, 411Hz, 777Hz, 1.5kHz, 2.8kHz, 5.2kHz, 11kHz)
+21. Phase switch for the feedback stage
+22. Feedback amount knob
+23. Audio input for the Resonant EQ (AC INPUT)
+24. Gain knob for the Resonant EQ input
+
+*Notes:*
+- The first multiplier can be used in *low* mode as an ordinary [VCA](https://en.wikipedia.org/wiki/Variable-gain_amplifier), and in *high* mode as a simple "clipping" [distortion](https://en.wikipedia.org/wiki/Distortion_(music)) unit. The second multiplier emphasizes odd harmonics through [wave folding](https://www.keithmcmillen.com/blog/simple-synthesis-part-8-wavefolding/); the third emphasizes even harmonics through [full wave rectification](https://www.hackaudio.com/digital-signal-processing/distortion-effects/full-wave-rectification/).
+- The second multiplier has a DC-coupled second input (*8*) which allows you to mix an LFO signal in with the input voltage to add to the distortion effect.
+- Using the multipliers in series or in feedback (patching an output back into the input) can create some pretty crazy sounds.
+- the Resonant EQ can be used to simulate the "body" of acoustic instruments by creating complex frequency resonances from a synthesized input signal.
+- the Resonant EQ bands can all resonate at high gains, independently of the feedback stage of the circuit. 
+- An inverted phase at switch *21* will cause the comb filter outputs of the Resonant EQ to "thin" the sound rather than resonate.
 
 #### Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)
 
