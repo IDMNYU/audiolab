@@ -429,7 +429,7 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 16. Gain control knob for channel 2
 
 *Notes:*
-- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Dual Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
+- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
 - The CV input for panning is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
 - The voltage at the output stage of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
 - The two TRS outputs of the Stereo Mixer in the IDM analog studio are wired to inputs 1 and 2 on the Behringer mixer.
@@ -1054,9 +1054,9 @@ The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of th
 
 *Notes:*
 - The Dual Lowpass gate's mode switch allows you to change it between a full-range VCF, where the CV input sweeps a filter; a VCA, where the CV input boosts the signal; or both. The "sound" of a Lowpass Gate, where amplitude is linked to cutoff frequency, is great for making percussive sounds.
-- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Dual Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
-- The CV input for panning is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
-- The voltage at the output stage of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
+- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
+- The CV input for panning on the Stereo Mixer is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
+- The voltage at the output stage of the Stereo Mixer is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
 
 
 
