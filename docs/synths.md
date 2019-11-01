@@ -165,8 +165,6 @@ As mentioned above, patching using banana jacks means that you're only connectin
 
 **Do not remove or re-plug ground wires - this may prevent the equipment from working properly.**
 
-[back to top](#top)
-
 ### Glossary
 
 Serge synthesizer documentation uses a jargon that's quite common among "West Coast" analog synthesizers, as well as digital and software synthesizers that emulate their design. Before looking at the modules themselves, here's a brief glossary of terms commonly found in Serge documentation:
@@ -1539,8 +1537,6 @@ The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into 
 **IMPORTANT: unlike the banana connectors on the Serge system, the 3.5mm patch points on the TTSH (or any synth that uses [phone connectors](https://en.wikipedia.org/wiki/Phone_connector_(audio))) can *easily be damaged* by forcing a plug into a jack, or by pulling a cable out of a socket with force. Please make connections on the TTSH with care.**
 
 ARP synthesizers use a 10V AC standard for both audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages (and Arduino pins) will not trigger the envelope generator on an ARP 2600 without being amplified. The ARP 2600 uses a standard scaling of 1 volt per octave to represent musical pitch.
-
-[back to top](#top)
 
 ### Glossary
 
