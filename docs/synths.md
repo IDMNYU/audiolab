@@ -63,7 +63,7 @@ The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8,
 
 | Channel  | Input     |
 | ------------- | --- |
-| 5-6            | the left and right outputs of the "Stereo Mixer" module on Panel 5 of the R\*S Serge. |
+| 5-6            | the left and right outputs of the "DONKS" module on Panel 5 of the R\*S Serge. |
 | 7-8            | the left and right output of the TTSH Mixer section. |
 | 9-10           | a cable connected that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
 | 11-12          | empty. |
