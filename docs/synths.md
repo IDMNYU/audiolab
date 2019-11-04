@@ -53,8 +53,8 @@ The first four channels of the mixer are mono, and are wired to:
 
 | Channel  | Input     |
 | ------------- | --- |
-| 1            | the left output of the "Stereo Mixer" module on the Random Source Serge. |
-| 2            | the right output of the "Stereo Mixer" module on the Random Source Serge. |
+| 1            | the left output of the "Stereo Mixer" module on Panel 1 of the Random Source Serge. |
+| 2            | the right output of the "Stereo Mixer" module on Panel 1 of the Random Source Serge. |
 | 3            | the output of the "XFader" module on the Random Source Serge. |
 | 4            | the top output on the "Adapter" module on the 73-75 Serge. |
 
@@ -63,9 +63,9 @@ The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8,
 
 | Channel  | Input     |
 | ------------- | --- |
-| 5-6            | the left and right output of the TTSH Mixer section. |
-| 7-8            | a cable connected that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
-| 9-10           | empty. |
+| 5-6            | the left and right output of the "Stereo Mixer" module on Panel 5 of the Random Source Serge. |
+| 7-8            | the left and right output of the TTSH Mixer section. |
+| 9-10           | a cable connected that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
 | 11-12          | empty. |
 
 > \* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). In the USA, they are incorrectly referred to as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
@@ -447,7 +447,7 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 - By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
 - The CV input for panning is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
 - The voltage at the output stage of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
-- The two TRS outputs of the Stereo Mixer in the IDM analog studio are wired to inputs 1 and 2 on the Behringer mixer.
+- In the IDM analog studio, the TRS outputs of the Stereo Mixer are wired to inputs 1 and 2 on the Behringer mixer.
 
 ### Panel 2 (Edelweiss II)
 
@@ -1072,13 +1072,7 @@ The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of th
 - By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
 - The CV input for panning on the Stereo Mixer is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
 - The voltage at the output stage of the Stereo Mixer is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
-
-
-
-
-
-
-
+- In the IDM analog studio, the TRS outputs of the "Stereo Mixer" are wired to inputs 5 and 6 on the Behringer mixer.
 
 [back to top](#top)
 
@@ -1332,7 +1326,7 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 *Notes:*
 - The Adapter module is passive, and won't perform any filtering, attenuation, AC coupling, or preamplification on the signal in either direction.
-- The first 1/8" adapter jack on the 73-75 Serge in the IDM analog studio is wired to input 4 on the Behringer mixer.
+- In the IDM analog studio, the top 1/8" jack on the Adapter module is wired to input 4 on the Behringer mixer.
 
 [back to top](#top)
 
@@ -1727,6 +1721,7 @@ The **VCA** of the TTSH modulates the amplitude of audio inputs based on control
 The right-hand module on the top row of the TTSH consists of a final stage mixer, a reverberation unit, and jacks for audio output from the synthesizer:
 - the [**MIXER**](https://en.wikipedia.org/wiki/Audio_mixing) module is a two-channel mixer with vertical sliders, a jack above each slider that can "tap" a direct out of the channel, and a horizontal [pan](https://en.wikipedia.org/wiki/Panning_(audio)) slider to move the mixers output between the left and right output jacks from the synthesizer. There are also additional input jacks to bypass the mixer entirely, wiring their voltage directly to their respective output jacks.
 - the **REVERBERATOR** module is a stereo [spring reverb](https://en.wikipedia.org/wiki/Reverberation#Spring_reverberators) unit that feeds the output jacks, as well as an additional direct output. Vertical sliders allow you to adjust the volume of the reverb in each channel.
+- In the IDM analog studio, the two 1/8" outputs of the **MIXER** are wired to inputs 7 and 8 on the Behringer mixer.
 
 <img src = "./img/TTSH_1_8.png" height="500px" title="Mixer" alt="Mixer">
 
