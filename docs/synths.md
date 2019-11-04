@@ -5,7 +5,7 @@
 - [Studio Basics](#studio-basics)
 - [The Synthesizers](#synthesizers)
   - [Serge system overview](#serge-system-overview)
-    - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) )
+    - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
   - [ARP 2600 overview](#arp-2600-overview)
@@ -17,7 +17,7 @@
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. These include:
 
-- a large (4-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
+- a large (5-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) modular system designed by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
@@ -68,7 +68,7 @@ The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8,
 | 9-10           | empty. |
 | 11-12          | empty. |
 
-\* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). They are incorrectly referred to in the USA as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
+> \* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). In the USA, they are incorrectly referred to as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
 
 **Please don't re-plug the synthesizer channels on the mixer.**
 
@@ -90,7 +90,7 @@ The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers i
 
 ![Serge Modular System in use](./img/serge_patched.jpg "Serge Modular System in use")
 
-[Serge synthesizers](https://en.wikipedia.org/wiki/Serge_synthesizer) are [analog modular synthesizers](https://en.wikipedia.org/wiki/Analog_synthesizer) based on the  designs of [Serge Tcherepnin](https://en.wikipedia.org/wiki/Serge_Tcherepnin). Tcherepnin, while working at CalArts in the 1970s, developed his line of synthesizers after meeting with [Don Buchla](https://en.wikipedia.org/wiki/Don_Buchla) and working with composer [Morton Subotnick](https://en.wikipedia.org/wiki/Morton_Subotnick). Tcherepnin realized that modular synthesizers available at the time were far too expensive to be affordable for students and hobbyists, and so he set out to develop a modular system that was low cost and emphasized flexibility. Working with a team of CalArts students, including Rich Gold, Randy Cohen, and Rex Probe, the first Serge systems were built in Tcherepnin's home in 1973. Tcherepnin made a number of innovative decisions to keep costs down, such as the use of (cheaper) banana jacks instead of audio connectors, and the ["paperfacing"](http://djjondent.blogspot.com/2013/12/two-panel-vintage-paperface-serge.html) of his synthesizer panels so that the aluminum could be pre-drilled in a grid regardless of the customer's desired module configuration.
+[Serge synthesizers](https://en.wikipedia.org/wiki/Serge_synthesizer) are [analog modular synthesizers](https://en.wikipedia.org/wiki/Analog_synthesizer) based on the designs of [Serge Tcherepnin](https://en.wikipedia.org/wiki/Serge_Tcherepnin). Tcherepnin, while working at CalArts in the 1970s, developed his line of synthesizers after meeting with [Don Buchla](https://en.wikipedia.org/wiki/Don_Buchla) and working with composer [Morton Subotnick](https://en.wikipedia.org/wiki/Morton_Subotnick). Tcherepnin realized that modular synthesizers available at the time were far too expensive to be affordable for students and hobbyists, and so he set out to develop a modular system that was low cost and emphasized flexibility. Working with a team of CalArts students, including Rich Gold, Randy Cohen, and Rex Probe, the first Serge systems were built in Tcherepnin's home in 1973. Tcherepnin made a number of innovative decisions to keep costs down, such as the use of (cheaper) banana jacks instead of audio connectors, and the ["paperfacing"](http://djjondent.blogspot.com/2013/12/two-panel-vintage-paperface-serge.html) of his synthesizer panels so that the aluminum could be pre-drilled in a grid regardless of the customer's desired module configuration.
 
 In addition, unlike many of his competitors, Tcherepnin also sold his systems as *kits*, where the customer would receive a circuit board, a face plate and decal label, a Ziploc bag of discrete electronic components, and detailed assembly instructions. This DIY approach - similar to [HeathKit radios](https://shop.heathkit.com/page/homepage) popular at the time - allowed Serge synthesizers to be purchased for a fraction of the cost of a Buchla system if the buyer didn't mind doing some soldering. Many licensed Serge systems today are still sold as kits, with a number of builders, such as our friends at [Patch Point](https://www.patch-point.com/) in Berlin and [Low-Gain Electronics](http://www.lowgain-audio.com/) in Minneapolis available to professionaly assemble the kits into finished synthesizers using high quality components.
 
@@ -108,7 +108,7 @@ A scan of a 1976 manual for the Serge synthesizers, written by Rich Gold, Darrel
 
 Serge synthesizers have a number of technical characteristics that set them apart from other modular systems of their day, as well as modern modular synthesizers that use the [Eurorack](https://en.wikipedia.org/wiki/Eurorack) format:
 - Serge synthesizers are designed to be arrayed horizontally into panels that are **4U** (four [rack units](https://en.wikipedia.org/wiki/Rack_unit)) high, the same as [Buchla](https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments) systems but distinct from [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer) systems (5U) or Eurorack systems (3U). As a result of this sizing standard, Buchla- and Serge-style synthesizers are sometimes referred to generically as "4U" modular systems.
-- Serge systems use **4mm [banana connectors](https://en.wikipedia.org/wiki/Banana_connector)** for all their patchcord connectivity, with a common [ground connection](https://en.wikipedia.org/wiki/Ground_(electricity)) used across all the modules in the system. The use of single conductor wires means that, when patching with a Serge, you're connecting the positive current wire only. This is in contrast to most other modular systems, which use two-conductor audio cables such as 1/4" or 3.5mm [phone jacks](https://en.wikipedia.org/wiki/Phone_connector_(audio)) - used on most modern synths - for connectivity. Serge modules (and other  synths that use banana jacks) tend to work with lower impedance signals to mitigate the cross-talk that occurs from the modules' audio circuitry all sharing the same ground plane.
+- Serge systems use **4mm [banana connectors](https://en.wikipedia.org/wiki/Banana_connector)** for all their patchcord connectivity, with a common [ground connection](https://en.wikipedia.org/wiki/Ground_(electricity)) used across all the modules in the system. The use of single conductor wires means that, when patching with a Serge, you're connecting the positive current wire only. This is in contrast to most other modular systems, which use two-conductor audio cables such as 1/4" or 3.5mm [phone jacks](https://en.wikipedia.org/wiki/Phone_connector_(audio)) - used on most modern synths - for connectivity. Serge modules (and other synths that use banana jacks) tend to work with lower impedance signals to mitigate the cross-talk that occurs from the modules' audio circuitry all sharing the same ground plane.
 - Tcherepnin designed his synthesizers with **no hard distinction between "audio" and "control voltages"**. This was a fairly radical departure from contemporary systems, which either had separate modules for generating different types of signals (Moog) or used different cabling standards to keep different kinds of voltages separate (Buchla). In Serge systems, an oscillator could be listened to, or slowed down below 20Hz to create a time-varying [low-frequency oscillator](https://en.wikipedia.org/wiki/Low-frequency_oscillation). By a similar token, Serge modules that generated ramps, triggers, random signals, and even voltage sequences could be sped up to audio rate to generate triangle waves, square waves, noise, or arbitrary waveforms. Instead of dictating the *use* of any given signal generated by the synthesizer, Serge systems distinguish between the *type* of voltage generated - AC, DC, or pulse - without implying how it should be patched and at what frequency it should be used.
 - Serge modules often perform multiple functions depending on which connections are active. For example, envelope generators in Serge systems can also be wired to function as oscillators, envelope followers, filters, or gates. Tcherepnin referred to this feature of his synthesizers as **"patch programmability"**, and this flexibility is considered to be one of the hallmarks of Serge modular systems. The Serge [Dual Universal Slope Generator](https://www.elby-designs.com/webtek/cgs/serge/cgs114/cgs114_dusg.html) from 1976 epitomizes this sensibility, and there are several Eurorack modules on the market (e.g. MakeNoise [MATHS](http://www.makenoisemusic.com/modules/maths) and the Befaco [Rampage](https://www.befaco.org/en/rampage/)) that feature similar multiuse capabilities.
 
@@ -165,13 +165,28 @@ As mentioned above, patching using banana jacks means that you're only connectin
 
 **Do not remove or re-plug ground wires - this may prevent the equipment from working properly.**
 
+### Glossary
+
+Serge synthesizer documentation uses a jargon that's quite common among "West Coast" analog synthesizers, as well as digital and software synthesizers that emulate their design. Before looking at the modules themselves, here's a brief glossary of terms commonly found in Serge documentation:
+- [**Control Voltage / Gate**](https://en.wikipedia.org/wiki/CV/Gate) (abbrev. CV/Gate) - a common schema for transmitting signals around a synthesizer that are not meant to be heard directly, but are meant to control and trigger sound-producing modules. When the control voltage in question represents musical pitch, Serge uses both a standard scaling of 1 volt-per-octave over a range of 0-5 volts as well as a linear voltage system that is usually paired with a scaling knob. When the control voltage represents a pulse, trigger, or 'gate', then it is treated similar to digital signals, with 5 volts being 'high' and 0 volts 'low'.
+- [**Voltage Controlled Oscillator**](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator) (abbrev. VCO) - an oscillator with a variable frequency controllable by an external voltage source. This is a core component of almost any analog synthesizer. Analog oscillators can often generate a variety of waveforms depending on their design. Tcherepnin designed only a few oscillator modules, preferring instead to leverage "patch programmability" to repurpose slope and timing generators to create additional oscillators.
+- [**Voltage Controlled Filter**](https://en.wikipedia.org/wiki/Voltage-controlled_filter) (abbrev. VCF) - a filter with one or more parameters that can be adjusted dynamically by an external voltage source. Filter modules are a core element in a *subtractive* synthesizer, allowing you to carve away parts of the frequency range of any input signal. Our Serge system has a number of different kinds of VCFs, most of which function as [state-variable filters](https://en.wikipedia.org/wiki/State_variable_filter), with the parameters adjustable through voltage control.
+- [**Voltage Controlled Amplifier**](https://en.wikipedia.org/wiki/Variable-gain_amplifier) (abbrev. VCA) - an amplifier circuit where the amount of gain or attenuation applied to the incoming signal can be varied by an external voltage source, similar to a [transistor](https://en.wikipedia.org/wiki/Transistor). Tcherepnin designed a number of VCA modules, both to serve as classic "note" generators but also to allow voltage-controlled mixing.
+- [**Low Frequency Oscillator**](https://en.wikipedia.org/wiki/Low-frequency_oscillation) (abbrev. LFO) - an oscillator used to generate low-frequency control voltage rather than an audible audio signal. Tcherepnin avoided making the distinction beteween audio- and control-rate oscillators and signal-generators, so most Serge modules that generate repeatable signals can serve as LFOs.
+- **Envelope Generator** - a circuit that generates time-varying control voltage intended to have a start and an end (as opposed to an oscillator). These circuits often output these voltage 'envelopes' according to a common design, such as an [**ADSR**](https://en.wikipedia.org/wiki/Synthesizer#Attack_Decay_Sustain_Release_.28ADSR.29_envelope) (Attack/Decay/Sustain/Release) envelope. Tcherepnin preferred simpler slope generators and slew limiting circuits over complex envelope generators.
+- [**Envelope Follower**](https://en.wikipedia.org/wiki/Envelope_detector) - a circuit that takes an audio signal and rectifies and low-passes it to generate a control voltage slope that follows the contours of the original signal. These circuits are often used to allow an acoustic instrument (via a microphone) or an electric instrument (via a pickup) to control a parameter on a synthesizer. They are also used in audio processing to generate the 'key' signal for a dynamics processor, such as a compressor, limiter, or noise gate. The Serge Dual Universal Slope Generator can be used for a wide variety of envelope following tasks.
+- [**Ring Modulation**](https://en.wikipedia.org/wiki/Ring_modulation) - a simple signal processing technique where two audio signals are *multiplied* - the result is a signal with additional 'sideband' frequencies resulting from the sum and difference of the harmonic content of the two signals. If one of the input signals is rectified, it is referred to as [**Amplitude Modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation). Tcherepnin made both dedicated ring modulator modules as well as VCA circuits that supported amplitude modulation (to simulate musical ['tremolo'](https://en.wikipedia.org/wiki/Tremolo)).
+- [**Frequency Modulation**](https://en.wikipedia.org/wiki/Frequency_modulation) - a signal processing technique where an oscillator's frequency is modified by a second source, such as an oscillator. If the modulating source is an LFO, the result is a musical ['vibrato'](https://en.wikipedia.org/wiki/Vibrato) effect. When high frequency oscillators provide the modulation, sidebands occur, as they do with ring modulation, but in a richer and [more complex manner](https://en.wikipedia.org/wiki/Bessel_function). As a result, frequency modulation can be used to generate rich spectra from comparatively simple input sources. The voltage control circuitry in Serge systems supports stable tracking of audio-rate frequency modulation.
+- [**Sample and Hold**](https://en.wikipedia.org/wiki/Sample_and_hold) (abbrev. S/H) - a circuit that 'samples' one voltage based on a secondary voltage fulfilling a triggering condition (e.g. rising in value above a certain value), and then 'holds' that voltage until the trigger fires again. In analog synthesizers, the two voltages are often oscillators run at different frequencies (or a noise source sampled and held by an LFO). S/H circuits can be used to create arpeggio, sequencer, and rhythmic effects by generating control voltages for sound-producing modules in a synthesizer. The Serge Smooth / Stepped Generator has a sample-and-hold circuit with a variety of inputs, outputs, and controls.
+- [**Slew Limiter**](https://en.wikipedia.org/wiki/Slew_rate#Slew_rate_limiting_in_amplifiers) - a circuit that limits the rate of voltage change in a system. This can be used to glide between values to create, e.g. musical ['portamento'](https://en.wikipedia.org/wiki/Portamento), or as a type of filter or [waveshaper](https://en.wikipedia.org/wiki/Waveshaper). West Coast synthesizers such as the Serge often used slew limiting in lieu of filters, and as a building block of slope generators - the Positive and Negative Slew modules on the 73-75 Serge are slew limiters; these circuits are also built into the Dual Universal Slope Generator.
+
 [back to top](#top)
 
 ## Random Source Serge
 
 <img src = "./img/serge824_photo.jpg" width="100%" title="Random\*Source Serge system" alt="Random\*Source Serge system">
 
-The **Random\*Source Serge** was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [R\*S "shop" panels](http://randomsource.net/serge_panels) (prebuilt configurations of modules): a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and a few custom modifications for IDM by Darrin and his colleagues.
+The **Random\*Source Serge** was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [R\*S "shop" panels](http://randomsource.net/serge_panels) (prebuilt configurations of modules) in a custom zebrawood rack case: a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). There is also one custom panel of individual modules housed in a separate rack. These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and custom modifications for IDM by Darrin and his colleagues.
 
 ### Panel 1 (La Bestia II)
 
@@ -198,7 +213,7 @@ The **New Timbral Oscillator (NTO)** first appeared in 1976, and was (along with
 13. CV to control the amount of linear FM *10* (sums with *16*) (DC INPUT)
 14. Second Portamento CV (sums with *11* and *17*) (DC INPUT)
 15. [Oscillator Sync](https://en.wikipedia.org/wiki/Oscillator_sync) signal for Saw Output *1* (DC INPUT, triggers at 2.5V).
-16. Manual control of the amount of linear FM *10*  (sums with *13*)
+16. Manual control of the amount of linear FM *10* (sums with *13*)
 17. Manual Portamento control (sums with *11* and *14*)
 18. Linear frequency CV input (scaled by *19*, sums with *7*, *8*, *20*, and *21*) (DC INPUT)
 19. Scaling knob for *18*
@@ -429,7 +444,7 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 16. Gain control knob for channel 2
 
 *Notes:*
-- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Dual Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
+- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
 - The CV input for panning is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
 - The voltage at the output stage of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
 - The two TRS outputs of the Stereo Mixer in the IDM analog studio are wired to inputs 1 and 2 on the Behringer mixer.
@@ -708,7 +723,7 @@ The **Active Processor (Active Pro)** is based on Tcherepnin's design of the sam
 1. Crossfaded signal (DC OUTPUT)
 2. Signal input 1 (DC INPUT)
 3. Signal input 2 (DC INPUT)
-4. Crossfade position voltage (sums with *5*)  (DC INPUT)
+4. Crossfade position voltage (sums with *5*) (DC INPUT)
 5. Crossfade position knob (sums with *4*)
 6. Flip (odd) gate (Pulse OUTPUT)
 7. Flop (even) gate (Pulse OUTPUT)
@@ -825,7 +840,7 @@ The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepn
 2. Crossfaded signal (AC OUTPUT)
 3. Signal input 1 (AC INPUT)
 4. Signal input 2 (AC INPUT)
-5. Crossfade ("Xfade") position voltage (sums with *6*)  (DC INPUT)
+5. Crossfade ("Xfade") position voltage (sums with *6*) (DC INPUT)
 6. Crossfade position knob (sums with *5*)
 7. Voltage control input for overall gain (sums with *8*) (DC INPUT)
 8. Overall gain knob (sums with *7*).
@@ -843,7 +858,7 @@ The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepn
 
 #### Touch Activated Keyboard Sequencer
 
-The Serge **Touch Activated Keyboard Sequencer (TKB)** had its debut in 1976, and is considered one of the most historically  influential of Tcherepnin's designs. A combination 16-stage preset manager with 4 rows, sequencer, and keyboard controller, this single module takes up an entire panel in our Serge system. It was the most expensive item in the Serge Modular Music Systems catalog, selling in 1982 for $900 pre-assembled ($2,400 in 2019 dollars).
+The Serge **Touch Activated Keyboard Sequencer (TKB)** had its debut in 1976, and is considered one of the most historically influential of Tcherepnin's designs. A combination 16-stage preset manager with 4 rows, sequencer, and keyboard controller, this single module takes up an entire panel in our Serge system. It was the most expensive item in the Serge Modular Music Systems catalog, selling in 1982 for $900 pre-assembled ($2,400 in 2019 dollars).
 
 Tcherepnin, like Don Buchla, rejected implementing Western-style keyboard controllers with white keys and black keys, arranged according to the chromatic scale. Instead, Tcherepnin used capacitive touch pads arranged in an evenly spaced pattern, similar to the touch strips on the [Buchla model 112](http://synthmuseum.com/buchla/buc11201.html). The touch pads on the TKB output the voltage presets set by four rows of knobs (A, B, C, and D) above the pads, as well as a voltage based on the "pressure" applied to the key.
 
@@ -880,6 +895,190 @@ Unlike the Buchla touch controllers, the Serge TKB doubles as a sophisticated se
 - By using the pulse outputs for the individual sequence stages (*18*), you can trigger external events on other modules. You can also use these outputs, in combination with the Up/Down gate *13* and the "Flip/Flop" on the Active Processor to create smaller loops of sequences within the TKB.
 - The keyboard pressure output *8* puts out a fairly noisy voltage based on capacitance. Patching it into a DUSG or SSG will allow you to smooth this out as well as add lag to the key (e.g. for keyboard-driven slow fades or filter sweeps).
 - The TKB can be sequenced at audio rate, and the preset rows can be used as an arbitrary 16-stage waveform for an oscillator.
+
+[back to top](#top)
+
+### Panel 5 (Custom)
+
+<img src = "./img/serge824_5.png" width="100%" title="Random\*Source Serge Panel V" alt="Random\*Source Serge Panel V">
+
+#### Tau "The Pipe" Phaser
+
+The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+
+<img src = "./img/serge824_5_1.png" width="40%" title="Tau Phaser" alt="Tau Phaser">
+
+1. Signal input (AC INPUT)
+2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
+3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
+4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
+5. Input scaling knob
+6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
+7. CV scaling knob
+8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
+9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
+10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
+11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
+12. LFO Rate knob (sums with *3*x*7*)
+13. LFO Level (depth) knob
+14. Pitch knob for feedback stage (sums with *2* and *6*)
+15. Feedback amount knob
+16. LEDs showing amplitude of outputs *4* and *8*
+
+*Notes:*
+- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At high feedback stages, it can self-oscillate with no input signal.
+
+#### Triple + Waveshaper / New Ring (TWS+)
+
+The **Triple + Waveshaper / New Ring (TWS+)** is a module with updated versions of Tcherepnin's original **Triple Waveshaper** and **Ring Modulator** (both of which are on the 73-75 Serge). The **Triple + Waveshaper** consists of three waveshapers that distort an input signal, with voltage control of the shaping curve and "gang" switches that allow them to be used in series. A fourth, fixed waveshaping circuit can be dialed in to further transform the signal. The **New Ring** allows for both amplitude and ring modulation effects by multiplying an audio input signal with an AC or DC "carrier" signal.
+
+<img src = "./img/serge824_5_2.png" width="40%" title="TWS+" alt="TWS+">
+
+1. Waveshaper 1-3 outputs (AC or DC OUTPUT depending on input)
+2. Strength knob of 4th ("+") waveshaper in series after Waveshaper 1
+3. Link switch putting Waveshaper 2 in series after Waveshaper 1
+4. Link switch putting Waveshaper 3 in series after Waveshaper 2
+5. Input signal for Waveshaper 1-3 (AC INPUT)
+6. Gain knob for Waveshaper 1-3
+7. CV 1 input for Waveshaper 1-3
+8. Scalar knob for CV 1
+9. CV 2 input for Waveshaper 1-3
+10. Scalar knob for CV 2
+11. Ring modulator output (AC OUTPUT)
+12. Audio input for ring modular (AC INPUT)
+13. Bipolar "carrier" input for ring modulator (AC INPUT)
+14. Gain knob for *13*
+15. Unipolar "carrier" input for ring modular (DC INPUT)
+16. Scaling knob for *15*
+17. Crossfader knob between DC and AC carrier inputs
+
+*Notes:*
+- The TWS+ transfer function circuits will, when turned all the way up, transform a sawtooth wave into a sine wave, according to the T<sub>2</sub> [Chebyshev polynomial](https://en.wikipedia.org/wiki/Chebyshev_polynomials). The intensity of the shaping control (*7*x*8* + *9*x*10*) determines the amount of waveshaping. With a sawtooth wave input, this determines which harmonics are subtracted.
+- A sine wave sent into the same transfer function will have its frequency doubled. A harmonically rich signal will distort in complex ways as the transfer function of a waveshaper circuit exhibits nonlinear behavior.
+- The outputs of the TWS+ can be linked, so that all three waveshapers can distort the same signal. The link order is from 1-4-2-3, with Waveshaper 4 accessible by fading in knob *2*.
+- The TWS+ is also excellent for shaping low-frequency signals to generate interesting control voltages. For example, you could feed one waveshaper in the TWS with the output of an Envelope Generator and a second with an oscillator, using the output of the first as the *CV input* of the second.
+- Two bipolar input signals in the New Ring will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
+- A bipolar input signal and a unipolar carrier signal will cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the audio spectrum as well as the sidebands.
+- An envelope signal at the DC input (*15*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
+- If both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
+- The bipolar carrier input (*13*) is *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar carrier input (*15*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
+
+#### Wave Multipliers / Resonant Equalizer
+
+The **Wave Multipliers** module appeared in 1976 and is considered an important circuit for achieving the "West Coast" sound of the Serge modular. The module contains three self-contained distortion effects that work by shaping the amplitude of the incoming audio signal. Quoting from the 1982 Serge catalog, Tcherepnin describes the three Wave Multipliers:
+
+> The uppermost section is the simplest of the three multiplier sections. but it has two switchable effects. With the switch 
+> set at the "HI" position, the module functions to "square-up" an incoming signal. This is not the same as a simple 
+> comparator squaring function, though, since there is a rounded flattening of the signal peaks: an effect somewhat similar to 
+> overdriving a tube amplifier (except that in this version the process is voltage controllable!). With the switch in the "LO" 
+> position, the module is a linear gain controlled VCA. This is useful for various functions such as amplitude modulation and 
+> for gating signals into the other sections.
+>
+> The middle Wave Multiplier provides a sweep of the odd harmonics (1, 3, 5, 7, 9, 11 and 13th) when a sine wave is applied to 
+> its input and the knob is turned up or a control voltage is swept from low to high. This effect is similar to overblowing a 
+> wind pipe closed at one end, and thus the module can be used to produce the sounds of various wind instruments. A second 
+> input is included to allow two signals to be mixed before processing, a technique that we have found to be very usable. This 
+> module can be used to explore timbral areas beyond the range of ring modulation because there are more varied harmonics than 
+> the sum and difference tones.
+>
+> The bottom Wave Multiplier performs non-linear wavehaping known as full-wave rectification, but with sophisticated level-
+> compensating conditioning as well. Actually the circuit uses three full-wave rectifier sections linked in a very refined 
+> controllable format. Each section can double the frequency of a sine or triangle wave applied to its input. Thus sweeping 
+> the VC input over its range will produce a smooth timbral transition using the even harmonics (second, fourth, and eighth). 
+> Many other partials are present in this basic sound, however, and the sonorities are very rich and varied. A notable feature 
+> of this multiplier is that the full-wave rectification is not accompanied by a reduction in the output amplitude. There is 
+> no alteration of the essential level of the sound. There are two inputs to provide mixing before processing, and two 
+> outputs. One output is a "squared up" version of the other. This output resembles voltage controlled pulse width modulation 
+> (only much more interesting). 
+
+The Serge **Resonant Equalizer** was designed by Tcherepnin in 1979, and consists of a bank of ten parallel bandpass filters, deliberately tuned at a non-integer harmonic interval of a [major seventh](https://en.wikipedia.org/wiki/Major_seventh). The individual filters can boost or cut, and a feedback circuit allows them to resonate as a [comb filter](https://en.wikipedia.org/wiki/Comb_filter), similar to the [Buchla 296](https://modularsynthesis.com/roman/buchla296/296psp.htm). 
+
+<img src = "./img/serge824_5_3.png" width="40%" title="Wave Multipliers / Resonant EQ" alt="Wave Multipliers / Resonant EQ">
+
+1. CV input for Multiplier 1 amount (DC INPUT)
+2. Processed output of Multiplier 1 (AC OUTPUT)
+3. Scaling knob for Multiplier 1 amount
+4. Signal input for Multiplier 1 (AC INPUT)
+5. High/Low distortion switch for Multiplier 1
+6. Processed output of Multiplier 2 (AC OUTPUT)
+7. CV input for Multiplier 2 amount (DC INPUT)
+8. Second signal input for Multiplier 2 (DC INPUT)
+9. Scaling knob for Multiplier 2 amount
+10. First signal input for Multiplier 2 (AC INPUT)
+11. Second processed ("squared-up") output for Multiplier 3 (DC OUTPUT)
+12. First processed output for Multiplier 3 (AC OUTPUT)
+13. CV input for Multiplier 2 amount (DC INPUT)
+14. Second signal input for Multiplier 3 (AC INPUT)
+15. Scaling knob for Multiplier 3 amount
+16. First signal input for Multiplier 3 (AC INPUT)
+17. Output of Resonant EQ (AC OUTPUT)
+18. Positive "Comb" output of Resonant EQ (AC OUTPUT)
+19. Negative "Comb" output of Resonant EQ (AC OUTPUT)
+20. Boost-cut knobs for the ten bandpass filters (29Hz, 61Hz, 115Hz, 218Hz, 411Hz, 777Hz, 1.5kHz, 2.8kHz, 5.2kHz, 11kHz)
+21. Phase switch for the feedback stage
+22. Feedback amount knob
+23. Audio input for the Resonant EQ (AC INPUT)
+24. Gain knob for the Resonant EQ input
+
+*Notes:*
+- The first multiplier can be used in *low* mode as an ordinary [VCA](https://en.wikipedia.org/wiki/Variable-gain_amplifier), and in *high* mode as a simple "clipping" [distortion](https://en.wikipedia.org/wiki/Distortion_(music)) unit. The second multiplier emphasizes odd harmonics through [wave folding](https://www.keithmcmillen.com/blog/simple-synthesis-part-8-wavefolding/); the third emphasizes even harmonics through [full wave rectification](https://www.hackaudio.com/digital-signal-processing/distortion-effects/full-wave-rectification/).
+- The second multiplier has a DC-coupled second input (*8*) which allows you to mix an LFO signal in with the input voltage to add to the distortion effect.
+- Using the multipliers in series or in feedback (patching an output back into the input) can create some pretty crazy sounds.
+- the Resonant EQ can be used to simulate the body of acoustic instruments by creating complex frequency resonances from a synthesized input signal.
+- the Resonant EQ bands can all resonate at high gains, independently of the feedback stage of the circuit. 
+- An inverted phase at switch *21* will cause the comb filter outputs of the Resonant EQ to "thin" the sound rather than resonate.
+
+#### Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)
+
+The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of three amplitude amplitude processing modules. The **Dual Lowpass Gate** is modeled after the Buchla [Quad Lopass Gate Model 292](https://www.modulargrid.net/u/buchla-quad-voltage), developed as part of the "200 Series" in the 1970s; the Lowpass Gate uses [Vactrol](https://en.wikipedia.org/wiki/Resistive_opto-isolator) opto-isolators to create a combination VCF/VCA. The **Timbre** module is based on Buchla's wavefolder circuit used in the [Complex Wave Generator Model 259](https://modularsynthesis.com/roman/buchla259/259cwg.htm) as well as the oscillator in the [Music Easel](https://buchla.com/music-easel/); similar to the Serge Wave Multipliers, the module performs harmonic distortion on an input signal to create a more complex waveform. The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
+
+<img src = "./img/serge824_5_4.png" width="40%" title="DONKS" alt="DONKS">
+
+1. Output for Lowpass Gate channel 1 (AC OUTPUT)
+2. Output for Lowpass Gate channel 2 (AC OUTPUT)
+3. Lowpass Gate mix output (AC OUTPUT)
+4. Crossfader knob for *3*
+5. Lowpass Gate channel 1 input (AC INPUT) 
+6. Lowpass Gate channel 2 input (AC INPUT) 
+7. CV gain input for Lowpass Gate channel 1 input (DC INPUT) 
+8. CV gain input for Lowpass Gate channel 2 input (DC INPUT) 
+9. Gain control knob for Lowpass Gate channel 1 input (DC INPUT) 
+10. Gain control knob for Lowpass Gate channel 1 input (DC INPUT) 
+11. Mode switch for Lowpass Gate channel 1
+12. Mode switch for Lowpass Gate channel 2
+13. Signal output for Timbre module (AC OUTPUT)
+14. CV distortion input for Timbre module (scaled by *16*) (DC INPUT)
+15. Signal input for Timbre module (AC INPUT)
+16. Distortion knob for Timbre module
+17. 1/4" TRS output of the Stereo Mixer left channel
+18. 1/4" TRS output of the Stereo Mixer right channel
+19. Stereo Mixer left channel output (AC OUTPUT)
+20. Stereo Mixer right channel output (AC OUTPUT)
+21. Auxiliary input for the Stereo Mixer left channel - bypasses panning and gain (AC INPUT)
+22. Auxiliary input for the Stereo Mixer right channel - bypasses panning and gain (AC INPUT)
+23. Stereo Mixer channel 1 input (AC INPUT)
+24. Stereo Mixer channel 2 input (AC INPUT)
+25. Panning voltage control for Stereo Mixer channel 1 (summed with *11*) (AC INPUT)
+26. Panning voltage control for Stereo Mixer channel 2 (summed with *12*) (AC INPUT)
+27. Panning knob for Stereo Mixer channel 1
+28. Panning knob for Stereo Mixer channel 2
+29. CV gain input for Stereo Mixer channel 1 (summed with *15*) (DC INPUT)
+30. CV gain input for Stereo Mixer channel 2 (summed with *16*) (DC INPUT)
+31. Gain control knob for Stereo Mixer channel 1
+32. Gain control knob for Stereo Mixer channel 2
+
+*Notes:*
+- The Dual Lowpass gate's mode switch allows you to change it between a full-range VCF, where the CV input sweeps a filter; a VCA, where the CV input boosts the signal; or both. The "sound" of a Lowpass Gate, where amplitude is linked to cutoff frequency, is great for making percussive sounds.
+- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
+- The CV input for panning on the Stereo Mixer is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
+- The voltage at the output stage of the Stereo Mixer is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
+
+
+
+
+
+
+
 
 [back to top](#top)
 
@@ -1000,8 +1199,8 @@ The Serge **Ring Modulator** was one of Tcherepnin's earliest designs, and allow
 6. Effect control knob - fades from X input only to XY (fully modulated)
 
 *Notes:*
-- Two bipolar input signals at will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
-- A bipolar input signal in one input and a unipolar input signal in the other wll cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
+- Two bipolar input signals will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
+- A bipolar input signal in one input and a unipolar input signal in the other will cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
 - If an audio-rate bipolar signal is used as the X signal (*4*), an envelope signal at the unipolar Y input (*3*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
 - If both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
 - The bipolar inputs (*2* and *4*) are *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar inputs (*3* and *5*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
@@ -1304,7 +1503,7 @@ A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](htt
 ### What makes an ARP an ARP?
 
 The ARP 2600 is:
-- **Semi-modular** : unlike pure modular synthesizers (like the [Buchla](https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments), [Serge](https://en.wikipedia.org/wiki/Serge_synthesizer), and [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer) synthesizers), the ARP 2600 has a *default internal wiring* between the individual modules (similar to [patchbay "normalization"](https://en.wikipedia.org/wiki/Patch_panel#Normalization) in a recording studio) so that you could bring it home, plug it in, turn it on, and get sound out of the built-in speakers without any additional work. The patch points on the front of the synthesizer then *override* these internal connections by breaking the internal connection, allowing you to customize how the modules are routed from one to another to make new sounds.  
+- **Semi-modular** : unlike pure modular synthesizers (like the [Buchla](https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments), [Serge](https://en.wikipedia.org/wiki/Serge_synthesizer), and [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer) synthesizers), the ARP 2600 has a *default internal wiring* between the individual modules (similar to [patchbay "normalization"](https://en.wikipedia.org/wiki/Patch_panel#Normalization) in a recording studio) so that you could bring it home, plug it in, turn it on, and get sound out of the built-in speakers without any additional work. The patch points on the front of the synthesizer then *override* these internal connections by breaking the internal connection, allowing you to customize how the modules are routed from one to another to make new sounds.
 - [**Monophonic / monotimbral**](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments#Monophonic) : the ARP 2600 was designed to be played with a keyboard controller, one note at a time, with each note making the same kind of "sound," or timbre. However, with a little bit of work, you can re-patch an ARP to leverage the four sound sources independently of one another to create more than one sound at a time.
 - **Voltage-based** : like most modular synthesizers of the day, the ARP uses voltage for both transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators) and [control voltage](https://en.wikipedia.org/wiki/CV/Gate) to modify parameters of the synthesizer. These signals are *both* carried over dual-conductor wiring either internally within the synth or externally via "TS" patch cables. This allows you to treat audio signals as control voltage when using the synthesizer so that, for example, an oscillator can be used to "sweep" the cutoff frequency of a filter. The downside of this is that *you can accidentally patch a control voltage line into the signal path to the speakers*, which can damage both the speakers and your ears.
 - **Subtractive** : the ARP 2600 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers. This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the ARP 2600 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
@@ -1313,15 +1512,15 @@ The ARP 2600 is:
 
 ### Interface standards
 
-The ARP 2600 has 14 or so modules, along with built-in speakers, an optional keyboard, and some other bits and pieces to make it easier to wire into an external sound system.  Larger modules are arrayed along a top row on the main panel, with some smaller modules fitted into a bottom row between the speakers. The keyboard has some controls as well. Controls on the ARP consist mostly of [slide potentiometers](https://en.wikipedia.org/wiki/Potentiometer) (sliders), along with a couple of knobs and a toggle switch or two. Small trim pots are arrayed under rubber protective caps; these are used to fine tune the synthesizer.
+The ARP 2600 has 14 or so modules, along with built-in speakers, an optional keyboard, and some other bits and pieces to make it easier to wire into an external sound system. Larger modules are arrayed along a top row on the main panel, with some smaller modules fitted into a bottom row between the speakers. The keyboard has some controls as well. Controls on the ARP consist mostly of [slide potentiometers](https://en.wikipedia.org/wiki/Potentiometer) (sliders), along with a couple of knobs and a toggle switch or two. Small trim pots are arrayed under rubber protective caps; these are used to fine tune the synthesizer.
 
-*The most important thing to know about the ARP out is the default wiring between the modules*.  These are indicated by friendly diagrams under the patch points and sliders, e.g.:
+*The most important thing to know about the ARP out is the default wiring between the modules*. These are indicated by friendly diagrams under the patch points and sliders, e.g.:
 
 ![TTSH slider](./img/ttsh_slider.jpg "TTSH slider")
 
 This slider lets you mix in a signal to a module (this particular slider is from the TTSH filter, but this user interface is consistent across the synth). Where it gets this signal from depends on *whether or not a cable is patched into the jack* below the slider. If no cable exists, the synth's default wiring is used, and the symbol below the jack tells you the default source. In this case, it's the square wave output from **VCO 1** (the first oscillator on the synth). If you patch a cable into the jack, that will break the default connection and override it, so that you can wire in any signal you like from elsewhere on the synthesizer.
 
-*Nearly all modules have one or more sliders* that allow you to control the mix of one or more inputs. If these sliders are down, the module will receive no input, from its default source or elsewhere, and will rely entirely on its internal circuitry to function. When a module has multiple inputs, their voltages are summed; in addition, these voltages will also be mixed with any control voltage being generated directly by controls on the module, such as a frequency control on the VCO modules. This elegant system allows you to *offset and scale* input voltages using controls mounted directly on the module itself rather than having to resort to separate voltage processing modules (although the ARP has one of those as well).  Generally-speaking, the vertical sliders will provide a scalar to the incoming voltage (a *multiplication* of voltage), while horizontal sliders will provide an offset to the incoming voltage (an *addition* of voltage).
+*Nearly all modules have one or more sliders* that allow you to control the mix of one or more inputs. If these sliders are down, the module will receive no input, from its default source or elsewhere, and will rely entirely on its internal circuitry to function. When a module has multiple inputs, their voltages are summed; in addition, these voltages will also be mixed with any control voltage being generated directly by controls on the module, such as a frequency control on the VCO modules. This elegant system allows you to *offset and scale* input voltages using controls mounted directly on the module itself rather than having to resort to separate voltage processing modules (although the ARP has one of those as well). Generally-speaking, the vertical sliders will provide a scalar to the incoming voltage (a *multiplication* of voltage), while horizontal sliders will provide an offset to the incoming voltage (an *addition* of voltage).
 
 The default wiring allows most of the modules on the ARP to interact with no patch cords; without any cables inserted, the ARP wires its oscillators (labeled **VCO 1, 2, and 3**) through the filter (**VCF**), into an amplifier (**VCA**), and from there to a mixer that is wired to the built-in speakers. By looking at the symbols and adjusting the mix sliders, you can follow the signal path of the modules through the synthesizer.
 
@@ -1329,7 +1528,7 @@ To override the default wiring, modules can connected by **patching** within and
 
 ![TTSH with patch cables](./img/ttsh_patched.jpg "TTSH with patch cables")
 
-\* *More audio connector trivia*: original ARP equipment used **Switchcraft ["Tini-Jax"](http://www.switchcraft.com/Category.aspx?Parent=60)** connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM analog studio uses standard 3.5mm jacks.
+> \* *More audio connector trivia*: original ARP equipment used **Switchcraft** [**"Tini-Jax"**](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM analog studio uses standard 3.5mm jacks.
 
 The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the analog studio area, and are color-coded by length.
 
@@ -1341,17 +1540,18 @@ ARP synthesizers use a 10V AC standard for both audio and control voltage, which
 
 ### Glossary
 
-Documentation for the ARP 2600, unlike the Serge system, uses a jargon that's quite common among analog synthesizers, as well as digital and software synthesizers that emulate their design. Before looking at the modules themselves, here's a brief glossary of terms:
-- [**Control Voltage / Gate**](https://en.wikipedia.org/wiki/CV/Gate) (abbrev. CV/Gate) - a common schema for transmitting signals around a synthesizer that are not meant to be heard directly, but are meant to control and trigger sound-producing modules.  When the control voltage in question represents musical pitch, the ARP uses a standard scaling of 1 volt-per-octave over a range of 0-10 volts.  When the control voltage represents a trigger or a 'gate', then it is treated similar to digital signals, with 10 volts being 'high' and 0 volts 'low'. **Note**: most analog synthesizers use a range of 0-5 volts for CV/Gate voltages.  The ARP's higher voltage means another synth's pulses won't  trigger the gate input on an ARP 2600.
-- [**Voltage Controlled Oscillator**](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator) (abbrev. VCO) - an oscillator with a variable frequency controllable by an external voltage source.  This is a core component of almost any analog synthesizer.  The ARP 2600 has three VCOs, all with slightly different capabilities.  Analog oscillators can generate a variety of waveforms depending on their design, and all ARP VCOs can generate more than one kind of sound.
-- [**Voltage Controlled Filter**](https://en.wikipedia.org/wiki/Voltage-controlled_filter) (abbrev. VCF) - a filter with one or more parameters that can be adjusted dynamically by an external voltage source.  This module is what makes the ARP a *subtractive* synthesizer, allowing you to carve away parts of the frequency range of any input signal.  The ARP 2600 has one VCF which functions as a resonant [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter), with the cutoff frequency adjustable through voltage control.
-- [**Voltage Controlled Amplifier**](https://en.wikipedia.org/wiki/Variable-gain_amplifier) (abbrev. VCA) - an amplifier circuit where the amount of gain or attenuation applied to the incoming signal can be varied by an external voltage source, similar to a [transistor](https://en.wikipedia.org/wiki/Transistor).  The ARP 2600 has a single VCA.
-- [**Low Frequency Oscillator**](https://en.wikipedia.org/wiki/Low-frequency_oscillation) (abbrev. LFO) - an oscillator used to generate low-frequency control voltage rather than an audible audio signal.  All three VCOs on the ARP 2600 can be used as an LFO.
-- **Envelope Generator** - a circuit that generates time-varying control voltage intended to have a start and an end (as opposed to an oscillator).  These circuits often output these voltage 'envelopes' according to a common design, such as an [**ADSR**](https://en.wikipedia.org/wiki/Synthesizer#Attack_Decay_Sustain_Release_.28ADSR.29_envelope) (Attack/Decay/Sustain/Release) envelope.  The ARP 2600 has two envelope generators (an ADSR and a simpler AR) that have a common trigger circuit.
-- [**Envelope Follower**](https://en.wikipedia.org/wiki/Envelope_detector) - a circuit that takes an audio signal and rectifies and low-passes it to generate a control voltage slope that follows the contours of the original signal.  These circuits are often used to allow an acoustic instrument (via a microphone) or an electric instrument (via a pickup) to control a parameter on a synthesizer.  They are also used in audio processing to generate the 'key' signal for a dynamics processor, such as a compressor, limiter, or noise gate.  The ARP 2600 has an envelope follower, designed to use with an external audio source.
-- [**Ring Modulation**](https://en.wikipedia.org/wiki/Ring_modulation) - a simple signal processing technique where two audio signals are *multiplied* - the result is a signal with additional 'sideband' frequencies resulting from the sum and difference of the harmonic content of the two signals.  If one of the input signals is rectified, it is referred to as [**Amplitude Modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation).  The ARP 2600 has a ring modulation circuit that can do both ring and CV-based amplitude modulation (to simulate musical ['tremolo'](https://en.wikipedia.org/wiki/Tremolo)).
-- [**Frequency Modulation**](https://en.wikipedia.org/wiki/Frequency_modulation) - a signal processing technique where an oscillator's frequency is modified by a second source, such as an oscillator.  If the modulating source is an LFO, the result is a musical ['vibrato'](https://en.wikipedia.org/wiki/Vibrato) effect.  When high frequency oscillators provide the modulation, sidebands occur, as they do with ring modulation, but in a richer and [more complex manner](https://en.wikipedia.org/wiki/Bessel_function).  As a result, frequency modulation can be used to generate rich spectra from comparatively simple input sources.  In analog synthesizers (such as the ARP 2600), FM circuits are often designed so that multiple complex sources can be mixed together to modify the frequency of a VCO.
-- [**Sample and Hold**](https://en.wikipedia.org/wiki/Sample_and_hold) (abbrev. S/H) - a circuit that 'samples' one voltage based on a secondary voltage fulfilling a triggering condition (e.g. rising in value above a certain value), and then 'holds' that voltage until the trigger fires again.  In analog synthesizers, the two voltages are often oscillators run at different frequencies (or a noise source sampled and held by an LFO).  S/H circuits can be used to create arpeggio, sequencer, and rhythmic effects by generating control voltages for sound-producing modules in a synthesizer.  The ARP 2600 has a sample and hold module with a variety of inputs, outputs, and controls.
+Documentation for the ARP 2600, like the Serge system, uses a jargon that's quite common among "East Coast" analog synthesizers, as well as digital and software synthesizers that emulate their design. Before looking at the modules themselves, here's a brief glossary of terms commonly found in ARP documentation:
+- [**Control Voltage / Gate**](https://en.wikipedia.org/wiki/CV/Gate) (abbrev. CV/Gate) - a common schema for transmitting signals around a synthesizer that are not meant to be heard directly, but are meant to control and trigger sound-producing modules. When the control voltage in question represents musical pitch, the ARP uses a standard scaling of 1 volt-per-octave over a range of 0-10 volts. When the control voltage represents a trigger or a 'gate', then it is treated similar to digital signals, with 10 volts being 'high' and 0 volts 'low'. **Note**: most analog synthesizers use a range of 0-5 volts for CV/Gate voltages. The ARP's higher voltage means another synth's pulses won't trigger the gate input on an ARP 2600.
+- [**Voltage Controlled Oscillator**](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator) (abbrev. VCO) - an oscillator with a variable frequency controllable by an external voltage source. This is a core component of almost any analog synthesizer. The ARP 2600 has three VCOs, all with slightly different capabilities. Analog oscillators can generate a variety of waveforms depending on their design, and all ARP VCOs can generate more than one kind of sound.
+- [**Voltage Controlled Filter**](https://en.wikipedia.org/wiki/Voltage-controlled_filter) (abbrev. VCF) - a filter with one or more parameters that can be adjusted dynamically by an external voltage source. This module is what makes the ARP a *subtractive* synthesizer, allowing you to carve away parts of the frequency range of any input signal. The ARP 2600 has one VCF which functions as a resonant [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter), with the cutoff frequency adjustable through voltage control.
+- [**Voltage Controlled Amplifier**](https://en.wikipedia.org/wiki/Variable-gain_amplifier) (abbrev. VCA) - an amplifier circuit where the amount of gain or attenuation applied to the incoming signal can be varied by an external voltage source, similar to a [transistor](https://en.wikipedia.org/wiki/Transistor). The ARP 2600 has a single VCA.
+- [**Low Frequency Oscillator**](https://en.wikipedia.org/wiki/Low-frequency_oscillation) (abbrev. LFO) - an oscillator used to generate low-frequency control voltage rather than an audible audio signal. All three VCOs on the ARP 2600 can be used as an LFO.
+- **Envelope Generator** - a circuit that generates time-varying control voltage intended to have a start and an end (as opposed to an oscillator). These circuits often output these voltage 'envelopes' according to a common design, such as an [**ADSR**](https://en.wikipedia.org/wiki/Synthesizer#Attack_Decay_Sustain_Release_.28ADSR.29_envelope) (Attack/Decay/Sustain/Release) envelope. The ARP 2600 has two envelope generators (an ADSR and a simpler AR) that have a common trigger circuit.
+- [**Envelope Follower**](https://en.wikipedia.org/wiki/Envelope_detector) - a circuit that takes an audio signal and rectifies and low-passes it to generate a control voltage slope that follows the contours of the original signal. These circuits are often used to allow an acoustic instrument (via a microphone) or an electric instrument (via a pickup) to control a parameter on a synthesizer. They are also used in audio processing to generate the 'key' signal for a dynamics processor, such as a compressor, limiter, or noise gate. The ARP 2600 has an envelope follower, designed to use with an external audio source.
+- [**Ring Modulation**](https://en.wikipedia.org/wiki/Ring_modulation) - a simple signal processing technique where two audio signals are *multiplied* - the result is a signal with additional 'sideband' frequencies resulting from the sum and difference of the harmonic content of the two signals. If one of the input signals is rectified, it is referred to as [**Amplitude Modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation). The ARP 2600 has a ring modulation circuit that can do both ring and CV-based amplitude modulation (to simulate musical ['tremolo'](https://en.wikipedia.org/wiki/Tremolo)).
+- [**Frequency Modulation**](https://en.wikipedia.org/wiki/Frequency_modulation) - a signal processing technique where an oscillator's frequency is modified by a second source, such as an oscillator. If the modulating source is an LFO, the result is a musical ['vibrato'](https://en.wikipedia.org/wiki/Vibrato) effect. When high frequency oscillators provide the modulation, sidebands occur, as they do with ring modulation, but in a richer and [more complex manner](https://en.wikipedia.org/wiki/Bessel_function). As a result, frequency modulation can be used to generate rich spectra from comparatively simple input sources. In analog synthesizers (such as the ARP 2600), FM circuits are often designed so that multiple complex sources can be mixed together to modify the frequency of a VCO.
+- [**Sample and Hold**](https://en.wikipedia.org/wiki/Sample_and_hold) (abbrev. S/H) - a circuit that 'samples' one voltage based on a secondary voltage fulfilling a triggering condition (e.g. rising in value above a certain value), and then 'holds' that voltage until the trigger fires again. In analog synthesizers, the two voltages are often oscillators run at different frequencies (or a noise source sampled and held by an LFO). S/H circuits can be used to create arpeggio, sequencer, and rhythmic effects by generating control voltages for sound-producing modules in a synthesizer. The ARP 2600 has a sample and hold module with a variety of inputs, outputs, and controls.
+- [**Slew Limiter**](https://en.wikipedia.org/wiki/Slew_rate#Slew_rate_limiting_in_amplifiers) - a circuit that limits the rate of voltage change in a system. This can be used to glide between values to create, e.g. musical ['portamento'](https://en.wikipedia.org/wiki/Portamento), or as a type of filter or [waveshaper](https://en.wikipedia.org/wiki/Waveshaper). The ARP 2600 has a slew limiter in the "lag" circuit on the Voltage Processors module.
 
 [back to top](#top)
 
@@ -1364,7 +1564,7 @@ The **TTSH** (the "Mini Meanie") was custom-built for Luke in 2019 by Darrin Wie
 - the TTSH is 75% of the size (24"x 12") of the ARP 2600.
 - the TTSH uses standard 3.5mm ("Eurorack") connectors instead of the Switchcraft Tini-Jax used on the original.
 - the TTSH *glows*, using [Bourns PTA](https://www.bourns.com/docs/Product-Datasheets/pta.pdf) slide potentiometers with LEDs. The TTSH in the IDM analog studio is fitted with ultra-bright blue LEDs.
-- the original ARP 2600 had a dedicated cinch connector on one side for interfacing with a keyboard (sold as an add-on to the system). The TTSH has no keyboard; instead, the jacks that are normaled to the **KBD CV** and **KEYBOARD GATE/TRIG** can receive input from, e.g. a Serge module, the CV.OCD converter, an Arduino, or elsewhere.
+- the original ARP 2600 had a dedicated cinch connector on one side for interfacing with a keyboard (sold as an add-on to the system). The TTSH has no keyboard; instead, the jacks that are normalled to the **KBD CV** and **KEYBOARD GATE/TRIG** can receive input from, e.g. a Serge module, the CV.OCD converter, an Arduino, or elsewhere.
 
 ### The Modules
 
@@ -1507,7 +1707,7 @@ The envelope generator on the TTSH creates control voltage signals that rise and
 
 #### Voltage Controlled Amplifier (VCA)
 
-The **VCA** of the TTSH modulates the amplitude of audio inputs based on control voltage sources.  This allows you to shape the volume of a synthesizer "note", allowing it to fade in and out. The VCA has a slider to set an *initial gain* - as with other horizontal sliders on the ARP, these voltages are added to external control voltages, allowing you to offset and scale them when used together with the vertical mixer sliders on the same module. The **VCA** has two input sources and two control sources, but only one amplifier circuit, which will sum the audio signals and amplify them based on the control voltages to generate one shaped output.  There is a jack for the **VCA** output.
+The **VCA** of the TTSH modulates the amplitude of audio inputs based on control voltage sources. This allows you to shape the volume of a synthesizer "note", allowing it to fade in and out. The VCA has a slider to set an *initial gain* - as with other horizontal sliders on the ARP, these voltages are added to external control voltages, allowing you to offset and scale them when used together with the vertical mixer sliders on the same module. The **VCA** has two input sources and two control sources, but only one amplifier circuit, which will sum the audio signals and amplify them based on the control voltages to generate one shaped output. There is a jack for the **VCA** output.
 
 <img src = "./img/TTSH_1_7.png" height="500px" title="VCA" alt="VCA">
 
@@ -1549,7 +1749,7 @@ The right-hand module on the top row of the TTSH consists of a final stage mixer
 
 #### Keyboard CV (KBD CV) / 4-in-1 / Left Speaker
 
-On the lower left of the TTSH, next to the left speaker, there is a jack that allows exterenal voltage to be multiplexed to all the **KBD CV** inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive **4-in-1** jack that allows you to take any voltage and split it into three outputs using patch cables - the Tiny-Jax cables used on the original ARP 2600 couldn't be stacked. On the right of the speaker is a vertical slider for its volume.  
+On the lower left of the TTSH, next to the left speaker, there is a jack that allows exterenal voltage to be multiplexed to all the **KBD CV** inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive **4-in-1** jack that allows you to take any voltage and split it into three outputs using patch cables - the Tiny-Jax cables used on the original ARP 2600 couldn't be stacked. On the right of the speaker is a vertical slider for its volume.
 
 <img src = "./img/TTSH_2_1.png" height="200px" title="Keyboard/Mult" alt="Keyboard/Mult">
 
@@ -1559,7 +1759,7 @@ On the lower left of the TTSH, next to the left speaker, there is a jack that al
 
 #### Noise Generator (NOISE GEN)
 
-The **NOISE GEN** for the TTSH provides a random audio source that can be used for a variety of interesting things.  The two vertical sliders allow you to adjust between [white noise](https://en.wikipedia.org/wiki/White_noise) (constant power), [pink noise](https://en.wikipedia.org/wiki/Pink_noise) (1/f power), and [red noise](https://en.wikipedia.org/wiki/Brownian_noise) (1/f2), as well as control the output gain of the module.
+The **NOISE GEN** for the TTSH provides a random audio source that can be used for a variety of interesting things. The two vertical sliders allow you to adjust between [white noise](https://en.wikipedia.org/wiki/White_noise) (constant power), [pink noise](https://en.wikipedia.org/wiki/Pink_noise) (1/f power), and [red noise](https://en.wikipedia.org/wiki/Brownian_noise) (1/f2), as well as control the output gain of the module.
 
 <img src = "./img/TTSH_2_2.png" height="200px" title="Noise" alt="Noise">
 
