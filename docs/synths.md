@@ -53,9 +53,9 @@ The first four channels of the mixer are mono, and are wired to:
 
 | Channel  | Input     |
 | ------------- | --- |
-| 1            | the left output of the "Stereo Mixer" module on Panel 1 of the Random Source Serge. |
-| 2            | the right output of the "Stereo Mixer" module on Panel 1 of the Random Source Serge. |
-| 3            | the output of the "XFader" module on the Random Source Serge. |
+| 1            | the left output of the "Stereo Mixer" module on Panel 1 of the R\*S Serge. |
+| 2            | the right output of the "Stereo Mixer" module on Panel 1 of the R\*S Serge. |
+| 3            | the output of the "XFader" module on Panel 3 of the R\*S Serge. |
 | 4            | the top output on the "Adapter" module on the 73-75 Serge. |
 
 
@@ -63,7 +63,7 @@ The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8,
 
 | Channel  | Input     |
 | ------------- | --- |
-| 5-6            | the left and right output of the "Stereo Mixer" module on Panel 5 of the Random Source Serge. |
+| 5-6            | the left and right outputs of the "Stereo Mixer" module on Panel 5 of the R\*S Serge. |
 | 7-8            | the left and right output of the TTSH Mixer section. |
 | 9-10           | a cable connected that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
 | 11-12          | empty. |
@@ -186,7 +186,7 @@ Serge synthesizer documentation uses a jargon that's quite common among "West Co
 
 <img src = "./img/serge824_photo.jpg" width="100%" title="Random\*Source Serge system" alt="Random\*Source Serge system">
 
-The **Random\*Source Serge** was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [R\*S "shop" panels](http://randomsource.net/serge_panels) (prebuilt configurations of modules) in a custom zebrawood rack case: a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). There is also one custom panel of individual modules housed in a separate rack. These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and custom modifications for IDM by Darrin and his colleagues.
+The **Random\*Source Serge** was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [R\*S "shop" panels](http://randomsource.net/serge_panels) (prebuilt configurations of modules) in a custom zebrawood rack case: a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). There is also one custom panel of individual modules ("Panel 5") housed in a separate rack. These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and custom modifications for IDM by Darrin and his colleagues.
 
 ### Panel 1 (La Bestia II)
 
