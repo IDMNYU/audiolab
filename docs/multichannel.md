@@ -50,7 +50,7 @@ Do not:
 
 To work with the multi-channel system, **use the power switch on the Furman** to turn on the interfaces. **Do not switch off the interfaces individually**.
 
-The audio interfaces are connected to one another via optical cablee, with the 16A as the primary interface.
+The audio interfaces are connected to one another via optical cable, with the 16A as the primary interface.
 
 **You connect to the system using the USB cable connected to the 16A**, coiled on the shelf to the right. *Do NOT connect a computer directly to the 828mk3*; it is configured as an expander and acts like an extra set of channels for the 16A.
 
