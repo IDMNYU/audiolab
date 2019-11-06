@@ -1814,7 +1814,7 @@ The sample and hold (**S/H**) module on the TTSH can be used to generate clocks 
 9. Electronic Switch C
 
 *Notes:*
-- The "Electronic Switch" section (*7*, *8*, and *9*) of the **S/H** module is bi-directional, so it can function as either a flip-flop - the voltage at switch C is sent to alternating outputs A and B - or an alternator - voltage inputs at A and B are sent to C. In either case, the switch is controlled by the clock (internal or external) of the module.
+- The "Electronic Switch" section (*7*, *8*, and *9*) of the **S/H** module is bi-directional, so it can function as either a flip-flop - the voltage at input C is sent to alternating outputs A and B - or an alternator - voltage inputs at A and B are sent to output C. In either case, the switch is controlled by the clock (internal or external) of the module.
 
 #### Right Speaker / Power Switch / Headphone Output
 
