@@ -1488,13 +1488,15 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 
 The [ARP 2600](https://en.wikipedia.org/wiki/ARP_2600) is a "semi-modular" [analog synthesizer](https://en.wikipedia.org/wiki/Analog_synthesizer) designed by Dennis Colin and [Alan Robert Pearlman](https://en.wikipedia.org/wiki/Alan_R._Pearlman) - [A.R.P.](https://en.wikipedia.org/wiki/ARP_Instruments) himself - and commercially released in 1971. It was one of the first synthesizers extensively marketed for education, with a retail price of below $3,500. It is considered one of the canonical synthesizers of its day, so a 'mint' (or fully-restored) ARP 2600 can easily fetch $10,000 or more today.
 
-The ARP 2600 shows up in a lot of strange places - the synth was integral to the sound of artists ranging from [Jean Michel Jarre](https://en.wikipedia.org/wiki/Jean_Michel_Jarre) to [Joy Division](https://en.wikipedia.org/wiki/Joy_Division). It's also well-known in the sound effects community because of its built-in envelope follower; sound designer [Ben Burtt](https://en.wikipedia.org/wiki/Ben_Burtt) used this to great effect in making the 'voice' of [R2-D2](https://en.wikipedia.org/wiki/R2-D2) in the Star Wars movies.
+The ARP 2600 shows up in many genres of music in the 1970s and 1980s - the synth was integral to the sound of artists ranging from [Jean Michel Jarre](https://en.wikipedia.org/wiki/Jean_Michel_Jarre) to [Joy Division](https://en.wikipedia.org/wiki/Joy_Division). It's also well-known in the sound effects community because of its built-in envelope follower; sound designer [Ben Burtt](https://en.wikipedia.org/wiki/Ben_Burtt) used this to great effect in making the 'voice' of [R2-D2](https://en.wikipedia.org/wiki/R2-D2) in the Star Wars movies.
 
 The ARP 2600 went through [multiple changes during its manufacturing lifetime](http://www.vintagesynth.com/arp/arp.php), ranging from several different cosmetic styles to a radical redesign of the filter in 1976 in response to a threatened lawsuit from Moog. The 2600 was manufactured by ARP until the bankruptcy of the company in 1981. Since then, the ARP 2600 has been resurrected as a software plug-in by [Arturia Instruments](https://www.arturia.com/products/analog-classics/arp2600-v/) and an open-source hardware [kit](./TTSH-BUILD.pdf) developed by the Human Comparator called the [**TTSH**](https://synthcube.com/cart/ttsh-v4) (Two Thousand Six Hundred).
 
 A scan of the original ARP 2600 owner's manual can be found [here](./ARP-2600-manual.pdf).
 
-A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Service-Manual-Complete-119pgs.pdf).
+A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](http://dl.lojinx.com/analoghell/Arp2600-ServiceManual.pdf).
+
+A number of textbooks exist around electronic music / music technology that use the ARP 2600 in their examples. Samuel Ecoff's *Fundamentals of Music Technology: The ARP 2600 Synthesizer* is a great one. A PDF can be found [here](./arp_ecoff.pdf). The CD examples for the book can be found on Ecoff's [home page](https://samecoff.com/works.html).
 
 ### What makes an ARP an ARP?
 
@@ -1524,7 +1526,7 @@ To override the default wiring, modules can connected by **patching** within and
 
 ![TTSH with patch cables](./img/ttsh_patched.jpg "TTSH with patch cables")
 
-> \* *More audio connector trivia*: original ARP equipment used **Switchcraft** [**"Tini-Jax"**](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM analog studio uses standard 3.5mm jacks.
+> \* *More audio connector trivia*: original ARP equipment used **Switchcraft** [**"Tini-Jax"**](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM analog studio uses standard 3.5mm jacks. Because the TTSH uses two-conductor (+ and -) cables, it's somewhat easier to integrate with other A/V equipment than the Serge system.
 
 The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the analog studio area, and are color-coded by length.
 
@@ -1532,7 +1534,7 @@ The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into 
 
 **IMPORTANT: unlike the banana connectors on the Serge system, the 3.5mm patch points on the TTSH (or any synth that uses [phone connectors](https://en.wikipedia.org/wiki/Phone_connector_(audio))) can *easily be damaged* by forcing a plug into a jack, or by pulling a cable out of a socket with force. Please make connections on the TTSH with care.**
 
-ARP synthesizers use a 10V AC standard for both audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages (and Arduino pins) will not trigger the envelope generator on an ARP 2600 without being amplified. The ARP 2600 uses a standard scaling of 1 volt per octave to represent musical pitch.
+ARP synthesizers use a 10V AC standard for both audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages (and Arduino pins) will not trigger the envelope generator on an ARP 2600 without being amplified (the CV.OCD "Gate Boost" module is available to help with this). The ARP 2600 uses a standard scaling of 1 volt per octave to represent musical pitch.
 
 ### Glossary
 
@@ -1681,6 +1683,9 @@ The **VCF** is the ARP 2600's filter. Early versions of the ARP 2600 used a reve
 18. Control Input 3 mix amount
 19. **VCF** output (*default destinations*: **VCA**, **MIXER**)
 
+*Notes:*
+- The **KBD CV** is hard-wired to Control Input 1 on the **VCF**. If you are using a **KBD CV** signal elsewhere in your patch (e.g. to control and oscillator) and *don't* want the **VCF** cutoff freequency to track with that signal, you can insert a cable into jack *9* to break the connection.
+
 #### Envelope Generator (ADSR/AR)
 
 The envelope generator on the TTSH creates control voltage signals that rise and fall in response to a trigger. These are used for amplitude curves, filter curves, etc. This module generates no audio, but can be used with other modules to process audio (e.g. through the FM inputs on the VCOs or the CV input on the VCA). The top half of the module controls an **ADSR** (attack/decay/sustain/release) envelope with sliders to control each stage of the envelope. The bottom half controls a simple **AR** (attack/release) envelope with two sliders instead of four. Both envelopes are "fired" through the same trigger mechanism and cannot be controlled independently: there is a button for manual firing, as well as a jack for an external trigger. There are output jacks for each envelope, as well as utility jacks that on an ARP 2600 output voltage from the keyboard, but on the TTSH allow you to wire in 10V signals to fire the envelopes - a **GATE** input (voltage high on key down, voltage low on key up) and a **TRIGGER** input (a voltage pulse on key down).
@@ -1700,6 +1705,9 @@ The envelope generator on the TTSH creates control voltage signals that rise and
 11. External gate input; active when switch *10* is down (*default source*: **S/H** gate output)
 12. External gate input; active when switch *10* is up
 13. External trigger input; active when switch *10* is up
+
+*Notes:*
+- The Envelope Generator will respond to the **GATE** and **TRIGGER** inputs differently. A **TRIGGER** pulse is required to made the **ADSR** "restart" it's envelope if the **GATE** signal remains high; the **AR** circuit responds to the **GATE** alone, and is similar to the "lag" on the **VOLTAGE PROCESSORS** or the **DUSG** (and other slew-limiting modules) on the Serge. 
 
 #### Voltage Controlled Amplifier (VCA)
 
@@ -1746,13 +1754,17 @@ The right-hand module on the top row of the TTSH consists of a final stage mixer
 
 #### Keyboard CV (KBD CV) / 4-in-1 / Left Speaker
 
-On the lower left of the TTSH, next to the left speaker, there is a jack that allows exterenal voltage to be multiplexed to all the **KBD CV** inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive **4-in-1** jack that allows you to take any voltage and split it into three outputs using patch cables - the Tiny-Jax cables used on the original ARP 2600 couldn't be stacked. On the right of the speaker is a vertical slider for its volume.
+On the lower left of the TTSH, next to the left speaker, there is a jack that allows external voltage to be multiplexed to all the **KBD CV** inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive **4-in-1** jack that allows you to take any voltage and split it into three outputs using patch cables - the Tiny-Jax cables used on the original ARP 2600 couldn't be stacked. On the right of the speaker is a vertical slider for its volume.
 
 <img src = "./img/TTSH_2_1.png" height="200px" title="Keyboard/Mult" alt="Keyboard/Mult">
 
 1. **KBD CV** jack
 2. **4-in-1** jacks
 3. TTSH left speaker volume
+
+*Notes:*
+- The **KBD CV** jacks on the TTSH are wired as a passive [bus](https://en.wikipedia.org/wiki/Busbar), which means they can serve as signal inputs *or* outputs. Patching an external signal (e.g. from the CV.OCD or the 8A) into *any* **KBD CV** jack will cause all the other outputs (and normalled connection points) to receive that signal.
+- The **KBD CV** voltage is wired by default to control inputs on all three **VCO** modules and the **VCF** *without an attenuating slider*. This is by design, as a direct connection betweeen the frequency-dependent modules on the ARP 2600 and its keyboard maintained the 1 volt-per-octave tuning relationship. Later ARP keyboards (the Model 3604 and Model 3620) had the ability to change this voltage scaling on the keyboard before their control voltage was sent to the synthesizer. On the TTSH, if you want to use some of these modules with input from the **KDB CV** and some without, you need to insert a cable into the module input jacks to break the default connection.
 
 #### Noise Generator (NOISE GEN)
 
@@ -1800,6 +1812,9 @@ The sample and hold (**S/H**) module on the TTSH can be used to generate clocks 
 7. Electronic Switch A
 8. Electronic Switch B
 9. Electronic Switch C
+
+*Notes:*
+- The "Electronic Switch" section (*7*, *8*, and *9*) of the **S/H** module is bi-directional, so it can function as either a flip-flop gate - the voltage at input C is sent to alternating outputs A and B - or an alternating switch - voltage inputs at A and B are sent to output C. In either case, the switch is controlled by the clock (internal or external) of the module.
 
 #### Right Speaker / Power Switch / Headphone Output
 
