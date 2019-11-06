@@ -1526,7 +1526,7 @@ To override the default wiring, modules can connected by **patching** within and
 
 ![TTSH with patch cables](./img/ttsh_patched.jpg "TTSH with patch cables")
 
-> \* *More audio connector trivia*: original ARP equipment used **Switchcraft** [**"Tini-Jax"**](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM analog studio uses standard 3.5mm jacks.
+> \* *More audio connector trivia*: original ARP equipment used **Switchcraft** [**"Tini-Jax"**](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM analog studio uses standard 3.5mm jacks. Because the TTSH uses two-conductor (+ and -) cables, it's somewhat easier to integrate with other A/V equipment than the Serge system.
 
 The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the analog studio area, and are color-coded by length.
 
@@ -1534,7 +1534,7 @@ The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into 
 
 **IMPORTANT: unlike the banana connectors on the Serge system, the 3.5mm patch points on the TTSH (or any synth that uses [phone connectors](https://en.wikipedia.org/wiki/Phone_connector_(audio))) can *easily be damaged* by forcing a plug into a jack, or by pulling a cable out of a socket with force. Please make connections on the TTSH with care.**
 
-ARP synthesizers use a 10V AC standard for both audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages (and Arduino pins) will not trigger the envelope generator on an ARP 2600 without being amplified. The ARP 2600 uses a standard scaling of 1 volt per octave to represent musical pitch.
+ARP synthesizers use a 10V AC standard for both audio and control voltage, which is signifantly higher than the lower-voltage Serge system. As a result, Serge "Pulse" voltages (and Arduino pins) will not trigger the envelope generator on an ARP 2600 without being amplified (the CV.OCD "Gate Boost" module is available to help with this). The ARP 2600 uses a standard scaling of 1 volt per octave to represent musical pitch.
 
 ### Glossary
 
