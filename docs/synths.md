@@ -1682,7 +1682,7 @@ The **VCF** is the ARP 2600's filter. Early versions of the ARP 2600 used a reve
 19. **VCF** output (*default destinations*: **VCA**, **MIXER**)
 
 *Notes:*
-- The **KBD CV** is hard-wired to Control Input 1 on the **VCF**. If you are using a **KBD CV** signal elsewhere in your patch (e.g. to control and oscillator) and *don't* want the **VCF** cutoff freequency to track with that signal, you can insert a cable into jack *9* to break the connection and wire to to a constant voltage source, such as the output on the **VOLTAGE PROCESSORS**.
+- The **KBD CV** is hard-wired to Control Input 1 on the **VCF**. If you are using a **KBD CV** signal elsewhere in your patch (e.g. to control and oscillator) and *don't* want the **VCF** cutoff freequency to track with that signal, you can insert a cable into jack *9* to break the connection and wire it to a constant voltage source, such as the output on the **VOLTAGE PROCESSORS**.
 
 
 #### Envelope Generator (ADSR/AR)
