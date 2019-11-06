@@ -89,7 +89,7 @@ The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers i
 
 The IDM analog studio has two main types of synthesizers, based on the 1970s-era designs of Serge Tcherepnin ("[Serge](https://en.wikipedia.org/wiki/Serge_synthesizer)") in California and Alan Robert Pearlman ("[ARP](https://en.wikipedia.org/wiki/ARP_Instruments)") in Massachusetts. The two systems are decribed below.
 
-## Glossary
+### Glossary
 
 Analog synthesizers (and software synthesizers that emulate their design) have a jargon. Before looking at the synthesizers themselves, here's a brief glossary of terms commonly found in Serge, ARP, and other modular synthesizer documentation:
 
