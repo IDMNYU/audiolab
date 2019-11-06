@@ -1684,8 +1684,7 @@ The **VCF** is the ARP 2600's filter. Early versions of the ARP 2600 used a reve
 19. **VCF** output (*default destinations*: **VCA**, **MIXER**)
 
 *Notes:*
-- The **KBD CV** is hard-wired to Control Input 1 on the **VCF**. If you are using a **KBD CV** signal elsewhere in your patch (e.g. to control and oscillator) and *don't* want the **VCF** cutoff freequency to track with that signal, you can insert a cable into jack *9* to break the connection and wire it to a constant voltage source, such as the output on the **VOLTAGE PROCESSORS**.
-
+- The **KBD CV** is hard-wired to Control Input 1 on the **VCF**. If you are using a **KBD CV** signal elsewhere in your patch (e.g. to control and oscillator) and *don't* want the **VCF** cutoff freequency to track with that signal, you can insert a cable into jack *9* to break the connection.
 
 #### Envelope Generator (ADSR/AR)
 
@@ -1765,7 +1764,7 @@ On the lower left of the TTSH, next to the left speaker, there is a jack that al
 
 *Notes:*
 - The **KBD CV** jacks on the TTSH are wired as a passive [bus](https://en.wikipedia.org/wiki/Busbar), which means they can serve as signal inputs *or* outputs. Patching an external signal (e.g. from the CV.OCD or the 8A) into *any* **KBD CV** jack will cause all the other outputs (and normalled connection points) to receive that signal.
-- The **KBD CV** voltage is wired by default to control inputs on all three **VCO** modules and the **VCF** *without an attenuating slider*. This is by design, as a direct connection betweeen the frequency-dependent modules on the ARP 2600 and its keyboard maintained the 1 volt-per-octave tuning relationship. If you want to run some of these modules with input from the **KDB CV** and some without, you need to insert a cable into the module input jacks to break the default connection and patch it to a constant voltage source, such as outputs on the **VOLTAGE PROCESSORS**.
+- The **KBD CV** voltage is wired by default to control inputs on all three **VCO** modules and the **VCF** *without an attenuating slider*. This is by design, as a direct connection betweeen the frequency-dependent modules on the ARP 2600 and its keyboard maintained the 1 volt-per-octave tuning relationship. Later ARP keyboards (the Model 3604 and Model 3620) had the ability to change this voltage scaling on the keyboard before its control voltage was sent to the synthesizer. On the TTSH, if you want to use some of these modules with input from the **KDB CV** and some without, you need to insert a cable into the module input jacks to break the default connection.
 
 #### Noise Generator (NOISE GEN)
 
