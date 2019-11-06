@@ -1492,7 +1492,7 @@ The ARP 2600 shows up in a lot of strange places - the synth was integral to the
 
 The ARP 2600 went through [multiple changes during its manufacturing lifetime](http://www.vintagesynth.com/arp/arp.php), ranging from several different cosmetic styles to a radical redesign of the filter in 1976 in response to a threatened lawsuit from Moog. The 2600 was manufactured by ARP until the bankruptcy of the company in 1981. Since then, the ARP 2600 has been resurrected as a software plug-in by [Arturia Instruments](https://www.arturia.com/products/analog-classics/arp2600-v/) and an open-source hardware [kit](./TTSH-BUILD.pdf) developed by the Human Comparator called the [**TTSH**](https://synthcube.com/cart/ttsh-v4) (Two Thousand Six Hundred).
 
-A scan of the original ARP 2600 owner's manual can be found [here](http://guitarfool.com/ARP2600/Arp%202600%20Owners%20Manual.pdf).
+A scan of the original ARP 2600 owner's manual can be found [here](./ARP-2600-manual.pdf).
 
 A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Service-Manual-Complete-119pgs.pdf).
 
