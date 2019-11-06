@@ -1681,6 +1681,10 @@ The **VCF** is the ARP 2600's filter. Early versions of the ARP 2600 used a reve
 18. Control Input 3 mix amount
 19. **VCF** output (*default destinations*: **VCA**, **MIXER**)
 
+*Notes:*
+- The **KBD CV** is hard-wired to Control Input 1 on the **VCF**. If you are using a **KBD CV** signal elsewhere in your patch (e.g. to control and oscillator) and *don't* want the **VCF** cutoff freequency to track with that signal, you can insert a cable into jack *9* to break the connection and wire to to a constant voltage source, such as the output on the **VOLTAGE PROCESSORS**.
+
+
 #### Envelope Generator (ADSR/AR)
 
 The envelope generator on the TTSH creates control voltage signals that rise and fall in response to a trigger. These are used for amplitude curves, filter curves, etc. This module generates no audio, but can be used with other modules to process audio (e.g. through the FM inputs on the VCOs or the CV input on the VCA). The top half of the module controls an **ADSR** (attack/decay/sustain/release) envelope with sliders to control each stage of the envelope. The bottom half controls a simple **AR** (attack/release) envelope with two sliders instead of four. Both envelopes are "fired" through the same trigger mechanism and cannot be controlled independently: there is a button for manual firing, as well as a jack for an external trigger. There are output jacks for each envelope, as well as utility jacks that on an ARP 2600 output voltage from the keyboard, but on the TTSH allow you to wire in 10V signals to fire the envelopes - a **GATE** input (voltage high on key down, voltage low on key up) and a **TRIGGER** input (a voltage pulse on key down).
@@ -1700,6 +1704,9 @@ The envelope generator on the TTSH creates control voltage signals that rise and
 11. External gate input; active when switch *10* is down (*default source*: **S/H** gate output)
 12. External gate input; active when switch *10* is up
 13. External trigger input; active when switch *10* is up
+
+*Notes:*
+- The Envelope Generator will respond to the **GATE** and **TRIGGER** inputs differently. A **TRIGGER** pulse is required to made the **ADSR** "restart" it's envelope if the **GATE** signal remains high; the **AR** circuit responds to the **GATE** alone, and is similar to the "lag" on the **VOLTAGE PROCESSORS** or the **DUSG** and other sleew limiting modules on the Serge. 
 
 #### Voltage Controlled Amplifier (VCA)
 
@@ -1746,13 +1753,17 @@ The right-hand module on the top row of the TTSH consists of a final stage mixer
 
 #### Keyboard CV (KBD CV) / 4-in-1 / Left Speaker
 
-On the lower left of the TTSH, next to the left speaker, there is a jack that allows exterenal voltage to be multiplexed to all the **KBD CV** inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive **4-in-1** jack that allows you to take any voltage and split it into three outputs using patch cables - the Tiny-Jax cables used on the original ARP 2600 couldn't be stacked. On the right of the speaker is a vertical slider for its volume.
+On the lower left of the TTSH, next to the left speaker, there is a jack that allows external voltage to be multiplexed to all the **KBD CV** inputs on the synthesizer; on the original ARP 2600, this would be used to tap the control voltage *output* of the keyboard; on the TTSH, this is an easy way to have a single voltage *input* control, e.g. all three oscillators. In addition, there is a passive **4-in-1** jack that allows you to take any voltage and split it into three outputs using patch cables - the Tiny-Jax cables used on the original ARP 2600 couldn't be stacked. On the right of the speaker is a vertical slider for its volume.
 
 <img src = "./img/TTSH_2_1.png" height="200px" title="Keyboard/Mult" alt="Keyboard/Mult">
 
 1. **KBD CV** jack
 2. **4-in-1** jacks
 3. TTSH left speaker volume
+
+*Notes:*
+- The **KBD CV** jacks on the TTSH are wired as a passive [bus](https://en.wikipedia.org/wiki/Busbar), which means they can serve as signal inputs *or* outputs. Patching an external signal (e.g. from the CV.OCD or the 8A) into *any* **KBD CV** jack will cause all the other outputs (and normalled connection points) to receive that signal.
+- The **KBD CV** voltage is wired by default to control inputs on all three **VCO** modules and the **VCF** *without an attenuating slider*. This is by design, as a direct connection betweeen the frequency-dependent modules on the ARP 2600 and its keyboard maintained the 1 volt-per-octave tuning relationship. If you want to run some of these modules with input from the **KDB CV** and some without, you need to insert a cable into the module input jacks to break the default connection and patch it to a constant voltage source, such as outputs on the **VOLTAGE PROCESSORS**.
 
 #### Noise Generator (NOISE GEN)
 
