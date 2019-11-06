@@ -1706,7 +1706,7 @@ The envelope generator on the TTSH creates control voltage signals that rise and
 13. External trigger input; active when switch *10* is up
 
 *Notes:*
-- The Envelope Generator will respond to the **GATE** and **TRIGGER** inputs differently. A **TRIGGER** pulse is required to made the **ADSR** "restart" it's envelope if the **GATE** signal remains high; the **AR** circuit responds to the **GATE** alone, and is similar to the "lag" on the **VOLTAGE PROCESSORS** or the **DUSG** and other sleew limiting modules on the Serge. 
+- The Envelope Generator will respond to the **GATE** and **TRIGGER** inputs differently. A **TRIGGER** pulse is required to made the **ADSR** "restart" it's envelope if the **GATE** signal remains high; the **AR** circuit responds to the **GATE** alone, and is similar to the "lag" on the **VOLTAGE PROCESSORS** or the **DUSG** (and other slew-limiting modules) on the Serge. 
 
 #### Voltage Controlled Amplifier (VCA)
 
