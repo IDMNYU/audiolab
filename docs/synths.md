@@ -1813,6 +1813,9 @@ The sample and hold (**S/H**) module on the TTSH can be used to generate clocks 
 8. Electronic Switch B
 9. Electronic Switch C
 
+*Notes:*
+- The "Electronic Switch" section (*7*, *8*, and *9*) of the **S/H** module is bi-directional, so it can function as either a flip-flop - the voltage at switch C is sent to alternating outputs A and B - or an alternator - voltage inputs at A and B are sent to C. In either case, the switch is controlled by the clock (internal or external) of the module.
+
 #### Right Speaker / Power Switch / Headphone Output
 
 On the lower right of the TTSH is the power switch for the synthesizer, next to the right speaker. The headphone jack for the synthesizer is there as well, just below the power switch. On the left of the speaker is a vertical slider for its volume. Plugging headphones into the TTSH will disable the internal speakers - the left and right volume sliders will then control the volume in the headphones.
