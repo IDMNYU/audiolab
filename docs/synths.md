@@ -1496,6 +1496,8 @@ A scan of the original ARP 2600 owner's manual can be found [here](./ARP-2600-ma
 
 A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](https://github.com/CreativeInquiry/ARP-2600/blob/master/ARP-2600-Service-Manual-Complete-119pgs.pdf).
 
+A number of textbooks exist around electronic music / music technology that use the ARP 2600 in their examples. Samuel Ecoff's *Fundamentals of Music Technology: The ARP 2600 Synthesizer* is a great one. A PDF can be found [here](./arp_ecoff.pdf). The CD examples for the book can be found on Ecoff's [home page](https://samecoff.com/works.html).
+
 ### What makes an ARP an ARP?
 
 The ARP 2600 is:
