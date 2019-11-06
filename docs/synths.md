@@ -185,6 +185,7 @@ Serge synthesizer documentation uses a jargon that's quite common among "West Co
 ## Random Source Serge
 
 <img src = "./img/serge824_photo.jpg" width="100%" title="Random\*Source Serge system" alt="Random\*Source Serge system">
+<img src = "./img/serge824_5_photo.jpg" width="100%" title="Random\*Source Serge Panel 5" alt="Random\*Source Serge Panel 5">
 
 The **Random\*Source Serge** was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [R\*S "shop" panels](http://randomsource.net/serge_panels) (prebuilt configurations of modules) in a custom zebrawood rack case: a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). There is also one custom panel of individual modules ("Panel 5") housed in a separate rack. These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and custom modifications for IDM by Darrin and his colleagues.
 
