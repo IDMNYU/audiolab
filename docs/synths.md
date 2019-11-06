@@ -27,7 +27,8 @@ In addition, some auxiliary equipment exists in the Audio Lab to help people wor
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) MIDI interface.
 - A vintage [IVL Pitchrider 4000](https://www.ivlaudio.com/home) pitch-to-MIDI converter.
-- Two [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converters.
+- An [Akai MPK-225](https://www.akaipro.com/mpk225) MIDI keyboard controller.
+- Two [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converters, as well as a [Gate Boost](https://www.tindie.com/products/hotchk155/gate-boost-module-for-cvocd-and-others/) module.
 - Multiple [Low-Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
 - Stereo [Genelec](https://www.genelec.com/) speakers.
