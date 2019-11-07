@@ -6,11 +6,11 @@
 
 The IDM Audio lab is **for the use of IDM faculty, students, staff, and guests working in sound**, whether for class assignments, sponsored research, or on their own creative projects. It is a shared space with a lot of different uses...
 
-- Audio recording Suite
-- Multi-channel Audio Room
-- Analog Synthesizer Studio
-- Audio Research Lab
-- Sound Electronics Workshop
+- Audio recording suite
+- Multi-channel audio room
+- Analog synthesizer studio
+- Audio research lab
+- Sound electronics workshop
 
 ...each of which is supported by different equipment.
 
