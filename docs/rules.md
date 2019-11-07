@@ -4,7 +4,7 @@
 
 *What the Audio Lab is:*
 
-The IDM Audio lab is **for the use of IDM faculty, students, staff, and guests working in sound**, whether for class assignments, sponsored research, or on their own creative projects. It is a shared space with a lot of different uses...
+The IDM Audio Lab is **for the use of IDM faculty, students, staff, and guests working in sound**, whether for class assignments, sponsored research, or on their own creative projects. It is a shared space with a lot of different uses...
 
 - Audio recording suite
 - Multi-channel audio room
