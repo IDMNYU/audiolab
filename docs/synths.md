@@ -1781,11 +1781,11 @@ The **VOLTAGE PROCESSORS** module allows for four different control voltage sour
 
 <img src = "./img/TTSH_2_3.png" height="200px" title="CV Processor" alt="CV Processor">
 
-1. Processor input/output 1
+1. Processor input 1
 2. Processor input 2 (*default source*: TTSH -10V DC)
-3. Processor input/output 3
+3. Processor input 3
 4. Processor input 4 (*default source*: **KBD CV**)
-5. Processor input/output 5
+5. Processor input 5
 6. Processor input 6 (*default source*: TTSH +10V DC)
 7. Processor input 7 (*default source*: **ENV FOLL** output)
 8. Inverter output 1
