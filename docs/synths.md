@@ -26,9 +26,10 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
-- A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) MIDI interface.
+- A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) [MIDI](https://en.wikipedia.org/wiki/MIDI) interface.
 - A vintage [IVL Pitchrider 4000](https://www.ivlaudio.com/home) pitch-to-MIDI converter.
 - An [Akai MPK-225](https://www.akaipro.com/mpk225) MIDI keyboard controller.
+- A [Roli Seaboard](https://roli.com/products/seaboard) MIDI/[MPE](https://www.midi.org/articles-old/midi-polyphonic-expression-mpe) keyboard controller.
 - Two [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converters, as well as a [Gate Boost](https://www.tindie.com/products/hotchk155/gate-boost-module-for-cvocd-and-others/) module.
 - Multiple [Low-Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
