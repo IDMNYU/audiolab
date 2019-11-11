@@ -63,14 +63,14 @@ The first four channels of the mixer are mono, and are wired to:
 | 4            | the top output on the "Adapter" module on the 73-75 Serge. |
 
 
-The rest of the mixer consists of 8 additional inputs in stereo pairs (5/6, 7/8, 9/10, 11/12) and are wired to:
+The rest of the mixer consists of 8 additional inputs in stereo pairs and are wired to:
 
 | Channel  | Input     |
 | ------------- | --- |
-| 5-6            | the left and right outputs of the "DONKS" module on Panel 5 of the R\*S Serge. |
-| 7-8            | the left and right output of the TTSH Mixer section. |
-| 9-10           | a cable connected that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
-| 11-12          | empty. |
+| 5/6            | the left and right outputs of the "DONKS" module on Panel 5 of the R\*S Serge. |
+| 7/8            | the left and right output of the TTSH Mixer section. |
+| 9/10           | a cable connected that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
+| 11/12          | empty. |
 
 > \* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). In the USA, they are incorrectly referred to as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
 
