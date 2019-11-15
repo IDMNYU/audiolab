@@ -1161,7 +1161,7 @@ The 73-75 **Peak / Trough** is quite simple, but exemplifies Tcherepnin's instru
 4. Inputs for "Trough" circuit (DC OUTPUT)
 
 *Notes:*
-- The Peak / Trough module is designed for generating complex signal - whether to be used as voltages or audio - by inputing multiple input signals at different frequencies (e.g. from an Envelope Generator).
+- The Peak / Trough module is designed for generating complex signals - whether to be used as voltages or audio - by inputing multiple inputs at different frequencies (e.g. from an Envelope Generator).
 - The module can be used to combine gates / pulses as well - the "Peak" side will go HIGH if any input sends a pulse; the "Trough" side will stay LOW unless all the patched inputs are HIGH.
 
 #### Triple Comparator
