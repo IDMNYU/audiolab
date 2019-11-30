@@ -1541,7 +1541,7 @@ This slider lets you mix in a signal to a module (this particular slider is from
 
 The default wiring allows most of the modules on the ARP to interact with no patch cords; without any cables inserted, the ARP wires its oscillators (labeled **VCO 1, 2, and 3**) through the filter (**VCF**), into an amplifier (**VCA**), and from there to a mixer that is wired to the built-in speakers. By looking at the symbols and adjusting the mix sliders, you can follow the signal path of the modules through the synthesizer.
 
-To override the default wiring, modules can connected by **patching** within and between module jacks using 3.5mm \* cables:
+To override the default wiring, modules can connected by **patching** within and between module jacks using audio \* cables:
 
 ![TTSH with patch cables](./img/ttsh_patched.jpg "TTSH with patch cables")
 
