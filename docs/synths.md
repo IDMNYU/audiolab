@@ -652,7 +652,7 @@ The **Random Source** is the eponymous design of the company that designed its P
 
 <img src = "./img/serge824_2_8.png" width="20%" title="Random Source" alt="Random Source">
 
-1. Pulse output - generates random pulses at the module rate (specified by *9* x *10* + *12*) (Trigger OUTPUT)
+1. Pulse output - generates random pulses at the module rate (specified by *9* x *10* + *12*) (Pulse OUTPUT)
 2. Full-spectrum [white noise](https://en.wikipedia.org/wiki/White_noise) (AC OUTPUT)
 3. Stepped random output - generates discrete random voltages at the module rate (DC OUTPUT)
 4. [Pink Noise](https://en.wikipedia.org/wiki/Pink_noise) (AC OUTPUT)
@@ -1468,7 +1468,7 @@ The **Square** module is a simple, six-channel "square up" circuit using LM393/L
 <img src = "./img/shelfisizer2019_5.png" width="10%" title="Square" alt="Square">
 
 1. Voltage inputs 1-6 (AC INPUT)
-2. "Squared-up" outputs 1-6 (Trigger OUTPUT)
+2. "Squared-up" outputs 1-6 (Pulse OUTPUT)
 
 *Notes:*
 - the Square module will convert any bipolar waveform into a square / pulse wave.
