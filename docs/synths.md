@@ -1109,7 +1109,7 @@ The **73-75 Serge** was built by Luther Bradfute based on a kit designed by the 
 
 #### Oscillator
 
-The 73-75 **Oscillator** has two sets of oscillator outputs - a variable waveform that goes from sine to sawtooth, and a pure sawtooth waveform (the circuit's oscillator core). Both outputs can be tapped as AC or DC signals, and the oscillator can be [synced](https://en.wikipedia.org/wiki/Oscillator_sync).
+The 73-75 **Oscillator** has two sets of oscillator outputs - a variable waveform that goes from sine to sawtooth, and a pure sawtooth waveform (the circuit's [oscillator core](https://www.perfectcircuit.com/signal/learning-synthesis-oscillators)). Both outputs can be tapped as AC or DC signals, and the oscillator can be [synced](https://en.wikipedia.org/wiki/Oscillator_sync).
 
 <img src = "./img/serge7375_1_1.png" width="20%" title="Oscillator" alt="Oscillator">
 
