@@ -1109,7 +1109,7 @@ The **73-75 Serge** was built by Luther Bradfute based on a kit designed by the 
 
 #### Oscillator
 
-The 73-75 **Oscillator** has two sets of oscillator outputs - a variable waveform that goes from sine to square, and a sawtooth waveform. Both oscillators can be tapped as AC or DC signals, and the saw wave can be [synced](https://en.wikipedia.org/wiki/Oscillator_sync).
+The 73-75 **Oscillator** has two sets of oscillator outputs - a variable waveform that goes from sine to sawtooth, and a pure sawtooth waveform (the circuit's oscillator core). Both outputs can be tapped as AC or DC signals, and the oscillator can be [synced](https://en.wikipedia.org/wiki/Oscillator_sync).
 
 <img src = "./img/serge7375_1_1.png" width="20%" title="Oscillator" alt="Oscillator">
 
@@ -1129,7 +1129,7 @@ The 73-75 **Oscillator** has two sets of oscillator outputs - a variable wavefor
 *Notes:*
 - The 73-75 Oscillator was developed before Tcherepnin adopted the 1 volt-per-octave standard used by Moog synthesizers. As a result, it has a different frequency scaling from the newer circuit designs used in the Random\*Source modules.
 - The Oscillator has two separate CV inputs (*7* and *8*) with independent scaling (*9* and *10*) to modulate the frequency of the oscillators. This allows for, e.g. an audio-rate FM input as well as a set of voltages from a sequencer.
-- The variable waveform output transitions smoothly from a sine to a (nearly) square wave output by using an amplifier / clipping circuit. The square wave is not stable enough to be used as a pulse train, but can be patched through a "square-up" module (such as the Square module on the Shelfisizer).
+- The variable waveform output transitions smoothly from a sawtooth to a (nearly) sine wave output by using a waveshaping circuit similar to that found on the Triple Waveshaper. The output can be patched through a "square-up" module (such as the Triple Comparator or the Square module on the Shelfisizer) to create a square wave or pulse train; it can also be patched into the Dual Negative Slew to create a triangle waveform.
 
 #### Triple Waveshaper
 
