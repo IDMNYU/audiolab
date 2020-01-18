@@ -8,7 +8,7 @@
   - [Serge system overview](#serge-system-overview)
     - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
-    - [Ian Fritz Serge](#ian-fritz-serge) ( [The Timbre Tantrum](#the-timbre-tantrum) / [Chaos Theory](#chaos-theory) )
+    - [Ian Fritz Serge Panels](#ian-fritz-serge-panels) ( [The Timbre Tantrum](#the-timbre-tantrum) / [Chaos Theory](#chaos-theory) )
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
   - [ARP 2600 overview](#arp-2600-overview)
     - [TTSH](#ttsh)
@@ -1355,11 +1355,11 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 [back to top](#top)
 
-## Ian Fritz Serge
+## Ian Fritz Serge Panels
 
-<img src = "./img/sergefritz_photo.jpg" width="100%" title="73-75 Serge system" alt="Ian Fritz Serge panels">
+<img src = "./img/sergefritz_photo.jpg" width="100%" title="Ian Fritz Serge panels" alt="Ian Fritz Serge panels">
 
-The **73-75 Serge** was built by Luther Bradfute based on a kit designed by the Human Comparator in Stockholm as part of their *73-75* project, which aims to revisit the original Serge Modular DIY designs. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's synthesizers, built in his home and sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random\*Source panels, but contain many examples of Tcherepnin's innovative designs.
+The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal-processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog syntheesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modulees contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite numbere of ways.
 
 ### The Timbre Tantrum
 
