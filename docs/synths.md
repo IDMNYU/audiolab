@@ -8,7 +8,7 @@
   - [Serge system overview](#serge-system-overview)
     - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
-    - [Ian Fritz Serge](#fritz-serge) ( [The Timbre Tantrum](#fritz-1-timbre-tantrum) / [Chaos Theory](#fritz-2-chaos-theory) )
+    - [Ian Fritz Serge](#ian-fritz-serge) ( [The Timbre Tantrum](#the-timbre-tantrum) / [Chaos Theory](#chaos-theory) )
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
   - [ARP 2600 overview](#arp-2600-overview)
     - [TTSH](#ttsh)
