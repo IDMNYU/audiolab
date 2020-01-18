@@ -1355,6 +1355,22 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 [back to top](#top)
 
+## Ian Fritz Serge
+
+<img src = "./img/sergefritz_photo.jpg" width="100%" title="73-75 Serge system" alt="Ian Fritz Serge panels">
+
+The **73-75 Serge** was built by Luther Bradfute based on a kit designed by the Human Comparator in Stockholm as part of their *73-75* project, which aims to revisit the original Serge Modular DIY designs. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's synthesizers, built in his home and sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random\*Source panels, but contain many examples of Tcherepnin's innovative designs.
+
+### The Timbre Tantrum
+
+<img src = "./img/sergefritz_1.png" width="100%" title="Ian Fritz Panel 1" alt="Ian Fritz Panel 1">
+
+### Chaos Theory
+
+<img src = "./img/sergefritz_2.png" width="100%" title="Ian Fritz Panel 2" alt="Ian Fritz Panel 2">
+
+[back to top](#top)
+
 ## The Shelfisizer
 
 <img src = "./img/shelfisizer2019_photo.jpg" width="100%" title="2019 Shelfisizer" alt="2019 Shelfisizer">
