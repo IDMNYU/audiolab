@@ -1467,6 +1467,104 @@ The **Mixer** ...
 
 <img src = "./img/sergefritz_2.png" width="100%" title="Ian Fritz Panel 2" alt="Ian Fritz Panel 2">
 
+#### Teezer TZFM VCO
+
+The **Teezer TZFM VCO** ...
+
+<img src = "./img/sergefritz_2_1.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### 4x4 AD/AR / Dual VCA / Mixer
+
+The **4x4 AD/AR** ...
+
+<img src = "./img/sergefritz_2_2.png" width="50%" title="4x4 AD/AR" alt="4x4 AD/AR">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### ChaQuO
+
+The **ChaQuO** ...
+
+<img src = "./img/sergefritz_2_3.png" width="20%" title="ChaQuO" alt="ChaQuO">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### Dual TGTSH
+
+The **Dual TGTSH** ...
+
+<img src = "./img/sergefritz_2_4.png" width="20%" title="Dual TGTSH" alt="Dual TGTSH">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### All-In EG
+
+The **All-In EG** ...
+
+<img src = "./img/sergefritz_2_5.png" width="10%" title="All-In EG" alt="All-In EG">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### Chaotica
+
+The **Chaotica** ...
+
+<img src = "./img/sergefritz_2_6.png" width="60%" title="Chaotica" alt="Chaotica">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### 4x4 AD/AR / Dual VCA / Mixer
+
+The **4x4 AD/AR** ...
+
+<img src = "./img/sergefritz_2_7.png" width="60%" title="4x4 AD/AR" alt="4x4 AD/AR">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
 [back to top](#top)
 
 ## The Shelfisizer
