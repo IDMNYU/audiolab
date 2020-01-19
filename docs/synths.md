@@ -1365,6 +1365,104 @@ The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electron
 
 <img src = "./img/sergefritz_1.png" width="100%" title="Ian Fritz Panel 1" alt="Ian Fritz Panel 1">
 
+#### DoubleDeka Ultrasonic VCO
+
+The **DoubleDeka Ultrasonic VCO** ...
+
+<img src = "./img/sergefritz_1_1.png" width="70%" title="DoubleDeka Ultrasonic VCO" alt="DoubleDeka Ultrasonic VCO">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### Teezer TZFM VCO
+
+The **Teezer TZFM VCO** ...
+
+<img src = "./img/sergefritz_1_2.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### Wavolver II
+
+The **Wavolver II** ...
+
+<img src = "./img/sergefritz_1_3.png" width="50%" title="Wavolver II" alt="Wavolver II">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### Threeler VCF
+
+The **Threeler VCF** ...
+
+<img src = "./img/sergefritz_1_4.png" width="50%" title="Threeler VCF" alt="Threeler VCF">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### 5Pulser Waveshaper
+
+The **5Pulser Waveshaper** ...
+
+<img src = "./img/sergefritz_1_5.png" width="40%" title="5Pulser Waveshaper" alt="5Pulser Waveshaper">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### Dual 2Q/4Q Multiplier
+
+The **Dual 2Q/4Q Multiplier** ...
+
+<img src = "./img/sergefritz_1_6.png" width="40%" title="Dual 2Q/4Q Multiplier" alt="Dual 2Q/4Q Multiplier">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
+#### Mixer
+
+The **Mixer** ...
+
+<img src = "./img/sergefritz_1_7.png" width="40%" title="Mixer" alt="Mixer">
+
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+
+*Notes:*
+- foo
+
 ### Panel 2 (Chaos Theory)
 
 <img src = "./img/sergefritz_2.png" width="100%" title="Ian Fritz Panel 2" alt="Ian Fritz Panel 2">
