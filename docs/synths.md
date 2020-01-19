@@ -9,7 +9,7 @@
     - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
     - [Ian Fritz Serge Panels](#ian-fritz-serge-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
-    - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) )
+    - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) )
   - [ARP 2600 overview](#arp-2600-overview)
     - [TTSH](#ttsh)
 
@@ -1570,6 +1570,7 @@ The **4x4 AD/AR** ...
 ## The Shelfisizer
 
 <img src = "./img/shelfisizer2019_photo.jpg" width="100%" title="2019 Shelfisizer" alt="2019 Shelfisizer">
+<img src = "./img/shelfisequencer_photo.jpg" width="100%" title="Shelfisequencer" alt="Shelfisequencer">
 
 **The Shelfisizer** is an open-source project by Luke DuBois inspired by Serge modular systems but also hybrid analog synthesis / microcontroller systems such as the [Buchla 200e](https://buchla.com/systems-design/). These modules use 16mHz [Adafruit Metro Mini](https://www.adafruit.com/product/2590) microcontrollers and simple monolithic IC chips to handle much of the logic that definies the module's behavior, leaving discrete components for the parts of the modules that actually generate analog signals. The use of microcontrollers makes it simple to prototype modules that require an understanding of "state", such as pattern memory or hysteresis, and the use of CMOS ICs allows for a design that has a much lower part count than typical analog synthesizer modules.
 
@@ -1712,6 +1713,19 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 - The Shift module creates a four-stage discrete "memory" of an input voltage, allowing it to be used programatically for melodies, rhythms, or other sonic parameters in your Serge patch.
 - Like most Serge modules, the Shift module can be sampled at audio rate; this can result in the shift outputs resembling slightly out-of-phase waveforms.
 - The carry pulse on the Shift module (*3*) will fire when all four stages of the ASR have completed shifting; because sample-and-hold circuits take a non-zero amount of time to acquire voltage, this pulse may be a few microseconds behind the sample trigger (*2*), and can be used to synchronize events that need to take place *after* the module has done a sample-and-shift of its voltages.
+
+### Shelfisequencer
+
+<img src = "./img/shelfisequencer.png" width="100%" title="Shelfisequencer" alt="Shelfisequencer">
+
+#### Shelfisequencer
+
+The **Shelfisequencer**...
+
+1. CV input to be sampled (DC INPUT)
+
+*Notes:*
+- foo.
 
 [back to top](#top)
 
