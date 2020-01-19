@@ -1722,6 +1722,8 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 
 The **Shelfisequencer**...
 
+<img src = "./img/shelfisequencer_1.png" width="100%" title="Shelfisequencer" alt="Shelfisequencer">
+
 1. CV input to be sampled (DC INPUT)
 
 *Notes:*
