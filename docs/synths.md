@@ -121,7 +121,7 @@ Analog synthesizers (and software synthesizers that emulate their design) have a
 
 - [**Slew Limiter**](https://en.wikipedia.org/wiki/Slew_rate#Slew_rate_limiting_in_amplifiers) - a circuit that limits the rate of voltage change in a system. This can be used to glide between values to create, e.g. musical ["portamento"](https://en.wikipedia.org/wiki/Portamento), or as a type of filter or [waveshaper](https://en.wikipedia.org/wiki/Waveshaper). West Coast synthesizers such as the Serge often used slew limiting in lieu of filters, and as a building block of slope generators - the Positive and Negative Slew modules on the 73-75 Serge are slew limiters; these circuits are also built into the Dual Universal Slope Generator. The ARP 2600 has a slew limiter in the "lag" circuit on the Voltage Processors module.
 
-- [**Waveshaper**](https://en.wikipedia.org/wiki/Waveshaper) - a circuit that distorts the incoming signal to change its spectrum, usually by clipping, folding, inverting, or otherwise transforming ("shaping") part of the signal's waveform. Unlike filters, waveshapers are often amplitude-dependent, meaning that the strength of the transformation will change depending on the strength of the incoming signal. Waveshapers are important components in "West Coast" synthesis - the Serge Wave Multipliers and Triple Waveshaper are examples of such circuits.
+- [**Waveshaper**](https://en.wikipedia.org/wiki/Waveshaper) - a circuit that distorts the incoming signal to change its spectrum, usually by clipping, folding, inverting, or otherwise transforming ("shaping") part of the signal's waveform. Unlike filters, waveshapers are amplitude-dependent, meaning that the strength of the transformation will change depending on the strength of the incoming signal. Waveshapers are important components in "West Coast" synthesis - the Serge Wave Multipliers and Triple Waveshaper are examples of such circuits.
 
 ## Serge System Overview
 
@@ -139,7 +139,7 @@ Ken Stone's [Serge Modular](http://serge.synth.net/) site is another great resou
 
 In addition, there's a nice video interview by Waveshaper Media with Tcherepnin [here](https://www.youtube.com/watch?v=To_gkk9GEpQ).
 
-A scan of a 1976 manual for the Serge synthesizers, written by Rich Gold, Darrel Johansen, and Marina LaPalma, can be found [here](./serge_goldbook.pdf).
+A scan of a 1976 manual for the Serge synthesizers, written by Rich Gold, Darrel Johansen, and Marina LaPalma, can be found [here](./pdf/serge_goldbook.pdf).
 
 ### What makes a Serge a Serge?
 
@@ -1722,6 +1722,8 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 
 The **Shelfisequencer**...
 
+<img src = "./img/shelfisequencer_1.png" width="100%" title="Shelfisequencer" alt="Shelfisequencer">
+
 1. CV input to be sampled (DC INPUT)
 
 *Notes:*
@@ -1739,13 +1741,13 @@ The [ARP 2600](https://en.wikipedia.org/wiki/ARP_2600) is a [*semi-modular*](htt
 
 The ARP 2600 shows up in many genres of music in the 1970s and 1980s - the synth was integral to the sound of artists ranging from [Jean Michel Jarre](https://en.wikipedia.org/wiki/Jean_Michel_Jarre) to [Joy Division](https://en.wikipedia.org/wiki/Joy_Division). It's also well-known in the sound effects community because of its built-in envelope follower; sound designer [Ben Burtt](https://en.wikipedia.org/wiki/Ben_Burtt) used this to great effect in making the "voice" of [R2-D2](https://en.wikipedia.org/wiki/R2-D2) in the Star Wars movies.
 
-The ARP 2600 went through [multiple changes during its manufacturing lifetime](http://www.vintagesynth.com/arp/arp.php), ranging from several different cosmetic styles to a radical redesign of the filter in 1976 in response to a threatened lawsuit from Moog. The 2600 was manufactured by ARP until the bankruptcy of the company in 1981. Since then, the ARP 2600 has been resurrected as a software plug-in by [Arturia Instruments](https://www.arturia.com/products/analog-classics/arp2600-v/) and an open-source hardware [kit](./TTSH-BUILD.pdf) developed by the Human Comparator called the [**TTSH**](https://synthcube.com/cart/ttsh-v4) (Two Thousand Six Hundred). The commercial license for the ARP line of synthesizers is currently held by [Korg](https://www.korg.com/us/products/synthesizers/arpodyssey/), though they have yet to release a new 2600.
+The ARP 2600 went through [multiple changes during its manufacturing lifetime](http://www.vintagesynth.com/arp/arp.php), ranging from several different cosmetic styles to a radical redesign of the filter in 1976 in response to a threatened lawsuit from Moog. The 2600 was manufactured by ARP until the bankruptcy of the company in 1981. Since then, the ARP 2600 has been resurrected as a software plug-in by [Arturia Instruments](https://www.arturia.com/products/analog-classics/arp2600-v/) and an open-source hardware [kit](./pdf/TTSH-BUILD.pdf) developed by the Human Comparator called the [**TTSH**](https://synthcube.com/cart/ttsh-v4) (Two Thousand Six Hundred). The commercial license for the ARP line of synthesizers is currently held by [Korg](https://www.korg.com/us/products/synthesizers/arpodyssey/), though they have yet to release a new 2600.
 
-A scan of the original ARP 2600 owner's manual can be found [here](./ARP-2600-manual.pdf).
+A scan of the original ARP 2600 owner's manual can be found [here](./pdf/ARP-2600-manual.pdf).
 
 A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](http://dl.lojinx.com/analoghell/Arp2600-ServiceManual.pdf).
 
-A number of textbooks exist around electronic music / music technology that use the ARP 2600 in their examples. Samuel Ecoff's *Fundamentals of Music Technology: The ARP 2600 Synthesizer* is a great one. A PDF can be found [here](./arp_ecoff.pdf). The CD examples for the book can be found on Ecoff's [home page](https://samecoff.com/works.html).
+A number of textbooks exist around electronic music / music technology that use the ARP 2600 in their examples. Samuel Ecoff's *Fundamentals of Music Technology: The ARP 2600 Synthesizer* is a great one. A PDF can be found [here](./pdf/arp_ecoff.pdf). The CD examples for the book can be found on Ecoff's [home page](https://samecoff.com/works.html).
 
 ### What makes an ARP an ARP?
 
