@@ -1556,9 +1556,9 @@ The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
 1. Envelope delay time input (DC INPUT)
 2. Envelope delay time scaling knob
 3. Pulse width knob
-4. Mode switch
-5. Delayed pulse output (Pulse OUTPUT)
-6. End-of-delay trigger (Pulse OUTPUT)
+4. Pulse-to-EG enable switch
+5. Delayed pulse input (Pulse INPUT)
+6. Delayed pulse output (Pulse OUTPUT)
 7. Trigger/gate input (Pulse INPUT)
 8. Attack time knob
 9. Decay / release time knob
@@ -1611,14 +1611,14 @@ The **Dual Threshold/Gate/Trigger/Sample/Hold** ...
 
 <img src = "./img/sergefritz_2_4.png" width="20%" title="Dual TGTSH" alt="Dual TGTSH">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+1. Threshold CV input (DC INPUT)
+2. Threshold CV scaling knob
+3. Threshold knob (sums with *1* x *2*)
+4. Timing CV input (DC INPUT)
+5. Main CV input (DC INPUT)
+6. Gate output (Pulse OUTPUT)
+7. Trigger output (Pulse OUTPUT)
+8. Sample-and-hold output (CV OUTPUT)
 
 *Notes:*
 - foo
@@ -1629,14 +1629,14 @@ The **All-In Envelope Generator** ...
 
 <img src = "./img/sergefritz_2_5.png" width="10%" title="All-In EG" alt="All-In EG">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+1. Monostable delay CV/triggeer input (DC INPUT)
+2. Delay time knob
+3. Pulse width knob
+4. Delayed pulse output (Pulse OUTPUT)
+5. Envelope generator trigger/gate input (Pulse INPUT)
+6. Attack time knob
+7. Decay / release time knob
+8. Envelope signal (DC OUTPUT)
 
 *Notes:*
 - foo
@@ -1646,25 +1646,26 @@ The **All-In Envelope Generator** ...
 The **Chaotica** ...
 
 <img src = "./img/sergefritz_2_6.png" width="60%" title="Chaotica" alt="Chaotica">
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
+
+1. Chaos rate knob
+2. Chaos CV scaling knob
+3. Chaos CV input (scaled by *2*, sums with *1*) (DC INPUT)
+4. Gain CV input (scaled by *5*, sums with *6*) (DC INPUT)
+5. Gain CV scaling knob
+6. Gain knob
+7. Damping  knob
+8. Damping CV scaling knob
+9. Damping CV input (scaled by *8*, sums with *7*) (DC INPUT)
+10. Offset CV input (scaled by *11*, sums with *12*) (DC INPUT)
+11. Offset CV scaling knob
+12. Offset knob
+13. Non-linear drive amount knob
+14. Reset trigger (Pulse INPUT)
+15. Tame/wild switch
+16. 1 eye / 2 eyes switch
+17. X chaos output (DC OUTPUT)
+18. Y chaos output (DC OUTPUT)
+19. Z chaos output (DC OUTPUT)
 
 *Notes:*
 - foo
@@ -1675,33 +1676,33 @@ The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
 
 <img src = "./img/sergefritz_2_7.png" width="60%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
-23. 
-24. 
-25. 
-26. 
-27. 
+1. Envelope delay time input (DC INPUT)
+2. Envelope delay time scaling knob
+3. Pulse width knob
+4. Pulse-to-EG enable switch
+5. Delayed pulse input (Pulse INPUT)
+6. Delayed pulse output (Pulse OUTPUT)
+7. Trigger/gate input (Pulse INPUT)
+8. Attack time knob
+9. Decay / release time knob
+10. Envelope CV output (DC OUTPUT)
+11. End-of-envelope trigger (Pulse OUTPUT)
+12. Cycle switch
+13. Manual envelope trigger button
+14. VCA signal input (AC INPUT)
+15. VCA CV input (DC INPUT)
+16. VCA bias knob
+17. VCA signal output (AC OUTPUT)
+18. Mixer input 1 gain knob
+19. Mixer input 2 gain knob
+20. Mixer input 3 gain knob
+21. Mixer input 4 gain knob
+22. Mixer input 1 (AC INPUT)
+23. Mixer input 2 (AC INPUT)
+24. Mixer input 3 (AC INPUT)
+25. Mixer input 4 (AC INPUT)
+26. Mixer output (AC OUTPUT)
+27. Mixer inverted output (AC OUTPUT)
 
 *Notes:*
 - foo
