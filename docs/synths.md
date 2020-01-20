@@ -1373,24 +1373,48 @@ The **DoubleDeka Ultrasonic VCO** ...
 
 <img src = "./img/sergefritz_1_1.png" width="70%" title="DoubleDeka Ultrasonic VCO" alt="DoubleDeka Ultrasonic VCO">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. Waveform sliders for Bank A
+2. Waveform sliders for Bank B
+3. Coarse frequency knob (summed with *4* and *13*)
+4. Fine frequency knob (summed with *3* and *13*)
+5. Signal input for ring modulator (AC INPUT)
+6. Oscillator sync input (AC INPUT)
+7. Harmonic / aharmonic switch for oscillator sync
+8. Scaling knob for exponential FM input
+9. Exponential Frequency Modulation (FM) input (scaled by *8*)
+10. Scaling knob for linear FM input
+11. AC/DC switch for linear FM input
+12. Linear Frequency Modulation (FM) input (scaled by *10*) (AC INPUT)
+13. 1V-per-octave input (summed with *3* and *4*) (DC INPUT)
+14. Bank A signal output (AC OUTPUT)
+15. Bank B signal output (AC OUTPUT)
+16. Bank A octave selection knob
+17. Bank B octave selection knob
+18. High frequency oscillator core output (AC OUTPUT)
 
 *Notes:*
 - foo
 
 #### Teezer TZFM VCO
 
-The **Teezer TZFM VCO** ...
+The **Teezer Through-Zero FM VCO** ...
 
 <img src = "./img/sergefritz_1_2.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
 
 *Notes:*
 - foo
@@ -1401,24 +1425,41 @@ The **Wavolver II** ...
 
 <img src = "./img/sergefritz_1_3.png" width="50%" title="Wavolver II" alt="Wavolver II">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
 
 *Notes:*
 - foo
 
 #### Threeler VCF
 
-The **Threeler VCF** ...
+The **Threeler Voltage-Controlled Filter** ...
 
 <img src = "./img/sergefritz_1_4.png" width="50%" title="Threeler VCF" alt="Threeler VCF">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
 
 *Notes:*
 - foo
@@ -1429,10 +1470,12 @@ The **5Pulser Waveshaper** ...
 
 <img src = "./img/sergefritz_1_5.png" width="40%" title="5Pulser Waveshaper" alt="5Pulser Waveshaper">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
 
 *Notes:*
 - foo
@@ -1443,10 +1486,15 @@ The **Dual 2Q/4Q Multiplier** ...
 
 <img src = "./img/sergefritz_1_6.png" width="40%" title="Dual 2Q/4Q Multiplier" alt="Dual 2Q/4Q Multiplier">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
 
 *Notes:*
 - foo
@@ -1457,10 +1505,16 @@ The **Mixer** ...
 
 <img src = "./img/sergefritz_1_7.png" width="40%" title="Mixer" alt="Mixer">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
 
 *Notes:*
 - foo
@@ -1471,70 +1525,118 @@ The **Mixer** ...
 
 #### Teezer TZFM VCO
 
-The **Teezer TZFM VCO** ...
+The **Teezer Through-Zero FM VCO** ...
 
 <img src = "./img/sergefritz_2_1.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
 
 *Notes:*
 - foo
 
 #### 4x4 AD/AR / Dual VCA / Mixer
 
-The **4x4 AD/AR** ...
+The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
 
 <img src = "./img/sergefritz_2_2.png" width="50%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
 
 *Notes:*
 - foo
 
 #### ChaQuO
 
-The **ChaQuO** ...
+The **Chaos Generator and Quadrature Oscillator** ...
 
 <img src = "./img/sergefritz_2_3.png" width="20%" title="ChaQuO" alt="ChaQuO">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16.  
 
 *Notes:*
 - foo
 
 #### Dual TGTSH
 
-The **Dual TGTSH** ...
+The **Dual Threshold/Gate/Trigger/Sample/Hold** ...
 
 <img src = "./img/sergefritz_2_4.png" width="20%" title="Dual TGTSH" alt="Dual TGTSH">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
 
 *Notes:*
 - foo
 
 #### All-In EG
 
-The **All-In EG** ...
+The **All-In Envelope Generator** ...
 
 <img src = "./img/sergefritz_2_5.png" width="10%" title="All-In EG" alt="All-In EG">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
 
 *Notes:*
 - foo
@@ -1544,25 +1646,62 @@ The **All-In EG** ...
 The **Chaotica** ...
 
 <img src = "./img/sergefritz_2_6.png" width="60%" title="Chaotica" alt="Chaotica">
-
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
 
 *Notes:*
 - foo
 
 #### 4x4 AD/AR / Dual VCA / Mixer
 
-The **4x4 AD/AR** ...
+The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
 
 <img src = "./img/sergefritz_2_7.png" width="60%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
-1. Ramp output for the left-hand slope generator (DC OUTPUT)
-2. Ramp output for the right-hand slope generator (DC OUTPUT)
-3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
-4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
 
 *Notes:*
 - foo
