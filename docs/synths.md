@@ -1446,20 +1446,20 @@ The **Threeler Voltage-Controlled Filter** ...
 
 <img src = "./img/sergefritz_1_4.png" width="50%" title="Threeler VCF" alt="Threeler VCF">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
+1. Filter coarse frequency knob (sums with *2* and *3*)
+2. Filter fine frequency knob (sums with *1* and *3*)
+3. 1V-per-octave frequency input (sums with *1* and *2*) (DC INPUT)
+4. Filter resonance knob (sums with *5* x *6*)
+5. Filter resonance CV scaling knob (sums with *5*, scaled by *6*)
+6. Filter resonance CV input (sums with *4*, scaled by *5*) (DC INPUT)
+7. Filter series selector knob
+8. FM CV scaling knob
+9. Frequency Modulation (FM) signal input (DC INPUT)
+10. Filter input scaling knob
+11. Filter input (AC INPUT)
+12. Filter stage 1 output (AC OUTPUT)
+13. Filter stage 2 output (AC OUTPUT)
+14. Filter stage 3 output (AC OUTPUT)
 
 *Notes:*
 - foo
@@ -1470,12 +1470,12 @@ The **5Pulser Waveshaper** ...
 
 <img src = "./img/sergefritz_1_5.png" width="40%" title="5Pulser Waveshaper" alt="5Pulser Waveshaper">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Signal input (AC INPUT)
+2. Waveshaper output (AC OUTPUT)
+3. Waveshaping strength knob (sums with *4* x *5*)
+4. Waveshaping CV scaling knob
+5. Waveshaping CV input (sums with *3*, scaled by *4*) (DC INPUT)
+6. Waveshaper harmonic switches
 
 *Notes:*
 - foo
@@ -1486,15 +1486,15 @@ The **Dual 2Q/4Q Multiplier** ...
 
 <img src = "./img/sergefritz_1_6.png" width="40%" title="Dual 2Q/4Q Multiplier" alt="Dual 2Q/4Q Multiplier">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
+1. X signal input (AC INPUT)
+2. X signal scaling knob
+3. Y signal input (AC INPUT)
+4. Y signal scaling knob
+5. 2-quadrant / 4-quadrant mode switch
+6. X AC/DC switch
+7. Y AC/DC switch
+8. Signal output (AC OUTPUT)
+9. Y signal bias knob
 
 *Notes:*
 - foo
@@ -1505,16 +1505,16 @@ The **Mixer** ...
 
 <img src = "./img/sergefritz_1_7.png" width="40%" title="Mixer" alt="Mixer">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+1. Signal input 1 (AC INPUT)
+2. Input 1 gain knob
+3. Signal input 2 (AC INPUT)
+4. Input 2 gain knob
+5. Signal input 3 (AC INPUT)
+6. Input 3 gain knob
+7. Signal input 4 (AC INPUT)
+8. Input 4 gain knob
+9. Mixer output (AC OUTPUT)
+10. Inverted mixer output (AC OUTPUT)
 
 *Notes:*
 - foo
@@ -1529,20 +1529,20 @@ The **Teezer Through-Zero FM VCO** ...
 
 <img src = "./img/sergefritz_2_1.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
+1. Coarse frequency knob (sums with *2* and *11*)
+2. Fine frequency knob (sums with *1* and *11*)
+3. Sync scaling knob
+4. Sync signal input (scaled by *3*) (AC INPUT)
+5. Linear FM scaling knob
+6. Linear Frequency Modulation (FM) input (scaled by *5*, sums with *8*) (AC INPUT) 
+7. AC/DC switch for linear FM input
+8. Initial FM frequency knob (sums with *5* x *6*)
+9. Exponential Frequency Modulation (FM) input (scaled by *10*) (DC INPUT)
+10. Exponential FM scaling knob
+11. 1V-per-octave input (sums with *1* and *2*) (DC INPUT)
+12. Triangle waveform output (AC OUTPUT)
+13. Sine waveform output (AC OUTPUT)
+14. Sawtooth waveform output (AC OUTPUT)
 
 *Notes:*
 - foo
