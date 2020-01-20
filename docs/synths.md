@@ -1425,17 +1425,17 @@ The **Wavolver II** ...
 
 <img src = "./img/sergefritz_1_3.png" width="50%" title="Wavolver II" alt="Wavolver II">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
+1. Pulse width knob (sums with *2* x *3*)
+2. Pulse width modulation scaling knob
+3. Pulse width modulation (PWM) signal input (sums with *1*, scaled by *3*) (DC INPUT)
+4. Waveshaper signal input (AC INPUT)
+5. Waveshaper signal output (AC OUTPUT)
+6. Folded signal output (AC OUTPUT)
+7. Waveshaper strength knob (sums with *8* x *9*)
+8. Waveshaper CV scaling knob
+9. Waveshaper strength input (sums with *7*, scaled by *8*) (DC INPUT)
+10. PWM 2nd order strength knob
+11. Folded signal mix knob
 
 *Notes:*
 - foo
