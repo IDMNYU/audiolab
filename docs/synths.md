@@ -1553,28 +1553,28 @@ The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
 
 <img src = "./img/sergefritz_2_2.png" width="50%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
+1. Envelope delay time input (DC INPUT)
+2. Envelope delay time scaling knob
+3. Pulse width knob
+4. Mode switch
+5. Delayed pulse output (Pulse OUTPUT)
+6. End-of-delay trigger (Pulse OUTPUT)
+7. Trigger/gate input (Pulse INPUT)
+8. Attack time knob
+9. Decay / release time knob
+10. Envelope CV output (DC OUTPUT)
+11. End-of-envelope trigger (Pulse OUTPUT)
+12. Cycle switch
+13. Manual envelope trigger button
+14. VCA signal input (AC INPUT)
+15. VCA CV input (DC INPUT)
+16. VCA bias knob
+17. VCA signal output (AC OUTPUT)
+18. Mixer input 1 (AC INPUT)
+19. Mixer input 2 (AC INPUT)
+20. Mixer input 3 (AC INPUT)
+21. Mixer output (AC OUTPUT)
+22. Mixer inverted output (AC OUTPUT)
 
 *Notes:*
 - foo
@@ -1585,22 +1585,22 @@ The **Chaos Generator and Quadrature Oscillator** ...
 
 <img src = "./img/sergefritz_2_3.png" width="20%" title="ChaQuO" alt="ChaQuO">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16.  
+1. Chaos rate knob
+2. High/low frequency switch
+3. Chaos damping knob
+4. Quadrature oscillator coarse frequency knob
+5. Quadrature oscillator fine frequency knob
+6. Loop gain knob
+7. Drive scaling knob
+8. Drive CV input (scaled with *7*) (DC INPUT)
+9. X-coupling strength knob
+10. X chaos output (DC OUTPUT)
+11. Y chaos output (DC OUTPUT)
+12. Z chaos output (DC OUTPUT)
+13. Sine quadrature output (AC OUTPUT)
+14. Inverted sine quadrature output (AC OUTPUT)
+15. Cosine quadrature output (AC OUTPUT)
+16. Inverted cosine quadrature output (AC OUTPUT) 
 
 *Notes:*
 - foo
