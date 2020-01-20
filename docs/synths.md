@@ -1359,7 +1359,7 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 <img src = "./img/sergefritz_photo.jpg" width="100%" title="Ian Fritz Serge panels" alt="Ian Fritz Serge panels">
 
-The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog syntheesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modulees contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite numbere of ways.
+The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog syntheesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modules contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite numbere of ways.
 
 *Note: The Fritz panels deviate from the Serge standard somewhat in terms of panel layout and user interface conventions. Paul Akin's implementation of Fritz's designs include a number of UI elements - sliders, ten-turn dials, stepped potentiometers - that don't appear on "original" Serge equipment. More importantly, the Fritz modules are not always contained in vertical slices, and the layout of "outputs over inputs" on a module is not followed - in fact, it's often reversed, with module outputs at the bottom of the panel in a layout similiar to many Eurorack systems. When working with the Fritz panels, you may need to double-check your connections to make sure your inputs and outputs are correct.*
 
@@ -1401,20 +1401,20 @@ The **Teezer Through-Zero FM VCO** ...
 
 <img src = "./img/sergefritz_1_2.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
+1. Coarse frequency knob (sums with *2* and *11*)
+2. Fine frequency knob (sums with *1* and *11*)
+3. Sync scaling knob
+4. Sync signal input (scaled by *3*) (AC INPUT)
+5. Linear FM scaling knob
+6. Linear Frequency Modulation (FM) input (scaled by *5*, sums with *8*) (AC INPUT) 
+7. AC/DC switch for linear FM input
+8. Initial FM frequency knob (sums with *5* x *6*)
+9. Exponential Frequency Modulation (FM) input (scaled by *10*) (DC INPUT)
+10. Exponential FM scaling knob
+11. 1V-per-octave input (sums with *1* and *2*) (DC INPUT)
+12. Triangle waveform output (AC OUTPUT)
+13. Sine waveform output (AC OUTPUT)
+14. Sawtooth waveform output (AC OUTPUT)
 
 *Notes:*
 - foo
