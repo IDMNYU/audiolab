@@ -1865,7 +1865,13 @@ The **Shelfisequencer**...
 
 <img src = "./img/shelfisequencer_1.png" width="100%" title="Shelfisequencer" alt="Shelfisequencer">
 
-1. CV input to be sampled (DC INPUT)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
 
 *Notes:*
 - foo.
