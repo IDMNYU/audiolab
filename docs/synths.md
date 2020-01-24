@@ -1369,9 +1369,9 @@ The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electron
 
 #### DoubleDeka Ultrasonic VCO
 
-The **DoubleDeka Ultrasonic VCO** ...
+The **DoubleDeka Ultrasonic VCO** was Ian Fritz's first [published synthesizer circuit](http://ijfritz.byethost4.com/DD_web.pdf). Unlike most modern VCOs, this design uses an ultrasonic oscillator core (i.e. the primary oscillator is above the range of human hearing. A pair of frequency dividers allow you to lower the pitch into two (subharmonically related) frequencies, each of which is then synthesized by a ten-step waveform outlined by the slide potentiometers on the interface.
 
-This unique VCO consists of an ultrasonic oscillator core followed by a parallel pair of waveform generators.Each waveform generator consists of a switched multi-octave divider followed by circuitry to generate a 10-step waveform using a set of 10 slider potentiometers. Also included are a novel synchronization circuit with two different operating modes and a built-in "digital ring modulator" (DRM) for producing a wide variety of synchronized and anharmonic sounds. The oscillator core is highly stable (better than 20 ppm/K in the prototype) and features wide-range, accurate tracking (better than 0.05% over fifteen octaves). The variable waveform generator provides fine control over an enormous range of available timbers.
+Early synthesizers (and some electric organs) used ultrasonic oscillators (electronic or mechanical), and would generate a lower frequency either through frequency division or [heterodyning](https://en.wikipedia.org/wiki/Heterodyne), in a manner similar to a Theremin. Fritz's technique is designed to be more stable and accurate over a wide range of frequencies than traditional VCO designs. In addition, the DoubleDeka contains an unusual oscillator sync circuit and a "digital" ring modulator that allow for the creation of a wide range of sounds.
 
 <img src = "./img/sergefritz_1_1.png" width="70%" title="DoubleDeka Ultrasonic VCO" alt="DoubleDeka Ultrasonic VCO">
 
@@ -1399,15 +1399,9 @@ This unique VCO consists of an ultrasonic oscillator core followed by a parallel
 
 #### Teezer TZFM VCO
 
-The **Teezer Through-Zero FM VCO** ...
+The **Teezer Through-Zero FM VCO** is Fritz's design for a sawtooth-core VCO that can do true, bipolar (or "through zero") [frequency modulation](https://en.wikipedia.org/wiki/Frequency_modulation), using an entirely analog signal path. Typical analog FM circuits were designed to create sonic effects ranging from vibrato to noisy, warped timbres using a second oscillator as a modulating source. These signals typically summed into the existing voltage chain controlling the oscillator's frequency, meaning that they only modulated the oscillator in a positive direction. To generate "true" [FM synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis), as developed by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) and most famously implemented on *digital* synthesizers such as the [Yamaha DX7](https://en.wikipedia.org/wiki/Yamaha_DX7), the frequency of the primary oscillator needs to be able to go negative as well. 
 
-This module is a sawtooth-based VCO capable of frequency modulation (FM) extending past zero frequency into the negative-frequency regime. Thru-zero FM provides a much wider and richer variety of sounds than "ordinary" (positive frequency only) FM.
-
-The negative-frequency version of a waveform is simply a time-reversed replica of the original waveform.When a VCO is modulated through zero frequency, the waveform slows down to a stop and then speeds back up in the reverse direction. Here is a picture of the core sawtooth wave being modulated to negative frequencies. On the left side of the picture the wave is a down ramp, and on the right side it's an up ramp, with the zerofrequency point being at the broad dip.
-
-The Teezer's output waveforms also include triangle and sine waves, for producing sounds with fewer high harmonics, as typically used for bell sounds, train whistles, and so on. The unit also features a variable synchronization control that can be adjusted over a range of settings from hard sync to a fairly loose soft sync.
-
-The module can also serve as a highly accurate and stable "ordinary" VCO (i.e., without the deep FM), with upramp, downramp, triangle and sine output waveforms.
+The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowing for bipolar FM, can be used to synthesize sounds with the full repertoire of FM effects, including rich sidebands that behave in a nonlinear fashion that can be used to create brassy tones, bell sounds, and other rich, time-varying spectra. The VCO has outputs for triangle, sine, and sawtooth waveforms, and ten-turn precision dials can be used to set the base frequency of both the primary oscillator and the FM circuitry.
 
 <img src = "./img/sergefritz_1_2.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
 
@@ -1563,7 +1557,9 @@ The **Mixer** ...
 
 #### Teezer TZFM VCO
 
-The **Teezer Through-Zero FM VCO** ...
+The **Teezer Through-Zero FM VCO** is Fritz's design for a sawtooth-core VCO that can do true, bipolar (or "through zero") [frequency modulation](https://en.wikipedia.org/wiki/Frequency_modulation), using an entirely analog signal path. Typical analog FM circuits were designed to create sonic effects ranging from vibrato to noisy, warped timbres using a second oscillator as a modulating source. These signals typically summed into the existing voltage chain controlling the oscillator's frequency, meaning that they only modulated the oscillator in a positive direction. To generate "true" [FM synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis), as developed by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) and most famously implemented on *digital* synthesizers such as the [Yamaha DX7](https://en.wikipedia.org/wiki/Yamaha_DX7), the frequency of the primary oscillator needs to be able to go negative as well. 
+
+The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowing for bipolar FM, can be used to synthesize sounds with the full repertoire of FM effects, including rich sidebands that behave in a nonlinear fashion that can be used to create brassy tones, bell sounds, and other rich, time-varying spectra. The VCO has outputs for triangle, sine, and sawtooth waveforms, and ten-turn precision dials can be used to set the base frequency of both the primary oscillator and the FM circuitry.
 
 <img src = "./img/sergefritz_2_1.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
 
