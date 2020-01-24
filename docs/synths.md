@@ -1371,6 +1371,8 @@ The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electron
 
 The **DoubleDeka Ultrasonic VCO** ...
 
+This unique VCO consists of an ultrasonic oscillator core followed by a parallel pair of waveform generators.Each waveform generator consists of a switched multi-octave divider followed by circuitry to generate a 10-step waveform using a set of 10 slider potentiometers. Also included are a novel synchronization circuit with two different operating modes and a built-in "digital ring modulator" (DRM) for producing a wide variety of synchronized and anharmonic sounds. The oscillator core is highly stable (better than 20 ppm/K in the prototype) and features wide-range, accurate tracking (better than 0.05% over fifteen octaves). The variable waveform generator provides fine control over an enormous range of available timbers.
+
 <img src = "./img/sergefritz_1_1.png" width="70%" title="DoubleDeka Ultrasonic VCO" alt="DoubleDeka Ultrasonic VCO">
 
 1. Waveform sliders for Bank A
@@ -1399,6 +1401,14 @@ The **DoubleDeka Ultrasonic VCO** ...
 
 The **Teezer Through-Zero FM VCO** ...
 
+This module is a sawtooth-based VCO capable of frequency modulation (FM) extending past zero frequency into the negative-frequency regime. Thru-zero FM provides a much wider and richer variety of sounds than "ordinary" (positive frequency only) FM.
+
+The negative-frequency version of a waveform is simply a time-reversed replica of the original waveform.When a VCO is modulated through zero frequency, the waveform slows down to a stop and then speeds back up in the reverse direction. Here is a picture of the core sawtooth wave being modulated to negative frequencies. On the left side of the picture the wave is a down ramp, and on the right side it's an up ramp, with the zerofrequency point being at the broad dip.
+
+The Teezer's output waveforms also include triangle and sine waves, for producing sounds with fewer high harmonics, as typically used for bell sounds, train whistles, and so on. The unit also features a variable synchronization control that can be adjusted over a range of settings from hard sync to a fairly loose soft sync.
+
+The module can also serve as a highly accurate and stable "ordinary" VCO (i.e., without the deep FM), with upramp, downramp, triangle and sine output waveforms.
+
 <img src = "./img/sergefritz_1_2.png" width="50%" title="Teezer TZFM VCO" alt="Teezer TZFM VCO">
 
 1. Coarse frequency knob (sums with *2* and *11*)
@@ -1423,6 +1433,20 @@ The **Teezer Through-Zero FM VCO** ...
 
 The **Wavolver II** ...
 
+The Wavolver is a novel, versatile waveshaper that generates a special kind of double-pulse waveform along with an extra folded-wave section added between the pulses. It generates a wide range of timbres from a gentle sine or triangle wave to a very rich signal with multiple zero-crossings per cycle.
+
+The module can be driven by any continuously varying signal. For simplicity let's assume a Tri wave at the input. The circuitry works by only passing the input signal when its amplitude (positive or negative) is above a threshold set by the Pulse Width control. When it's below the threshold the output signal is zero. This is shown on the left side of the following figure. The signal consists of steeple-shaped pulses that can be swept from narrow for high harmonic content to full width, which results in a triangle wave ("Width" and "Width mod" controls). This represents a wider range of timbres than from the familiar rectangular pulse generators, which give a square waves at full width.
+
+In addition to the double-pulse generator, the Wavolver has circuitry to generate a series of evolving folded waves between the pulses. These are mixed into the output via the "Fold mix" control. The right side of the above figure illustrates the folding at a 50% level for two different pulse widths. The folder output is available separately to allow individual processing of the double pulses and the folds.
+
+The double-pulse signal consists of a positive pulse and a negative one, and the resulting signal has odd harmonics only. The capability to produce waves with strong, odd-only harmonics is practically never seen in classical VCO/waveshaper designs. There is a wide area of timber space available here that has been largely ignored. Adding the folder output produces high-energy even harmonics in the signal's spectrum.
+
+In the Wavolver II there are several ways to modify the basic waveforms discussed above. First, the amplitude of the second pulse can be continuously tuned from -5V (as shown above) to +5V ("Pulse 2 amp" control). At full positive amplitude, the signal has two identical positive pulses, resulting in a signal at twice the frequency of the driving signal. Waves with the second harmonic stronger than the fundamental are musically useful, as some acoustic instruments (bowed strings) share this characteristic.
+
+Another way to change the basic waveforms is to add a DC voltage offset to the input signal ("Offset" and "Offset mod" controls). A positive offset makes the first pulse stronger and wider and at the same time it make the second pulse weaker and narrower. Again, this adds even harmonics into the output spectrum and results in some interesting timbres, especially when modulated. The graphic below illustrates these modifications.
+
+Finally, the waveshape can be modulated by modulating the input waveform.
+
 <img src = "./img/sergefritz_1_3.png" width="50%" title="Wavolver II" alt="Wavolver II">
 
 1. Pulse width knob (sums with *2* x *3*)
@@ -1443,6 +1467,14 @@ The **Wavolver II** ...
 #### Threeler VCF
 
 The **Threeler Voltage-Controlled Filter** ...
+
+This filter design is different from the usual filters found in analog synths. It consists of three first-order filter sections that can be switched between either high-pass or low-pass response. A four-position mode switch allows selection among four different combinations of these responses. A voltage-controlled resonance amplifier allows operation of the filter well beyond the onset of oscillations. In this regime the circuit's nonlinearities provide a wide variety of phase-locking and chaotic outputs. Signals are available from all three filter sections to provide the widest variety of waveforms and filter responses.
+
+Below is a highly schematic diagram of the operation of the different modes of the device. The three rectangles indicate the three filter stages, each with a lowpass and a highpass input. The triangle represents the clipped variable gain stage that provides the resonance feedback.
+
+With a low resonance setting, mode 1 is a third order lowpass filter, with outputs available from the first, second, and third order circuit points. Similarily, mode 4 is a third order highpass filter. Modes 1 and 2 are types of bandpass filters with different slopes above and below the center frequency.
+
+With a high setting of the resonance control the filter will self-oscillate in all four modes, with a variety of waveshapes depending on the filter mode and output stage used, as well as on the resonance setting. Using high resonance along with an input signal results in many interesting waveforms due to phase locking and other nonlinear effects. These are most easily produced by using a relatively low input gain. With four modes and three outputs there is plenty of interesting nonlinear territory to explore.
 
 <img src = "./img/sergefritz_1_4.png" width="50%" title="Threeler VCF" alt="Threeler VCF">
 
@@ -1468,6 +1500,8 @@ The **Threeler Voltage-Controlled Filter** ...
 
 The **5Pulser Waveshaper** ...
 
+This circuit is a voltage-controlled waveshaper that produces a train of output pulses that may be varied in number, width and position in response to a control voltage. When fed with a sawtooth waveform, the pulses evolve from a single square wave to a train of five pulses occupying half a period or less of the output waveform. The switches S1-S4 allow different combinations of pulses to be used.
+
 <img src = "./img/sergefritz_1_5.png" width="40%" title="5Pulser Waveshaper" alt="5Pulser Waveshaper">
 
 1. Signal input (AC INPUT)
@@ -1483,6 +1517,10 @@ The **5Pulser Waveshaper** ...
 #### Dual 2Q/4Q Multiplier
 
 The **Dual 2Q/4Q Multiplier** ...
+
+An analog multiplier that can be switched between two-quadrant and four-quadrant operation. As an analog synthesizer module it can thus function as a voltage-controlled amplifier (VCA) or as a ring modulator (RM). The circuit board for this project carries two copies of the 2Q/4Q circuit plus an independent four-input mixer with standard and inverted outputs.
+
+Operation is the same as other VCA and RM modules. As a standard VCA, audio goes into the X input and control voltage goes into the Y input. The Bias control can give the VCA an "initial"gain, useful for AM applications, such as tremolo, etc. As a RM, the "carrier" goes into the Y input, and may be mixed into the output with the Bias control. At full bias, the output is just the carrier signal with no modulation.
 
 <img src = "./img/sergefritz_1_6.png" width="40%" title="Dual 2Q/4Q Multiplier" alt="Dual 2Q/4Q Multiplier">
 
@@ -1551,6 +1589,36 @@ The **Teezer Through-Zero FM VCO** ...
 
 The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
 
+This novel envelope generator (EG) provides a versatile, cost-effective alternative to other designs. It features four input modes and four output signals, so it is called the 4x4 EG. (It is an extension of the earlier All-In EG module.) Here's what it can do:
+
+Input modes:
+
+Trigger/Gate
+This is the main input. It will take just about any signal you feed it. Driven by a trigger pulse, the unit's output is an attack-decay (AD) envelope. Driven by a gate its output is an attack-release (AR) envelope. And you can even use a continuous signal like an LFO for the gate.
+
+Cycle
+A pulse is generated at the end of the envelope decay/release and can be switched back to the input to produce a repetitive AD output signal.
+
+Manual Trigger
+A momentary push button switch on the panel generates an input trigger pulse to generate an AD envelope.
+
+Delayed Pulse
+An auxiliary circuit produces a delayed, fixed-width pulse, which may be switched to drives the EG circuitry (Pulse - EG). The pulse may be initiated by any signal with a positive-going 1.5 V crossing, for example, a trigger pulse or a waveform from an LFO etc
+
+Output signals:
+
+AD/AR
+This is the main envelope output.
+
+EOE Trigger
+A trigger pulse is generated when the envelope falls to near zero (end of envelope). This pulse may be feed back to the input to generate a cyclic signal, or may be used externally for cascading more than one unit or for other timing applications.
+
+Delayed Pulse
+The delayed pulser's output is available at the front panel, to use separately from or in conjunction with the EG itself. The delay time is retriggerable, ie if multiple triggers are received during the delay phase, the end of the delay phase is determined by the last received trigger. The pulse width phase is not retriggerable, ie a fixed pulse width always occurs.
+
+EOP Trigger
+This is a trigger pulse generated at the end of the delayed pulse (end of pulse). This pulse may used for a variety of timing functions, such as cross-coupling with the EG to generate a cyclic signal with a zero-voltage segment, for cascading more than one unit or for other external timing applications.
+
 <img src = "./img/sergefritz_2_2.png" width="50%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
 1. Envelope delay time input (DC INPUT)
@@ -1583,6 +1651,9 @@ The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
 
 The **Chaos Generator and Quadrature Oscillator** ...
 
+The main function of this module is a versatile chaotic signal generator (CG). Chaotic signals are signals that have varying degrees of interesting irregularity without actually becoming random. This CG is an analog electronic simulation of the classical driven double potential-well problem, with the addition of extra gain in the circuit loop, and an extra cross-coupling path to extend the range of chaotic patterns available. The double-well system is a second-order system and therefore requires an external driving signal. This is provided by the second part of the module, a sinusoidal quadrature oscillator (QO). The two parts of the module may be used together or separately. The CG may be driven by any output of the built-in QO or by any external oscillator. The QO may drive the CG or be used independently as a four phase oscillator for the usual spatial modulation and other applications.
+The QO has a frequency span of ~0.03 Hz to ~3 kHz in two overlapping ranges.
+
 <img src = "./img/sergefritz_2_3.png" width="20%" title="ChaQuO" alt="ChaQuO">
 
 1. Chaos rate knob
@@ -1609,6 +1680,10 @@ The **Chaos Generator and Quadrature Oscillator** ...
 
 The **Dual Threshold/Gate/Trigger/Sample/Hold** ...
 
+This is a circuit that combines two important synthesizer functions. It produces trigger and gate signals whenever a "timing" signal input crosses a user-defined threshold. At the same time, the trigger pulse fires a high-performance sample-and-hold circuit that samples a second "main" signal input. Two of these circuits are contained on a single board.
+
+This module may be used as a regular sample-and-hold circuit, if the sampling pulse is fed to the Timing Signal input and the signal to be sampled is fed into the Main Signal input. It also makes a great variable-threshold trigger generator.
+
 <img src = "./img/sergefritz_2_4.png" width="20%" title="Dual TGTSH" alt="Dual TGTSH">
 
 1. Threshold CV input (DC INPUT)
@@ -1627,6 +1702,8 @@ The **Dual Threshold/Gate/Trigger/Sample/Hold** ...
 
 The **All-In Envelope Generator** ...
 
+This novel envelope generator (EG) provides a versatile, cost-effective alternative to other designs. It will take just about any signal you feed it and generate an envelope. For example, its main input can accept either a trigger or a gate signal. Driven by a trigger pulse, the unit's output is an attack-decay (AD) envelope; driven by a gate its output is an attack-release (AR) envelope. And you can even use a continuous signal like an LFO for the gate! An auxilliary circuit produces a delayed, fixed-width pulse (monostable, or "Mono") which also drives the EG circuitry. This pulse may be initiated by any signal with a positive-going 1.5 V crossing, for example, a trigger pulse or a waveform from an LFO, noise source or chaos generator. A dedicated output jack for the pulse generator allows other, independent, timing applications.
+
 <img src = "./img/sergefritz_2_5.png" width="10%" title="All-In EG" alt="All-In EG">
 
 1. Monostable delay CV/triggeer input (DC INPUT)
@@ -1644,6 +1721,8 @@ The **All-In Envelope Generator** ...
 #### Chaotica
 
 The **Chaotica** ...
+
+This circuit is a multi-featured, autonomous, third-order chaos-generating circuit. Its features include (1) a third order response with a total of four nonlinear elements in the circuit path, (2) switch selectable nonlinear elements, (3) voltage control of rate, loop damping, gain and offset, and (4) a reset/inhibit input which allows the system to be set to zero voltage at all three integration stages.
 
 <img src = "./img/sergefritz_2_6.png" width="60%" title="Chaotica" alt="Chaotica">
 
