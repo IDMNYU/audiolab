@@ -1369,7 +1369,7 @@ The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electron
 
 #### DoubleDeka Ultrasonic VCO
 
-The **DoubleDeka Ultrasonic VCO** was Ian Fritz's first [published synthesizer circuit](http://ijfritz.byethost4.com/DD_web.pdf). Unlike most modern VCOs, this design uses an ultrasonic oscillator core - the primary oscillator is above the range of human hearing. A pair of frequency dividers allow you to lower the pitch into two (subharmonically related) frequencies, each of which is then synthesized by a ten-step waveform outlined by the slide potentiometers on the interface. These slider banks represent actual steps in the output wave, similar to a breakpoint function generator such as the [Buchla MARF](https://modularsynthesis.com/roman/buchla248/248marf.htm), and unlike organ drawbars, where the sliders would represent the strengths of different harmonics in the signal. At a low (subsonic) frequency, this means that the module can serve as a dual, frequency-synchronized 10-step sequencer with the oscillator output used to drive another parameter elsewhere on the Serge system.
+The **DoubleDeka Ultrasonic VCO** was Ian Fritz's first [published synthesizer circuit](http://ijfritz.byethost4.com/DD_web.pdf). Unlike most modern VCOs, this design uses an ultrasonic oscillator core - the primary oscillator is above the range of human hearing. A pair of frequency dividers allow you to lower the pitch into two (subharmonically related) frequencies, each of which is then synthesized by a ten-step waveform outlined by the slide potentiometers on the interface. These slider banks represent actual steps in the output wave, similar to a breakpoint function generator such as the [Buchla MARF](https://modularsynthesis.com/roman/buchla248/248marf.htm), and unlike organ drawbars, where the sliders would represent the strengths of different harmonics in the signal.
 
 Early synthesizers (and some electric organs) used ultrasonic oscillators (electronic or mechanical), and would generate an audible frequency either through frequency division or [heterodyning](https://en.wikipedia.org/wiki/Heterodyne), in a manner similar to a Theremin. Fritz's technique is designed to be more stable and accurate over a wide range of frequencies than traditional VCO designs. In addition, the DoubleDeka contains an unusual oscillator sync circuit and a "digital" ring modulator that allow for the creation of a wide range of sounds.
 
@@ -1395,7 +1395,8 @@ Early synthesizers (and some electric organs) used ultrasonic oscillators (elect
 18. High frequency oscillator core output (AC OUTPUT)
 
 *Notes:*
-- foo
+- The DoubleDeka VCO is considerably more precise and stable than most analog VCO circuits, due to Fritz's research into [temperature compensation](http://ijfritz.byethost4.com/sy_cir7.htm) circuitry.
+- At a low (subsonic) frequency, the DoubleDeka can serve as a dual, frequency-synchronized 10-step sequencer with the oscillator output used to drive another parameter elsewhere on the Serge system.
 
 #### Teezer TZFM VCO
 
@@ -1421,7 +1422,7 @@ The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowi
 14. Sawtooth waveform output (AC OUTPUT)
 
 *Notes:*
-- foo
+- The Teezer VCO is considerably more precise and stable than regular analog VCO circuits, due to Fritz's research into [temperature compensation](http://ijfritz.byethost4.com/sy_cir7.htm) circuitry.
 
 #### Wavolver II
 
@@ -1476,7 +1477,7 @@ The **Wavolver II** is one of Fritz's unique [waveshaping circuits](http://ijfri
 11. Folded signal mix knob
 
 *Notes:*
-- foo
+- The Wavolver can work with control voltage input as well as audio, allowing you to use it to transform and distort e.g. a parameter for use elsewhere in the system.
 
 #### Threeler VCF
 
@@ -1500,7 +1501,8 @@ The **Threeler Voltage-Controlled Filter** is a three-stage series of first-orde
 14. Filter stage 3 output (AC OUTPUT)
 
 *Notes:*
-- foo
+- The Threeler, like the Serge Resonant Equalizer, is great for creating natural sounding resonation.
+- The filters in the Threeler, like the Serge VCFQ, can [self-oscillate](https://en.wikipedia.org/wiki/Self-oscillation) to create a sinusoidal output.
 
 #### 5Pulser Waveshaper
 
@@ -1516,7 +1518,7 @@ The **5Pulser Waveshaper**, like the Wavolver II, is one of Fritz's waveshaper d
 6. Waveshaper harmonic switches
 
 *Notes:*
-- foo
+- The 5Pulser can work with control voltage input as well as audio, allowing you to use it to transform and distort e.g. a parameter for use elsewhere in the system.
 
 #### Dual 2Q/4Q Multiplier
 
@@ -1535,11 +1537,11 @@ Fritz's **Dual 2Q/4Q Multiplier** is a module that multiplies a pair of AC or DC
 9. Y signal bias knob
 
 *Notes:*
-- foo
+- The 2Q/4Q Multiplier's selection switches (*5*, *6*, and *7*) allow you to choose whether to create amplitude or ring modulation effects *independently* of the type of input signal. In other words, unlike the Serge VCA and ring modulator circuits, a DC input can be used to ring modulate an AC carrier, or an AC signal can be used as an amplitude control without the artifacts caused by inverting the carrier signal.
 
 #### Mixer
 
-The **Mixer** on the Fritz panels, like the Mixer on the Random\*Source Serge, allows for the buffered scaling and mixing of multiple AC or DC signals. On Fritz' Mixer module, four inputs can be mixed with attenuation knobs, and the module offers both a regular output and an inverted one with the signal 180-degrees out of phase.
+The **Mixer** on the Fritz panels, like the Mixer on the Random\*Source Serge, allows for the buffered scaling and mixing of multiple AC or DC signals. On this Mixer module, four inputs can be mixed with attenuation knobs, and the module offers both a regular output and an inverted one with the signal 180-degrees out of phase.
 
 <img src = "./img/sergefritz_1_7.png" width="40%" title="Mixer" alt="Mixer">
 
@@ -1555,7 +1557,8 @@ The **Mixer** on the Fritz panels, like the Mixer on the Random\*Source Serge, a
 10. Inverted mixer output (AC OUTPUT)
 
 *Notes:*
-- foo
+- The knobs on Fritz's Mixer module are **logarithmic** rather than **linear** potentiometers, so 12 o’clock is half power (0.707), not half gain (0.5). 
+- The Fritz Mixer modules are **AC-coupled** and will filter out low-frequency DC signals and remove the offset of DC signals running at audio rate.
 
 ### Panel 2 (Chaos Theory)
 
@@ -1585,7 +1588,7 @@ The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowi
 14. Sawtooth waveform output (AC OUTPUT)
 
 *Notes:*
-- foo
+- The Teezer VCO is considerably more precise and stable than regular analog VCO circuits, due to Fritz's research into [temperature compensation](http://ijfritz.byethost4.com/sy_cir7.htm) circuitry.
 
 #### 4x4 AD/AR / Dual VCA / Mixer
 
@@ -1624,13 +1627,11 @@ The Dual VCA circuit consists of a pair of simple VCA circuits with AC input and
 
 *Notes:*
 - The input to the pulse delay is a DC signal input, and will trigger the delay based on a transition of 1.5V or more.
+- The Fritz Mixer modules are **AC-coupled** and will filter out low-frequency DC signals and remove the offset of DC signals running at audio rate.
 
 #### ChaQuO
 
-The **Chaos Generator and Quadrature Oscillator** ...
-
-The main function of this module is a versatile chaotic signal generator (CG). Chaotic signals are signals that have varying degrees of interesting irregularity without actually becoming random. This CG is an analog electronic simulation of the classical driven double potential-well problem, with the addition of extra gain in the circuit loop, and an extra cross-coupling path to extend the range of chaotic patterns available. The double-well system is a second-order system and therefore requires an external driving signal. This is provided by the second part of the module, a sinusoidal quadrature oscillator (QO). The two parts of the module may be used together or separately. The CG may be driven by any output of the built-in QO or by any external oscillator. The QO may drive the CG or be used independently as a four phase oscillator for the usual spatial modulation and other applications.
-The QO has a frequency span of ~0.03 Hz to ~3 kHz in two overlapping ranges.
+The Fritz **Chaos Generator and Quadrature Oscillator** is designed to generate chaotic signals, defined by Fritz as "signals that have varying degrees of interesting irregularity without actually becoming random." The [circuit](http://ijfritz.byethost4.com/Chaos/ChaQuO_board_doc.pdf) developed by Fritz uses a [quadrature oscillator](http://electronic-projects.50webs.com/quadrature-oscillator-circuit.htm) - which generates a sine and a cosine wave - to drive a circuit that simulates a [double potential-well](https://pdfs.semanticscholar.org/5e2c/50bedd4fedd174da2223d4280b99a2b7562b.pdf) problem in quantum mechanics, which exhibitss chaotic behavior. The module outputs three chaotic signals as well as the raw and inverteed signals for the quadrature oscillator.
 
 <img src = "./img/sergefritz_2_3.png" width="20%" title="ChaQuO" alt="ChaQuO">
 
@@ -1652,7 +1653,7 @@ The QO has a frequency span of ~0.03 Hz to ~3 kHz in two overlapping ranges.
 16. Inverted cosine quadrature output (AC OUTPUT) 
 
 *Notes:*
-- foo
+- The quadrature oscillator outputs can be used independently of the chaos generator for spatial control or other LFO tasks within the Serge system where it might be useful to have complimentary (90 degree out-of-phase) waveforms - when the sine wave peaks in either a positive or negative directions, the cosine wave is at zero, and vice versa.
 
 #### Dual TGTSH
 
@@ -1729,7 +1730,13 @@ This circuit is a multi-featured, autonomous, third-order chaos-generating circu
 
 #### 4x4 AD/AR / Dual VCA / Mixer
 
-The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
+The **4x4 (All-In Plus) Attack-Decay/Attack-Release** is an extension to the All-In EG module, and in many ways is Fritz's answer to the Serge Dual Universal Slope Generator - a [multi-function circuit](http://ijfritz.byethost4.com/sy_cir12_4x4.htm) that can be used as an envelope generator, an oscillator, or a monostable delay. The module as designed by Akin also includes a **Dual Voltage-Controlled Amplifier** and a four-input **Mixer**.
+
+The 4x4 AD/AR has four input modes and four output signals. A trigger/gate input with generate an envelope with an attack and decay (trigger) or release (gate) time set by the knobs. A manual trigger button can be used to generate an AR envelope as well. A pulse is generated at the end of the envelope, and a "cycle" switch allows the module to run as an oscillator either as an LFO or in the audible frequency range. 
+
+In addition, the module contains a pulse delay circuit, which can be used independently or to trigger the envelope generator. The delay is [monostable](https://en.wikipedia.org/wiki/Monostable), so a new trigger sent into the circuit before a delayed pulse is completed will rest the delay circuit.
+
+The Dual VCA circuit consists of a pair of simple VCA circuits with AC input and output, CV envelope input, and a bias control. The Mixer on this side of the panel has attenuation knobs and will mix up to four input signals, with regular and inverted signal outputs.
 
 <img src = "./img/sergefritz_2_7.png" width="60%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
@@ -1762,7 +1769,8 @@ The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
 27. Mixer inverted output (AC OUTPUT)
 
 *Notes:*
-- foo
+- The input to the pulse delay is a DC signal input, and will trigger the delay based on a transition of 1.5V or more.
+- The Fritz Mixer modules are **AC-coupled** and will filter out low-frequency DC signals and remove the offset of DC signals running at audio rate.
 
 [back to top](#top)
 
