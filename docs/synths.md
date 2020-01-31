@@ -1504,9 +1504,7 @@ The **Threeler Voltage-Controlled Filter** is a three-stage series of first-orde
 
 #### 5Pulser Waveshaper
 
-The **5Pulser Waveshaper** ...
-
-This circuit is a voltage-controlled waveshaper that produces a train of output pulses that may be varied in number, width and position in response to a control voltage. When fed with a sawtooth waveform, the pulses evolve from a single square wave to a train of five pulses occupying half a period or less of the output waveform. The switches S1-S4 allow different combinations of pulses to be used.
+The **5Pulser Waveshaper**, like the Wavolver II, is one of Fritz's waveshaper designs inspireed by "West Coast" synthesizer modules by Tcherepnin and Buchla. The [circuit](http://ijfritz.byethost4.com/sy_cir8.htm) is designed to take a sawtooth input and output [pulse trains](https://en.wikipedia.org/wiki/Pulse_wave) at different frequency combinations (set by switches). The resulting sound is an overdriven kind of effect. Like all waveshaper circuits, the 5Pulser is amplitude dependent, so a wide variety of effects can be acheived by using other input waveforms or sounds that change dynamically over time.
 
 <img src = "./img/sergefritz_1_5.png" width="40%" title="5Pulser Waveshaper" alt="5Pulser Waveshaper">
 
