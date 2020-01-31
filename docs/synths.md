@@ -1657,11 +1657,7 @@ The Fritz **Chaos Generator and Quadrature Oscillator** is designed to generate 
 
 #### Dual TGTSH
 
-The **Dual Threshold/Gate/Trigger/Sample/Hold** ...
-
-This is a circuit that combines two important synthesizer functions. It produces trigger and gate signals whenever a "timing" signal input crosses a user-defined threshold. At the same time, the trigger pulse fires a high-performance sample-and-hold circuit that samples a second "main" signal input. Two of these circuits are contained on a single board.
-
-This module may be used as a regular sample-and-hold circuit, if the sampling pulse is fed to the Timing Signal input and the signal to be sampled is fed into the Main Signal input. It also makes a great variable-threshold trigger generator.
+The **Dual Threshold/Gate/Trigger/Sample/Hold** is a Fritz [circuit](http://ijfritz.byethost4.com/Chaos/ch_cir3.htm) that combines a sample-and-hold circuit with a trigger/gate output that actuates based on comparing a timing signal crossing a threshold. This allows you to use an LFO signal to sample a secondary signal, drive a sequencer, or trigger an envelope. The module contains two identical halves.
 
 <img src = "./img/sergefritz_2_4.png" width="20%" title="Dual TGTSH" alt="Dual TGTSH">
 
@@ -1675,13 +1671,11 @@ This module may be used as a regular sample-and-hold circuit, if the sampling pu
 8. Sample-and-hold output (CV OUTPUT)
 
 *Notes:*
-- foo
+- The TGTSH can take a pulse signal in its timing input, allowing it to be used as a simple sample-and-hold module similar to the Serge SSG.
 
 #### All-In EG
 
-The **All-In Envelope Generator** ...
-
-This novel envelope generator (EG) provides a versatile, cost-effective alternative to other designs. It will take just about any signal you feed it and generate an envelope. For example, its main input can accept either a trigger or a gate signal. Driven by a trigger pulse, the unit's output is an attack-decay (AD) envelope; driven by a gate its output is an attack-release (AR) envelope. And you can even use a continuous signal like an LFO for the gate! An auxilliary circuit produces a delayed, fixed-width pulse (monostable, or "Mono") which also drives the EG circuitry. This pulse may be initiated by any signal with a positive-going 1.5 V crossing, for example, a trigger pulse or a waveform from an LFO, noise source or chaos generator. A dedicated output jack for the pulse generator allows other, independent, timing applications.
+The **All-In Envelope Generator** is a simple attack-decay or attack-decay-release envelope generator that can be driven by a trigger/gate signal or, through a secondary circuit, by any input signal that crosses a positive 1.5V threshold. The DC input, in addition, runs through a monostable delay circuit, allowing an envelope to be triggered some time after a threshold event.
 
 <img src = "./img/sergefritz_2_5.png" width="10%" title="All-In EG" alt="All-In EG">
 
@@ -1695,13 +1689,11 @@ This novel envelope generator (EG) provides a versatile, cost-effective alternat
 8. Envelope signal (DC OUTPUT)
 
 *Notes:*
-- foo
+- The monostable input *1* will trigger the envelope generator if the pulse output *4* is connected to the EG trigger input *5* via a shorting bar.
 
 #### Chaotica
 
-The **Chaotica** ...
-
-This circuit is a multi-featured, autonomous, third-order chaos-generating circuit. Its features include (1) a third order response with a total of four nonlinear elements in the circuit path, (2) switch selectable nonlinear elements, (3) voltage control of rate, loop damping, gain and offset, and (4) a reset/inhibit input which allows the system to be set to zero voltage at all three integration stages.
+The **Chaotica** circuit by Ian Fritz generates [complex control voltages](http://ijfritz.byethost4.com/Chaos/ch_cir6_chaotica.htm) through a series of nonlinear elements that can be controlled independently via a variety of parameterss to create three chaotic CV signals.
 
 <img src = "./img/sergefritz_2_6.png" width="60%" title="Chaotica" alt="Chaotica">
 
@@ -1726,7 +1718,7 @@ This circuit is a multi-featured, autonomous, third-order chaos-generating circu
 19. Z chaos output (DC OUTPUT)
 
 *Notes:*
-- foo
+- The Chaotica module is designed to generate signal curves that simulate the chaotic systems theorized by [Henri Poincaré](https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9).
 
 #### 4x4 AD/AR / Dual VCA / Mixer
 
