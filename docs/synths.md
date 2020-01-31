@@ -1371,7 +1371,7 @@ The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electron
 
 The **DoubleDeka Ultrasonic VCO** was Ian Fritz's first [published synthesizer circuit](http://ijfritz.byethost4.com/DD_web.pdf). Unlike most modern VCOs, this design uses an ultrasonic oscillator core - the primary oscillator is above the range of human hearing. A pair of frequency dividers allow you to lower the pitch into two (subharmonically related) frequencies, each of which is then synthesized by a ten-step waveform outlined by the slide potentiometers on the interface. These slider banks represent actual steps in the output wave, similar to a breakpoint function generator such as the [Buchla MARF](https://modularsynthesis.com/roman/buchla248/248marf.htm), and unlike organ drawbars, where the sliders would represent the strengths of different harmonics in the signal. At a low (subsonic) frequency, this means that the module can serve as a dual, frequency-synchronized 10-step sequencer with the oscillator output used to drive another parameter elsewhere on the Serge system.
 
-Early synthesizers (and some electric organs) used ultrasonic oscillators (electronic or mechanical), and would generate a lower frequency either through frequency division or [heterodyning](https://en.wikipedia.org/wiki/Heterodyne), in a manner similar to a Theremin. Fritz's technique is designed to be more stable and accurate over a wide range of frequencies than traditional VCO designs. In addition, the DoubleDeka contains an unusual oscillator sync circuit and a "digital" ring modulator that allow for the creation of a wide range of sounds.
+Early synthesizers (and some electric organs) used ultrasonic oscillators (electronic or mechanical), and would generate an audible frequency either through frequency division or [heterodyning](https://en.wikipedia.org/wiki/Heterodyne), in a manner similar to a Theremin. Fritz's technique is designed to be more stable and accurate over a wide range of frequencies than traditional VCO designs. In addition, the DoubleDeka contains an unusual oscillator sync circuit and a "digital" ring modulator that allow for the creation of a wide range of sounds.
 
 <img src = "./img/sergefritz_1_1.png" width="70%" title="DoubleDeka Ultrasonic VCO" alt="DoubleDeka Ultrasonic VCO">
 
@@ -1425,21 +1425,41 @@ The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowi
 
 #### Wavolver II
 
-The **Wavolver II** ...
+The **Wavolver II** is one of Fritz's unique [waveshaping circuits](http://ijfritz.byethost4.com/sy_cir6.htm), designed in the spirit of Tcherepnin's Wave Multipiers and Triple Waveshaper. Akin's description of the module explains:
 
-The Wavolver is a novel, versatile waveshaper that generates a special kind of double-pulse waveform along with an extra folded-wave section added between the pulses. It generates a wide range of timbres from a gentle sine or triangle wave to a very rich signal with multiple zero-crossings per cycle.
-
-The module can be driven by any continuously varying signal. For simplicity let's assume a Tri wave at the input. The circuitry works by only passing the input signal when its amplitude (positive or negative) is above a threshold set by the Pulse Width control. When it's below the threshold the output signal is zero. This is shown on the left side of the following figure. The signal consists of steeple-shaped pulses that can be swept from narrow for high harmonic content to full width, which results in a triangle wave ("Width" and "Width mod" controls). This represents a wider range of timbres than from the familiar rectangular pulse generators, which give a square waves at full width.
-
-In addition to the double-pulse generator, the Wavolver has circuitry to generate a series of evolving folded waves between the pulses. These are mixed into the output via the "Fold mix" control. The right side of the above figure illustrates the folding at a 50% level for two different pulse widths. The folder output is available separately to allow individual processing of the double pulses and the folds.
-
-The double-pulse signal consists of a positive pulse and a negative one, and the resulting signal has odd harmonics only. The capability to produce waves with strong, odd-only harmonics is practically never seen in classical VCO/waveshaper designs. There is a wide area of timber space available here that has been largely ignored. Adding the folder output produces high-energy even harmonics in the signal's spectrum.
-
-In the Wavolver II there are several ways to modify the basic waveforms discussed above. First, the amplitude of the second pulse can be continuously tuned from -5V (as shown above) to +5V ("Pulse 2 amp" control). At full positive amplitude, the signal has two identical positive pulses, resulting in a signal at twice the frequency of the driving signal. Waves with the second harmonic stronger than the fundamental are musically useful, as some acoustic instruments (bowed strings) share this characteristic.
-
-Another way to change the basic waveforms is to add a DC voltage offset to the input signal ("Offset" and "Offset mod" controls). A positive offset makes the first pulse stronger and wider and at the same time it make the second pulse weaker and narrower. Again, this adds even harmonics into the output spectrum and results in some interesting timbres, especially when modulated. The graphic below illustrates these modifications.
-
-Finally, the waveshape can be modulated by modulating the input waveform.
+> The Wavolver is a novel, versatile waveshaper that generates a special kind of double-pulse waveform along with an extra 
+> folded-wave section added between the pulses. It generates a wide range of timbres from a gentle sine or triangle wave to a 
+> very rich signal with multiple zero-crossings per cycle.
+> 
+> The module can be driven by any continuously varying signal. For simplicity let's assume a Tri wave at the input. The 
+> circuitry works by only passing the input signal when its amplitude (positive or negative) is above a threshold set by the 
+> Pulse Width control. When it's below the threshold the output signal is zero. This is shown on the left side of the 
+> following figure. The signal consists of steeple-shaped pulses that can be swept from narrow for high harmonic content to 
+> full width, which results in a triangle wave ("Width" and "Width mod" controls). This represents a wider range of timbres 
+> than from the familiar rectangular pulse generators, which give a square waves at full width.
+> 
+> In addition to the double-pulse generator, the Wavolver has circuitry to generate a series of evolving folded waves between 
+> the pulses. These are mixed into the output via the "Fold mix" control. The right side of the above figure illustrates the 
+> folding at a 50% level for two different pulse widths. The folder output is available separately to allow individual 
+> processing of the double pulses and the folds.
+> 
+> The double-pulse signal consists of a positive pulse and a negative one, and the resulting signal has odd harmonics only. 
+> The capability to produce waves with strong, odd-only harmonics is practically never seen in classical VCO/waveshaper 
+> designs. There is a wide area of timber space available here that has been largely ignored. Adding the folder output 
+> produces high-energy even harmonics in the signal's spectrum.
+> 
+> In the Wavolver II there are several ways to modify the basic waveforms discussed above. First, the amplitude of the second 
+> pulse can be continuously tuned from -5V (as shown above) to +5V ("Pulse 2 amp" control). At full positive amplitude, the 
+> signal has two identical positive pulses, resulting in a signal at twice the frequency of the driving signal. Waves with 
+> the second harmonic stronger than the fundamental are musically useful, as some acoustic instruments (bowed strings) share 
+> this characteristic.
+> 
+> Another way to change the basic waveforms is to add a DC voltage offset to the input signal ("Offset" and "Offset mod" 
+> controls). A positive offset makes the first pulse stronger and wider and at the same time it make the second pulse weaker 
+> and narrower. Again, this adds even harmonics into the output spectrum and results in some interesting timbres, especially 
+> when modulated. The graphic below illustrates these modifications.
+> 
+> Finally, the waveshape can be modulated by modulating the input waveform.
 
 <img src = "./img/sergefritz_1_3.png" width="50%" title="Wavolver II" alt="Wavolver II">
 
@@ -1460,15 +1480,7 @@ Finally, the waveshape can be modulated by modulating the input waveform.
 
 #### Threeler VCF
 
-The **Threeler Voltage-Controlled Filter** ...
-
-This filter design is different from the usual filters found in analog synths. It consists of three first-order filter sections that can be switched between either high-pass or low-pass response. A four-position mode switch allows selection among four different combinations of these responses. A voltage-controlled resonance amplifier allows operation of the filter well beyond the onset of oscillations. In this regime the circuit's nonlinearities provide a wide variety of phase-locking and chaotic outputs. Signals are available from all three filter sections to provide the widest variety of waveforms and filter responses.
-
-Below is a highly schematic diagram of the operation of the different modes of the device. The three rectangles indicate the three filter stages, each with a lowpass and a highpass input. The triangle represents the clipped variable gain stage that provides the resonance feedback.
-
-With a low resonance setting, mode 1 is a third order lowpass filter, with outputs available from the first, second, and third order circuit points. Similarily, mode 4 is a third order highpass filter. Modes 1 and 2 are types of bandpass filters with different slopes above and below the center frequency.
-
-With a high setting of the resonance control the filter will self-oscillate in all four modes, with a variety of waveshapes depending on the filter mode and output stage used, as well as on the resonance setting. Using high resonance along with an input signal results in many interesting waveforms due to phase locking and other nonlinear effects. These are most easily produced by using a relatively low input gain. With four modes and three outputs there is plenty of interesting nonlinear territory to explore.
+The **Threeler Voltage-Controlled Filter** is a three-stage series of first-order [state-variable](https://en.wikipedia.org/wiki/State_variable_filter) filters where each stage can be tapped independently and chained together in either highpass or lowpass configurations. This allows you to combine the stages to create highly resonant lowpass, highpass, and bandpass topologies while also having access to outputs of the individual filters. As Fritz outlines in the module's [design document](http://ijfritz.byethost4.com/Threeler_board_doc.pdf), the Threeler's filter circuit emphasizes nonlinear resonances and is intended to be used creatively, rather than as an equalization module.
 
 <img src = "./img/sergefritz_1_4.png" width="50%" title="Threeler VCF" alt="Threeler VCF">
 
