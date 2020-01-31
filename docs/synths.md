@@ -1359,7 +1359,7 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 <img src = "./img/sergefritz_photo.jpg" width="100%" title="Ian Fritz Serge panels" alt="Ian Fritz Serge panels">
 
-The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog synthesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modules contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite numbere of ways.
+The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog synthesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modules contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite number of ways.
 
 *Note: The Fritz panels deviate from the Serge standard somewhat in terms of panel layout and user interface conventions. Paul Akin's implementation of Fritz's designs include a number of UI elements - sliders, ten-turn dials, stepped potentiometers - that don't appear on "original" Serge equipment. More importantly, the Fritz modules are not always contained in vertical slices, and the layout of "outputs over inputs" on a module is not followed - in fact, it's often reversed, with module outputs at the bottom of the panel in a layout similiar to many Eurorack systems. When working with the Fritz panels, you may need to double-check your connections to make sure your inputs and outputs are correct.*
 
@@ -1520,17 +1520,13 @@ The **5Pulser Waveshaper**, like the Wavolver II, is one of Fritz's waveshaper d
 
 #### Dual 2Q/4Q Multiplier
 
-The **Dual 2Q/4Q Multiplier** ...
-
-An analog multiplier that can be switched between two-quadrant and four-quadrant operation. As an analog synthesizer module it can thus function as a voltage-controlled amplifier (VCA) or as a ring modulator (RM). The circuit board for this project carries two copies of the 2Q/4Q circuit plus an independent four-input mixer with standard and inverted outputs.
-
-Operation is the same as other VCA and RM modules. As a standard VCA, audio goes into the X input and control voltage goes into the Y input. The Bias control can give the VCA an "initial"gain, useful for AM applications, such as tremolo, etc. As a RM, the "carrier" goes into the Y input, and may be mixed into the output with the Bias control. At full bias, the output is just the carrier signal with no modulation.
+Fritz's **Dual 2Q/4Q Multiplier** is a module that multiplies a pair of AC or DC signals for use as either a standard VCA ("two-quadrant") or as a [ring modulator](https://en.wikipedia.org/wiki/Ring_modulation) ("four-quadrant"). A bias control allows for amplitude modulation effects such as tremolo. The module contains two identical circuits.
 
 <img src = "./img/sergefritz_1_6.png" width="40%" title="Dual 2Q/4Q Multiplier" alt="Dual 2Q/4Q Multiplier">
 
-1. X signal input (AC INPUT)
+1. X signal input (AC or DC INPUT - set by *6*)
 2. X signal scaling knob
-3. Y signal input (AC INPUT)
+3. Y signal input (AC or DC INPUT - set by *7*)
 4. Y signal scaling knob
 5. 2-quadrant / 4-quadrant mode switch
 6. X AC/DC switch
@@ -1543,7 +1539,7 @@ Operation is the same as other VCA and RM modules. As a standard VCA, audio goes
 
 #### Mixer
 
-The **Mixer** ...
+The **Mixer** on the Fritz panels, like the Mixer on the Random\*Source Serge, allows for the buffered scaling and mixing of multiple AC or DC signals. On Fritz' Mixer module, four inputs can be mixed with attenuation knobs, and the module offers both a regular output and an inverted one with the signal 180-degrees out of phase.
 
 <img src = "./img/sergefritz_1_7.png" width="40%" title="Mixer" alt="Mixer">
 
