@@ -1371,7 +1371,7 @@ The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electron
 
 The **DoubleDeka Ultrasonic VCO** was Ian Fritz's first [published synthesizer circuit](http://ijfritz.byethost4.com/DD_web.pdf). Unlike most modern VCOs, this design uses an ultrasonic oscillator core - the primary oscillator is above the range of human hearing. A pair of frequency dividers allow you to lower the pitch into two (subharmonically related) frequencies, each of which is then synthesized by a ten-step waveform outlined by the slide potentiometers on the interface. These slider banks represent actual steps in the output wave, similar to a breakpoint function generator such as the [Buchla MARF](https://modularsynthesis.com/roman/buchla248/248marf.htm), and unlike organ drawbars, where the sliders would represent the strengths of different harmonics in the signal.
 
-Early synthesizers (and some electric organs) used ultrasonic oscillators (electronic or mechanical), and would generate an audible frequency either through frequency division or [heterodyning](https://en.wikipedia.org/wiki/Heterodyne), in a manner similar to a Theremin. Fritz's technique is designed to be more stable and accurate over a wide range of frequencies than traditional VCO designs. In addition, the DoubleDeka contains an unusual oscillator sync circuit and a "digital" ring modulator that allow for the creation of a wide range of sounds.
+Early synthesizers (and some electric organs) used electronic or mechanical ultrasonic oscillators, and would generate an audible frequency either through frequency division or [heterodyning](https://en.wikipedia.org/wiki/Heterodyne), in a manner similar to a Theremin. Fritz's technique is designed to be more stable and accurate over a wide range of frequencies than traditional VCO designs. In addition, the DoubleDeka contains an unusual oscillator sync circuit and a "digital" ring modulator that allow for the creation of a wide range of sounds.
 
 <img src = "./img/sergefritz_1_1.png" width="70%" title="DoubleDeka Ultrasonic VCO" alt="DoubleDeka Ultrasonic VCO">
 
@@ -1400,7 +1400,7 @@ Early synthesizers (and some electric organs) used ultrasonic oscillators (elect
 
 #### Teezer TZFM VCO
 
-The **Teezer Through-Zero FM VCO** is Fritz's design for a sawtooth-core VCO that can do true, bipolar (or "through zero") [frequency modulation](https://en.wikipedia.org/wiki/Frequency_modulation), using an entirely analog signal path. Typical analog FM circuits were designed to create sonic effects ranging from vibrato to noisy, warped timbres using a second oscillator as a modulating source. These signals typically summed into the existing DC voltage chain controlling the oscillator's frequency, meaning that they only modulated the oscillator in a positive direction. To generate "true" [FM synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis), as developed by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) and most famously implemented on *digital* synthesizers such as the [Yamaha DX7](https://en.wikipedia.org/wiki/Yamaha_DX7), the frequency of the primary oscillator needs to be able to go negative as well. 
+The **Teezer Through-Zero FM VCO** is Fritz's design for a sawtooth-core oscillator that can do true, bipolar (or "through zero") [frequency modulation](https://en.wikipedia.org/wiki/Frequency_modulation), using an entirely analog signal path. Typical analog FM circuits were designed to create sonic effects ranging from vibrato to noisy, warped timbres using a second oscillator as a modulating source. These signals typically summed into the existing DC voltage chain controlling the oscillator's frequency, meaning that they only modulated the oscillator in a positive direction. To generate "true" [FM synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis), as developed by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) and most famously implemented on *digital* synthesizers such as the [Yamaha DX7](https://en.wikipedia.org/wiki/Yamaha_DX7), the frequency of the primary oscillator needs to be able to go negative as well. 
 
 The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowing for bipolar FM, can be used to synthesize sounds with the full repertoire of FM effects, including rich sidebands that behave in a nonlinear fashion that can be used to create brassy tones, bell sounds, and other rich, time-varying spectra. The VCO has outputs for triangle, sine, and sawtooth waveforms, and ten-turn precision dials can be used to set the base frequency of both the primary oscillator and the FM circuitry.
 
@@ -1426,7 +1426,7 @@ The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowi
 
 #### Wavolver II
 
-The **Wavolver II** is one of Fritz's unique [waveshaping circuits](http://ijfritz.byethost4.com/sy_cir6.htm), designed in the spirit of Tcherepnin's Wave Multipiers and Triple Waveshaper. Akin's description of the module explains:
+The **Wavolver II** is one of Fritz's unique [waveshaping circuits](http://ijfritz.byethost4.com/sy_cir6.htm), designed in the spirit of Tcherepnin's Wave Multipiers and Triple Waveshaper, as well as the wavefolder circuit on the Buchla Music Easel. Akin's description of the module explains:
 
 > The Wavolver is a novel, versatile waveshaper that generates a special kind of double-pulse waveform along with an extra 
 > folded-wave section added between the pulses. It generates a wide range of timbres from a gentle sine or triangle wave to a 
@@ -1537,11 +1537,11 @@ Fritz's **Dual 2Q/4Q Multiplier** is a module that multiplies a pair of AC or DC
 9. Y signal bias knob
 
 *Notes:*
-- The 2Q/4Q Multiplier's selection switches (*5*, *6*, and *7*) allow you to choose whether to create amplitude or ring modulation effects *independently* of the type of input signal. In other words, unlike the Serge VCA and ring modulator circuits, a DC input can be used to ring modulate an AC carrier, or an AC signal can be used as an amplitude control without the artifacts caused by inverting the carrier signal.
+- The 2Q/4Q Multiplier's selection switches (*5*, *6*, and *7*) allow you to choose whether to create amplitude or ring modulation effects *independently* of the type of input signals your using. In other words, unlike the Serge VCA and ring modulator circuits, a DC input can be used to ring modulate an AC carrier, or an AC signal can be used as an amplitude envelope without the artifacts caused by inverting the carrier signal.
 
 #### Mixer
 
-The **Mixer** on the Fritz panels, like the Mixer on the Random\*Source Serge, allows for the buffered scaling and mixing of multiple AC or DC signals. On this Mixer module, four inputs can be mixed with attenuation knobs, and the module offers both a regular output and an inverted one with the signal 180-degrees out of phase.
+The **Mixer** on the Fritz panels, like the Mixer on the Random\*Source Serge, allows for the buffered scaling and mixing of multiple AC signals. On this Mixer module, four inputs can be mixed with attenuation knobs, and the module offers both a regular output and an inverted one with the signal 180-degrees out of phase.
 
 <img src = "./img/sergefritz_1_7.png" width="40%" title="Mixer" alt="Mixer">
 
@@ -1566,7 +1566,7 @@ The **Mixer** on the Fritz panels, like the Mixer on the Random\*Source Serge, a
 
 #### Teezer TZFM VCO
 
-The **Teezer Through-Zero FM VCO** is Fritz's design for a sawtooth-core VCO that can do true, bipolar (or "through zero") [frequency modulation](https://en.wikipedia.org/wiki/Frequency_modulation), using an entirely analog signal path. Typical analog FM circuits were designed to create sonic effects ranging from vibrato to noisy, warped timbres using a second oscillator as a modulating source. These signals typically summed into the existing DC voltage chain controlling the oscillator's frequency, meaning that they only modulated the oscillator in a positive direction. To generate "true" [FM synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis), as developed by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) and most famously implemented on *digital* synthesizers such as the [Yamaha DX7](https://en.wikipedia.org/wiki/Yamaha_DX7), the frequency of the primary oscillator needs to be able to go negative as well. 
+The **Teezer Through-Zero FM VCO** is Fritz's design for a sawtooth-core oscillator that can do true, bipolar (or "through zero") [frequency modulation](https://en.wikipedia.org/wiki/Frequency_modulation), using an entirely analog signal path. Typical analog FM circuits were designed to create sonic effects ranging from vibrato to noisy, warped timbres using a second oscillator as a modulating source. These signals typically summed into the existing DC voltage chain controlling the oscillator's frequency, meaning that they only modulated the oscillator in a positive direction. To generate "true" [FM synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis), as developed by [John Chowning](https://en.wikipedia.org/wiki/John_Chowning) and most famously implemented on *digital* synthesizers such as the [Yamaha DX7](https://en.wikipedia.org/wiki/Yamaha_DX7), the frequency of the primary oscillator needs to be able to go negative as well. 
 
 The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowing for bipolar FM, can be used to synthesize sounds with the full repertoire of FM effects, including rich sidebands that behave in a nonlinear fashion that can be used to create brassy tones, bell sounds, and other rich, time-varying spectra. The VCO has outputs for triangle, sine, and sawtooth waveforms, and ten-turn precision dials can be used to set the base frequency of both the primary oscillator and the FM circuitry.
 
@@ -1594,11 +1594,11 @@ The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowi
 
 The **4x4 (All-In Plus) Attack-Decay/Attack-Release** is an extension to the All-In EG module, and in many ways is Fritz's answer to the Serge Dual Universal Slope Generator - a [multi-function circuit](http://ijfritz.byethost4.com/sy_cir12_4x4.htm) that can be used as an envelope generator, an oscillator, or a monostable delay. The module as designed by Akin also includes a **Dual Voltage-Controlled Amplifier** and a four-input **Mixer**.
 
-The 4x4 AD/AR has four input modes and four output signals. A trigger/gate input with generate an envelope with an attack and decay (trigger) or release (gate) time set by the knobs. A manual trigger button can be used to generate an AR envelope as well. A pulse is generated at the end of the envelope, and a "cycle" switch allows the module to run as an oscillator either as an LFO or in the audible frequency range. 
+The 4x4 AD/AR has four input modes and four output signals. A trigger/gate input will generate an envelope with an attack and decay (trigger) or release (gate) time set by the knobs. A manual trigger button can be used to generate an AR envelope as well. A pulse is generated at the end of the envelope, and a "cycle" switch allows the module to run as an oscillator either as an LFO or in the audible frequency range. 
 
 In addition, the module contains a pulse delay circuit, which can be used independently or to trigger the envelope generator. The delay is [monostable](https://en.wikipedia.org/wiki/Monostable), so a new trigger sent into the circuit before a delayed pulse is completed will rest the delay circuit.
 
-The Dual VCA circuit consists of a pair of simple VCA circuits with AC input and output, CV envelope input, and a bias control. The Mixer on this side of the panel has no attenuation knobs and will mix up to four input signals at [unity gain](https://en.wikipedia.org/wiki/1), with regular and inverted signal outputs.
+The Dual VCA circuit consists of a pair of signal amplifier circuits with AC input and output, CV envelope input, and a bias control. The Mixer on this side of the panel has no attenuation knobs and will mix up to four input signals at [unity gain](https://en.wikipedia.org/wiki/1), with regular and inverted signal outputs.
 
 <img src = "./img/sergefritz_2_2.png" width="50%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
@@ -1728,7 +1728,7 @@ The 4x4 AD/AR has four input modes and four output signals. A trigger/gate input
 
 In addition, the module contains a pulse delay circuit, which can be used independently or to trigger the envelope generator. The delay is [monostable](https://en.wikipedia.org/wiki/Monostable), so a new trigger sent into the circuit before a delayed pulse is completed will rest the delay circuit.
 
-The Dual VCA circuit consists of a pair of simple VCA circuits with AC input and output, CV envelope input, and a bias control. The Mixer on this side of the panel has attenuation knobs and will mix up to four input signals, with regular and inverted signal outputs.
+The Dual VCA circuit consists of a pair of signal amplifier circuits with AC input and output, CV envelope input, and a bias control. The Mixer on this side of the panel has attenuation knobs and will mix up to four input signals, with regular and inverted signal outputs.
 
 <img src = "./img/sergefritz_2_7.png" width="60%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
@@ -1762,6 +1762,7 @@ The Dual VCA circuit consists of a pair of simple VCA circuits with AC input and
 
 *Notes:*
 - The input to the pulse delay is a DC signal input, and will trigger the delay based on a transition of 1.5V or more.
+- The knobs on Fritz's Mixer module are **logarithmic** rather than **linear** potentiometers, so 12 o’clock is half power (0.707), not half gain (0.5). 
 - The Fritz Mixer modules are **AC-coupled** and will filter out low-frequency DC signals and remove the offset of DC signals running at audio rate.
 
 [back to top](#top)
