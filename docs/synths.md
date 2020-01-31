@@ -1589,37 +1589,13 @@ The [Teezer VCO](http://ijfritz.byethost4.com/teezer_board_a_doc.pdf), by allowi
 
 #### 4x4 AD/AR / Dual VCA / Mixer
 
-The **4x4 (All-In Plus) Attack-Decay/Attack-Release** ...
+The **4x4 (All-In Plus) Attack-Decay/Attack-Release** is an extension to the All-In EG module, and in many ways is Fritz's answer to the Serge Dual Universal Slope Generator - a [multi-function circuit](http://ijfritz.byethost4.com/sy_cir12_4x4.htm) that can be used as an envelope generator, an oscillator, or a monostable delay. The module as designed by Akin also includes a **Dual Voltage-Controlled Amplifier** and a four-input **Mixer**.
 
-This novel envelope generator (EG) provides a versatile, cost-effective alternative to other designs. It features four input modes and four output signals, so it is called the 4x4 EG. (It is an extension of the earlier All-In EG module.) Here's what it can do:
+The 4x4 AD/AR has four input modes and four output signals. A trigger/gate input with generate an envelope with an attack and decay (trigger) or release (gate) time set by the knobs. A manual trigger button can be used to generate an AR envelope as well. A pulse is generated at the end of the envelope, and a "cycle" switch allows the module to run as an oscillator either as an LFO or in the audible frequency range. 
 
-Input modes:
+In addition, the module contains a pulse delay circuit, which can be used independently or to trigger the envelope generator. The delay is [monostable](https://en.wikipedia.org/wiki/Monostable), so a new trigger sent into the circuit before a delayed pulse is completed will rest the delay circuit.
 
-Trigger/Gate
-This is the main input. It will take just about any signal you feed it. Driven by a trigger pulse, the unit's output is an attack-decay (AD) envelope. Driven by a gate its output is an attack-release (AR) envelope. And you can even use a continuous signal like an LFO for the gate.
-
-Cycle
-A pulse is generated at the end of the envelope decay/release and can be switched back to the input to produce a repetitive AD output signal.
-
-Manual Trigger
-A momentary push button switch on the panel generates an input trigger pulse to generate an AD envelope.
-
-Delayed Pulse
-An auxiliary circuit produces a delayed, fixed-width pulse, which may be switched to drives the EG circuitry (Pulse - EG). The pulse may be initiated by any signal with a positive-going 1.5 V crossing, for example, a trigger pulse or a waveform from an LFO etc
-
-Output signals:
-
-AD/AR
-This is the main envelope output.
-
-EOE Trigger
-A trigger pulse is generated when the envelope falls to near zero (end of envelope). This pulse may be feed back to the input to generate a cyclic signal, or may be used externally for cascading more than one unit or for other timing applications.
-
-Delayed Pulse
-The delayed pulser's output is available at the front panel, to use separately from or in conjunction with the EG itself. The delay time is retriggerable, ie if multiple triggers are received during the delay phase, the end of the delay phase is determined by the last received trigger. The pulse width phase is not retriggerable, ie a fixed pulse width always occurs.
-
-EOP Trigger
-This is a trigger pulse generated at the end of the delayed pulse (end of pulse). This pulse may used for a variety of timing functions, such as cross-coupling with the EG to generate a cyclic signal with a zero-voltage segment, for cascading more than one unit or for other external timing applications.
+The Dual VCA circuit consists of a pair of simple VCA circuits with AC input and output, CV envelope input, and a bias control. The Mixer on this side of the panel has no attenuation knobs and will mix up to four input signals at [unity gain](https://en.wikipedia.org/wiki/1), with regular and inverted signal outputs.
 
 <img src = "./img/sergefritz_2_2.png" width="50%" title="4x4 AD/AR" alt="4x4 AD/AR">
 
@@ -1647,7 +1623,7 @@ This is a trigger pulse generated at the end of the delayed pulse (end of pulse)
 22. Mixer inverted output (AC OUTPUT)
 
 *Notes:*
-- foo
+- The input to the pulse delay is a DC signal input, and will trigger the delay based on a transition of 1.5V or more.
 
 #### ChaQuO
 
