@@ -46,10 +46,10 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 
 ### Power
 
-The power for *everything* in the analog studio is controlled by a single switch, found on the Furman power conditioner on the black rack to the right:
+The power for *everything* in the analog studio is controlled by two switches, found on the Furman power conditioners on the black racks to the right:
 ![Furman Power Conditioner](./img/analogpower.jpg "Furman Power Conditioner")
-A green light on the conditioner will confirm that you've got power.
-**Please use this power switch (and nothing else) to turn on and off all the equipment in the analog studio.**
+A green light on each conditioner will confirm that you've got power.
+**Please use these power switches (and nothing else) to turn on and off all the equipment in the analog studio.**
 
 ### Mixer
 
@@ -73,8 +73,10 @@ The rest of the mixer consists of 8 additional inputs in stereo pairs and are wi
 | ------------- | --- |
 | 5/6            | the left and right outputs of the "DONKS" module on Panel 5 of the R\*S Serge. |
 | 7/8            | the left and right output of the TTSH Mixer section. |
-| 9/10           | a cable connected that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
-| 11/12          | empty. |
+| 9/10           | the stereo output of the Vermona DRM1 drum synthesizer. |
+| 11/12          | the output of the Theremin. |
+
+In addition, a cable is connected to the mixer's "CD/tape input" RCA jacks that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection.
 
 > \* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). In the USA, they are incorrectly referred to as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
 
