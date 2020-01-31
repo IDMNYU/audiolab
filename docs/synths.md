@@ -1923,13 +1923,13 @@ The **Shelfisequencer**...
 
 <img src = "./img/shelfisequencer_1.png" width="100%" title="Shelfisequencer" alt="Shelfisequencer">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+1. Trigger inputs for rows A, B, and C (Pulse INPUT)
+2. Lookup inputs for rows A, B, and C (DC INPUT)
+3. Three-way mode switch 1 (Trigger, gate, constant)
+4. Three-way mode switch 2 (Direct drive, absolute, relative)
+5. Three-way mode switch 3 (Regular, horizontal loop, vertical loop)
+6. Sequence stage outputs (Pulse OUTPUT)
+7. Reset button
 
 *Notes:*
 - foo.
