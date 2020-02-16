@@ -1923,20 +1923,25 @@ An analog shift register functions as a cascading sample-and-hold, where a sampl
 
 #### Shelfisequencer
 
-The **Shelfisequencer**...
+The **Shelfisequencer** is a three-row trigger/gate sequencer panel, modeled after the original 1973 Serge ["gate" sequencer](http://www.serge.synth.net/modules/r16_seq/index.html) and successive designs by [Ken Stone](https://www.elby-designs.com/webtek/cgs/cgs89/cgs89_gate_sequencer.html). The panel has three trigger inputs and three CV inputs which, depending on the selected mode of operation, allow it to be used as a standard step sequencer or a CV-controlled triggering device, with three different firing patterns. The red and white jacks on the right send out 5 volt pulses in turn - by stacking banana cables in the outputs you can design complex rhythmic patterns.
 
 <img src = "./img/shelfisequencer_1.png" width="100%" title="Shelfisequencer" alt="Shelfisequencer">
 
 1. Trigger inputs for rows A, B, and C (Pulse INPUT)
-2. Lookup inputs for rows A, B, and C (DC INPUT)
-3. Three-way mode switch 1 (Trigger, gate, constant)
-4. Three-way mode switch 2 (Direct drive, absolute, relative)
-5. Three-way mode switch 3 (Regular, horizontal loop, vertical loop)
+2. CV inputs for rows A, B, and C (DC INPUT)
+3. Three-way mode switch 1 (Gate, trigger, unique trigger)
+4. Three-way mode switch 2 (Index, direct drive, direction)
+5. Three-way mode switch 3 (Horizontal scroll, regular, vertical scroll)
 6. Sequence stage outputs (Pulse OUTPUT)
 7. Reset button
 
 *Notes:*
-- foo.
+- The Shelfisequencer panel is great for triggering envelopes, advancing clocks, or triggering sounds on the DRM1 drum synthesizer. It works naturally with any Serge clock source (such as a Dual Slopes). The Serge Pulse Divider module can be used with the Shelfisequencer to have each row advance at a different - but rhythmically related - speed.
+- The Shelfisequencer has three 3-way switches (*3*, *4*, and *5*) which determine how it operates:
+   - Mode switch 1 (*3*) controls whether the panel outputs trigger pulses (CENTER), gate signals (LEFT), or unique trigger pulses only (RIGHT). The CENTER setting causes the panel to behave like a normal trigger sequencer. The LEFT setting keeps the current "stage" of each row HIGH allowing you to use it as a gate signal. The RIGHT setting will only send trigger pulses when the sequencer's stage (current output) has changed - this will filter out repeat triggering in a manner similar to hysteresis.
+   - Mode switch 2 (*4*) controls the behavior of the CV row inputs (*2*). The CENTER setting causes the panel to sequence based on the trigger inputs in a linear fashion, with the CV input serving as a *RESET trigger* - a high voltage will cause the row to reset to step 1. The LEFT setting treats the CV input as a *positional index* - 0 volts will cause trigger outputs at step 1 and 5 volts will trigger step 16, with voltages in between allowing you to "scan" the sequencer. The RIGHT setting treats the CV input as a *direction signal*, with 0 volts causing the sequecer to quickly scan backwards, and 5 volts causing it to quickly scan forwards; fine-tuning the voltage input - or using an LFO - allow for the sequencing of patters with syncopated timing characteristics.
+   - Mode switch 3 (*4*) controls whether each row sequence in isolation (CENTER) or whether each row uses all 48 outputs, scanning in either a horizontal (LEFT) or vertical (RIGHT) wrapping pattern.
+- The Shelfisequencer's output jacks (*6*) are all Pulse outputs - the alternation of white and red jacks is to make it easier to recognize which step of the sequencer you're working with. The lights on the panel are tri-color LEDs which indicate the row being activated - RED is for row 1, GREEN for row 2, BLUE for row 3. Rows firing on the same step will create hybrid colors - YELLOW for rows 1 and 2, CYAN for rows 2 and 3, PURPLE for rows 1 and 3, WHITE for all three rows.
 
 [back to top](#top)
 
@@ -1956,7 +1961,7 @@ A scan of the original ARP 2600 owner's manual can be found [here](./pdf/ARP-260
 
 A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](http://dl.lojinx.com/analoghell/Arp2600-ServiceManual.pdf).
 
-A number of textbooks exist around electronic music / music technology that use the ARP 2600 in their examples. Samuel Ecoff's *Fundamentals of Music Technology: The ARP 2600 Synthesizer* is a great one. A PDF can be found [here](./pdf/arp_ecoff.pdf). The CD examples for the book can be found on Ecoff's [home page](https://samecoff.com/works.html).
+A number of textbooks exist around electronic music / music technology that use the ARP 2600 as a teaching synthesizer. Samuel Ecoff's *Fundamentals of Music Technology: The ARP 2600 Synthesizer* is a great one. A PDF can be found [here](./pdf/arp_ecoff.pdf). The CD examples for the book can be found on Ecoff's [home page](https://samecoff.com/works.html).
 
 ### What makes an ARP an ARP?
 
