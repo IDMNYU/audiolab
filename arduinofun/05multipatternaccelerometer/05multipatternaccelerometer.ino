@@ -8,7 +8,7 @@ int ptr2 = 0;
 void setup() {
   // put your setup code here, to run once:
   pinMode(2, OUTPUT); // tell arduino that pin #2 is an OUTPUT
-  pinMode(3, OUTPUT); // tell arduino that pin #2 is an OUTPUT
+  pinMode(3, OUTPUT); // tell arduino that pin #3 is an OUTPUT
 
   CurieIMU.begin();
   CurieIMU.setAccelerometerRange(2); // $%@!#!@
