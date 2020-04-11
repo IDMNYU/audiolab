@@ -1774,7 +1774,7 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 
 ## Black Swamp
 
-<img src = "./img/sergesergebs_photo.jpg" width="100%" title="Black Swamp Serge panel" alt="Black Swamp Serge panel">
+<img src = "./img/sergebs_photo.jpg" width="100%" title="Black Swamp Serge panel" alt="Black Swamp Serge panel">
 
 [back to top](#top)
 
