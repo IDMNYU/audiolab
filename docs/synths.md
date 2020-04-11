@@ -8,7 +8,7 @@
   - [Serge system overview](#serge-system-overview)
     - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
-    - [Ian Fritz Serge Panels](#ian-fritz-serge-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
+    - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
     - [Black Swamp](#black-swamp)
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) )
   - [ARP 2600 overview](#arp-2600-overview)
@@ -1360,11 +1360,11 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 [back to top](#top)
 
-## Ian Fritz Serge Panels
+## Ian Fritz Panels
 
 <img src = "./img/sergefritz_photo.jpg" width="100%" title="Ian Fritz Serge panels" alt="Ian Fritz Serge panels">
 
-The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog synthesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modules contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite number of ways.
+The **Ian Fritz Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog synthesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modules contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite number of ways.
 
 *Note: The Fritz panels deviate from the Serge standard somewhat in terms of panel layout and user interface conventions. Paul Akin's implementation of Fritz's designs include a number of UI elements - sliders, ten-turn dials, stepped potentiometers - that don't appear on "original" Serge equipment. More importantly, the Fritz modules are not always contained in vertical slices, and the layout of "outputs over inputs" on a module is not followed - in fact, it's often reversed, with module outputs at the bottom of the panel in a layout similiar to many Eurorack systems. When working with the Fritz panels, you may need to double-check your connections to make sure your inputs and outputs are correct.*
 
