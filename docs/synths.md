@@ -9,6 +9,7 @@
     - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
     - [Ian Fritz Serge Panels](#ian-fritz-serge-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
+    - [Black Swamp](#black-swamp)
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) )
   - [ARP 2600 overview](#arp-2600-overview)
     - [TTSH](#ttsh)
@@ -21,7 +22,8 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 
 - a large (5-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) project by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
-- two panels of modules designed by noted synthesizer designer [Ian Fritz](http://ijfritz.byethost4.com/), produced in Serge-compatible format by Paul Akin at [Uglysound Electronics](https://www.facebook.com/uglysoundelectronics/photos/a.541139732601896/560792510636618/?type=1&theater). 
+- two panels of modules by noted synthesizer designer [Ian Fritz](http://ijfritz.byethost4.com/), produced in Serge-compatible format by Paul Akin at [Uglysound Electronics](https://www.facebook.com/uglysoundelectronics/photos/a.541139732601896/560792510636618/?type=1&theater). 
+- a [Black Swamp](https://www.muffwiggler.com/forum/viewtopic.php?t=147603) panel designed by Jon Peters, based on the CGS [SWAMP](https://www.modulargrid.net/s/cgs-swamp) Serge-compatible panel developed by Ken Stone, built by Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/).
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
@@ -1767,6 +1769,12 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 - The input to the pulse delay is a DC signal input, and will trigger the delay based on a transition of 1.5V or more.
 - The knobs on Fritz's Mixer module are **logarithmic** rather than **linear** potentiometers, so 12 o’clock is half power (0.707), not half gain (0.5). 
 - The Fritz Mixer modules are **AC-coupled** and will filter out low-frequency DC signals and remove the offset of DC signals running at audio rate.
+
+[back to top](#top)
+
+## Black Swamp
+
+<img src = "./img/sergesergebs_photo.jpg" width="100%" title="Black Swamp Serge panel" alt="Black Swamp Serge panel">
 
 [back to top](#top)
 
