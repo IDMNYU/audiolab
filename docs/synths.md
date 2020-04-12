@@ -1794,11 +1794,11 @@ In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-bas
 
 #### Noise
 
-<img src = "./img/sergebs_1_2.png" width="10%" title="Noise" alt="Noise">
+<img src = "./img/sergebs_1_2.png" width="12%" title="Noise" alt="Noise">
 
 #### Divider
 
-<img src = "./img/sergebs_1_3.png" width="10%" title="Divider" alt="Divider">
+<img src = "./img/sergebs_1_3.png" width="15%" title="Divider" alt="Divider">
 
 #### Gated Comparator
 
