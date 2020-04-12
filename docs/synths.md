@@ -1782,11 +1782,21 @@ The **Black Swamp** is a Serge panel with a complex pedigree, consisting of a va
 
 [Elby Designs](https://www.elby-designs.com/) is the Tcherepnin-licensed manufactuer of Serge kits and synthesizers in Australia. Founded by Laurie Biddulph (L B = Elby) in 2003, Elby manufactures and sells DIY kits for Stone's CGS modules alongside licensed Serge modules in both 4U and 3U (so-called "EuroSerge") format. Beginning in 2010, Biddulph began offering full panels of curated CGS modules under the moniker BoCGS ("Best of Cat Girl Synth"). One of these panels was called the **Sequencer With Arbitary Manipulated Pulses** (or **SWAMP**), and consisted of four CGS modules - [CGS31](https://www.elby-designs.com/webtek/cgs/cgs31/cgs31_digital_noise.html) (Digital Noise), [CGS13](https://www.elby-designs.com/webtek/cgs/cgs13/cgs13_gated_comparator.html) (Gated Comparator), [CGS36](https://www.elby-designs.com/webtek/cgs/cgs36/cgs36_pulse_divider.html) (Pulse Divider and Boolean Logic), and [CGS59](https://www.elby-designs.com/webtek/cgs/cgs59/cgs59.htm) (Programmer-Sequencer).
 
-In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-based DIY synth designer and builder, created and [published](https://muffwiggler.com/forum/viewtopic.php?t=147603&sid=6b482df30b92286ccaeadb84) a modified SWAMP design called the **Black Swamp**, which took Biddulph's panel layout and Stone's PCBs and added a variety of modifications and extra features, mounted onto a black (rather than silver) aluminum plate. A year later, Charlie Kerr at Loudest Warning - the Tcherepnin-licensed Serge manufacturer for the UK - did a [limited edition run](https://loudestwarning.tumblr.com/post/151796333376/here-is-the-front-of-the-black-swamp) of fully built and tested Black Swamp panels; we have one of these panels.
+In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-based DIY synth designer and builder, created and [published](https://muffwiggler.com/forum/viewtopic.php?t=147603&sid=6b482df30b92286ccaeadb84) a modified SWAMP design called the **Black Swamp**, which took Biddulph's panel layout and Stone's PCBs and added a variety of modifications and extra features, mounted onto a black (rather than silver) aluminum plate. A year later, Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/) - the Tcherepnin-licensed Serge manufacturer for the UK - did a [limited edition run](https://loudestwarning.tumblr.com/post/151796333376/here-is-the-front-of-the-black-swamp) of fully built and tested Black Swamp panels; we have one of these panels.
 
 ### The Black Swamp
 
 <img src = "./img/sergebs_1.png" width="100%" title="Black Swamp panel" alt="Black Swamp panel">
+
+#### Boolean Logic
+
+#### Noise
+
+#### Divider
+
+#### Gated Comparator
+
+#### TRK / Programmer / Sequencer / Random / Vertical Sequencer
 
 [back to top](#top)
 
