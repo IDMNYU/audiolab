@@ -1776,6 +1776,18 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 
 <img src = "./img/sergebs_photo.jpg" width="100%" title="Black Swamp Serge panel" alt="Black Swamp Serge panel">
 
+The **Black Swamp** is a Serge panel with a complex pedigree, consisting of a variety of sequencing and logic modules designed to create complex CV and triggering patterns. 
+
+[Ken Stone](http://www.synthpanel.com/), one of Australia's premier  synthesizer designers, developed a series of DIY synthesizer modules in the late 1980s - dubbed "CGS" (for Cat Girl Synthesizer), these were available as mail order kits and were among the first DIY synthesizer projects to be published on the World Wide Web. Many of the modules were clones of Tcherepnin's Serge designs, and were for many years the only way to acquire Serge DIY kits. However, quite a number were Stone's original designs, and several (such as the Pulse Divider and Boolean Logic) were licensed and adopted in commercial Serge panels (including our Random\*Source Serge).
+
+[Elby Designs](https://www.elby-designs.com/) is the Tcherepnin-licensed manufactuer of Serge kits and synthesizers in Australia. Founded by Laurie Biddulph (L B = Elby) in 2003, 
+
+
+
+### The Black Swamp
+
+<img src = "./img/sergebs_1.png" width="100%" title="Black Swamp panel" alt="Black Swamp panel">
+
 [back to top](#top)
 
 ## The Shelfisizer
