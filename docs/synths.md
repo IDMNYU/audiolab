@@ -556,7 +556,7 @@ The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more 
 
 #### Pulse Divider
 
-The **Pulse Divider** is based on a design by [Ken Stone](https://www.elby-designs.com/webtek/cgs/cgs.htm), who developed a series of Serge-compatible modules in the 1980s and 1990s under the moniker the "Cat Girl Synth", or **CGS**. PCBs for CGS modules are still sold by Elby Designs in Australia. The Pulse Divider takes a pulse input and outputs tiggers on numerical subdivisions, allowing the user to have, e.g. a clock signal input generate a polyrhythmic output.
+The **Pulse Divider** is based on a design by [Ken Stone](https://www.elby-designs.com/webtek/cgs/cgs.htm), who developed a series of Serge-compatible modules in the 1980s and 1990s under the moniker the "Cat Girl Synth", or **CGS**. PCBs for CGS modules are still sold by Elby Designs in Australia. The Pulse Divider takes a pulse input and outputs triggers on numerical subdivisions, allowing the user to have, e.g. a clock signal input generate a polyrhythmic output.
 
 <img src = "./img/serge824_2_4.png" width="10%" title="Divider" alt="Divider">
 
@@ -1838,7 +1838,7 @@ The Black Swamp version of the module has a number of modifications compared to 
 
 #### Pulse Divider
 
-The **Pulse Divider** module (the second half of [CGS36](https://www.elby-designs.com/webtek/cgs/cgs36/cgs36_pulse_divider.html)) is another of Ken Stone's modules that appears regularly on Serge panels from other manufacturers (including our Random\*Source Serge). The module takes a pulse input and outputs tiggers on numerical subdivisions, allowing the user to have, e.g. a clock signal input generate a polyrhythmic output. The Black Swamp version of the module contains two additional switches.
+The **Pulse Divider** module (the second half of [CGS36](https://www.elby-designs.com/webtek/cgs/cgs36/cgs36_pulse_divider.html)) is another of Ken Stone's modules that appears regularly on Serge panels from other manufacturers (including our Random\*Source Serge). The module takes a pulse input and outputs triggers on numerical subdivisions, allowing the user to have, e.g. a clock signal input generate a polyrhythmic output. The Black Swamp version of the module contains two additional switches.
 
 <img src = "./img/sergebs_1_3.png" width="15%" title="Pulse Divider" alt="Pulse Divider">
 
