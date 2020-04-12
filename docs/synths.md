@@ -1790,20 +1790,29 @@ In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-bas
 
 #### Boolean Logic
 
-The **Boolean Logic** module...
+Ken Stone's **Boolean Logic** module (one half of [CGS36](https://www.elby-designs.com/webtek/cgs/cgs36/cgs36_pulse_divider.html)) is one of his designs that is often incorporated in Serge panels, and was intended to expand on the comparator modules in the original Serge systems (such as the Triple Comparator on the 73-75 Serge). This version of the moduleconsists of two submodules that set output voltages HIGH or LOW based on pairs of control voltage inputs:
+
+- the AND comparator will output a HIGH value when both of its inputs are over 2.5V
+- the OR comparator will output a HIGH value when either of its inputs are over 2.5V
+
+Finally, a basic inverter at the bottom outputs the inverse of its input, acting as a NOT gate.
 
 <img src = "./img/sergebs_1_1.png" width="7%" title="Boolean Logic" alt="Boolean Logic">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+1. Output for the AND comparator (Pulse OUTPUT)
+2. Input 1 for the AND comparator (Pulse INPUT)
+3. Input 2 for the AND comparator (Pulse INPUT)
+4. Output for the OR comparator (Pulse OUTPUT)
+5. Input 1 for the OR comparator (Pulse INPUT)
+6. Input 2 for the OR comparator (Pulse INPUT)
+7. Output for the inverter (Pulse OUTPUT)
+8. Input for the invertere (Pulse INPUT)
 
 *Notes:*
+
+- Despite being labeled as Pulse inputs, the comparator inputs (*2*, *3*, *5*, and *6*) on the Boolean Logic module will respond to DC inputs with a ~2.5V threshold for wheether a signal is considered "true" or "false".
+- The outputs will retain a HIGH voltage as long as the "true" state persists at the inputs, making the outputs function as gates rather than pulses.
+- When used with the inverter, the AND/OR values can be transformed into NAND/NOR values.
 
 #### Noise
 
