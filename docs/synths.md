@@ -8,7 +8,8 @@
   - [Serge system overview](#serge-system-overview)
     - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
     - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
-    - [Ian Fritz Serge Panels](#ian-fritz-serge-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
+    - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
+    - [Black Swamp](#black-swamp)
     - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) )
   - [ARP 2600 overview](#arp-2600-overview)
     - [TTSH](#ttsh)
@@ -21,7 +22,8 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 
 - a large (5-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) project by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
-- two panels of modules designed by noted synthesizer designer [Ian Fritz](http://ijfritz.byethost4.com/), produced in Serge-compatible format by Paul Akin at [Uglysound Electronics](https://www.facebook.com/uglysoundelectronics/photos/a.541139732601896/560792510636618/?type=1&theater). 
+- two panels of modules by noted synthesizer designer [Ian Fritz](http://ijfritz.byethost4.com/), produced in Serge-compatible format by Paul Akin at [Uglysound Electronics](https://www.facebook.com/uglysoundelectronics/photos/a.541139732601896/560792510636618/?type=1&theater). 
+- a [Black Swamp](https://www.muffwiggler.com/forum/viewtopic.php?t=147603) panel designed by Jon Peters, based on the CGS [SWAMP](https://www.modulargrid.net/s/cgs-swamp) Serge-compatible panel developed by Ken Stone, built by Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/).
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
@@ -1358,11 +1360,11 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 [back to top](#top)
 
-## Ian Fritz Serge Panels
+## Ian Fritz Panels
 
 <img src = "./img/sergefritz_photo.jpg" width="100%" title="Ian Fritz Serge panels" alt="Ian Fritz Serge panels">
 
-The **Ian Fritz Serge Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog synthesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modules contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite number of ways.
+The **Ian Fritz Panels** were developed by Paul Akin at Uglysound Electronics (USE) in 2014, and consist of Serge-compatible implementations of synthesis, signal processing, and control circuits designed by [Ian Fritz](http://ijfritz.byethost4.com/). Fritz has been developing and publishing open-source analog synthesizer designs since 1998, and is considered, along with Jürgen Haible and Ken Stone, to be one of the most important contributors to the DIY analog synthesizer community. Fritz's designs focus on pushing the technical and creative repertoire of what are considered core analog synthesis modules - oscillators, filters, waveshapers, envelope generators, amplifiers, and noise generators are all reconsidered by Fritz and featured in these panels. In many ways the opposite of the 73-75 Serge, Fritz's modules contain more complex circuitry than found in Tcherepnin's designs, but retain the Serge sensibility of patch programmability - each module has many potential uses and can be connected with the other modules in the studio in an infinite number of ways.
 
 *Note: The Fritz panels deviate from the Serge standard somewhat in terms of panel layout and user interface conventions. Paul Akin's implementation of Fritz's designs include a number of UI elements - sliders, ten-turn dials, stepped potentiometers - that don't appear on "original" Serge equipment. More importantly, the Fritz modules are not always contained in vertical slices, and the layout of "outputs over inputs" on a module is not followed - in fact, it's often reversed, with module outputs at the bottom of the panel in a layout similiar to many Eurorack systems. When working with the Fritz panels, you may need to double-check your connections to make sure your inputs and outputs are correct.*
 
@@ -1767,6 +1769,12 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 - The input to the pulse delay is a DC signal input, and will trigger the delay based on a transition of 1.5V or more.
 - The knobs on Fritz's Mixer module are **logarithmic** rather than **linear** potentiometers, so 12 o’clock is half power (0.707), not half gain (0.5). 
 - The Fritz Mixer modules are **AC-coupled** and will filter out low-frequency DC signals and remove the offset of DC signals running at audio rate.
+
+[back to top](#top)
+
+## Black Swamp
+
+<img src = "./img/sergebs_photo.jpg" width="100%" title="Black Swamp Serge panel" alt="Black Swamp Serge panel">
 
 [back to top](#top)
 
