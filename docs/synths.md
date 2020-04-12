@@ -1790,13 +1790,23 @@ In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-bas
 
 #### Boolean Logic
 
+<img src = "./img/sergebs_1_1.png" width="10%" title="Boolean Logic" alt="Boolean Logic">
+
 #### Noise
+
+<img src = "./img/sergebs_1_2.png" width="15%" title="Noise" alt="Noise">
 
 #### Divider
 
+<img src = "./img/sergebs_1_3.png" width="15%" title="Divider" alt="Divider">
+
 #### Gated Comparator
 
+<img src = "./img/sergebs_1_4.png" width="40%" title="Gated Comparator" alt="Gated Comparator">
+
 #### TRK / Programmer / Sequencer / Random / Vertical Sequencer
+
+<img src = "./img/sergebs_1_5.png" width="100%" title="Programmer / Sequencer" alt="Programmer / Sequencer">
 
 [back to top](#top)
 
