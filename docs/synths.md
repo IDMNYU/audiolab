@@ -1838,7 +1838,7 @@ The Black Swamp version of the module has a number of modifications compared to 
 
 #### Pulse Divider
 
-The **Pulse Divider** module (the second half of [CGS36](https://www.elby-designs.com/webtek/cgs/cgs36/cgs36_pulse_divider.html)) is another of Ken Stone's modules that appears regularly on Serge panels from other manufacturers (including our Random\*Source Serge). The module takes a pulse input and outputs triggers on numerical subdivisions, allowing the user to have, e.g. a clock signal input generate a polyrhythmic output. The Black Swamp version of the module contains two additional switches.
+The **Pulse Divider** module (the second half of [CGS36](https://www.elby-designs.com/webtek/cgs/cgs36/cgs36_pulse_divider.html)) is another of Ken Stone's modules that appears regularly on Serge panels from other manufacturers (including our Random\*Source Serge). The module takes a pulse input and outputs triggers on numerical subdivisions, allowing the user to have, e.g. a clock signal input generate a polyrhythmic output. The Black Swamp version of the module contains two additional switches as well as LED indicators for the subdivision outputs.
 
 <img src = "./img/sergebs_1_3.png" width="15%" title="Pulse Divider" alt="Pulse Divider">
 
