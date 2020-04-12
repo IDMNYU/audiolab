@@ -1784,6 +1784,8 @@ The **Black Swamp** is a Serge panel with a complex pedigree, consisting of a va
 
 In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-based DIY synth designer and builder, created and [published](https://muffwiggler.com/forum/viewtopic.php?t=147603&sid=6b482df30b92286ccaeadb84) a modified SWAMP design called the **Black Swamp**, which took Biddulph's panel layout and Stone's PCBs and added a variety of modifications and extra features, mounted onto a black (rather than silver) aluminum plate. A year later, Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/) - the Tcherepnin-licensed Serge manufacturer for the UK - did a [limited edition run](https://loudestwarning.tumblr.com/post/151796333376/here-is-the-front-of-the-black-swamp) of fully built and tested Black Swamp panels; we have one of these panels.
 
+The Black Swamp is an incredible example of the iterative design made posssible by open-source, DIY synthesizer communities such as those working around the Serge modular format.
+
 ### The Black Swamp
 
 <img src = "./img/sergebs_1.png" width="100%" title="Black Swamp panel" alt="Black Swamp panel">
