@@ -1790,7 +1790,7 @@ In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-bas
 
 #### Boolean Logic
 
-<img src = "./img/sergebs_1_1.png" width="5%" title="Boolean Logic" alt="Boolean Logic">
+<img src = "./img/sergebs_1_1.png" width="7%" title="Boolean Logic" alt="Boolean Logic">
 
 #### Noise
 
