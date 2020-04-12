@@ -1790,23 +1790,119 @@ In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-bas
 
 #### Boolean Logic
 
+The **Boolean Logic** module...
+
 <img src = "./img/sergebs_1_1.png" width="7%" title="Boolean Logic" alt="Boolean Logic">
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+*Notes:*
 
 #### Noise
 
+The **Noise** module...
+
 <img src = "./img/sergebs_1_2.png" width="12%" title="Noise" alt="Noise">
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+*Notes:*
 
 #### Divider
 
+The **Divider** module...
+
 <img src = "./img/sergebs_1_3.png" width="15%" title="Divider" alt="Divider">
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+
+*Notes:*
 
 #### Gated Comparator
 
+The **Gated Comparator** module...
+
 <img src = "./img/sergebs_1_4.png" width="40%" title="Gated Comparator" alt="Gated Comparator">
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+
+*Notes:*
 
 #### TRK / Programmer / Sequencer / Random / Vertical Sequencer
 
+The **Programmer / Sequencer** module...
+
 <img src = "./img/sergebs_1_5.png" width="100%" title="Programmer / Sequencer" alt="Programmer / Sequencer">
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+
+*Notes:*
 
 [back to top](#top)
 
