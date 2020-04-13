@@ -1906,10 +1906,15 @@ Jon Peters made a number of modifications to the Gated Comparator on the Black S
 - The lights on the comparator will switch color when the module is "enabled" versus in loop mode (switch *1*)
 - The CV outputs will only change values when a new clock signal at *17* is present; when the module is not in loop mode, the clock causes the signal at input *11* to be compared, with that value set to bit one; the other bits with then shift down. 
 - When the loop mode is "enabled" (via switch *1*) you can connect the output of bit 8's trigger output to the loop in jack *5* to create a never ending loop. This can also be used to chain multiple comparator modules.
+- The use of a comparator to generate complex control signals is a popular technique, and can be seen in Eurorack circuits such as Rob Hordijk's [Benjolin](http://www.analoguehaven.com/epochmodular/benjolin/).
 
 #### TRK / Programmer / Sequencer / Random / Vertical Sequencer
 
-The **Programmer / Sequencer** module...
+The final module in the Black Swamp consists of a heavily modified version of Ken Stone's **Programmer / Sequencer** module ([CGS59](https://www.elby-designs.com/webtek/cgs/cgs59/cgs59.htm)), itself a variant on the Tcherepnin's original Sequencing Programmer modules, such as the Sequencer / Programmer on our Random\*Source Serge.
+
+Stone's 8-stage Programmer / Sequencer consists of 8 stages of presets, with rows of knobs to set four values for each preset, similar ot the TKB. Unlike the R\*S TKB and Sequencer / Programmer, however, the module has trigger *inputs* for each preset stage as well as outputs, allowing it to be used as a general-purpose recall system, as well as a conventional sequencer.
+
+Jon Peters added substantial functionality to the Programmer / Sequencer in the original SWAMP, merging in a number of other CGS modules including a [Sequential Switch](https://www.elby-designs.com/contents/en-us/p718_CGS28_-_Sequential_Switch.html) and [Quad Logic Gates](https://www.elby-designs.com/contents/en-us/p1121_CGS39_-_Quad_Logic_Gate.html), allowing for vertical sequencing and different behaviors of the gate outputs; a [Noise](https://www.elby-designs.com/webtek/cgs/serge/cgs97/cgs97_noise.html) module to allow for random sequencing; and an 8-pad [Touch Responsive Keyboard](https://www.elby-designs.com/webtek/cgs/serge/cgs86/cgs86_trk.html), replacing the stage select buttons and allowing the module to be used as a keyboard in a manner similar to the TKB. Finally, a "solo" mode was added, allowing three rows to remain sequencing while the fourth is controlled completly by the keyboard.
 
 <img src = "./img/sergebs_1_5.png" width="100%" title="Programmer / Sequencer" alt="Programmer / Sequencer">
 
