@@ -1863,31 +1863,49 @@ The **Pulse Divider** module (the second half of [CGS36](https://www.elby-design
 
 #### Gated Comparator
 
-The **Gated Comparator** module...
+Ken Stone's **Gated Comparator** ([CGS13](https://www.elby-designs.com/webtek/cgs/cgs13/cgs13_gated_comparator.html))is one of his more novel designs. In Stone's words:
+
+> The idea for this project came when I was listening to some music in which part of the background was jumping between
+> octaves in a semi-random fashion. Feeding noise into a comparator was my immediate thought, but I soon realized this 
+> wasn't going achieve what I wanted. I needed to be able to control when these jumps could occur. As such, some form of 
+> memory element was required, into which the level could be clocked when required.
+>
+> I have used an 8 stage digital shift register as the memory element. Each clock pulse, the remembered level (logic 0 
+> or logic 1) is moved into the next stage "bucket brigade" fashion, and the new value stored in the first memory cell. 
+> The result is a random level (on or off) at a predetermined time at the first output, plus time delayed versions of 
+> previous levels across the remaining outputs.
+
+At its core, the module takes in a CV input and a clock signal. When a clock trigger arrives, the CV signal is compared against a reference voltage (similar to the Onebang module on the Shelfisizer), and sets the first stage of the comparator "high" or "low". The previous value for stage 1 is then shifted down to stage 2, the stage 2 value to stage 3, and so forth, giving 8 bits of comparator memory. These values can be used to trigger different modules elsewhere in the system; they can also be combined as bits in a "random" signal output and mixed together using the knobs next to each stage to create a CV output. The module also has functions for looping the recorded states and bypassing various bits in the signal outputs.
+
+Jon Peters made a number of modifications to the Gated Comparator on the Black Swamp, including the addition of an interface to manually load the comparator's memory.
 
 <img src = "./img/sergebs_1_4.png" width="40%" title="Gated Comparator" alt="Gated Comparator">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
+1. Loop enable switch - "on" *disables* new input signals at *11* from being loaded into memory
+2. Disable jack - a high gate signal will temporarily disable the loop and allow new input (Pulse INPUT)
+3. Load momentary switch - allows for the manual loading of the comparator at the bit set by the rotary dial *6*
+4. Comp output - outputs the raw comparator value based on input *11* as a square wave / gate (Pulse OUTPUT)
+5. Loop input. When the loop enable switch *1* is on, this can receive a gate signal to set bit 1
+6. Rotary switch for manual loading - selects which bit the load switch *3* or the loop trigger *7* will load
+7. Loop load input for manually loading bits into the memory (Pulse INPUT)
+8. Range knob that acts as a master attenuator for the module's CV outputs
+9. Sensitivity  knob for the comparator threshold (adds to *16* x *10*)
+10. Sensitivity scaling knob for CV threshold (multiplies with *16*, adds to *9*)
+11. CV input to the comparator (DC INPUT)
+12. Random output of the comparator - treats each stage as a bit in an 8-bit signal that is converted to noise (DC OUTPUT)
+13. Inverted random output - same as *12* but with the bit order flipped (DC OUTPUT)
+14. Mix output - the eight comparator states are scaled by knobs in row *19* and summed (scaled by *8*) (DC OUTPUT)
+15. Inverted mix output - same as *14* with the signal inverted (scaled by *8*) (DC OUTPUT)
+16. CV input for setting a varying comparator level (multiplied by *10*, added to *9*) (DC INPUT)
+17. Clock input to load the comparator and shift the bits (Pulse INPUT)
+18. Individual stage outputs of the shift register (Pulse OUTPUT)
+19. Attenuator knobs for each stage when sent to the CV outputs- pulling a knob will disable its bit from being used in either the mix (*14* / *15*) or random (*12* / *13*) outputs
 
 *Notes:*
+- The Gated Comparator is quite complex, and can be used to generate a wide variety of rhythmic sequences, both as triggers and as melodies. There is an excellent guide to the CGS version of the module [here](https://github.com/TuesdayNightMachines/CGS-Serge-Modular-Synth/blob/master/CGS%20Gated%20Comparator/CGS%20Gated%20Comparator%20Guide.md) that may be helpful.
+- The lights on the comparator will switch color when the module is "enabled" versus in loop mode (switch *1*)
+- The CV outputs will only change values when a new clock signal at *17* is present; when the module is not in loop mode, the clock causes the signal at input *11* to be compared, with that value set to bit one; the other bits with then shift down. 
+- When the loop mode is "enabled" (via switch *1*) you can connect the output of bit 8's trigger output to the loop in jack *5* to create a never ending loop. This can also be used to chain multiple comparator modules.
 
 #### TRK / Programmer / Sequencer / Random / Vertical Sequencer
 
