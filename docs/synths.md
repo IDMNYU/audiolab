@@ -1863,7 +1863,7 @@ The **Pulse Divider** module (the second half of [CGS36](https://www.elby-design
 
 #### Gated Comparator
 
-Ken Stone's **Gated Comparator** ([CGS13](https://www.elby-designs.com/webtek/cgs/cgs13/cgs13_gated_comparator.html))is one of his more novel designs. In Stone's words:
+Ken Stone's **Gated Comparator** ([CGS13](https://www.elby-designs.com/webtek/cgs/cgs13/cgs13_gated_comparator.html)) is one of his more novel designs. In Stone's words:
 
 > The idea for this project came when I was listening to some music in which part of the background was jumping between
 > octaves in a semi-random fashion. Feeding noise into a comparator was my immediate thought, but I soon realized this 
@@ -1875,9 +1875,9 @@ Ken Stone's **Gated Comparator** ([CGS13](https://www.elby-designs.com/webtek/cg
 > The result is a random level (on or off) at a predetermined time at the first output, plus time delayed versions of 
 > previous levels across the remaining outputs.
 
-At its core, the module takes in a CV input and a clock signal. When a clock trigger arrives, the CV signal is compared against a reference voltage (similar to the Onebang module on the Shelfisizer), and sets the first stage of the comparator "high" or "low". The previous value for stage 1 is then shifted down to stage 2, the stage 2 value to stage 3, and so forth, giving 8 bits of comparator memory. These values can be used to trigger different modules elsewhere in the system; they can also be combined as bits in a "random" signal output and mixed together using the knobs next to each stage to create a CV output. The module also has functions for looping the recorded states and bypassing various bits in the signal outputs.
+At its core, the module takes in a CV input and a clock signal. When a clock trigger arrives, the CV signal is compared against a reference voltage, and sets the first stage of the comparator "high" or "low" (this is similar to the Onebang module on the Shelfisizer). The previous value for stage 1 is then shifted down to stage 2, the stage 2 value to stage 3, and so forth, giving 8 bits of comparator memory. These values can be used to trigger different modules elsewhere in the system; they can also be combined as bits in a "random" signal output and mixed together using the knobs next to each stage to create a CV output. The module also has functions for looping the recorded states.
 
-Jon Peters made a number of modifications to the Gated Comparator on the Black Swamp, including the addition of an interface to manually load the comparator's memory.
+Jon Peters made a number of modifications to the Gated Comparator on the Black Swamp, including the addition of an interface to manually load the comparator's memory and a push-pull switch on each knob to bypass individual bits in the signal outputs.
 
 <img src = "./img/sergebs_1_4.png" width="35%" title="Gated Comparator" alt="Gated Comparator">
 
@@ -1925,8 +1925,8 @@ Jon Peters added substantial functionality to the Programmer / Sequencer in the 
 5. Gate outputs for each stage of the sequencer (Pulse OUTPUT)
 6. Stage select inputs for each preset stage (Pulse INPUT)
 7. Three-way select switch for each stage's gate output behavior - the right position causes the gate to last for the duration of the clock pulse; the center position causes no gate to be output; the left position starts the gate output when the clock pulse goes low
-8. Three-way switch for the stage's behavior when selected by an "up" sequence trigger - the down position causes the stage to "run", which outputs its preset values; the center position sets the stage to "stop", halting the sequencer until it is reset; the up position sets the stage to "skip" to the next preset in the sequence
-9. Three-way switch for the stage's behavior when selected by an "down" sequence trigger - the down position causes the stage to "run", which outputs its preset values; the center position sets the stage to "stop", halting the sequencer until it is reset; the up position sets the stage to "skip" to the next preset in the sequence
+8. Three-way switch for the stage's behavior when selected by an "up" sequence trigger - the down position causes the stage to *run*, which outputs its preset values; the center position sets the stage to *stop*, halting the sequencer until it is reset; the up position sets the stage to *skip* to the next preset in the sequence
+9. Three-way switch for the stage's behavior when selected by an "down" sequence trigger - the down position causes the stage to *run*, which outputs its preset values; the center position sets the stage to *stop*, halting the sequencer until it is reset; the up position sets the stage to *skip* to the next preset in the sequence
 10. Capacitive touch pads (the "keys") for the TRK - touching a key selects its corresponding stage
 11. CV output for the "A" row of presets (DC OUTPUT)
 12. CV output for the "B" row of presets (DC OUTPUT)
