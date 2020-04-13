@@ -173,11 +173,11 @@ Interface elements on Serge modules consist of jacks (points of connection), LED
 
 Jacks are colored based on the type of voltage they send (or expect to receive). Tcherepnin's original design called for three types of voltage connection with color codes:
 
-| Voltage Type  | Description     | Voltage Range | R\*S / Fritz  | 73-75 | Shelfisizer / Black Swamp |
+| Voltage Type  | Description     | Voltage Range | Color |
 | ------------- | --- |           ---            |     ---|    ---|          ---|
-| AC            | Bipolar continuous (analog) | -2.5V to 2.5V | Black | Brown | Black |
-| DC            | Unipolar continuous (analog) | 0 to 5V       | Light Blue | Light Gray | Dark Blue |
-| Pulse \*      | Unipolar discrete (digital) | 0 *or* 5V      | Red | Red | Red |
+| AC            | Bipolar continuous (analog) | -2.5V to 2.5V | Black or Brown |
+| DC            | Unipolar continuous (analog) | 0 to 5V       | Blue or Gray |
+| Pulse \*      | Unipolar discrete (digital) | 0 *or* 5V      | Red |
 
 \* **Serge "Pulse" jacks send and receive more than pulses** - a better way to think of them is as "*digital*", "*binary*", or "*boolean*" signals, insofar as their voltage state is either HIGH (5V) or LOW (0V). Pulse jacks are used for gates, PWM / square waves, comparator / switching signals, as well as pulses.
 
