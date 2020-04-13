@@ -181,7 +181,7 @@ Jacks are colored based on the type of voltage they send (or expect to receive).
 
 \* **Serge "Pulse" jacks send and receive more than pulses** - a better way to think of them is as "*digital*", "*binary*", or "*boolean*" signals, insofar as their voltage state is either HIGH (5V) or LOW (0V). Pulse jacks are used for gates, PWM / square waves, comparator / switching signals, as well as pulses.
 
-Some modules have additional colors, such as lavender jacks for passive connectors on the 73-75 Adapter module and orange for the AC-coupled (-5V or 5V) comparator jack on the Random\*Source Smooth / Stepped Generator module.
+Some modules have additional colors, such as lavender jacks for passive connectors on the 73-75 Adapter module and orange for the AC-coupled (-5V or 5V) comparator jack on the Random\*Source Smooth / Stepped Generator module. Elby Designs (a licensed Serge manufacturer in Australia) uses an [additional set of colors](https://www.elby-designs.com/webtek/panther/panther-jacks.htm) to specify inputs versus outputs, with the standard Serge colors of black, blue, and red being used for input jacks, while white, green, and yellow are used for the corresponding outputs.
 
 As noted above, these conventions describe the *kind* of voltage being delivered, not *how* you're going to use it. In the image above, the output area of the module has black, blue, and red jacks, but all of them can be used to generate either audio patched into the speakers or control voltage patched into another module.
 
