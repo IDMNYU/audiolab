@@ -1914,38 +1914,44 @@ The final module in the Black Swamp consists of a heavily modified version of Ke
 
 Stone's 8-stage Programmer / Sequencer consists of 8 stages of presets, with rows of knobs to set four values for each preset, similar ot the TKB. Unlike the R\*S TKB and Sequencer / Programmer, however, the module has trigger *inputs* for each preset stage as well as outputs, allowing it to be used as a general-purpose recall system, as well as a conventional sequencer.
 
-Jon Peters added substantial functionality to the Programmer / Sequencer in the original SWAMP, merging in a number of other CGS modules including a [Sequential Switch](https://www.elby-designs.com/contents/en-us/p718_CGS28_-_Sequential_Switch.html) and [Quad Logic Gates](https://www.elby-designs.com/contents/en-us/p1121_CGS39_-_Quad_Logic_Gate.html), allowing for vertical sequencing and different behaviors of the gate outputs; a [Noise](https://www.elby-designs.com/webtek/cgs/serge/cgs97/cgs97_noise.html) module to allow for random sequencing; and an 8-pad [Touch Responsive Keyboard](https://www.elby-designs.com/webtek/cgs/serge/cgs86/cgs86_trk.html), replacing the stage select buttons and allowing the module to be used as a keyboard in a manner similar to the TKB. Finally, a "solo" mode was added, allowing three rows to remain sequencing while the fourth is controlled completly by the keyboard.
+Jon Peters added substantial functionality to the Programmer / Sequencer in the original SWAMP, merging in a number of other CGS modules including a [Sequential Switch](https://www.elby-designs.com/contents/en-us/p718_CGS28_-_Sequential_Switch.html) and [Quad Logic Gates](https://www.elby-designs.com/contents/en-us/p1121_CGS39_-_Quad_Logic_Gate.html), allowing for vertical sequencing and different behaviors of the gate outputs; a [Noise](https://www.elby-designs.com/webtek/cgs/serge/cgs97/cgs97_noise.html) module to allow for random sequencing; and an 8-pad [Touch Responsive Keyboard (TRK)](https://www.elby-designs.com/webtek/cgs/serge/cgs86/cgs86_trk.html), replacing the stage select buttons and allowing the module to be used as a keyboard in a manner similar to the TKB. In addition, he added expanded output voltage range to the preset knobs, along with a "solo" mode to allow three rows to remain sequencing while the fourth is controlled  by the keyboard.
 
 <img src = "./img/sergebs_1_5.png" width="100%" title="Programmer / Sequencer" alt="Programmer / Sequencer">
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
-23. 
-24. 
-25. 
-26. 
+1. "A" row of CV knobs for each preset stage. Pulling a knob out puts the column into high range mode.
+2. "B" row of CV knobs for each preset stage
+3. "C" row of CV knobs for each preset stage
+4. "D" row of CV knobs for each preset stage
+5. Gate outputs for each stage of the sequencer (Pulse OUTPUT)
+6. Stage select inputs for each preset stage (Pulse INPUT)
+7. Three-way select switch for each stage's gate output behavior - the right position causes the gate to last for the duration of the clock pulse; the center position causes no gate to be output; the left position starts the gate output when the clock pulse goes low
+8. Three-way switch for the stage's behavior when selected by an "up" sequence trigger - the down position causes the stage to "run", which outputs its preset values; the center position sets the stage to "stop", halting the sequencer until it is reset; the up position sets the stage to "skip" to the next preset in the sequence
+9. Three-way switch for the stage's behavior when selected by an "down" sequence trigger - the down position causes the stage to "run", which outputs its preset values; the center position sets the stage to "stop", halting the sequencer until it is reset; the up position sets the stage to "skip" to the next preset in the sequence
+10. Capacitive touch pads (the "keys") for the TRK - touching a key selects its corresponding stage
+11. CV output for the "A" row of presets (DC OUTPUT)
+12. CV output for the "B" row of presets (DC OUTPUT)
+13. CV output for the "C" row of presets (DC OUTPUT)
+14. CV output for the "D" row of presets (DC OUTPUT)
+15. "ABCD" 32-stage output, caussed by wrapping through the rows, with the reset row selectable by switch *16* (DC OUTPUT)
+16. Reset selection switch for the vertical clock, allowing the user to select whether output *15* wraps through two, three, or all four rows on the sequencer
+17. Momentary toggle switch to reset the vertical clock
+18. Trigger output for the TRK - sends a pulse when a key is pressed (Pulse OUTPUT)
+19. Gate output for the sequencer - sends combined gate values based on the settings of each stage's switch *7* (Pulse OUTPUT)
+20. Random input - causes the sequencer to jumb to a random position (Pulse INPUT)
+21. Up input - pulses will advance the (horizontal) sequencer to the right (Pulse INPUT)
+22. Down input - pulses will advance the (horizontal) sequencer to the left (Pulse INPUT)
+23. CV output for key "pressure" on the TRK - in reality, this corresponds more to the surface area of the pad covered by finger contact than actual pressure (DC OUTPUT)
+24. Gate output for the TRK - sends a high value as long as a key is pressed (Pulse OUTPUT)
+25. Solo mode switch - in solo mode, rows A, B, and C are sequenced while row D is controlled by the TRK
+26. Stop input - a high voltage at this jack will disable the sequencer and park it at the "ghost" stage - CV outputs will continue at their last value (Pulse INPUT)
 
 *Notes:*
+
+- The Programmer / Sequencer allows you to preset 4 sequences of knobs to control any CV input on the Serge system - scales and melodies for oscillators, but also filter cutoff frequencies, envelope durations, and anything else that you may want to automate. The module's clock is typically driven by a pulse generator (such as a Dual Slopes), but clock pulses can come from anywhere, such as the gate outputs of the Noise module.
+- By using the pulse outputs for the individual sequence stages (*5*), you can trigger external events on other modules. You can also use these outputs, in combination with the stage select inputs (*6*), to create smaller loops of sequences within the system.
+- The TRK's keyboard pressure output *23* puts out a fairly noisy voltage based on capacitance. Patching it into a DUSG or SSG will allow you to smooth this out as well as add lag to the key (e.g. for keyboard-driven slow fades or filter sweeps).
+- The Programmer / Sequencer can be sequenced at audio rate, and the preset rows can be used as an arbitrary 8-stage waveform for an oscillator.
+- Pulling out an "A" knob (*1*) on a preset column expands the voltage scaling of the preset, allowing for a wider range of parameter control than the range Stone used in the original CGS module.
 
 [back to top](#top)
 
