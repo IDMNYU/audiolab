@@ -1799,7 +1799,7 @@ The unlabelled leftmost module on the Black Swamp is Ken Stone's **Boolean Logic
 
 Finally, a basic inverter at the bottom outputs the inverse of its input, acting as a NOT gate.
 
-<img src = "./img/sergebs_1_1.png" width="7%" title="Boolean Logic" alt="Boolean Logic">
+<img src = "./img/sergebs_1_1.png" width="6%" title="Boolean Logic" alt="Boolean Logic">
 
 1. Output for the AND comparator (Pulse OUTPUT)
 2. Input 1 for the AND comparator (Pulse INPUT)
@@ -1822,7 +1822,7 @@ Ken Stone's **Digital Noise** module ([CGS31](https://www.elby-designs.com/webte
 
 The Black Swamp version of the module has a number of modifications compared to the original, including two random gates instead of one, direct access to the internal oscillator clock, and the ability to operate at a much lower frequency (below .01Hz) to create slow random pulse trains / digital "dust" effects.
 
-<img src = "./img/sergebs_1_2.png" width="12%" title="Digital Noise" alt="Digital Noise">
+<img src = "./img/sergebs_1_2.png" width="10%" title="Digital Noise" alt="Digital Noise">
 
 1. White noise output (AC OUTPUT)
 2. Pink noise output (AC OUTPUT)
@@ -1842,7 +1842,7 @@ The Black Swamp version of the module has a number of modifications compared to 
 
 The **Pulse Divider** module (the second half of [CGS36](https://www.elby-designs.com/webtek/cgs/cgs36/cgs36_pulse_divider.html)) is another of Ken Stone's modules that appears regularly on Serge panels from other manufacturers (including our Random\*Source Serge). The module takes a pulse input and outputs triggers on numerical subdivisions, allowing the user to have, e.g. a clock signal input generate a polyrhythmic output. The Black Swamp version of the module contains two additional switches as well as LED indicators for the subdivision outputs.
 
-<img src = "./img/sergebs_1_3.png" width="15%" title="Pulse Divider" alt="Pulse Divider">
+<img src = "./img/sergebs_1_3.png" width="13%" title="Pulse Divider" alt="Pulse Divider">
 
 1. Reset switch for the division counters on the module
 2. Pulse input for divider (Pulse INPUT)
@@ -1879,7 +1879,7 @@ At its core, the module takes in a CV input and a clock signal. When a clock tri
 
 Jon Peters made a number of modifications to the Gated Comparator on the Black Swamp, including the addition of an interface to manually load the comparator's memory.
 
-<img src = "./img/sergebs_1_4.png" width="40%" title="Gated Comparator" alt="Gated Comparator">
+<img src = "./img/sergebs_1_4.png" width="35%" title="Gated Comparator" alt="Gated Comparator">
 
 1. Loop enable switch - "on" *disables* new input signals at *11* from being loaded into memory
 2. Disable jack - a high gate signal will temporarily disable the loop and allow new input (Pulse INPUT)
@@ -1916,7 +1916,7 @@ Stone's 8-stage Programmer / Sequencer consists of 8 stages of presets, with row
 
 Jon Peters added substantial functionality to the Programmer / Sequencer in the original SWAMP, merging in a number of other CGS modules including a [Sequential Switch](https://www.elby-designs.com/contents/en-us/p718_CGS28_-_Sequential_Switch.html) and [Quad Logic Gates](https://www.elby-designs.com/contents/en-us/p1121_CGS39_-_Quad_Logic_Gate.html), allowing for vertical sequencing and different behaviors of the gate outputs; a [Noise](https://www.elby-designs.com/webtek/cgs/serge/cgs97/cgs97_noise.html) module to allow for random sequencing; and an 8-pad [Touch Responsive Keyboard (TRK)](https://www.elby-designs.com/webtek/cgs/serge/cgs86/cgs86_trk.html), replacing the stage select buttons and allowing the module to be used as a keyboard in a manner similar to the TKB. In addition, he added expanded output voltage range to the preset knobs, along with a "solo" mode to allow three rows to remain sequencing while the fourth is controlled  by the keyboard.
 
-<img src = "./img/sergebs_1_5.png" width="100%" title="Programmer / Sequencer" alt="Programmer / Sequencer">
+<img src = "./img/sergebs_1_5.png" width="80%" title="Programmer / Sequencer" alt="Programmer / Sequencer">
 
 1. "A" row of CV knobs for each preset stage. Pulling a knob out puts the column into high range mode.
 2. "B" row of CV knobs for each preset stage
