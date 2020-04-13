@@ -1812,7 +1812,7 @@ Finally, a basic inverter at the bottom outputs the inverse of its input, acting
 
 *Notes:*
 
-- Despite being labeled as Pulse inputs, the comparator inputs (*2*, *3*, *5*, and *6*) on the Boolean Logic module will respond to DC inputs with a ~2.5V threshold for wheether a signal is considered "true" or "false".
+- Despite being labeled as Pulse inputs, the comparator inputs (*2*, *3*, *5*, and *6*) on the Boolean Logic module will respond to DC inputs with a ~2.5V threshold for whether a signal is considered "true" or "false".
 - The outputs will retain a HIGH voltage as long as the "true" state persists at the inputs, making the outputs function as gates rather than pulses.
 - When used with the inverter, the AND/OR values can be transformed into NAND/NOR values.
 
@@ -1835,8 +1835,8 @@ The Black Swamp version of the module has a number of modifications compared to 
 
 *Notes:*
 
-- The internal / external clock switch *6* changes the behavior of jack *5* from an input to an output. When the Digital Noise is using its internal oscillator clock, a time-varying random pulse train is *output* from the jack; when the external clock is selected, the jack serves as the clock *input* for the module - each pulse sent into this jack will cause a single random value to be output jacks *1* through *4*.
-- The two random gate outputs (*3* and *4*) are taps of the exclusive OR gates used in generating the digital noise, and can be used as two independent clock-synchronized gate signals or pulse trains.
+- The internal / external clock switch *6* changes the behavior of jack *5* from an input to an output. When the Digital Noise is using its internal oscillator clock, a pulse train at the frequencyset by *7* and *8* is *output* from the jack; when the external clock is selected, the jack serves as the clock *input* for the module - each pulse sent into this jack will cause a single random value to be output jacks *1* through *4*.
+- The two random gate outputs (*3* and *4*) are taps of the exclusive OR gates used in generating the digital noise, and can be used as two independent clock-synchronized gate signals or pulse trains. For any given clock cycle, each gate output has approximately a 50% likelihood of changing state (going from "low" to "high" or vice versa).
 
 #### Pulse Divider
 
