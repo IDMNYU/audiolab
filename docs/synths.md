@@ -28,7 +28,7 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
 - an [Etherwave Plus](https://www.moogmusic.com/products/etherwave-plus-theremin), a modern kit [Theremin](https://en.wikipedia.org/wiki/Theremin) developed by [Moog Music](https://www.moogmusic.com/).
-- a [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reeissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978.
+- a [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978.
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording.
