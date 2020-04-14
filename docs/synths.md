@@ -28,18 +28,20 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
 - an [Etherwave Plus](https://www.moogmusic.com/products/etherwave-plus-theremin), a modern kit [Theremin](https://en.wikipedia.org/wiki/Theremin) developed by [Moog Music](https://www.moogmusic.com/).
+- a [Sequential Prophet 6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reeissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978.
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) [MIDI](https://en.wikipedia.org/wiki/MIDI) interface.
 - A vintage [IVL Pitchrider 4000](https://www.ivlaudio.com/home) pitch-to-MIDI converter.
-- An [Akai MPK-225](https://www.akaipro.com/mpk225) MIDI keyboard controller.
+- An [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller.
 - A [Roli Seaboard](https://roli.com/products/seaboard) MIDI/[MPE](https://www.midi.org/articles-old/midi-polyphonic-expression-mpe) keyboard controller.
 - Two [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converters, as well as a [Gate Boost](https://www.tindie.com/products/hotchk155/gate-boost-module-for-cvocd-and-others/) module.
 - Multiple [Low-Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
 - One [Siglent](https://www.siglent.eu/siglent-sds1072cml-plus.html) digital two-channel oscilloscope.
+- a [Phenol](https://www.kilpatrickaudio.com/?p=phenol), a low-cost, Serge-compatible modular synthesizer developed by [Kilpatrick Audio](https://www.kilpatrickaudio.com/) used in the audio lab for prototyping new circuits.
 - Stereo [Genelec](https://www.genelec.com/) speakers.
 
 # Studio Basics
