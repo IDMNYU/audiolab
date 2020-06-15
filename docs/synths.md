@@ -1967,6 +1967,31 @@ The CGS **Programmer**, like the Serge TKB, is a 16-stage combination sequencer 
 
 <img src = "./img/sergeprogrammer_1.png" width="100%" title="CGS Programmer panel" alt="CGS Programmer panel">
 
+1. Gate outputs for each stage of the sequencer (Pulse OUTPUT)
+2. Trigger selection switch for each stage - enabled will cause the stage to also output a trigger at *17* when selected
+3. Stage select inputs for each preset stage (Pulse INPUT)
+4. "A" row of CV knobs for each preset stage
+5. "B" row of CV knobs for each preset stage
+6. "C" row of CV knobs for each preset stage
+7. "D" row of CV knobs for each preset stage
+8. Three-way switch for the stage's behavior when selected by an "left" sequence trigger *12* - the up position causes the stage to *run*, which outputs its preset values; the center position sets the stage to *stop*, halting the sequencer until it is reset; the down position sets the stage to *skip* to the next preset in the sequence
+9. Three-way switch for the stage's behavior when selected by an "right" sequence trigger *11* - the up position causes the stage to *run*, which outputs its preset values; the center position sets the stage to *stop*, halting the sequencer until it is reset; the down position sets the stage to *skip* to the next preset in the sequence
+10. Preset selection buttons for each stage
+11. Right input - pulses will advance the sequencer to the right (Pulse INPUT)
+12. Left input - pulses will advance the sequencer to the left (Pulse INPUT)
+13. CV output for the "A" row of presets (AC OUTPUT)
+14. CV output for the "B" row of presets (AC OUTPUT)
+15. CV output for the "C" row of presets (AC OUTPUT)
+16. CV output for the "D" row of presets (AC OUTPUT)
+17. Trigger output for the TRK - sends a pulse when a stage is selected and that stage's selection switch *2* is enabled (Pulse OUTPUT)
+18. Push output for the programmer - sends a high value as long as a button is pushed (Pulse OUTPUT)
+
+*Notes:*
+
+- The Programmer allows you to preset 4 sequences of knobs to control any CV input on the Serge system - scales and melodies for oscillators, but also filter cutoff frequencies, envelope durations, and anything else that you may want to automate. The module's clock is typically driven by a pulse generator (such as a Dual Slopes), but clock pulses can come from anywhere, such as the gate outputs of the Noise module.
+- By using the pulse outputs for the individual sequence stages (*1*), you can trigger external events on other modules. You can also use these outputs, in combination with the stage select inputs (*3*), to create smaller loops of sequences within the system.
+- Unlike the other programmer modules in our Serge system, this Programmer outputs bidirectional (AC) CV signals, with 0 volts at the mid range of each potentiometer. This allows for a wider range of control voltages that can subtract as well as add from a base value on a module.
+
 [back to top](#top)
 
 ## The Shelfisizer
