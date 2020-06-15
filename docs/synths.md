@@ -1774,11 +1774,13 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 
 [back to top](#top)
 
-## Black Swamp
+## CGS Panels
 
 <img src = "./img/sergebs_photo.jpg" width="100%" title="Black Swamp Serge panel" alt="Black Swamp Serge panel">
 
-The **Black Swamp** is a Serge panel with a complex pedigree, consisting of a variety of sequencing and logic modules designed to create rhythmic CV and trigger patterns. 
+<img src = "./img/sergeprogrammer_photo.jpg" width="100%" title="CGS Programmer-Sequencer panel" alt="CGS Programmer-Sequencer panel">
+
+The **Black Swamp** and **Programmer** are Serge panels with a complex pedigree, consisting of a variety of sequencing and logic modules designed to create rhythmic CV and trigger patterns. 
 
 [Ken Stone](http://www.synthpanel.com/), one of Australia's best-known synthesizer designers, developed a series of DIY  modules in the late 1980s. Dubbed **CGS** (for Cat Girl Synthesizer), these were available as mail order kits and were among the first DIY synthesizer projects to be published on the World Wide Web. Many of the kits were licensed copies of Tcherepnin's original Serge designs, and were for many years the only way to acquire Serge DIY kits. However, most of the modules were of Stone's invention, and several (such as the Pulse Divider and Boolean Logic) were licensed and adopted in commercial Serge panels (including our Random\*Source Serge).
 
@@ -1786,9 +1788,11 @@ The **Black Swamp** is a Serge panel with a complex pedigree, consisting of a va
 
 In 2015, [Jon Peters](https://synthcube.com/cart/tojpeters-en), a California-based DIY synth designer and builder, created and [published](https://muffwiggler.com/forum/viewtopic.php?t=147603&sid=6b482df30b92286ccaeadb84) a modified SWAMP design called the **Black Swamp**, which took Biddulph's panel layout and Stone's PCBs and added a variety of modifications and extra features, mounted onto a black (rather than silver) aluminum plate. A year later, Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/) - the Tcherepnin-licensed Serge manufacturer for the UK - did a [limited edition run](https://loudestwarning.tumblr.com/post/151796333376/here-is-the-front-of-the-black-swamp) of fully built and tested Black Swamp panels; we have one of these panels.
 
-The Black Swamp is an incredible example of the iterative design made posssible by open-source, DIY synthesizer communities such as those working around the Serge modular format.
+Another of Stone's designs, [CGS359](https://www.elby-designs.com/webtek/cgs/cgs359/cgs359.htm), is an update of Stone's earlier Programmer-Sequencer (itself adapted from Tcherepnin's  Serge Programmer module), designed to be built out in an arbitrary number of stages. Our **Programmer** panel, built in 2020 by Finlay Shakespeare at [Future Sound Systems](http://futuresoundsystems.co.uk/) in the UK as part of a [limited run](https://reverb.com/item/32308687-cgs-serge-programmer-sequencer-for-4u-banana-modular-systems) of panels, is a 16-stage version with a number of additional features.
 
-### The Black Swamp
+The Black Swamp and Programmer are incredible examples of the iterative design made posssible by open-source, DIY synthesizer communities such as those working around the Serge modular format.
+
+### Black Swamp
 
 <img src = "./img/sergebs_1.png" width="100%" title="Black Swamp panel" alt="Black Swamp panel">
 
@@ -1954,6 +1958,14 @@ Jon Peters added substantial functionality to the Programmer / Sequencer in the 
 - The TRK's keyboard pressure output *23* puts out a fairly noisy voltage based on capacitance. Patching it into a DUSG or SSG will allow you to smooth this out as well as add lag to the key (e.g. for keyboard-driven slow fades or filter sweeps).
 - The Programmer / Sequencer can be sequenced at audio rate, and the preset rows can be used as an arbitrary 8-stage waveform for an oscillator.
 - Pulling out an "A" knob (*1*) on a preset column expands the voltage scaling of the preset, allowing for a wider range of parameter control than the range Stone used in the original CGS module.
+
+### Programmer
+
+<img src = "./img/sergeprogrammer.png" width="100%" title="CGS Programmer panel" alt="CGS Programmer panel">
+
+The CGS **Programmer**, like the Serge TKB, is a 16-stage combination sequencer / preset manager with four rows per stage. Unlike the TKB, the Programmer has no keyboard, and instead can trigger stages by manual buttons (like the R\*S Sequencer / Programmer) or by trigger inputs available for each stage. Like the Programmer-Sequencer in the Black Swamp (also based on Stone's core Programmer design), the Programmer has Run/Skip/Stop functionality for each stage, as well as trigger inputs for seqeuencing in either direction.
+
+<img src = "./img/sergeprogrammer_1.png" width="100%" title="CGS Programmer panel" alt="CGS Programmer panel">
 
 [back to top](#top)
 
