@@ -4,6 +4,7 @@
 - [Overview](#overview)
 - [Studio Basics](#studio-basics)
 - [The Synthesizers](#the-synthesizers)
+  - [Glossary](./glossary.md)
   - [Glossary](#glossary)
   - [Serge system overview](#serge-system-overview)
     - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
