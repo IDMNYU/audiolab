@@ -6,7 +6,7 @@
 - [The Synthesizers](#the-synthesizers)
   - [Glossary](./glossary.md)
   - [Serge system](./serge.md)
-  - [ARP2600 system](./arp.md)
+  - [ARP 2600 system](./arp.md)
 
 # Overview
 
