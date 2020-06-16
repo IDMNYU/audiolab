@@ -3,7 +3,7 @@
 
 - [Overview](#overview)
 - [Studio Basics](#studio-basics)
-- [The Synthesizers](#the-synthesizers)
+- The Synthesizers
   - [Glossary](./glossary.md)
   - [Serge system](./serge.md)
   - [ARP 2600 system](./arp.md)
