@@ -1,9 +1,5 @@
 # Synthesizer Glossary
 
-The IDM analog studio has two main types of synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts. The two systems are decribed in these pages.
-
-### Glossary
-
 Analog synthesizers (and software synthesizers that emulate their design) have a jargon. Before looking at the synthesizers themselves, here's a brief glossary of terms commonly found in Serge, ARP, and other modular synthesizer documentation:
 
 - [**Control Voltage / Gate**](https://en.wikipedia.org/wiki/CV/Gate) (**CV/Gate**) - a common schema for transmitting signals around a synthesizer that are not meant to be heard directly, but are meant to control and trigger sound-producing modules. When the control voltage in question represents musical pitch, both Serge and ARP systems support a standard scaling of 1 volt-per-octave (over a range of 0-5 volts on Serge systems, 0-10 on ARP systems). In addition, Serge synthesizers feature a linear voltage system that is usually paired with a scaling knob. When the control voltage represents a pulse, trigger, or "gate", then it is treated similar to digital signals, with 5 volts (Serge) / 10 volts (ARP) being HIGH and 0 volts LOW. The ARP's higher voltage range means a pulse from a Serge synthesizer won't fire the trigger/gate inputs on an ARP 2600 without amplification.
