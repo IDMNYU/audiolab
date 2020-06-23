@@ -1480,7 +1480,7 @@ The **4x4 (All-In Plus) Attack-Decay/Attack-Release** is an extension to the All
 
 The 4x4 AD/AR has four input modes and four output signals. A trigger/gate input will generate an envelope with an attack and decay (trigger) or release (gate) time set by the knobs. A manual trigger button can be used to generate an AR envelope as well. A pulse is generated at the end of the envelope, and a "cycle" switch allows the module to run as an oscillator either as an LFO or in the audible frequency range. 
 
-In addition, the module contains a pulse delay circuit, which can be used independently or to trigger the envelope generator. The delay is [monostable](https://en.wikipedia.org/wiki/Monostable), so a new trigger sent into the circuit before a delayed pulse is completed will rest the delay circuit.
+In addition, the module contains a pulse delay circuit, which can be used independently or to trigger the envelope generator. The delay is [monostable](https://en.wikipedia.org/wiki/Monostable), so a new trigger sent into the circuit before a delayed pulse is completed will reset the delay circuit.
 
 The Dual VCA circuit consists of a pair of signal amplifier circuits with AC input and output, CV envelope input, and a bias control. The Mixer on this side of the panel has no attenuation knobs and will mix up to four input signals at [unity gain](https://en.wikipedia.org/wiki/1), with regular and inverted signal outputs.
 
@@ -1610,7 +1610,7 @@ The **4x4 (All-In Plus) Attack-Decay/Attack-Release** is an extension to the All
 
 The 4x4 AD/AR has four input modes and four output signals. A trigger/gate input with generate an envelope with an attack and decay (trigger) or release (gate) time set by the knobs. A manual trigger button can be used to generate an AR envelope as well. A pulse is generated at the end of the envelope, and a "cycle" switch allows the module to run as an oscillator either as an LFO or in the audible frequency range. 
 
-In addition, the module contains a pulse delay circuit, which can be used independently or to trigger the envelope generator. The delay is [monostable](https://en.wikipedia.org/wiki/Monostable), so a new trigger sent into the circuit before a delayed pulse is completed will rest the delay circuit.
+In addition, the module contains a pulse delay circuit, which can be used independently or to trigger the envelope generator. The delay is [monostable](https://en.wikipedia.org/wiki/Monostable), so a new trigger sent into the circuit before a delayed pulse is completed will reset the delay circuit.
 
 The Dual VCA circuit consists of a pair of signal amplifier circuits with AC input and output, CV envelope input, and a bias control. The Mixer on this side of the panel has attenuation knobs and will mix up to four input signals, with regular and inverted signal outputs.
 
