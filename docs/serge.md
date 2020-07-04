@@ -835,7 +835,7 @@ The **Tau Phaser** was invented by reknowned electronic music instrument designe
 16. LEDs showing amplitude of outputs *4* and *8*
 
 *Notes:*
-- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At high feedback stages, it can self-oscillate with no input signal.
+- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
 
 #### Triple + Waveshaper / New Ring (TWS+)
 
@@ -939,7 +939,7 @@ The Serge **Resonant Equalizer** was designed by Tcherepnin in 1979, and consist
 
 #### Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)
 
-The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of three amplitude amplitude processing modules. The **Dual Lowpass Gate** is modeled after the Buchla [Quad Lopass Gate Model 292](https://www.modulargrid.net/u/buchla-quad-voltage), developed as part of the "200 Series" in the 1970s; the Lowpass Gate uses [Vactrol](https://en.wikipedia.org/wiki/Resistive_opto-isolator) opto-isolators to create a combination VCF/VCA. The **Timbre** module is based on Buchla's wavefolder circuit used in the [Complex Wave Generator Model 259](https://modularsynthesis.com/roman/buchla259/259cwg.htm) as well as the oscillator in the [Music Easel](https://buchla.com/music-easel/); similar to the Serge Wave Multipliers, the module performs harmonic distortion on an input signal to create a more complex waveform. The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
+The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of three amplitude processing modules. The **Dual Lowpass Gate** is modeled after the Buchla [Quad Lopass Gate Model 292](https://www.modulargrid.net/u/buchla-quad-voltage), developed as part of the "200 Series" in the 1970s; the Lowpass Gate uses [Vactrol](https://en.wikipedia.org/wiki/Resistive_opto-isolator) opto-isolators to create a combination VCF/VCA. The **Timbre** module is based on Buchla's wavefolder circuit used in the [Complex Wave Generator Model 259](https://modularsynthesis.com/roman/buchla259/259cwg.htm) as well as the oscillator in the [Music Easel](https://buchla.com/music-easel/); similar to the Serge Wave Multipliers, the module performs harmonic distortion on an input signal to create a more complex waveform. The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
 
 <img src = "./img/serge824_5_4.png" width="40%" title="DONKS" alt="DONKS">
 
