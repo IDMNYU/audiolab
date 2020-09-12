@@ -17,6 +17,8 @@ The ARP 2600 went through [multiple changes during its manufacturing lifetime](h
 
 A scan of the original ARP 2600 owner's manual can be found [here](./pdf/ARP-2600-manual.pdf).
 
+ARP also published a patch book for users to experiment with their ARP 2600. A scan can be found [here](./pdf/Arp-2600-PatchBook.pdf).
+
 A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](http://dl.lojinx.com/analoghell/Arp2600-ServiceManual.pdf).
 
 A number of textbooks exist around electronic music / music technology that use the ARP 2600 as a teaching synthesizer. Samuel Ecoff's *Fundamentals of Music Technology: The ARP 2600 Synthesizer* is a great one. A PDF can be found [here](./pdf/arp_ecoff.pdf). The CD examples for the book can be found on Ecoff's [home page](https://samecoff.com/works.html).
