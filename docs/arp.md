@@ -17,7 +17,7 @@ The ARP 2600 went through [multiple changes during its manufacturing lifetime](h
 
 A scan of the original ARP 2600 owner's manual can be found [here](./pdf/ARP-2600-manual.pdf).
 
-ARP also published a "Patch Book" of 100 setup sfor users to experiment with their ARP 2600. A scan can be found [here](./pdf/Arp-2600-PatchBook.pdf).
+ARP also published a "Patch Book" of 100 setups for users to experiment with their ARP 2600. A scan can be found [here](./pdf/Arp-2600-PatchBook.pdf).
 
 A scan of the complete ARP 2600 Service Manual (119 pgs) can be found [here](http://dl.lojinx.com/analoghell/Arp2600-ServiceManual.pdf).
 
