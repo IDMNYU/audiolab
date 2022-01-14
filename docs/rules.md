@@ -22,6 +22,8 @@ The Audio Lab is **not a social space**. If you're not working with the equipmen
 
 ## Lab Rules
 
+All Audio Lab users will have to watch a training video and take a short quiz. (Link TBA).
+
 *Please observe the following rules while working in the Audio Lab*
 
 - The Audio Lab is a **shared space**. Please be respectful of other people's equipment and work that might be ongoing, and wear a mask at all times. If you need to set up additional equipment, please work with the IDM staff to install it safely and make sure it's clearly got your name on it.
