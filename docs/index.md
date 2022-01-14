@@ -6,9 +6,9 @@ Last updated Spring, 2022.
 
 **[Policies, Rules, Reservations, and Contacts](./rules.md)**
 
-**[The Multi-channel Audio System](./multichannel.md)**
-
 **[The Analog Synthesizers](./synths.md)**
+
+**[The Multi-channel Audio System](./multichannel.md)**
 
 **[The Piano](./piano.md)**
 
