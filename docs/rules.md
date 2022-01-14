@@ -55,10 +55,8 @@ Other students interested in working in the room (e.g. for capstone or thesis wo
 Who to write for help:
 
 - R. Luke DuBois - IDM Research Director - dubois@nyu.edu
-- Elton Kwok - IDM Technical Director - eltonkwok@nyu.edu
-- Samantha Skinner - IDM Audio GRA - ss12430@nyu.edu
-- Michael Schumacher - IDM Audio Faculty - mschumacher@sprintmail.com
-- Kato Hideki - IDM Audio Faculty - hk1386@nyu.edu
+- Gabriella Gammarata - IDM Studio Research Coordinator - cammarata@nyu.edu
+- Ben Crystal - IDM Audio GRA - bc3099@nyu.edu
 - Eric Maiello - IDM Program Coordinator (*for room access issues only*) - em1680@nyu.edu
 
 [return to main page](./index.md)
