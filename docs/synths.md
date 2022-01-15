@@ -86,7 +86,7 @@ The mixer on the center table is a Behringer UFX-1204, which takes inputs from t
 
 ![Analog Studio Center Table Mixer](./img/ufxmixer.jpg "Analog Studio Center Table Mixer")
 
-The first four channels of the mixer are mono, and are wired to:
+The channels of the mixer are wired to:
 
 | Channel  | Input     |
 | ------------- | --- |
