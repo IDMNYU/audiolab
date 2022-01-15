@@ -90,22 +90,12 @@ The first four channels of the mixer are mono, and are wired to:
 
 | Channel  | Input     |
 | ------------- | --- |
-| 1            | the left output of the "Stereo Mixer" module on Panel 1 of the R\*S Serge. |
-| 2            | the right output of the "Stereo Mixer" module on Panel 1 of the R\*S Serge. |
-| 3            | the output of the "XFader" module on Panel 3 of the R\*S Serge. |
-| 4            | the top output on the "Adapter" module on the 73-75 Serge. |
-
-
-The rest of the mixer consists of 8 additional inputs in stereo pairs and are wired to:
-
-| Channel  | Input     |
-| ------------- | --- |
-| 5/6            | the left and right outputs of the "DONKS" module on Panel 5 of the R\*S Serge. |
-| 7/8            | the left and right output of the TTSH Mixer section. |
-| 9/10           | the stereo output of the Vermona DRM1 drum synthesizer. |
-| 11/12          | the output of the Theremin. |
-
-In addition, a cable is connected to the mixer's "CD/tape input" RCA jacks that ends in a stereo 3.5mm / 1/8" \* jack for a laptop connection.
+| 1            | the output of the Deckard's Dream synthesizer. |
+| 2            | the output of the IDM Vocoder. |
+| 3            | the output of the microphone on the center table. |
+| 4            | the output of the SH-101 synthesizer. |
+| 5/6          | the left and right outputs of the Prophet-6 synthesizer. |
+| 7/8          | a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
 
 > \* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). In the USA, they are incorrectly referred to as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
 
