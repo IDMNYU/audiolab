@@ -22,6 +22,7 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 - a ['Red Control'](https://sergemodularinfo.blogspot.com/p/red-control.html) panel by Sound Transform Systems, based on 1979-era Serge designs.
 - two Serge-format panels based on Ken Stone's [CGS modules](https://www.elby-designs.com/webtek/cgs/cgs.htm): a [Black Swamp](https://www.muffwiggler.com/forum/viewtopic.php?t=147603) panel designed by Jon Peters, based on the CGS [SWAMP](https://www.modulargrid.net/s/cgs-swamp), built by Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/); and a 16-stage CGS [Programmer Sequencer](https://www.elby-designs.com/webtek/cgs/cgs359/cgs359.htm) designed and built by Finlay Shakespeare at [Future Sound Systems](http://futuresoundsystems.co.uk/).
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
+- a [Benjolin](https://modularsynthesis.com/hordijk/benjolin/benjolin.htm) synthesizer designed by Rob Hordijk, built in Serge format by Grant Wilkinson.
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
 - an open source design of an [ARP 1601 Sequencer](https://modwiggler.com/forum/viewtopic.php?t=138862&start=0), also built by Patch Point.
@@ -34,6 +35,7 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Tascam Model 16](https://tascam.com/us/product/model_16/top) Mixer with USB output and SD card recording, for the Serge and ARP synthesizers.
 - A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording, for the synthesizers on the center table.
+- An [Akai GX-4000DB](https://www.hifiengine.com/manual_library/akai/gx-4000db.shtml) reel-to-reel tape recorder.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) [MIDI](https://en.wikipedia.org/wiki/MIDI) interface.
 - A vintage [IVL Pitchrider 4000](https://www.ivlaudio.com/home) pitch-to-MIDI converter.
@@ -59,9 +61,25 @@ Green lights on the conditioners and power strip will confirm that you've got po
 
 There are two mixers for the analog studio; one along the wall for the modular synthesizers, and another on the center table.
 
-The mixer against the wall is a Tascam Model 16, which takes inputs from the various modular synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
+The mixer against the wall is a Tascam Model 16, which takes inputs from the various modular synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording. The Tascam mixer also has an SD card input that allows you to directly record digital files from the mixer.
 
 ![Analog Studio Main Mixer](./img/model16mixer.jpg "Analog Studio Main Mixer")
+
+The channels of the mixer are wired to:
+
+| Channel  | Input     |
+| ------------- | --- |
+| 1            | the left output of the "Stereo Mixer" module on Panel 1 of the R\*S Serge. |
+| 2            | the right output of the "Stereo Mixer" module on Panel 1 of the R\*S Serge. |
+| 3            | the left output of the "Stereo Mixer" module on Panel 5 of the R\*S Serge. |
+| 4            | the right output of the "Stereo Mixer" module on Panel 5 of the R\*S Serge. |
+| 5            | the output of the "XFader" module on Panel 3 of the R\*S Serge. |
+| 6            | the top output on the "Adapter" module on the 73-75 Serge. |
+| 7            | the main output of the Benjolin. |
+| 8            | the output of the IKEA plate reverb. |
+| 9/10            | the left and right output of the TTSH Mixer section. |
+| 11/12           | the stereo output of the Vermona DRM1 drum synthesizer. |
+| 13/14           | the stereo output of the Akai reel-to-reel recorder. |
 
 
 The mixer on the center table is a Behringer UFX-1204, which takes inputs from the various keyboard synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
