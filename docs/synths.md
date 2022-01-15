@@ -16,8 +16,8 @@
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. The studio has two main types of synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts. The two systems are decribed in these pages. Our collection includes:
 
 - a large (6-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
-- a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the 'Homebuilt' panels from the [73-75](http://www.73-75.com/) project by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
-- a second 2-panel [73-75](http://www.73-75.com/) system consisting of a 'Voice' and 'Control' panel; like the 'Homebuilt', these panels are based on the 1973 Serge modular designs developed at CalArts.
+- a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the 'Homebuilt' panels from the [73-75](http://www.73-75.com/) project by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed by Tcherepnin at CalArts.
+- a second 2-panel [73-75](http://www.73-75.com/) system consisting of a 'Voice' and 'Control' panel; like the 'Homebuilt', these panels are based on Tcherepnin's first-generation designs.
 - two panels of modules by noted synthesizer designer [Ian Fritz](http://ijfritz.byethost4.com/), produced in Serge-compatible format by Paul Akin at [Uglysound Electronics](https://www.facebook.com/uglysoundelectronics/photos/a.541139732601896/560792510636618/?type=1&theater). 
 - a ['Red Control'](https://sergemodularinfo.blogspot.com/p/red-control.html) panel by Sound Transform Systems, based on 1979-era Serge designs.
 - two Serge-format panels based on Ken Stone's [CGS modules](https://www.elby-designs.com/webtek/cgs/cgs.htm): a [Black Swamp](https://www.muffwiggler.com/forum/viewtopic.php?t=147603) panel designed by Jon Peters, based on the CGS [SWAMP](https://www.modulargrid.net/s/cgs-swamp), built by Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/); and a 16-stage CGS [Programmer Sequencer](https://www.elby-designs.com/webtek/cgs/cgs359/cgs359.htm) designed and built by Finlay Shakespeare at [Future Sound Systems](http://futuresoundsystems.co.uk/).
@@ -50,10 +50,10 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 
 ### Power
 
-The power for *everything* in the analog studio is controlled by two switches, found on the Furman power conditioners on the black racks to the right:
+The power for *nearly everything* in the analog studio is controlled by three switches; two found on the Furman power conditioners on the black racks to the right of the main Serge system, and a third switch on the main power strip on the center table:
 ![Furman Power Conditioner](./img/analogpower.jpg "Furman Power Conditioner")
-A green light on each conditioner will confirm that you've got power.
-**Please use these power switches (and nothing else) to turn on and off all the equipment in the analog studio.**
+Green lights on the conditioners and power strip will confirm that you've got power.
+**Please use these power switches (and nothing else) to turn on and off the synthesizers in the analog studio.**
 
 ### Mixer
 
