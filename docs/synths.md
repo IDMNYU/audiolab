@@ -23,6 +23,7 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 - two Serge-format panels based on Ken Stone's [CGS modules](https://www.elby-designs.com/webtek/cgs/cgs.htm): a [Black Swamp](https://www.muffwiggler.com/forum/viewtopic.php?t=147603) panel designed by Jon Peters, based on the CGS [SWAMP](https://www.modulargrid.net/s/cgs-swamp), built by Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/); and a 16-stage CGS [Programmer Sequencer](https://www.elby-designs.com/webtek/cgs/cgs359/cgs359.htm) designed and built by Finlay Shakespeare at [Future Sound Systems](http://futuresoundsystems.co.uk/).
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 - a [Benjolin](https://modularsynthesis.com/hordijk/benjolin/benjolin.htm) synthesizer designed by Rob Hordijk, built in Serge format by Grant Wilkinson.
+- a [Variable Force Generator](https://www.low-gain.com/shop/p/vfg) Serge-format CV/Gate controller built by Logan Erickson / Low-Gain Electronics.
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
 - an open source design of an [ARP 1601 Sequencer](https://modwiggler.com/forum/viewtopic.php?t=138862&start=0), also built by Patch Point.
@@ -62,7 +63,9 @@ Green lights on the conditioners and power strip will confirm that you've got po
 
 There are two mixers for the analog studio; one along the wall for the modular synthesizers, and another on the center table.
 
-The mixer against the wall is a Tascam Model 16, which takes inputs from the various modular synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording. The Tascam mixer also has an SD card input that allows you to directly record digital files from the mixer.
+#### Modular Synth Mixer
+
+The mixer for the modular synthesizers is a Tascam Model 16, which takes inputs from the various modular synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording. The Tascam mixer also has an SD card input that allows you to directly record digital files from the mixer.
 
 ![Analog Studio Main Mixer](./img/model16mixer.jpg "Analog Studio Main Mixer")
 
@@ -82,8 +85,21 @@ The channels of the mixer are wired to:
 | 11/12           | the stereo output of the Vermona DRM1 drum synthesizer. |
 | 13/14           | the stereo output of the Akai reel-to-reel recorder. |
 
+**Please don't re-plug the channels on the mixer.**
 
-The mixer on the center table is a Behringer UFX-1204, which takes inputs from the various keyboard synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
+The USB output of the mixer comes out of a USB hub on the right-hand wall (between the Shelfisizer rack and the 73-75 panels). This hub also allows you to connect to the MOTU 8A audio interface and the MOTU Micro Express MIDI Interface.
+
+![USB Hub](./img/usbhub.jpg "USB Hub")
+
+The mixer is a multi-channel audio interface, with the Main Mix available as input channels 15/16. In other words, you can record individual tracks from the mixer on a per-channel basis. If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to download and install an ASIO driver for the mixer [here](https://tascam.com/us/product/model_16/download).
+
+You can also record to an micro-SD card on the mixer directly by record-enabling individual channels and using the console interface above the output section of the mixer. The mixer will record standard .WAV files at 24-bit, 44.1kHz. Higher sampling rates can be achieved by recording onto your computer via USB.
+
+The "Main" output of the mixer routes the audio to the two Genelec audio speakers on the table, based on the volume of the white "CR" (Control Room) fader. They should let you listen to the synths with plenty of volume, so **please don't adjust the gain controls on the Genelecs**. The "Sub" output allows you to route audio from the mixer to the Akai reel-to-reel tape deck. The "Sub" output is a bus, so you need to enable it on a per channel basis via the small buttons next to the channel fader.
+
+#### Center Table Mixer
+
+The mixer on the center table (for the non-modular synths) is a Behringer UFX-1204, which takes inputs from the various keyboard synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
 
 ![Analog Studio Center Table Mixer](./img/ufxmixer.jpg "Analog Studio Center Table Mixer")
 
@@ -100,17 +116,17 @@ The channels of the mixer are wired to:
 
 > \* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). In the USA, they are incorrectly referred to as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
 
-**Please don't re-plug the synthesizer channels on the mixer.**
+**Please don't re-plug the channels on the mixer.**
 
-The MUTE buttons on each channel reroute the audio to a secondary ("Alt 3-4") output. The left ("Alt 3") output of this secondary audio bus is connected to one of the Low-Gain converter boxes, so that you could, for example, connect an electric guitar to the mixer, "mute" its channel, and then connect it to the Serge system.
+The Vocoder is hard-wired using the insert output of the microphone channel and the headphone output of the Prophet-6.
 
-The USB output of the mixer has a cable connected for your use. If you connect it up to your computer, you can record the output of the synthesizers. The mixer shows up as a multi-channel audio interface, with the input channels on the mixer routed on a per-channel basis (e.g. *input channel 3* on the mixer comes into your computer as *input channel 3* of the interface). The "Main Mix" output of the mixer appears on channels 15-16. 
+The USB output of the mixer has a cable connected for your use. If you connect it up to your computer, you can record the output of the equipment. The mixer shows up as a multi-channel audio interface, with the input channels on the mixer routed on a per-channel basis (e.g. *input channel 3* on the mixer comes into your computer as *input channel 3* of the interface). The "Main Mix" output of the mixer appears on channels 15-16. 
 
 If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to download and install an ASIO driver for the mixer [here](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2/Downloads).
 
 The mixer can send your computer audio either pre- or post-fader (which includes not only the channel level, but also the internal effects and equalization). The red button at the top of the channel below the white Gain knob lets you set this option. In general, the pre-fader (button up) option will give you a cleaner signal, allowing you to post-process the audio once you've recorded it.
 
-The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers in the analog studio area. They should let you listen to the synths with plenty of volume, so **please don't adjust the gain controls on the Genelecs**.
+The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers on the table. They should let you listen to the synths with plenty of volume, so **please don't adjust the gain controls on the Genelecs**.
 
 [back to top](#top)
 
