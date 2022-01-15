@@ -33,48 +33,33 @@ static const int GENLIB_LOOPCOUNT_BAIL = 100000;
 // The State struct contains all the state and procedures for the gendsp kernel
 typedef struct State {
 	CommonState __commonstate;
-	DCBlock __m_dcblock_20;
-	DCBlock __m_dcblock_18;
-	Delay m_delay_5;
-	Delay m_delay_6;
-	Delta __m_delta_13;
-	Delta __m_delta_8;
-	Phasor __m_phasor_7;
-	Phasor __m_phasor_12;
-	Rate __m_rate_17;
-	Rate __m_rate_19;
+	Phasor __m_phasor_6;
+	Phasor __m_phasor_5;
+	Sah __m_sah_7;
+	SineCycle __m_cycle_8;
+	SineData __sinedata;
 	int __exception;
 	int vectorsize;
-	t_sample samplerate;
+	t_sample m_knob_2;
 	t_sample m_knob_3;
-	t_sample m_cv_4;
-	t_sample __m_slide_14;
-	t_sample m_cv_2;
-	t_sample m_knob_1;
-	t_sample __m_slide_9;
+	t_sample samplerate;
 	t_sample samples_to_seconds;
+	t_sample m_cv_1;
+	t_sample m_cv_4;
 	// re-initialize all member variables;
 	inline void reset(t_param __sr, int __vs) {
 		__exception = 0;
 		vectorsize = __vs;
 		samplerate = __sr;
-		m_knob_1 = ((int)0);
-		m_cv_2 = ((int)0);
+		m_cv_1 = ((int)0);
+		m_knob_2 = ((int)0);
 		m_knob_3 = ((int)0);
 		m_cv_4 = ((int)0);
-		m_delay_5.reset("m_delay_5", ((int)10000));
-		m_delay_6.reset("m_delay_6", ((int)10000));
 		samples_to_seconds = (1 / samplerate);
-		__m_phasor_7.reset(0);
-		__m_delta_8.reset(0);
-		__m_slide_9 = 0;
-		__m_phasor_12.reset(0);
-		__m_delta_13.reset(0);
-		__m_slide_14 = 0;
-		__m_rate_17.reset();
-		__m_dcblock_18.reset();
-		__m_rate_19.reset();
-		__m_dcblock_20.reset();
+		__m_phasor_5.reset(0);
+		__m_phasor_6.reset(0);
+		__m_sah_7.reset(0);
+		__m_cycle_8.reset(samplerate, 0);
 		genlib_reset_complete(this);
 		
 	};
@@ -93,55 +78,22 @@ typedef struct State {
 			return __exception;
 			
 		};
-		t_sample mul_33 = ((m_knob_3 + m_cv_2) * ((int)10));
-		t_sample triangle_24 = triangle(mul_33, ((t_sample)0.1));
-		t_sample mul_23 = (triangle_24 * ((int)100));
+		t_sample mul_882 = ((m_knob_3 + m_cv_4) * ((int)10));
 		samples_to_seconds = (1 / samplerate);
-		t_sample mul_31 = ((m_knob_1 + m_cv_4) * ((int)10));
-		t_sample triangle_22 = triangle(mul_31, ((t_sample)0.12));
-		t_sample mul_21 = (triangle_22 * ((int)100));
-		t_sample iup_10 = (1 / maximum(1, abs(((int)1))));
-		t_sample idown_11 = (1 / maximum(1, abs(mul_21)));
-		t_sample iup_15 = (1 / maximum(1, abs(((int)1))));
-		t_sample idown_16 = (1 / maximum(1, abs(mul_23)));
+		t_sample mul_885 = ((m_knob_2 + m_cv_1) * ((int)10));
 		// the main sample loop;
 		while ((__n--)) {
 			const t_sample in1 = (*(__in1++));
 			const t_sample in2 = (*(__in2++));
-			t_sample phasor_34 = __m_phasor_7(mul_33, samples_to_seconds);
-			t_sample delta_30 = __m_delta_8(phasor_34);
-			int lt_27 = (delta_30 < ((int)0));
-			__m_slide_9 = fixdenorm((__m_slide_9 + (((lt_27 > __m_slide_9) ? iup_10 : idown_11) * (lt_27 - __m_slide_9))));
-			t_sample slide_25 = __m_slide_9;
-			t_sample phasor_32 = __m_phasor_12(mul_31, samples_to_seconds);
-			t_sample delta_29 = __m_delta_13(phasor_32);
-			int lt_28 = (delta_29 < ((int)0));
-			__m_slide_14 = fixdenorm((__m_slide_14 + (((lt_28 > __m_slide_14) ? iup_15 : idown_16) * (lt_28 - __m_slide_14))));
-			t_sample slide_26 = __m_slide_14;
-			t_sample rate_6 = __m_rate_17.perform_off(phasor_32, ((int)10));
-			t_sample mul_4 = (rate_6 * ((int)10));
-			t_sample round_8 = round(mul_4);
-			t_sample mul_9 = (round_8 * ((int)110));
-			t_sample rdiv_10 = safediv(((int)1), mul_9);
-			t_sample mul_18 = (rdiv_10 * samplerate);
-			t_sample tap_20 = m_delay_5.read_linear(mul_18);
-			t_sample dcblock_2 = __m_dcblock_18(tap_20);
-			t_sample out1 = (dcblock_2 + in1);
-			t_sample mul_17 = (tap_20 * ((t_sample)0.99));
-			t_sample rate_5 = __m_rate_19.perform_off(phasor_34, ((int)10));
-			t_sample mul_3 = (rate_5 * ((int)10));
-			t_sample round_7 = round(mul_3);
-			t_sample mul_11 = (round_7 * ((int)110));
-			t_sample rdiv_12 = safediv(((int)1), mul_11);
-			t_sample mul_14 = (rdiv_12 * samplerate);
-			t_sample tap_16 = m_delay_6.read_linear(mul_14);
-			t_sample dcblock_1 = __m_dcblock_20(tap_16);
-			t_sample out2 = (dcblock_1 + in2);
-			t_sample mul_13 = (tap_16 * ((t_sample)0.99));
-			m_delay_5.write((mul_17 + slide_26));
-			m_delay_6.write((mul_13 + slide_25));
-			m_delay_5.step();
-			m_delay_6.step();
+			t_sample phasor_883 = __m_phasor_5(mul_882, samples_to_seconds);
+			t_sample phasor_886 = __m_phasor_6(mul_885, samples_to_seconds);
+			t_sample sah_884 = __m_sah_7(phasor_883, phasor_886, ((t_sample)0.5));
+			t_sample mul_879 = (sah_884 * ((int)1000));
+			__m_cycle_8.freq(mul_879);
+			t_sample cycle_880 = __m_cycle_8(__sinedata);
+			t_sample cycleindex_881 = __m_cycle_8.phase();
+			t_sample out1 = (cycle_880 + in1);
+			t_sample out2 = (in2 + cycle_880);
 			// assign results to output buffer;
 			(*(__out1++)) = out1;
 			(*(__out2++)) = out2;
@@ -150,13 +102,13 @@ typedef struct State {
 		return __exception;
 		
 	};
-	inline void set_knob1(t_param _value) {
-		m_knob_1 = (_value < 0 ? 0 : (_value > 1 ? 1 : _value));
-	};
 	inline void set_cv2(t_param _value) {
-		m_cv_2 = (_value < 0 ? 0 : (_value > 1 ? 1 : _value));
+		m_cv_1 = (_value < 0 ? 0 : (_value > 1 ? 1 : _value));
 	};
 	inline void set_knob2(t_param _value) {
+		m_knob_2 = (_value < 0 ? 0 : (_value > 1 ? 1 : _value));
+	};
+	inline void set_knob1(t_param _value) {
 		m_knob_3 = (_value < 0 ? 0 : (_value > 1 ? 1 : _value));
 	};
 	inline void set_cv1(t_param _value) {
@@ -218,9 +170,9 @@ void getparameter(CommonState *cself, long index, t_param *value) {
 	State *self = (State *)cself;
 	switch (index) {
 		case 0: *value = self->m_cv_4; break;
-		case 1: *value = self->m_cv_2; break;
-		case 2: *value = self->m_knob_1; break;
-		case 3: *value = self->m_knob_3; break;
+		case 1: *value = self->m_cv_1; break;
+		case 2: *value = self->m_knob_3; break;
+		case 3: *value = self->m_knob_2; break;
 		
 		default: break;
 	}
@@ -317,11 +269,11 @@ void *create(t_param sr, long vs) {
 	pi->outputmax = 1;
 	pi->exp = 0;
 	pi->units = "";		// no units defined
-	// initialize parameter 1 ("m_cv_2")
+	// initialize parameter 1 ("m_cv_1")
 	pi = self->__commonstate.params + 1;
 	pi->name = "cv2";
 	pi->paramtype = GENLIB_PARAMTYPE_FLOAT;
-	pi->defaultvalue = self->m_cv_2;
+	pi->defaultvalue = self->m_cv_1;
 	pi->defaultref = 0;
 	pi->hasinputminmax = false;
 	pi->inputmin = 0;
@@ -331,11 +283,11 @@ void *create(t_param sr, long vs) {
 	pi->outputmax = 1;
 	pi->exp = 0;
 	pi->units = "";		// no units defined
-	// initialize parameter 2 ("m_knob_1")
+	// initialize parameter 2 ("m_knob_3")
 	pi = self->__commonstate.params + 2;
 	pi->name = "knob1";
 	pi->paramtype = GENLIB_PARAMTYPE_FLOAT;
-	pi->defaultvalue = self->m_knob_1;
+	pi->defaultvalue = self->m_knob_3;
 	pi->defaultref = 0;
 	pi->hasinputminmax = false;
 	pi->inputmin = 0;
@@ -345,11 +297,11 @@ void *create(t_param sr, long vs) {
 	pi->outputmax = 1;
 	pi->exp = 0;
 	pi->units = "";		// no units defined
-	// initialize parameter 3 ("m_knob_3")
+	// initialize parameter 3 ("m_knob_2")
 	pi = self->__commonstate.params + 3;
 	pi->name = "knob2";
 	pi->paramtype = GENLIB_PARAMTYPE_FLOAT;
-	pi->defaultvalue = self->m_knob_3;
+	pi->defaultvalue = self->m_knob_2;
 	pi->defaultref = 0;
 	pi->hasinputminmax = false;
 	pi->inputmin = 0;
