@@ -25,7 +25,6 @@ The audio for the multi-channel system is controlled by an equipment rack in the
 
 To work with the system:
 * Turn on the Furman power conditioner.
-* Turn on the bottom QSC amplifier.
 * Connect to the USB cable attached to the 16A.
 * Select the MOTU 16A as your audio interface.
    * Outputs are 1-8 (full-range) and 17 (sub).
@@ -33,7 +32,6 @@ To work with the system:
    
 When you're finished:
 * Shut down your audio software.
-* Power off the bottom QSC amplifier.
 * Power off the Furman power conditioner.
 * Unplug the USB cable, coil it and leave it on the white shelf in the closet for the next user.
 
@@ -69,8 +67,6 @@ To work with the system, you will need to download and install the [MOTU AVB / P
 The full-range speakers are amplified by a pair of 8-channel power amplifiers at the bottom of the equipment rack. **Only the bottom amplifier is currently in use.**
 
 ![Multi-Channel System Amps](./img/audiolab_amps.jpg "Multi-Channel System Amps")
-
-In addition to the interfaces, you will need to **turn on the bottom amplifier** to work with the system.
 
 [back to top](#top)
 

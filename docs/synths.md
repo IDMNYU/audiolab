@@ -7,6 +7,7 @@
   - [Glossary](./glossary.md)
   - [Serge system](./serge.md)
   - [ARP 2600 system](./arp.md)
+  - [non-modular synths](./centertable.md)
 
 # Overview
 
@@ -14,29 +15,34 @@
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. The studio has two main types of synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts. The two systems are decribed in these pages. Our collection includes:
 
-- a large (5-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
-- a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the [73-75](http://www.73-75.com/) project by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed at CalArts.
+- a large (6-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980.
+- a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the 'Homebuilt' panels from the [73-75](http://www.73-75.com/) project by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed by Tcherepnin at CalArts.
+- a second 2-panel [73-75](http://www.73-75.com/) system consisting of a 'Voice' and 'Control' panel; like the 'Homebuilt', these panels are based on Tcherepnin's first-generation designs.
 - two panels of modules by noted synthesizer designer [Ian Fritz](http://ijfritz.byethost4.com/), produced in Serge-compatible format by Paul Akin at [Uglysound Electronics](https://www.facebook.com/uglysoundelectronics/photos/a.541139732601896/560792510636618/?type=1&theater). 
+- a ['Red Control'](https://sergemodularinfo.blogspot.com/p/red-control.html) panel by Sound Transform Systems, based on 1979-era Serge designs.
 - two Serge-format panels based on Ken Stone's [CGS modules](https://www.elby-designs.com/webtek/cgs/cgs.htm): a [Black Swamp](https://www.muffwiggler.com/forum/viewtopic.php?t=147603) panel designed by Jon Peters, based on the CGS [SWAMP](https://www.modulargrid.net/s/cgs-swamp), built by Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/); and a 16-stage CGS [Programmer Sequencer](https://www.elby-designs.com/webtek/cgs/cgs359/cgs359.htm) designed and built by Finlay Shakespeare at [Future Sound Systems](http://futuresoundsystems.co.uk/).
 - the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
+- an open source design of an [ARP 1601 Sequencer](https://modwiggler.com/forum/viewtopic.php?t=138862&start=0), also built by Patch Point.
 - an [Etherwave Plus](https://www.moogmusic.com/products/etherwave-plus-theremin), a modern kit [Theremin](https://en.wikipedia.org/wiki/Theremin) developed by [Moog Music](https://www.moogmusic.com/).
-- a [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978.
+- a [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978, controlled by an Akai MPK-225 MIDI controller.
+- a [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977, controlled by a Roli [Seaboard Rise 25](https://roli.com/products/seaboard)/[MPE](https://www.midi.org/articles-old/midi-polyphonic-expression-mpe) keyboard controller.
+- a Roland [SH-101](https://en.wikipedia.org/wiki/Roland_SH-101) monophonic analog synthesizer from 1982.
+- a Roland [GI-10](https://www.soundonsound.com/reviews/roland-gi-10) Guitar-to-MIDI Interface.
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
-- A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording.
+- A [Tascam Model 16](https://tascam.com/us/product/model_16/top) Mixer with USB output and SD card recording, for the Serge and ARP synthesizers.
+- A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording, for the synthesizers on the center table.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) [MIDI](https://en.wikipedia.org/wiki/MIDI) interface.
 - A vintage [IVL Pitchrider 4000](https://www.ivlaudio.com/home) pitch-to-MIDI converter.
-- An [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller.
-- A [Roli Seaboard](https://roli.com/products/seaboard) MIDI/[MPE](https://www.midi.org/articles-old/midi-polyphonic-expression-mpe) keyboard controller.
+- An [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller, attached below the TTSH.
 - Two [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converters, as well as a [Gate Boost](https://www.tindie.com/products/hotchk155/gate-boost-module-for-cvocd-and-others/) module.
 - Multiple [Low-Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
 - One [Siglent](https://www.siglent.eu/siglent-sds1072cml-plus.html) digital two-channel oscilloscope.
-- a [Phenol](https://www.kilpatrickaudio.com/?p=phenol), a low-cost, Serge-compatible modular synthesizer developed by [Kilpatrick Audio](https://www.kilpatrickaudio.com/) used in the audio lab for prototyping new circuits.
-- Stereo [Genelec](https://www.genelec.com/) speakers.
+- Two sets of stereo [Genelec](https://www.genelec.com/) speakers, one with a subwoofer.
 
 # Studio Basics
 
@@ -44,10 +50,10 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 
 ### Power
 
-The power for *everything* in the analog studio is controlled by two switches, found on the Furman power conditioners on the black racks to the right:
+The power for *nearly everything* in the analog studio is controlled by three switches; two found on the Furman power conditioners on the black racks to the right of the main Serge system, and a third switch on the main power strip on the center table:
 ![Furman Power Conditioner](./img/analogpower.jpg "Furman Power Conditioner")
-A green light on each conditioner will confirm that you've got power.
-**Please use these power switches (and nothing else) to turn on and off all the equipment in the analog studio.**
+Green lights on the conditioners and power strip will confirm that you've got power.
+**Please use these power switches (and nothing else) to turn on and off the synthesizers in the analog studio.**
 
 ### Mixer
 
