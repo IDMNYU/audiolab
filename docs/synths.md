@@ -57,9 +57,16 @@ Green lights on the conditioners and power strip will confirm that you've got po
 
 ### Mixer
 
-The mixer for the analog studio is a Behringer UFX-1204, which takes inputs from the various synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
+There are two mixers for the analog studio; one along the wall for the modular synthesizers, and another on the center table.
 
-![Analog Studio Mixer](./img/ufxmixer.jpg "Analog Studio Mixer")
+The mixer against the wall is a Tascam Model 16, which takes inputs from the various modular synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
+
+![Analog Studio Main Mixer](./img/model16mixer.jpg "Analog Studio Main Mixer")
+
+
+The mixer on the center table is a Behringer UFX-1204, which takes inputs from the various keyboard synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
+
+![Analog Studio Center Table Mixer](./img/ufxmixer.jpg "Analog Studio Center Table Mixer")
 
 The first four channels of the mixer are mono, and are wired to:
 
