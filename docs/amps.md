@@ -1,4 +1,4 @@
-# IDM Amps
+# The Amps
 
 The IDM Audio Lab has two instrument amplifiers: a [Peavey Minx 110](https://guitarsdoneright.com/guitars/peavey-minx-110-bass-amp-35-watt/) 35-watt bass amplifier, and a [Fender Champion 40](https://www.fender.com/en-US/guitar-amplifiers/contemporary-digital/champion-40/2330300000.html) 40-watt guitar amplifier: 
 
