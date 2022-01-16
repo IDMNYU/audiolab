@@ -1,4 +1,4 @@
-# IDM Piano
+# The Piano
 
 The Piano in the IDM Audio Lab is a 1922 [Steinway Model M](https://www.steinway.com/pianos/steinway/grand/model-m), donated by an alumna of Brooklyn Polytechnic to the school in the mid-1960s. It's there for you to play and record with.
 
