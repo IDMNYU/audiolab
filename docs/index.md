@@ -12,6 +12,8 @@ Last updated Spring, 2022.
 
 **[The Piano](./piano.md)**
 
+**[The Amps](./amps.md)**
+
 **[The Control Room](./controlroom.md)**
 
 
