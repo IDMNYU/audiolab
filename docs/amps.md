@@ -4,9 +4,9 @@ The IDM Audio Lab has two instrument amplifiers: a [Peavey Minx 110](https://gui
 
 <img src = "./img/amps.jpg" width="100%" title="Amps" alt="Amps">
 
-The Peavey power switch is on the front panel; the Fender power switch is on the back. **Please remember to turn off the amplifiers when you are done using them.**
+The Peavey power switch is on the front panel; the Fender power switch is on the back. 
 
-Both amps have pedalboards, curated to use for baseline instrument effects research with the [IDM Pedals](https://idmnyu.github.io/IDMPEDALS/) project.
+Both amps have pedalboards, curated to use for baseline instrument effects research with the [IDM Pedals](https://idmnyu.github.io/IDMPEDALS/) project. The pedalboars are both DC powered from [MXR DC Brick](https://www.jimdunlop.com/mxr-dc-brick-power-supply/) power supplies.
 
 The bass pedalboard consists of (from right to left):
 
@@ -28,6 +28,8 @@ The guitar pedalboard consists of (from right to left):
 - a [BOSS BF-3 Flanger](https://www.boss.info/us/products/bf-3/)
 - a [BOSS DD-7 Digital Delay](https://www.boss.info/us/products/dd-7/)
 
-**Do not disconnect or rearrange the pedalboards**
+Rules for using the amps:
+- Do not disconnect, unplug, or rearrange the pedalboards.
+- Remember to turn off the amplifiers when you are done using them.
 
 [return to main page](./index.md)
