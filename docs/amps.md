@@ -12,21 +12,21 @@ The bass pedalboard consists of (from right to left):
 
 <img src = "./img/basspedals.jpg" width="100%" title="Bass Pedals" alt="Bass Pedals">
 
-- an MXR Bass Compressor
-- an MXR Bass Octave Deluxe
-- an MXR Sugar Drive
-- an MXR Phase 90
-- an MXR Carbon Copy
+- an [MXR Bass Compressor](https://www.jimdunlop.com/mxr-bass-compressor/)
+- an [MXR Bass Octave Deluxe](https://www.jimdunlop.com/mxr-bass-octave-deluxe/)
+- an [MXR Sugar Drive](https://www.jimdunlop.com/mxr-sugar-drive-pedal/)
+- an [MXR Phase 90](https://www.jimdunlop.com/mxr-phase-90/)
+- an [MXR Carbon Copy Mini](https://www.jimdunlop.com/mxr-carbon-copy-mini-analog-delay/)
 
 The guitar pedalboard consists of (from right to left):
 
 <img src = "./img/guitarpedals.jpg" width="1000%" title="Bass Pedals" alt="Bass Pedals">
 
-- a BOSS CS-3 Compression Sustainer
-- a BOSS OC-3 Super Octave
-- a Tech 21 Sans-Amp GT-2
-- a BOSS BF-3 Flanger
-- a BOSS DD-7 Digital Delay
+- a [BOSS CS-3 Compression Sustainer](https://www.boss.info/us/products/cs-3/)
+- a [BOSS OC-3 Super Octave](https://www.boss.info/us/products/oc-3/)
+- a [Tech 21 Sans-Amp GT-2](https://www.tech21nyc.com/products/sansamp/gt2/)
+- a [BOSS BF-3 Flanger](https://www.boss.info/us/products/bf-3/)
+- a [BOSS DD-7 Digital Delay](https://www.boss.info/us/products/dd-7/)
 
 **Do not disconnect or rearrange the pedalboards**
 
