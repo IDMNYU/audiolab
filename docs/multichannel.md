@@ -44,7 +44,7 @@ Do not:
 
 # Interfaces
 
-![Multi-Channel System Interfaces](./img/audiolab_racktop.jpg "Multi-Channel System Interfaces")
+<img src = "./img/audiolab_racktop.png" width="100%" title="Multi-Channel System Interfaces" alt="Multi-Channel System Interfaces">
 
 To work with the multi-channel system, **use the power switch on the Furman** to turn on the interfaces. **Do not switch off the interfaces individually**.
 
@@ -66,7 +66,7 @@ To work with the system, you will need to download and install the [MOTU AVB / P
 
 The full-range speakers are amplified by a pair of 8-channel power amplifiers at the bottom of the equipment rack. **Only the bottom amplifier is currently in use.**
 
-![Multi-Channel System Amps](./img/audiolab_amps.jpg "Multi-Channel System Amps")
+<img src = "./img/audiolab_amps.png" width="100%" title="Multi-Channel System Amps" alt="Multi-Channel System Amps">
 
 [back to top](#top)
 
@@ -93,7 +93,7 @@ To use the 16A, you need to make sure your audio software has it selected as an 
 
 To send outputs to the different speakers, you would use output channels 1-8 and 17 (for the subwoofer). Similarly, inputs 17 and 18 listen to the front-panel inputs on the 828mk3. In Max/MSP, your **adc~** and **dac~** objects can be assigned to read audio from and write audio to specific channels:
 
-![Max Patch Output](./img/audiolab_outputpatch.png "Max Patch Output")
+<img src = "./img/audiolab_outputpatch.png" width="100%" title="Max Patch Output" alt="Max Patch Output">
 
 The [testpatches](https://github.com/IDMNYU/audiolab/tree/master/testpatches) folder of this Github repo has a number of patches to help you test the system.
 
