@@ -65,7 +65,7 @@ ARP synthesizers use a 10V AC standard for both audio and control voltage, which
 
 ## TTSH
 
-<img src = "./img/TTSH_studio.jpg" width="100%" title="IDM TTSH system" alt="IDM TTSH system">
+<img src = "./img/ttsh_studio.jpg" width="100%" title="IDM TTSH system" alt="IDM TTSH system">
 <img src = "./img/TTSH_photo_lit.jpg" width="100%" title="TTSH alone" alt="TTSH alone">
 
 The **TTSH** (the "Mini Meanie") was custom-built for Luke in 2019 by Darrin Wiener and Flavia Ferreira at Patch Point in Berlin. Designed to be as faithful as possible to the original ARP 2600 design, there are a number of differences between the TTSH and a vintage ARP:
