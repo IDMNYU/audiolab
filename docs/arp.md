@@ -345,7 +345,47 @@ On the lower right of the TTSH is the power switch for the synthesizer, next to 
 ## 1601 Sequencer
 
 <img src = "./img/1601_photo.jpg" width="100%" title="1601 Sequencer Photo" alt="1601 Sequencer Photo">
+
+Initially, the ARP 2600 was sold with a keyboard; like the main synthesizer, the 2600's keyboard went through several iterations, with the final version (the 3620) supporting duophonic output. Beginning in 1976, ARP also began producing a *sequencer*, for artists more interested in generating automated sequences of events than live keyboard performance. The ARP Sequencer Model 1601 was a sixteen-stage sequencer that could be split into two eight-stage sequences; sequences could be run linearly or accessed randomly. The sequencer also supported a number of novel features, including a semitone quantized voltage output for sequencing melodies, multiple gate outputs for complex rhythms, and the ability for the gate outputs to have a variable pulse length, which when combined with the ARP envelope generators allowed for the sequencing of notes of different duration.
+
+A scan of the original ARP 1601 owner's manual can be found [here](./pdf/ARP Sequencer Owners Manual.pdf).
+
+The ARP 1601 in the IDM Analog Studio is based on the [JMLS DIY 1601](https://synthcube.com/cart/j.m.%20logan%20synths/1601-sequencer-diy), and was built for us by Patch Point in Berlin in 2020.
+
 <img src = "./img/1601.png" width="100%" title="1601 Schematic" alt="1601 Schematic">
+
+1. Sequencer stage sliders (1-16)
+2. Sequencer gate select switches (1-16)
+3. Gate bus outputs - can be connected to input *11* on the **ADSR/AR** module on the TTSH
+4. Step input - can be connected from, e.g. output *2* on the **S/H** module to make the sequencer have an external clock
+5. Manual step button
+6. Skip/Off/Reset selector for defining the internal behavior of stages set to Gate Bus 3
+7. Manual reset button
+8. Reset input
+9. Selector switch for sequencer behavior: either a single 16-stage or split 8-stage sequencer
+10. Selector switch for sequencer behavior: step triggers cause it to advance stage-by-stage or randomly
+11. Position 1 Out trigger - can be used as a 'carry' pulse to trigger something on each complete run of the sequence
+12. Clocked Gate 1 output - sends pulses when a stage is selected by the step or internal clock *and* that stage's gate select is set to Gate 1
+13. Start input - based on switch *14*, either starts the sequencer on a trigger or continues the sequencer running as long as a gate signal is present
+14. Trig/Gate switch for input *13* - allows the sequencer to be started by a trigger or held in an 'on' state by a gate
+15. Manual start/stop button
+16. Stop trigger input
+17. Start/stop trigger input - will toggle the sequencer on and off; this input is normaled to the footswitch jack on the back of the unit
+18. Output of the footswitch
+19. Clock FM input; voltage at this input will vary the speed of the sequencer clock; this is normalled to Gate Bus 1 so that the sequencer can easily define two note durations
+20. PWM input; voltage at this input will vary the pulse length of the clock out *24* and clocked Gate 1 output *12* to create notes with different durations
+21. Slider for the internal clock frequency
+22. Slider for the internal FM (variation) of the clock; this will be scaled by the voltage input at *19*
+23. Slider for the PWM duration; this will add to the voltage input at *20*
+24. Clock output - you can use this to trigger, for example, the ***ADSR/AR*** or ***S/H*** input on the TTSH
+25. Raw voltage outputs of the sequencer - when in split mode, the two sides will send different voltages
+26. External voltage inputs for the two quantizers - the quantizer is normaled to receive the output of the sequencer
+27. CV scaling input for the quantizer - the ARP 1601 quantizer is designed to scale over two octaves (24 semitones), so this allows for setting a base frequency without retuning the TTSH oscillator inputs
+28. Quantized voltage outputs; these can be patched, e.g. to the Keyboard input of the TTSH or any of the ***VCO*** inputs
+
+*Notes:*
+- The 1601 clone, like the orginal, uses a full voltage range of -10V to 10V for the main sequencer outputs; the quantized outputs use a much narrower, 2V (two-octave) range to allow for precise selection of melodies
+- The 1601 trigger/gate outputs are *hot* (10V), like the TTSH; clock *inputs* will fire on either an ARP 10V trigger or a modern 5V pulse
 
 ## Keystep
 
