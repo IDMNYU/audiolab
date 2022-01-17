@@ -348,7 +348,7 @@ On the lower right of the TTSH is the power switch for the synthesizer, next to 
 
 Initially, the ARP 2600 was sold with a keyboard; like the main synthesizer, the 2600's keyboard went through several iterations, with the final version (the 3620) supporting duophonic output. Beginning in 1976, ARP also began producing a *sequencer*, for artists more interested in generating automated sequences of events than live keyboard performance. The ARP Sequencer Model 1601 was a sixteen-stage sequencer that could be split into two eight-stage sequences; sequences could be run linearly or accessed randomly. The sequencer also supported a number of novel features, including a semitone quantized voltage output for sequencing melodies, multiple gate outputs for complex rhythms, and the ability for the gate outputs to have a variable pulse length, which when combined with the ARP envelope generators allowed for the sequencing of notes of different duration.
 
-A scan of the original ARP 1601 owner's manual can be found [here](./pdf/ARP Sequencer Owners Manual.pdf).
+A scan of the original ARP 1601 owner's manual can be found [here](./pdf/ARP-Sequencer-Owners-Manual.pdf).
 
 The ARP 1601 in the IDM Analog Studio is based on the [JMLS DIY 1601](https://synthcube.com/cart/j.m.%20logan%20synths/1601-sequencer-diy), and was built for us by Patch Point in Berlin in 2020.
 
