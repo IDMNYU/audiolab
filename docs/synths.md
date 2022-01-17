@@ -13,7 +13,7 @@
 
 ![Analog Studio Panorama](./img/analog_overview.jpg "Analog Studio Panorama")
 
-IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio in the corner of the room. The studio has two main types of synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts, as well as a small collection of non-modular synthesizers. The various systems are decribed in these pages. Our collection includes:
+IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio of modular synthesizers on one side of the room, with a second set of non-modular synthesizers on the center table. The lab has two main types of modular synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts, as well as a small collection of non-modular synthesizers. The various systems are described in these pages. Our collection includes:
 
 - a large (6-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980, as well as two modules based on signal processors designed by [Jürgen Haible](http://jhaible.com/).
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the 'Homebuilt' panels from the [73-75](http://www.73-75.com/) project by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed by Tcherepnin at CalArts.
@@ -55,14 +55,14 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 
 ### Power
 
-The power for *nearly everything* in the analog studio is controlled by three switches; two found on the Furman power conditioners on the black racks to the right of the main Serge system, and a third switch on the main power strip on the center table:
+The power for *nearly everything* related to the synthesizers in the Audio Lab is controlled by three switches; two found on the Furman power conditioners on the black racks to the right of the main Serge system, and a third switch on the main power strip on the center table:
 ![Furman Power Conditioner](./img/analogpower.jpg "Furman Power Conditioner")
 Green lights on the conditioners and power strip will confirm that you've got power.
-**Please use these power switches (and nothing else) to turn on and off the synthesizers in the analog studio.**
+**Please use these power switches (and nothing else) to turn on and off the synthesizer equipment in the Audio Lab.**
 
 ### Mixer
 
-There are two mixers for the analog studio; one along the wall for the modular synthesizers, and another on the center table.
+There are two mixers for the analog equipment; one along the wall for the modular synthesizers, and another on the center table.
 
 #### Modular Synth Mixer
 
