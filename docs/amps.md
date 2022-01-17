@@ -20,7 +20,7 @@ The bass pedalboard consists of (from right to left):
 
 The guitar pedalboard consists of (from right to left):
 
-<img src = "./img/guitarpedals.jpg" width="1000%" title="Bass Pedals" alt="Bass Pedals">
+<img src = "./img/guitarpedals.jpg" width="100%" title="Bass Pedals" alt="Bass Pedals">
 
 - a [BOSS CS-3 Compression Sustainer](https://www.boss.info/us/products/cs-3/). This is an updated version of the original [BOSS compressor pedal](https://bossarea.com/boss-cs-1-compression-sustainer/) from 1979, designed to work with full range instruments. It has controls for the input gain, tone balance, attack, and sustain (the release amount on the compressor).
 - a [BOSS OC-3 Super Octave](https://www.boss.info/us/products/oc-3/). This pedal contains both the original [BOSS analog (PLL) octave circuit](https://www.hobby-hour.com/electronics/s/oc2-octave.php), which synthesizes tones one octave and two octaves below a monophonic input signal, and a newer digital polyphonic circuit that uses pitch shifting.
