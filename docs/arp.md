@@ -2,6 +2,7 @@
 
 - [ARP 2600 overview](#arp-2600-overview)
 - [TTSH](#ttsh)
+- [1601 Sequencer](#1601-sequencer)
 
 ## ARP 2600 Overview
 
@@ -338,7 +339,7 @@ On the lower right of the TTSH is the power switch for the synthesizer, next to 
 
 **Please leave the TTSH power switch in the "on" position and use the Furman power conditioner to turn on and off the synthesizer.**
 
-## The Sequencer
+## 1601 Sequencer
 
 <img src = "./img/1601_photo.jpg" width="100%" title="1601 Sequencer Photo" alt="1601 Sequencer Photo">
 <img src = "./img/1601.png" width="100%" title="1601 Schematic" alt="1601 Schematic">
