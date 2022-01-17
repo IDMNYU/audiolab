@@ -9,7 +9,7 @@
 
 ## ARP 2600 Overview
 
-![ARP 2600 in use](./img/arp_orig.jpg "ARP2600 in use")
+<img src = "./img/arp_orig.jpg" width="100%" title="ARP2600 in use" alt="ARP2600 in use">
 
 *Much of what follows is adapted from the [manual I wrote](https://github.com/CreativeInquiry/ARP-2600) for the Frank-Ratchye STUDIO for Creative Inquiry at Carnegie Mellon University, where I spent part of 2016 helping to restore and document their vintage ARP 2600, pictured above. - Luke*
 
@@ -53,7 +53,7 @@ The default wiring allows most of the modules on the ARP to interact with no pat
 
 To override the default wiring, modules can connected by **patching** within and between module jacks using audio \* cables:
 
-![TTSH with patch cables](./img/ttsh_patched.jpg "TTSH with patch cables")
+<img src = "./img/ttsh_patched.jpg" width="100%" title="TTSH with patch cables" alt="TTSH with patch cables">
 
 > \* *More audio connector trivia*: original ARP equipment used **Switchcraft** [**"Tini-Jax"**](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM Audio Lab uses standard 3.5mm jacks. Because the TTSH uses two-conductor (+ and -) cables, it's somewhat easier to integrate with other A/V equipment than the Serge system.
 
