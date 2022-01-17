@@ -61,8 +61,8 @@ Other students interested in working in the room (e.g. for capstone or thesis wo
 Who to write for help:
 
 - R. Luke DuBois - IDM Research Director - dubois@nyu.edu
-- Gabriella Gammarata - IDM Studio Research Coordinator - cammarata@nyu.edu
 - Ben Crystal - IDM Audio GRA - bc3099@nyu.edu
+- Gabriella Gammarata - IDM Studio Research Coordinator - cammarata@nyu.edu
 - Eric Maiello - IDM Program Coordinator (*for room access issues only*) - em1680@nyu.edu
 
 [return to main page](./index.md)
