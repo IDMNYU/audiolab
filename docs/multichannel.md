@@ -66,7 +66,7 @@ To work with the system, you will need to download and install the [MOTU AVB / P
 
 The full-range speakers are amplified by a pair of 8-channel power amplifiers at the bottom of the equipment rack. **Only the bottom amplifier is currently in use.**
 
-<img src = "./img/audiolab_amps.png" width="100%" title="Multi-Channel System Amps" alt="Multi-Channel System Amps">
+<img src = "./img/audiolab_amps.jpg" width="100%" title="Multi-Channel System Amps" alt="Multi-Channel System Amps">
 
 [back to top](#top)
 
