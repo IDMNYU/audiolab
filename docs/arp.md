@@ -3,6 +3,9 @@
 - [ARP 2600 overview](#arp-2600-overview)
 - [TTSH](#ttsh)
 - [1601 Sequencer](#1601-sequencer)
+- [Keystep](#keystep)
+- [Werkstatt](#werkstatt)
+- [Rumbarack](#rumbarack)
 
 ## ARP 2600 Overview
 
@@ -343,6 +346,18 @@ On the lower right of the TTSH is the power switch for the synthesizer, next to 
 
 <img src = "./img/1601_photo.jpg" width="100%" title="1601 Sequencer Photo" alt="1601 Sequencer Photo">
 <img src = "./img/1601.png" width="100%" title="1601 Schematic" alt="1601 Schematic">
+
+## Keystep
+
+<img src = "./img/keystep.jpg" width="100%" title="Arturia Keystep" alt="Arturia Keystep">
+
+## Werkstatt
+
+<img src = "./img/werkstatt.jpg" width="100%" title="Moog Werkstatt" alt="Moog Werkstatt">
+
+## Rumburack
+
+<img src = "./img/rumburack.jpg" width="100%" title="Bastl Rumburack" alt="Bastl Rumburack">
 
 
 [back to top](#top)
