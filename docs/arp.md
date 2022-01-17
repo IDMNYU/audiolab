@@ -55,9 +55,9 @@ To override the default wiring, modules can connected by **patching** within and
 
 ![TTSH with patch cables](./img/ttsh_patched.jpg "TTSH with patch cables")
 
-> \* *More audio connector trivia*: original ARP equipment used **Switchcraft** [**"Tini-Jax"**](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM analog studio uses standard 3.5mm jacks. Because the TTSH uses two-conductor (+ and -) cables, it's somewhat easier to integrate with other A/V equipment than the Serge system.
+> \* *More audio connector trivia*: original ARP equipment used **Switchcraft** [**"Tini-Jax"**](http://www.switchcraft.com/Category.aspx?Parent=60) connectors for all its synthesizers' front-panel connections. Somewhat rare today, in the 1960s and 70s this connector was a competitor to the 3.5mm / 1/8" mini-phone jacks considered standard today after being popularized by the Sony Walkman. Tini-Jax were used by ARP (and Buchla) as an alternative to the larger 1/4" phono jacks used by Moog. 3.5mm / 1/8" cables will work just fine in a Tini-Jax socket, though they may feel a little loose; *however, a Tini-Jax plug can damage or break a normal 3.5mm jack*. The TTSH in the IDM Audio Lab uses standard 3.5mm jacks. Because the TTSH uses two-conductor (+ and -) cables, it's somewhat easier to integrate with other A/V equipment than the Serge system.
 
-The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the analog studio area, and are color-coded by length.
+The 3.5mm cables in the IDM Audio Lab are stackable by inserting one cable into the back of another. The are stored against the wall in the modular synthesizer area, and are color-coded by length.
 
 <img src = "./img/eurocables.jpg" width="50%" title="3.5 mm patch cables" alt="3.5 mm patch cables">
 
@@ -245,7 +245,7 @@ The **VCA** of the TTSH modulates the amplitude of audio inputs based on control
 The right-hand module on the top row of the TTSH consists of a final stage mixer, a reverberation unit, and jacks for audio output from the synthesizer:
 - the [**MIXER**](https://en.wikipedia.org/wiki/Audio_mixing) module is a two-channel mixer with vertical sliders, a jack above each slider that can "tap" a direct out of the channel, and a horizontal [pan](https://en.wikipedia.org/wiki/Panning_(audio)) slider to move the mixers output between the left and right output jacks from the synthesizer. There are also additional input jacks to bypass the mixer entirely, wiring their voltage directly to their respective output jacks.
 - the **REVERBERATOR** module is a stereo [spring reverb](https://en.wikipedia.org/wiki/Reverberation#Spring_reverberators) unit that feeds the output jacks, as well as an additional direct output. Vertical sliders allow you to adjust the volume of the reverb in each channel.
-- In the IDM analog studio, the two 1/8" outputs of the **MIXER** are wired to inputs 7 and 8 on the Behringer mixer.
+- In the IDM Audio Lab, the two 1/8" outputs of the **MIXER** are wired to inputs 9 and 10 on the Tascam mixer.
 
 <img src = "./img/TTSH_1_8.png" height="500px" title="Mixer" alt="Mixer">
 
@@ -350,7 +350,7 @@ Initially, the ARP 2600 was sold with a keyboard; like the main synthesizer, the
 
 A scan of the original ARP 1601 owner's manual can be found [here](./pdf/ARP-Sequencer-Owners-Manual.pdf).
 
-The ARP 1601 in the IDM Analog Studio is based on the [JMLS DIY 1601](https://synthcube.com/cart/j.m.%20logan%20synths/1601-sequencer-diy), and was built for us by Patch Point in Berlin in 2020.
+The ARP 1601 in the IDM Audio Lab is based on the [JMLS DIY 1601](https://synthcube.com/cart/j.m.%20logan%20synths/1601-sequencer-diy), and was built for us by Patch Point in Berlin in 2020.
 
 <img src = "./img/1601.png" width="100%" title="1601 Schematic" alt="1601 Schematic">
 
