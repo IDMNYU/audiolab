@@ -2,6 +2,10 @@
 
 - [ARP 2600 overview](#arp-2600-overview)
 - [TTSH](#ttsh)
+- [1601 Sequencer](#1601-sequencer)
+- [Keystep](#keystep)
+- [Werkstatt](#werkstatt)
+- [Rumbarack](#rumbarack)
 
 ## ARP 2600 Overview
 
@@ -27,15 +31,15 @@ A number of textbooks exist around electronic music / music technology that use 
 
 The ARP 2600 is:
 - **Semi-modular** : unlike pure modular synthesizers (like the [Buchla](https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments), [Serge](https://en.wikipedia.org/wiki/Serge_synthesizer), and [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer) synthesizers), the ARP 2600 has a *default internal wiring* between the individual modules (similar to [patchbay "normalization"](https://en.wikipedia.org/wiki/Patch_panel#Normalization) in a recording studio) so that you could bring it home, plug it in, turn it on, and get sound out of the built-in speakers without any additional work. The patch points on the front of the synthesizer then *override* these defaults by breaking the internal connection, allowing you to customize how the modules are routed from one to another to make new sounds.
-- [**Monophonic / monotimbral**](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments#Monophonic) : the ARP 2600 was designed to be played with a keyboard controller or sequencer, one note at a time, with each note making the same kind of "sound," or timbre. However, with a little bit of work, you can re-patch an ARP to leverage the four sound sources independently of one another to create more than one sound at a time.
+- [**Monophonic / monotimbral**](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments#Monophonic) : the ARP 2600 was designed to be played with a keyboard controller or the 1601 sequencer, one note at a time, with each note making the same kind of "sound," or timbre. However, with a little bit of work, you can re-patch an ARP to leverage the four sound sources independently of one another to create more than one sound at a time.
 - **Voltage-based** : like most modular synthesizers of the day, the ARP uses voltage for both transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators) and [control voltage](https://en.wikipedia.org/wiki/CV/Gate) to modify parameters of the synthesizer. These signals are *both* carried over dual-conductor wiring either internally within the synth or externally via "TS" patch cables. This allows you to treat audio signals as control voltage when using the synthesizer so that, for example, an oscillator can be used to "sweep" the cutoff frequency of a filter. The downside of this is that *you can accidentally patch a control voltage line into the signal path to the speakers*, which can damage both the speakers and your ears.
 - **Subtractive** : the ARP 2600 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers. This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the ARP 2600 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
 - **Multiple source / single destination** : many modules on the ARP can mix (add together) signals from a number of inputs without requiring an additional mixer module, but generally have only one patch point for the module's output. This goes for control voltage as well, so that you can often modulate a parameter of the synthesizer with more than one source at once. This is different from, e.g. a Buchla synthesizer, where separate mixer modules must be used to combine several oscillators through a single filter, or Serge synthesizers, where [banana jacks](https://en.wikipedia.org/wiki/Banana_connector) can be stacked to send a module's output to several places at once.
-- **Monolithic design** : the ARP 2600 was intended to be used as a standalone instrument, in contrast to the (fully-modular) ARP 2500 or competitor systems from Moog, etc. As such, there was no way to order the ARP 2600 modules à la carte, and a number of design choices, such as its built-in speakers, signal that it was intended to be used as an all-in-one synthesizer. The ARP 2600 form factor (32"x18") wasn't designed for rack-mounting, but instead to be a complementary width to the 4-octave full-size keyboard that could be bought with it.
+- **Monolithic design** : the ARP 2600 was intended to be used as a standalone instrument, in contrast to the (fully-modular) ARP 2500 or competitor systems from Moog, etc. As such, there was no way to order the ARP 2600 modules à la carte, and a number of design choices, such as its built-in speakers, signal that it was intended to be used as an all-in-one synthesizer. The ARP 2600 form factor (32"x18") wasn't designed for rack-mounting, but instead to be a complementary width to the 4-octave full-size keyboard that could be bought along with it.
 
 ### Interface standards
 
-The ARP 2600 has 14 or so modules, along with built-in speakers, an optional keyboard, and some other bits and pieces to make it easier to wire into an external sound system. Larger modules are arrayed along a top row on the main panel, with some smaller modules fitted into a bottom row between the speakers. The keyboard has some controls as well. Controls on the ARP consist mostly of [slide potentiometers](https://en.wikipedia.org/wiki/Potentiometer) (sliders), along with a couple of knobs and a toggle switch or two. Small trim pots are arrayed under rubber protective caps; these are used to fine tune the synthesizer.
+The ARP 2600 has 14 or so modules, along with built-in speakers, an optional keyboard (and later sequencer), and some other bits and pieces to make it easier to wire into an external sound system. Larger modules are arrayed along a top row on the main panel, with some smaller modules fitted into a bottom row between the speakers. The keyboard has some controls as well. Controls on the ARP consist mostly of [slide potentiometers](https://en.wikipedia.org/wiki/Potentiometer) (sliders), along with a couple of knobs and a toggle switch or two. Small trim pots are arrayed under rubber protective caps; these are used to fine tune the synthesizer.
 
 *The most important thing to know about the ARP out is the default wiring between the modules*. These are indicated by friendly diagrams under the patch points and sliders, e.g.:
 
@@ -65,14 +69,14 @@ ARP synthesizers use a 10V AC standard for both audio and control voltage, which
 
 ## TTSH
 
-<img src = "./img/TTSH_photo.jpg" width="100%" title="TTSH system powered off" alt="TTSH powered off">
-<img src = "./img/TTSH_photo_lit.jpg" width="100%" title="TTSH system powered on" alt="TTSH powered on">
+<img src = "./img/ttsh_studio.jpg" width="100%" title="IDM TTSH system" alt="IDM TTSH system">
+<img src = "./img/TTSH_photo_lit.jpg" width="100%" title="TTSH alone" alt="TTSH alone">
 
 The **TTSH** (the "Mini Meanie") was custom-built for Luke in 2019 by Darrin Wiener and Flavia Ferreira at Patch Point in Berlin. Designed to be as faithful as possible to the original ARP 2600 design, there are a number of differences between the TTSH and a vintage ARP:
 - the TTSH is 75% of the size (24"x 12") of the ARP 2600.
 - the TTSH uses standard 3.5mm ("Eurorack") connectors instead of the Switchcraft Tini-Jax used on the original.
 - the TTSH *glows*, using [Bourns PTA](https://www.bourns.com/docs/Product-Datasheets/pta.pdf) slide potentiometers with LEDs. The TTSH in the IDM analog studio is fitted with ultra-bright blue LEDs.
-- the original ARP 2600 had a dedicated cinch connector on one side for interfacing with a keyboard (sold as an add-on to the system). The TTSH has no keyboard; instead, the jacks that are normalled to the **KBD CV** and **KEYBOARD GATE/TRIG** can receive input from, e.g. a Serge module, the CV.OCD converter, an Arduino, or elsewhere.
+- the original ARP 2600 had a dedicated cinch connector on one side for interfacing with a keyboard (sold as an add-on to the system). The TTSH has no keyboard; instead, the jacks that are normalled to the **KBD CV** and **KEYBOARD GATE/TRIG** can receive input from, e.g. the 1601 sequencer, the Arturia Keystep (or other MIDI device) via the CV.OCD converter, a Serge module using a Low-Gain format converter, an Arduino, or elsewhere.
 
 ### The Modules
 
@@ -337,6 +341,24 @@ On the lower right of the TTSH is the power switch for the synthesizer, next to 
 3. TTSH power switch
 
 **Please leave the TTSH power switch in the "on" position and use the Furman power conditioner to turn on and off the synthesizer.**
+
+## 1601 Sequencer
+
+<img src = "./img/1601_photo.jpg" width="100%" title="1601 Sequencer Photo" alt="1601 Sequencer Photo">
+<img src = "./img/1601.png" width="100%" title="1601 Schematic" alt="1601 Schematic">
+
+## Keystep
+
+<img src = "./img/keystep.jpg" width="100%" title="Arturia Keystep" alt="Arturia Keystep">
+
+## Werkstatt
+
+<img src = "./img/werkstatt.jpg" width="100%" title="Moog Werkstatt" alt="Moog Werkstatt">
+
+## Rumburack
+
+<img src = "./img/rumburack.jpg" width="100%" title="Bastl Rumburack" alt="Bastl Rumburack">
+
 
 [back to top](#top)
 
