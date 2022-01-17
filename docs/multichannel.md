@@ -44,7 +44,7 @@ Do not:
 
 # Interfaces
 
-<img src = "./img/audiolab_racktop.png" width="100%" title="Multi-Channel System Interfaces" alt="Multi-Channel System Interfaces">
+<img src = "./img/audiolab_racktop.jpg" width="100%" title="Multi-Channel System Interfaces" alt="Multi-Channel System Interfaces">
 
 To work with the multi-channel system, **use the power switch on the Furman** to turn on the interfaces. **Do not switch off the interfaces individually**.
 
