@@ -989,7 +989,7 @@ The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of th
 
 <img src = "./img/serge7375_photo.jpg" width="100%" title="73-75 Serge system" alt="73-75 Serge system">
 
-The **73-75 Serge** was built by Luther Bradfute based on a kit designed by the Human Comparator in Stockholm as part of their *73-75* project, which aims to revisit the original Serge Modular DIY designs. Called the "Homebuilt" system, this 2-panel setup contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's synthesizers, built in his home and sold as kits while he was still working at CalArts from 1973-1975. In general, these modules are simpler than found on the Random\*Source panels, but contain many examples of Tcherepnin's innovative designs.
+The **73-75 Serge** is a 4-panel system built from a series of kits designed by the Human Comparator in Stockholm as part of their *73-75* project, which aims to revisit the original Serge Modular DIY designs. The first two panels, called the "Homebuilt" system, was built by Luther Bradfute, and contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's synthesizers, built in his home and sold as kits while he was still working at CalArts from 1973-1975. The second two panels, dubbed the "Voice" and "Control" panels, were built by Matt Gerken, and contain modules oriented towards sound generation and event processing, respectively. In general, these modules are simpler than found on the Random\*Source panels, but contain many examples of Tcherepnin's innovative designs.
 
 ### "Homebuilt" Panel 1
 
