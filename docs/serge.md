@@ -2,7 +2,7 @@
 
 - [Serge system overview](#serge-system-overview)
 - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) )
-- [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) )
+- [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) / [Voice Panel](#voice-panel) / [Control Panel](#control-panel))
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
 - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) )
@@ -759,7 +759,7 @@ The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepn
 - Unlike the Active Processor, the XFader is AC-coupled, and will reject static or slow-moving DC signals.
 - Also unlike the Active Processor, the XFader uses equal-power (as opposed to equal gain) crossfading, using [Blackmer](http://www.thatcorp.com/2180-series_Pre-Trimmed_Blackmer_IC_Voltage-Controlled_Amplifiers.shtml) VCAs as signal amplifiers.
 - Like the Stereo Mixer, the voltage at the output of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the output banana jack *2*.
-- in the IDM Audio Lab, the TRS output on the XFader is wired to input 3 on the Tascam Mixer.
+- in the IDM Audio Lab, the TRS output on the XFader is wired to input 5 on the Tascam Mixer.
 
 ### Panel 4 (TKB)
 
@@ -981,7 +981,7 @@ The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of th
 - By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
 - The CV input for panning on the Stereo Mixer is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
 - The voltage at the output stage of the Stereo Mixer is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
-- In the IDM Audio Lab, the TRS outputs of the "Stereo Mixer" are wired to inputs 5 and 6 on the Tascam mixer.
+- In the IDM Audio Lab, the TRS outputs of the "Stereo Mixer" are wired to inputs 3 and 4 on the Tascam mixer.
 
 [back to top](#top)
 
@@ -1235,7 +1235,15 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 *Notes:*
 - The Adapter module is passive, and won't perform any filtering, attenuation, AC coupling, or preamplification on the signal in either direction. In the IDM Audio Lab, it's equivalent to the Low-Gain converter boxes.
-- In the IDM Audio Lab, the top 1/8" jack on the Adapter module is wired to input 4 on the Tascam mixer.
+- In the IDM Audio Lab, the top 1/8" jack on the Adapter module is wired to input 6 on the Tascam mixer.
+
+### Voice Panel
+
+<img src = "./img/serge7375_3.png" width="100%" title="73-75 Panel 3" alt="73-75 Panel 3">
+
+### Control Panel
+
+<img src = "./img/serge7375_4.png" width="100%" title="73-75 Panel 4" alt="73-75 Panel 4">
 
 [back to top](#top)
 
