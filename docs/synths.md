@@ -11,7 +11,7 @@
 
 # Overview
 
-![Analog Studio Panorama](./img/analog_overview.jpg "Analog Studio Panorama")
+<img src = "./img/analog_overview.jpg" width="100%" title="Analog Studio Panorama" alt="Analog Studio Panorama">
 
 IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio of modular synthesizers on one side of the room, with a second set of non-modular synthesizers on the center table. The lab has two main types of modular synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts, as well as a small collection of non-modular synthesizers. The various systems are described in these pages. Our collection includes:
 
@@ -56,7 +56,9 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 ### Power
 
 The power for *nearly everything* related to the synthesizers in the Audio Lab is controlled by three switches; two found on the Furman power conditioners on the black racks to the right of the main Serge system, and a third switch on the main power strip on the center table:
-![Furman Power Conditioner](./img/analogpower.jpg "Furman Power Conditioner")
+
+<img src = "./img/analogpower.jpg" width="100%" title="Furman Power Conditioner" alt="Furman Power Conditioner">
+
 Green lights on the conditioners and power strip will confirm that you've got power.
 **Please use these power switches (and nothing else) to turn on and off the synthesizer equipment in the Audio Lab.**
 
@@ -68,7 +70,7 @@ There are two mixers for the analog equipment; one along the wall for the modula
 
 The mixer for the modular synthesizers is a Tascam Model 16, which takes inputs from the various modular synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording. The Tascam mixer also has an SD card input that allows you to directly record digital files from the mixer.
 
-![Analog Studio Main Mixer](./img/model16mixer.jpg "Analog Studio Main Mixer")
+<img src = "./img/model16mixer.jpg" width="100%" title="Analog Studio Main Mixer" alt="Analog Studio Main Mixer">
 
 The channels of the mixer are wired to:
 
@@ -102,7 +104,7 @@ The "Main" output of the mixer routes the audio to the two Genelec audio speaker
 
 The mixer on the center table (for the non-modular synths) is a Behringer UFX-1204, which takes inputs from the various keyboard synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
 
-![Analog Studio Center Table Mixer](./img/ufxmixer.jpg "Analog Studio Center Table Mixer")
+<img src = "./img/ufxmixer.jpg" width="100%" title="Analog Studio Center Table Mixer" alt="Analog Studio Center Table Mixer">
 
 The channels of the mixer are wired to:
 
