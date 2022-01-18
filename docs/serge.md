@@ -72,7 +72,7 @@ Serge modules that work with frequency as a parameter (oscillators, filters, slo
 
 Modules are connected by **patching** within and between module jacks using banana cables.
 
-<img src = "./img/serge_patched2.jpg" title="Serge modules patched together" alt="Serge modules patched together">
+<img src = "./img/serge_patched2.jpg" width="100%" title="Serge modules patched together" alt="Serge modules patched together">
 
 Banana cables can be stacked by inserting one cable into the back or side of another. The cables in the IDM Audio Lab are stored against the wall in the modular synthesizer area, and are color-coded by length.
 
