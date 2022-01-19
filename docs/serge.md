@@ -1241,6 +1241,143 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 <img src = "./img/serge7375_3.png" width="100%" title="73-75 Panel 3" alt="73-75 Panel 3">
 
+#### Oscillator #1, #2
+
+The 73-75 **Oscillators** have two sets of oscillator outputs - a variable waveform that goes from sine to sawtooth, and a pure sawtooth waveform (the circuit's [oscillator core](https://www.perfectcircuit.com/signal/learning-synthesis-oscillators)). Both outputs can be tapped as AC or DC signals, and the oscillators can be [synced](https://en.wikipedia.org/wiki/Oscillator_sync).
+
+<img src = "./img/serge7375_3_12.png" width="20%" title="Oscillator" alt="Oscillator">
+
+1. Bipolar variable waveform, controlled by *3* and *4* (AC OUTPUT)
+2. Unipolar variable waveform, controlled by *3* and *4* (DC OUTPUT)
+3. Control knob for variable waveform shape (sine to square - sums with *4*)
+4. CV input for variable waveform shape (sums with *3*) (DC INPUT)
+5. Unipolar sawtooth waveform (DC OUTPUT)
+6. Bipolar sawtooth waveform (AC OUTPUT)
+7. CV frequency 1 (scaled by *9*, sums with *8* x *10* and *12*) (DC INPUT)
+8. CV frequency 2 (scaled by *10*, sums with *7* x *9* and *12*) (DC INPUT)
+9. Scalar knob for *7*
+10. Scalar knob for *8*
+11. Oscillator sync input for sawtooth outputs *5* and *6* (AC INPUT)
+12. Knob for base oscillator frequency (sums with *7* x *9* and *8* x *10*)
+
+*Notes:*
+- The 73-75 Oscillator was developed before Tcherepnin adopted the 1 volt-per-octave standard used by Moog synthesizers. As a result, it has a different frequency scaling from the newer circuit designs used in the Random\*Source modules.
+- The Oscillator has two separate CV inputs (*7* and *8*) with independent scaling (*9* and *10*) to modulate the frequency of the oscillators. This allows for, e.g. an audio-rate FM input as well as a set of voltages from a sequencer.
+- The variable waveform output transitions smoothly from a sawtooth to a (nearly) sine wave output by using a waveshaping circuit similar to that found on the Triple Waveshaper. The output can be patched through a "square-up" module (such as the Triple Comparator or the Square module on the Shelfisizer) to create a square wave or pulse train; it can also be patched into the Dual Negative Slew to create a triangle waveform.
+
+#### Triple Waveshaper
+
+The Serge **Triple Waveshaper (TWS)**, along with the Wave Multipliers (found on the Random\*Source system), are considered classic examples of modules that perform "West Coast" synthesizer distortion. Consisting of three sets of [waveshapers](https://en.wikipedia.org/wiki/Waveshaper) with CV control, the modules are designed to be patch-programmed to interact with one another in different ways. 
+
+<img src = "./img/serge7375_3_3.png" width="30%" title="TWS" alt="TWS">
+
+1. Signal to be waveshaped (AC INPUT)
+2. Waveshaper CV 2 (DC INPUT)
+3. Waveshaper CV 1 (DC INPUT)
+4. Knob for waveshaper amount (summed with *2* and *3*)
+5. Bipolar output (AC OUTPUT)
+6. Unipolar output (DC OUTPUT)
+
+*Notes:*
+- The TWS transfer function circuit will, when turned all the way up, transform a sawtooth wave into a sine wave, according to the T<sub>2</sub> [Chebyshev polynomial](https://en.wikipedia.org/wiki/Chebyshev_polynomials). The intensity of the shaping control (*2* + *3* + *4*) determines the amount of waveshaping. With a sawtooth wave input, this determines which harmonics are subtracted.
+- A sine wave sent into the same transfer function will have its frequency doubled. A harmonically rich signal will distort in complex ways as the transfer function of a waveshaper circuit exhibits nonlinear behavior.
+- The outputs of the TWS can be patch-programmed in series, so that all three waveshapers can distort the same signal.
+- The TWS is also excellent for shaping low-frequency signals to generate interesting control voltages. For example, you could feed one waveshaper in the TWS with the output of an Envelope Generator and a second with an oscillator, using the output of the first as the *CV input* of the second.
+
+#### Filter
+
+The original Serge **Filter** is a two-pole state-variable filter with independent lowpass, bandpass, and highpass outputs. Unlike the later filter designs (such as the **VCFQ**), this filter lacks volt/octave scaling.
+
+<img src = "./img/serge7375_3_4.png" width="20%" title="Filter" alt="Filter">
+
+1. Highpass outputs (AC OUTPUT)
+2. Bandpass outputs (AC OUTPUT)
+3. Lowpass outputs (AC OUTPUT)
+4. Filter input (AC INPUT)
+5. Filter gain control knob
+6. Filter center / cutoff frequency knob (summed with *7* x *8*)
+7. Filter CV scaling knob (multiplied with *8*)
+8. Filter CV input (multiplied with *7*) (DC INPUT)
+9. Q (filter quality) knob
+
+*Notes:*
+- The 73-75 Filter, like all Serge filter circuits, can filter both audio range signals and low frequency control voltages.
+
+#### Gate #1, #2
+
+The 1973 Serge **Gate** module was Tcherepnin's first [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier) design, allowing the amplitude of input signals to be modified by a second envelope signal. These modules have inputs for both linear and logarithmic amplitude scaling as well as an overall gain control.
+
+<img src = "./img/serge7375_3_56.png" width="10%" title="Gate" alt="Gate">
+
+1. VCA output (AC OUTPUT)
+2. Bipolar input (sums with *3*) (AC INPUT)
+3. Unipolar input (sums with *2*) (DC INPUT)
+4. Linear CV gain (DC INPUT)
+5. Logarithmic CV gain (DC INPUT)
+6. Scaling knob for overall gain (scales with *4* and *5*)
+
+*Notes:*
+- The Gate modules can be used as a simple VCA by connecting an audio signal to *2* and the output of an envelope generator to *4* or *5*, depending on the amplitude response you need.
+- The unipolar input *3* can be used for control voltage scaling.
+
+#### Ring Modulator
+
+The Serge **Ring Modulator** was one of Tcherepnin's earliest designs, and allows for the multiplication of bipolar and unipolar signals to create a variety of effects. A control knob controls the strength of the effect.
+
+<img src = "./img/serge7375_3_7.png" width="10%" title="Ring" alt="Ring">
+
+1. Output of Ring Modulator (AC OUTPUT)
+2. Bipolar Y (Modulator) source (AC INPUT)
+3. Unipolar Y (Modulator) source (DC INPUT)
+4. Bipolar X (Carrier) source (AC INPUT)
+5. Unipolar X (Carrier) source (DC INPUT)
+6. Effect control knob - fades from X input only to XY (fully modulated)
+
+*Notes:*
+- Two bipolar input signals will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
+- A bipolar input signal in one input and a unipolar input signal in the other will cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
+- If an audio-rate bipolar signal is used as the X signal (*4*), an envelope signal at the unipolar Y input (*3*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
+- If both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
+- The bipolar inputs (*2* and *4*) are *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar inputs (*3* and *5*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
+
+#### Envelope Generator
+
+The 1973 **Envelope Generator (EG)** module generates attack-release envelopes, with added features to make them usable as oscillators and sample-and-hold modules.
+
+<img src = "./img/serge7375_3_8.png" width="30%" title="Envelope Generator" alt="Envelope Generator">
+
+1. "Start" trigger for the envelope generator (Pulse INPUT)
+2. "End" trigger for the envelope generator (Pulse OUTPUT)
+3. Envelope signal (DC OUTPUT)
+4. Gate signal (Pulse OUTPUT)
+5. Knob to set window size of gate (summed with *6*)
+6. CV input to set window size of gate (summed with *5*) (DC INPUT)
+7. "Cycle" trigger for the envelope generator (Pulse INPUT)
+8. "Hold" trigger for the envelope generator (Pulse INPUT)
+9. CV input for overall duration (sums with *10* and scales *11* and *12*) (DC INPUT)
+10. Base duration for EG (sums with *9* and scales *11* and *12*)
+11. Fall time for envelope (scaled by *9* + *10*)
+12. Rise time for envelope (scaled by *9* + *10*)
+
+*Notes:*
+- The EG can be used as a basic **envelope generator** by sending a pulse to the start input *1*. The voltage at *3* will rise and fall according to the envelope parameters (*9*-*12*), and a gate signal at *4* will go HIGH for all or part of the envelope, depending on the window size setting (*5* + *6*). The end trigger *2* will pulse when the envelope has completed its run.
+- The Cycle input, when set HIGH, wil cause the EG to generate a new envelope immediately after the last one completes; this allows you to use the module as a triangle wave **oscillator**. Patching the end trigger *4* into the start trigger *1* accomplishes more or less the same thing.
+- The Hold input, when set HIGH, will *freeze* all the EG's outputs and pause the timing of the rise/fall cycle. This can be used to create a [**sample-and-hold**](https://en.wikipedia.org/wiki/Sample_and_hold) effect if the envelope output is patched, e.g. into the frequency of an oscillator.
+- The duration, by being CV controllable, allows you to dynamically shorten and lengthen the entire envelope based on external voltage.
+- The envelope generator, like most of Tcherepnin's timing circuits (c.f. the Dual Slopes on the Random\*Source Serge) cannot be retriggered until they've completed their envelope. Driving the EG with a pulse train, and then setting the duration of the envelope to greater than the wavelength of the pulses, allows you to use the EG as a [**subharmonic oscillator**](https://en.wikipedia.org/wiki/Undertone_series), generating tones at 1/2, 1/3, etc. the frequency of the input.
+
+#### Adapter
+
+The **Adapter** is a passive utility module that converts between banana jacks and 3.5mm / 1/8" connectors. There are three pairs of connectors in the module, and each converter can be used as an input or an output to the Serge.
+
+<img src = "./img/serge7375_3_9.png" width="10%" title="Adapter" alt="Adapter">
+
+1. 1/8" connector
+2. Banana connector (any INPUT or OUTPUT)
+
+*Notes:*
+- The Adapter module is passive, and won't perform any filtering, attenuation, AC coupling, or preamplification on the signal in either direction. In the IDM Audio Lab, it's equivalent to the Low-Gain converter boxes.
+
 ### Control Panel
 
 <img src = "./img/serge7375_4.png" width="100%" title="73-75 Panel 4" alt="73-75 Panel 4">
