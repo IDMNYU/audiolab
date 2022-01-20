@@ -1382,6 +1382,49 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 <img src = "./img/serge7375_4.png" width="100%" title="73-75 Panel 4" alt="73-75 Panel 4">
 
+#### Dual Positive Slew
+
+The **Dual Positive Slew** is the forerunner to the Dual Universal Slope Generator (DUSG - found on our Random\*Source Serge), and is an early example of Tcherepnin's desire to make modules that perform more than one function with the same circuit. It can perform [slew limiting](https://en.wikipedia.org/wiki/Slew_rate) on a rising input signal to function as the first half of an envelope follower (the Dual Negative Slew providing the other half). It can also be patched to oscillate as a rising sawtooth LFO or generate a rising envelope. The module contains two identical circuits laid out in an upper and lower half.
+
+<img src = "./img/serge7375_4_2.png" width="30%" title="Positive Slew" alt="Positive Slew">
+
+1. VC input for slew limiter amount (scaled by *2*, sums with *9*) (DC INPUT)
+2. Scaling knob for *1*
+3. Input signal (DC INPUT)
+4. Output signal (DC OUTPUT)
+5. "Start" envelope trigger (Pulse INPUT)
+6. "Sustain" envelope trigger (Pulse INPUT)
+7. Gate signal (Pulse OUTPUT)
+8. End signal (Pulse OUTPUT)
+9. Slew base amount (sums with *1* x *2*)
+
+*Notes:*
+- The simplest use of the Positive Slew is as an **envelope follower** that limits rising signals. Voltage sent into input *3* will have a lag on rising signals correlated to the slew limiter amount (*9* + *1* x *2*).
+- A pulse at the "Start" trigger will create a rising ramp envelope at *4*, the speed of which is controlled by the slew amount. During the ramp, the gate output *7* will go HIGH. At the end of the ramp, the output signal will drop and the end signal *8* will pulse. Patching *8* back into *5* will turn the positive slew into a rising sawtooth **oscillator**.
+- A pulse at the "Sustain" trigger will perform the same as the "Start" trigger, with the exception that the ramp output and gate (*4* and *7*) will remain HIGH at the end of the slew time.
+- The Positive Slew adds an interesting distortion to audio signals as, unlike a low-pass filter, it leaves falling signals untouched.
+- The Dual Positive Slew is designed to be used with the Dual Negative Slew to perform bidirectional envelope following or create a complete attack-sustain-release (ASR) envelope generator.
+
+#### Dual Negative Slew
+
+The **Dual Negative Slew** is the complement to the Dual Positive Slew, and like its counterpart was incorporated by Tcherepnin into the Dual Universal Slope Generator in 1976. It can perform [slew limiting](https://en.wikipedia.org/wiki/Slew_rate) on a falling input signal to function as the second half of an envelope follower (the Dual Positive Slew providing the other half). It can also be patched to oscillate as a falling sawtooth LFO or generate a falling envelope. The module contains two identical circuits laid out in an upper and lower half.
+
+<img src = "./img/serge7375_4_3.png" width="30%" title="Negative Slew" alt="Negative Slew">
+
+1. VC input for slew limiter amount (scaled by *2*, sums with *6*) (DC INPUT)
+2. Scaling knob for *1*
+3. Input signal (DC INPUT)
+4. Output signal (DC OUTPUT)
+5. "End" trigger (Pulse OUTPUT)
+6. Slew base amount (sums with *1* x *2*)
+7. Loop switch (shorts *5* to *3*)
+
+*Notes:*
+- The simplest use of the Negative Slew is as an **envelope follower** that limits falling signals. Voltage sent into input *3* will have a lag on rising signals correlated to the slew limiter amount (*6* + *1* x *2*).
+- A pulse at input *3* will create a high voltage output at *4* that gradually falls to 0v at the slew amount, upon which the end trigger *5* will fire a pulse. Patching *6* back into *1* will turn the negative slew into a falling sawtooth **oscillator**.
+- The Negative Slew adds an interesting distortion to audio signals as, unlike a low-pass filter, it leaves rising signals untouched.
+- The Dual Negative Slew is designed to be used with the Dual Positive Slew to perform bidirectional envelope following or create a complete attack-sustain-release (ASR) envelope generator.
+
 [back to top](#top)
 
 ## Ian Fritz Panels
