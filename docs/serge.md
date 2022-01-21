@@ -175,7 +175,7 @@ The **Wave Multipliers** module appeared in 1976 and is considered an important 
 > The bottom Wave Multiplier performs non-linear wavehaping known as full-wave rectification, but with sophisticated level-
 > compensating conditioning as well. Actually the circuit uses three full-wave rectifier sections linked in a very refined 
 > controllable format. Each section can double the frequency of a sine or triangle wave applied to its input. Thus sweeping 
-> the VC input over its range will produce a smooth timbral transition using the even harmonics (second, fourth, and eighth). 
+> the CV input over its range will produce a smooth timbral transition using the even harmonics (second, fourth, and eighth). 
 > Many other partials are present in this basic sound, however, and the sonorities are very rich and varied. A notable feature 
 > of this multiplier is that the full-wave rectification is not accompanied by a reduction in the output amplitude. There is 
 > no alteration of the essential level of the sound. There are two inputs to provide mixing before processing, and two 
@@ -235,7 +235,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 19. Sample-and-hold "dirty saw" source (DC OUTPUT)
 
 *Notes:*
-- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and VC inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
+- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and CV inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
 - The Stepped side will also internally self-oscillate - by patching cycle trigger *12* to input *10* and adjusting the frequency via *13*, *9*, and *11*. However, no signal will appear at output jack *14* until you send pulses into the Sample jack (*8*). These pulses can come from anywhere, e.g. from the Cycle output of the Smooth side, or from another module. This creates a classic [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuit where the internal oscillating waveform is being "sampled" by the trigger pulse at the Sample jack and "held" as the output voltage at jack *14*.
 - By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the maximum slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
 - The sidecar Noise Source module provides ideal outputs to experiment with as inputs for either side of the SSG. The Smooth side can be used to generate slow, time-varying random voltages, while the Stepped side, when sampling a random signal, can be used to create classic "bleep-bloop" noises when patched in as the frequency of an oscillator.
@@ -290,7 +290,7 @@ Tcherepnin avoided implementing standard audio filters like those found on Moog 
 7. Q knob for the ["quality"](https://en.wikipedia.org/wiki/Q_factor) (resonance) of the filter. This interacts with the slope to generate the specific behavior of the filter.
 8. 1-volt-per-octave CV input to control the filter frequency (sums with *10* x *12* and *14*) (DC INPUT)
 9. Voltage control input for the filter's slope (scaled by *11* and summed with *13*) (DC INPUT)
-10. VC input for linear control of the filter frequency (scaled by *12* and sums with *8* and *14*)
+10. CV input for linear control of the filter frequency (scaled by *12* and sums with *8* and *14*)
 11. Scaling knob for *9*.
 12. Scaling knob for *10*.
 13. Knob to set the base slope of the filter
@@ -317,7 +317,7 @@ The **Variable Q Voltage Controlled Filter (VCFQ)**, sometimes referred to as th
 8. High/Low switch to choose the range of the filter between audio ("HIGH") and sub-audio ("LOW") frequencies
 9. 1-volt-per-octave CV input to control the filter frequency (sums with *11* x *13* and *15*) (DC INPUT)
 10. Voltage control input for the filter's Q (summed with *12*) (DC INPUT)
-11. VC input for linear control of the filter frequency (scaled by *13* and sums with *9* and *15*)
+11. CV input for linear control of the filter frequency (scaled by *13* and sums with *9* and *15*)
 12. Knob to set the base Q of the filter
 13. Scaling knob for *11*
 14. Gain control knob for the filter
@@ -527,7 +527,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 16. Regular Coupler output - +5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
 
 *Notes:*
-- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and VC inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
+- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and CV inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
 - The Stepped side will also internally self-oscillate - by patching cycle trigger *12* to input *10* and adjusting the frequency via *13*, *9*, and *11*. However, no signal will appear at output jack *14* until you send pulses into the Sample jack (*8*). These pulses can come from anywhere, e.g. from the Cycle output of the Smooth side, or from another module. This creates a classic [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuit where the internal oscillating waveform is being "sampled" by the trigger pulse at the Sample jack and "held" as the output voltage at jack *14*.
 - By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the maximum slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
 - The sidecar Noise Source module provides ideal outputs to experiment with as inputs for either side of the SSG. The Smooth side can be used to generate slow, time-varying random voltages, while the Stepped side, when sampling a random signal, can be used to create classic "bleep-bloop" noises when patched in as the frequency of an oscillator.
@@ -671,7 +671,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 19. Sample-and-hold "dirty saw" source (DC OUTPUT)
 
 *Notes:*
-- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and VC inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
+- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and CV inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
 - The Stepped side will also internally self-oscillate - by patching cycle trigger *12* to input *10* and adjusting the frequency via *13*, *9*, and *11*. However, no signal will appear at output jack *14* until you send pulses into the Sample jack (*8*). These pulses can come from anywhere, e.g. from the Cycle output of the Smooth side, or from another module. This creates a classic [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuit where the internal oscillating waveform is being "sampled" by the trigger pulse at the Sample jack and "held" as the output voltage at jack *14*.
 - By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the maximum slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
 - The sidecar Noise Source module provides ideal outputs to experiment with as inputs for either side of the SSG. The Smooth side can be used to generate slow, time-varying random voltages, while the Stepped side, when sampling a random signal, can be used to create classic "bleep-bloop" noises when patched in as the frequency of an oscillator.
@@ -727,7 +727,7 @@ The **Variable Q Voltage Controlled Filter (VCFQ)**, sometimes referred to as th
 8. High/Low switch to choose the range of the filter between audio ("HIGH") and sub-audio ("LOW") frequencies
 9. 1-volt-per-octave CV input to control the filter frequency (sums with *11* x *13* and *15*) (DC INPUT)
 10. Voltage control input for the filter's Q (summed with *12*) (DC INPUT)
-11. VC input for linear control of the filter frequency (scaled by *13* and sums with *9* and *15*)
+11. CV input for linear control of the filter frequency (scaled by *13* and sums with *9* and *15*)
 12. Knob to set the base Q of the filter
 13. Scaling knob for *11*
 14. Gain control knob for the filter
@@ -893,7 +893,7 @@ The **Wave Multipliers** module appeared in 1976 and is considered an important 
 > The bottom Wave Multiplier performs non-linear wavehaping known as full-wave rectification, but with sophisticated level-
 > compensating conditioning as well. Actually the circuit uses three full-wave rectifier sections linked in a very refined 
 > controllable format. Each section can double the frequency of a sine or triangle wave applied to its input. Thus sweeping 
-> the VC input over its range will produce a smooth timbral transition using the even harmonics (second, fourth, and eighth). 
+> the CV input over its range will produce a smooth timbral transition using the even harmonics (second, fourth, and eighth). 
 > Many other partials are present in this basic sound, however, and the sonorities are very rich and varied. A notable feature 
 > of this multiplier is that the full-wave rectification is not accompanied by a reduction in the output amplitude. There is 
 > no alteration of the essential level of the sound. There are two inputs to provide mixing before processing, and two 
@@ -991,7 +991,7 @@ The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of th
 
 The **73-75 Serge** is a 4-panel system built from a series of kits designed by the Human Comparator in Stockholm as part of their *73-75* project, which aims to revisit the original Serge Modular DIY designs. The first two panels, called the "Homebuilt" system, was built by Luther Bradfute, and contains a "greatest hits" of Serge modules from the first generation of Tcherepnin's synthesizers, built in his home and sold as kits while he was still working at CalArts from 1973-1975. The second two panels, dubbed the "Voice" and "Control" panels, were built by Matt Gerken, and contain modules oriented towards sound generation and event processing, respectively. In general, these modules are simpler than found on the Random\*Source panels, but contain many examples of Tcherepnin's innovative designs.
 
-### "Homebuilt" Panel 1
+### Homebuilt Panel 1
 
 <img src = "./img/serge7375_1.png" width="100%" title="73-75 Panel 1" alt="73-75 Panel 1">
 
@@ -1152,7 +1152,7 @@ The Serge *Preamp* provides a gain stage to allow a high-impedance signal to be 
 *Notes:*
 - The Preamp isn't, strictly-speaking, necessary to bring external signals into a Serge system - the Low-Gain converter boxes will work just fine. However, it will help with signals that are high-impedance or deliver a low volume, such as the output of an electric guitar.
 
-### "Homebuilt" Panel 2
+### Homebuilt Panel 2
 
 <img src = "./img/serge7375_2.png" width="100%" title="73-75 Panel 2" alt="73-75 Panel 2">
 
@@ -1162,7 +1162,7 @@ The **Dual Positive Slew** is the forerunner to the Dual Universal Slope Generat
 
 <img src = "./img/serge7375_2_1.png" width="30%" title="Positive Slew" alt="Positive Slew">
 
-1. VC input for slew limiter amount (scaled by *2*, sums with *9*) (DC INPUT)
+1. CV input for slew limiter amount (scaled by *2*, sums with *9*) (DC INPUT)
 2. Scaling knob for *1*
 3. Input signal (DC INPUT)
 4. Output signal (DC OUTPUT)
@@ -1185,7 +1185,7 @@ The **Dual Negative Slew** is the complement to the Dual Positive Slew, and like
 
 <img src = "./img/serge7375_2_2.png" width="30%" title="Negative Slew" alt="Negative Slew">
 
-1. VC input for slew limiter amount (scaled by *2*, sums with *6*) (DC INPUT)
+1. CV input for slew limiter amount (scaled by *2*, sums with *6*) (DC INPUT)
 2. Scaling knob for *1*
 3. Input signal (DC INPUT)
 4. Output signal (DC OUTPUT)
@@ -1241,9 +1241,273 @@ The **Adapter** is a passive utility module that converts between banana jacks a
 
 <img src = "./img/serge7375_3.png" width="100%" title="73-75 Panel 3" alt="73-75 Panel 3">
 
+#### Oscillator #1, #2
+
+The 73-75 **Oscillators** have two sets of oscillator outputs - a variable waveform that goes from sine to sawtooth, and a pure sawtooth waveform (the circuit's [oscillator core](https://www.perfectcircuit.com/signal/learning-synthesis-oscillators)). Both outputs can be tapped as AC or DC signals, and the oscillators can be [synced](https://en.wikipedia.org/wiki/Oscillator_sync).
+
+<img src = "./img/serge7375_3_12.png" width="20%" title="Oscillator" alt="Oscillator">
+
+1. Bipolar variable waveform, controlled by *3* and *4* (AC OUTPUT)
+2. Unipolar variable waveform, controlled by *3* and *4* (DC OUTPUT)
+3. Control knob for variable waveform shape (sine to square - sums with *4*)
+4. CV input for variable waveform shape (sums with *3*) (DC INPUT)
+5. Unipolar sawtooth waveform (DC OUTPUT)
+6. Bipolar sawtooth waveform (AC OUTPUT)
+7. CV frequency 1 (scaled by *9*, sums with *8* x *10* and *12*) (DC INPUT)
+8. CV frequency 2 (scaled by *10*, sums with *7* x *9* and *12*) (DC INPUT)
+9. Scalar knob for *7*
+10. Scalar knob for *8*
+11. Oscillator sync input for sawtooth outputs *5* and *6* (AC INPUT)
+12. Knob for base oscillator frequency (sums with *7* x *9* and *8* x *10*)
+
+*Notes:*
+- The 73-75 Oscillator was developed before Tcherepnin adopted the 1 volt-per-octave standard used by Moog synthesizers. As a result, it has a different frequency scaling from the newer circuit designs used in the Random\*Source modules.
+- The Oscillator has two separate CV inputs (*7* and *8*) with independent scaling (*9* and *10*) to modulate the frequency of the oscillators. This allows for, e.g. an audio-rate FM input as well as a set of voltages from a sequencer.
+- The variable waveform output transitions smoothly from a sawtooth to a (nearly) sine wave output by using a waveshaping circuit similar to that found on the Triple Waveshaper. The output can be patched through a "square-up" module (such as the Triple Comparator or the Square module on the Shelfisizer) to create a square wave or pulse train; it can also be patched into the Dual Negative Slew to create a triangle waveform.
+
+#### Triple Waveshaper
+
+The Serge **Triple Waveshaper (TWS)**, along with the Wave Multipliers (found on the Random\*Source system), are considered classic examples of modules that perform "West Coast" synthesizer distortion. Consisting of three sets of [waveshapers](https://en.wikipedia.org/wiki/Waveshaper) with CV control, the modules are designed to be patch-programmed to interact with one another in different ways. 
+
+<img src = "./img/serge7375_3_3.png" width="30%" title="TWS" alt="TWS">
+
+1. Signal to be waveshaped (AC INPUT)
+2. Waveshaper CV 2 (DC INPUT)
+3. Waveshaper CV 1 (DC INPUT)
+4. Knob for waveshaper amount (summed with *2* and *3*)
+5. Bipolar output (AC OUTPUT)
+6. Unipolar output (DC OUTPUT)
+
+*Notes:*
+- The TWS transfer function circuit will, when turned all the way up, transform a sawtooth wave into a sine wave, according to the T<sub>2</sub> [Chebyshev polynomial](https://en.wikipedia.org/wiki/Chebyshev_polynomials). The intensity of the shaping control (*2* + *3* + *4*) determines the amount of waveshaping. With a sawtooth wave input, this determines which harmonics are subtracted.
+- A sine wave sent into the same transfer function will have its frequency doubled. A harmonically rich signal will distort in complex ways as the transfer function of a waveshaper circuit exhibits nonlinear behavior.
+- The outputs of the TWS can be patch-programmed in series, so that all three waveshapers can distort the same signal.
+- The TWS is also excellent for shaping low-frequency signals to generate interesting control voltages. For example, you could feed one waveshaper in the TWS with the output of an Envelope Generator and a second with an oscillator, using the output of the first as the *CV input* of the second.
+
+#### Filter
+
+The original Serge **Filter** is a two-pole state-variable filter with independent lowpass, bandpass, and highpass outputs. 
+
+<img src = "./img/serge7375_3_4.png" width="20%" title="Filter" alt="Filter">
+
+1. Highpass outputs (AC OUTPUT)
+2. Bandpass outputs (AC OUTPUT)
+3. Lowpass outputs (AC OUTPUT)
+4. Filter input (AC INPUT)
+5. Filter gain control knob
+6. Filter center / cutoff frequency knob (summed with *7* x *8*)
+7. Filter CV scaling knob (multiplied with *8*)
+8. Filter CV input (multiplied with *7*) (DC INPUT)
+9. Q (filter quality) knob
+
+*Notes:*
+- Unlike Tcherepnin's later filter designs (such as the **VCFQ**), this filter lacks volt/octave scaling.
+- The 73-75 Filter, like all Serge filter circuits, can filter both audio range signals and low frequency control voltages.
+
+#### Gate #1, #2
+
+The 1973 Serge **Gate** module was Tcherepnin's first [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier) design, allowing the amplitude of input signals to be modified by a second envelope signal. These modules have inputs for both linear and logarithmic amplitude scaling as well as an overall gain control.
+
+<img src = "./img/serge7375_3_56.png" width="10%" title="Gate" alt="Gate">
+
+1. VCA output (AC OUTPUT)
+2. Bipolar input (sums with *3*) (AC INPUT)
+3. Unipolar input (sums with *2*) (DC INPUT)
+4. Linear CV gain (DC INPUT)
+5. Logarithmic CV gain (DC INPUT)
+6. Scaling knob for overall gain (scales with *4* and *5*)
+
+*Notes:*
+- The Gate modules can be used as a simple VCA by connecting an audio signal to *2* and the output of an envelope generator to *4* or *5*, depending on the amplitude response you need.
+- The unipolar input *3* can be used for control voltage scaling.
+
+#### Ring Modulator
+
+The Serge **Ring Modulator** was one of Tcherepnin's earliest designs, and allows for the multiplication of bipolar and unipolar signals to create a variety of effects. A control knob controls the strength of the effect.
+
+<img src = "./img/serge7375_3_7.png" width="10%" title="Ring" alt="Ring">
+
+1. Output of Ring Modulator (AC OUTPUT)
+2. Bipolar Y (Modulator) source (AC INPUT)
+3. Unipolar Y (Modulator) source (DC INPUT)
+4. Bipolar X (Carrier) source (AC INPUT)
+5. Unipolar X (Carrier) source (DC INPUT)
+6. Effect control knob - fades from X input only to XY (fully modulated)
+
+*Notes:*
+- Two bipolar input signals will cause [**ring modulation**](https://en.wikipedia.org/wiki/Ring_modulation), with the result being the sum and difference of the two input spectra.
+- A bipolar input signal in one input and a unipolar input signal in the other will cause [**amplitude modulation**](https://en.wikipedia.org/wiki/Amplitude_modulation), which retains the carrier (bipolar) spectrum as well as the sidebands.
+- If an audio-rate bipolar signal is used as the X signal (*4*), an envelope signal at the unipolar Y input (*3*) will cause the module to function as a [**VCA**](https://en.wikipedia.org/wiki/Variable-gain_amplifier).
+- If both input signals are unipolar, the Ring Modulator will multiply the signals, allowing, for example, two envelope generators running at different frequencies to create a signal made up of their interference patterns.
+- The bipolar inputs (*2* and *4*) are *AC-coupled* and will filter out slow-moving (<20Hz) signals. The unipolar inputs (*3* and *5*) will work with any frequency but will perform [full-wave rectification](https://en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) on AC signals, flipping them positive.
+
+#### Envelope Generator
+
+The 1973 **Envelope Generator (EG)** module generates attack-release envelopes, with added features to make them usable as oscillators and sample-and-hold modules.
+
+<img src = "./img/serge7375_3_8.png" width="30%" title="Envelope Generator" alt="Envelope Generator">
+
+1. "Start" trigger for the envelope generator (Pulse INPUT)
+2. "End" trigger for the envelope generator (Pulse OUTPUT)
+3. Envelope signal (DC OUTPUT)
+4. Gate signal (Pulse OUTPUT)
+5. Knob to set window size of gate (summed with *6*)
+6. CV input to set window size of gate (summed with *5*) (DC INPUT)
+7. "Cycle" trigger for the envelope generator (Pulse INPUT)
+8. "Hold" trigger for the envelope generator (Pulse INPUT)
+9. CV input for overall duration (sums with *10* and scales *11* and *12*) (DC INPUT)
+10. Base duration for EG (sums with *9* and scales *11* and *12*)
+11. Fall time for envelope (scaled by *9* + *10*)
+12. Rise time for envelope (scaled by *9* + *10*)
+
+*Notes:*
+- The EG can be used as a basic **envelope generator** by sending a pulse to the start input *1*. The voltage at *3* will rise and fall according to the envelope parameters (*9*-*12*), and a gate signal at *4* will go HIGH for all or part of the envelope, depending on the window size setting (*5* + *6*). The end trigger *2* will pulse when the envelope has completed its run.
+- The Cycle input, when set HIGH, wil cause the EG to generate a new envelope immediately after the last one completes; this allows you to use the module as a triangle wave **oscillator**. Patching the end trigger *4* into the start trigger *1* accomplishes more or less the same thing.
+- The Hold input, when set HIGH, will *freeze* all the EG's outputs and pause the timing of the rise/fall cycle. This can be used to create a [**sample-and-hold**](https://en.wikipedia.org/wiki/Sample_and_hold) effect if the envelope output is patched, e.g. into the frequency of an oscillator.
+- The duration, by being CV controllable, allows you to dynamically shorten and lengthen the entire envelope based on external voltage.
+- The envelope generator, like most of Tcherepnin's timing circuits (c.f. the Dual Slopes on the Random\*Source Serge) cannot be retriggered until they've completed their envelope. Driving the EG with a pulse train, and then setting the duration of the envelope to greater than the wavelength of the pulses, allows you to use the EG as a [**subharmonic oscillator**](https://en.wikipedia.org/wiki/Undertone_series), generating tones at 1/2, 1/3, etc. the frequency of the input.
+
+#### Adapter
+
+The **Adapter** is a passive utility module that converts between banana jacks and 3.5mm / 1/8" connectors. There are three pairs of connectors in the module, and each converter can be used as an input or an output to the Serge.
+
+<img src = "./img/serge7375_3_9.png" width="10%" title="Adapter" alt="Adapter">
+
+1. 1/8" connector
+2. Banana connector (any INPUT or OUTPUT)
+
+*Notes:*
+- The Adapter module is passive, and won't perform any filtering, attenuation, AC coupling, or preamplification on the signal in either direction. In the IDM Audio Lab, it's equivalent to the Low-Gain converter boxes.
+
 ### Control Panel
 
 <img src = "./img/serge7375_4.png" width="100%" title="73-75 Panel 4" alt="73-75 Panel 4">
+
+#### Noise Source
+
+The **Noise Source** is the forerunner to the noise generator circuits used throughout the different generations of Serge designs, including the Noise Source attached to the SSG modules on the R\*S Serge panels, as well as the Random Source module. It generates white and pink noise as well as Tcherepnin's "dirty saw" source designed for use with a sample-and-hold; it can also generate stepped random voltages.
+
+<img src = "./img/serge7375_4_1.png" width="20%" title="Noise Source" alt="Noise Source">
+
+1. White noise output (AC OUTPUT)
+2. Pink noise output (AC OUTPUT)
+3. S/H Source ("dirty saw") (left jack: AC OUTPUT; right jack: DC output)
+4. Stepped random voltage output (left jack: AC OUTPUT; right jack: DC output)
+5. Manual random voltage trigger button
+6. Random voltage trigger input (Pulse INPUT)
+
+*Notes:*
+- The Noise Source module provides ideal outputs to experiment with as inputs for any CV input on the other modules, allowing to create generative, ever-varying sounds. The stepped voltage output, which samples the white noise signal upon being triggered, can be used to create classic “bleep-bloop” noises when patched in as the frequency of an oscillator.
+
+#### Dual Positive Slew
+
+The **Dual Positive Slew** is the forerunner to the Dual Universal Slope Generator (DUSG - found on our Random\*Source Serge), and is an early example of Tcherepnin's desire to make modules that perform more than one function with the same circuit. It can perform [slew limiting](https://en.wikipedia.org/wiki/Slew_rate) on a rising input signal to function as the first half of an envelope follower (the Dual Negative Slew providing the other half). It can also be patched to oscillate as a rising sawtooth LFO or generate a rising envelope. The module contains two identical circuits laid out in an upper and lower half.
+
+<img src = "./img/serge7375_4_2.png" width="30%" title="Positive Slew" alt="Positive Slew">
+
+1. CV input for slew limiter amount (scaled by *2*, sums with *9*) (DC INPUT)
+2. Scaling knob for *1*
+3. Input signal (DC INPUT)
+4. Output signal (DC OUTPUT)
+5. "Start" envelope trigger (Pulse INPUT)
+6. "Sustain" envelope trigger (Pulse INPUT)
+7. Gate signal (Pulse OUTPUT)
+8. End signal (Pulse OUTPUT)
+9. Slew base amount (sums with *1* x *2*)
+
+*Notes:*
+- The simplest use of the Positive Slew is as an **envelope follower** that limits rising signals. Voltage sent into input *3* will have a lag on rising signals correlated to the slew limiter amount (*9* + *1* x *2*).
+- A pulse at the "Start" trigger will create a rising ramp envelope at *4*, the speed of which is controlled by the slew amount. During the ramp, the gate output *7* will go HIGH. At the end of the ramp, the output signal will drop and the end signal *8* will pulse. Patching *8* back into *5* will turn the positive slew into a rising sawtooth **oscillator**.
+- A pulse at the "Sustain" trigger will perform the same as the "Start" trigger, with the exception that the ramp output and gate (*4* and *7*) will remain HIGH at the end of the slew time.
+- The Positive Slew adds an interesting distortion to audio signals as, unlike a low-pass filter, it leaves falling signals untouched.
+- The Dual Positive Slew is designed to be used with the Dual Negative Slew to perform bidirectional envelope following or create a complete attack-sustain-release (ASR) envelope generator.
+
+#### Dual Negative Slew
+
+The **Dual Negative Slew** is the complement to the Dual Positive Slew, and like its counterpart was incorporated by Tcherepnin into the Dual Universal Slope Generator in 1976. It can perform [slew limiting](https://en.wikipedia.org/wiki/Slew_rate) on a falling input signal to function as the second half of an envelope follower (the Dual Positive Slew providing the other half). It can also be patched to oscillate as a falling sawtooth LFO or generate a falling envelope. The module contains two identical circuits laid out in an upper and lower half.
+
+<img src = "./img/serge7375_4_3.png" width="30%" title="Negative Slew" alt="Negative Slew">
+
+1. CV input for slew limiter amount (scaled by *2*, sums with *6*) (DC INPUT)
+2. Scaling knob for *1*
+3. Input signal (DC INPUT)
+4. Output signal (DC OUTPUT)
+5. "End" trigger (Pulse OUTPUT)
+6. Slew base amount (sums with *1* x *2*)
+7. Loop switch (shorts *5* to *3*)
+
+*Notes:*
+- The simplest use of the Negative Slew is as an **envelope follower** that limits falling signals. Voltage sent into input *3* will have a lag on rising signals correlated to the slew limiter amount (*6* + *1* x *2*).
+- A pulse at input *3* will create a high voltage output at *4* that gradually falls to 0v at the slew amount, upon which the end trigger *5* will fire a pulse. Patching *6* back into *1* will turn the negative slew into a falling sawtooth **oscillator**.
+- The Negative Slew adds an interesting distortion to audio signals as, unlike a low-pass filter, it leaves rising signals untouched.
+- The Dual Negative Slew is designed to be used with the Dual Positive Slew to perform bidirectional envelope following or create a complete attack-sustain-release (ASR) envelope generator.
+
+#### Triple Comparator
+
+The **Triple Comparator** is Tcherepnin's first "Boolean" module, consisting of three identical circuits that send a pulse output HIGH whenever their "+" input rises above their "-" input. A knob can set a fixed DC threshold instead of a varying "-" input.
+
+<img src = "./img/serge7375_4_4.png" width="20%" title="Triple Comparator" alt="Triple Comparator">
+
+1. Comparator result - HIGH if *2* > *3* + *4*; LOW otherwise (Pulse OUTPUT)
+2. "+" signal (DC INPUT)
+3. "-" signal (sums with *4*) (DC INPUT)
+4. "-" threshold knob (sums with *3*)
+
+*Notes:*
+- The Triple Comparator's pulse output can trigger an envelope, advance a sequencer, or generate a ramp by sending its pulse output through a slew module, in response to the ways in which its input signals interact.
+- The Triple Comparator can easily be used to "square up" an input signal (*2*) against a threshold (*4*), to create an audio square wave, a gate, or a pulse. Sending a DC sawtooth signal from the Oscillator module into the "+" input (*2*), for example, will output a square wave, with the "-" level, set by knob *4*, signal input *3*, or both, determining the [pulse width](https://en.wikipedia.org/wiki/Pulse-width_modulation) of the output signal.
+- The Triple Comparator's outputs are continuous boolean signal comparators, not Schmitt triggers, so the output voltage will remain HIGH as long as the "+" signal is greater than the "-" signal.
+
+#### Dual Processor
+
+The **Dual Processor** is a first-generation Tcherepnin design that has survived, more-or-less unchanged, as a standard module in the Serge repertoire (on our Random\*Source system, it's called the **Control Voltage Processor**). It functions as a mixer / scalar for control voltages. The module is split into two halves, with up to three sources in each half that can be scaled independently, with an overall scalar for each half.
+
+<img src = "./img/serge7375_4_5.png" width="30%" title="Dual Processor" alt="Dual Processor">
+
+1. Output of the control voltage processor (DC OUTPUT)
+2. Overall scaling knob or the output voltage
+3. First CV input (DC INPUT)
+4. Scalar knob for *3*
+5. Second CV input (DC INPUT)
+6. Scalar knob for *5*
+7. Third CV input (DC INPUT)
+8. Scalar knob for *7*
+
+*Notes:*
+- The Dual Processor will also mix bipolar (AC) sources, similar to an audio mixer. 
+- A static DC signal can be used to "bias" an AC source.
+
+#### Smooth Stepped Generator
+
+The **Smooth Function / Stepped Function VC Generator**, later renamed the **Smooth / Stepped Generator (SSG)**, was designed by Tcherepnin in 1974. Along with the Dual Universal Slope Generator, it's one of the most versatile circuits in the canonical Serge system. Depending on how an SSG is patched, it can function as a [slew limiter](https://en.wikipedia.org/wiki/Slew_rate) (envelope follower / lowpass filter), a sample-and-hold circuit, a triangle wave oscillator, or a low-pass gate. When combined with its sidecar **Noise Source** - a small circuit of three jacks - the SSG can be used to develop a wide variety of fluctuating and quantized random voltages, similar to the Buchla 266 [Source of Uncertainty](http://fluxmonkey.com/historicBuchla/266-uncertainty.htm).
+
+The module is divided into two halves: the "Smooth" side at the top, and the "Stepped" at the bottom. In between the two, a Coupler circuit outputs a comparator voltage of the two sides.
+
+<img src = "./img/serge7375_4_6.png" width="30%" title="Dual Processor" alt="Dual Processor">
+
+1. Signal output for the Smooth side (AC OUTPUT)
+2. Knob for Smooth rate amount (sums with *3* x *4*)
+3. Scaling knob for *4*
+4. CV input for the Smooth sides's rate (DC INPUT)
+5. Signal input for the Smooth side (AC INPUT)
+6. Cycle trigger (sends a pulse at the end of a cycle set by the Smooth rate) (Pulse OUTPUT)
+7. Hold jack - when set high, Smooth output *1* will freeze and no longer track the module's input (Pulse INPUT)
+8. Signal output for thee Stepped module (AC OUTPUT)
+9. Knob for Stepped rate amount (sums with *10* x *11*)
+10. Scaling knob for *11*
+11. Signal input for the Stepped side (AC INPUT)
+12. Signal input for the Stepped side (AC INPUT)
+13. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Pulse OUTPUT)
+14. Sample jack - when set high, Stepped output *12* will sample and hold Stepped input *8* (Pulse INPUT)
+15. "Hot" Coupler output - +5V if Smooth output is higher than the Stepped output; -5V if not (*AC* Pulse OUTPUT)
+16. Inverted "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Pulse OUTPUT)
+
+*Notes:*
+- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*6*) into the input (*5*). The rate knob and CV inputs (*2*, *3*, *4*) control the speed of this oscillation. The triangle waveform will appear at the voltage output jack (*1*).
+- The Stepped side will also internally self-oscillate - by patching cycle trigger *13* to input *8* and adjusting the frequency via *9*, *10*, and *11*. However, no signal will appear at output jack *12* until you send pulses into the Sample jack (*14*). These pulses can come from anywhere, e.g. from the Cycle output of the Smooth side, or from another module. This creates a classic [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuit where the internal oscillating waveform is being "sampled" by the trigger pulse at the Sample jack and "held" as the output voltage at jack *14*.
+- By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the maximum slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
+- Sending an audio signal into the input (*5*) of the Smooth side of the SSG and sending an envelope into the CV input (*4*) will, depending where the rate knob (*2*) is set, allow you to use the module as a [low-pass gate](https://electronicmusic.fandom.com/wiki/Lowpass_gate), where the gain on the signal rises with the cutoff frequency of the filter. This setup is great for simulating natural sounding instruments such as percussion where the timbre brightens with the attack of the sound.
+- The SSG is quite a complex module, and the Serge fans site has [an entire 4-page article](http://www.serge-fans.com/wiz_SSG1.htm) dedicated to patching ideas using it.
 
 [back to top](#top)
 

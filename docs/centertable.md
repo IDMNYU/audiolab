@@ -9,7 +9,6 @@
   - [Roland SH-101](#Roland-SH-101)
   - [Sequential Prophet 6](#Sequential-Prophet-6)
   - [Deckard's Dream MK2](#Deckard's-Dream-MK2)
-  - [Roland GI-10 Guitar Synth](#GI-10)
 
 The center table is home to all of the non-modular synthesizers in the lab.  These are [analog synthesizer](https://en.wikipedia.org/wiki/Analog_synthesizer) in various styles that follow the tradition of ["East Coast"](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesis design, where the format for control of pitches are based on Western scales, often using a piano-esque layout.  These synths often focus on subtractive synthesis techniques where simple, richer waveforms like sawtooth and square waves, are carved away using filters to create custom sounds.  
 
@@ -75,6 +74,16 @@ The [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) i
 
 
 
+The user manual can be found [here](https://yo41t1y5gos9jw8f3lptw0xo-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/Prophet-6-Operation-Manual-2.1.pdf).
+
+### The Sequential Prophet 6 is:
+
+- [**Polyphonic / monotimbral**](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments#Monophonic) : the Prophet 6 was designed to be played with an external keyboard controller with up to 6 notes at a time available.  Each note makes the same kind of "sound," or timbre. @@@@However, with a little bit of work, you can re-patch an ARP to leverage the four sound sources independently of one another to create more than one sound at a time.
+- **Voltage-based** : like most modular synthesizers of the day, the ARP uses voltage for both transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators) and [control voltage](https://en.wikipedia.org/wiki/CV/Gate) to modify parameters of the synthesizer. These signals are *both* carried over dual-conductor wiring either internally within the synth or externally via "TS" patch cables. This allows you to treat audio signals as control voltage when using the synthesizer so that, for example, an oscillator can be used to "sweep" the cutoff frequency of a filter. The downside of this is that *you can accidentally patch a control voltage line into the signal path to the speakers*, which can damage both the speakers and your ears.
+- **Subtractive** : the ARP 2600 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers. This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the ARP 2600 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
+- **Multiple source / single destination** : many modules on the ARP can mix (add together) signals from a number of inputs without requiring an additional mixer module, but generally have only one patch point for the module's output. This goes for control voltage as well, so that you can often modulate a parameter of the synthesizer with more than one source at once. This is different from, e.g. a Buchla synthesizer, where separate mixer modules must be used to combine several oscillators through a single filter, or Serge synthesizers, where [banana jacks](https://en.wikipedia.org/wiki/Banana_connector) can be stacked to send a module's output to several places at once.
+- **Monolithic design** : the ARP 2600 was intended to be used as a standalone instrument, in contrast to the (fully-modular) ARP 2500 or competitor systems from Moog, etc. As such, there was no way to order the ARP 2600 modules à la carte, and a number of design choices, such as its built-in speakers, signal that it was intended to be used as an all-in-one synthesizer. The ARP 2600 form factor (32"x18") wasn't designed for rack-mounting, but instead to be a complementary width to the 4-octave full-size keyboard that could be bought along with it.
+
 
 ### The Controllers
 <img src = "./img/akaimpk225.jpeg" width="100%" title="Akai MPK 225" alt="Akai MPK 225">
@@ -88,6 +97,11 @@ The [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) i
 
 The [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) is an 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977, which is controlled by a Roli [Seaboard Rise 25](https://roli.com/products/seaboard)/[MPE](https://www.midi.org/articles-old/midi-polyphonic-expression-mpe) keyboard controller.
 
+
+
+The user manual can be found [here](https://images.thomann.de/pics/atg/atgdata/document/manual/454865_deckards_dream_manual_130.pdf).
+
+### The Deckard's Dream MK2 is:
 
 ### The Controller
 <img src = "./img/roliseaboardrise.jpeg" width="100%" title="Roli Seabord Rise 25" alt="Roli Seabord Rise 25">
