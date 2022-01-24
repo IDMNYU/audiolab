@@ -5,7 +5,7 @@
 - [1601 Sequencer](#1601-sequencer)
 - [Keystep](#keystep)
 - [Werkstatt](#werkstatt)
-- [Rumbarack](#rumbarack)
+- [Rumburack](#rumburack)
 
 ## ARP 2600 Overview
 
