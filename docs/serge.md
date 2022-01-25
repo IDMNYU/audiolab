@@ -989,6 +989,110 @@ The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of th
 
 <img src = "./img/serge824_6.png" width="100%" title="Random\*Source Serge Panel VI" alt="Random\*Source Serge Panel VI">
 
+#### Dual Precision Oscillator / Peak & Trough
+
+The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+
+<img src = "./img/serge824_6_1.png" width="40%" title="Dual PCO / P&T" alt="Dual PCO / P&">
+
+1. Signal input (AC INPUT)
+2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
+3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
+4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
+5. Input scaling knob
+6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
+7. CV scaling knob
+8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
+9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
+10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
+11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
+12. LFO Rate knob (sums with *3*x*7*)
+13. LFO Level (depth) knob
+14. Pitch knob for feedback stage (sums with *2* and *6*)
+15. Feedback amount knob
+16. LEDs showing amplitude of outputs *4* and *8*
+
+*Notes:*
+- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
+
+#### "Son of Storm Tide" Flanger
+
+The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+
+<img src = "./img/serge824_6_2.png" width="40%" title="SOST Flanger" alt="SOST Flanger">
+
+1. Signal input (AC INPUT)
+2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
+3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
+4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
+5. Input scaling knob
+6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
+7. CV scaling knob
+8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
+9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
+10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
+11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
+12. LFO Rate knob (sums with *3*x*7*)
+13. LFO Level (depth) knob
+14. Pitch knob for feedback stage (sums with *2* and *6*)
+15. Feedback amount knob
+16. LEDs showing amplitude of outputs *4* and *8*
+
+*Notes:*
+- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
+
+#### Dual Slopes / Extended ADSR
+
+The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+
+<img src = "./img/serge824_6_3.png" width="40%" title="Dual Slopes / Extended ADSR" alt="Dual Slopes / Extended ADSR">
+
+1. Signal input (AC INPUT)
+2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
+3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
+4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
+5. Input scaling knob
+6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
+7. CV scaling knob
+8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
+9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
+10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
+11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
+12. LFO Rate knob (sums with *3*x*7*)
+13. LFO Level (depth) knob
+14. Pitch knob for feedback stage (sums with *2* and *6*)
+15. Feedback amount knob
+16. LEDs showing amplitude of outputs *4* and *8*
+
+*Notes:*
+- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
+
+#### Extended ADSR / Stereo Mixer
+
+The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+
+<img src = "./img/serge824_6_4.png" width="40%" title="Extended ADSR / Stereo Mixer" alt="Extended ADSR / Stereo Mixer">
+
+1. Signal input (AC INPUT)
+2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
+3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
+4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
+5. Input scaling knob
+6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
+7. CV scaling knob
+8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
+9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
+10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
+11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
+12. LFO Rate knob (sums with *3*x*7*)
+13. LFO Level (depth) knob
+14. Pitch knob for feedback stage (sums with *2* and *6*)
+15. Feedback amount knob
+16. LEDs showing amplitude of outputs *4* and *8*
+
+*Notes:*
+- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
+
 [back to top](#top)
 
 ## 73-75 Serge
