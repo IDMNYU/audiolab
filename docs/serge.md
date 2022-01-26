@@ -4,6 +4,7 @@
 - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) / [Panel 6](#panel-6-custom) )
 - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) / [Voice Panel](#voice-panel) / [Control Panel](#control-panel))
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
+- [STS Panels](#sts-panels) ( [Red Control](#red-control) )
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
 - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) )
 
@@ -2091,6 +2092,18 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 - The input to the pulse delay is a DC signal input, and will trigger the delay based on a transition of 1.5V or more.
 - The knobs on Fritz's Mixer module are **logarithmic** rather than **linear** potentiometers, so 12 o’clock is half power (0.707), not half gain (0.5). 
 - The Fritz Mixer modules are **AC-coupled** and will filter out low-frequency DC signals and remove the offset of DC signals running at audio rate.
+
+[back to top](#top)
+
+## STS Panels
+
+<img src = "./img/sergers_photo.jpg" width="100%" title="Red Control Serge panel" alt="Red Control Serge panel">
+
+The **Red Control** panel is a ["Shop Panel"](http://www.serge-fans.com/shop.html) designed by Sound Transform Systems (STS), the successor to Tcherepnin's original company in the United States, led by Tcherepnin's former student Rex Probe. Our Red Control was originally built in the late 1990s and contains a number of Tcherepnin's designs not found elsewhere in the IDM Audio Lab, including his 1979 Quantizer module and the 1974 Analog Shift Register. 
+
+### Red Control
+
+<img src = "./img/sergerc_1.png" width="100%" title="Red Control panel" alt="Red Control panel">
 
 [back to top](#top)
 
