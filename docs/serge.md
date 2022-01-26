@@ -266,9 +266,9 @@ The **Dual Slopes** are the Random\*Source implementation of a 1976 Serge module
 12. Control knob for the Fall time on the right-hand slope - a higher value is a faster fall
 13. CV input to control the Fall time on the left-hand slope (scaled by *15*) (DC INPUT)
 14. CV input to control either the Rise or Fall time on the right-hand slope (scaled by *16*) (DC INPUT)
-15. Scaling knob for *13*.
-16. Scaling knob for *16*.
-17. Switch to set whether *14* x *16* controls the Rise or the Fall on the right-hand slope.
+15. Scaling knob for *13*
+16. Scaling knob for *16*
+17. Switch to set whether *14* x *16* controls the Rise or the Fall on the right-hand slope
 
 *Notes:*
 - A very common use of the Dual Slopes is as a **master clock**. The pulse outputs (*3* and *4*) can be used to drive the Sequencer / Programmer, the TKB, the "sample" on an SSG, or the trigger inputs on slope generators and filters.
@@ -329,7 +329,7 @@ The **Variable Q Voltage Controlled Filter (VCFQ)**, sometimes referred to as th
 - The LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
 - The Serge-Fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
 
-#### Stereo Mixer
+#### Stereo Mixer #1
 
 The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
 
@@ -702,9 +702,9 @@ The **Dual Slopes** are the Random\*Source implementation of a 1976 Serge module
 12. Control knob for the Fall time on the right-hand slope - a higher value is a faster fall
 13. CV input to control the Fall time on the left-hand slope (scaled by *15*) (DC INPUT)
 14. CV input to control either the Rise or Fall time on the right-hand slope (scaled by *16*) (DC INPUT)
-15. Scaling knob for *13*.
-16. Scaling knob for *16*.
-17. Switch to set whether *14* x *16* controls the Rise or the Fall on the right-hand slope.
+15. Scaling knob for *13*
+16. Scaling knob for *16*
+17. Switch to set whether *14* x *16* controls the Rise or the Fall on the right-hand slope
 
 *Notes:*
 - A very common use of the Dual Slopes is as a **master clock**. The pulse outputs (*3* and *4*) can be used to drive the Sequencer / Programmer, the TKB, the "sample" on an SSG, or the trigger inputs on slope generators and filters.
@@ -937,7 +937,7 @@ The Serge **Resonant Equalizer** was designed by Tcherepnin in 1979, and consist
 - the Resonant EQ bands can all resonate at high gains, independently of the feedback stage of the circuit. 
 - An inverted phase at switch *21* will cause the comb filter outputs of the Resonant EQ to "thin" the sound rather than resonate.
 
-#### Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)
+#### Dual Lowpass Gate / Timbre / Stereo Mixer #2 (DONKS)
 
 The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of three amplitude processing modules. The **Dual Lowpass Gate** is modeled after the Buchla [Quad Lopass Gate Model 292](https://www.modulargrid.net/u/buchla-quad-voltage), developed as part of the "200 Series" in the 1970s; the Lowpass Gate uses [Vactrol](https://en.wikipedia.org/wiki/Resistive_opto-isolator) opto-isolators to create a combination VCF/VCA. The **Timbre** module is based on Buchla's wavefolder circuit used in the [Complex Wave Generator Model 259](https://modularsynthesis.com/roman/buchla259/259cwg.htm) as well as the oscillator in the [Music Easel](https://buchla.com/music-easel/); similar to the Serge Wave Multipliers, the module performs harmonic distortion on an input signal to create a more complex waveform. The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
 
@@ -991,107 +991,168 @@ The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of th
 
 #### Dual Precision Oscillator / Peak & Trough
 
-The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+
+The **Precision Oscillator (PCO)**, along with the more complex NTO, first appeared in 1976, and the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator). This Random\*Source panel includes two PCOs, one of which can run in the sub-audio range; it also includes an updated versino of the original (1973) **Peak and Trough (P&T)** module.
 
 <img src = "./img/serge824_6_1.png" width="40%" title="Dual PCO / P&T" alt="Dual PCO / P&">
 
-1. Signal input (AC INPUT)
-2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
-3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
-4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
-5. Input scaling knob
-6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
-7. CV scaling knob
-8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
-9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
-10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
-11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
-12. LFO Rate knob (sums with *3*x*7*)
-13. LFO Level (depth) knob
-14. Pitch knob for feedback stage (sums with *2* and *6*)
-15. Feedback amount knob
-16. LEDs showing amplitude of outputs *4* and *8*
+1. Rising sawtooth wave (DC OUTPUT)
+2. Triangle wave (DC OUTPUT)
+3. Sine wave (AC OUTPUT)
+4. Square wave / pulse (labeled "Puls") (Pulse OUTPUT)
+5. Linear frequency CV input (scaled by *6*, sums with *8*, *9*, *10*, and *11*) (DC INPUT)
+6. Scaling knob for *18*
+7. [Oscillator Sync](https://en.wikipedia.org/wiki/Oscillator_sync) signal for Saw Output *1* (DC INPUT, triggers at 2.5V).
+8. 1V/Oct CV of oscillator frequency (sums with *9*, *5* x *6*, *10*, and *11*) (DC INPUT)
+9. CV to control the amount of linear FM *10* (DC INPUT)
+10. [Linear FM](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis) "Modulator" signal (AC INPUT)
+11. Fine tuning knob for the VCO's base frequency (sums with *5* x *6*, *8*, *9*, and *10*)
+12. Coarse tuning knob for the VCO's base frequency (sums with *5* x *6*, *8*, *9*, and *10*)
+13. (Top PCO only) Second 1V/Oct CV of oscillator frequency (sums with *5* x *6*, *8*, *9*, and *10*) (DC INPUT)
+14. (Bottom PCO only) High-frequency (20Hz-20kHz) / Low-frequency (0.03Hz-30Hz) switch
+15. Peak voltage output - the highest of the three inputs *16* (AC OUTPUT)
+16. Peak voltage comparator inputs (AC INPUT)
+17. Trough voltage output - the lowest of the three inputs *18* (AC OUTPUT)
+18. Trough voltage comparator inputs (AC INPUT)
 
 *Notes:*
-- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
+- The four waveform outputs (*1-4*) represent the standard waveforms used in classic analog subtractive synthesis (Sine, Saw, Triangle, Square). Be aware that these outputs are **not of the same voltage type** - the Sine output is the only AC one. Also note that the PCO produces mathematically accurate (as opposed to "good-sounding") oscillators, intended to be usable as source of control voltage (Saw, Triangle) and pulses ("Puls") as well as audio. As a result, the harmonically rich waveforms (especially the Saw) will sound brighter than the equivalent waveforms on, e.g. a Moog.
+- The frequency control of the PCO is a summing bus of the multiple voltage inputs. If you want two different voltages interacting to control the oscillator's frequency, you can use *both* 1V/OCT inputs on the top oscillator (*8* and *13*) to get you a cleaner addition of signals than stacking banana cables.
+- Like all Serge modules, feedback is an excellent technique to experiment with, by patching, e.g. the Sine output *3* into the modulator input for the Linear FM *10*.
 
 #### "Son of Storm Tide" Flanger
 
-The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+The **"Son of Storm Tide" (SOST)** is a solid-state analog [Flanger](https://en.wikipedia.org/wiki/Flanging), and was invented, like the Tau Phaser, by electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). Originally designed to be used as a [rackmount effect](http://jhaible.com/legacy/sonofstormtide/sonofstormtide.html), the SOST exposes the standard controls of a flanger (delay time, feedback, the parameters of the internal LFO) to voltage control, allowing the effect to be manipulated and sequenced by other modules. In addition, sections of the internal circuitry are exposed to user control, including the ability to tap the stereo outputs independently and bypass half of the BBD circuit for a shorter delay time. Finally, the SOST includes an internal envelope follower in addition to an LFO, allowing the effect depth to be controlled by tracking the input signal. This allows the SOST to be used for effects such as pitched [comb filtering](https://en.wikipedia.org/wiki/Comb_filter) to make plucked string sounds, or to create pitch shifting effects that would be difficult to accomplish with an ordinary flanger.
 
 <img src = "./img/serge824_6_2.png" width="40%" title="SOST Flanger" alt="SOST Flanger">
 
-1. Signal input (AC INPUT)
-2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
-3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
-4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
-5. Input scaling knob
-6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
-7. CV scaling knob
-8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
-9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
-10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
-11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
-12. LFO Rate knob (sums with *3*x*7*)
-13. LFO Level (depth) knob
-14. Pitch knob for feedback stage (sums with *2* and *6*)
-15. Feedback amount knob
-16. LEDs showing amplitude of outputs *4* and *8*
+1. Signal input 1 (AC INPUT)
+2. Input 1 gain knob
+3. Signal input 2 (AC INPUT)
+4. Input 2 gain knob
+5. Signal output 1 (AC OUTPUT)
+6. Short / long delay switch 1
+7. Signal output 2 (AC OUTPUT)
+8. Short / long delay switch 2
+9. All-pass filter switch
+10. Invert phase switch
+11. 1V/Oct CV input for delay time (summed with *12* x *13* and *31*, as well as the internal LFO) (DC INPUT)
+12. Linear CV input for delay time (summed with *11* and *31* and scaled by *13*) (DC INPUT)
+13. Scaling knob for *12*
+14. LFO signal direct output (DC OUTPUT)
+15. LFO mode (waveform) selector switch
+16. LFO rate CV input (scaled with *17* and summed with *18*) (DC INPUT)
+17. Scaling knob for *16*
+18. LFO rate knob (summed with *16* x *17*)
+19. LFO "mod" (depth) knob
+20. Envelope follower release (decay) time knob
+21. Envelope follower amount knob
+22. Envelope follower invert switch
+23. CV control for envelope follower (scaled with *24*) (DC INPUT)
+24. Scaling knob for *23*
+25. Dry/wet mix amount knob
+26. Short / long delay switch for flanger feedback stage
+27. Invert switch for the second BBD phase
+28. Fine tune control for the base delay of the flanger
+29. Q control for the feedback stage of the flanger (higher value is a more resonant filter)
+30. "Bounce" value - a Haible-designed control where the envelope follower and LFO interact to create a rubber-band or bouncing effect
+31. "Manual" (fundamental delay) value for the flanger
 
 *Notes:*
-- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
+- The internal LFO of the flanger can be tapped at output *14* to syncronize other processes on the synthesizer to the flanger.
+- The flanger can be driven directly by an external waveform by setting the LFO mod value *19* to zero and patching a time-varying signal into either of the delay time control inputs *11* or *12*. As with any time-domain delay effect, a sudden change in delay time will cause the signal pitch to rise or fall.
+- The various long/short and invert switches tap and invert the polarity on the different analog [bucket-brigade device](https://en.wikipedia.org/wiki/Bucket-brigade_device) chips in the circuit, allowing for a wide variety of sounds.
 
-#### Dual Slopes / Extended ADSR
+#### Dual Slopes #3 / Extended ADSR #1
 
-The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+The **Dual Slopes** are the Random\*Source implementation of a 1976 Serge module called the Dual Transient Generator. The module consists of the circuit for a Dual Universal Slope Generator (DUSG) with a simplified panel interface, optimized for generating harmonically linked oscillators and clock pulses. The module contains two sides, both with AR-style ramp generators that can be switched to cycle; these generators can be triggered by a pulse input, or patched to slew limit (envelope follow) an input signal. Unlike the other R\*S Dual Slopes in the IDM Audio Lab, this version of the module does not automatically allow for clocking the right slope generator to the left slope generator.
+
+The **Extended ADSR** is based on Tcherepnin's 1976 design; this was his first to adopt the common [ADSR](https://en.wikipedia.org/wiki/Envelope_(music)) topology used in envelope generator made by contemporary "East Coast" synthesizer manufacturers such as Moog and ARP to simulate the shape of common acoustic instruments. As with most of Tcherepnin's designs, the superficial architecture of the module is made far more complex through its ability to be driven at audio rate and for all stages (including a "delay" stage for the onset of the envelope) to be changed dynamically via voltage control.
 
 <img src = "./img/serge824_6_3.png" width="40%" title="Dual Slopes / Extended ADSR" alt="Dual Slopes / Extended ADSR">
 
-1. Signal input (AC INPUT)
-2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
-3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
-4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
-5. Input scaling knob
-6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
-7. CV scaling knob
-8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
-9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
-10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
-11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
-12. LFO Rate knob (sums with *3*x*7*)
-13. LFO Level (depth) knob
-14. Pitch knob for feedback stage (sums with *2* and *6*)
-15. Feedback amount knob
-16. LEDs showing amplitude of outputs *4* and *8*
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+5. Cycle switch, internally connecting the envelope circuits to indvidually act as oscillators
+6. External trigger input for the left-hand slope generator (Pulse INPUT)
+7. External trigger input for the right-hand slope generator (Pulse INPUT)
+8. Signal input to the left-hand slope generator, causing it to act as a low-pass filter / envelope follower (AC INPUT)
+9. Signal input to the right-hand slope generator, causing it to act as a low-pass filter / envelope follower (AC INPUT)
+10. 1V-per-octave CV input to control the self-clocking frequency of the slope generators (DC INPUT)
+11. Control knob for the Rise time on the left-hand slope - a higher value is a faster rise
+12. Control knob for the Rise time on the right-hand slope - a higher value is a faster rise
+13. Control knob for the Fall time on the left-hand slope - a higher value is a faster fall
+14. Control knob for the Fall time on the right-hand slope - a higher value is a faster fall
+15. CV input to control either the Rise or Fall time on the left-hand slope (scaled by *19*) (DC INPUT)
+16. CV input to control either the Rise or Fall time on the left-hand slope (scaled by *19*) (DC INPUT)
+17. Switch to set whether *16* x *19* controls the Rise or the Fall on the left-hand slope
+18. Switch to set whether *16* x *19* controls the Rise or the Fall on the right-hand slope
+19. Scaling knob for *15*
+20. Scaling knob for *16*
+21. Gate input for the ADSR generator (Pulse INPUT)
+22. Trigger input for the ADSR generator (Pulse INPUT)
+23. Envelope CV output of the ADSR (DC OUTPUT)
+24. Envelope delay time CV and knob (DC INPUT)
+25. Envelope attack time CV and knob (DC INPUT)
+26. Envelope decay time CV and knob (DC INPUT)
+27. Envelope sustain level CV and knob (DC INPUT)
+28. Envelope release time CV and knob (DC INPUT)
+29. CV input scaling *all* envelope parameters simultaneously (DC INPUT)
+30. Curve select switch (logarithmic / linear / exponential)
 
 *Notes:*
-- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
+- A very common use of the Dual Slopes is as a **master clock**. The pulse outputs (*3* and *4*) can be used to drive the Sequencer / Programmer, the TKB, the "sample" on an SSG, or the trigger inputs on slope generators and filters.
+- The Dual Slopes module highlights Tcherepnin's design mantra that the *distinction between control voltage and audio-rate signals is an artificial one*. The module can generate low frequency ramps and pulse trains, as well as audio-rate waveforms.
+- The Extended ADSR can be triggered with a "Trigger" pulse, which will cause it to generate a three-stage ramp based on the attack, decay, and release times,  or a "Gate" signal which will allow the envelope to be held at the sustain level.
+- The CV input *29* to the Extended ADSR allows it to trigger at audio rate. You can use a signal inverter on a utility module such as the Boolean Logic to patch the module as an oscillator.
 
-#### Extended ADSR / Stereo Mixer
+#### Extended ADSR #2 / Stereo Mixer #3
 
-The **Tau Phaser** was invented by reknowned electronic music instrument designer [Jürgen Haible](http://jhaible.com/legacy/) (1964-2011). It consists of a 20-pole, stereo [Phaser](https://en.wikipedia.org/wiki/Phaser_(effect)) that leverages voltage control to allow other modules in the Serge system to dynamically modulate its parameters. The Phaser was designed to mimic the effects of classic Analog phasers from the 1970s such as the phase shifter on the [ARP Quadra](https://en.wikipedia.org/wiki/ARP_Quadra), with the addition of a feedback stage that allowed for [flanging](https://en.wikipedia.org/wiki/Flanging) effects that go beyond the ["Leslie speaker"](https://en.wikipedia.org/wiki/Leslie_speaker)-style sound of most phaser circuits. Originally designed to be used as an [effect pedal](https://www.modezero.com/jh-tau-phaser.htm), the Tau Phaser was refactored by Random\*Source to fit in a Serge 4U module.
+The **Extended ADSR** is based on Tcherepnin's 1976 design; this was his first to adopt the common [ADSR](https://en.wikipedia.org/wiki/Envelope_(music)) topology used in envelope generator made by contemporary "East Coast" synthesizer manufacturers such as Moog and ARP to simulate the shape of common acoustic instruments. As with most of Tcherepnin's designs, the superficial architecture of the module is made far more complex through its ability to be driven at audio rate and for all stages (including a "delay" stage for the onset of the envelope) to be changed dynamically via voltage control.
+
+The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Stereo Mixer (DCSM)** developed in the early 1980s. First and foremost, the module has 1/4" TRS jacks to output to non-Serge audio equipment. The module allows for voltage-controlled panning of its two inputs into a stereo output; it also allows for voltage control of the two input channel gains, allowing it to be used as a **Dual VCA**.
 
 <img src = "./img/serge824_6_4.png" width="40%" title="Extended ADSR / Stereo Mixer" alt="Extended ADSR / Stereo Mixer">
 
-1. Signal input (AC INPUT)
-2. 1 volt-per-octave input for phaser "pitch" (sums with *6* and *14*) (AC INPUT)
-3. CV input for LFO rate (scaled by *7*, sums with *12*) (AC INPUT)
-4. Audio output 1 (180 degrees out-of-phase with *8*) (AC OUTPUT)
-5. Input scaling knob
-6. *inverted* 1 volt-per-octave input for phaser "pitch" (sums with *2* and *14*) (AC INPUT)
-7. CV scaling knob
-8. Audio output 2 (180 degrees out-of-phase with *4*) (AC OUTPUT)
-9. Hard/Smooth switch to change LFO waveform from saw ("hard") to sine ("smooth")
-10. Vibrato/Phaser switch - in "Vibrato" mode, the filters are bypassed for an amplitude modulation effect
-11. Color/Normal switch - in "Color" mode, the feedback stage is engaged to create flanging effects
-12. LFO Rate knob (sums with *3*x*7*)
-13. LFO Level (depth) knob
-14. Pitch knob for feedback stage (sums with *2* and *6*)
-15. Feedback amount knob
-16. LEDs showing amplitude of outputs *4* and *8*
+1. Gate input for the ADSR generator (Pulse INPUT)
+2. Trigger input for the ADSR generator (Pulse INPUT)
+3. Envelope CV output of the ADSR (DC OUTPUT)
+4. Envelope delay time CV and knob (DC INPUT)
+5. Envelope attack time CV and knob (DC INPUT)
+6. Envelope decay time CV and knob (DC INPUT)
+7. Envelope sustain level CV and knob (DC INPUT)
+8. Envelope release time CV and knob (DC INPUT)
+9. CV input scaling *all* envelope parameters simultaneously (DC INPUT)
+10. Curve select switch (logarithmic / linear / exponential)
+11. 1/4" TRS output of the left channel
+12. 1/4" TRS output of the right channel
+13. Left channel output (AC OUTPUT)
+14. Right channel output (AC OUTPUT)
+15. Auxiliary input for the left channel - bypasses panning and gain (AC INPUT)
+16. Auxiliary input for the right channel - bypasses panning and gain (AC INPUT)
+17. Channel 1 input (AC INPUT)
+18. Channel 2 input (AC INPUT)
+19. Panning voltage control for channel 1 (summed with *11*) (AC INPUT)
+20. Panning voltage control for channel 2 (summed with *12*) (AC INPUT)
+21. Panning knob for channel 1
+22. Panning knob for channel 2
+23. CV gain input for channel 1 (summed with *15*) (DC INPUT)
+24. CV gain input for channel 2 (summed with *16*) (DC INPUT)
+25. Gain control knob for channel 1
+26. Gain control knob for channel 2
+
 
 *Notes:*
-- The Tau Phaser can get **very loud** when the "color" is switched on to engage the feedback. At its highest feedback setting, it can self-oscillate with no input signal.
+- A very common use of the Dual Slopes is as a **master clock**. The pulse outputs (*3* and *4*) can be used to drive the Sequencer / Programmer, the TKB, the "sample" on an SSG, or the trigger inputs on slope generators and filters.
+- The Dual Slopes module highlights Tcherepnin's design mantra that the *distinction between control voltage and audio-rate signals is an artificial one*. The module can generate low frequency ramps and pulse trains, as well as audio-rate waveforms.
+- The Extended ADSR can be triggered with a "Trigger" pulse, which will cause it to generate a three-stage ramp based on the attack, decay, and release times,  or a "Gate" signal which will allow the envelope to be held at the sustain level.
+- The CV input *29* to the Extended ADSR allows it to trigger at audio rate. You can use a signal inverter on a utility module such as the Boolean Logic to patch the module as an oscillator.
+- By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
+- The CV input for panning is bipolar (AC), not unipolar (DC). To have a DC voltage pan across the entire range, set the knobs opposite their indicator arrows. For channel 1, set knob *11* to the far right - a DC voltage at *13* will pan the signal to the left as it rises. For channel 2, do the opposite: set knob *12* to the far *left*, and a DC voltage input at *14* will pan the channel signal to the right.
+- The voltage at the output stage of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the banana jacks!
+- Unlike the other two Stereo Mixer modules in the IDM Audio Lab, the TRS outputs of this module are unpatched, allowing the module to be used as a Dual VCA within the Serge system.
 
 [back to top](#top)
 
