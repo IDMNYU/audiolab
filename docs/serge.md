@@ -2707,7 +2707,7 @@ The **Quant** module...
 
 The **Envy** module...
 
-<img src = "./img/shelfisizer2020_2.png" width="40%" title="Envy" alt="Envy">
+<img src = "./img/shelfisizer2020_2.png" width="30%" title="Envy" alt="Envy">
 
 1. CV input to be sampled (DC INPUT)
 
@@ -2731,7 +2731,7 @@ The **Shoosh** module...
 
 The **Odds** module...
 
-<img src = "./img/shelfisizer2020_4.png" width="40%" title="Odds" alt="Odds">
+<img src = "./img/shelfisizer2020_4.png" width="30%" title="Odds" alt="Odds">
 
 1. CV input to be sampled (DC INPUT)
 
