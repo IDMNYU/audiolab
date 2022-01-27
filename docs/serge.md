@@ -1145,8 +1145,6 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 
 
 *Notes:*
-- A very common use of the Dual Slopes is as a **master clock**. The pulse outputs (*3* and *4*) can be used to drive the Sequencer / Programmer, the TKB, the "sample" on an SSG, or the trigger inputs on slope generators and filters.
-- The Dual Slopes module highlights Tcherepnin's design mantra that the *distinction between control voltage and audio-rate signals is an artificial one*. The module can generate low frequency ramps and pulse trains, as well as audio-rate waveforms.
 - The Extended ADSR can be triggered with a "Trigger" pulse, which will cause it to generate a three-stage ramp based on the attack, decay, and release times,  or a "Gate" signal which will allow the envelope to be held at the sustain level.
 - The CV input *29* to the Extended ADSR allows it to trigger at audio rate. You can use a signal inverter on a utility module such as the Boolean Logic to patch the module as an oscillator.
 - By lowering the gain knobs and hard-panning channels 1 and 2 to the left and right, respectively, the Stereo Mixer can be used as a Dual Voltage-Controlled Amplifier, with the banana jack outputs for "left" and "right" (*3* and *4*) fed back into the Serge system.
@@ -2198,51 +2196,100 @@ The **Random Source** module is the STS circuit that combines two of Tcherepnin'
 
 #### Smooth / Stepped Generator
 
-The **Smooth / Stepped Generator (SSG)**...
+The **Smooth / Stepped Generator (SSG)** was designed by Tcherepnin in 1974. Along with the Dual Universal Slope Generator, it's one of the most versatile circuits in the canonical Serge system. Depending on how an SSG is patched, it can function as a [slew limiter](https://en.wikipedia.org/wiki/Slew_rate) (envelope follower / lowpass filter), a sample-and-hold circuit, a triangle wave oscillator, or a low-pass gate. When combined with its sidecar **Noise Source** - a small circuit of three jacks - the SSG can be used to develop a wide variety of fluctuating and quantized random voltages, similar to the Buchla 266 [Source of Uncertainty](http://fluxmonkey.com/historicBuchla/266-uncertainty.htm).
+
+The module is divided into two halves: the "Smooth" side at the top, and the "Stepped" at the bottom. In between the two, a Coupler circuit outputs a comparator voltage of the two sides.
 
 <img src = "./img/sergerc_1_5.png" width="20%" title="SSG" alt="SSG">
 
-1. Something (DC OUTPUT)
+1. CV input for the Smooth sides's rate (DC INPUT)
+2. CV output for the Smooth side (DC OUTPUT)
+3. Scaling knob for *1*
+4. Cycle trigger (sends a pulse at the end of a cycle set by the Smooth rate) (Pulse OUTPUT)
+5. Knob for Smooth rate amount (sums with *1* x *3*)
+6. Signal input for the Smooth side (AC INPUT)
+7. Hold jack - when set high, Smooth output *2* will freeze and no longer track the module's input (Pulse INPUT)
+8. Sample jack - when set high, Stepped output *14* will sample and hold Stepped input *10* (Pulse INPUT)
+9. CV input for the Stepped side's rate (DC INPUT)
+10. Signal input for the Stepped side (AC INPUT)
+11. Scaling knob for *9*
+12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Pulse OUTPUT)
+13. Knob for Stepped rate amount (sums with *9* x *11*)
+14. CV output for thee Stepped module (DC OUTPUT)
+15. Coupler output - +5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
 
 *Notes:*
-- Note 1.
-- Note 2.
+- The Smooth side can easily self-oscillate in a triangle pattern by patching the cycle trigger (*4*) into the input (*6*). The rate knob and CV inputs (*5*, *1*, *3*) control the speed of this oscillation. The triangle waveform will appear at the CV output jack (*2*).
+- The Stepped side will also internally self-oscillate - by patching cycle trigger *12* to input *10* and adjusting the frequency via *13*, *9*, and *11*. However, no signal will appear at output jack *14* until you send pulses into the Sample jack (*8*). These pulses can come from anywhere, e.g. from the Cycle output of the Smooth side, or from another module. This creates a classic [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuit where the internal oscillating waveform is being "sampled" by the trigger pulse at the Sample jack and "held" as the output voltage at jack *14*.
+- By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the maximum slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
+- The Random Source module provides ideal outputs to experiment with as inputs for either side of the SSG. The Smooth side can be used to generate slow, time-varying random voltages, while the Stepped side, when sampling a random signal, can be used to create classic "bleep-bloop" noises when patched in as the frequency of an oscillator.
+- Sending an audio signal into the input (*6*) of the Smooth side of the SSG and sending an envelope into the CV input (*1*) will, depending where the rate knob (*5*) is set, allow you to use the module as a [low-pass gate](https://electronicmusic.fandom.com/wiki/Lowpass_gate), where the gain on the signal rises with the cutoff frequency of the filter. This setup is great for simulating natural sounding instruments such as percussion where the timbre brightens with the attack of the sound.
+- The SSG is quite a complex module, and the Serge fans site has [an entire 4-page article](http://www.serge-fans.com/wiz_SSG1.htm) dedicated to patching ideas using it.
 
 #### Control Voltage Processor
 
-The **Control Voltage Processor (CV PRO)**...
+The **Control Voltage Processor (CV PRO)** is a mixer for control voltages, similar to 1/2 of the equivalent modules on the Random\*Source panels or the 73-75 Serge Panels. Set up for mixing three inputs, it can be thought of as a DC-coupled equivalent of the Mixer module.
 
 <img src = "./img/sergerc_1_6.png" width="10%" title="CV Pro" alt="CV Pro">
 
-1. Something (DC OUTPUT)
+1. Mixed CV output (DC OUTPUT)
+2. Overall scaling knob for *1*
+3. CV Input 3 (DC INPUT)
+4. CV Input 2 (DC INPUT)
+5. CV Input 1 (DC INPUT)
+6. Scaling knob for *3*
+7. Scaling knob for *4*
+8. Scaling knob for *5*
 
 *Notes:*
-- Note 1.
-- Note 2.
+- This module can be used for the buffered mixing of control voltages to create, e.g. a complex LFO control signal from multiple sources. While it can be used to mix audio-rate control signals, it is DC coupled and will rectify an AC input signal.
 
 #### Dual Universal Slope Generator
 
-The **Dual Universal Slope Generator (DUSG)**...
+The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more complex Serge modules, developed in 1976 by combining the first generation Envelope Generator module with the Positive and Negative Slew modules. The DUSG can be used as an envelope generator, a low-pass filter / envelope follower, an oscillator, a harmonic subdivider, and a pulse delay.
 
 <img src = "./img/sergerc_1_7.png" width="30%" title="DUSG" alt="DUSG">
 
-1. Something (DC OUTPUT)
+1. CV Slope Output (DC OUTPUT)
+2. Bipolar output (inverted mirror of *1*) (AC OUTPUT)
+3. Gate output (Pulse OUTPUT)
+4. Signal input for envelope follower (AC INPUT)
+5. 1 volt-per-octave input for slope generator (DC INPUT)
+6. CV input for envelope rise or fall (scaled by *8* and summed with *9* and/or *10*) (DC INPUT)
+7. Selector switch for the CV input; can be set to effect the rise, fall, or both
+8. Scaling knob for *6*
+9. Base knob for rise time (summed with *6* x *8*)
+10. Base knob for fall time (summed with *6* x *8*)
+11. Envelope trigger input (Pulse INPUT)
 
 *Notes:*
-- Note 1.
-- Note 2.
+- A pulse sent into input *11* of the DUSG will fire a single **envelope** at output *1* and *2*, based on the rise and fall times of the slope generator.
+- Voltage sent into the signal input (*4*) of the DUSG will be slew-limited (smoothed) based on the rise and fall times of the slope generator to create a DC signal at output *1* and *2*. The DUSG performs full-wave rectification of the input signal first, so negative input voltage from a bipolar source will be flipped positive before smoothing to perform as an **envelope follower**.
+- Connecting the gate output *3* to the pulse input *11* of the DUSG will make the module function as an **oscillator**, generating a triangle wave shaped by the rise and fall times at output *1*. Output *2* will put out a different waveform - the red jack on the top slope generator puts out a square wave, and the bottom slope generator outputs an AC inverted triangle wave, centered around 0V.
+- If the rise and fall time add to a greater period than a pulse wave sent to the pulse input *11*, the DUSG can be used as a **harmonic subdivider**. generating an oscillator at 1/2, 1/3, etc. the frequency of the incoming signal.
+- The DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a pulse at input *11* will echo at output *3* at the end of the rise and fall times.
 
 #### Extended ADSR
 
-The **Extended ADSR (ExADSR)**...
+The **Extended ADSR (ExADSR)** is based on Tcherepnin's 1976 design; this was his first to adopt the common [ADSR](https://en.wikipedia.org/wiki/Envelope_(music)) topology used in envelope generator made by contemporary "East Coast" synthesizer manufacturers such as Moog and ARP to simulate the shape of common acoustic instruments. As with most of Tcherepnin's designs, the superficial architecture of the module is made far more complex through its ability to be driven at audio rate and for all stages (including a "delay" stage for the onset of the envelope) to be changed dynamically via voltage control.
 
 <img src = "./img/sergerc_1_8.png" width="20%" title="ExADSR" alt="ExADSR">
 
-1. Something (DC OUTPUT)
+1. Gate input for the ADSR generator (Pulse INPUT)
+2. Trigger input for the ADSR generator (Pulse INPUT)
+3. Envelope CV output of the ADSR (DC OUTPUT)
+4. Envelope delay time CV and knob (DC INPUT)
+5. Envelope attack time CV and knob (DC INPUT)
+6. Envelope decay time CV and knob (DC INPUT)
+7. Envelope sustain level CV and knob (DC INPUT)
+8. Envelope release time CV and knob (DC INPUT)
+9. CV input scaling *all* envelope parameters simultaneously (DC INPUT)
+10. Curve select switch (logarithmic / linear / exponential)
 
 *Notes:*
-- Note 1.
-- Note 2.
+- The Extended ADSR can be triggered with a "Trigger" pulse, which will cause it to generate a three-stage ramp based on the attack, decay, and release times,  or a "Gate" signal which will allow the envelope to be held at the sustain level.
+- The CV input *29* to the Extended ADSR allows it to trigger at audio rate. You can use a signal inverter on a utility module such as the Boolean Logic to patch the module as an oscillator.
+- The control knobs on the Red Control ExADSR are the reverse of the Random\*Source panels - a low value on this panel is to the right, not the left.
 
 [back to top](#top)
 
