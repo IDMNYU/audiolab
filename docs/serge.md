@@ -550,10 +550,10 @@ The **Random Source** is the eponymous design of the company that designed its P
 7. Unipolar sample-and-hold output using *6* as its source and trigger *11* or *13* to sample the voltage (DC OUTPUT)
 8. Bipolar sample-and-hold output using *6* as its source and trigger *11* or *13* to sample the voltage (AC OUTPUT)
 9. CV input to set the rate of random outputs *1*, *3*, and *5* (scaled by *10* and sums with *12*) (DC INPUT)
-10. Scalar knob for *9*.
+10. Scalar knob for *9*
 11. Pulse input for the sample-and-hold outputs *7* and *8* (Pulse INPUT) 
 12. Base rate for random outputs *1*, *3*, and *5* (sums with *9* x *10*)
-13. Button to trigger the sample-and-hold outputs *7* and *8*.
+13. Button to trigger the sample-and-hold outputs *7* and *8*
 
 *Notes:*
 - The outputs of the module can be patch-programmed into the rate input *9*. This will create a second-order randomness where the speed of the random generator is itself changing randomly.
@@ -2098,7 +2098,7 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 
 <img src = "./img/sergerc_photo.jpg" width="100%" title="Red Control Serge panel" alt="Red Control Serge panel">
 
-<img src = "./img/sergerc_quantbox.jpg" width="20%" title="Red Control Quantizer breakout box" alt="Red Control Quantizer breakout box">
+<img src = "./img/sergerc_quantbox.jpg" width="25%" title="Red Control Quantizer breakout box" alt="Red Control Quantizer breakout box">
 
 
 The **Red Control** panel is a ["Shop Panel"](http://www.serge-fans.com/shop.html) designed by Sound Transform Systems (STS), the successor to Tcherepnin's original company in the United States, led by Tcherepnin's former student Rex Probe. Our Red Control was originally built in the late 1990s and contains a number of Tcherepnin's designs not found elsewhere in the IDM Audio Lab, including his 1979 Quantizer module and the 1974 Analog Shift Register. 
@@ -2132,39 +2132,69 @@ The 1979 Serge **Quantizer**, which allows for input voltages defining pitch usi
 
 #### Dual Analog Shift Register
 
-The **Analog Shift Register (ASR)**...
+The **Analog Shift Register (ASR)** module first appeared in 1974 and is considered one of Tcherepnin's most innovative designs. From the [catalog](https://serge.synth.net/documents/datasheet/ControlModules2.jpg), the ASR "is a sequential sample and hold module for producing arabesque-like forms in musical space". The pulse input samples an input voltage and 'shifts' it across three outputs, allowing for a four part delayed canon of voltage values that can be used to create delayed copies of voltage sequences. The Red Control panel contains two identical ASR modules.
 
 <img src = "./img/sergerc_1_2.png" width="20%" title="ASR" alt="ASR">
 
-1. Something (DC OUTPUT)
+1. CV Input to be sampled (DC INPUT)
+2. Scaling knob for *1*
+3. Trigger input to sample and shift (Pulse INPUT)
+4. Trigger output to synchronize events *after* the sampling (Pulse OUTPUT)
+5. Shift register output #1 - this will put out the last sampled input voltage (DC OUTPUT)
+6. Shift register output #2 - this will put out the voltage that was previously at output #1 (DC OUTPUT)
+7. Shift register output #3 - this will put out the voltage that was previously at output #2 (DC OUTPUT)
 
 *Notes:*
-- Note 1.
-- Note 2.
+- The two ASR modules can be ganged to allow for six shift stages.
+- The pulse output *4* can be used to synchronize events *after* the ASR samples a voltage; this may be useful to make up for the small timing discepancy caused by the sampling circuit, which uses a hold capacitor and takes a non-zero amount of time to sample the input and shift everything down.
 
 #### Dual Transient Generator
 
-The **Dual Transient Generator (DTG)**...
+The **Dual Transient Generator (DTG)** is the original 1976 Serge design of the module called **Dual Slopes** on the Random\*Source Serge panels. The module consists of the circuit for a Dual Universal Slope Generator (DUSG - see below) with a simplified panel interface, optimized for generating harmonically linked oscillators and clock pulses. The module contains two sides, each of which is capable of producing clock pulses, slew-limited ramps, and various oscillators when set to cycle.
 
 <img src = "./img/sergerc_1_3.png" width="20%" title="Dual Transient Generator" alt="Dual Transient Generator">
 
-1. Something (DC OUTPUT)
+1. Ramp output for the left-hand slope generator (DC OUTPUT)
+2. Ramp output for the right-hand slope generator (DC OUTPUT)
+3. Pulse output for the left-hand slope generator (Pulse OUTPUT)
+4. Pulse output for the right-hand slope generator (Pulse OUTPUT)
+5. Cycle switch for the left-hand generator, causing it to self-oscillate
+6. Cycle switch for the right-hand generator, causing it to self-oscillate 
+7. External trigger input for the left-hand slope generator (Pulse INPUT)
+8. External trigger input for the right-hand slope generator (Pulse INPUT)
+9. Control knobs for the Rise time for each slope - a higher value is a faster rise
+10. Control knobs for the Fall time for each slope - a higher value is a faster fall
+11. Scaling knob for *12*
+12. CV input multiplier for the slew circuit, which will shorten or lengthen the rise and fall time (DC INPUT)
 
 *Notes:*
-- Note 1.
-- Note 2.
+- A very common use of the DTG is as a **master clock**. The pulse outputs (*3* and *4*) can be used to drive the Sequencer / Programmer, the TKB, the "sample" on an SSG, or the trigger inputs on slope generators and filters.
+- The DTG module highlights Tcherepnin's design mantra that the *distinction between control voltage and audio-rate signals is an artificial one*. The module can generate low frequency ramps and pulse trains, as well as audio-rate waveforms.
+- The DTG module is optimized to leverage a side effect of Serge (and other "West Coast") envelope generators: an envelope, once triggered, *can't be retriggered until it has finished its cycle.* As a result, the rise and fall time of the slew circuit will determine the frequency of the clock if it is set to cycle.
+- Unlike the Dual Slops (and full DUSG), the DTG lacks a signal input for envelope following.
 
 #### Random Source
 
-The **Random Source**...
+The **Random Source** module is the STS circuit that combines two of Tcherepnin's noise modules: the **Random Voltage Generator (RVG)** (left column of the module) and the **Noise Source** (right column). The RVG behaves as a pre-patched Smooth / Stepped Generator fed with noise; the Noise Source provides a variety of noise sources to work with as well as a built-in sample-and-hold circuit.
 
 <img src = "./img/sergerc_1_4.png" width="20%" title="Random Source" alt="Random Source">
 
-1. Something (DC OUTPUT)
+1. Pulse output - generates random pulses at the module rate (specified by *9* x *10* + *12*) (Pulse OUTPUT)
+2. Full-spectrum [white noise](https://en.wikipedia.org/wiki/White_noise) (AC OUTPUT)
+3. Stepped random output - generates discrete random voltages at the module rate (DC OUTPUT)
+4. [Pink Noise](https://en.wikipedia.org/wiki/Pink_noise) (AC OUTPUT)
+5. Smooth random output - generates continuous, low-pass filtered random voltages at the module rate (DC OUTPUT)
+6. "Dirty saw" - a circuit designed by Tcherepnin containing a sawtooth wave that wobbles in frequency and has low-amplitude noise injected in its signal (DC OUTPUT)
+7. Unipolar sample-and-hold output using *6* as its source and trigger *10* or *12* to sample the voltage (DC OUTPUT)
+8. CV input to set the rate of random outputs *1*, *3*, and *5* (scaled by *10* and sums with *12*) (DC INPUT)
+9. Scalar knob for *8*.
+10. Pulse input for the sample-and-hold output *7* (Pulse INPUT) 
+11. Base rate for random outputs *1*, *3*, and *5* (sums with *8* x *9*)
+12. Button to trigger the sample-and-hold output *7*
 
 *Notes:*
-- Note 1.
-- Note 2.
+- The outputs of the module can be patch-programmed into the rate input *8*. This will create a second-order randomness where the speed of the random generator is itself changing randomly.
+- Pressing button *12* will cause jack *10* to *output* a pulse. You can use this as a utility trigger button throughout the system, either to test parts of your Serge patch or in performace.
 
 #### Smooth / Stepped Generator
 
