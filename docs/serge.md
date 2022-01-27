@@ -6,7 +6,7 @@
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
 - [STS Panels](#sts-panels) ( [Red Control](#red-control) )
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
-- [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) )
+- [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) / [2020 Panel](#2020-panel) )
 
 ## Serge System Overview
 
@@ -2517,6 +2517,7 @@ The CGS **Programmer**, like the Serge TKB, is a 16-stage combination sequencer 
 
 <img src = "./img/shelfisizer2019_photo.jpg" width="100%" title="2019 Shelfisizer" alt="2019 Shelfisizer">
 <img src = "./img/shelfisequencer_photo.jpg" width="100%" title="Shelfisequencer" alt="Shelfisequencer">
+<img src = "./img/shelfisizer2020_photo.jpg" width="100%" title="2020 Shelfisizer" alt="2020 Shelfisizer">
 
 **The Shelfisizer** is an open-source project by Luke DuBois inspired by Serge modular systems but also hybrid analog synthesis / microcontroller systems such as the [Buchla 200e](https://buchla.com/systems-design/). These modules use 16mHz [Adafruit Metro Mini](https://www.adafruit.com/product/2590) microcontrollers and simple monolithic IC chips to handle much of the logic that definies the module's behavior, leaving discrete components for the parts of the modules that actually generate analog signals. The use of microcontrollers makes it simple to prototype modules that require an understanding of "state", such as pattern memory or hysteresis, and the use of CMOS ICs allows for a design that has a much lower part count than typical analog synthesizer modules.
 
@@ -2685,6 +2686,82 @@ The **Shelfisequencer** is a three-row trigger/gate sequencer panel, modeled aft
    - Mode switch 1 (*3*) controls whether the panel outputs trigger pulses (CENTER), gate signals (LEFT), or unique trigger pulses only (RIGHT). The CENTER setting causes the panel to behave like a normal trigger sequencer. The LEFT setting keeps the current "stage" of each row HIGH allowing you to use it as a gate signal. The RIGHT setting will only send trigger pulses when the sequencer's stage (current output) has changed - this will filter out repeat triggering in a manner similar to hysteresis.
    - Mode switch 2 (*4*) controls the behavior of the CV row inputs (*2*). The CENTER setting causes the panel to sequence based on the trigger inputs in a linear fashion, with the CV input serving as a *reset trigger* - a high voltage will cause the row to reset to step 1. The LEFT setting treats the CV input as a *positional index* - 0 volts will cause trigger outputs at step 1 and 5 volts will trigger step 16, with voltages in between allowing you to "scan" the sequencer. The RIGHT setting treats the CV input as a *direction signal*, with 0 volts causing the sequecer to quickly scan backwards, and 5 volts causing it to quickly scan forwards; fine-tuning the voltage input - or using an LFO - allow for the sequencing of patters with syncopated timing characteristics.
    - Mode switch 3 (*5*) controls whether each row sequence in isolation (CENTER) or whether each row uses all 48 outputs, scanning in either a horizontal (LEFT) or vertical (RIGHT) wrapping pattern.
+
+### 2020 Panel
+
+<img src = "./img/shelfisizer2020.png" width="100%" title="Shelfisizer 2020" alt="Shelfisizer 2020">
+
+#### Quant
+
+The **Quant** module...
+
+<img src = "./img/shelfisizer2020_1.png" width="40%" title="Quant" alt="Quant">
+
+1. CV input to be sampled (DC INPUT)
+
+*Notes:*
+- Note 1
+- Note 2
+
+#### Envy
+
+The **Envy** module...
+
+<img src = "./img/shelfisizer2020_2.png" width="40%" title="Envy" alt="Envy">
+
+1. CV input to be sampled (DC INPUT)
+
+*Notes:*
+- Note 1
+- Note 2
+
+#### Shoosh
+
+The **Shoosh** module...
+
+<img src = "./img/shelfisizer2020_3.png" width="10%" title="Shoosh" alt="Shoosh">
+
+1. CV input to be sampled (DC INPUT)
+
+*Notes:*
+- Note 1
+- Note 2
+
+#### Odds
+
+The **Odds** module...
+
+<img src = "./img/shelfisizer2020_4.png" width="40%" title="Odds" alt="Odds">
+
+1. CV input to be sampled (DC INPUT)
+
+*Notes:*
+- Note 1
+- Note 2
+
+#### Drive
+
+The **Drive** module...
+
+<img src = "./img/shelfisizer2020_5.png" width="10%" title="Drive" alt="Drive">
+
+1. CV input to be sampled (DC INPUT)
+
+*Notes:*
+- Note 1
+- Note 2
+
+#### Nic75
+
+The **Nic75** module...
+
+<img src = "./img/shelfisizer2020_6.png" width="20%" title="Nic75" alt="Nic75">
+
+1. CV input to be sampled (DC INPUT)
+
+*Notes:*
+- Note 1
+- Note 2
 
 [back to top](#top)
 
