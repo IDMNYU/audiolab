@@ -2098,6 +2098,9 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 
 <img src = "./img/sergerc_photo.jpg" width="100%" title="Red Control Serge panel" alt="Red Control Serge panel">
 
+<img src = "./img/sergerc_quantbox.jpg" title="Red Control Quantizer breakout box" alt="Red Control Quantizer breakout box">
+
+
 The **Red Control** panel is a ["Shop Panel"](http://www.serge-fans.com/shop.html) designed by Sound Transform Systems (STS), the successor to Tcherepnin's original company in the United States, led by Tcherepnin's former student Rex Probe. Our Red Control was originally built in the late 1990s and contains a number of Tcherepnin's designs not found elsewhere in the IDM Audio Lab, including his 1979 Quantizer module and the 1974 Analog Shift Register. 
 
 ### Red Control
@@ -2106,15 +2109,26 @@ The **Red Control** panel is a ["Shop Panel"](http://www.serge-fans.com/shop.htm
 
 #### Quantizer (TKB)
 
-The **Quantizer**...
+The 1979 Serge **Quantizer**, which allows for input voltages defining pitch using the 1V/octave standard to be [quantized](https://en.wikipedia.org/wiki/Quantization_(signal_processing)) to specific melodic intervals, was one of the last modules Tcherepnin designed for his original company. It allows for the selection of four different even divisions of an octave and supports eight channels of quantization: four with direct panel access, and another four designed to be wired into the row outputs of a TKB. In the IDM Audio Lab, these last four channels are wired instead to a small breakout box to the right of the case.
 
 <img src = "./img/sergerc_1_1.png" width="20%" title="Quantizer" alt="Quantizer">
 
-1. Something (DC OUTPUT)
+1. CV Inputs to the first four channels of the quantizer (DC INPUT)
+2. CV Outputs carrying the quantized signals for the first four inputs (DC OUTPUT)
+3. 1/3 scale select CV control (has an *OR* relationship with *4*) (Pulse INPUT)
+4. 1/3 scale select switch  (has an *OR* relationship with *3*)
+5. 1/6 scale select CV control (has an *OR* relationship with *6*) (Pulse INPUT)
+6. 1/6 scale select switch  (has an *OR* relationship with *5*)
+7. CV Outputs carrying the quantized signals fro the breakout box (DC OUTPUT)
 
 *Notes:*
-- Note 1.
-- Note 2.
+- The scale select CV inputs and switches (*3*, *4*, *5*, and *6*) allow you to select four different quantizer scales:
+    - a standard 12-TET [chromatic scale](https://en.wikipedia.org/wiki/Chromatic_scale) (both scale selectors LOW)
+    - a scale of major 3rds  (1/3 selector HIGH; 1/6 selector LOW)
+    - a [whole-tone](https://en.wikipedia.org/wiki/Whole_tone_scale) scale (major 2nds) (1/3 selector LOW; 1/6 selector HIGH)
+    - a scale that alternates half steps and minor thirds (both scale selectors HIGH)
+- In order to use the CV pulse inputs for the scale selectors, the switches for the scales need to be LOW.
+- The module's analog circuitry quantizes input voltages to even subdivisions (or patterns) across the full 5V CV range of the Serge system; for a digital quantizer that can do more complex scales, see the Quant module on the 2020 Shelfisizer panel.
 
 #### Dual Analog Shift Register
 
