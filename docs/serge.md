@@ -992,7 +992,6 @@ The **Dual Lowpass Gate / Timbre / Stereo Mixer (DONKS)** is a combination of th
 
 #### Dual Precision Oscillator / Peak & Trough
 
-
 The **Precision Oscillator (PCO)**, along with the more complex NTO, first appeared in 1976, and the closest thing Tcherepnin designed to an East Coast-style [Voltage Controlled Oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator). This Random\*Source panel includes two PCOs, one of which can run in the sub-audio range; it also includes an updated versino of the original (1973) **Peak and Trough (P&T)** module.
 
 <img src = "./img/serge824_6_1.png" width="40%" title="Dual PCO / P&T" alt="Dual PCO / P&">
@@ -2104,6 +2103,102 @@ The **Red Control** panel is a ["Shop Panel"](http://www.serge-fans.com/shop.htm
 ### Red Control
 
 <img src = "./img/sergerc_1.png" width="100%" title="Red Control panel" alt="Red Control panel">
+
+#### Quantizer (TKB)
+
+The **Quantizer**...
+
+<img src = "./img/sergerc_1_1.png" width="20%" title="Quantizer" alt="Quantizer">
+
+1. Something (DC OUTPUT)
+
+*Notes:*
+- Note 1.
+- Note 2.
+
+#### Dual Analog Shift Register
+
+The **Analog Shift Register (ASR)**...
+
+<img src = "./img/sergerc_1_2.png" width="20%" title="ASR" alt="ASR">
+
+1. Something (DC OUTPUT)
+
+*Notes:*
+- Note 1.
+- Note 2.
+
+#### Dual Transient Generator
+
+The **Dual Transient Generator (DTG)**...
+
+<img src = "./img/sergerc_1_3.png" width="20%" title="Dual Transient Generator" alt="Dual Transient Generator">
+
+1. Something (DC OUTPUT)
+
+*Notes:*
+- Note 1.
+- Note 2.
+
+#### Random Source
+
+The **Random Source**...
+
+<img src = "./img/sergerc_1_4.png" width="20%" title="Random Source" alt="Random Source">
+
+1. Something (DC OUTPUT)
+
+*Notes:*
+- Note 1.
+- Note 2.
+
+#### Smooth / Stepped Generator
+
+The **Smooth / Stepped Generator (SSG)**...
+
+<img src = "./img/sergerc_1_5.png" width="20%" title="SSG" alt="SSG">
+
+1. Something (DC OUTPUT)
+
+*Notes:*
+- Note 1.
+- Note 2.
+
+#### Control Voltage Processor
+
+The **Control Voltage Processor (CV PRO)**...
+
+<img src = "./img/sergerc_1_6.png" width="10%" title="CV Pro" alt="CV Pro">
+
+1. Something (DC OUTPUT)
+
+*Notes:*
+- Note 1.
+- Note 2.
+
+#### Dual Universal Slope Generator
+
+The **Dual Universal Slope Generator (DUSG)**...
+
+<img src = "./img/sergerc_1_7.png" width="30%" title="DUSG" alt="DUSG">
+
+1. Something (DC OUTPUT)
+
+*Notes:*
+- Note 1.
+- Note 2.
+
+#### Extended ADSR
+
+The **Extended ADSR (ExADSR)**...
+
+<img src = "./img/sergerc_1_8.png" width="20%" title="ExADSR" alt="ExADSR">
+
+1. Something (DC OUTPUT)
+
+*Notes:*
+- Note 1.
+- Note 2.
 
 [back to top](#top)
 
