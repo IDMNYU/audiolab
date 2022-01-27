@@ -2098,7 +2098,7 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 
 <img src = "./img/sergerc_photo.jpg" width="100%" title="Red Control Serge panel" alt="Red Control Serge panel">
 
-<img src = "./img/sergerc_quantbox.jpg" title="Red Control Quantizer breakout box" alt="Red Control Quantizer breakout box">
+<img src = "./img/sergerc_quantbox.jpg" width="20%" title="Red Control Quantizer breakout box" alt="Red Control Quantizer breakout box">
 
 
 The **Red Control** panel is a ["Shop Panel"](http://www.serge-fans.com/shop.html) designed by Sound Transform Systems (STS), the successor to Tcherepnin's original company in the United States, led by Tcherepnin's former student Rex Probe. Our Red Control was originally built in the late 1990s and contains a number of Tcherepnin's designs not found elsewhere in the IDM Audio Lab, including his 1979 Quantizer module and the 1974 Analog Shift Register. 
