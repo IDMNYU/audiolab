@@ -2712,15 +2712,15 @@ The Quant modules support 32 different scales with quarter tone (24 note / octav
     - 9: Japanese In scale / Karnataka Shuddha Saveri
     - 10: Indonesian Slendro-Djawar scale
 - Messaien's modes of limited transposition
-    - 11: First mode / whole-tone scale (TTTTTT)
-    - 12: Second mode / octatonic diminished scale (STSTSTST)
-    - 13: Third mode (TSSTSSTSS)
-    - 14: Fourth mode (SSm3SSm3S)
-    - 15: Fifth mode (SM3SSM3S)
-    - 16: Sixth mode (TTSSTTSS)
-    - 17: Seventh mode (SSSTSSSSTS)
+    - 11: First mode / whole-tone scale (T T T T T T)
+    - 12: Second mode / octatonic diminished scale (S T S T S T S T)
+    - 13: Third mode (T S S T S S T S S)
+    - 14: Fourth mode (S S m3 S S m3 S)
+    - 15: Fifth mode (S M3 S S M3 S)
+    - 16: Sixth mode (T T S S T T S S)
+    - 17: Seventh mode (S S S T S S S S T S)
 - Heptatonic scales
-    - 18: Istrian heptatonic (STSTS4th)
+    - 18: Istrian heptatonic (S T S T S P4)
 - Fixed pattern scales (sim. to analog quantizers)
     - 19: Minor 3rd scale
     - 20: Major 3rd scale
