@@ -2698,44 +2698,44 @@ The **Quant** modules are a pair of two-channel CV quantizers similar in basic f
 The Quant modules support 32 different scales with quarter tone (24 note / octave) resolution:
 
 - Chromatic scales
-    - 0: raw chromatic 12-TET
-    - 1: raw quarter-tone 24-TET
+    - 0: Chromatic 12-TET
+    - 1: Quarter-tone 24-TET
 - Western diatonic scales and modes
-    - 2: major scale / ionian
-    - 3: (natural) minor scale / aeolian
-    - 4: harmonic minor scale
-    - 5: melodic (ascending) / jazz minor scale
+    - 2: Major scale / Ionian mode
+    - 3: (Natural) minor scale / Aeolian mode
+    - 4: Harmonic minor scale
+    - 5: Melodic (ascending) / Jazz minor scale
 - Pentatonic scales
-    - 6: major pentatonic / gong
-    - 7: minor pentatonic / yu
-    - 8: japanese yo scale / "blues major"
-    - 9: japanese in scale
-    - 10: indonesian slendro-djawar scale
+    - 6: Major pentatonic / Gōng 宫
+    - 7: Minor pentatonic / Yǔ 羽
+    - 8: Japanese Yo scale / "blues major" / Udayaravichandrika
+    - 9: Japanese In scale / Karnataka Shuddha Saveri
+    - 10: Indonesian Slendro-Djawar scale
 - Messaien's modes of limited transposition
-    - 11: first mode / whole-tone scale (TTTTTT)
-    - 12: second mode / octatonic diminished scale (STSTSTST)
-    - 13: third mode (TSSTSSTSS)
-    - 14: fourth mode (SSm3SSm3S)
-    - 15: fifth mode (SM3SSM3S)
-    - 16: sixth mode (TTSSTTSS)
-    - 17: seventh mode (SSSTSSSSTS)
+    - 11: First mode / whole-tone scale (TTTTTT)
+    - 12: Second mode / octatonic diminished scale (STSTSTST)
+    - 13: Third mode (TSSTSSTSS)
+    - 14: Fourth mode (SSm3SSm3S)
+    - 15: Fifth mode (SM3SSM3S)
+    - 16: Sixth mode (TTSSTTSS)
+    - 17: Seventh mode (SSSTSSSSTS)
 - Heptatonic scales
-    - 18: istrian heptatonic (STSTS4th)
+    - 18: Istrian heptatonic (STSTS4th)
 - Fixed pattern scales (sim. to analog quantizers)
-    - 19: minor third scale
-    - 20: major 3rd scale
-    - 21: "augmented" scale
-- Maqam scales
-    - 22: maqam bayati (jins bayati + jins nahawand)
-    - 23: maqam hijaz (jins hijaz + jins rast)
-    - 24: maqam jiharkah (jins jiharkah + jins upper rast)
-    - 25: maqam husayni 'ushrayan (jins bayati on la + jins bayati on re)
-    - 26: maqam rast (jins rast + jins upper rast)
-    - 27: maqam shad 'araban (jins hizaj + jins nakriz)
-    - 28: maqam huzam (jins sikah + jins hijaz + jins rast)
-    - 29: maqam nawa athar (jins nikriz + jins hijazkar)
-    - 30: maqam rahat al-arwar (jins sikah + jins hijaz + jins rast)
-    - 31: maqam saba (jins saba + jins hijaz + jins 'ajam)
+    - 19: Minor 3rd scale
+    - 20: Major 3rd scale
+    - 21: "Augmented" scale
+- Maqam
+    - 22: Maqam Bayati مقام بياتي (Jins Bayati + Jins Nahawand)
+    - 23: Maqam Hijaz مقام حجاز (Jins Hijaz + Jins Rast)
+    - 24: Maqam Jiharkah مقام جهاركاه (Jins Jiharkah + Jins Upper Rast)
+    - 25: Maqam Husayni 'Ushrayan مقام حُسيني (Jins Bayati on la + Jins Bayati on re)
+    - 26: Maqam Rast مقام راسْت (Jins Rast + Jins Upper Rast)
+    - 27: Maqam Shadd 'Araban مقام شَدّ عَرَبان (Jins hizaj + Jins Nakriz)
+    - 28: Maqam Huzam مقام هُزام (Jins Sikah + Jins hijaz + Jins Rast)
+    - 29: Maqam Nawa Athar مقام نَو أثَر (Jins Nikriz + Jins Hijazkar)
+    - 30: Maqam Rahat Al-Arwar مقام هُزام (Jins Sikah + Jins Hijaz + Jins Rast)
+    - 31: Maqam Saba مقام صَبا (Jins Saba + Jins Hijaz + Jins 'Ajam)
 
 <img src = "./img/shelfisizer2020_1.png" width="40%" title="Quant" alt="Quant">
 
