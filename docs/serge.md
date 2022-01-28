@@ -2799,7 +2799,7 @@ The **Shoosh** module is a simple, two-channel VCA based on a [design by Damien 
 
 #### Odds
 
-The **Odds** is a six-channel "coin toss" module with a variable weighting, allowing input pulses to translate to voltage sent to one of two possible output jacks based on the results of a random value. The panel also has a utility 4-stage sequencer module and a common-mode input which will fire all outputs. The module can be set to send out pulses or set steady values at the output jacks.
+The **Odds** is a six-channel implementation of a [Bernoulli Gate](https://mutable-instruments.net/modules/branches/) - a "coin toss" circuit with variable weighting, allowing input pulses to translate to voltage sent to one of two possible output jacks based on the results of a random value. The panel also has a utility 4-stage sequencer module and a common-mode input which will fire all outputs. The module can be set to send out pulses or set steady values at the output jacks.
 
 <img src = "./img/shelfisizer2020_4.png" width="30%" title="Odds" alt="Odds">
 
