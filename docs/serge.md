@@ -2806,39 +2806,53 @@ The **Shoosh** module is a simple, two-channel VCA based on a [design by Damien 
 
 #### Odds
 
-The **Odds** module...
+The **Odds** is a six-channel "coin toss" module with a variable weighting, allowing input pulses to translate to voltage sent to one of two possible output jacks based on the results of a random value. The panel also has a utility 4-stage sequencer module and a common-mode input which will fire all outputs. The module can be set to send out pulses or set steady values at the output jacks.
 
 <img src = "./img/shelfisizer2020_4.png" width="30%" title="Odds" alt="Odds">
 
-1. CV input to be sampled (DC INPUT)
+1. Utility 4-stage sequencer outputs 1-4 - any Pulse input at any channel will advance the clock and cycle through the outputs (Pulse OUTPUT)
+2. Input pulse A-F (Pulse INPUT)
+3. Probability knob A-F - clockwise values will make the right output ("tails") more likely than the left ("heads")
+4. Left output ("heads") jack (Pulse OUTPUT)
+5. Right output ("tails") jack (Pulse OUTPUT)
+6. Common pulse input - this will fire a coin toss on all six channels (Pulse INPUT)
+7. Mode switch - LOW sets the outputs to send pulses; HIGH sets the outputs to hold their state
 
 *Notes:*
-- Note 1
-- Note 2
+- The Common input *6* can be used to generate multiple randomly selected pulses or gates simultaneously
+- The Mode switch *7* can be used to have the module send continuous voltages for, e.g. control of gates
 
 #### Drive
 
-The **Drive** module...
+The **Drive** module is a dual, diode-clipping distortion circuit based on the [MXR Distortion Plus](https://www.electrosmash.com/mxr-distortion-plus-analysis) effect pedal. The overdrive amount can be voltage-controlled.
 
 <img src = "./img/shelfisizer2020_5.png" width="10%" title="Drive" alt="Drive">
 
-1. CV input to be sampled (DC INPUT)
+1. Output signal (AC OUTPUT)
+2. Input signal (AC INPUT)
+3. CV distortion amount (scales with *4*) (DC INPUT)
+4. Drive knob
 
 *Notes:*
-- Note 1
-- Note 2
+- Like most guitar-style distortion circuits, the Drive will clip a simple waveform, creating additional overtones in a harmonic signal.
 
 #### Nic75
 
-The **Nic75** module...
+The **Nic75** module is based on an [envelope follower circuit](https://www.nicolascollins.com/texts/electronotes.pdf) designed by [Nicolas Collins](https://www.nicolascollins.com/) and published in [Electronotes](http://electronotes.netfirms.com/) in 1975. The circuit is similar to the Serge DUSG insofar as it can also be used to generate a tracking envelope on an input signal or a slewed envelope curve from a trigger pulse; in addition, the circuit contains an attack detector which will send a pulse when the input envelope exceeds a threshold. The module has two halves with slightly different component values - the lower half has a slightly slower slew response than the upper half.
 
 <img src = "./img/shelfisizer2020_6.png" width="20%" title="Nic75" alt="Nic75">
 
-1. CV input to be sampled (DC INPUT)
+1. Output envelope curve (DC OUTPUT)
+2. Trigger output when an attack is detected (Pulse OUTPUT)
+3. Input value for the envelope follower (AC INPUT)
+4. Trgger input to generate an Attack-Release (AR) envelope (Pulse INPUT)
+5. Attack knob - higher value is a faster attack
+6. Release knob - higher value is a slower release
+7. Gain knob - scales in the input voltage
+8. Threshold knob - controls the threshold for an attack pulse at *2*
 
 *Notes:*
-- Note 1
-- Note 2
+- The Nic75 circuit is designed to reduce the "ripple" effect in simple envelope followers where the attack phase of an input instrument causes an unstable follower output without extensive lowpass filtering, which creates the opposite problem where short attacks disappear and aren't tracked properly. By separating the Attack and Release characteristics of the follower within the circuit, this can be mitigated.
 
 [back to top](#top)
 
