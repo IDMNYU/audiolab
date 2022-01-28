@@ -2696,7 +2696,7 @@ The **Shelfisequencer** is a three-row trigger/gate sequencer panel, modeled aft
 The **Quant** modules are a pair of two-channel CV quantizers similar in basic function to the Serge Quantizer module on the Red Control panel, insofar as they take incoming control signals that use the 1V/octave standard and quantize them to musical scales. Unlike Tcherepnin's analog circuit, however, the Quant module is *digital*, and is closer in design to other digital modules such as Craig Lee's PIC microcontroller-based [8-channel Quantizer](https://www.clsound.com/quantizer.html).
 
 The Quant modules support 32 different scales with quarter tone (24 note / octave) resolution:
-
+```
   // chromatic scales
   0: raw chromatic 12-TET
   1: raw quarter-tone 24-TET
@@ -2742,14 +2742,25 @@ The Quant modules support 32 different scales with quarter tone (24 note / octav
   29: maqam nawa athar (jins nikriz + jins hijazkar)
   30: maqam rahat al-arwar (jins sikah + jins hijaz + jins rast)
   31: maqam saba (jins saba + jins hijaz + jins 'ajam)
+```
 
 <img src = "./img/shelfisizer2020_1.png" width="40%" title="Quant" alt="Quant">
 
-1. CV input to be sampled (DC INPUT)
+1. Quantized CV output A (DC INPUT)
+2. Quantized CV output B (DC INPUT)
+3. Smoothing knob - lowpass filters the outgoing CV to reduce jitter on note transitions
+4. Root knob - allows for the transposition of any scale within the quantizer
+5. Dual switch - when LOW, shuts off the second (B) channel of the quantizer, doubling the maximum response frequency of the left (A) channel
+6. Mode switch - when LOW, the quantizer will continuously track the input CV voltage at *10* and *11*; when HIGH, the quantizer will act as a sample-and-hold circuit based on trigger pulses at *8* and *9*, where it will latch onto the input CV upon receiving a trigger and hold a quantized output voltage until the next trigger
+7. Scale select switches - the five switches are binary encoders for a 5-bit (0-31) value that selects the scale to quantize to; these switches, when set HIGH, will light corresponding LEDs (red, yellow, green, blue, and white). An index label on the side of the rack shows the values with their color scheme
+8. Sample trigger A (Pulse INPUT)
+9. Sample trigger B (Pulse INPUT)
+10. CV input A (DC INPUT)
+11. CV input B (DC INPUT)
 
 *Notes:*
-- Note 1
-- Note 2
+- The two sides of each Quant module (A and B) will exhibit the same behavior in terms of scale and other parameters. The two channels share a microcontroller - disabling the B channel by setting the dual switch *5* LOW will double the sampling rate of the quantizer and may give better results for fast moving voltages.
+- The Quant works withing a 0-5V range (the standard range of Serge DC signals). Input voltages outside of that range will be clipped.
 
 #### Envy
 
