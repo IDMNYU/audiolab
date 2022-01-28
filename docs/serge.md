@@ -2831,7 +2831,7 @@ The **Drive** module is a dual, diode-clipping distortion circuit based on the [
 
 #### Nic75
 
-The **Nic75** module is based on an [envelope follower circuit](https://www.nicolascollins.com/texts/electronotes.pdf) designed by [Nicolas Collins](https://www.nicolascollins.com/) and published in [Electronotes](http://electronotes.netfirms.com/) in 1975. The circuit is similar to the Serge DUSG insofar as it can also be used to generate a tracking envelope on an input signal or a slewed envelope curve from a trigger pulse; in addition, the circuit contains an attack detector which will send a pulse when the input envelope exceeds a threshold. The module has two halves with slightly different component values - the lower half has a slightly slower slew response than the upper half.
+The **Nic75** module is based on an [envelope follower circuit](https://www.nicolascollins.com/texts/electronotes.pdf) designed by [Nicolas Collins](https://www.nicolascollins.com/) and published in [Electronotes](http://electronotes.netfirms.com/) in 1975. The circuit is similar to the Serge DUSG insofar as it can be used both to generate a tracking envelope on an input signal and a slewed envelope curve from a trigger pulse; in addition, the circuit contains an attack detector which will send a pulse when the input envelope exceeds a threshold. The module has two followers built with slightly different component values - the lower half has a slightly longer slew response than the upper half.
 
 <img src = "./img/shelfisizer2020_6.png" width="20%" title="Nic75" alt="Nic75">
 
