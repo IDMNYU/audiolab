@@ -2696,53 +2696,46 @@ The **Shelfisequencer** is a three-row trigger/gate sequencer panel, modeled aft
 The **Quant** modules are a pair of two-channel CV quantizers similar in basic function to the Serge Quantizer module on the Red Control panel, insofar as they take incoming control signals that use the 1V/octave standard and quantize them to musical scales. Unlike Tcherepnin's analog circuit, however, the Quant module is *digital*, and is closer in design to other digital modules such as Craig Lee's PIC microcontroller-based [8-channel Quantizer](https://www.clsound.com/quantizer.html).
 
 The Quant modules support 32 different scales with quarter tone (24 note / octave) resolution:
-```
-  // chromatic scales
-  0: raw chromatic 12-TET
-  1: raw quarter-tone 24-TET
 
-  // western diatonic scales and modes
-  2: major scale / ionian
-  3: (natural) minor scale / aeolian
-  4: harmonic minor scale
-  5: melodic (ascending) / jazz minor scale
-
-  // pentatonic scales
-  6: major pentatonic / gong
-  7: minor pentatonic / yu
-  8: japanese yo scale / "blues major"
-  9: japanese in scale
-  10: indonesian slendro-djawar scale
-
-  // messaien's modes of limited transposition
-  11: first mode / whole-tone scale (TTTTTT)
-  12: second mode / octatonic diminished scale (STSTSTST)
-  13: third mode (TSSTSSTSS)
-  14: fourth mode (SSm3SSm3S)
-  15: fifth mode (SM3SSM3S)
-  16: sixth mode (TTSSTTSS)
-  17: seventh mode (SSSTSSSSTS)
-
-  // heptatonic scales
-  18: istrian heptatonic (STSTS4th)
-
-  // fixed pattern scales (sim. to analog quantizers)
-  19: minor third scale
-  20: major 3rd scale
-  21: "augmented" scale
-
-  // maqam scales
-  22: maqam bayati (jins bayati + jins nahawand)
-  23: maqam hijaz (jins hijaz + jins rast)
-  24: maqam jiharkah (jins jiharkah + jins upper rast)
-  25: maqam husayni 'ushrayan (jins bayati on la + jins bayati on re)
-  26: maqam rast (jins rast + jins upper rast)
-  27: maqam shad 'araban (jins hizaj + jins nakriz)
-  28: maqam huzam (jins sikah + jins hijaz + jins rast)
-  29: maqam nawa athar (jins nikriz + jins hijazkar)
-  30: maqam rahat al-arwar (jins sikah + jins hijaz + jins rast)
-  31: maqam saba (jins saba + jins hijaz + jins 'ajam)
-```
+- Chromatic scales
+    - 0: raw chromatic 12-TET
+    - 1: raw quarter-tone 24-TET
+- Western diatonic scales and modes
+    - 2: major scale / ionian
+    - 3: (natural) minor scale / aeolian
+    - 4: harmonic minor scale
+    - 5: melodic (ascending) / jazz minor scale
+- Pentatonic scales
+    - 6: major pentatonic / gong
+    - 7: minor pentatonic / yu
+    - 8: japanese yo scale / "blues major"
+    - 9: japanese in scale
+    - 10: indonesian slendro-djawar scale
+- Messaien's modes of limited transposition
+    - 11: first mode / whole-tone scale (TTTTTT)
+    - 12: second mode / octatonic diminished scale (STSTSTST)
+    - 13: third mode (TSSTSSTSS)
+    - 14: fourth mode (SSm3SSm3S)
+    - 15: fifth mode (SM3SSM3S)
+    - 16: sixth mode (TTSSTTSS)
+    - 17: seventh mode (SSSTSSSSTS)
+- Heptatonic scales
+    - 18: istrian heptatonic (STSTS4th)
+- Fixed pattern scales (sim. to analog quantizers)
+    - 19: minor third scale
+    - 20: major 3rd scale
+    - 21: "augmented" scale
+- Maqam scales
+    - 22: maqam bayati (jins bayati + jins nahawand)
+    - 23: maqam hijaz (jins hijaz + jins rast)
+    - 24: maqam jiharkah (jins jiharkah + jins upper rast)
+    - 25: maqam husayni 'ushrayan (jins bayati on la + jins bayati on re)
+    - 26: maqam rast (jins rast + jins upper rast)
+    - 27: maqam shad 'araban (jins hizaj + jins nakriz)
+    - 28: maqam huzam (jins sikah + jins hijaz + jins rast)
+    - 29: maqam nawa athar (jins nikriz + jins hijazkar)
+    - 30: maqam rahat al-arwar (jins sikah + jins hijaz + jins rast)
+    - 31: maqam saba (jins saba + jins hijaz + jins 'ajam)
 
 <img src = "./img/shelfisizer2020_1.png" width="40%" title="Quant" alt="Quant">
 
@@ -2802,7 +2795,7 @@ The **Shoosh** module is a simple, two-channel VCA based on a [design by Damien 
 4. Gain knob
 
 *Notes:*
-- The use of LEDs and light-depending resistors to control resistance in analog audio circuits was (and remains) a popular technique for amplitude-based effects such as tremolo effects and compressors, due to their non-linear (and slightly slewed) response that gives the effect a more natural character. The Buchla Lowpass Gate circuit on R*\S panel V uses vactrols in a similar way.
+- The use of LEDs and photocells to control resistance in analog audio circuits was (and remains) a popular technique for amplitude-based effects such as tremolo effects and compressors, due to their non-linear (and slightly slewed) response that gives the effect a more natural character. The Buchla Lowpass Gate circuit on R*\S Panel V uses vactrols in a similar way.
 
 #### Odds
 
