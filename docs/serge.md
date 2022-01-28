@@ -2792,15 +2792,17 @@ The **Envy** module is a digitally generated dual envelope generator, inspired t
 
 #### Shoosh
 
-The **Shoosh** module...
+The **Shoosh** module is a simple, two-channel VCA based on a [design by Damien Clarke](https://damienclarke.me/effects-pedals/shoosh/) that uses a [vactrol](https://en.wikipedia.org/wiki/Resistive_opto-isolator) to create a characteristic response curve. The VCA control voltage illuminates an internal LED which reduces resistance across a photocell in the main signal path.
 
 <img src = "./img/shelfisizer2020_3.png" width="10%" title="Shoosh" alt="Shoosh">
 
-1. CV input to be sampled (DC INPUT)
+1. Output signal (AC OUTPUT)
+2. Input signal (AC INPUT)
+3. CV amplitude amount (scales with *4*) (DC INPUT)
+4. Gain knob
 
 *Notes:*
-- Note 1
-- Note 2
+- The use of LEDs and light-depending resistors to control resistance in analog audio circuits was (and remains) a popular technique for amplitude-based effects such as tremolo effects and compressors, due to their non-linear (and slightly slewed) response that gives the effect a more natural character. The Buchla Lowpass Gate circuit on R*\S panel V uses vactrols in a similar way.
 
 #### Odds
 
