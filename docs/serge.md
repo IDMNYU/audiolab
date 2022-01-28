@@ -2764,15 +2764,31 @@ The Quant modules support 32 different scales with quarter tone (24 note / octav
 
 #### Envy
 
-The **Envy** module...
+The **Envy** module is a digitally generated dual envelope generator, inspired to some degree by the [Buchla 248 MARF](https://modularsynthesis.com/roman/buchla248/248marf.htm). The module uses an AHDSR (Attack / Hold / Decay / Sustain / Release) configuration that supports ARP-style concurrent Gate and Trigger inputs, in which a Trigger pulse will restart the envelope even if the Gate signal is still HIGH. The envelope's overall duration can be fine-tuned, and the curvature of the envelope can be continuously varied from logarithmic to linear to exponential. Finally, the envelope generator has a three-way switch to scale the duration of the envelope by 10 or 100 times, allowing for very long envelopes.
 
 <img src = "./img/shelfisizer2020_2.png" width="30%" title="Envy" alt="Envy">
 
-1. CV input to be sampled (DC INPUT)
+1. Envelope output A (DC OUTPUT)
+2. End output A (Pulse OUTPUT)
+3. Envelope output B (DC OUTPUT)
+4. End output B (Pulse OUTPUT)
+5. Attack time knob and CV (DC INPUT)
+6. Hold time knob and CV (DC INPUT)
+7. Decay time knob and CV (DC INPUT)
+8. Sustain level knob and CV (DC INPUT)
+9. Release time knob and CV (DC INPUT)
+10. Curve knob and CV (counterclockwise is logarithmic, midway is linear, clockwise is exponential) (DC INPUT)
+11. Duration scaling knob and CV (DC INPUT)
+12. Duration mode switch - middle is normal, up is 10x duration, down is 100x duration
+13. Trigger input A (Pulse INPUT)
+14. Gate input A (Pulse INPUT)
+15. Trigger input B (Pulse INPUT)
+16. Gate input B (Pulse INPUT)
 
 *Notes:*
-- Note 1
-- Note 2
+- The end jacks (*2* and *4*) sit HIGH when the envelope is not underway; as a result they can be used to patch-program the module to cycle by connecting them to the trigger inputs (*13* and *15*).
+- The duration mode switch *12* will multiply the duration of the envelope by 10 or 100 times its normal duration - this can be used to create envelopes that last up to 60 minutes in duration.
+- The two channels of the Envy module will have the same envelope characteristics.
 
 #### Shoosh
 
