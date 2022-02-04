@@ -24,7 +24,7 @@ The Audio Lab is **not a social space**. If you're not working with the equipmen
 
 In order to be authorized for Audio Lab access, you will need to watch a training video and take a short quiz:
 
-[Audio Lab Training](https://forms.gle/at61oDq4ye7tUwhNA)
+**[Audio Lab Training](https://forms.gle/at61oDq4ye7tUwhNA)**
 
 *Please observe the following rules while working in the Audio Lab*
 
