@@ -73,21 +73,31 @@ At the very top right, there are a few ports for external devices.  The "EXT. CL
 The [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) is a 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978, which is generally controlled by an [Akai MPK-225](https://www.akaipro.com/mpk225) MIDI controller, but can also be controlled by a Roland [GI-10](https://www.soundonsound.com/reviews/roland-gi-10) Guitar-to-MIDI Interface.
 
 
-
 The user manual can be found [here](https://yo41t1y5gos9jw8f3lptw0xo-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/Prophet-6-Operation-Manual-2.1.pdf).
+
 
 ### The Sequential Prophet 6 is:
 
 - [**Polyphonic / monotimbral**](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments#Monophonic) : the Prophet 6 was designed to be played with an external keyboard controller with up to 6 notes at a time available.  Each note makes the same kind of "sound," or timbre. @@@@However, with a little bit of work, you can re-patch an ARP to leverage the four sound sources independently of one another to create more than one sound at a time.
-- **Voltage-based** : like most modular synthesizers of the day, the ARP uses voltage for both transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators) and [control voltage](https://en.wikipedia.org/wiki/CV/Gate) to modify parameters of the synthesizer. These signals are *both* carried over dual-conductor wiring either internally within the synth or externally via "TS" patch cables. This allows you to treat audio signals as control voltage when using the synthesizer so that, for example, an oscillator can be used to "sweep" the cutoff frequency of a filter. The downside of this is that *you can accidentally patch a control voltage line into the signal path to the speakers*, which can damage both the speakers and your ears.
-- **Subtractive** : the ARP 2600 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers. This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the ARP 2600 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
-- **Multiple source / single destination** : many modules on the ARP can mix (add together) signals from a number of inputs without requiring an additional mixer module, but generally have only one patch point for the module's output. This goes for control voltage as well, so that you can often modulate a parameter of the synthesizer with more than one source at once. This is different from, e.g. a Buchla synthesizer, where separate mixer modules must be used to combine several oscillators through a single filter, or Serge synthesizers, where [banana jacks](https://en.wikipedia.org/wiki/Banana_connector) can be stacked to send a module's output to several places at once.
-- **Monolithic design** : the ARP 2600 was intended to be used as a standalone instrument, in contrast to the (fully-modular) ARP 2500 or competitor systems from Moog, etc. As such, there was no way to order the ARP 2600 modules à la carte, and a number of design choices, such as its built-in speakers, signal that it was intended to be used as an all-in-one synthesizer. The ARP 2600 form factor (32"x18") wasn't designed for rack-mounting, but instead to be a complementary width to the 4-octave full-size keyboard that could be bought along with it.
+- **Voltage-based** : the Prophet 6 uses analog voltage for transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators).  However, the synth's predecessor, the Prophet-5, was the first polyphonic synthesizer with fully programmable memory.  It essentially translated the physical interface to digitally the [control voltages](https://en.wikipedia.org/wiki/CV/Gate) linked to each unique parameter on the synthesizer. As such, the Prophet-6 has 500 preset configurations and 500 additional empty presets that you edit, save and override.
+- **Subtractive** : the Prophet-6 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers. This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the Prophet-6 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
+- **Single source / single destination** : the modules on the Prophet 6 are mainly controlled onboard.  It has two primary oscillators that can be shaped and scaled on board, and the onboard mixer allows you to balance these oscillators, a sub-octave oscillator, and noise to taste.
+- **Modular design** : the Prophet 6 was intended to be used as part of a  a standalone instrument. This allows the Prophet to be both as powerful as the full keyboard unit, yet much more portable.
+
 
 
 ### The Controllers
-<img src = "./img/akaimpk225.jpeg" width="100%" title="Akai MPK 225" alt="Akai MPK 225">
+The Sequential Prophet 6 is controlled using MIDI input.  As such, two types of MIDI controllers are set up to operate the Prophet.  First is the Arturia Keystep, which is also used to control the ARP 2600 and the Korg M1 synthesizers in the audio lab.  This controller is based on a piano keyboard, and has a built in arpeggiator, sequencer, pitch bend slider, and mod wheel.  
+<img src = "./img/arturiakeystep.jpeg" width="100%" title="Arturia Keystep" alt="Arturia Keystep">
+
+The other MIDI controller that is currently operating the Prophet 6 is the Roland GI-10 MIDI-Guitar Interface.  This allows you to control the synthesizers using any electric guitar.  This interface uses a polyphonic 6-string pickup that translates the most prominant frequency being played on each string to a 6 voice MIDI message that is then sent to the Prophet.
+
 <img src = "./img/rolandgi10.jpeg" width="100%" title="Roland GI-10 MIDI-Guitar Interface" alt="Roland GI-10 MIDI-Guitar Interface">
+
+To attach the Roland GK-2A to an electric guitar, first use double sided tape to attach the Roland GK-2A to the body of the guitar.  Then, slide the GK-2A's pickup under the strings adjacent to the pickups already in place so that the individual strings align directly above each of the individual pickups, as can be seen below.  Attach the pickup into place with a piece of scotch tape on either side, and you're ready to go!
+
+<img src = "./img/rolandgk2a.jpeg" width="100%" title="Roland GK-2A MIDI-Guitar Interface" alt="Roland GGK-2A MIDI-Guitar Interface">
+
 
 
 
