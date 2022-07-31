@@ -2913,25 +2913,37 @@ The **Nic75** module is based on an [envelope follower circuit](https://www.nico
 
 ##Additional Equipment
 
+The IDM Audio Lab has some additional equipment to support the analog synthesizers, integrated with the Serge system.
+
 ###Vermona DRM1
 
 <img src = "./img/vermona.jpg" width="100%" title="Vermona DRM1 with patch panel" alt="Vermona DRM1 with patch panel">
+
+The [Vermona DRM1 MkIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) is an analog drum synthesizer developed by Vermona System. A Serge-compatible patch panel sits in the rack above it. 
 
 ###Variable Force Generator
 
 <img src = "./img/vfg_photo.jpg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
 
+The [Variable Force Generator](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with capactive touch pads that generates both trigger and CV voltages.
+
 ###Converter Boxes
 
 <img src = "./img/lowgain.jpg" width="50%" title="Converter Boxes" alt="Converter Boxes">
+
+The Low-Gain Electronics [Format Jumbler Utility Boxes](https://www.low-gain.com/shop/p/utl2) allow you to convert between 1/4" and 3.5mm input signals and banana jacks for the Serge equipment. 
 
 ###CV OCD
 
 <img src = "./img/cvocd_serge_photo.jpg" width="50%" title="CV.OCD MIDI to CV Converter" alt="CV.OCD MIDI to CV Converter">
 
+The [CV.OCD](https://six4pix.net/product/cvocd/), designed by [Sixty Four Pixels](https://six4pix.net/), takes MIDI signals and converts them into scaled control voltages for the Serge equipment.
+
 ###Oscilloscopes
 
 <img src = "./img/oscilloscopes.jpg" width="50%" title="Oscilloscopes" alt="Oscilloscopes">
+
+The IDM Audio Lab has a collection of four oscilloscops (three analog, one digital).
 
 [back to top](#top)
 
