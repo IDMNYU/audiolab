@@ -6,6 +6,7 @@
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
 - [STS Panels](#sts-panels) ( [Red Control](#red-control) )
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
+- [Benjolin](#benjolin)
 - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) / [2020 Panel](#2020-panel) )
 
 ## Serge System Overview
@@ -2099,7 +2100,7 @@ The Dual VCA circuit consists of a pair of signal amplifier circuits with AC inp
 <img src = "./img/sergerc_quantbox.jpg" width="25%" title="Red Control Quantizer breakout box" alt="Red Control Quantizer breakout box">
 
 
-The **Red Control** panel is a ["Shop Panel"](http://www.serge-fans.com/shop.html) designed by Sound Transform Systems (STS), the successor to Tcherepnin's original company in the United States, led by Tcherepnin's former student Rex Probe. Our Red Control was originally built in the late 1990s and contains a number of Tcherepnin's designs not found elsewhere in the IDM Audio Lab, including his 1979 Quantizer module and the 1974 Analog Shift Register. 
+The **Red Control** panel is a ["Shop Panel"](http://www.serge-fans.com/shop.html) designed by Sound Transform Systems (STS), the successor to Tcherepnin's original company in the United States, led by Tcherepnin's former employee (and student) Rex Probe. Our Red Control was originally built in the late 1990s and contains a number of Tcherepnin's designs not found elsewhere in the IDM Audio Lab, including his 1979 Quantizer module and the 1974 Analog Shift Register. 
 
 ### Red Control
 
@@ -2510,6 +2511,59 @@ The CGS **Programmer**, like the Serge TKB, is a 16-stage combination sequencer 
 - The Programmer allows you to preset 4 sequences of knobs to control any CV input on the Serge system - scales and melodies for oscillators, but also filter cutoff frequencies, envelope durations, and anything else that you may want to automate. The module's clock is typically driven by a pulse generator (such as a Dual Slopes), but clock pulses can come from anywhere, such as the gate outputs of the Noise module.
 - By using the pulse outputs for the individual sequence stages (*1*), you can trigger external events on other modules. You can also use these outputs, in combination with the stage select inputs (*3*), to create smaller loops of sequences within the system.
 - Unlike the other programmer modules in our Serge system, this Programmer outputs bidirectional (AC) CV signals, with 0 volts at the mid range of each potentiometer. This allows for a wider range of control voltages that can subtract as well as add from a base value on a module.
+
+[back to top](#top)
+
+## Benjolin
+
+<img src = "./img/benjolin_photo.jpg" width="75%" title="Benjolin" alt="Benjolin">
+
+The **Benjolin** is a DIY synthesizer design published in 2009 by [Rob Hordijk](https://www.youtube.com/watch?v=F5muc9OBXeE&ab_channel=BiyiAmez). The schematics [as published](https://electro-music.com/forum/topic-40834.html) were intended to be used by DIY builders and educators, and is a scaled down version of a previous instrument called the **Blippo Box**. The central premise of the Benjolin is to us a "chaotic" circuit in feedback with a traditional 2 VCO / 1 VCF synthesizer to create unexpected rhythms, melodies, and sounds. As described on this PatchPierre [blog post](http://patchpierre.blogspot.com/2014/11/the-benjolin-explained-by-tuesday-night.html), the instrument's chaotic input comes from a circuit called a **Rungler**, which is an 8-step shift register using the two oscillators as a sample-and-hold (one providing the signal, the other the clock). Because the VCO waveforms are running at a much faster rate than the Rungler is sampling, the result is a chaotic (but potentially rhythmic) control signal that can then be fed back into the controls of the oscillators and filter. This feedback-network approach makes for a novel, West coast-inspired instrument. The Benjolin in the IDM Audio Lab is a double unit (two matched Benjolin circuits) with a mixer and reverb in a Serge format, built by [Grant Wilkinson](https://www.instagram.com/muncky/). The output of the Benjolin is fed to channel 7 on the mixer in the studio.
+
+<img src = "./img/benjolin.png" width="62.5%" title="Benjolin" alt="Benjolin">
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
 
 [back to top](#top)
 
