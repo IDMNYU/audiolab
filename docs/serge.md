@@ -2919,7 +2919,7 @@ The IDM Audio Lab has some additional equipment to support the analog synthesize
 
 <img src = "./img/vermona.jpg" width="100%" title="Vermona DRM1 with patch panel" alt="Vermona DRM1 with patch panel">
 
-The [**Vermona DRM1 MkIII**](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) is an analog drum synthesizer developed by Vermona System. A Serge-compatible patch panel sits in the rack above it. 
+The [**Vermona DRM1 MkIII**](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) is an 8-voice analog drum synthesizer developed by Vermona. A Serge-compatible patch panel sits in the rack above it. 
 
 The DRM1 synthesizer can receive input both via MIDI (using the MOTU MIDI interface) and analog trigger signals from the Serge equipment sent in to the red jacks on the left size of the patch panel. MIDI commands allow the synthesizer to behave in a velocity-sensitive manner; analog triggers will sound each voice of the synthesizer at full volume. In addition, buttons on the left of the DRM1 (next to each row of controls) can be used to trigger each voice in the synthesizer to preview the sound.
 
@@ -2975,7 +2975,9 @@ The [CV.OCD](https://six4pix.net/product/cvocd/), designed by [Sixty Four Pixels
 
 <img src = "./img/oscilloscopes.jpg" width="50%" title="Oscilloscopes" alt="Oscilloscopes">
 
-The IDM Audio Lab has a collection of four oscilloscops (three analog, one digital).
+The IDM Audio Lab has a collection of four oscilloscops (three analog, one digital). The three analog oscilloscopes (two B&K [Model 1470s](https://archive.org/details/1470Manual/mode/1up?view=theater), one [Model 1479B](https://spwindustrial.com/b-k-precision-30-mhz-dual-trace-oscilloscope-1479b/)) can be used to visualize analog signals from the synthesizer equipment as well as do creative work such as oscillographics. The digital oscilloscope (a [Siglent SDS1072CML](https://www.siglent.eu/product/1139175/siglent-sds1072cml-70mhz-dual-channel-oscilloscope)) can be used for more elaborate analysis functions including signal data storage to a USB drive.
+
+**IMPORTANT**: Unlike the rest the equipment in the IDM audio lab, the oscilloscopes **MUST BE SWITCHED ON MANUALLY AND SWITCHED OFF AFTER USE**. The analog oscilloscopes are vintage and use CRT displays; they can burn out (or worse, explode) if left on for long periods of time. Similarly, the digital oscillosope is a high-speed (150mHz) analysis device with electronics that can burn out over time.
 
 [back to top](#top)
 
