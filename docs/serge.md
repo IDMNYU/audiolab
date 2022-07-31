@@ -2518,52 +2518,57 @@ The CGS **Programmer**, like the Serge TKB, is a 16-stage combination sequencer 
 
 <img src = "./img/benjolin_photo.jpg" width="75%" title="Benjolin" alt="Benjolin">
 
-The **Benjolin** is a DIY synthesizer design published in 2009 by [Rob Hordijk](https://www.youtube.com/watch?v=F5muc9OBXeE&ab_channel=BiyiAmez). The schematics [as published](https://electro-music.com/forum/topic-40834.html) were intended to be used by DIY builders and educators, and is a scaled down version of a previous instrument called the **Blippo Box**. The central premise of the Benjolin is to us a "chaotic" circuit in feedback with a traditional 2 VCO / 1 VCF synthesizer to create unexpected rhythms, melodies, and sounds. As described on this PatchPierre [blog post](http://patchpierre.blogspot.com/2014/11/the-benjolin-explained-by-tuesday-night.html), the instrument's chaotic input comes from a circuit called a **Rungler**, which is an 8-step shift register using the two oscillators as a sample-and-hold (one providing the signal, the other the clock). Because the VCO waveforms are running at a much faster rate than the Rungler is sampling, the result is a chaotic (but potentially rhythmic) control signal that can then be fed back into the controls of the oscillators and filter. This feedback-network approach makes for a novel, West coast-inspired instrument. The Benjolin in the IDM Audio Lab is a double unit (two matched Benjolin circuits) with a mixer and reverb in a Serge format, built by [Grant Wilkinson](https://www.instagram.com/muncky/). The output of the Benjolin is fed to channel 7 on the mixer in the studio.
+The **Benjolin** is a DIY synthesizer design published in 2009 by [Rob Hordijk](https://www.youtube.com/watch?v=F5muc9OBXeE&ab_channel=BiyiAmez). The schematics [as published](https://electro-music.com/forum/topic-40834.html) were intended to be used by DIY builders and educators, and is a scaled down version of a previous instrument called the **Blippo Box**. The central premise of the Benjolin is to us a "chaotic" circuit in feedback with a traditional 2 VCO / 1 VCF synthesizer to create unexpected rhythms, melodies, and sounds. As described on this PatchPierre [blog post](http://patchpierre.blogspot.com/2014/11/the-benjolin-explained-by-tuesday-night.html), the instrument's chaotic input comes from a circuit called a **Rungler**, which is an 8-step shift register using the two oscillators as a sample-and-hold (one providing the signal, the other the clock). Because the VCO waveforms are running at a much faster rate than the Rungler is sampling, the result is a chaotic (but potentially rhythmic) control signal that can then be fed back into the controls of the oscillators and filter. This feedback-network approach makes for a novel, West coast-inspired instrument. The Benjolin in the IDM Audio Lab is a double unit (two matched Benjolin circuits) with a mixer and [Accutronics reverb](http://www.accutronicsreverb.com/main/?skin=sub01_05_1.html) in a Serge format, built by [Grant Wilkinson](https://www.instagram.com/muncky/). The output of the Benjolin is fed to channel 7 on the mixer in the studio.
 
 <img src = "./img/benjolin.png" width="62.5%" title="Benjolin" alt="Benjolin">
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
-31.
-32.
-33.
-34.
-35.
-36.
-37.
-38.
-39.
-40.
-41.
-42.
+1. Rungler external clock (active when *14* is set to "Ext") (Pulse INPUT)
+2. External audio input for the filter (AC INPUT)
+3. Output of a comparator with the two oscillators as input, resulting in a variable-width square wave (Pulse OUTPUT)
+4. XOR of the shift register's bits; can be used as a random gate (Pulse OUTPUT)
+5. Shift register bit 1 raw output (Pulse OUTPUT)
+6. Filter direct output (AC OUTPUT)
+7. Osc2 square wave output (AC OUTPUT)
+8. Osc1 square wave output (AC OUTPUT)
+9. Shift register bit 2 raw output (Pulse OUTPUT)
+10. Rungler direct output (Pulse OUTPUT)
+11. Osc2 triangle wave output (AC OUTPUT)
+12. Osc1 triangle wave output (AC OUTPUT)
+13. Clock mode (external/internal) output (Pulse OUTPUT)
+14. Clock mode switch
+15. Loop switch; disables new input into the Rungler shift register, causing it to loop its input
+16. Filter mode switch; when set to "internal", input *2* is disabled and the Benjolin oscillators are input into the filter
+17. Control knob for amount of external audio let into the filter
+18. Q value for the filter
+19. CV input for the filter frequency (scaled by *20*) (DC INPUT)
+20. Scaling knob for *19*
+21. Knob controlling the amount of Rungler output fed to the filter frequency
+22. Knob for the output gain of the filter to the mixer
+23. CV input for Osc2 frequency (scaled by *24*) (DC INPUT)
+24. Scaling knob for *23*
+25. Knob controlling the amount of Rungler output fed to the Osc2 frequency
+26. Knob for the output gain of Osc2 to the mixer
+27. CV input for Osc1 frequency (scaled by *25*) (DC INPUT)
+28. Scaling knob for *27*
+29. Knob controlling the amount of Rungler output fed to the Osc1 frequency
+30. Knob for the output gain of Osc1 to the mixer
+31. "Dry" Benjolin output (AC OUTPUT)
+32. "Wet" output from the Accutronics reverb chip (AC OUTPUT)
+33. External reverb input (AC INPUT)
+34. CV input for reverb amount (scaled by *38*) (DC INPUT)
+35. CV input for reverb feedback amount (summed with *37*) (DC INPUT)
+36. External input switch for reverb (down disables input *33*)
+37. Feedback control knob for reveb (summed with *35*)
+38. CV scaling knob for reverb amount (scales input *34*)
+39. Wet/dry mix knob for reverb (affects 3.5mm output jack on the top of the unit)
+40. Tilt knob - controls amount of left versus right Benjolin circuit sent to the reverb
+41. Overall level knob for left-hand Benjolin circuit
+42. Overall level knob for right-hand Benjolin circuit
+
+*Notes:*
+- The Benjolin has 3.5mm outputs at the top of the box for the direct output of each Benjolin as well as the mixed / reverberated output.
+- The Benjolin PLS 1 / PLS 2 audio outputs (*7*, *8*) are *AC-coupled* (like a conventional synthesizer's square wave oscillator) and so won't "trigger" other Serge modules that require a pulse input. You can feed these into any comparator circuit (e.g. the **Boolean Logic**) to get a pulse signal.
+- The Benjolin's two halves can be patch-programmed to cross-modulate, creating twice the chaos!
 
 [back to top](#top)
 
