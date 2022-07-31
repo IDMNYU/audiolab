@@ -2944,10 +2944,10 @@ The Low-Gain Electronics [**Format Jumbler Utility Boxes**](https://www.low-gain
 The [CV.OCD](https://six4pix.net/product/cvocd/), designed by [Sixty Four Pixels](https://six4pix.net/), takes MIDI signals and converts them into scaled control voltages for the Serge equipment. The CV.OCD outputs 3.5mm (Eurorack) jacks, so you can use the Low-Gain Converter boxes to output banana-jack signals. The CV.OCD is configured to take MIDI from the MOTU MIDI Interface and send the following output voltages:
 
 <ol type="A">
-  <li>Continous signal representing the pitch for a MIDI Note on Channel 1 (1V/Oct standard)</li>
-  <li>Continous signal representing the pitch for a MIDI Note on Channel 2 (1V/Oct standard)</li>
-  <li>Continous signal representing the pitch for a MIDI Note on Channel 3 (1V/Oct standard)</li>
-  <li>Continous signal representing the pitch for a MIDI Note on Channel 4 (1V/Oct standard)</li>
+  <li>Continous signal representing the pitch for a MIDI Note on Channel 1 (1V/Oct standard)<br></li>
+  <li>Continous signal representing the pitch for a MIDI Note on Channel 2 (1V/Oct standard)<br></li>
+  <li>Continous signal representing the pitch for a MIDI Note on Channel 3 (1V/Oct standard)<br></li>
+  <li>Continous signal representing the pitch for a MIDI Note on Channel 4 (1V/Oct standard)<br></li>
 </ol>
 
 1. Trigger (pulse) signal representing a MIDI Note on Channel 1
