@@ -8,7 +8,7 @@
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
 - [Benjolin](#benjolin)
 - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) / [2020 Panel](#2020-panel) )
-- [Additional equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Variable Force Generator](#variable-force-generator) / [Converter Boxes](#converter-boxes) / [CV.OCD](#cv-ocd) / [Oscilloscopes](#oscilloscopes) )
+- [Additional Equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Variable Force Generator](#variable-force-generator) / [Converter Boxes](#converter-boxes) / [CV.OCD](#cv-ocd) / [Oscilloscopes](#oscilloscopes) )
 
 ## Serge System Overview
 
@@ -2911,7 +2911,7 @@ The **Nic75** module is based on an [envelope follower circuit](https://www.nico
 
 [back to top](#top)
 
-##Additional equipment
+##Additional Equipment
 
 ###Vermona DRM1
 
