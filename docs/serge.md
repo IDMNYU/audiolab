@@ -2911,35 +2911,56 @@ The **Nic75** module is based on an [envelope follower circuit](https://www.nico
 
 [back to top](#top)
 
-##Additional Equipment
+## Additional Equipment
 
-The IDM Audio Lab has some additional equipment to support the analog synthesizers, integrated with the Serge system.
+The IDM Audio Lab has some additional equipment to support the analog synthesizers, integrated alongside the Serge system.
 
-###Vermona DRM1
+### Vermona DRM1
 
 <img src = "./img/vermona.jpg" width="100%" title="Vermona DRM1 with patch panel" alt="Vermona DRM1 with patch panel">
 
-The [Vermona DRM1 MkIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) is an analog drum synthesizer developed by Vermona System. A Serge-compatible patch panel sits in the rack above it. 
+The [**Vermona DRM1 MkIII**](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) is an analog drum synthesizer developed by Vermona System. A Serge-compatible patch panel sits in the rack above it. 
 
-###Variable Force Generator
+The DRM1 synthesizer can receive input both via MIDI (using the MOTU MIDI interface) and analog trigger signals from the Serge equipment sent in to the red jacks on the left size of the patch panel. MIDI commands allow the synthesizer to behave in a velocity-sensitive manner; analog triggers will sound each voice of the synthesizer at full volume. In addition, buttons on the left of the DRM1 (next to each row of controls) can be used to trigger each voice in the synthesizer to preview the sound.
+
+The synthesizer outputs audio directly to the audio mixer (on channels 11 and 12) *and* via the black jacks on the right side of the patch panel. Toggle switches on the panel allow you to route each drum's output individually or mixed together to the two stereo jacks on the far right of the panel.
+
+### Variable Force Generator
 
 <img src = "./img/vfg_photo.jpg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
 
-The [Variable Force Generator](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with capactive touch pads that generates both trigger and CV voltages.
+The [**Variable Force Generator**](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with capactive touch pads that generates both trigger and CV voltages. Each "key" on the VFG will sent a 5V gate signal when pressed, as well as a DC control voltage set by the knob above the key.
 
-###Converter Boxes
+### Converter Boxes
 
 <img src = "./img/lowgain.jpg" width="50%" title="Converter Boxes" alt="Converter Boxes">
 
-The Low-Gain Electronics [Format Jumbler Utility Boxes](https://www.low-gain.com/shop/p/utl2) allow you to convert between 1/4" and 3.5mm input signals and banana jacks for the Serge equipment. 
+The Low-Gain Electronics [**Format Jumbler Utility Boxes**](https://www.low-gain.com/shop/p/utl2) allow you to convert between 1/4" and 3.5mm input signals and banana jacks for the Serge equipment. These boxes are bi-directional passive converters and will not boost or attenuate the signal in any direction. As a result, signals sent into the boxes may be too loud or too quiet for the destination equipment.
 
-###CV OCD
+### CV OCD
 
 <img src = "./img/cvocd_serge_photo.jpg" width="50%" title="CV.OCD MIDI to CV Converter" alt="CV.OCD MIDI to CV Converter">
 
-The [CV.OCD](https://six4pix.net/product/cvocd/), designed by [Sixty Four Pixels](https://six4pix.net/), takes MIDI signals and converts them into scaled control voltages for the Serge equipment.
+The [CV.OCD](https://six4pix.net/product/cvocd/), designed by [Sixty Four Pixels](https://six4pix.net/), takes MIDI signals and converts them into scaled control voltages for the Serge equipment. The CV.OCD outputs 3.5mm (Eurorack) jacks, so you can use the Low-Gain Converter boxes to output banana-jack signals. The CV.OCD is configured to take MIDI from the MOTU MIDI Interface and send the following output voltages:
 
-###Oscilloscopes
+A. Continous signal representing the pitch for a MIDI Note on Channel 1 (1V/Oct standard)
+B. Continous signal representing the pitch for a MIDI Note on Channel 2 (1V/Oct standard)
+C. Continous signal representing the pitch for a MIDI Note on Channel 3 (1V/Oct standard)
+D. Continous signal representing the pitch for a MIDI Note on Channel 4 (1V/Oct standard)
+1. Trigger (pulse) signal representing a MIDI Note on Channel 1
+2. Trigger (pulse) signal representing a MIDI Note on Channel 2
+3. Trigger (pulse) signal representing a MIDI Note on Channel 3
+4. Trigger (pulse) signal representing a MIDI Note on Channel 4
+5. Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 1
+6. Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 2
+7. Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 3
+8. Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 4
+9. Quarter-Note Pulse signal from MIDI real-time messages
+10. Eigth-Note Pulse signal from MIDI real-time messages
+11. Sixteenth-Note Pulse signal from MIDI real-time messages
+12. Thirty-Second-Note Pulse signal from MIDI real-time messages
+
+### Oscilloscopes
 
 <img src = "./img/oscilloscopes.jpg" width="50%" title="Oscilloscopes" alt="Oscilloscopes">
 
