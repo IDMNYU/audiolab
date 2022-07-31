@@ -8,7 +8,7 @@
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
 - [Benjolin](#benjolin)
 - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) / [2020 Panel](#2020-panel) )
-- [Additional equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Variable Force Generator](#variable-force-generator) / [Low-Gain Converters](#low-gain-converters) / [CV.OCD](#cv-ocd) / [Oscilloscopes](#oscilloscopes) )
+- [Additional equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Variable Force Generator](#variable-force-generator) / [Converter Boxes](#converter-boxes) / [CV.OCD](#cv-ocd) / [Oscilloscopes](#oscilloscopes) )
 
 ## Serge System Overview
 
@@ -2908,6 +2908,30 @@ The **Nic75** module is based on an [envelope follower circuit](https://www.nico
 
 *Notes:*
 - The Nic75 circuit is designed to reduce the "ripple" effect in simple envelope followers where the attack phase of an input instrument causes an unstable follower output without extensive lowpass filtering, which creates the opposite problem where short attacks disappear and aren't tracked properly. By separating the Attack and Release characteristics of the follower within the circuit, this can be mitigated.
+
+[back to top](#top)
+
+##Additional equipment
+
+###Vermona DRM1
+
+<img src = "./img/vermona.jpg" width="100%" title="Vermona DRM1 with patch panel" alt="Vermona DRM1 with patch panel">
+
+###Variable Force Generator
+
+<img src = "./img/vfg_photo.jpg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
+
+###Converter Boxes
+
+<img src = "./img/lowgain.jpg" width="50%" title="Converter Boxes" alt="Converter Boxes">
+
+###CV OCD
+
+<img src = "./img/cvocd_serge_photo.jpg" width="50%" title="CV.OCD MIDI to CV Converter" alt="CV.OCD MIDI to CV Converter">
+
+###Oscilloscopes
+
+<img src = "./img/oscilloscopes.jpg" width="50%" title="Oscilloscopes" alt="Oscilloscopes">
 
 [back to top](#top)
 
