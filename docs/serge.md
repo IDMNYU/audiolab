@@ -8,7 +8,7 @@
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
 - [Benjolin](#benjolin)
 - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) / [2020 Panel](#2020-panel) )
-- [Additional equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Variable Force Generator](#variable-force-generator) / [Low-Gain Converters](#low-gain-converters) / [CV.OCD](#cv-ocd) )
+- [Additional equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Variable Force Generator](#variable-force-generator) / [Low-Gain Converters](#low-gain-converters) / [CV.OCD](#cv-ocd) / [Oscilloscopes](#oscilloscopes) )
 
 ## Serge System Overview
 
