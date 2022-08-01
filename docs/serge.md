@@ -2929,7 +2929,7 @@ The synthesizer outputs audio directly to the audio mixer (on channels 11 and 12
 
 <img src = "./img/vfg_photo.jpg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
 
-The [**Variable Force Generator**](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with capactive touch pads that generates both trigger and CV voltages. Each "key" on the VFG will sent a 5V gate signal when pressed, as well as a DC control voltage set by the knob above the key.
+The [**Variable Force Generator**](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with capactive touch pads that generates both gate and CV voltages. Each "key" on the VFG will sent a 5V gate signal when pressed, as well as a DC control voltage (0-5V) based on the amount of force applied to the key; the maximum for each key is set by the knob above it.
 
 ### Converter Boxes
 
