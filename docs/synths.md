@@ -55,11 +55,11 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 
 ### Power
 
-The power for *nearly everything* related to the synthesizers in the Audio Lab is controlled by three switches; two found on the Furman power conditioners on the black racks to the right of the main Serge system, and a third switch on the main power strip on the center table:
+The power for *nearly everything* related to the synthesizers in the Audio Lab is controlled by four switches; two found on the Furman power conditioners on the black racks to the right of the main Serge system, and the switches on the two power strips on the center table:
 
 <img src = "./img/analogpower.jpg" width="100%" title="Furman Power Conditioner" alt="Furman Power Conditioner">
 
-Green lights on the conditioners and power strip will confirm that you've got power.
+Green lights on the conditioners and power strips will confirm that you've got power.
 **Please use these power switches (and nothing else) to turn on and off the synthesizer equipment in the Audio Lab.**
 
 ### Mixer
