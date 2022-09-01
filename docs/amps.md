@@ -8,7 +8,7 @@ The Peavey power switch is on the front panel; the Fender power switch is on the
 
 Both amps have pedalboards, curated to use for baseline instrument effects research with the [IDM Pedals](https://idmnyu.github.io/IDMPEDALS/) project. The pedalboars are both DC powered from [MXR DC Brick](https://www.jimdunlop.com/mxr-dc-brick-power-supply/) power supplies.
 
-The bass pedalboard consists of (from right to left):
+The **bass** pedalboard consists of (from right to left):
 
 <img src = "./img/basspedals.jpg" width="100%" title="Bass Pedals" alt="Bass Pedals">
 
@@ -18,7 +18,7 @@ The bass pedalboard consists of (from right to left):
 - an [MXR Phase 90](https://www.jimdunlop.com/mxr-phase-90/). This is a classic, single dial phaser effect, and one of MXR's first pedals, first produced in 1974.
 - an [MXR Carbon Copy Mini](https://www.jimdunlop.com/mxr-carbon-copy-mini-analog-delay/). This is a small format analog (bucket-brigade device) delay pedal. Like all solid-state analog delays, it has a characteristic degredation of the signal as the echo regenerates.
 
-The guitar pedalboard consists of (from right to left):
+The **guitar** pedalboard consists of (from right to left):
 
 <img src = "./img/guitarpedals.jpg" width="100%" title="Bass Pedals" alt="Bass Pedals">
 
