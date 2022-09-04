@@ -2,7 +2,7 @@
 # The Center Table: Non-Modular Synthesizers
 
 
-<img src = "./img/centertable.jpg" width="100%" title="Audio Lab's Center Table" alt="Audio Lab's Center Table">
+<img src = "./img/centertable.jpg" width="100%" title="Audio Lab Center Table" alt="Audio Lab Center Table">
 
 - Non-Modular Synthesizers
   - [Glossary](./glossary.md)
