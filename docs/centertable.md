@@ -68,7 +68,7 @@ At the very top right, there are a few ports for external devices.  The "EXT. CL
 
 ## Sequential Prophet 6
 
-<img src = "./img/prophet6.jpeg" width="100%" title="Sequential Prophet 6" alt="Sequential Prophet 6">
+<img src = "./img/prophet6.jpg" width="100%" title="Sequential Prophet 6" alt="Sequential Prophet 6">
 
 The [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) is a 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978, which is generally controlled by an [Akai MPK-225](https://www.akaipro.com/mpk225) MIDI controller, but can also be controlled by a Roland [GI-10](https://www.soundonsound.com/reviews/roland-gi-10) Guitar-to-MIDI Interface.
 
