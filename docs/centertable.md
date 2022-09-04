@@ -33,7 +33,7 @@ A scan of the original user manual can be found [here](http://dl.lojinx.com/anal
 - **Standalone and wearable design** : the SH-101 was intended to be used either as a wearable keytar instrument, where one could attach a short neck and strap to carry the synth around stage with a built in battery.  We do not have the external gear in the lab, but feel free to lie on your side next to the synth and pretend!
 
 ### The Modules
-<img src = "./img/sh101.jpeg" width="100%" title="Roland SH-101" alt="Roland SH-101">
+<img src = "./img/sh101-synthblock.jpg" width="100%" title="SH-101 Block Diagram © Roland Corp." alt="SH-101 Block Diagram © Roland Corp.">
 
 Here we will walk through the modules from left to right, top to bottom.
 
