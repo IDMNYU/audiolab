@@ -38,7 +38,7 @@ Much like the ARP-2600, most of the SH-101 controls on the top panel are slider-
 
 <img src = "./img/prophet6.jpg" width="100%" title="Sequential Prophet 6" alt="Sequential Prophet 6">
 
-The [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) is a 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978, which is generally controlled by an [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI controller, but can also be controlled by a Roland [GI-10](https://www.soundonsound.com/reviews/roland-gi-10) Guitar-to-MIDI Interface.
+The [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) is a 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978. The Prophet 6 in the IDM audio lab is the "desktop" (keyboard-less) model; you can control it via MIDI with either an [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI controller or a Roland [GI-10](https://www.soundonsound.com/reviews/roland-gi-10) Guitar-to-MIDI Interface.
 
 
 The user manual can be found [here](https://yo41t1y5gos9jw8f3lptw0xo-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/Prophet-6-Operation-Manual-2.1.pdf).
@@ -56,7 +56,7 @@ The user manual can be found [here](https://yo41t1y5gos9jw8f3lptw0xo-wpengine.ne
 
 <img src = "./img/deckardsdream.jpg" width="100%" title="Black Corporation's Deckard's Dream" alt="Black Corporation's Deckard's Dream">
 
-The [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) is an 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977, which is controlled by an [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller.
+The [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) is an 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977. The Deckard's Dream is a rack unit, and can be controlled via MIDI by an [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller.
 
 
 The user manual can be found [here](https://images.thomann.de/pics/atg/atgdata/document/manual/454865_deckards_dream_manual_130.pdf).
