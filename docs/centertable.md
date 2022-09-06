@@ -60,8 +60,11 @@ One of the signature features of the Prophet 5, which also exists on the Prophet
 
 The [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) is an 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977. The Deckard's Dream is a rack unit, and can be controlled via MIDI by an [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller.
 
+The Yamaha CS line of synthesizers, developed in the late 1970s and associated with artists such as Vangelis, were incredibly feature rich, and contained a number of innovations, particularly in the ways in which they could be [performed by a keyboard player](https://en.wikipedia.org/wiki/Keyboard_expression). Unlike most analog synthesizers of the day, the CS synthesizers supported both velocity sensitivity and per-key (or polyphonic) *aftertouch*, allowing a performer to play, e.g. a three note chord and then, by pressing hard on just the middle note, adjust the filter resonance on only that voice. The CS series also came with a ribbon controller across the top of the keyboard that could be mapped to filter sweeps and pitch bends. The CS-80, the synthesizer at the top of the line, could play 8 voices at once, had a number of presets (including 4 "mini-me" style user presets stored on small sliders inside a panel), and weighed 180lbs (82kg). In additiona to the synthesizer itself, the CS-80 also had an effects section with a ring modulator.
 
-The user manual can be found [here](https://images.thomann.de/pics/atg/atgdata/document/manual/454865_deckards_dream_manual_130.pdf).
+While not an exact replica, the Deckard's Dream is a faithful modern reimaging of the CS-80, built from a DIY Kit. The rack interface supports MIDI/USB input, and (unlike the original) has presets, digital settings to control parameter ranges and tuning, and other modern features unavailable at the time.
+
+The user manual for the Deckard's Dream can be found [here](https://images.thomann.de/pics/atg/atgdata/document/manual/454865_deckards_dream_manual_130.pdf).
 
 ### Deckard's Dream Architecture
 
