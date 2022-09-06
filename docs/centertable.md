@@ -6,15 +6,15 @@
 
 - Non-Modular Synthesizers
   - [Glossary](./glossary.md)
-  - [Roland SH-101](#Roland-SH-101)
-  - [Sequential Prophet 6](#Sequential-Prophet-6)
-  - [Deckard's Dream MK2](#Deckard's-Dream-MK2)
+  - [Roland SH-101](#SH-101)
+  - [Sequential Prophet 6](#Prophet-6)
+  - [Black Corporation Deckard's Dream MK2](#Deckard's-Dream)
 
 The center table in the IDM audio lab is home to a group of non-modular synthesizers.  These are [analog synthesizers](https://en.wikipedia.org/wiki/Analog_synthesizer) in various styles that follow the tradition of ["East Coast"](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesis design, where the format for control of pitches are based on Western scales, often assuming a piano-style control layout.  These synthesizers focus on subtractive synthesis techniques where simple, richer waveforms like sawtooth and square waves are carved away using filters to create custom sounds.  
 
 **If you are confused where to start, each synthesizer on the central island has a picture printed with preset parameters of a setting that would produce a tone for you to explore from!**
 
-## Roland SH-101
+## SH-101
 
 <img src = "./img/sh101.jpeg" width="100%" title="Roland SH-101" alt="Roland SH-101">
 
@@ -26,7 +26,7 @@ The SH-101, like many Roland products, was designed for a market different from 
 
 A scan of the original user manual can be found [here](http://dl.lojinx.com/analoghell/RolandSH101-OwnersManual.pdf).
 
-### SH 101 Architecture
+### SH-101 Architecture
 
 <img src = "./img/sh101-synthblock.jpg" width="100%" title="SH-101 Block Diagram © Roland Corp." alt="SH-101 Block Diagram © Roland Corp.">
 
@@ -34,7 +34,7 @@ Architecturally, the SH-101 is a fairly straightforward analog monosynth, with a
 
 Much like the ARP-2600, most of the SH-101 controls on the top panel are slider-based, and allow you to control the amount (or gain) of various parameters. In the *Source Mixer* section, for example, the sliders allow you to mix in the amount of the different waveforms; in the *VCF* section, you are using the sliders to determine how the frequency of the filter responds to the envelope, the LFO ("MOD") or the key being pressed.
 
-## Sequential Prophet 6
+## Prophet 6
 
 <img src = "./img/prophet6.jpg" width="100%" title="Sequential Prophet 6" alt="Sequential Prophet 6">
 
@@ -52,7 +52,7 @@ The user manual can be found [here](https://yo41t1y5gos9jw8f3lptw0xo-wpengine.ne
 
 
 
-## Deckard's Dream MK2
+## Deckard's Dream
 
 <img src = "./img/deckardsdream.jpg" width="100%" title="Black Corporation's Deckard's Dream" alt="Black Corporation's Deckard's Dream">
 
