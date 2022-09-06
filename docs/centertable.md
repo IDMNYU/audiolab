@@ -44,28 +44,11 @@ The [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) i
 The user manual can be found [here](https://yo41t1y5gos9jw8f3lptw0xo-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/Prophet-6-Operation-Manual-2.1.pdf).
 
 
-### The Sequential Prophet 6 is:
-
-- [**Polyphonic / monotimbral**](https://en.wikipedia.org/wiki/Polyphony_and_monophony_in_instruments#Monophonic) : the Prophet 6 was designed to be played with an external keyboard controller with up to 6 notes at a time available.  Each note makes the same kind of "sound," or timbre. @@@@However, with a little bit of work, you can re-patch an ARP to leverage the four sound sources independently of one another to create more than one sound at a time.
-- **Voltage-based** : the Prophet 6 uses analog voltage for transmitting [analog audio signals](https://en.wikipedia.org/wiki/Analog_signal) (e.g. the sound coming from the oscillators).  However, the synth's predecessor, the Prophet-5, was the first polyphonic synthesizer with fully programmable memory.  It essentially translated the physical interface to digitally the [control voltages](https://en.wikipedia.org/wiki/CV/Gate) linked to each unique parameter on the synthesizer. As such, the Prophet-6 has 500 preset configurations and 500 additional empty presets that you edit, save and override.
-- **Subtractive** : the Prophet-6 makes sound based on the principles of [*subtractive synthesis*](https://en.wikipedia.org/wiki/Subtractive_synthesis) - the oscillators create waveforms rich in harmonic content which are then shaped by the filters and amplifiers. This is in contrast to [*additive* synthesizers](https://en.wikipedia.org/wiki/Additive_synthesis) where simple waveforms (e.g. sine waves) are combined to make complex tones. Subtractive synthesis, along with a default (keyboard-oriented) wiring pathway, is part of what makes the Prophet-6 a classic [*"East Coast"*](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesizer.
-- **Single source / single destination** : the modules on the Prophet 6 are mainly controlled onboard.  It has two primary oscillators that can be shaped and scaled on board, and the onboard mixer allows you to balance these oscillators, a sub-octave oscillator, and noise to taste.
-- **Modular design** : the Prophet 6 was intended to be used as part of a  a standalone instrument. This allows the Prophet to be both as powerful as the full keyboard unit, yet much more portable.
 
 
+### Prophet 6 Architecture
 
-### The Controllers
-The Sequential Prophet 6 is controlled using MIDI input.  As such, two types of MIDI controllers are set up to operate the Prophet.  First is the Arturia Keystep, which is also used to control the ARP 2600 and the Korg M1 synthesizers in the audio lab.  This controller is based on a piano keyboard, and has a built in arpeggiator, sequencer, pitch bend slider, and mod wheel.  
-<img src = "./img/arturiakeystep.jpg" width="100%" title="Arturia Keystep" alt="Arturia Keystep">
-
-The other MIDI controller that is currently operating the Prophet 6 is the Roland GI-10 MIDI-Guitar Interface.  This allows you to control the synthesizers using any electric guitar.  This interface uses a polyphonic 6-string pickup that translates the most prominant frequency being played on each string to a 6 voice MIDI message that is then sent to the Prophet.
-
-<img src = "./img/rolandgi10.jpeg" width="100%" title="Roland GI-10 MIDI-Guitar Interface" alt="Roland GI-10 MIDI-Guitar Interface">
-
-To attach the Roland GK-2A to an electric guitar, first use double sided tape to attach the Roland GK-2A to the body of the guitar.  Then, slide the GK-2A's pickup under the strings adjacent to the pickups already in place so that the individual strings align directly above each of the individual pickups, as can be seen below.  Attach the pickup into place with a piece of scotch tape on either side, and you're ready to go!
-
-<img src = "./img/rolandgk2a.jpeg" width="100%" title="Roland GK-2A MIDI-Guitar Interface" alt="Roland GGK-2A MIDI-Guitar Interface">
-
+<img src = "./img/prophet-synthblock.jpg" width="100%" title="Prophet 5 Block Diagram © Sequential" alt="Prophet 5 Block Diagram © Sequential">
 
 
 
@@ -79,10 +62,9 @@ The [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/)
 
 The user manual can be found [here](https://images.thomann.de/pics/atg/atgdata/document/manual/454865_deckards_dream_manual_130.pdf).
 
-### The Deckard's Dream MK2 is:
+### Deckard's Dream Architecture
 
-### The Controller
-<img src = "./img/roliseaboardrise.jpeg" width="100%" title="Roli Seabord Rise 25" alt="Roli Seabord Rise 25">
+<img src = "./img/cs80-synthblock.jpg" width="100%" title="CS-80 Block Diagram © Yamaha" alt="CS-80 Block Diagram © Yamaha">
 
 
 
