@@ -70,6 +70,6 @@ The user manual for the Deckard's Dream can be found [here](https://images.thoma
 
 <img src = "./img/cs80-synthblock.jpg" width="100%" title="CS-80 Block Diagram © Yamaha" alt="CS-80 Block Diagram © Yamaha">
 
+The Deckard's Dream, like the CS-80 that inspired it, has 8 fully polyphonic voice boards. Each voice consists of two layers, each with their own oscillator, filter section (with filter envelope), and VCA (with amplitude envelope). Unlike most synthesizers of the day, there is extensive max/min mapping of both the velocity and aftertouch parameters of the keyboard to ranges of the filters and amplifiers. This allows you to design a sound where the keyboard note velocity increases the filter brightness but decreases the note volume. The Deckard's Dream (and the CS-80) also has a novel architectural adjustment to the synthesizer design where a sine wave can be introduce *independently* of the filter section before the VCA. This allows for you to high-pass one of the harmonic rich waveforms and then reintroduce a fundamental; this is one of the classic "sounds" of the CS synthesizers that was unique to the line.
 
-
-
+[return to main page](./index.md)
