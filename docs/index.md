@@ -6,7 +6,7 @@ Last updated Fall, 2022.
 
 **[Policies, Rules, Reservations, and Contacts](./rules.md)**
 
-**[The Analog Synthesizers](./synths.md)**
+**[The Synthesizers](./synths.md)**
 
 **[The Multi-channel Audio System](./multichannel.md)**
 
