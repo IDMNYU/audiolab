@@ -1,5 +1,5 @@
 <a name="top"></a>
-# The IDM Analog Synthesizers
+# The IDM Synthesizers
 
 - [Overview](#overview)
 - [Studio Basics](#studio-basics)
@@ -13,7 +13,7 @@
 
 <img src = "./img/analog_overview.jpg" width="100%" title="Analog Studio Panorama" alt="Analog Studio Panorama">
 
-IDM has a collection of analog synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio of modular synthesizers on one side of the room, with a second set of non-modular synthesizers on the center table. The lab has two main types of modular synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts, as well as a small collection of non-modular synthesizers. The various systems are described in these pages. Our collection includes:
+IDM has a collection of (mostly analog) synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio of modular synthesizers on one side of the room, with a second set of non-modular synthesizers on the center table. The lab has two main types of analog modular synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts, as well as a small collection of non-modular synthesizers, including a rack of industry standard digital synthesizer equipment from the 1980s. The various systems are described in these pages. Our collection includes:
 
 - a large (6-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980, as well as two modules based on signal processors designed by [Jürgen Haible](http://jhaible.com/).
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the 'Homebuilt' panels from the [73-75](http://www.73-75.com/) project by [The Human Comparator](http://www.thehumancomparator.net/) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed by Tcherepnin at CalArts.
@@ -30,9 +30,14 @@ IDM has a collection of analog synthesizers for the users of the Audio Lab to wo
 - a [Moog Werkstatt-01](https://www.moogmusic.com/products/werkstatt-01-cv-expander) monophonic analog synthesizer.
 - a Bastl Instruments [Rumburack 2.0](https://bastl-instruments.com/eurorack/full-systems/rumburack-2-0) hybrid analog-digital modular synthesizer.
 - an [Etherwave Plus](https://www.moogmusic.com/products/etherwave-plus-theremin), a modern kit [Theremin](https://en.wikipedia.org/wiki/Theremin) developed by [Moog Music](https://www.moogmusic.com/).
-- a [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978, controlled by an [Akai MPK-225](https://www.akaipro.com/mpk225) MIDI controller.
-- a [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977, controlled by a Roli [Seaboard Rise 25](https://roli.com/products/seaboard)/[MPE](https://www.midi.org/articles-old/midi-polyphonic-expression-mpe) keyboard controller.
+- a [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978.
+- a [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977. 
 - a Roland [SH-101](https://en.wikipedia.org/wiki/Roland_SH-101) monophonic analog synthesizer from 1982.
+- a Yamaha [TX81Z](https://www.vintagesynth.com/yamaha/tx81z.php) FM Synthesizer from 1987.
+- A Roland D-550 "linear Arithmetic" synthesizer, the rackmount version of the Roland [D-50](https://www.roland.com/us/products/rc_d-50/), from 1987.
+- A Korg M1R sample-based synthesizer, the rackmount version of the Korg [M1](https://www.vintagesynth.com/korg/m1.php), from 1988.
+- A Roland R-8M drum machine, a rackmount version of the Roland [R-8](https://www.vintagesynth.com/roland/r8.php) from 1989.
+- A Yamaha [TX816](https://www.vintagesynth.com/yamaha/tx816.php) with 8 TF1 (rackmount [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7)) modules, from 1984.
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Tascam Model 16](https://tascam.com/us/product/model_16/top) Mixer with USB output and SD card recording, for the Serge and ARP synthesizers.
@@ -40,9 +45,12 @@ In addition, some auxiliary equipment exists in the Audio Lab to help people wor
 - An [Akai GX-4000DB](https://www.hifiengine.com/manual_library/akai/gx-4000db.shtml) reel-to-reel tape recorder.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) [MIDI](https://en.wikipedia.org/wiki/MIDI) interface.
+- An iConnectivity [mioXL](https://www.iconnectivity.com/mioxl) MIDI interface.
 - A vintage [IVL Pitchrider 4000](https://www.ivlaudio.com/home) pitch-to-MIDI converter.
 - a Roland [GI-10](https://www.soundonsound.com/reviews/roland-gi-10) Guitar-to-MIDI Interface.
-- An [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller, attached below the TTSH.
+- Several [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controllers.
+- An [Akai MPK-225](https://www.akaipro.com/mpk225) MIDI keyboard controller.
+- A Roli [Seaboard Rise 25](https://roli.com/products/seaboard)/[MPE](https://www.midi.org/articles-old/midi-polyphonic-expression-mpe) keyboard controller.
 - Two [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converters, as well as a [Gate Boost](https://www.tindie.com/products/hotchk155/gate-boost-module-for-cvocd-and-others/) module.
 - Multiple [Low-Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
