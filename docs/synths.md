@@ -36,7 +36,7 @@ IDM has a collection of (mostly analog) synthesizers for the users of the Audio 
 - a Yamaha [TX81Z](https://www.vintagesynth.com/yamaha/tx81z.php) FM Synthesizer from 1987.
 - A Roland D-550 "linear Arithmetic" synthesizer, the rackmount version of the Roland [D-50](https://www.roland.com/us/products/rc_d-50/), from 1987.
 - A Korg M1R sample-based synthesizer, the rackmount version of the Korg [M1](https://www.vintagesynth.com/korg/m1.php), from 1988.
-- A Roland R-8M drum machine, a rackmount version of the Roland [R-8](https://www.vintagesynth.com/roland/r8.php) from 1989.
+- A Roland R-8M drum synthesizer, a rackmount version of the Roland [R-8](https://www.vintagesynth.com/roland/r8.php) from 1989.
 - A Yamaha [TX816](https://www.vintagesynth.com/yamaha/tx816.php) with 8 TF1 (rackmount [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7)) modules, from 1984.
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
