@@ -4,10 +4,13 @@
 
 <img src = "./img/centertable.jpg" width="100%" title="Audio Lab Center Table" alt="Audio Lab Center Table">
 
+- [Overview](#Overview)
 - [Glossary](./glossary.md)
 - [Roland SH-101](#SH-101)
 - [Sequential Prophet 6](#Prophet-6)
 - [Black Corporation Deckard's Dream MK2](#Deckards-Dream)
+
+## Overview
 
 The center table in the IDM audio lab is home to a group of non-modular synthesizers.  These are [analog synthesizers](https://en.wikipedia.org/wiki/Analog_synthesizer) in various styles that follow the tradition of ["East Coast"](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesis design, where the format for control of pitches are based on Western scales, often assuming a piano-style control layout.  These synthesizers focus on subtractive synthesis techniques where simple, richer waveforms like sawtooth and square waves are carved away using filters to create custom sounds.  
 
