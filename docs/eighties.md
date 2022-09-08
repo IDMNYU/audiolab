@@ -1,15 +1,20 @@
 <a name="top"></a>
-# The Center Table: Non-Modular Synthesizers
+# The Eighties: Digital Synthesizers
 
 
-<img src = "./img/centertable.jpg" width="100%" title="Audio Lab Center Table" alt="Audio Lab Center Table">
+<img src = "./img/the80s.jpg" width="100%" title="The Eighties" alt="The Eighties">
 
-- Non-Modular Synthesizers
+- Digital Synthesizers
   - [Glossary](./glossary.md)
-  - [Roland SH-101](#SH-101)
-  - [Sequential Prophet 6](#Prophet-6)
-  - [Black Corporation Deckard's Dream MK2](#Deckards-Dream)
-
+  - [Yamaha TX81Z](#TX81Z)
+  - [Roland D-550](#D-550)
+  - [Korg M1R](#M1R)
+  - [Korg M1R](#M1R)
+  - [Yamaha TX816](#TX816)
+  - [Roland R8M](#R8M)
+  - [MIDI Interface](#MIDI-Interface)
+  - [Line Mixer](#Line-Mixer)
+ 
 The center table in the IDM audio lab is home to a group of non-modular synthesizers.  These are [analog synthesizers](https://en.wikipedia.org/wiki/Analog_synthesizer) in various styles that follow the tradition of ["East Coast"](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesis design, where the format for control of pitches are based on Western scales, often assuming a piano-style control layout.  These synthesizers focus on subtractive synthesis techniques where simple, richer waveforms like sawtooth and square waves are carved away using filters to create custom sounds.  
 
 **If you are confused where to start, each synthesizer on the central island has a picture printed with preset parameters of a setting that would produce a tone for you to explore from!**
