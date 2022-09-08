@@ -4,15 +4,17 @@
 
 <img src = "./img/the80s.jpg" width="100%" title="The Eighties" alt="The Eighties">
 
-- Digital Synthesizers
-  - [Glossary](./glossary.md)
-  - [Yamaha TX81Z](#TX81Z)
-  - [Roland D-550](#D-550)
-  - [Korg M1R](#M1R)
-  - [Yamaha TX816](#TX816)
-  - [Roland R8M](#R8M)
-  - [MIDI Interface](#MIDI-Interface)
-  - [Line Mixer](#Line-Mixer)
+- [Overview](#Overview)
+- [Glossary](./glossary.md)
+- [Yamaha TX81Z](#TX81Z)
+- [Roland D-550](#D-550)
+- [Korg M1R](#M1R)
+- [Yamaha TX816](#TX816)
+- [Roland R8M](#R8M)
+- [MIDI Interface](#MIDI-Interface)
+- [Line Mixer](#Line-Mixer)
+
+## Overview
  
 The IDM audio lab contains a mobile rack (*"The 80s"*) of rackmount digital synthesis equipment, such as would be found in a typical professional recording studio circa 1989. The rack sits next to the mixer at the end of the center table; there is a MIDI keyboard (an [Akai MPK-225](https://www.akaipro.com/mpk225) wired into the MIDI interface at the top of the rack; there is also a USB cable for interfacing with a laptop. The audio from the line mixer at the top of the rack goes into channels 9 and 10 of the center table's mixer (the UFX-1204).
 
