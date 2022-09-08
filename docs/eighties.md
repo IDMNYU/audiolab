@@ -20,6 +20,20 @@ The IDM audio lab contains a mobile rack (*"The 80s"*) of rackmount digital synt
 
 In its current configuration, the rack contains two FM synthesizers from Yamaha (a TX816 and a TX81Z), a hybrid digital wavetable / subtractive synthesizer (the Roland D-550), and two classic ["ROMplers"](https://en.wikipedia.org/wiki/Rompler): a Korg M1R workstation and a Roland R-8M percussion module. All of the 80s synthesizers' audio comes into a line mixer (a Samson SM10) at the top of the rack, and are controlled by a high end rackmound MIDI interface (an iConnectivity mioXL).
 
+## TX81Z
+
+## D-550
+
+## M1R
+
+## TX816
+
+## R8M
+
+## MIDI Interface
+
+## Line Mixer
+
 
 
 ## SH-101
