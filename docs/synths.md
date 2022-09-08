@@ -7,7 +7,7 @@
   - [Glossary](./glossary.md)
   - [Serge system](./serge.md)
   - [ARP 2600 system](./arp.md)
-  - [The Center Table](./centertable.md)
+  - [Center Table](./centertable.md)
   - [The 80s](./eighties.md)
 
 # Overview
