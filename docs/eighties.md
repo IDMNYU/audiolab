@@ -22,6 +22,19 @@ In its current configuration, the rack contains two FM synthesizers from Yamaha 
 
 ## TX81Z
 
+The [Yamaha TX81Z](https://en.wikipedia.org/wiki/Yamaha_TX81Z), released in 1987, is one of the later Yamaha synthesizers to use [FM Synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis) as it's core sound generation technique (for an earlier FM synthesizer from Yamaha, see the [TX816](#TX816), below).
+
+The TX817 has 8-voice polyphony and has two significant improvements over its [ancestor](https://en.wikipedia.org/wiki/Yamaha_DX7): 
+
+• The TX81Z is [multi-timbral](https://en.wikipedia.org/wiki/Timbrality), allowing for up to eight individual programs to be used simultaneously in "performance mode", with each program being assigned to a "voice" that responds to a different MIDI channel, and
+• The core FM synthesizer inside the TX817 can use eight different waveforms, not just sine waves as in the DX series.
+
+On the downside, the TX81Z has a smaller set of operators (4 instead of 6) in its synthesis architecture, with a correspondly lower number - 8 instead of 32 - of available "algorithms" (configurations of operator oscillators).
+
+The original manual for the TX81Z can be found [here](http://thesnowfields.com/manuals/Yamaha%20TX81Z.pdf).
+
+If you are interested in programming the TX81Z, there is a Max-for-live patch editor ("TX81Z_Luke.amxd") in the audiolab GitHub repository under [the 'testpatches' folder](https://github.com/IDMNYU/audiolab/tree/master/testpatches). There are also software editors for the TX81Z such as [Patch Base](https://coffeeshopped.com/patch-base/editor/yamaha/tx81z) and [Midi Quest](https://squest.com/Products/MidiQuest12/Instruments/YamahaTX81Z/) that can be used to program the synthesizer.
+
 ## D-550
 
 ## M1R
