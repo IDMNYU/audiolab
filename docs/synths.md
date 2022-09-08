@@ -34,7 +34,7 @@ IDM has a collection of (mostly analog) synthesizers for the users of the Audio 
 - a [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977. 
 - a Roland [SH-101](https://en.wikipedia.org/wiki/Roland_SH-101) monophonic analog synthesizer from 1982.
 - a Yamaha [TX81Z](https://www.vintagesynth.com/yamaha/tx81z.php) FM Synthesizer from 1987.
-- A Roland D-550 "linear Arithmetic" synthesizer, the rackmount version of the Roland [D-50](https://www.roland.com/us/products/rc_d-50/), from 1987.
+- A Roland D-550 "Linear Arithmetic" synthesizer, the rackmount version of the Roland [D-50](https://www.roland.com/us/products/rc_d-50/), from 1987.
 - A Korg M1R sample-based synthesizer, the rackmount version of the Korg [M1](https://www.vintagesynth.com/korg/m1.php), from 1988.
 - A Roland R-8M drum synthesizer, a rackmount version of the Roland [R-8](https://www.vintagesynth.com/roland/r8.php) from 1989.
 - A Yamaha [TX816](https://www.vintagesynth.com/yamaha/tx816.php) with 8 TF1 (rackmount [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7)) modules, from 1984.
@@ -124,6 +124,7 @@ The channels of the mixer are wired to:
 | 4            | the output of the SH-101 synthesizer. |
 | 5/6          | the left and right outputs of the Prophet-6 synthesizer. |
 | 7/8          | a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
+| 9/10         | the stereo output of the 80s rack. |
 
 > \* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). In the USA, they are incorrectly referred to as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
 
