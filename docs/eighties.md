@@ -22,12 +22,12 @@ In its current configuration, the rack contains two FM synthesizers from Yamaha 
 
 ## TX81Z
 
-The [Yamaha TX81Z](https://en.wikipedia.org/wiki/Yamaha_TX81Z), released in 1987, is one of the later Yamaha synthesizers to use [FM Synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis) as it's core sound generation technique (for an earlier FM synthesizer from Yamaha, see the [TX816](#TX816), below).
+The [Yamaha TX81Z](https://en.wikipedia.org/wiki/Yamaha_TX81Z), released in 1987, is one of the later Yamaha synthesizers to use [FM Synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis) as its core sound generation technique (for an earlier FM synthesizer from Yamaha, see the [TX816](#TX816), below). Released as a rackmount (keyboard-less) unit that could be driven by MIDI, it was a quarter of the price of the contemporary DX-series FM synthesizer with a keyboard (the [DX7ii](https://www.vintagesynth.com/yamaha/dx7ii.php)). As such, it was incredibly popular with producers in low- to mid-budget recording studios, and its sounds (especially its bass sounds) are ubiquitous in electronic dance music from the era.
 
-The TX817 has 8-voice polyphony and has two significant improvements over its [ancestor](https://en.wikipedia.org/wiki/Yamaha_DX7): 
+The TX81Z has 8-voice polyphony and has two significant improvements over the [original](https://en.wikipedia.org/wiki/Yamaha_DX7) in the Yamaha FM line: 
 
-• The TX81Z is [multi-timbral](https://en.wikipedia.org/wiki/Timbrality), allowing for up to eight individual programs to be used simultaneously in "performance mode", with each program being assigned to a "voice" that responds to a different MIDI channel, and
-• The core FM synthesizer inside the TX817 can use eight different waveforms, not just sine waves as in the DX series.
+• The TX81Z is [multi-timbral](https://en.wikipedia.org/wiki/Timbrality), allowing for up to eight individual programs to be used simultaneously in "performance mode", with each program being assigned to a voice that responds to a different MIDI channel, and
+• The core FM synthesizer inside the TX81Z can use eight different waveforms, not just sine waves as in the original DX series.
 
 On the downside, the TX81Z has a smaller set of operators (4 instead of 6) in its synthesis architecture, with a correspondly lower number - 8 instead of 32 - of available "algorithms" (configurations of operator oscillators).
 
@@ -36,6 +36,16 @@ The original manual for the TX81Z can be found [here](http://thesnowfields.com/m
 If you are interested in programming the TX81Z, there is a Max-for-live patch editor ("TX81Z_Luke.amxd") in the audiolab GitHub repository under [the 'testpatches' folder](https://github.com/IDMNYU/audiolab/tree/master/testpatches). There are also software editors for the TX81Z such as [Patch Base](https://coffeeshopped.com/patch-base/editor/yamaha/tx81z) and [Midi Quest](https://squest.com/Products/MidiQuest12/Instruments/YamahaTX81Z/) that can be used to program the synthesizer.
 
 ## D-550
+
+Released in 1987, the [Roland D-50](https://en.wikipedia.org/wiki/Roland_D-50) synthesizer was Roland's first real foray into digital synthesis, coming a full four years after the Yamaha DX7 completely disrupted the (analog) synthesizer market. The D-50, and its rack version the D-550 (such as we have here), used a synthesis technique that combined both the cutting edge world of sampling and the classic architecture of subtractive synthesis. Banking on the notion that the *attack* of a note is the most crucial for simulating real live instruments, the D-50/D-550 used 128kB (yes, *kilobytes*) of read-only sample memory to generate the attacks of its sounds - 100 very short waveforms recorded from violins, pianos, guitars, and other instruments. These short waveforms were then quickly blended into standard mathematical synthesizer waveforms (sine waves, sawtooth waves, etc.) that would continue the sound using a digital version of a classic subtractive (oscillator->filter->amplifier) architecture. 
+
+This "something old, something new" synthesis technology - dubbed [Linear Arithmetic Synthesis](https://en.wikipedia.org/wiki/Linear_arithmetic_synthesis), was quite complex - each sound program could be made up of up to four sound sources across two layers, with extensive control over filter and amplifier envelopes, a ring modulator, LFOs, and other ways to parametrically modify the sound. In addition, the D-50/D-550 was the first digital synthesizer to contain onboard effects; leveraging Roland's extensive edge over its synthesizer competitors in the signal processing department, the D-50/D-550 allowed reverb and chorus to be added to any sound.
+
+The D-50 was an incredibly influential synthesizer, paving the way for the later "ROMplers"; its sounds are quite [iconic](https://www.youtube.com/watch?v=3sXdYXYI_ZI&ab_channel=DoctorMix), and several of its presets became part of the "Synth Pad" and "Synth Effects" banks in the [General MIDI](https://en.wikipedia.org/wiki/General_MIDI#Synth_Pad) specification.
+
+The original manual for the D-550 can be found [here](https://www.polynominal.com/site/studio/gear/synth/roland_d550/roland-d550-manual.pdf).
+
+If you are interested in programming the D-550, [Patch Base](https://coffeeshopped.com/patch-base/editor/roland/d-550) and [Midi Quest](https://squest.com/Products/MidiQuest12/Instruments/RolandD-550/) both have software that can be used to program the synthesizer.
 
 ## M1R
 
