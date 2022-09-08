@@ -9,15 +9,16 @@
   - [Yamaha TX81Z](#TX81Z)
   - [Roland D-550](#D-550)
   - [Korg M1R](#M1R)
-  - [Korg M1R](#M1R)
   - [Yamaha TX816](#TX816)
   - [Roland R8M](#R8M)
   - [MIDI Interface](#MIDI-Interface)
   - [Line Mixer](#Line-Mixer)
  
-The center table in the IDM audio lab is home to a group of non-modular synthesizers.  These are [analog synthesizers](https://en.wikipedia.org/wiki/Analog_synthesizer) in various styles that follow the tradition of ["East Coast"](https://reverb.com/news/the-basics-of-east-coast-and-west-coast-synthesis) synthesis design, where the format for control of pitches are based on Western scales, often assuming a piano-style control layout.  These synthesizers focus on subtractive synthesis techniques where simple, richer waveforms like sawtooth and square waves are carved away using filters to create custom sounds.  
+The IDM audio lab contains a mobile rack (*"The 80s"*) of rackmount digital synthesis equipment, such as would be found in a typical professional recording studio circa 1989. The rack sits next to the mixer at the end of the center table; there is a MIDI keyboard (an [Akai MPK-225](https://www.akaipro.com/mpk225) wired into the MIDI interface at the top of the rack; there is also a USB cable for interfacing with a laptop. The audio from the line mixer at the top of the rack goes into channels 9 and 10 of the center table's mixer (the UFX-1204).
 
-**If you are confused where to start, each synthesizer on the central island has a picture printed with preset parameters of a setting that would produce a tone for you to explore from!**
+In its current configuration, the rack contains two FM synthesizers from Yamaha (a TX816 and a TX81Z), a hybrid digital wavetable / subtractive synthesizer (the Roland D-550), and two classic ["ROMplers"](https://en.wikipedia.org/wiki/Rompler): a Korg M1R workstation and a Roland R-8M percussion module. All of the 80s synthesizers' audio comes into a line mixer (a Samson SM10) at the top of the rack, and are controlled by a high end rackmound MIDI interface (an iConnectivity mioXL).
+
+
 
 ## SH-101
 
