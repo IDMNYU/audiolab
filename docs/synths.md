@@ -7,7 +7,8 @@
   - [Glossary](./glossary.md)
   - [Serge system](./serge.md)
   - [ARP 2600 system](./arp.md)
-  - [Non-modular synths](./centertable.md)
+  - [The Center Table](./centertable.md)
+  - [The 80s](./eighties.md)
 
 # Overview
 
