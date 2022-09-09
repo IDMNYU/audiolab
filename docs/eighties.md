@@ -23,7 +23,7 @@ In its current configuration, the rack contains two FM synthesizers from Yamaha 
 
 ## TX81Z
 
-The [Yamaha TX81Z](https://en.wikipedia.org/wiki/Yamaha_TX81Z), released in 1987, is one of the later Yamaha synthesizers to use [FM Synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis) as its core sound generation technique (for an earlier FM synthesizer from Yamaha, see the [TX816](#TX816), below). Released as a rackmount (keyboard-less) unit that could be driven by MIDI, it was a quarter of the price of the contemporary DX-series FM synthesizer with a keyboard (the [DX7ii](https://www.vintagesynth.com/yamaha/dx7ii.php)). As such, it was incredibly popular with producers in low- to mid-budget recording studios, and its sounds (especially its bass sounds) are ubiquitous in electronic dance music from the era.
+The **[Yamaha TX81Z](https://en.wikipedia.org/wiki/Yamaha_TX81Z)**, released in 1987, is one of the later Yamaha synthesizers to use [FM Synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis) as its core sound generation technique (for an earlier FM synthesizer from Yamaha, see the [TX816](#TX816), below). Released as a rackmount (keyboard-less) unit that could be driven by MIDI, it was a quarter of the price of the contemporary DX-series FM synthesizer with a keyboard (the [DX7ii](https://www.vintagesynth.com/yamaha/dx7ii.php)). As such, it was incredibly popular with producers in low- to mid-budget recording studios, and its sounds (especially its bass sounds) are ubiquitous in electronic dance music from the era.
 
 The TX81Z has 8-voice polyphony and has two significant improvements over the [original](https://en.wikipedia.org/wiki/Yamaha_DX7) in the Yamaha FM line: 
 
@@ -38,7 +38,7 @@ If you are interested in programming the TX81Z, there is a Max-for-live patch ed
 
 ## D-550
 
-Released in 1987, the [Roland D-50](https://en.wikipedia.org/wiki/Roland_D-50) synthesizer was Roland's first real foray into digital synthesis, coming a full four years after the Yamaha DX7 completely disrupted the (analog) synthesizer market. The D-50, and its rack version the D-550 (such as we have here), used a synthesis technique that combined both the cutting edge world of sampling and the classic architecture of subtractive synthesis. Banking on the notion that the *attack* of a note is the most crucial for simulating real live instruments, the D-50/D-550 used 128kB (yes, *kilobytes*) of read-only sample memory to generate the attacks of its sounds - 100 very short waveforms recorded from violins, pianos, guitars, and other instruments. These short waveforms were then quickly blended into standard mathematical synthesizer waveforms (sine waves, sawtooth waves, etc.) that would continue the sound using a digital version of a classic subtractive (oscillator->filter->amplifier) architecture. 
+Released in 1987, the **[Roland D-50](https://en.wikipedia.org/wiki/Roland_D-50)** synthesizer was Roland's first real foray into digital synthesis, coming a full four years after the Yamaha DX7 completely disrupted the (analog) synthesizer market. The D-50, and its rack version the **D-550** (such as we have here), used a synthesis technique that combined both the cutting edge world of sampling and the classic architecture of subtractive synthesis. Banking on the notion that the *attack* of a note is the most crucial for simulating real live instruments, the D-50/D-550 used 128kB (yes, *kilobytes*) of read-only sample memory to generate the attacks of its sounds - 100 very short waveforms recorded from violins, pianos, guitars, and other instruments. These short waveforms were then quickly blended into standard mathematical synthesizer waveforms (sine waves, sawtooth waves, etc.) that would continue the sound using a digital version of a classic subtractive (oscillator->filter->amplifier) architecture. 
 
 This "something old, something new" synthesis technology - dubbed [Linear Arithmetic Synthesis](https://en.wikipedia.org/wiki/Linear_arithmetic_synthesis), was quite complex - each sound program could be made up of up to four sound sources across two layers, with extensive control over filter and amplifier envelopes, a ring modulator, LFOs, and other ways to parametrically modify the sound. In addition, the D-50/D-550 was the first digital synthesizer to contain onboard effects; leveraging Roland's extensive edge over its synthesizer competitors in the signal processing department, the D-50/D-550 allowed reverb and chorus to be added to any sound.
 
@@ -50,7 +50,7 @@ If you are interested in programming the D-550, [Patch Base](https://coffeeshopp
 
 ## M1R
 
-The [Korg M1](https://en.wikipedia.org/wiki/Korg_M1) (and its rackmount version, the M1R) was released in 1988. The M1 is the bestselling synthesizer in the history of music technology (eclipsing the DX7); over a quarter million were manufactured, and core technology - using curated sets of pre-recorded samples as the primary waveforms - is still common today.
+The **[Korg M1](https://en.wikipedia.org/wiki/Korg_M1)** (and its rackmount version, the **M1R**) was released in 1988. The M1 is the bestselling synthesizer in the history of music technology (eclipsing the DX7); over a quarter million were manufactured, and core technology - using curated sets of pre-recorded samples as the primary waveforms - is still common today.
 
 The M1/M1R is what became known as a [ROMpler](https://en.wikipedia.org/wiki/Rompler) - a [sampler](https://en.wikipedia.org/wiki/Sampler_(musical_instrument)) where the samples are curated and fixed by the manufacturer, and expanded via third-party cards; end user direct sampling ins't possible on the M1. The original M1/M1R shipped with 4MB of samples in ROM, with additional sounds available through expansion cards (a later version of the unit - the M1REX - had 8MB). The M1/M1R featured full samples (as opposed to the "attacks" in the D-50) and had a wide variety of curated sounds from instruments across the globe. As a result, the M1 is often credited for (or accused of being complicit in) the explosion of "world music"-influenced dance music in the late 1980s / early 1990s.
 
@@ -63,6 +63,8 @@ If you are interested in programming the M1R, [Midi Quest](https://squest.com/Pr
 ## TX816
 
 <img src = "./img/tx816.jpg" width="100%" title="Yamaha TX816" alt="Yamaha TX816">
+
+The [Yamaha TX816](https://www.vintagesynth.com/yamaha/tx816.php) is a rackmount chassis designed by Yamaha to host up to eight different expansion boards  called TF1 modules, each of which is equivalent to a fully-fledged [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7) without the keyboard. The TX816
 
 ## R8M
 
