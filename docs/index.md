@@ -1,6 +1,6 @@
 # NYU Integrated Design & Media
 ## Audio Lab studio manual
-How to use the IDM audio lab (2MTC, rooms 823/824)
+How to use the IDM audio lab (2MTC, room 824)
 
 Last updated Fall, 2022.
 
@@ -13,7 +13,3 @@ Last updated Fall, 2022.
 **[The Piano](./piano.md)**
 
 **[The Amps](./amps.md)**
-
-**[The Control Room](./controlroom.md)**
-
-
