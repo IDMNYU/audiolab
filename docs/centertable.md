@@ -6,9 +6,10 @@
 
 - [Overview](#Overview)
 - [Glossary](./glossary.md)
-- [Roland SH-101](#SH-101)
-- [Sequential Prophet 6](#Prophet-6)
-- [Black Corporation Deckard's Dream MK2](#Deckards-Dream)
+- The Synths
+  - [Roland SH-101](#SH-101)
+  - [Sequential Prophet 6](#Prophet-6)
+  - [Black Corporation Deckard's Dream MK2](#Deckards-Dream)
 
 ## Overview
 
