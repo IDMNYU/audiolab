@@ -32,7 +32,7 @@ In order to be authorized for Audio Lab access, you will need to watch a trainin
 - If you don't know how to use a particular setup and the directions aren't clear, **don't wing it**. Ask the audio GRA or one of the IDM faculty or staff for help.
 - **No eating or drinking** in the room. The rest of the 8th floor of 2MTC is an open space where you can eat and drink all you want.
 - **Don't ever leave the door propped open**, even if you run out for a minute. The 8th floor of 2MTC is used by the entire NYU community, and the Audio Lab has a lot of expensive equipment in it for use by the IDM program.
-- **Masks must be worn at all times**, as per [NYU COVID-19 protocols](https://www.nyu.edu/life/safety-health-wellness/coronavirus-information/safety-and-health/protective-equipment.html#:~:text=Continuing%20through%20the%202021%2D22,%2Dsponsored%20activities%20off%2Dcampus.).
+- **Masks must be worn whenever there is more than one person in the lab**, as per [NYU COVID-19 protocols](https://www.nyu.edu/life/safety-health-wellness/coronavirus-information/safety-and-health/protective-equipment.html#:~:text=Continuing%20through%20the%202021%2D22,%2Dsponsored%20activities%20off%2Dcampus.).
 
 *Please observe the following rules when you're leaving the Audio Lab*
 
