@@ -49,7 +49,7 @@ In order to be authorized for Audio Lab access, you will need to watch a trainin
 
 ## Room Reservation Procedure
 
-Users of the Audio Lab need to be either enrolled in a course that uses the studio, be part of the synth club, or be working on a capstone / thesis project related to sound, with access approved by Luke and Eric. Students in courses and the Synth Club will have a shared weekly block of time to work in the lab - their instructor will tell them how to schedule their hours. Other users must be invited to the IDM [Skedda Calendar](https://idmnyu.skedda.com/booking) to reserve time. The main studio (824) and control room (823) are independently reservable in half-hour blocks during 2MTC operating hours.
+Users of the Audio Lab need to be either enrolled in a course that uses the studio, be part of the synth club, or be working on a capstone / thesis project related to sound, with access approved by Luke and Eric. Students in courses and the Synth Club will have a shared weekly block of time to work in the lab - their instructor will tell them how to schedule their hours. Other users must be invited to the IDM [Skedda Calendar](https://idmnyu.skedda.com/booking) to reserve time. The main studio (824) is independently reservable in half-hour blocks during 2MTC operating hours.
 
 Students in IDM audio courses can reserve up to **4 hours per week** in the Audio Lab.
 
