@@ -64,7 +64,7 @@ If you are interested in programming the M1R, [Midi Quest](https://squest.com/Pr
 
 <img src = "./img/tx816.jpg" width="100%" title="Yamaha TX816" alt="Yamaha TX816">
 
-The [Yamaha TX816](https://www.vintagesynth.com/yamaha/tx816.php) is a rackmount chassis designed by Yamaha to host up to eight different expansion boards  called TF1 modules, each of which is equivalent to a fully-fledged [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7) without the keyboard. The TX816
+The [**Yamaha TX816**](https://www.vintagesynth.com/yamaha/tx816.php) is a rackmount chassis designed by Yamaha to host up to eight different expansion boards  called TF1 modules, each of which is equivalent to a fully-fledged [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7) without the keyboard. The TX816
 
 ## R8M
 
