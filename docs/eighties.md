@@ -4,16 +4,16 @@
 
 <img src = "./img/the80s.jpg" width="100%" title="The Eighties" alt="The Eighties">
 
-- [Overview](#Overview)
+- [Overview](#overview)
 - [Glossary](./glossary.md)
 - The Synths
-  - [Yamaha TX81Z](#TX81Z)
-  - [Roland D-550](#D-550)
-  - [Korg M1R](#M1R)
-  - [Yamaha TX816](#TX816)
-  - [Roland R-8M](#R-8M)
-- [MIDI Interface](#MIDI-Interface)
-- [Line Mixer](#Line-Mixer)
+  - [Yamaha TX81Z](#tx81z)
+  - [Roland D-550](#d-550)
+  - [Korg M1R](#m1r)
+  - [Yamaha TX816](#tx816)
+  - [Roland R-8M](#r-8m)
+- [MIDI Interface](#midi-interface)
+- [Line Mixer](#line-mixer)
 
 ## Overview
  
