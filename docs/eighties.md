@@ -6,11 +6,12 @@
 
 - [Overview](#Overview)
 - [Glossary](./glossary.md)
-- [Yamaha TX81Z](#TX81Z)
-- [Roland D-550](#D-550)
-- [Korg M1R](#M1R)
-- [Yamaha TX816](#TX816)
-- [Roland R8M](#R8M)
+- The Synths
+  - [Yamaha TX81Z](#TX81Z)
+  - [Roland D-550](#D-550)
+  - [Korg M1R](#M1R)
+  - [Yamaha TX816](#TX816)
+  - [Roland R8M](#R8M)
 - [MIDI Interface](#MIDI-Interface)
 - [Line Mixer](#Line-Mixer)
 
@@ -26,8 +27,8 @@ The [Yamaha TX81Z](https://en.wikipedia.org/wiki/Yamaha_TX81Z), released in 1987
 
 The TX81Z has 8-voice polyphony and has two significant improvements over the [original](https://en.wikipedia.org/wiki/Yamaha_DX7) in the Yamaha FM line: 
 
-• The TX81Z is [multi-timbral](https://en.wikipedia.org/wiki/Timbrality), allowing for up to eight individual programs to be used simultaneously in "performance mode", with each program being assigned to a voice that responds to a different MIDI channel, and
-• The core FM synthesizer inside the TX81Z can use eight different waveforms, not just sine waves as in the original DX series.
+- The TX81Z is [multi-timbral](https://en.wikipedia.org/wiki/Timbrality), allowing for up to eight individual programs to be used simultaneously in "performance mode", with each program being assigned to a voice that responds to a different MIDI channel, and
+- The core FM synthesizer inside the TX81Z can use eight different waveforms, not just sine waves as in the original DX series.
 
 On the downside, the TX81Z has a smaller set of operators (4 instead of 6) in its synthesis architecture, with a correspondly lower number - 8 instead of 32 - of available "algorithms" (configurations of operator oscillators).
 
