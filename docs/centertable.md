@@ -4,12 +4,12 @@
 
 <img src = "./img/centertable.jpg" width="100%" title="Audio Lab Center Table" alt="Audio Lab Center Table">
 
-- [Overview](#Overview)
+- [Overview](#overview)
 - [Glossary](./glossary.md)
 - The Synths
-  - [Roland SH-101](#SH-101)
-  - [Sequential Prophet 6](#Prophet-6)
-  - [Black Corporation Deckard's Dream MK2](#Deckards-Dream)
+  - [Roland SH-101](#sh-101)
+  - [Sequential Prophet 6](#prophet-6)
+  - [Black Corporation Deckard's Dream MK2](#deckards-dream)
 
 ## Overview
 
