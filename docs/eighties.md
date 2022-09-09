@@ -66,6 +66,8 @@ If you are interested in programming the M1R, [Midi Quest](https://squest.com/Pr
 
 The [**Yamaha TX816**](https://www.vintagesynth.com/yamaha/tx816.php) is a rackmount chassis designed by Yamaha to host up to eight different expansion boards  called TF1 modules, each of which is equivalent to a fully-fledged [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7) without the keyboard. The TX816 proved highly popular in electronic / dance music-focused recording studios, as it allowed a producer to work with eight simultaneous channels of different FM instruments using a sequencer; many tracks associated with (and performed live with) a DX7 were in fact created with a TX816.
 
+Each of the eight FM modules in the TX816 have their own audio output; in the IDM audio lab these outputs are all routed into the [ART Line Mixer](https://artproaudio.com/product/mx821s-eight-channel-mic-line-mixer-with-stereo-outputs/) in the 80s rack in between the M1R and the R-8M.
+
 The owner's manual for the TX816 can be found [here](http://www.synthmanuals.com/manuals/yamaha/tx816/owners_manual/tx816e1.pdf), though this largely talks about the unit as housing for a system of modules rather than the synthesizer itself. Each module in the TX816 is the equivalent of a stand-alone DX7 listening to a different MIDI channel, so the original [DX7 manual](http://www.synthfool.com/docs/Yamaha/DX_Series/Yamaha%20DX7%20Operating%20Manual.pdf) may be a more relevant read.
 
 If you are interested in programming the TX816, [Patch Base](https://coffeeshopped.com/patch-base/editor/yamaha/dx7) has DX7 programmer software that can be used to program each module of the TX816 individually, as does [Midi Quest](https://squest.com/Products/MidiQuest12/Instruments/YamahaDX7/).
@@ -78,6 +80,10 @@ The orginal R-8M manual can be found [here](http://cdn.roland.com/assets/media/p
 
 ## MIDI Interface
 
+An iConnectivity [mioXL](https://www.iconnectivity.com/mioxl) MIDI interface routes MIDI commands to all of the equipment in the 80s rack. The Akai MIDI controller on the table is patched into a front panel input, as is a USB cable for connecting a laptop. The presets on the MIDI interface, which can be recalled by scrolling and clicking with the main selector wheel, allow you to route MIDI to all the devices, or just individual items in the rack.
+
 ## Line Mixer
+
+A [Samson SM10](http://www.samsontech.com/samson/products/mixers/sm-series/sm10/) Line Mixer at the top of the 80s rack collects all the audio signals from the equipment and puts out a final stereo feed, wired to channels 9 and 10 on the UFX1204 Mixer on the center table. **Please do not adjust the levels on the line mixer.**
 
 [return to main page](./index.md)
