@@ -50,7 +50,7 @@ If you are interested in programming the D-550, [Patch Base](https://coffeeshopp
 
 ## M1R
 
-The [**Korg M1**](https://en.wikipedia.org/wiki/Korg_M1) (and its rackmount version, the **M1R**) was released in 1988. The M1 is the bestselling synthesizer in the history of music technology (eclipsing the DX7); over a quarter million were manufactured, and core technology - using curated sets of pre-recorded samples as the primary waveforms - is still common today.
+The [**Korg M1**](https://en.wikipedia.org/wiki/Korg_M1) (and its rackmount version, the **M1R**) was released in 1988. The M1 is the best selling synthesizer in the history of music technology (eclipsing the DX7); over a quarter million were manufactured, and core technology - using curated sets of pre-recorded samples as the primary waveforms - is still common today.
 
 The M1/M1R is the archetype for a type of digital instrument that became known as a [ROMpler](https://en.wikipedia.org/wiki/Rompler) - a [sampler](https://en.wikipedia.org/wiki/Sampler_(musical_instrument)) where the samples are curated and fixed by the manufacturer, and expanded via third-party cards; sampling of new sounds by the end user isn't possible on the M1. The original M1/M1R shipped with 4MB of samples in ROM, with additional sounds available through expansion cards (a later version of the unit - the M1REX - had 8MB). The M1/M1R featured full samples (as opposed to the "attacks" in the D-50) and had a wide variety of curated sounds from instruments across the globe. As a result, the M1 is often credited for (or accused of being complicit in) the explosion of "world music"-influenced dance music in the late 1980s / early 1990s.
 
