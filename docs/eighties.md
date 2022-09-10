@@ -54,7 +54,7 @@ If you are interested in programming the D-550, [Patch Base](https://coffeeshopp
 
 ## M1R
 
-<img src = "./img/m1r.png" width="100%" title="Korg M1R" alt="Korg M1R">
+<img src = "./img/m1r.jpg" width="100%" title="Korg M1R" alt="Korg M1R">
 
 The [**Korg M1**](https://en.wikipedia.org/wiki/Korg_M1) (and its rackmount version, the **M1R**) was released in 1988. The M1 is the best selling synthesizer in the history of music technology (eclipsing the DX7); over a quarter million were manufactured, and core technology - using curated sets of pre-recorded samples as the primary waveforms - is still common today.
 
