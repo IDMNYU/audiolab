@@ -230,7 +230,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 11. Scaling knob for *9*
 12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Pulse OUTPUT)
 13. Knob for Stepped rate amount (sums with *9* x *11*)
-14. CV output for thee Stepped module (DC OUTPUT)
+14. CV output for the Stepped module (DC OUTPUT)
 15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Pulse OUTPUT)
 16. Regular Coupler output - +5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
 17. White noise source (AC OUTPUT)
@@ -485,7 +485,7 @@ The **Boolean Logic** module is another design by Ken Stone, intended to expand 
 
 #### Divide-by-N Comparator
 
-The **Divide-by-N Comparator (÷N COM)** is a circuit designed by Tcherepnin in 1979. The circuit is in two sections which have linked functionality. The bottom half of the module is a signal comparator, with a pulse output when one voltage rises above another. Thee top half counts the pulses from the bottom half, emitting its own pulses every *N* steps (hence the name) in increments up to 31. An additional output generates a "staircase" DC wave that rises with the number of steps coming from the comparator.
+The **Divide-by-N Comparator (÷N COM)** is a circuit designed by Tcherepnin in 1979. The circuit is in two sections which have linked functionality. The bottom half of the module is a signal comparator, with a pulse output when one voltage rises above another. The top half counts the pulses from the bottom half, emitting its own pulses every *N* steps (hence the name) in increments up to 31. An additional output generates a "staircase" DC wave that rises with the number of steps coming from the comparator.
 
 <img src = "./img/serge824_2_6.png" width="10%" title="÷N Com" alt="÷N Com">
 
@@ -525,7 +525,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 11. Scaling knob for *9*
 12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Pulse OUTPUT)
 13. Knob for Stepped rate amount (sums with *9* x *11*)
-14. CV output for thee Stepped module (DC OUTPUT)
+14. CV output for the Stepped module (DC OUTPUT)
 15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Pulse OUTPUT)
 16. Regular Coupler output - +5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
 
@@ -666,7 +666,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 11. Scaling knob for *9*
 12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Pulse OUTPUT)
 13. Knob for Stepped rate amount (sums with *9* x *11*)
-14. CV output for thee Stepped module (DC OUTPUT)
+14. CV output for the Stepped module (DC OUTPUT)
 15. "Hot" Coupler output - +5V if Stepped output is higher than the Smooth output; -5V if not (*AC* Pulse OUTPUT)
 16. Regular Coupler output - 5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
 17. White noise source (AC OUTPUT)
@@ -1663,7 +1663,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 5. Signal input for the Smooth side (AC INPUT)
 6. Cycle trigger (sends a pulse at the end of a cycle set by the Smooth rate) (Pulse OUTPUT)
 7. Hold jack - when set high, Smooth output *1* will freeze and no longer track the module's input (Pulse INPUT)
-8. Signal output for thee Stepped module (AC OUTPUT)
+8. Signal output for the Stepped module (AC OUTPUT)
 9. Knob for Stepped rate amount (sums with *10* x *11*)
 10. Scaling knob for *11*
 11. Signal input for the Stepped side (AC INPUT)
@@ -2217,7 +2217,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 11. Scaling knob for *9*
 12. Cycle trigger (sends a pulse at the end of a cycle set by the Stepped rate) (Pulse OUTPUT)
 13. Knob for Stepped rate amount (sums with *9* x *11*)
-14. CV output for thee Stepped module (DC OUTPUT)
+14. CV output for the Stepped module (DC OUTPUT)
 15. Coupler output - +5V if Stepped output is higher than the Smooth output; 0V if not (Pulse OUTPUT)
 
 *Notes:*
