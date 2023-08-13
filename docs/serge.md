@@ -2799,7 +2799,7 @@ The Meta **Ring Counter** module has five outputs that go HIGH in succession in 
 
 The **Multiplier & Not** module on the Meta has two halves; the bottom half is a simple [inverter](https://en.wikipedia.org/wiki/Inverter_(logic_gate)), or **NOT** gate. The top half outputs the digital  value of four analog inputs sampled by a clock signal, multiplied, and compared against a 2.5V threshold; an output of HIGH means that the product of all four inputs yielded a value over 2.5V when the sample was made.
 
-<img src = "./img/meta_13.png" width="7.5%" title="Multiplier and Not" alt="Multiplier and Not">
+<img src = "./img/meta_13.png" width="15%" title="Multiplier and Not" alt="Multiplier and Not">
 
 1. Multiplier output (Pulse OUTPUT)
 2. Multiplier "D" input (DC INPUT)
