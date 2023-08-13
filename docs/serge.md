@@ -2588,7 +2588,7 @@ The **Meta** is a synthesizer / sequencer designed by Jon Peters ([The Human Com
 
 The **Dual Clock** module on the Meta consists of two identical [low frequency oscillators](https://en.wikipedia.org/wiki/Low-frequency_oscillation). Each oscillator has a [sawtooth wave](https://en.wikipedia.org/wiki/Sawtooth_wave) core and a timing clock output that sends a pulse when the LFO waveform resets.
 
-<img src = "./img/meta_1.png" width="10%" title="Dual Clock" alt="Dual Clock">
+<img src = "./img/meta_1.png" width="7.5%" title="Dual Clock" alt="Dual Clock">
 
 1. LFO 1 Timing clock output (Pulse OUTPUT)
 2. LFO 1 Sawtooth output (DC OUTPUT)
@@ -2606,7 +2606,7 @@ The **Dual Clock** module on the Meta consists of two identical [low frequency o
 
 The **And** module on the Meta consists of two halfs that perform simple [Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra) on their input signals. The top half functions as a two-input [AND gate](https://en.wikipedia.org/wiki/AND_gate), outputting a HIGH value when both inputs are above 2.5V; the bottom half does the same calculation with three inputs - the HIGH value only occurs when all three input signals are above the 2.5V threshold. 
 
-<img src = "./img/meta_2.png" width="10%" title="And" alt="And">
+<img src = "./img/meta_2.png" width="7.5%" title="And" alt="And">
 
 1. Top AND gate output (Pulse OUTPUT)
 2. Top AND gate input 1 (DC / Pulse INPUT)
@@ -2623,7 +2623,7 @@ The **And** module on the Meta consists of two halfs that perform simple [Boolea
 
 The Meta's **Divider** module is a simple [clock divider](https://en.wikipedia.org/wiki/Frequency_divider); it outputs six different subdivisions of an input clock.
 
-<img src = "./img/meta_3.png" width="10%" title="Divider" alt="Divider">
+<img src = "./img/meta_3.png" width="7.5%" title="Divider" alt="Divider">
 
 1. 1/8 output (Pulse OUTPUT)
 2. 1/7 output (Pulse OUTPUT)
@@ -2641,7 +2641,7 @@ The Meta's **Divider** module is a simple [clock divider](https://en.wikipedia.o
 
 An **R2R Ladder** is a [resistor ladder](https://en.wikipedia.org/wiki/Resistor_ladder) implementation of a simple [digital to analog converter](https://en.wikipedia.org/wiki/Digital-to-analog_converter). On the Meta, the six input pins control individual bits of a DAC; the module outputs the analog voltage specified by the 6-bit digital input signal.
 
-<img src = "./img/meta_4.png" width="10%" title="R2R Ladder" alt="R2R Ladder">
+<img src = "./img/meta_4.png" width="7.5%" title="R2R Ladder" alt="R2R Ladder">
 
 1. Resistor ladder output (DC OUTPUT)
 2. Bit 1 ([MSB](https://en.wikipedia.org/wiki/Bit_numbering)) input (DC / Pulse INPUT)
@@ -2658,7 +2658,7 @@ An **R2R Ladder** is a [resistor ladder](https://en.wikipedia.org/wiki/Resistor_
 
 The **Dual Counter** module on the Meta has two identical halves that output [gate](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) signals that change their output every 2, 4, and 8 transitions of the input signal.
 
-<img src = "./img/meta_5.png" width="10%" title="Dual Counter" alt="Dual Counter">
+<img src = "./img/meta_5.png" width="7.5%" title="Dual Counter" alt="Dual Counter">
 
 1. Top 8-count output (Pulse OUTPUT)
 2. Top 4-count output (Pulse OUTPUT)
@@ -2676,7 +2676,7 @@ The **Dual Counter** module on the Meta has two identical halves that output [ga
 
 The Meta's **4:1 Mux** module implements a 4-to-1 [multiplexer](https://en.wikipedia.org/wiki/Multiplexer), where one of four analog inputs are selected based on a pair of digital inputs (creating a 2-bit selector [word](https://en.wikipedia.org/wiki/Word_(computer_architecture))).
 
-<img src = "./img/meta_6.png" width="10%" title="4:1 Mux" alt="4:1 Mux">
+<img src = "./img/meta_6.png" width="7.5%" title="4:1 Mux" alt="4:1 Mux">
 
 1. Mux output signal (DC OUTPUT)
 2. MSB selector input (Pulse OUTPUT)
@@ -2693,7 +2693,7 @@ The Meta's **4:1 Mux** module implements a 4-to-1 [multiplexer](https://en.wikip
 
 The **6 Stage Counter** module on the Meta outputs gate signals that [switch state]((https://en.wikipedia.org/wiki/Flip-flop_(electronics))) at multiples of the pulse input.
 
-<img src = "./img/meta_7.png" width="10%" title="6 Stage Counter" alt="6 Stage Counter">
+<img src = "./img/meta_7.png" width="7.5%" title="6 Stage Counter" alt="6 Stage Counter">
 
 1. 64-count output (Pulse OUTPUT)
 2. 32-count output (Pulse OUTPUT)
@@ -2711,7 +2711,7 @@ The **6 Stage Counter** module on the Meta outputs gate signals that [switch sta
 
 The **XOR** module, like the **AND** module, performs [Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra) on input signals input into the Meta. The top half will output the [XOR](https://en.wikipedia.org/wiki/XOR_gate) ("Exclusive OR") of two inputs - the output will be HIGH only if one input is HIGH but not the other. The bottom half does the same operation with three inputs - only one can be HIGH in order for the output to be HIGH.
 
-<img src = "./img/meta_8.png" width="10%" title="XOR" alt="XOR">
+<img src = "./img/meta_8.png" width="7.5%" title="XOR" alt="XOR">
 
 1. Top XOR gate output (Pulse OUTPUT)
 2. Top XOR gate input 1 (DC / Pulse INPUT)
@@ -2728,7 +2728,7 @@ The **XOR** module, like the **AND** module, performs [Boolean logic](https://en
 
 The Meta's **Shift Register** module is a digital 6-stage [shift register](https://en.wikipedia.org/wiki/Shift_register) that will sample the input as a digital (HIGH or LOW) signal when the clock input receives a trigger. This sample will appear at the first (bottom) output; sequential clocks will then move that value up the column of outputs as new data appears, causing previous values to *shift*. 
 
-<img src = "./img/meta_9.png" width="10%" title="Shift Register" alt="Shift Register">
+<img src = "./img/meta_9.png" width="7.5%" title="Shift Register" alt="Shift Register">
 
 1. Stage 6 (final) output (Pulse OUTPUT)
 1. Stage 5 output (Pulse OUTPUT)
@@ -2747,7 +2747,7 @@ The Meta's **Shift Register** module is a digital 6-stage [shift register](https
 
 The **Dual R2R** module on the Meta consists of two lower-resolution (3 and 2-bit, respectively) versions of the **R2R Ladder** module. Like the previous module, this one implements a [resistor ladder](https://en.wikipedia.org/wiki/Resistor_ladder), or simple [digital to analog converter](https://en.wikipedia.org/wiki/Digital-to-analog_converter). The top half has three inputs and the bottom half has two.
 
-<img src = "./img/meta_10.png" width="10%" title="Dual R2R" alt="Dual R2R">
+<img src = "./img/meta_10.png" width="7.5%" title="Dual R2R" alt="Dual R2R">
 
 1. Top resistor ladder output (DC OUTPUT)
 2. Bit 1 ([MSB](https://en.wikipedia.org/wiki/Bit_numbering)) input (DC / Pulse INPUT)
@@ -2764,7 +2764,7 @@ The **Dual R2R** module on the Meta consists of two lower-resolution (3 and 2-bi
 
 The **Dual Latch** module on the Meta implements two identical single-value [latch](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) circuits that can sample a digital value and hold it until the next sampling trigger.
 
-<img src = "./img/meta_11.png" width="10%" title="Dual Latch" alt="Dual Latch">
+<img src = "./img/meta_11.png" width="7.5%" title="Dual Latch" alt="Dual Latch">
 
 1. Top latch output (Pulse OUTPUT)
 2. Top reset input; this will clear the output to LOW (Pulse INPUT)
@@ -2782,7 +2782,7 @@ The **Dual Latch** module on the Meta implements two identical single-value [lat
 
 The Meta **Ring Counter** module has five outputs that go HIGH in succession in a loop based on the "clock" input.
 
-<img src = "./img/meta_12.png" width="10%" title="Ring Counter" alt="Ring Counter">
+<img src = "./img/meta_12.png" width="7.5%" title="Ring Counter" alt="Ring Counter">
 
 1. Loop stage 5 (Pulse OUTPUT)
 2. Loop stage 4 (Pulse OUTPUT)
@@ -2799,7 +2799,7 @@ The Meta **Ring Counter** module has five outputs that go HIGH in succession in 
 
 The **Multiplier & Not** module on the Meta has two halves; the bottom half is a simple [inverter](https://en.wikipedia.org/wiki/Inverter_(logic_gate)), or **NOT** gate. The top half outputs the digital  value of four analog inputs sampled by a clock signal, multiplied, and compared against a 2.5V threshold; an output of HIGH means that the product of all four inputs yielded a value over 2.5V when the sample was made.
 
-<img src = "./img/meta_13.png" width="10%" title="Multiplier and Not" alt="Multiplier and Not">
+<img src = "./img/meta_13.png" width="7.5%" title="Multiplier and Not" alt="Multiplier and Not">
 
 1. Multiplier output (Pulse OUTPUT)
 2. Multiplier "D" input (DC INPUT)
@@ -2817,7 +2817,7 @@ The **Multiplier & Not** module on the Meta has two halves; the bottom half is a
 
 The final module on the Meta is a 7-input, [buffered](https://en.wikipedia.org/wiki/Buffer_amplifier) **Mixer** for control voltages, with knobs to attenuate the input values.
 
-<img src = "./img/meta_14.png" width="20%" title="Mixer" alt="Mixer">
+<img src = "./img/meta_14.png" width="15%" title="Mixer" alt="Mixer">
 
 1. Mixer output (DC OUTPUT)
 2. CV input 7 (DC INPUT)
