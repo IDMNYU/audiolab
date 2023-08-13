@@ -2600,7 +2600,7 @@ The **Dual Clock** module on the Meta consists of two identical [low frequency o
 8. LFO 2 rate knob
 
 *Notes:*
-- the two LFOs can have their frequency set externally (inputs *3* and *7*); they can be patched to frequency modulate one another.
+- The two LFOs can have their frequency set externally (inputs *3* and *7*); they can be patched to frequency modulate one another.
 
 #### And
 
@@ -2608,16 +2608,16 @@ The **And** module on the Meta consists of two halfs that perform simple [Boolea
 
 <img src = "./img/meta_2.png" width="5%" title="And" alt="And">
 
-1. top AND gate output (Pulse OUTPUT)
-2. top AND gate input 1 (DC / Pulse INPUT)
-3. top AND gate input 2 (DC / Pulse INPUT)
-4. bottom AND gate output (Pulse OUTPUT)
-5. bottom AND gate input 1 (DC / Pulse INPUT)
-6. bottom AND gate input 2 (DC / Pulse INPUT)
-7. bottom AND gate input 3 (DC / Pulse INPUT)
+1. Top AND gate output (Pulse OUTPUT)
+2. Top AND gate input 1 (DC / Pulse INPUT)
+3. Top AND gate input 2 (DC / Pulse INPUT)
+4. Bottom AND gate output (Pulse OUTPUT)
+5. Bottom AND gate input 1 (DC / Pulse INPUT)
+6. Bottom AND gate input 2 (DC / Pulse INPUT)
+7. Bottom AND gate input 3 (DC / Pulse INPUT)
 
 *Notes:*
-- The modules inputs have comparator circuits at the inputs, so unlike some of the Serge Boolean Logic circuits elsewhere in the IDM Audio Lab, the inputs on this module can be analog voltages - any voltage over 2.5V will be interpreted as HIGH by the module.
+- The module's inputs have comparator circuits at the inputs, so unlike some of the Serge Boolean Logic circuits elsewhere in the IDM Audio Lab, the inputs on this module can be analog voltages - any voltage over 2.5V will be interpreted as HIGH by the module.
 
 #### Divider
 
@@ -2631,44 +2631,63 @@ The Meta's **Divider** module is a simple [clock divider](https://en.wikipedia.o
 4. 1/5 output (Pulse OUTPUT)
 5. 1/4 output (Pulse OUTPUT)
 6. 1/3 output (Pulse OUTPUT)
-7. reset input (Pulse INPUT)
-8. clock input (DC / Pulse INPUT)
+7. Reset input (Pulse INPUT)
+8. Clock input (DC / Pulse INPUT)
 
 *Notes:*
-- the module reset (input *7*) can be patched with one of the output jacks to create a rhythmic behavior of a fixed length (e.g. 8 beats by using output *1*).
+- The module reset (input *7*) can be patched with one of the output jacks to create a rhythmic behavior of a fixed length (e.g. 8 beats by using output *1*).
 
 #### R2R Ladder
 
-The **R2R Ladder** module on the Meta is a...
+An **R2R Ladder** is a [resistor ladder](https://en.wikipedia.org/wiki/Resistor_ladder) implementation of a simple [digital to analog converter](https://en.wikipedia.org/wiki/Digital-to-analog_converter). On the Meta, the six input pins control individual bits of a DAC; the module outputs the analog voltage specified by the 6-bit digital input signal.
 
 <img src = "./img/meta_4.png" width="5%" title="R2R Ladder" alt="R2R Ladder">
 
-1. thing1 (Pulse OUTPUT)
+1. Resistor ladder output (DC OUTPUT)
+2. Bit 1 ([MSB](https://en.wikipedia.org/wiki/Bit_numbering)) input (DC / Pulse INPUT)
+3. Bit 2 input (DC / Pulse INPUT)
+4. Bit 3 input (DC / Pulse INPUT)
+5. Bit 4 input (DC / Pulse INPUT)
+6. Bit 5 input (DC / Pulse INPUT)
+7. Bit 6 ([LSB](https://en.wikipedia.org/wiki/Bit_numbering)) input (DC / Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- Like the **AND** module, the input jacks of the **R2R Ladder** input into comparators, so continuous input signals can be used to set the output, with 2.5V being the threshold to consider an input bit HIGH or LOW.
 
 #### Dual Counter
 
-The **Dual Counter** module on the Meta is a...
+The **Dual Counter** module on the Meta has two identical halves that output [gate](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) signals that change their output every 2, 4, and 8 transitions of the input signal.
 
 <img src = "./img/meta_5.png" width="5%" title="Dual Counter" alt="Dual Counter">
 
-1. thing1 (Pulse OUTPUT)
+1. Top 8-count output (Pulse OUTPUT)
+2. Top 4-count output (Pulse OUTPUT)
+3. Top 2-count output (Pulse OUTPUT)
+4. Top input (DC / Pulse OUTPUT)
+5. Bottom 8-count output (Pulse OUTPUT)
+6. Bottom 4-count output (Pulse OUTPUT)
+7. Bottom 2-count output (Pulse OUTPUT)
+8. Bottom input (DC / Pulse OUTPUT)
 
 *Notes:*
-- blah blah blah
+- The **Dual Counter** outputs *gate* signals (not *triggers*), so the output will stay HIGH or LOW until the state changes; the **Divider** module puts out triggers on subdivisions of the input clock.
 
 #### 4:1 Mux
 
-The **4:1 Mux** module on the Meta is a...
+The Meta's **4:1 Mux** module implements a 4-to-1 [multiplexer](https://en.wikipedia.org/wiki/Multiplexer), where one of four analog inputs are selected based on a pair of digital inputs (creating a 2-bit selector [word](https://en.wikipedia.org/wiki/Word_(computer_architecture))).
 
 <img src = "./img/meta_6.png" width="5%" title="4:1 Mux" alt="4:1 Mux">
 
-1. thing1 (Pulse OUTPUT)
+1. Mux output signal (DC OUTPUT)
+2. MSB selector input (Pulse OUTPUT)
+3. LSB selector input (Pulse OUTPUT)
+4. Mux input #4; output when *2* and *3* are both HIGH (DC Input)
+5. Mux input #3; output when *2* is HIGH and *3* is LOW (DC Input)
+6. Mux input #2; output when *2* is LOW and *3* is HIGH (DC Input)
+7. Mux input #1; output when *2* and *3* are both LOW (DC Input)
 
 *Notes:*
-- blah blah blah
+- The **4:1 Mux** can be used to swith between multiple control voltage signals using digital selectors from elsewhere on the Meta or among the other Serge panels in the lab.
 
 #### 6 Stage Counter
 
