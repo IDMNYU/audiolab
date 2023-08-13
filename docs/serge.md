@@ -2709,80 +2709,134 @@ The **6 Stage Counter** module on the Meta outputs gate signals that [switch sta
 
 #### XOR
 
-The **XOR** module on the Meta is a...
+The **XOR** module, like the **AND** module, performs [Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra) on input signals input into the Meta. The top half will output the [XOR](https://en.wikipedia.org/wiki/XOR_gate) ("Exclusive OR") of two inputs - the output will be HIGH only if one input is HIGH but not the other. The bottom half does the same operation with three inputs - only one can be HIGH in order for the output to be HIGH.
 
 <img src = "./img/meta_8.png" width="5%" title="XOR" alt="XOR">
 
-1. thing1 (Pulse OUTPUT)
+1. Top XOR gate output (Pulse OUTPUT)
+2. Top XOR gate input 1 (DC / Pulse INPUT)
+3. Top XOR gate input 2 (DC / Pulse INPUT)
+4. Bottom XOR gate output (Pulse OUTPUT)
+5. Bottom XOR gate input 1 (DC / Pulse INPUT)
+6. Bottom XOR gate input 2 (DC / Pulse INPUT)
+7. Bottom XOR gate input 3 (DC / Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- The module's inputs have comparator circuits at the inputs, so unlike some of the Serge Boolean Logic circuits elsewhere in the IDM Audio Lab, the inputs on this module can be analog voltages - any voltage over 2.5V will be interpreted as HIGH by the module.
 
 #### Shift Register
 
-The **Shift Register** module on the Meta is a...
+The Meta's **Shift Register** module is a digital 6-stage [shift register](https://en.wikipedia.org/wiki/Shift_register) that will sample the input as a digital (HIGH or LOW) signal when the clock input receives a trigger. This sample will appear at the first (bottom) output; sequential clocks will then move that value up the column of outputs as new data appears, causing previous values to *shift*. 
 
 <img src = "./img/meta_9.png" width="5%" title="Shift Register" alt="Shift Register">
 
-1. thing1 (Pulse OUTPUT)
+1. Stage 6 (final) output (Pulse OUTPUT)
+1. Stage 5 output (Pulse OUTPUT)
+1. Stage 4 output (Pulse OUTPUT)
+1. Stage 3 output (Pulse OUTPUT)
+1. Stage 2 output (Pulse OUTPUT)
+1. Stage 1 (first) output (Pulse OUTPUT)
+1. Clock input (Pulse INPUT)
+1. Sample input (DC / Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- A shift register can be thought of as a multi-stage [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold), with successive values cascading down a line of outputs.
+- Unlike the Serge **ASR** or Shelfisizer **Shift** modules, this module is a **digital** shift register and will convert a continuous input to a HIGH or LOW value. The outputs are sustained gate signals, not triggers.
 
 #### Dual R2R
 
-The **Dual R2R** module on the Meta is a...
+The **Dual R2R** module on the Meta consists of two lower-resolution (3 and 2-bit, respectively) versions of the **R2R Ladder** module. Like the previous module, this one implements a [resistor ladder](https://en.wikipedia.org/wiki/Resistor_ladder), or simple [digital to analog converter](https://en.wikipedia.org/wiki/Digital-to-analog_converter). The top half has three inputs and the bottom half has two.
 
 <img src = "./img/meta_10.png" width="5%" title="Dual R2R" alt="Dual R2R">
 
-1. thing1 (Pulse OUTPUT)
+1. Top resistor ladder output (DC OUTPUT)
+2. Bit 1 ([MSB](https://en.wikipedia.org/wiki/Bit_numbering)) input (DC / Pulse INPUT)
+3. Bit 2 input (DC / Pulse INPUT)
+4. Bit 3 ([LSB](https://en.wikipedia.org/wiki/Bit_numbering)) input (DC / Pulse INPUT)
+5. Bottom resistor ladder output (DC OUTPUT)
+6. Bit 1 ([MSB](https://en.wikipedia.org/wiki/Bit_numbering)) input (DC / Pulse INPUT)
+7. Bit 2 ([LSB](https://en.wikipedia.org/wiki/Bit_numbering)) input (DC / Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- Like the **AND** module, the input jacks of the **Dual R2R** input into comparators, so continuous input signals can be used to set the output, with 2.5V being the threshold to consider an input bit HIGH or LOW.
 
 #### Dual Latch
 
-The **Dual Latch** module on the Meta is a...
+The **Dual Latch** module on the Meta implements two identical single-value [latch](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) circuits that can sample a digital value and hold it until the next sampling trigger.
 
 <img src = "./img/meta_11.png" width="5%" title="Dual Latch" alt="Dual Latch">
 
-1. thing1 (Pulse OUTPUT)
+1. Top latch output (Pulse OUTPUT)
+2. Top reset input; this will clear the output to LOW (Pulse INPUT)
+3. Top value input; this is the signal that is "sampled" (Pulse INPUT)
+4. Top clock input; this is the signal that causes the sampling (Pulse INPUT)
+5. Bottom latch output (Pulse OUTPUT)
+6. Bottom reset input; this will clear the output to LOW (Pulse INPUT)
+7. Bottom value input; this is the signal that is "sampled" (Pulse INPUT)
+8. Bottom clock input; this is the signal that causes the sampling (Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- Latch circuits are useful for generating a constant gate (HIGH or LOW) signal off of a transient input signal at a specific time. As such, they can be thought of as digital equivalents of [sample-and-hold](https://en.wikipedia.org/wiki/Sample_and_hold) circuits (such as the **SSG**) found on other Serge panels.
 
 #### Ring Counter
 
-The **Ring Counter** module on the Meta is a...
+The Meta **Ring Counter** module has five outputs that go HIGH in succession in a loop based on the "clock" input.
 
 <img src = "./img/meta_12.png" width="5%" title="Ring Counter" alt="Ring Counter">
 
-1. thing1 (Pulse OUTPUT)
+1. Loop stage 5 (Pulse OUTPUT)
+2. Loop stage 4 (Pulse OUTPUT)
+3. Loop stage 3 (Pulse OUTPUT)
+4. Loop stage 2 (Pulse OUTPUT)
+5. Loop stage 1 (Pulse OUTPUT)
+6. Loop reset (Pulse INPUT)
+7. Clock (Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- One of the counters outputs can be patched back to the reset input **6** to make a shorter loop.
 
 #### Multiplier & Not
 
-The **Multiplier & Not** module on the Meta is a...
+The **Multiplier & Not** module on the Meta has two halves; the bottom half is a simple [inverter](https://en.wikipedia.org/wiki/Inverter_(logic_gate)), or **NOT** gate. The top half outputs the digital  value of four analog inputs sampled by a clock signal, multiplied, and compared against a 2.5V threshold; an output of HIGH means that the product of all four inputs yielded a value over 2.5V when the sample was made.
 
 <img src = "./img/meta_13.png" width="5%" title="Multiplier and Not" alt="Multiplier and Not">
 
-1. thing1 (Pulse OUTPUT)
+1. Multiplier output (Pulse OUTPUT)
+2. Multiplier "D" input (DC INPUT)
+3. Multiplier "C" input (DC INPUT)
+4. Multiplier "B" input (DC INPUT)
+5. Multiplier "A" input (DC INPUT)
+6. Multiplier clock (Pulse INPUT)
+7. NOT output (Pulse OUTPUT)
+8. NOT input (DC / Pulse OUTPUT)
 
 *Notes:*
-- blah blah blah
+- Multiplication of analog signals typically treats the nominal voltage range of the signals as a value from 0 to 1. For example, assuming a 0-5V input range, a signal of 5V multiplied by 2.5V will yield an output of 2.5V (1 x 0.5 = 0.5).
 
 #### Mixer
 
-The **Mixer** module on the Meta is a...
+The final module on the Meta is a 7-input, [buffered](https://en.wikipedia.org/wiki/Buffer_amplifier) **Mixer** for control voltages, with knobs to attenuate the input values.
 
 <img src = "./img/meta_14.png" width="10%" title="Mixer" alt="Mixer">
 
-1. thing1 (Pulse OUTPUT)
+1. Mixer output (DC OUTPUT)
+2. CV input 7 (DC INPUT)
+3. Input 7 attenuator knob
+4. CV input 6 (DC INPUT)
+5. Input 6 attenuator knob
+6. CV input 5 (DC INPUT)
+7. Input 5 attenuator knob
+8. CV input 4 (DC INPUT)
+9. Input 4 attenuator knob
+10. CV input 3 (DC INPUT)
+11. Input 3 attenuator knob
+12. CV input 2 (DC INPUT)
+13. Input 2 attenuator knob
+14. CV input 1 (DC INPUT)
+15. Input 1 attenuator knob
 
 *Notes:*
-- blah blah blah
+- This utility mixer is simplier to the Serge **Dual Processor** / **CV Processor** modules, without the ability to invert the input signals. 
 
 [back to top](#top)
 
