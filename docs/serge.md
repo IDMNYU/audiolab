@@ -2588,7 +2588,7 @@ The **Meta** is a synthesizer / sequencer designed by Jon Peters ([The Human Com
 
 The **Dual Clock** module on the Meta is a...
 
-<img src = "./img/meta_1.png" width="10%" title="Dual Clock" alt="Dual Clock">
+<img src = "./img/meta_1.png" width="5%" title="Dual Clock" alt="Dual Clock">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2599,7 +2599,7 @@ The **Dual Clock** module on the Meta is a...
 
 The **And** module on the Meta is a...
 
-<img src = "./img/meta_2.png" width="10%" title="And" alt="And">
+<img src = "./img/meta_2.png" width="5%" title="And" alt="And">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2610,7 +2610,7 @@ The **And** module on the Meta is a...
 
 The **Divider** module on the Meta is a...
 
-<img src = "./img/meta_3.png" width="10%" title="Divider" alt="Divider">
+<img src = "./img/meta_3.png" width="5%" title="Divider" alt="Divider">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2621,7 +2621,7 @@ The **Divider** module on the Meta is a...
 
 The **R2R Ladder** module on the Meta is a...
 
-<img src = "./img/meta_4.png" width="10%" title="R2R Ladder" alt="R2R Ladder">
+<img src = "./img/meta_4.png" width="5%" title="R2R Ladder" alt="R2R Ladder">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2632,7 +2632,7 @@ The **R2R Ladder** module on the Meta is a...
 
 The **Dual Counter** module on the Meta is a...
 
-<img src = "./img/meta_5.png" width="10%" title="Dual Counter" alt="Dual Counter">
+<img src = "./img/meta_5.png" width="5%" title="Dual Counter" alt="Dual Counter">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2643,7 +2643,7 @@ The **Dual Counter** module on the Meta is a...
 
 The **4:1 Mux** module on the Meta is a...
 
-<img src = "./img/meta_6.png" width="10%" title="4:1 Mux" alt="4:1 Mux">
+<img src = "./img/meta_6.png" width="5%" title="4:1 Mux" alt="4:1 Mux">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2654,7 +2654,7 @@ The **4:1 Mux** module on the Meta is a...
 
 The **6 Stage Counter** module on the Meta is a...
 
-<img src = "./img/meta_7.png" width="10%" title="6 Stage Counter" alt="6 Stage Counter">
+<img src = "./img/meta_7.png" width="5%" title="6 Stage Counter" alt="6 Stage Counter">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2665,7 +2665,7 @@ The **6 Stage Counter** module on the Meta is a...
 
 The **XOR** module on the Meta is a...
 
-<img src = "./img/meta_8.png" width="10%" title="XOR" alt="XOR">
+<img src = "./img/meta_8.png" width="5%" title="XOR" alt="XOR">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2676,7 +2676,7 @@ The **XOR** module on the Meta is a...
 
 The **Shift Register** module on the Meta is a...
 
-<img src = "./img/meta_9.png" width="10%" title="Shift Register" alt="Shift Register">
+<img src = "./img/meta_9.png" width="5%" title="Shift Register" alt="Shift Register">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2687,7 +2687,7 @@ The **Shift Register** module on the Meta is a...
 
 The **Dual R2R** module on the Meta is a...
 
-<img src = "./img/meta_10.png" width="10%" title="Dual R2R" alt="Dual R2R">
+<img src = "./img/meta_10.png" width="5%" title="Dual R2R" alt="Dual R2R">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2698,7 +2698,7 @@ The **Dual R2R** module on the Meta is a...
 
 The **Dual Latch** module on the Meta is a...
 
-<img src = "./img/meta_11.png" width="10%" title="Dual Latch" alt="Dual Latch">
+<img src = "./img/meta_11.png" width="5%" title="Dual Latch" alt="Dual Latch">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2709,7 +2709,7 @@ The **Dual Latch** module on the Meta is a...
 
 The **Ring Counter** module on the Meta is a...
 
-<img src = "./img/meta_12.png" width="10%" title="Ring Counter" alt="Ring Counter">
+<img src = "./img/meta_12.png" width="5%" title="Ring Counter" alt="Ring Counter">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2720,7 +2720,7 @@ The **Ring Counter** module on the Meta is a...
 
 The **Multiplier & Not** module on the Meta is a...
 
-<img src = "./img/meta_13.png" width="10%" title="Multiplier and Not" alt="Multiplier and Not">
+<img src = "./img/meta_13.png" width="5%" title="Multiplier and Not" alt="Multiplier and Not">
 
 1. thing1 (Pulse OUTPUT)
 
@@ -2731,7 +2731,7 @@ The **Multiplier & Not** module on the Meta is a...
 
 The **Mixer** module on the Meta is a...
 
-<img src = "./img/meta_14.png" width="20%" title="Mixer" alt="Mixer">
+<img src = "./img/meta_14.png" width="10%" title="Mixer" alt="Mixer">
 
 1. thing1 (Pulse OUTPUT)
 
