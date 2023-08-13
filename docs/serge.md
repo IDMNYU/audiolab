@@ -2691,14 +2691,21 @@ The Meta's **4:1 Mux** module implements a 4-to-1 [multiplexer](https://en.wikip
 
 #### 6 Stage Counter
 
-The **6 Stage Counter** module on the Meta is a...
+The **6 Stage Counter** module on the Meta outputs gate signals that [switch state]((https://en.wikipedia.org/wiki/Flip-flop_(electronics))) at multiples of the pulse input.
 
 <img src = "./img/meta_7.png" width="5%" title="6 Stage Counter" alt="6 Stage Counter">
 
-1. thing1 (Pulse OUTPUT)
+1. 64-count output (Pulse OUTPUT)
+2. 32-count output (Pulse OUTPUT)
+3. 16-count output (Pulse OUTPUT)
+4. 8-count output (Pulse OUTPUT)
+5. 4-count output (Pulse OUTPUT)
+6. 2-count output (Pulse OUTPUT)
+7. Reset input (Pulse INPUT)
+8. Clock input (Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- Like the **Dual Counter**, the **6 Stage Counter** outputs *gate* signals (not *triggers*), so the output will stay HIGH or LOW until the state changes; the **Divider** module puts out triggers on subdivisions of the input clock.
 
 #### XOR
 
