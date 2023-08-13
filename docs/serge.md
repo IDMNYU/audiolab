@@ -7,6 +7,7 @@
 - [STS Panels](#sts-panels) ( [Red Control](#red-control) )
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
 - [Benjolin](#benjolin)
+- [Meta](#meta)
 - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) / [2020 Panel](#2020-panel) )
 - [Additional Equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Variable Force Generator](#variable-force-generator) / [Converter Boxes](#converter-boxes) / [CV.OCD](#cv-ocd) / [Oscilloscopes](#oscilloscopes) )
 
@@ -2572,6 +2573,170 @@ Many versions of the Benjolin exist - standalone and Eurorack, pre-built and DIY
 - The Benjolin has 3.5mm outputs at the top of the box for the direct output of each Benjolin as well as the mixed / reverberated output.
 - The Benjolin PLS 1 / PLS 2 audio outputs (*7*, *8*) are *AC-coupled* (like a conventional synthesizer's square wave oscillator) and so won't "trigger" other Serge modules that require a pulse input. You can feed these into any comparator circuit (e.g. the **Boolean Logic**) to get a pulse signal.
 - The Benjolin's two halves can be patch-programmed to cross-modulate, creating twice the chaos!
+
+[back to top](#top)
+
+## Meta
+
+<img src = "./img/meta_photo.jpg" width="75%" title="Meta" alt="Meta">
+
+The **Meta** is a synthesizer / sequencer designed by Jon Peters ([The Human Comparator](https://thehumancomparator.net/)) in 2023. The instrument consists of a project box containing 14 compact, Serge-format modules that focus on clocks, sequences, digital logic, and other utility functions that can be used to automatically generate triggers and gates.
+
+<img src = "./img/meta.png" width="62.5%" title="Meta" alt="Meta">
+
+#### Dual Clock
+
+The **Dual Clock** module on the Meta is a...
+
+<img src = "./img/meta_1.png" width="10%" title="Dual Clock" alt="Dual Clock">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### And
+
+The **And** module on the Meta is a...
+
+<img src = "./img/meta_2.png" width="10%" title="And" alt="And">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### Divider
+
+The **Divider** module on the Meta is a...
+
+<img src = "./img/meta_3.png" width="10%" title="Divider" alt="Divider">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### R2R Ladder
+
+The **R2R Ladder** module on the Meta is a...
+
+<img src = "./img/meta_4.png" width="10%" title="R2R Ladder" alt="R2R Ladder">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### Dual Counter
+
+The **Dual Counter** module on the Meta is a...
+
+<img src = "./img/meta_5.png" width="10%" title="Dual Counter" alt="Dual Counter">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### 4:1 Mux
+
+The **4:1 Mux** module on the Meta is a...
+
+<img src = "./img/meta_6.png" width="10%" title="4:1 Mux" alt="4:1 Mux">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### 6 Stage Counter
+
+The **6 Stage Counter** module on the Meta is a...
+
+<img src = "./img/meta_7.png" width="10%" title="6 Stage Counter" alt="6 Stage Counter">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### XOR
+
+The **XOR** module on the Meta is a...
+
+<img src = "./img/meta_8.png" width="10%" title="XOR" alt="XOR">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### Shift Register
+
+The **Shift Register** module on the Meta is a...
+
+<img src = "./img/meta_9.png" width="10%" title="Shift Register" alt="Shift Register">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### Dual R2R
+
+The **Dual R2R** module on the Meta is a...
+
+<img src = "./img/meta_10.png" width="10%" title="Dual R2R" alt="Dual R2R">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### Dual Latch
+
+The **Dual Latch** module on the Meta is a...
+
+<img src = "./img/meta_11.png" width="10%" title="Dual Latch" alt="Dual Latch">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### Ring Counter
+
+The **Ring Counter** module on the Meta is a...
+
+<img src = "./img/meta_12.png" width="10%" title="Ring Counter" alt="Ring Counter">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### Multiplier & Not
+
+The **Multiplier & Not** module on the Meta is a...
+
+<img src = "./img/meta_13.png" width="10%" title="Multiplier and Not" alt="Multiplier and Not">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
+
+#### Mixer
+
+The **Mixer** module on the Meta is a...
+
+<img src = "./img/meta_14.png" width="20%" title="Mixer" alt="Mixer">
+
+1. thing1 (Pulse OUTPUT)
+
+*Notes:*
+- blah blah blah
 
 [back to top](#top)
 
