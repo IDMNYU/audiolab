@@ -2586,36 +2586,56 @@ The **Meta** is a synthesizer / sequencer designed by Jon Peters ([The Human Com
 
 #### Dual Clock
 
-The **Dual Clock** module on the Meta is a...
+The **Dual Clock** module on the Meta consists of two identical [low frequency oscillators](https://en.wikipedia.org/wiki/Low-frequency_oscillation). Each oscillator has a [sawtooth wave](https://en.wikipedia.org/wiki/Sawtooth_wave) core and a timing clock output that sends a pulse when the LFO waveform resets.
 
 <img src = "./img/meta_1.png" width="5%" title="Dual Clock" alt="Dual Clock">
 
-1. thing1 (Pulse OUTPUT)
+1. LFO 1 Timing clock output (Pulse OUTPUT)
+2. LFO 1 Sawtooth output (DC OUTPUT)
+3. LFO 1 rate CV input (DC INPUT)
+4. LFO 1 rate knob
+5. LFO 2 Timing clock output (Pulse OUTPUT)
+6. LFO 2 Sawtooth output (DC OUTPUT)
+7. LFO 2 rate CV input (DC INPUT)
+8. LFO 2 rate knob
 
 *Notes:*
-- blah blah blah
+- the two LFOs can have their frequency set externally (inputs *3* and *7*); they can be patched to frequency modulate one another.
 
 #### And
 
-The **And** module on the Meta is a...
+The **And** module on the Meta consists of two halfs that perform simple [Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra) on their input signals. The top half functions as a two-input [AND gate](https://en.wikipedia.org/wiki/AND_gate), outputting a HIGH value when both inputs are above 2.5V; the bottom half does the same calculation with three inputs - the HIGH value only occurs when all three input signals are above the 2.5V threshold. 
 
 <img src = "./img/meta_2.png" width="5%" title="And" alt="And">
 
-1. thing1 (Pulse OUTPUT)
+1. top AND gate output (Pulse OUTPUT)
+2. top AND gate input 1 (DC / Pulse INPUT)
+3. top AND gate input 2 (DC / Pulse INPUT)
+4. bottom AND gate output (Pulse OUTPUT)
+5. bottom AND gate input 1 (DC / Pulse INPUT)
+6. bottom AND gate input 2 (DC / Pulse INPUT)
+7. bottom AND gate input 3 (DC / Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- The modules inputs have comparator circuits at the inputs, so unlike some of the Serge Boolean Logic circuits elsewhere in the IDM Audio Lab, the inputs on this module can be analog voltages - any voltage over 2.5V will be interpreted as HIGH by the module.
 
 #### Divider
 
-The **Divider** module on the Meta is a...
+The Meta's **Divider** module is a simple [clock divider](https://en.wikipedia.org/wiki/Frequency_divider); it outputs six different subdivisions of an input clock.
 
 <img src = "./img/meta_3.png" width="5%" title="Divider" alt="Divider">
 
-1. thing1 (Pulse OUTPUT)
+1. 1/8 output (Pulse OUTPUT)
+2. 1/7 output (Pulse OUTPUT)
+3. 1/6 output (Pulse OUTPUT)
+4. 1/5 output (Pulse OUTPUT)
+5. 1/4 output (Pulse OUTPUT)
+6. 1/3 output (Pulse OUTPUT)
+7. reset input (Pulse INPUT)
+8. clock input (DC / Pulse INPUT)
 
 *Notes:*
-- blah blah blah
+- the module reset (input *7*) can be patched with one of the output jacks to create a rhythmic behavior of a fixed length (e.g. 8 beats by using output *1*).
 
 #### R2R Ladder
 
