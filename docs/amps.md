@@ -1,10 +1,10 @@
 # The Amps
 
-The IDM Audio Lab has two instrument amplifiers: a [Peavey Minx 110](https://guitarsdoneright.com/guitars/peavey-minx-110-bass-amp-35-watt/) 35-watt bass amplifier, and a [Fender Champion 40](https://www.fender.com/en-US/guitar-amplifiers/contemporary-digital/champion-40/2330300000.html) 40-watt guitar amplifier: 
+The IDM Audio Lab has two instrument amplifiers: a [Blackstar Unity](https://blackstaramps.com/unity/) 30-watt bass amplifier, and a [Fender Champion 40](https://www.fender.com/en-US/guitar-amplifiers/contemporary-digital/champion-40/2330300000.html) 40-watt guitar amplifier: 
 
 <img src = "./img/amps.jpg" width="100%" title="Amps" alt="Amps">
 
-The Peavey power switch is on the front panel; the Fender power switch is on the back. 
+The power switches for both amplifiers are on the rear. 
 
 Both amps have pedalboards, curated to use for baseline instrument effects research with the [IDM Pedals](https://idmnyu.github.io/IDMPEDALS/) project. The pedalboars are both DC powered from [MXR DC Brick](https://www.jimdunlop.com/mxr-dc-brick-power-supply/) power supplies.
 
