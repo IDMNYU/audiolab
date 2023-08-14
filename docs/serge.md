@@ -2525,7 +2525,7 @@ In the IDM Audio Lab, we have a number of small, Serge-format boxes that are int
 
 The [**Variable Force Generator**](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with four capactive touch pads that generate both gate and CV voltages. Each "key" on the VFG will sent a 5V gate signal when pressed, as well as a DC control voltage (0-5V) based on the amount of force applied to the key; the maximum voltage for each pad is set by the knob above it.
 
-<img src = "./img/vfg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
+<img src = "./img/vfg.png" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
 
 1. CV output (*3* x *4*) (DC OUTPUT)
 2. Gate output - goes HIGH when pad is touched (Pulse OUTPUT)
