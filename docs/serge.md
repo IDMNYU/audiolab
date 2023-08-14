@@ -6,10 +6,9 @@
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
 - [STS Panels](#sts-panels) ( [Red Control](#red-control) )
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
-- [Benjolin](#benjolin)
-- [Meta](#meta)
+- [Serge Boxes](#serge-boxes) ( [Variable Force Generator](#variable-force-generator) / [Benjolin](#benjolin) / [Meta](#meta) )
 - [Shelfisizer](#the-shelfisizer) ( [2019 Panel](#2019-panel) / [Shelfisequencer](#shelfisequencer) / [2020 Panel](#2020-panel) )
-- [Additional Equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Variable Force Generator](#variable-force-generator) / [Converter Boxes](#converter-boxes) / [CV.OCD](#cv-ocd) / [Oscilloscopes](#oscilloscopes) )
+- [Additional Equipment](#additional-equipment) ( [Vermona DRM1](#vermona-drm1) / [Converter Boxes](#converter-boxes) / [CV.OCD](#cv-ocd) / [Oscilloscopes](#oscilloscopes) )
 
 ## Serge System Overview
 
@@ -2516,7 +2515,30 @@ The CGS **Programmer**, like the Serge TKB, is a 16-stage combination sequencer 
 
 [back to top](#top)
 
-## Benjolin
+## Serge Boxes
+
+In the IDM Audio Lab, we have a number of small, Serge-format boxes that are interesting to experiment with.
+
+### Variable Force Generator
+
+<img src = "./img/vfg_photo.jpg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
+
+The [**Variable Force Generator**](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with four capactive touch pads that generate both gate and CV voltages. Each "key" on the VFG will sent a 5V gate signal when pressed, as well as a DC control voltage (0-5V) based on the amount of force applied to the key; the maximum voltage for each pad is set by the knob above it.
+
+<img src = "./img/vfg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
+
+1. CV output (*3* x *4*) (DC OUTPUT)
+2. Gate output - goes HIGH when pad is touched (Pulse OUTPUT)
+3. Scaling knob for CV output *1*
+4. Capacitive touch pad
+5. Ground jack (DO NOT TOUCH)
+
+*Notes:*
+- The Variable Force Generator has LED indicators for both CV and gate for each pad.
+
+[back to top](#top)
+
+### Benjolin
 
 <img src = "./img/benjolin_photo.jpg" width="75%" title="Benjolin" alt="Benjolin">
 
@@ -2576,7 +2598,7 @@ Many versions of the Benjolin exist - standalone and Eurorack, pre-built and DIY
 
 [back to top](#top)
 
-## Meta
+### Meta
 
 <img src = "./img/meta_photo.jpg" width="75%" title="Meta" alt="Meta">
 
@@ -3189,12 +3211,6 @@ The [**Vermona DRM1 MkIII**](https://www.vermona.com/en/products/drums-percussio
 The DRM1 synthesizer can receive input both via MIDI (using the MOTU MIDI interface) and analog trigger signals from the Serge equipment sent in to the red jacks on the left size of the patch panel. MIDI commands allow the synthesizer to behave in a velocity-sensitive manner; analog triggers will sound each voice of the synthesizer at full volume. In addition, buttons on the left of the DRM1 (next to each row of controls) can be used to trigger each voice in the synthesizer to preview the sound.
 
 The synthesizer outputs audio directly to the audio mixer (on channels 11 and 12) *and* via the black jacks on the right side of the patch panel. Toggle switches on the panel allow you to route each drum's output individually or mixed together to the two stereo jacks on the far right of the panel.
-
-### Variable Force Generator
-
-<img src = "./img/vfg_photo.jpg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
-
-The [**Variable Force Generator**](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with capactive touch pads that generates both gate and CV voltages. Each "key" on the VFG will sent a 5V gate signal when pressed, as well as a DC control voltage (0-5V) based on the amount of force applied to the key; the maximum for each key is set by the knob above it.
 
 ### Converter Boxes
 
