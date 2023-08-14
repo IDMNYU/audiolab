@@ -2,7 +2,7 @@
 ## Audio Lab studio manual
 How to use the IDM audio lab (2MTC, room 824)
 
-Last updated Fall, 2022.
+Last updated Fall, 2023.
 
 **[Policies, Rules, Reservations, and Contacts](./rules.md)**
 
