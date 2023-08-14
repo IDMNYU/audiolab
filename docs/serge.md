@@ -2580,7 +2580,7 @@ Many versions of the Benjolin exist - standalone and Eurorack, pre-built and DIY
 
 <img src = "./img/meta_photo.jpg" width="75%" title="Meta" alt="Meta">
 
-The **Meta** is a synthesizer / sequencer designed by Jon Peters ([The Human Comparator](https://thehumancomparator.net/)) in 2023. The instrument consists of a project box containing 14 compact, Serge-format modules that focus on clocks, sequences, digital logic, and other utility functions that can be used to automatically generate triggers and gates.
+The **Meta** is a synthesizer / sequencer designed by Jon Nensén ([The Human Comparator](https://thehumancomparator.net/)) in 2023. The instrument consists of a project box containing 14 compact, Serge-format modules that focus on clocks, sequences, digital logic, and other utility functions that can be used to automatically generate triggers and gates.
 
 <img src = "./img/meta.png" width="75%" title="Meta" alt="Meta">
 
