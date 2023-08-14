@@ -2517,11 +2517,13 @@ The CGS **Programmer**, like the Serge TKB, is a 16-stage combination sequencer 
 
 ## Serge Boxes
 
+<img src = "./img/vfg_photo.jpg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
+<img src = "./img/benjolin_photo.jpg" width="75%" title="Benjolin" alt="Benjolin">
+<img src = "./img/meta_photo.jpg" width="75%" title="Meta" alt="Meta">
+
 In the IDM Audio Lab, we have a number of small, Serge-format boxes that are interesting to experiment with.
 
 ### Variable Force Generator
-
-<img src = "./img/vfg_photo.jpg" width="50%" title="Variable Force Generator" alt="Variable Force Generator">
 
 The [**Variable Force Generator**](https://www.low-gain.com/shop/p/vfg), developed by Logan Erickson at [Low-Gain Electronics](https://www.low-gain.com/), is a small, Serge-compatible keyboard with four capactive touch pads that generate both gate and CV voltages. Each "key" on the VFG will sent a 5V gate signal when pressed, as well as a DC control voltage (0-5V) based on the amount of force applied to the key; the maximum voltage for each pad is set by the knob above it.
 
@@ -2539,8 +2541,6 @@ The [**Variable Force Generator**](https://www.low-gain.com/shop/p/vfg), develop
 [back to top](#top)
 
 ### Benjolin
-
-<img src = "./img/benjolin_photo.jpg" width="75%" title="Benjolin" alt="Benjolin">
 
 The **Benjolin** is a DIY synthesizer design published in 2009 by [Rob Hordijk](https://www.youtube.com/watch?v=F5muc9OBXeE&ab_channel=BiyiAmez) (1958-2022). The schematics [as published](https://electro-music.com/forum/topic-40834.html) were intended to be used by DIY builders and educators, and is a scaled down version of a previous instrument designed by Hordijk called the **Blippo Box**. The central premise of the Benjolin is to use a "chaotic" circuit in feedback with a traditional 2 VCO / 1 VCF synthesizer to create unexpected rhythms, melodies, and sounds. As described on this PatchPierre [blog post](http://patchpierre.blogspot.com/2014/11/the-benjolin-explained-by-tuesday-night.html), the instrument's chaotic input comes from a circuit called a **Rungler**, which is an 8-step shift register using the two oscillators as a sample-and-hold (one providing the signal, the other the clock). Because the VCO waveforms are running at a much faster rate than the Rungler is sampling, the result is a chaotic (but potentially rhythmic) control signal that can then be fed back into the controls of the oscillators and filter. This feedback-network approach makes for a novel, West coast-inspired instrument. 
 
@@ -2599,8 +2599,6 @@ Many versions of the Benjolin exist - standalone and Eurorack, pre-built and DIY
 [back to top](#top)
 
 ### Meta
-
-<img src = "./img/meta_photo.jpg" width="75%" title="Meta" alt="Meta">
 
 The **Meta** is a synthesizer / sequencer designed by Jon Nensén ([The Human Comparator](https://thehumancomparator.net/)) in 2023. The instrument consists of a project box containing 14 compact, Serge-format modules that focus on clocks, sequences, digital logic, and other utility functions that can be used to automatically generate triggers and gates.
 
