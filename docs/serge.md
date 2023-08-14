@@ -2521,7 +2521,7 @@ The CGS **Programmer**, like the Serge TKB, is a 16-stage combination sequencer 
 <img src = "./img/benjolin_photo.jpg" width="75%" title="Benjolin" alt="Benjolin">
 <img src = "./img/meta_photo.jpg" width="75%" title="Meta" alt="Meta">
 
-In the IDM Audio Lab, we have a number of small, Serge-format boxes that are interesting to experiment with.
+In the IDM Audio Lab, we have a number of small, Serge-format boxes to experiment with.
 
 ### Variable Force Generator
 
