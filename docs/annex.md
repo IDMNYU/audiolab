@@ -12,7 +12,7 @@ Room 375 (the A/V "edit room" in the back hallway) has an "annex" for the IDM Au
 
 ## イセーニン / ISE-NIN
 
-<img src = "./img/isenin" width="100%" title="Black Corporation's ISE-NIN" alt="Black Corporation's ISE-NIN">
+<img src = "./img/ise-nin.jpeg" width="100%" title="Black Corporation's ISE-NIN" alt="Black Corporation's ISE-NIN">
 
 The [ISE-NIN](https://black-corporation.com/product/deckards-dream-mk2/) is an 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Roland [Jupiter 8](https://en.wikipedia.org/wiki/Roland_Jupiter-8) synthesizer from 1981. The ISE-NIN is a rack unit, and can be controlled via MIDI by an [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller.
 
