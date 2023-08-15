@@ -3,14 +3,14 @@
 
 - [Overview](#overview)
 - [Studio Basics](#studio-basics)
-- The Synthesizers
-  - [Glossary](./glossary.md)
+- [Glossary](./glossary.md)
+- The Audio lab Synthesizers
   - [Serge system](./serge.md)
   - [ARP 2600 system](./arp.md)
   - [Center Table](./centertable.md)
   - [The 80s](./eighties.md)
-  - [370 Annex](./annex.md)
-  - [Audio-Lab-to-go](./er.md)
+- [370 Annex](./annex.md)
+- [Audio-Lab-to-go](./er.md)
 
 # Overview
 
