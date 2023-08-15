@@ -4,7 +4,7 @@
 - [Overview](#overview)
 - [Studio Basics](#studio-basics)
 - [Glossary](./glossary.md)
-- The Audio lab Synthesizers
+- The Synthesizers
   - [Serge system](./serge.md)
   - [ARP 2600 system](./arp.md)
   - [Center Table](./centertable.md)
