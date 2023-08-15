@@ -24,7 +24,7 @@ The user manual for the ISE-NIN can be found [here](https://www.dsl-man.de/displ
 
 ### ISE-NIN Architecture
 
-<img src = "./img/jupiter-8-inside.jpg" width="100%" title="Jupiter 8 Internals © Studio Repair" alt="Jupiter 8 Internals © Studio Repair">
+<img src = "./img/jupiter-8-inside.jpg" width="62.5%" title="Jupiter 8 Internals © Studio Repair" alt="Jupiter 8 Internals © Studio Repair">
 
 The Jupiter 8 (and ISE-NIN) has independent boards for each voice, mounted on a chassis to a control board that contains the front-end controls and the microcontroller that holds the entire system together.
 
