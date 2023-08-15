@@ -9,6 +9,8 @@
   - [ARP 2600 system](./arp.md)
   - [Center Table](./centertable.md)
   - [The 80s](./eighties.md)
+  - [370 Annex](./annex.md)
+  - [Audio-Lab-to-go](./er.md)
 
 # Overview
 
