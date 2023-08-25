@@ -2546,7 +2546,7 @@ The **Benjolin** is a DIY synthesizer design published in 2009 by [Rob Hordijk](
 
 Many versions of the Benjolin exist - standalone and Eurorack, pre-built and DIY (e.g. [here](https://afterlateraudio.com/products/benjolin-v2), [here](https://www.modulargrid.net/e/epoch-modular-benjolin), and [here](https://synthplex.com/store/index.php?route=product/product&product_id=66)), some with added features or modifications. The Benjolin in the IDM Audio Lab is a double unit (two matched Benjolin circuits) with a mixer and [Accutronics reverb](http://www.accutronicsreverb.com/main/?skin=sub01_05_1.html) in a Serge format, built by [Grant Wilkinson](https://www.instagram.com/muncky/). The output of the Benjolin is fed to channel 7 on the mixer in the studio.
 
-<img src = "./img/benjolin.png" width="62.5%" title="Benjolin" alt="Benjolin">
+<img src = "./img/benjolin.png" width="75%" title="Benjolin" alt="Benjolin">
 
 1. Rungler external clock (active when *14* is set to "Ext") (Pulse INPUT)
 2. External audio input for the filter (AC INPUT)
