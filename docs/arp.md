@@ -49,7 +49,9 @@ This slider lets you mix in a signal to a module (this particular slider is from
 
 *Nearly all modules have one or more sliders* that allow you to control the mix of one or more inputs. If these sliders are down, the module will receive no input, from its default source or elsewhere, and will rely entirely on its internal circuitry to function. When a module has multiple inputs, their voltages are summed; in addition, these voltages will also be mixed with any control voltage being generated directly by controls on the module, such as a frequency control on the VCO modules. This elegant system allows you to *offset and scale* input voltages using controls mounted directly on the module itself rather than having to resort to separate voltage processing modules (although the ARP has one of those as well). Generally-speaking, the vertical sliders will provide a scalar to the incoming voltage (a *multiplication* of voltage), while horizontal sliders will provide an offset to the incoming voltage (an *addition* of voltage).
 
-The default wiring allows most of the modules on the ARP to interact with no patch cords; without any cables inserted, the ARP wires its oscillators (labeled **VCO 1, 2, and 3**) through the filter (**VCF**), into an amplifier (**VCA**), and from there to a mixer that is wired to the built-in speakers. By looking at the symbols and adjusting the mix sliders, you can follow the signal path of the modules through the synthesizer.
+The default wiring allows most of the modules on the ARP to interact with no patch cords; without any cables inserted, the ARP wires its oscillators (labeled **VCO 1, 2, and 3**) through the filter (**VCF**), into an amplifier (**VCA**), and from there to a mixer that is wired to the built-in speakers. By looking at the symbols and adjusting the mix sliders, you can follow the signal path of the modules through the synthesizer:
+
+<img src = "./img/arpschematic.png" width="100%" title="ARP 2600 default wiring" alt="ARP 2600 default wiring">
 
 To override the default wiring, modules can connected by **patching** within and between module jacks using audio \* cables:
 
