@@ -36,12 +36,12 @@ In order to be authorized for Audio Lab access, you will need to watch a trainin
 *Please observe the following rules when you're leaving the Audio Lab*
 
 - Clean up after you're done.
-- Turn the power off (**only on the power conditioners, instrument amps, analog tape deck, and oscilloscopes**) for the gear you've used.
+- Turn the power off (**only on the power conditioners / center table strips, instrument amps, and oscilloscopes**) for the gear you've used.
 - Leave things so that they're ready for the next person. For the analog synthesizers, take your patch down and store your cables back in the rack; for the center table, normalize the mixing board.
 - Don't unplug things! Specifically:
     - Don't unplug electrical power for individual pieces of equipment, or use individual power switches on equipment that has them (e.g. the power speakers, the TTSH, the Prophet-6). The power strips should be the only way things are turned off and on.
     - Don't disconnect audio connections other than banana and mini jacks used in modular patching. If it's an audio cable running between a piece of equipment and a mixer, or between a mixer and loudspeakers, leave it alone. Please speak to an IDM staff member if you need to hook up new equipment or want to do something that you don't know how to do.
-    - Don't touch the ground wires (gray banana jacks) woven between and among the Serge style synthesizers. The Serge system depends on a common grounding connection between everything.
+    - Don't touch the ground wires (gray banana jacks) woven between and among the Serge synthesizers. The Serge system depends on a common grounding connection between everything.
 - Turn the lights off when you leave (switches are by the door), including the faerie lights and spots in the main lab (the switch is against the back wall by the synthesizers).
 - Make sure the door is closed and locked when you leave.
 - Make sure any equipment you've checked out gets returned to the IDM Equipment Room over in 370 Jay Street.
