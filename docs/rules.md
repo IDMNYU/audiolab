@@ -10,15 +10,14 @@ The IDM Audio Lab is **for the use of IDM faculty, students, staff, and guests w
 - Audio research lab
 - Sound electronics workshop
 - Multi-channel audio room
-- Audio recording studio
 
 ...each of which is supported by different equipment.
 
 *What the Audio Lab is not:*
 
-The IDM Audio Lab is **not a commercial recording studio**. Under no circumstances can you bring clients in to record and then charge them money.
+The IDM Audio Lab is **not a conventional recording studio**. If you need to record live musicians, do DAW-based audio production, etc., the audio lab in the [370 Jay Street Media Commons](https://www.nyu.edu/life/campus-resources/370-jay-street.html) is a more appropriate facility to use. In addition, the academic programs in [Music Technology](https://steinhardt.nyu.edu/programs/music-technology) (Steinhardt) and [Recorded Music](https://tisch.nyu.edu/clive-davis-institute) (Tisch) have extensive recording studio facilities.
 
-The Audio Lab is **not a social space**. If you're not working with the equipment, please find another place to hang out so that other folks can come in and work.
+The IDM Audio Lab is **not a commercial studio**. Under no circumstances can you bring clients in to work with the equipment and then charge them money.
 
 ## Lab Rules
 
@@ -28,7 +27,7 @@ In order to be authorized for Audio Lab access, you will need to watch a trainin
 
 *Please observe the following rules while working in the Audio Lab*
 
-- The Audio Lab is a **shared space**. Please be respectful of other people's equipment and work that might be ongoing. If you need to set up additional equipment, please work with the IDM staff to install it safely and make sure it's clearly got your name on it.
+- The Audio Lab is a **shared space** and a **multi-user space**. Please be respectful of other people's equipment and work that might be ongoing. If you need to set up additional equipment, please work with the IDM staff to install it safely and make sure it's clearly got your name on it. If you're working in the room at the same time as others and the volume becomes loud, be courteous of one another and switch to headphones.
 - If you don't know how to use a particular setup and the directions aren't clear, **don't wing it**. Ask the audio GRA or one of the IDM faculty or staff for help.
 - **No eating or drinking** in the room. The rest of the 8th floor of 2MTC is an open space where you can eat and drink all you want.
 - **Don't ever leave the door propped open**, even if you run out for a minute. The 8th floor of 2MTC is used by the entire NYU community, and the Audio Lab has a lot of expensive equipment in it for use by the IDM program.
@@ -62,8 +61,8 @@ Other students interested in working in the room (e.g. for capstone or thesis wo
 Who to write for help:
 
 - R. Luke DuBois - IDM Research Director - dubois@nyu.edu
-- Arwa Alsaati - IDM Audio GRA - aaa9864@nyu.edu
-- Gabriella Gammarata - IDM Studio Research Coordinator - cammarata@nyu.edu
+- Justin Ballard - IDM Audio GRA - jb8042@nyu.edu
+- Gabriella Gammarata - IDM Studio Director - cammarata@nyu.edu
 - Eric Maiello - IDM Administrative Director (*for room access issues only*) - em1680@nyu.edu
 
 [return to main page](./index.md)
