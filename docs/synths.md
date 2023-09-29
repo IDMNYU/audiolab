@@ -5,8 +5,8 @@
 - [Studio Basics](#studio-basics)
   - [Power](#power)
   - [Mixers](#mixers)
-    - Modular Synth Mixer (#modular-synth-mixer)
-    - Center Table Mixer (#center-table-mixer) 
+    - [Modular Synth Mixer](#modular-synth-mixer)
+    - [Center Table Mixer](#center-table-mixer) 
 - [Glossary](./glossary.md)
 - The Synthesizers
   - [Serge system](./serge.md)
