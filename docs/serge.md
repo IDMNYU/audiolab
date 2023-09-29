@@ -3222,33 +3222,24 @@ The Low-Gain Electronics [**Format Jumbler Utility Boxes**](https://www.low-gain
 
 The [CV.OCD](https://six4pix.net/product/cvocd/), designed by [Sixty Four Pixels](https://six4pix.net/), takes MIDI signals and converts them into scaled control voltages for the Serge equipment. The CV.OCD outputs 3.5mm (Eurorack) jacks, so you can use the Low-Gain Converter boxes to output banana-jack signals. The CV.OCD is configured to take MIDI from the MOTU MIDI Interface and send the following output voltages:
 
-<ol type="A">
-  <li>Continous signal representing the pitch for a MIDI Note on Channel 1 (1V/Oct standard)</li>
-  <li>Continous signal representing the pitch for a MIDI Note on Channel 2 (1V/Oct standard)</li>
-  <li>Continous signal representing the pitch for a MIDI Note on Channel 3 (1V/Oct standard)</li>
-  <li>Continous signal representing the pitch for a MIDI Note on Channel 4 (1V/Oct standard)</li>
-</ol>
-
-<ol start="1">
-    <li>Trigger (pulse) signal representing a MIDI Note on Channel 1</li>
-    <li>Trigger (pulse) signal representing a MIDI Note on Channel 2</li>
-    <li>Trigger (pulse) signal representing a MIDI Note on Channel 3</li>
-    <li>Trigger (pulse) signal representing a MIDI Note on Channel 4</li>
-</ol>
-
-<ol start="5">
-    <li>Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 1</li>
-    <li>Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 2</li>
-    <li>Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 3</li>
-    <li>Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 4</li>
-</ol>
-
-<ol start="9">
-    <li>Quarter-Note Pulse signal from MIDI real-time messages</li>
-    <li>Eigth-Note Pulse signal from MIDI real-time messages</li>
-    <li>Sixteenth-Note Pulse signal from MIDI real-time messages</li>
-    <li>Thirty-Second-Note Pulse signal from MIDI real-time messages</li>
-</ol>
+<ul>
+    <li>A : Continous signal representing the pitch for a MIDI Note on Channel 1 (1V/Oct standard)</li>
+    <li>B : Continous signal representing the pitch for a MIDI Note on Channel 2 (1V/Oct standard)</li>
+    <li>C : Continous signal representing the pitch for a MIDI Note on Channel 3 (1V/Oct standard)</li>
+    <li>D : Continous signal representing the pitch for a MIDI Note on Channel 4 (1V/Oct standard)</li>
+    <li>1 : Trigger (pulse) signal representing a MIDI Note on Channel 1</li>
+    <li>2 : Trigger (pulse) signal representing a MIDI Note on Channel 2</li>
+    <li>3 : Trigger (pulse) signal representing a MIDI Note on Channel 3</li>
+    <li>4 : Trigger (pulse) signal representing a MIDI Note on Channel 4</li>
+    <li>5 : Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 1</li>
+    <li>6 : Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 2</li>
+    <li>7 : Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 3</li>
+    <li>8 : Gate (high on note ON, low on note OFF) signal representing a MIDI Note on Channel 4</li>
+    <li>9 :Quarter-Note Pulse signal from MIDI real-time messages</li>
+    <li>10 : Eigth-Note Pulse signal from MIDI real-time messages</li>
+    <li>11 : Sixteenth-Note Pulse signal from MIDI real-time messages</li>
+    <li>12 : Thirty-Second-Note Pulse signal from MIDI real-time messages</li>
+</ul>
 
 ### Oscilloscopes
 
