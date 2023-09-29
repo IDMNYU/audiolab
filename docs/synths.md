@@ -110,7 +110,7 @@ The USB output of the mixer comes out of a USB hub on the right-hand wall (betwe
 
 ![USB Hub](./img/usbhub.jpg "USB Hub")
 
-The mixer is a multi-channel audio interface, with the Main Mix available as input channels 15/16. In other words, you can record individual tracks from the mixer on a per-channel basis. If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to download and install an ASIO driver for the mixer [**here**](https://tascam.com/us/product/model_16/download).
+The mixer is a multi-channel audio interface, with the Main Mix available as input channels 15/16. In other words, you can record individual tracks from the mixer on a per-channel basis. If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to [**download and install a driver for the mixer here**](https://tascam.com/us/product/model_16/download).
 
 You can also record to an micro-SD card on the mixer directly by record-enabling individual channels and using the console interface above the output section of the mixer. The mixer will record standard .WAV files at 24-bit, 44.1kHz. Higher sampling rates can be achieved by recording onto your computer via USB.
 
@@ -142,7 +142,7 @@ The Vocoder is hard-wired using the insert output of the microphone channel and 
 
 The USB output of the mixer has a cable connected for your use. If you connect it up to your computer, you can record the output of the equipment. The mixer shows up as a multi-channel audio interface, with the input channels on the mixer routed on a per-channel basis (e.g. *input channel 3* on the mixer comes into your computer as *input channel 3* of the interface). The "Main Mix" output of the mixer appears on channels 15-16. 
 
-If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to download and install an ASIO driver for the mixer [**here**](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2/Downloads).
+If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to [**download and install a driver for the mixer here**](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2/Downloads).
 
 The mixer can send your computer audio either pre- or post-fader (which includes not only the channel level, but also the internal effects and equalization). The red button at the top of the channel below the white Gain knob lets you set this option. In general, the pre-fader (button up) option will give you a cleaner signal, allowing you to post-process the audio once you've recorded it.
 
