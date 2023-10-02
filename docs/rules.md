@@ -36,7 +36,7 @@ In order to be authorized for Audio Lab access, you will need to watch a trainin
 *Please observe the following rules when you're leaving the Audio Lab*
 
 - Clean up after you're done.
-- Turn the power off (**only on the power conditioners / center table strips, instrument amps, and oscilloscopes**) for the gear you've used.
+- Turn the power off when you leave. **REMEMBER TO SWITCH POWER OFF ONLY ON THE POWER CONDITIONERS, CENTER TABLE POWER STRIPS, INSTRUMENT AMPLIFIERS, AND OSCILLOSCOPES.**
 - Leave things so that they're ready for the next person. For the analog synthesizers, take your patch down and store your cables back in the rack; for the center table, normalize the mixing board.
 - Don't unplug things! Specifically:
     - Don't unplug electrical power for individual pieces of equipment, or use individual power switches on equipment that has them (e.g. the power speakers, the TTSH, the Prophet-6). The power conditioners and center table power strips should be the only way things are turned off and on.
