@@ -27,18 +27,18 @@ In order to be authorized for Audio Lab access, you will need to watch a trainin
 
 *Please observe the following rules while working in the Audio Lab*
 
-- The Audio Lab is a **shared space** and a **multi-user space**. Please be respectful of other people's equipment and work that might be ongoing. If you need to set up additional equipment, please work with the IDM staff to install it safely and make sure it's clearly got your name on it. If you're working in the room at the same time as others and the volume becomes loud, be courteous of one another and switch to headphones.
+- The Audio Lab is a **shared, multi-user space**. Please be respectful of other people's equipment and work that might be ongoing. If you need to set up additional equipment, please work with the IDM staff to install it safely and make sure it's clearly got your name on it. If you're working in the room at the same time as others and the volume becomes loud, be courteous of one another and switch to headphones.
 - If you don't know how to use a particular setup and the directions aren't clear, **don't wing it**. Ask the audio GRA or one of the IDM faculty or staff for help.
 - **No eating or drinking** in the room. The rest of the 8th floor of 2MTC is an open space where you can eat and drink all you want.
 - **Don't ever leave the door propped open**, even if you run out for a minute. The 8th floor of 2MTC is used by the entire NYU community, and the Audio Lab has a lot of expensive equipment in it for use by the IDM program.
-- **Masks must be worn whenever there is more than one person in the lab**, as per [NYU COVID-19 protocols](https://www.nyu.edu/life/safety-health-wellness/coronavirus-information/safety-and-health/protective-equipment.html#:~:text=Continuing%20through%20the%202021%2D22,%2Dsponsored%20activities%20off%2Dcampus.).
+- **Masks are always welcome**, as per [NYU COVID-19 protocols](https://www.nyu.edu/life/safety-health-wellness/coronavirus-information.html). In addition, there are anti-viral wipes on the bookshelf in the room that you can use to wipe down keyboards or other surfaces.
 
 *Please observe the following rules when you're leaving the Audio Lab*
 
 - Clean up after you're done.
 - Turn the power off when you leave. **REMEMBER TO SWITCH POWER OFF ONLY ON THE POWER CONDITIONERS, CENTER TABLE POWER STRIPS, INSTRUMENT AMPLIFIERS, AND OSCILLOSCOPES.**
 - Leave things so that they're ready for the next person. For the analog synthesizers, take your patch down and store your cables back in the rack; for the center table, normalize the mixing board.
-- Don't unplug things! Specifically:
+- **DON'T UNPLUG THINGS!!!** Specifically:
     - Don't unplug electrical power for individual pieces of equipment, or use individual power switches on equipment that has them (e.g. the power speakers, the TTSH, the Prophet-6). The power conditioners and center table power strips should be the only way things are turned off and on.
     - Don't disconnect audio connections other than banana and mini jacks used in modular patching. If it's an audio cable running between a piece of equipment and a mixer, or between a mixer and loudspeakers, leave it alone. Please speak to an IDM staff member if you need to hook up new equipment or want to do something that you don't know how to do.
     - Don't touch the ground wires (gray banana jacks) woven between and among the Serge synthesizers. The Serge system depends on a common grounding connection between everything.
