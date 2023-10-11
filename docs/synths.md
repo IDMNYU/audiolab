@@ -97,12 +97,12 @@ The channels of the mixer are wired to:
 | 3            | the left output of the "Stereo Mixer" module on Panel 5 of the R\*S Serge. |
 | 4            | the right output of the "Stereo Mixer" module on Panel 5 of the R\*S Serge. |
 | 5            | the output of the "XFader" module on Panel 3 of the R\*S Serge. |
-| 6            | the top output on the "Adapter" module on the 73-75 Serge. |
+| 6            | the output of the ARP Avatar. |
 | 7            | the main output of the Benjolin. |
 | 8            | the output of the IKEA plate reverb. |
 | 9/10            | the left and right output of the TTSH Mixer section. |
 | 11/12           | the stereo output of the Vermona DRM1 drum synthesizer. |
-| 13/14           | the stereo output of the Akai reel-to-reel recorder. |
+| 13/14           | the stereo output of the small Mackie mixer connected to the 73-75 Serge panels. |
 
 **Please don't re-plug the channels on the mixer.**
 
