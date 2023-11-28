@@ -58,11 +58,10 @@ In addition, some auxiliary equipment exists in the Audio Lab to help people wor
 - a Roland [GI-10](https://www.soundonsound.com/reviews/roland-gi-10) Guitar-to-MIDI Interface.
 - Several [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controllers.
 - An [Akai MPK-225](https://www.akaipro.com/mpk225) MIDI keyboard controller.
-- A Roli [Seaboard Rise 25](https://roli.com/products/seaboard)/[MPE](https://www.midi.org/articles-old/midi-polyphonic-expression-mpe) keyboard controller.
 - Two [CV.OCD](https://six4pix.net/product/cvocd/) MIDI-to-Control Voltage converters, as well as a [Gate Boost](https://www.tindie.com/products/hotchk155/gate-boost-module-for-cvocd-and-others/) module.
 - Multiple [Low-Gain Electronics](http://lowgain-audio.com/) passive converter boxes.
 - Three vintage [B&K oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope_history) - two model 1470s, one model 1479B.
-- One [Siglent](https://www.siglent.eu/siglent-sds1072cml-plus.html) digital two-channel oscilloscope.
+- One [Rigol](https://www.rigolna.com/products/rigol-digital-oscilloscopes/dho800/) digital four-channel oscilloscope.
 - Two sets of stereo [Genelec](https://www.genelec.com/) speakers, one with a subwoofer.
 
 # Studio Basics
