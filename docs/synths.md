@@ -70,7 +70,7 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 
 ### Power
 
-The power for *nearly everything* related to the synthesizers in the Audio Lab is controlled by four switches; two found on the Furman power conditioners on the black racks to the right of the main Serge system, and the switches on the two power strips on the center table:
+The power for *nearly everything* related to the synthesizers in the Audio Lab is controlled by *FIVE* switches; two found on the Furman power conditioners under the main mixing board along the wall, a third Furman power conditioner to left of the room when you're facing that mixer, and the switches on the two power strips on the center table:
 
 <img src = "./img/analogpower.jpg" width="100%" title="Furman Power Conditioner" alt="Furman Power Conditioner">
 
