@@ -50,8 +50,8 @@ In order to be authorized for Audio Lab access, you will need to watch a trainin
 
 Users of the Audio Lab need to be either enrolled in a course that uses the studio, be part of the synth club, or be working on a capstone / thesis project related to sound, with access approved by Luke and Eric. Students in courses and the Synth Club have weekly blocks of time to work in the lab. For the fall of 2023, these times are:
 
-- *Analog Heaven* - Tuesday, Friday, and Saturday all day
-- *Synth Club* - Wednesday all day
+- *Analog Heaven* - Tuesday, Thursday, and Saturday all day
+- *Synth Club* - meetings 4-6 on Thursdays, open hours Friday all day
 
 Card access for the IDM Audio Lab is automatically granted for students in IDM audio courses and in the synth club who have passed the training. 
 
