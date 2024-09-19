@@ -10,6 +10,7 @@
   - [Roland SH-101](#sh-101)
   - [Sequential Prophet 6](#prophet-6)
   - [Black Corporation Deckard's Dream MK2](#deckards-dream)
+  - [Black Corporation ISE-NIN](#ise-nin)
 
 ## Overview
 
@@ -74,5 +75,23 @@ The user manual for the Deckard's Dream can be found [here](https://images.thoma
 <img src = "./img/cs80-synthblock.jpg" width="100%" title="CS-80 Block Diagram © Yamaha" alt="CS-80 Block Diagram © Yamaha">
 
 The Deckard's Dream, like the CS-80 that inspired it, has 8 fully polyphonic voice boards. Each voice consists of two layers, each with their own oscillator, filter section (with filter envelope), and VCA (with amplitude envelope). Unlike most synthesizers of the day, there is extensive max/min mapping of both the velocity and aftertouch parameters of the keyboard to ranges of the filters and amplifiers. This allows you to design a sound where the keyboard note velocity increases the filter brightness but decreases the note volume. The Deckard's Dream (and the CS-80) also has a novel architectural adjustment to the synthesizer design where a sine wave can be introduce *independently* of the filter section before the VCA. This allows for you to high-pass one of the harmonic rich waveforms and then reintroduce a fundamental; this is one of the classic "sounds" of the CS synthesizers that was unique to the line.
+
+## イセーニン / ISE-NIN
+
+<img src = "./img/ise-nin.jpeg" width="100%" title="Black Corporation's ISE-NIN" alt="Black Corporation's ISE-NIN">
+
+The [ISE-NIN](https://black-corporation.com/product/deckards-dream-mk2/) is an 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Roland [Jupiter 8](https://en.wikipedia.org/wiki/Roland_Jupiter-8) synthesizer from 1981. The ISE-NIN is a rack unit, and can be controlled via MIDI by an [Arturia KeyStep](https://www.arturia.com/keystep/overview) MIDI keyboard controller.
+
+The Roland Jupiter synthesizers (and their budget cousins, the Juno series) were Roland's flagship analog polyphonic synthesizers in the late 1970s and early 1980s. Like the Sequential Circuits Prophet 5, the Jupiter 8 had presets, which allowed the user to save patches of settings, with the front-panel controls overriding the preset values when touched. Unlike the Prophet 5, the Jupiter 8 had a higher polyphony count (8 voices instead of 5), and the ability to work in a [multitimbral](https://en.wikipedia.org/wiki/Timbrality) manner, with two independent patches that could be "stacked" or split across the keyboard. The Jupiter 8 also had an onboard arpeggiator and a number of other performance features. 
+
+The ISE-NIN, like the Deckard's Dream, is built from a DIY Kit and re-imagines the Jupieter 8 as a rack synthesizer with modern MIDI/USB input, custom tuning, and other modern features unavailable at the time.
+
+The user manual for the ISE-NIN can be found [here](https://www.dsl-man.de/display/ISENIN/ISE-NIN+Manuals+and+Firmware?preview=/107544682/135233592/ISE-NIN%20MANUAL%201.1.0.pdf).
+
+### ISE-NIN Architecture
+
+<img src = "./img/jupiter-8-inside.jpg" width="62.5%" title="Jupiter 8 Internals © Studio Repair" alt="Jupiter 8 Internals © Studio Repair">
+
+The Jupiter 8 (and ISE-NIN) has independent boards for each voice, mounted on a chassis to a control board that contains the front-end controls and the microcontroller that holds the entire system together.
 
 [return to main page](./index.md)
