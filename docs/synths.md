@@ -113,7 +113,7 @@ The channels of the mixer are wired to:
 
 The USB output of the mixer comes out of a USB hub under the patchbay and mixer. This hub also allows you to connect to the MOTU 8A audio interface and the MOTU Micro Express MIDI Interface. The USB cable out of the hub is dangling by the mixer and labelled:
 
-![USB Hub](./img/usbcable.jpg "USB Cable")
+<img src = "./img/usbcable.jpg" width="50%" title="USB Cable" alt="USB Cable">
 
 The mixer is a multi-channel audio interface, with the Main Mix available as input channels 23/24. In other words, you can record individual tracks from the mixer on a per-channel basis. If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to [**download and install a driver for the mixer here**](https://tascam.com/us/product/model_24/download).
 
