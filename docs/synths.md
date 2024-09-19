@@ -13,7 +13,6 @@
   - [ARP 2600 system](./arp.md)
   - [Center Table](./centertable.md)
   - [The 80s](./eighties.md)
-- [370 Annex](./annex.md)
 - [Audio-Lab-to-go](./er.md)
 
 # Overview
@@ -44,6 +43,7 @@ IDM has a collection of (mostly analog) synthesizers for the users of the Audio 
 - an [Etherwave Plus](https://www.moogmusic.com/products/etherwave-plus-theremin), a modern kit [Theremin](https://en.wikipedia.org/wiki/Theremin) developed by [Moog Music](https://www.moogmusic.com/).
 - a [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978.
 - a [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977. 
+- an [イセーニン](https://black-corporation.com/shop/product/ise-nin/) ("Ise-Nin") 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Roland [Jupiter 8](https://en.wikipedia.org/wiki/Roland_Jupiter-8) synthesizer from 1981. 
 - a Roland [SH-101](https://en.wikipedia.org/wiki/Roland_SH-101) monophonic analog synthesizer from 1982.
 - a Yamaha [TX81Z](https://www.vintagesynth.com/yamaha/tx81z.php) FM Synthesizer from 1987.
 - A Roland D-550 "Linear Arithmetic" synthesizer, the rackmount version of the Roland [D-50](https://www.roland.com/us/products/rc_d-50/), from 1987.
@@ -53,7 +53,7 @@ IDM has a collection of (mostly analog) synthesizers for the users of the Audio 
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Tascam Model 24](https://tascam.com/us/product/model_24/top) Mixer with USB output and SD card recording, for the Serge and ARP synthesizers.
-- A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording, for the synthesizers on the center table.
+- A [Tascam Model 24](https://tascam.com/us/product/model_16/top) Mixer with USB output for recording, for the synthesizers on the center table.
 - An [Akai GX-4000DB](https://www.hifiengine.com/manual_library/akai/gx-4000db.shtml) reel-to-reel tape recorder.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
 - A [MOTU Micro Express](https://motu.com/products/midi/micro_usb) [MIDI](https://en.wikipedia.org/wiki/MIDI) interface.
