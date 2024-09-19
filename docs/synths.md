@@ -48,7 +48,7 @@ IDM has a collection of (mostly analog) synthesizers for the users of the Audio 
 - A Yamaha [TX816](https://www.vintagesynth.com/yamaha/tx816.php) with 8 TF1 (rackmount [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7)) modules, from 1984.
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
-- A [Tascam Model 16](https://tascam.com/us/product/model_16/top) Mixer with USB output and SD card recording, for the Serge and ARP synthesizers.
+- A [Tascam Model 24](https://tascam.com/us/product/model_24/top) Mixer with USB output and SD card recording, for the Serge and ARP synthesizers.
 - A [Behringer UFX-1204](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2) Mixer with USB output for recording, for the synthesizers on the center table.
 - An [Akai GX-4000DB](https://www.hifiengine.com/manual_library/akai/gx-4000db.shtml) reel-to-reel tape recorder.
 - A [MOTU 8A](https://motu.com/products/avb/8a) DC-coupled Audio Interface with a custom-built banana-jack patchbay.
@@ -83,9 +83,9 @@ There are two mixers for the analog equipment; one along the wall for the modula
 
 #### Modular Synth Mixer
 
-The mixer for the modular synthesizers is a Tascam Model 16, which takes inputs from the various modular synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording. The Tascam mixer also has an SD card input that allows you to directly record digital files from the mixer.
+The mixer for the modular synthesizers is a Tascam Model 24, which takes inputs from the various modular synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording. The Tascam mixer also has an SD card input that allows you to directly record digital files from the mixer.
 
-<img src = "./img/model16mixer.jpg" width="100%" title="Analog Studio Main Mixer" alt="Analog Studio Main Mixer">
+<img src = "./img/model24mixer.jpg" width="100%" title="Analog Studio Main Mixer" alt="Analog Studio Main Mixer">
 
 The channels of the mixer are wired to:
 
@@ -96,12 +96,18 @@ The channels of the mixer are wired to:
 | 3            | the left output of the "Stereo Mixer" module on Panel 5 of the R\*S Serge. |
 | 4            | the right output of the "Stereo Mixer" module on Panel 5 of the R\*S Serge. |
 | 5            | the output of the "XFader" module on Panel 3 of the R\*S Serge. |
-| 6            | the output of the ARP Avatar. |
-| 7            | the main output of the Benjolin. |
-| 8            | the output of the IKEA plate reverb. |
-| 9/10            | the left and right output of the TTSH Mixer section. |
-| 11/12           | the stereo output of the Vermona DRM1 drum synthesizer. |
-| 13/14           | the stereo output of the small Mackie mixer connected to the 73-75 Serge panels. |
+| 6            | the main output of the Benjolin. |
+| 7            | the left output of the "weird" submixer on the left of the room. |
+| 8            | the left output of the "weird" submixer on the left of the room. |
+| 9            | the output of the IKEA plate reverb. |
+| 10           | nothing. for now. |
+| 11            | the output of the Roland System 100. |
+| 12            | the output of the ARP Avatar. |
+| 13/14            | the left and right output of the TTSH Mixer section. |
+| 15/16           | the stereo output of the Vermona DRM1 drum synthesizer. |
+| 17/18           | nothing. for now. |
+| 19/20           | nothing. for now. |
+| 21/22           | good channels to use for Bluetooth audio from a laptop or DAW playback. |
 
 **Please don't re-plug the channels on the mixer.**
 
@@ -109,7 +115,7 @@ The USB output of the mixer comes out of a USB hub under the patchbay and mixer.
 
 ![USB Hub](./img/usbcable.jpg "USB Cable")
 
-The mixer is a multi-channel audio interface, with the Main Mix available as input channels 15/16. In other words, you can record individual tracks from the mixer on a per-channel basis. If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to [**download and install a driver for the mixer here**](https://tascam.com/us/product/model_16/download).
+The mixer is a multi-channel audio interface, with the Main Mix available as input channels 23/24. In other words, you can record individual tracks from the mixer on a per-channel basis. If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to [**download and install a driver for the mixer here**](https://tascam.com/us/product/model_24/download).
 
 You can also record to an micro-SD card on the mixer directly by record-enabling individual channels and using the console interface above the output section of the mixer. The mixer will record standard .WAV files at 24-bit, 44.1kHz. Higher sampling rates can be achieved by recording onto your computer via USB.
 
@@ -117,21 +123,22 @@ The "Main" output of the mixer routes the audio to the two Genelec audio speaker
 
 #### Center Table Mixer
 
-The mixer on the center table (for the non-modular synths) is a Behringer UFX-1204, which takes inputs from the various keyboard synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
+The mixer on the center table (for the non-modular synths) is a Tascam Model 16, which takes inputs from the various keyboard synthesizers and feeds them to the speakers or, by using a USB connector, to your computer for recording.
 
-<img src = "./img/ufxmixer.jpg" width="100%" title="Analog Studio Center Table Mixer" alt="Analog Studio Center Table Mixer">
+<img src = "./img/model16mixer.jpg" width="100%" title="Analog Studio Center Table Mixer" alt="Analog Studio Center Table Mixer">
 
 The channels of the mixer are wired to:
 
 | Channel  | Input     |
 | ------------- | --- |
 | 1            | the output of the Deckard's Dream synthesizer. |
-| 2            | the output of the IDM Vocoder. |
-| 3            | the output of the microphone on the center table. |
-| 4            | the output of the SH-101 synthesizer. |
-| 5/6          | the left and right outputs of the Prophet-6 synthesizer. |
-| 7/8          | a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
+| 2            | the output of the SH-101 synthesizer. |
+| 3/4          | the left and right outputs of the ISE-NIN synthesizer. |
+| 5/6          | dead channels. |
+| 7/8          | the left and right outputs of the Prophet-6 synthesizer. |
 | 9/10         | the stereo output of the 80s rack. |
+| 11/12        | a stereo 3.5mm / 1/8" \* jack for a laptop connection. |
+| 13/14        | good channels to use for Bluetooth audio from a laptop or DAW playback. |
 
 > \* *Audio connector trivia*: mini-phone jacks have a diameter of 3.5mm, which is 0.14in, *not* 0.125in (1/8"). In the USA, they are incorrectly referred to as 1/8" jacks because (a) the USA has a [cultural aversion to the metric system](https://www.youtube.com/watch?v=N0U-XEmKPKg) and (b) they look to be about half the size of 1/4" jacks.
 
@@ -141,7 +148,7 @@ The Vocoder is hard-wired using the insert output of the microphone channel and 
 
 The USB output of the mixer has a cable connected for your use. If you connect it up to your computer, you can record the output of the equipment. The mixer shows up as a multi-channel audio interface, with the input channels on the mixer routed on a per-channel basis (e.g. *input channel 3* on the mixer comes into your computer as *input channel 3* of the interface). The "Main Mix" output of the mixer appears on channels 15-16. 
 
-If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to [**download and install a driver for the mixer here**](https://www.behringer.com/Categories/Behringer/Mixers/Analog/UFX1204/p/P0AB2/Downloads).
+If you are a Mac user, you won't need a driver for the mixer, though you should confirm that you have a connection by looking in the "Audio MIDI Setup" or "Sound" panel under your System Preferences. If you are using a Windows machine, you will have to [**download and install a driver for the mixer here**](https://tascam.com/us/product/model_16/download).
 
 The mixer can send your computer audio either pre- or post-fader (which includes not only the channel level, but also the internal effects and equalization). The red button at the top of the channel below the white Gain knob lets you set this option. In general, the pre-fader (button up) option will give you a cleaner signal, allowing you to post-process the audio once you've recorded it.
 
