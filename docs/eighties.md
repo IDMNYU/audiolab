@@ -17,7 +17,7 @@
 
 ## Overview
  
-The IDM audio lab contains a mobile rack (*"The 80s"*) of rackmount digital synthesis equipment, such as would be found in a typical professional recording studio circa 1989. The rack sits next to the mixer at the end of the center table; there is a MIDI keyboard (an [Akai MPK-225](https://www.akaipro.com/mpk225) wired into the MIDI interface at the top of the rack; there is also a USB cable for interfacing with a laptop. The audio from the line mixer at the top of the rack goes into channels 9 and 10 of the center table's mixer (the UFX-1204).
+The IDM audio lab contains a mobile rack (*"The 80s"*) of rackmount digital synthesis equipment, such as would be found in a typical professional recording studio circa 1989. The rack sits next to the mixer at the end of the center table; there is a MIDI keyboard (an [Akai MPK-225](https://www.akaipro.com/mpk225) wired into the MIDI interface at the top of the rack; there is also a USB cable for interfacing with a laptop. The audio from the line mixer at the top of the rack goes into channels 9 and 10 of the center table's mixer (the Model 16).
 
 In its current configuration, the rack contains two FM synthesizers from Yamaha (a TX816 and a TX81Z), a hybrid digital wavetable / subtractive synthesizer (the Roland D-550), and two classic ["ROMplers"](https://en.wikipedia.org/wiki/Rompler): a Korg M1R workstation and a Roland R-8M percussion module. All of the 80s synthesizers' audio comes into a line mixer (a Samson SM10) at the top of the rack, and are controlled by a high end rackmound MIDI interface (an iConnectivity mioXL).
 
