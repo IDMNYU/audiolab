@@ -19,27 +19,32 @@
 
 <img src = "./img/analog_overview.jpg" width="100%" title="Analog Studio Panorama" alt="Analog Studio Panorama">
 
-IDM has a collection of (mostly analog) synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio of modular synthesizers on one side of the room, with a second set of non-modular synthesizers on the center table. The lab has two main types of analog modular synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts, as well as a small collection of non-modular synthesizers, including a rack of industry standard digital synthesizer equipment from the late 1980s. The various systems are described in these pages. Our collection includes:
+IDM has a collection of (mostly analog) synthesizers for the users of the Audio Lab to work with, set up as a self-contained studio of modular synthesizers along one side of the room, with a second set of non-modular synthesizers on the center table. The lab has two main types of analog modular synthesizers, based on the 1970s-era designs of Serge Tcherepnin ([**Serge**](https://en.wikipedia.org/wiki/Serge_synthesizer)) in California and Alan Robert Pearlman ([**ARP**](https://en.wikipedia.org/wiki/ARP_Instruments)) in Massachusetts, as well as a small collection of non-modular synthesizers, including a rack of industry standard digital synthesizer equipment from the late 1980s. The various systems are described in these pages. Our collection includes:
 
 - a large (7-panel) Serge modular system built for IDM by [Patch Point](https://www.patch-point.com/) in Berlin, using PCBs designed by [Random\*Source](http://randomsource.net/) based on the "4th Generation" Serge systems from 1979-1980, as well as two modules based on signal processors designed by [Jürgen Haible](http://jhaible.com/).
 - a smaller (2-panel) Serge modular system built by [Luther Bradfute](https://www.lbradfute.com/) in Tennessee based on the 'Homebuilt' panels from the [73-75](http://www.73-75.com/) project by Jon Nensén ([The Human Comparator](http://www.thehumancomparator.net/)) in Stockholm. This synthesizer uses the designs from the original 1973 Serge modular systems developed by Tcherepnin at CalArts.
 - a second 2-panel [73-75](http://www.73-75.com/) system built by Matt Gerken in Ohio, consisting of a 'Voice' and 'Control' panel; like the 'Homebuilt', these panels are based on Tcherepnin's first-generation designs.
-- a third [73-75](http://www.73-75.com/) 'Preset' panel built here, based on Tcherepnin's early designs.
+- a third [73-75](http://www.73-75.com/) 'Preset' panel built in the lab, based on Tcherepnin's early designs.
 - two panels of modules by noted synthesizer designer [Ian Fritz](http://ijfritz.byethost4.com/), produced in Serge-compatible format by Paul Akin at [Uglysound Electronics](https://www.facebook.com/uglysoundelectronics/photos/a.541139732601896/560792510636618/?type=1&theater). 
 - a [Red Control](https://sergemodularinfo.blogspot.com/p/red-control.html) panel built by Rex Probe / Sound Transform Systems in the late 1990s, based on 1979-era Serge designs.
 - two Serge-format panels based on Ken Stone's [CGS modules](https://www.elby-designs.com/webtek/cgs/cgs.htm): a [Black Swamp](https://www.muffwiggler.com/forum/viewtopic.php?t=147603) panel designed by Jon Peters, based on the CGS [SWAMP](https://www.modulargrid.net/s/cgs-swamp), built by Charlie Kerr at [Loudest Warning](http://www.loudestwarning.co.uk/); and a 16-stage CGS [Programmer Sequencer](https://www.elby-designs.com/webtek/cgs/cgs359/cgs359.htm) designed and built by Finlay Shakespeare at [Future Sound Systems](http://futuresoundsystems.co.uk/).
 - a [Benyahon Percussion Syhnthesizer](https://modwiggler.com/forum/viewtopic.php?t=252099) panel, including designs by Peter Blasser, also designed and built by Finlay Shakespeare.
-- the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), a set of Arduino-based Serge-compatible modules designed and built by Luke.
+- the [Shelfisizer](https://github.com/IDMNYU/shelfisizer), several panels of Arduino-based Serge-compatible modules designed and built by Luke.
 - a [Benjolin](https://modularsynthesis.com/hordijk/benjolin/benjolin.htm) synthesizer designed by Rob Hordijk, built in Serge format by Grant Wilkinson.
 - a [Meta](https://thehumancomparator.net/meta.html) sequencer / synthesizer in Serge format, designed by Jon Nensén and built by Luke.
 - a [Variable Force Generator](https://www.low-gain.com/shop/p/vfg) Serge-format CV/Gate controller and a [4UMatrix Mixer](https://www.low-gain.com/shop/p/4umatrixmixer), both built by Logan Erickson / Low-Gain Electronics.
-- two [Ciat-Lonbarde](https://patch-point.com/en-us/collections/ciat-lonbarde) instruments built at Patch Point: a [Plumbutter 2](https://ciat-lonbarde.net/ciat-lonbarde/plumbutter/index.html) and a [Textrax](https://www.ciat-lonbarde.net/ciat-lonbarde/tetrax/index.html).
+- two [Ciat-Lonbarde](https://patch-point.com/en-us/collections/ciat-lonbarde) instruments designed by Peter Blasser and built at Patch Point: a [Plumbutter 2](https://ciat-lonbarde.net/ciat-lonbarde/plumbutter/index.html) and a [Textrax](https://www.ciat-lonbarde.net/ciat-lonbarde/tetrax/index.html).
 - a [Destiny 16 Psyche](https://www.destiny-plus.com/16-psyche) modular synthesizer, built in the UK.
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
 - an open source design of an [ARP 1601 Sequencer](https://modwiggler.com/forum/viewtopic.php?t=138862&start=0), also built by Patch Point.
 - a [Moog Werkstatt-01](https://www.moogmusic.com/products/werkstatt-01-cv-expander) monophonic analog synthesizer.
 - a Bastl Instruments [Rumburack 2.0](https://bastl-instruments.com/eurorack/full-systems/rumburack-2-0) hybrid analog-digital modular synthesizer.
+- a [Noon](https://www.landscape.fm/noon) passive analog instrument developed by Eric Pitra (Landscape FM).
+- a "GateBox" aleatoric triggering system designed by Luke.
+- a 1977 [ARP Avatar](https://www.vintagesynth.com/arp/avatar).
+- a 1975 [Roland System 100](https://www.vintagesynth.com/roland/system-100).
+- a 1969 [EMS VCS-3](https://www.vintagesynth.com/electronic-music-studios-ems/vcs3), currently under restoration.
 - an [Etherwave Plus](https://www.moogmusic.com/products/etherwave-plus-theremin), a modern kit [Theremin](https://en.wikipedia.org/wiki/Theremin) developed by [Moog Music](https://www.moogmusic.com/).
 - a [Prophet-6 Desktop](https://www.sequential.com/product/prophet-6-desktop/) 6-voice analog synthesizer, developed by [Sequential](https://www.sequential.com/) as a modern reissue of their famed [Prophet-5](https://en.wikipedia.org/wiki/Prophet-5) synthesizer from 1978.
 - a [Deckard's Dream](https://black-corporation.com/product/deckards-dream-mk2/) 8-voice analog synthesizer, developed by the [Black Corporation](https://black-corporation.com/) as a modern reimagining of the Yamaha [CS-80](https://en.wikipedia.org/wiki/Yamaha_CS-80) synthesizer from 1977. 
@@ -50,6 +55,8 @@ IDM has a collection of (mostly analog) synthesizers for the users of the Audio 
 - A Korg M1R sample-based synthesizer, the rackmount version of the Korg [M1](https://www.vintagesynth.com/korg/m1.php), from 1988.
 - A Roland R-8M drum synthesizer, a rackmount version of the Roland [R-8](https://www.vintagesynth.com/roland/r8.php) from 1989.
 - A Yamaha [TX816](https://www.vintagesynth.com/yamaha/tx816.php) with 8 TF1 (rackmount [DX7](https://en.wikipedia.org/wiki/Yamaha_DX7)) modules, from 1984.
+- A Roland [HS-60](https://www.vintagesynth.com/roland/hs-60) consumer version of the Juno-106, from 1985.
+- A Realistic [Concertmate MG-1](https://www.vintagesynth.com/realistic/concertmate-mg-1), a consumer Moog synthesizer marketed by Radio Shack in 1981, under restoration.
 
 In addition, some auxiliary equipment exists in the Audio Lab to help people work with the synthesizers:
 - A [Tascam Model 24](https://tascam.com/us/product/model_24/top) Mixer with USB output and SD card recording, for the Serge and ARP synthesizers.
