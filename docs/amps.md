@@ -6,7 +6,7 @@ The IDM Audio Lab has two instrument amplifiers: a [Blackstar Unity](https://bla
 
 The power switches for both amplifiers are on the rear. 
 
-Both amps have pedalboards, curated to use for baseline instrument effects research with the [IDM Pedals](https://idmnyu.github.io/IDMPEDALS/) project. The pedalboars are both DC powered from [MXR DC Brick](https://www.jimdunlop.com/mxr-dc-brick-power-supply/) power supplies.
+Both amps have pedalboards, curated to use for baseline instrument effects research with the [IDM Pedals](https://idmnyu.github.io/IDMPEDALS/) project. The pedalboards are both DC powered from [MXR DC Brick](https://www.jimdunlop.com/mxr-dc-brick-power-supply/) power supplies.
 
 The **bass** pedalboard consists of (from right to left):
 
