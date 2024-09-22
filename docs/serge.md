@@ -47,7 +47,11 @@ In terms of overall design, Serge modular systems are considered, alongside Buch
 
 Serge synthesizers are made up of **modules** that are 4U (7") tall and multiples of 1" wide. Most (but not all) Serge systems group modules into a single, full rack-width aluminum face (called a "panel"), usually housed in an enclosure (often refered to as a "boat"). Each panel contains up to 16 inches worth of modules and has a single power connector on the rear. The separation between individual modules on a panel is indicated by the panel graphics, usually with a module's name at the top or bottom, and a visual indicator such as a black rounded rectangle or a gap in the decal around the module.
 
-<img src = "./img/serge824_NTO.jpg" width="25%" title="Serge individual module photo" alt="Serge individual module photo">
+<img src = "./img/serge824_NTO.jpg" width="25%" title="Modern Serge individual module photo" alt="Modern Serge individual module photo">
+
+Older "paperface" era Serge modules have visual symbols on the panel graphics that indicate the type of jack (input or output). With a few exceptions, the main input on a paperface module is bracketed with two triangles; jacks outlined in squares are sometimes inputs, and sometimes outputs, so please check the documentation.
+
+<img src = "./img/serge_paperface.jpg" width="25%" title="Paperface Serge individual module photo" alt="Paperface Serge individual module photo">
 
 Modules may have **inputs**, **outputs**, or both, depending on their function. In general, outputs on Serge synthesizers appear *above* and/or *to the right* of the inputs, and are usually visually indicated on the panel graphics. In the image above, the lower portion of the module (where the knobs are) contain the inputs, while the upper area (bounded by a rectangle) contain the output jacks.
 
@@ -67,9 +71,9 @@ Some modules have additional colors, such as lavender jacks for passive connecto
 
 As noted above, these conventions describe the *kind* of voltage being delivered, not *how* you're going to use it. In the image above, the output area of the module has black, blue, and red jacks, but all of them can be used to generate either audio patched into the speakers or control voltage patched into another module.
 
-Patching the output of a module delivering one type of voltage into a module jack that expects a *different* type can have unpredictable results. In general, patching a DC (blue/gray) jack into an AC (black/brown) jack will work as expected, though some modules (such as the Mixer) are designed to only modify signals in the audio range, so a slow-moving DC signal may end up getting filtered out. Patching an AC (black/brown) source into a DC (blue/gray) destination may have unusual results - the negative voltage in the signal may end up getting clipped to 0V or rectified (flipped into positive voltage). Modules with   pulse (red) destinations will "fire" when an incoming AC or DC voltage source crosses above 2.5V or so, but processing voltage from a pulse (red) source through a DC or AC processing module may transform the signal in a way that eliminates its ability to trigger anything.
+Patching the output of a module delivering one type of voltage into a module jack that expects a *different* type can have unpredictable results. In general, patching a DC (blue/gray) jack into an AC (black/brown) jack will work as expected, though some modules (such as the Mixer) are designed to only modify signals in the audio range, so a slow-moving DC signal may end up getting filtered out. Patching an AC (black/brown) source into a DC (blue/gray) destination may have unusual results - the negative voltage in the signal may end up getting clipped to 0V or rectified (flipped into positive voltage). Modules with pulse (red) destinations will "fire" when an incoming AC or DC voltage source crosses above 2.5V or so, but processing voltage from a pulse (red) source through a DC or AC processing module may transform the signal in a way that eliminates its ability to trigger anything.
 
-Serge modules use small knobs to control parameters, often in conjunction with control voltage. Knobs that *scale* (multiply) an input voltage and knobs that *offset* (add to) an input voltage are distinguished on the panel graphics. Serge scalar knobs are usually *bipolar* and can apply negative scaling by moving the knob to the left. The zero (12 o'clock) position scales the incoming voltage to 0.
+Serge modules use small knobs to control parameters, often in conjunction with control voltage. Knobs that *scale* (multiply) an input voltage and knobs that *offset* (add to) an input voltage are distinguished on the panel graphics. On modern-style modules, offset knobs are unadorned, while scale knobs have a gradient indicator; "paperface" modules have pentagon outlines that are sharp for offset knobs and curved for scale knobs. Serge scalar knobs are usually *bipolar* and can apply negative scaling by moving the knob to the left. The zero (12 o'clock) position scales the incoming voltage to 0.
 
 Serge modules that work with frequency as a parameter (oscillators, filters, slope generators) often have CV inputs for both linear frequency (scaled by a knob) and [1 volt-per-octave](https://en.wikipedia.org/wiki/CV/gate) standard control voltage, allowing the module to be accurately tuned and played by, e.g. a MIDI-to-CV converter. 
 
@@ -77,13 +81,22 @@ Modules are connected by **patching** within and between module jacks using bana
 
 <img src = "./img/serge_patched2.jpg" width="100%" title="Serge modules patched together" alt="Serge modules patched together">
 
-Banana cables can be stacked by inserting one cable into the back or side of another. The cables in the IDM Audio Lab are stored against the wall in the modular synthesizer area, and are color-coded by length.
+Banana cables can be stacked by inserting one cable into the back or side of another. The cables in the IDM Audio Lab are stored on racks around the modular synthesizer area, and are color-coded by length.
 
 <img src = "./img/pomonacables.jpg" width="25%" title="Banana patch cables" alt="Banana patch cables">
 
 In addition, a box labeled "shorting bars!!!" contain small plastic blocks with two banana connectors that can be used to connect two adjacent jacks on most Serge modules.
 
 <img src = "./img/shortingbars.jpg" width="25%" title="Box of shorting bars" alt="Box of shorting bars">
+
+The two most important rules of Serge patching are:
+
+**Never connect an input to an input**
+**Never connect an output to an output**
+
+Both of the above situations may cause the equipment to short circuit or (at minimum) cause modules to not function properly. Additionally, while you can fan one output to multiple inputs elsewhere, you can't stack multiple modules' outputs into one input jack - the input voltages will not passively sum and may cause current to flow the wrong way (e.g. from output to output):
+
+<img src = "./img/serge_goodbad.jpg" width="50%" title="Good and bad patching" alt="Good and bad patching">
 
 As mentioned above, patching using banana jacks means that you're only connecting the positive (+) end of the audio signal. The negative (-) signals are fed among the sythesizers using common grounding wires. In the Audio Lab, these are visible as gray banana cables strung around the backs (and sometimes the front) of the equipment. These cables ground the modular synthesizers, the patchbay to the 8A audio interface, the format converter boxes, and the oscilloscopes together.
 
