@@ -1,6 +1,6 @@
 # IDM Serge Synthesizers
 
-- [Serge system overview](#serge-system-overview)
+- [Serge system overview](#serge-system-overview) ( [What makes a Serge a Serge?](#serge-a-serge) / [Interface standards](#interface-standards) / [Voltages](#voltages) / [Patching](#patching)
 - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) / [Panel 6](#panel-6-custom) )
 - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) / [Voice Panel](#voice-panel) / [Control Panel](#control-panel))
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
@@ -61,7 +61,7 @@ Serge modules use small knobs to control parameters, often in conjunction with c
 
 Serge modules that work with frequency as a parameter (oscillators, filters, slope generators) often have CV inputs for both linear frequency (scaled by a knob) and [1 volt-per-octave](https://en.wikipedia.org/wiki/CV/gate) standard control voltage, allowing the module to be accurately tuned and played by, e.g. a MIDI-to-CV converter.
 
-### Voltage conventions
+### Voltages
 
 Jacks are colored based on the type of voltage they send (or expect to receive). Tcherepnin's original design called for three types of voltage connection with color codes:
 
