@@ -20,13 +20,15 @@ In addition, unlike his competitors, Tcherepnin also sold his systems as *kits*,
 
 Tcherepnin's designs found commercial success as a low-cost alternative to other modular synthesis systems available at the time. His company (Serge Modular Music Systems) sold synthesizers under the **Serge** name until 1986. Tcherepnin then licensed his designs *non-exclusively* to a number of manufacturers, such as [Sound Transform Systems](https://electronicmusic.fandom.com/wiki/Sound_Transform_Systems) in the USA (the corporate successor to SMMS, run by Tcherepnin's former student and employee Rex Probe), [Elby Designs](https://www.elby-designs.com/index.html) in Australia, [Random\*Source](http://randomsource.net/) in Germany, [the Human Comparator](http://73-75.com) in Sweden, and [Loudest Warning](http://loudestwarning.co.uk) in the UK. In addition, a number of synthesizer designers, such as [Bugbrand](https://bugbrand.co.uk), [Modcan](http://www.modcan.com/), [Ciat-Lonbarde](https://ciat-lonbarde.net), and [Kilpatrick Audio](http://kilpatrickaudio.com/), continue to develop new synths using a Serge-inspired or Serge-compatible format.
 
-The [Serge-Fans](http://www.serge-fans.com/history.htm) web page (which doubles as an information site for Sound Transform Systems) is a great resource to learn more about the history of these synthesizers.
+The [Serge-Fans](https://web.archive.org/web/20220829001022/http://www.serge-fans.com/history.htm) web page (which doubles as an information site for Sound Transform Systems) is a great resource to learn more about the history of these synthesizers.
 
-Ken Stone's [Serge Modular](http://serge.synth.net/) site is another great resource, containing links to original manuals, price lists, circuit descriptions, and panel art.
+Ken Stone's [Serge Modular](https://web.archive.org/web/20220429223448/http://serge.synth.net/) site is another great resource, containing links to original manuals, price lists, circuit descriptions, and panel art.
 
 In addition, there's a nice video interview by Waveshaper Media with Tcherepnin [here](https://www.youtube.com/watch?v=To_gkk9GEpQ).
 
 A scan of a 1976 manual for the Serge synthesizers, written by Rich Gold, Darrel Johansen, and Marina LaPalma, can be found [here](./pdf/serge_goldbook.pdf).
+
+Tcherepnin's original 1973 manual for the Serge paperface can be found [here](./pdf/1973PaperFace.pdf).
 
 ### What makes a Serge a Serge?
 
