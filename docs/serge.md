@@ -100,7 +100,7 @@ The two most important rules of Serge patching are:
 
 Both of the above situations may cause the equipment to short circuit or (at minimum) cause modules to not function properly. Additionally, while you can fan one output to multiple inputs elsewhere, you can't stack multiple modules' outputs into one input jack - the input voltages will not passively sum and may cause current to flow the wrong way (e.g. from output to output):
 
-<img src = "./img/serge_goodbad.jpg" width="75%" title="Good and bad patching" alt="Good and bad patching">
+<img src = "./img/serge_goodbad.jpg" width="100%" title="Good and bad patching" alt="Good and bad patching">
 
 Patching the output of a module delivering one type of voltage into a module jack that expects a *different* type can have unpredictable results. In general, patching a DC (blue/gray) jack into an AC (black/brown) jack will work as expected, though some modules (such as the Mixer) are designed to only modify signals in the audio range, so a slow-moving DC signal may end up getting filtered out. Patching an AC (black/brown) source into a DC (blue/gray) destination may have unusual results - the negative voltage in the signal may end up getting clipped to 0V or rectified (flipped into positive voltage). Modules with pulse (red) destinations will "fire" when an incoming AC or DC voltage source crosses above 2.5V or so, but processing voltage from a pulse (red) source through a DC or AC processing module may transform the signal in a way that eliminates its ability to trigger anything.
 
