@@ -1,6 +1,6 @@
 # IDM Serge Synthesizers
 
-- [Serge system overview](#serge-system-overview) ( [What makes a Serge a Serge](#what-makes-a-serge-a-serge) / [Interface standards](#interface-standards) / [Voltages](#voltages) / [Patching](#patching)
+- [Serge system overview](#serge-system-overview) ( [What makes a Serge a Serge?](#what-makes-a-serge-a-serge-?) / [Interface standards](#interface-standards) / [Voltages](#voltages) / [Patching](#patching)
 - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) / [Panel 6](#panel-6-custom) )
 - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) / [Voice Panel](#voice-panel) / [Control Panel](#control-panel))
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
@@ -30,7 +30,7 @@ A scan of a 1976 manual for the Serge synthesizers, written by Rich Gold, Darrel
 
 Tcherepnin's original 1973 manual for the Serge paperface can be found [here](./pdf/1973PaperFace.pdf).
 
-### What makes a Serge a Serge
+### What makes a Serge a Serge?
 
 Serge synthesizers have a number of technical characteristics that set them apart from other modular systems of their day, as well as modern modular synthesizers that use the [Eurorack](https://en.wikipedia.org/wiki/Eurorack) format:
 - Serge synthesizers are designed to be arrayed horizontally into panels that are **4U** (four [rack units](https://en.wikipedia.org/wiki/Rack_unit)) high, the same as [Buchla](https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments) systems but distinct from [Moog](https://en.wikipedia.org/wiki/Moog_synthesizer) systems (5U) or Eurorack systems (3U). As a result of this sizing standard, Buchla- and Serge-style synthesizers are sometimes referred to generically as "4U" modular systems. \*
