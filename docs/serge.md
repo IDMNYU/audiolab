@@ -51,7 +51,7 @@ Serge synthesizers are made up of **modules** that are 4U (7") tall and multiple
 
 Older "paperface" era Serge modules have visual symbols on the panel graphics that indicate the type of jack (input or output). With a few exceptions, the main input on a paperface module is bracketed with two triangles; jacks outlined in squares are sometimes inputs, and sometimes outputs, so please check the documentation.
 
-<img src = "./img/serge_paperface.jpg" width="25%" title="Paperface Serge individual module photo" alt="Paperface Serge individual module photo">
+<img src = "./img/serge_paperface.jpg" width="16.7%" title="Paperface Serge individual module photo" alt="Paperface Serge individual module photo">
 
 Modules may have **inputs**, **outputs**, or both, depending on their function. In general, outputs on Serge synthesizers appear *above* and/or *to the right* of the inputs, and are usually visually indicated on the panel graphics. In the image above, the lower portion of the module (where the knobs are) contain the inputs, while the upper area (bounded by a rectangle) contain the output jacks.
 
@@ -96,7 +96,7 @@ The two most important rules of Serge patching are:
 
 Both of the above situations may cause the equipment to short circuit or (at minimum) cause modules to not function properly. Additionally, while you can fan one output to multiple inputs elsewhere, you can't stack multiple modules' outputs into one input jack - the input voltages will not passively sum and may cause current to flow the wrong way (e.g. from output to output):
 
-<img src = "./img/serge_goodbad.jpg" width="50%" title="Good and bad patching" alt="Good and bad patching">
+<img src = "./img/serge_goodbad.jpg" width="75%" title="Good and bad patching" alt="Good and bad patching">
 
 As mentioned above, patching using banana jacks means that you're only connecting the positive (+) end of the audio signal. The negative (-) signals are fed among the sythesizers using common grounding wires. In the Audio Lab, these are visible as gray banana cables strung around the backs (and sometimes the front) of the equipment. These cables ground the modular synthesizers, the patchbay to the 8A audio interface, the format converter boxes, and the oscilloscopes together.
 
