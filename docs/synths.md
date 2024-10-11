@@ -35,6 +35,7 @@ IDM has a collection of (mostly analog) synthesizers for the users of the Audio 
 - a [Variable Force Generator](https://www.low-gain.com/shop/p/vfg) Serge-format CV/Gate controller and a [4UMatrix Mixer](https://www.low-gain.com/shop/p/4umatrixmixer), both built by Logan Erickson / Low-Gain Electronics.
 - two [Ciat-Lonbarde](https://patch-point.com/en-us/collections/ciat-lonbarde) instruments designed by Peter Blasser and built at Patch Point: a [Plumbutter 2](https://ciat-lonbarde.net/ciat-lonbarde/plumbutter/index.html) and a [Textrax](https://www.ciat-lonbarde.net/ciat-lonbarde/tetrax/index.html).
 - a [Destiny 16 Psyche](https://www.destiny-plus.com/16-psyche) modular synthesizer, built in the UK.
+- a [Fénix II PP](https://patch-point.com/en-us/collections/fenix) modular synthesizer, designed and built by Patch Point as a recreation of the [Synton Fénix II](https://en.wikipedia.org/wiki/Synton_Fenix) synthesizer.
 - a [Vermona DRM1 MKIII](https://www.vermona.com/en/products/drums-percussion/product/drm1-mkiii/) analog drum synthesizer, with a custom patchbay built by Luke to interface with the Serge system.
 - a [TTSH](http://build.thehumancomparator.net/), an open-source reimagining of the 1971 ARP 2600, designed by The Human Comparator and custom-built for Luke by Patch Point.
 - an open source design of an [ARP 1601 Sequencer](https://modwiggler.com/forum/viewtopic.php?t=138862&start=0), also built by Patch Point.
