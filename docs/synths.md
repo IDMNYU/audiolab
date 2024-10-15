@@ -6,7 +6,8 @@
   - [Power](#power)
   - [Mixers](#mixers)
     - [Modular Synth Mixer](#modular-synth-mixer)
-    - [Center Table Mixer](#center-table-mixer) 
+    - [Center Table Mixer](#center-table-mixer)
+  - [MIDI](#MIDI)
 - [Glossary](./glossary.md)
 - The Synthesizers
   - [Serge system](./serge.md)
@@ -166,6 +167,23 @@ If you are a Mac user, you won't need a driver for the mixer, though you should 
 The mixer can send your computer audio either pre- or post-fader (which includes not only the channel level, but also the internal effects and equalization). The red button at the top of the channel below the white Gain knob lets you set this option. In general, the pre-fader (button up) option will give you a cleaner signal, allowing you to post-process the audio once you've recorded it.
 
 The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers on the table. They should let you listen to the synths with plenty of volume, so **please don't adjust the gain controls on the Genelecs**.
+
+[back to top](#top)
+
+### MIDI
+
+The synthesizers around the perimeter of the room can be controlled by MIDI either directly or through MIDI-to-CV converters made by [Sixty-Four Pixels](https://six4pix.net/product/cvocd/). The [MOTU Micro Express](https://motu.com/products/midi/micro_usb) MIDI interface in the rack below the main (Tascam Model 24) mixer is connected to the same USB cable. You can talk to the different devices using Max/MSP or other software with the following port list:
+
+| Output Port   | Channel  | Input     |
+| ------------- | --- | --- |
+| 2            | 1 | white cv.ocd - wired to the TTSH |
+| 2            | 2 | white cv.ocd - wired to the Oberheim SEM |
+| 2            | 3 | white cv.ocd - wired to the ARP Avatar |
+| 2            | 4 | white cv.ocd - wired to the Roland 100 series |
+| 3            | 1-4 | black cv.ocd by the Serge synthesizers |
+| 4            | 1 | wired to the MIDI input on the Vermona drum synthesizer |
+
+The Deckard's Dream, ISE-NIN, and Prophet 6 around the center table have MIDI keyboards directly attached to them; the 80's rack has an [iConnectivity MioXL](https://www.iconnectivity.com/mioxl) rackmount MIDI interface that can be connected to your computer with a USB cable.
 
 [back to top](#top)
 
