@@ -183,7 +183,15 @@ The synthesizers around the perimeter of the room can be controlled by MIDI eith
 | 3            | 1-4 | black cv.ocd by the Serge synthesizers |
 | 4            | 1 | wired to the MIDI input on the Vermona drum synthesizer |
 
-The Deckard's Dream, ISE-NIN, and Prophet 6 around the center table have MIDI keyboards directly attached to them; the 80's rack has an [iConnectivity MioXL](https://www.iconnectivity.com/mioxl) rackmount MIDI interface that can be connected to your computer with a USB cable.
+The Deckard's Dream, ISE-NIN, and Prophet 6 around the center table have MIDI keyboards directly attached to them; the 80's rack has an [iConnectivity MioXL](https://www.iconnectivity.com/mioxl) rackmount MIDI interface that can be connected to your computer with a USB cable. The following is the port list:
+
+| Output Port   | Channel  | Input     |
+| ------------- | --- | --- |
+| 1            | 1 | TX81Z |
+| 2            | 1 | Roland D-550 |
+| 3            | 1 | Korg M1R |
+| 4            | 1-8 | TX816 (8 channels) |
+| 5            | 10 | Roland R-8M |
 
 [back to top](#top)
 
