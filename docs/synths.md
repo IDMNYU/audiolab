@@ -4,9 +4,7 @@
 - [Overview](#overview)
 - [Studio Basics](#studio-basics)
   - [Power](#power)
-  - [Mixers](#mixers)
-    - [Modular Synth Mixer](#modular-synth-mixer)
-    - [Center Table Mixer](#center-table-mixer)
+  - [Mixers](#mixers) ([Modular Synth Mixer](#modular-synth-mixer) / [Center Table Mixer](#center-table-mixer))
   - [MIDI](#midi)
 - [Glossary](./glossary.md)
 - The Synthesizers
