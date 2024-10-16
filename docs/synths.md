@@ -7,7 +7,7 @@
   - [Mixers](#mixers)
     - [Modular Synth Mixer](#modular-synth-mixer)
     - [Center Table Mixer](#center-table-mixer)
-  - [MIDI](#MIDI)
+  - [MIDI](#midi)
 - [Glossary](./glossary.md)
 - The Synthesizers
   - [Serge system](./serge.md)
