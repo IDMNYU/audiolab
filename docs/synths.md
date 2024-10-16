@@ -181,6 +181,7 @@ There are two cv.ocd converters in the IDM Audio Lab - a white one (with a gate 
 The cv.ocd boxes have sixteen control voltage outputs arranged as follows:
 
 | Output Jack   | MIDI Message | Voltage |
+| ------------- | ------------ | ------- |
 | A, B, C, D    | Note On Channel 1, 2, 3, 4 | Pitch (1V/Octave) |
 | 1, 2, 3, 4    | Note On Channel 1, 2, 3, 4 | Trigger (5V pulse) |
 | 5, 6, 7, 8    | Note On/Off Channel 1, 2, 3, 4 | Gate (5V HIGH, 0V LOW) |
