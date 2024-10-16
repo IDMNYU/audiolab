@@ -172,7 +172,21 @@ The "Main Mix" of the mixer routes the audio to the two Genelec audio speakers o
 
 ### MIDI
 
-The synthesizers around the perimeter of the room can be controlled by MIDI either directly or through MIDI-to-CV converters made by [Sixty-Four Pixels](https://six4pix.net/product/cvocd/). The [MOTU Micro Express](https://motu.com/products/midi/micro_usb) MIDI interface in the rack below the main (Tascam Model 24) mixer is connected to the same USB cable. You can talk to the different devices using Max/MSP or other software with the following port list:
+The synthesizers around the perimeter of the room can be controlled by MIDI either directly or through **cv.ocd** MIDI to control voltage converters made by [Sixty-Four Pixels](https://six4pix.net/product/cvocd/):
+
+<img src = "./img/cvocd_serge_photo.jpg" width="50%" title="CV OCD" alt="CV OCD">
+
+There are two cv.ocd converters in the IDM Audio Lab - a white one (with a gate booster) seated in between the TTSH and the 1601 Sequencer, and a black one over with the Serge synthesizers. The white one is pre-wired to all the "East Coast" synthesizers in the studio on the right side of the perimiter. The black one is unconnected and can be patched to Serge equipment using the Low Gain converter box next to it.
+
+The cv.ocd boxes have sixteen control voltage outputs arranged as follows:
+
+| Output Jack   | MIDI Message | Voltage |
+| A, B, C, D    | Note On Channel 1, 2, 3, 4 | Pitch (1V/Octave) |
+| 1, 2, 3, 4    | Note On Channel 1, 2, 3, 4 | Trigger (5V pulse) |
+| 5, 6, 7, 8    | Note On/Off Channel 1, 2, 3, 4 | Gate (5V HIGH, 0V LOW) |
+| 9, 10, 11, 12 | Clock Tick quarter, 8th, 16th, 32nd note | Trigger (5V pulse) |
+
+The [MOTU Micro Express](https://motu.com/products/midi/micro_usb) MIDI interface in the rack below the main (Tascam Model 24) mixer is connected to the same USB cable. You can talk to the different devices using Max/MSP, Ableton, or other software with the following port list:
 
 | Output Port   | Channel  | Input     |
 | ------------- | --- | --- |
