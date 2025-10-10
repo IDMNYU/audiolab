@@ -50,9 +50,9 @@ In order to be authorized for Audio Lab access, you will need to be trained on t
 The IDM Audio Lab is designed to be an inclusive, accessible space, and a number of our users may have disabilities. To this end, please adhere to the following guidelines:
 
 - Return all rolling chairs to their places pushed into the tables, which are marked by glitter tape stripes matching the stripes on the backs of the chairs. There are eight chairs in total marked in that way:
-<img src = "./img/glitter_chairs.jpg" width="100%" title="Chairs marked with glitter near matching glitter strip on a table" alt="Chairs marked with glitter near matching glitter strip on a table">
+<img src = "./img/glitter_chairs.jpg" width="50%" title="Chairs marked with glitter near matching glitter strip on a table" alt="Chairs marked with glitter near matching glitter strip on a table">
 - Hang up all the USB cables in the room to their clips to make it easier to reach and access:
-<img src = "./img/usb_hangers.jpg" width="100%" title="Plastic clips attached to various pieces of equipment for USB cables to hang on" alt="Plastic clips attached to various pieces of equipment for USB cables to hang on">
+<img src = "./img/usb_hangers.jpg" width="50%" title="Plastic clips attached to various pieces of equipment for USB cables to hang on" alt="Plastic clips attached to various pieces of equipment for USB cables to hang on">
 
 ## Room Reservation Procedure
 
