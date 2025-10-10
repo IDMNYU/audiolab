@@ -2,7 +2,7 @@
 
 The IDM Audio Lab supports composers, musicians, sound artists, scholars and designers working with synthesizers and other electronic sound. Please reach out to Luke if you're interested in working with us.
 
-Audio Lab resident artists, past and present:
+Audio Lab artists, past and present:
 
 - [Lea Bertucci](http://lea-bertucci.com/)
 - [Lita Vinueza](https://lita.systems/)
@@ -12,6 +12,7 @@ Audio Lab resident artists, past and present:
 - [Dani Dobkin](https://www.danibeepboop.studio/)
 - [Messica Arson](https://messicaarson.bandcamp.com/)
 - [Ted Gordon](https://ted-gordon.net/)
+- [Benjamin Carey](https://bencarey.net/)
 - [Hans Tammen](https://tammen.org/)
 - [Rosie K](https://www.discogs.com/artist/8001544-Rosie-Kaplan)
 - [Suzana Lasçu](https://suzanalascu.com/introduction/)
