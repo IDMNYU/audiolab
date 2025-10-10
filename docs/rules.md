@@ -74,8 +74,8 @@ The IDM Audio Lab has a Discord channel. Reach out to Luke for the invite link.
 Who to write for help:
 
 - R. Luke DuBois - IDM Research Director - dubois@nyu.edu
+- Kelly Heaton - IDM Adjunct Faculty, *Analog Heaven* - kbh8174@nyu.edu
 - Moira Zhang - IDM Audio GRA - fz2384@nyu.edu
-- Elton Kwok - IDM Technical Director - eltonkwok@nyu.edu
 - Eric Maiello - IDM Administrative Director (*for room access issues only*) - em1680@nyu.edu
 
 [return to main page](./index.md)
