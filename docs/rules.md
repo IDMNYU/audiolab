@@ -43,17 +43,31 @@ In order to be authorized for Audio Lab access, you will need to be trained on t
 - Turn the lights off when you leave (switches are by the door), including the faerie lights and spots in the main lab (the switch is against the back wall to the right of the closet).
 - Make sure the door is closed and locked when you leave.
 - Make sure any equipment you've checked out gets returned to the IDM Equipment Room over in 370 Jay Street.
+- Be sure to follow the **accessibility plan** (see below).
+
+## Accessibility Plan
+
+The IDM Audio Lab is designed to be an inclusive, accessible space, and a number of our users may have disabilities. To this end, please adhere to the following guidelines:
+
+- Return all rolling chairs to their places pushed into the tables, which are marked by glitter tape stripes matching the stripes on the backs of the chairs. There are eight chairs in total marked in that way:
+<img src = "./img/glitter_chairs.jpg" width="100%" title="Chairs marked with glitter near matching glitter strip on a table" alt="Chairs marked with glitter near matching glitter strip on a table">
+- Hang up all the USB cables in the room to their clips to make it easier to reach and access:
+<img src = "./img/usb_hangers.jpg" width="100%" title="Plastic clips attached to various pieces of equipment for USB cables to hang on" alt="Plastic clips attached to various pieces of equipment for USB cables to hang on">
 
 ## Room Reservation Procedure
 
 Users of the Audio Lab need to be either enrolled in a course that uses the studio, be part of the synth club, or be working on a capstone / thesis project related to sound, with access approved by Luke and Eric. Students in courses and the Synth Club have weekly blocks of time to work in the lab. For the Fall of 2024, these times are:
 
-- *Analog Heaven* - Tuesday, Thursday, and Saturday all day
-- *Synth Club* - meetings 4-6 on Thursdays, open hours Friday all day
+- *Analog Heaven* - Tuesday, Wednesday, Thursday, and Saturday all day
+- *Synth Club* - meetings 4-6 on Thursdays, open hours Friday and Sunday all day
 
 Card access for the IDM Audio Lab is automatically granted for students in IDM audio courses and in the Synth Club who have passed the training.
 
 Other students interested in working in the room (e.g. for capstone or thesis work) must be approved to do so by Luke and Eric.
+
+## IDM Audio Lab Discord
+
+The IDM Audio Lab has a Discord channel. Reach out to Luke for the invite link.
 
 ## Contact E-mails
 
