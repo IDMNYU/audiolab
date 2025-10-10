@@ -13,3 +13,5 @@ Last updated Fall, 2025.
 **[The Piano](./piano.md)**
 
 **[The Amps](./amps.md)**
+
+**[Artist Residency Program](./artists.md)**
