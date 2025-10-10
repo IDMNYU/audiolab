@@ -1,0 +1,154 @@
+{
+  "ProductID": "16",
+  "Product": "U6MIDI Pro",
+  "Firmware": "5.81",
+  "Software": "7.4",
+  "Serial": "00143F02046A44A100002908",
+  "Activated": "10",
+  "PresetName": "midimapper",
+  "Router": [
+    "10",
+    "20",
+    "40",
+    "71",
+    "72",
+    "74",
+    "0",
+    "0"
+  ],
+  "FilterChannels": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "FilterStatus": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "Mapper": [
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    },
+    {
+      "inVal1Val2": "7F007F00",
+      "outVal1Val2": "7F007F00",
+      "cfg1": "F00F0F",
+      "cfg2": "F5FA0187"
+    }
+  ],
+  "PresetSetting": "4300"
+}
