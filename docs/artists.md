@@ -5,6 +5,7 @@ The IDM Audio Lab supports composers, musicians, sound artists, scholars and des
 Audio Lab artists, past and present:
 
 - [Lea Bertucci](http://lea-bertucci.com/)
+- [Bob Bellerue](https://bobbellerue.net/)
 - [Lita Vinueza](https://lita.systems/)
 - [Amir ElSaffar](https://www.amirelsaffar.com/)
 - [Sara Wentworth](https://sarawentworth.bandcamp.com/album/orbits)
