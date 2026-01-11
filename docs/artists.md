@@ -14,6 +14,7 @@ Audio Lab artists, past and present:
 - [Dani Dobkin](https://www.danibeepboop.studio/)
 - [Messica Arson](https://messicaarson.bandcamp.com/)
 - [Ted Gordon](https://ted-gordon.net/)
+- [Rebecca Yurivna](https://soundcloud.com/rebeccayurivna)
 - [Eric Singer](https://ericsinger.com/)
 - [Benjamin Carey](https://bencarey.net/)
 - [Hans Tammen](https://tammen.org/)
