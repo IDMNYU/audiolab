@@ -1,6 +1,6 @@
 # Artist Residencies and Support
 
-The IDM Audio Lab supports composers, musicians, sound artists, scholars and designers working with synthesizers and other electronic sound. We also run a summer residency program. Please reach out to Luke if you're interested in working with us.
+The IDM Audio Lab supports composers, musicians, sound artists, scholars and designers working with synthesizers and other technologies related to sound. We also run a summer residency program. Please reach out to Luke if you're interested in working with us.
 
 Audio Lab artists, past and present:
 
