@@ -15,7 +15,7 @@ The IDM Audio Lab is **for the use of IDM faculty, students, staff, and guests w
 
 *What the Audio Lab is not:*
 
-The IDM Audio Lab is **not a conventional recording studio**. If you need to record live musicians, do DAW-based audio production, etc., the audio lab in the [370 Jay Street Media Commons](https://www.nyu.edu/life/campus-resources/370-jay-street.html) is a more appropriate facility to use. In addition, NYU's academic programs in [Music Technology](https://steinhardt.nyu.edu/programs/music-technology) (Steinhardt), [Recorded Music](https://tisch.nyu.edu/clive-davis-institute) (Tisch), and the [Music](https://www.nyu-waverlylabs.org/) (FAS) have extensive facilities for recording, production, and digital music research.
+The IDM Audio Lab is **not a conventional recording studio**. If you need to record live musicians, do DAW-based audio production, etc., the audio lab in the [370 Jay Street Media Commons](https://www.nyu.edu/life/campus-resources/370-jay-street.html) is a more appropriate facility to use. In addition, NYU's academic programs in [Music Technology](https://steinhardt.nyu.edu/programs/music-technology) (Steinhardt), [Recorded Music](https://tisch.nyu.edu/clive-davis-institute) (Tisch), and the [Music Department](https://www.nyu-waverlylabs.org/) (FAS) have extensive facilities for recording, production, and digital music research.
 
 The IDM Audio Lab is **not a commercial studio**. Under no circumstances can you bring clients in to work with the equipment and then charge them money.
 
