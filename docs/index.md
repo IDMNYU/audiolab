@@ -4,8 +4,6 @@ How to use the IDM audio lab (2MTC, room 824)
 
 ![IDM Audio Lab with the lights off](./img/studiolights.jpg)
 
-The only good system is a sound system.
-
 Last updated Spring, 2026.
 
 **[Policies, Rules, Reservations, and Contacts](./rules.md)**
@@ -19,3 +17,5 @@ Last updated Spring, 2026.
 **[The Amps](./amps.md)**
 
 **[Artist Residency Program](./artists.md)**
+
+The only good system is a sound system.
