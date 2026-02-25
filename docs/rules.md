@@ -3,6 +3,7 @@
 - [Lab Policies](#lab-policies)
 - [Lab Rules](#lab-rules)
 - [Accessibility Plan](#accessibility-plan)
+- [Reservation Procedure](#room-reservation-procedure)
 - [Discord](#idm-audio-lab-discord)
 - [Contact](#contact-emails)
 
