@@ -1,3 +1,5 @@
+# Research
+
 At the IDM Audio Lab, we do a lot of research around synthesizers and other topics related to the design research of music technology.
 
 - [synthaccess](https://github.com/IDMNYU/synthaccess/) : a set of related projects around synthesizer accessibility.
