@@ -1,6 +1,6 @@
 # NYU Integrated Design & Media
 ## Audio Lab website and studio manual
-How to use the IDM audio lab (2MTC, room 824)
+Information about the IDM audio lab (2MTC, room 824)
 
 ![IDM Audio Lab with the lights off](./img/studiolights.jpg)
 
