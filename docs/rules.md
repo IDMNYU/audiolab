@@ -1,5 +1,11 @@
 # IDM Audio Lab - READ THIS FIRST
 
+- [Lab Policies](#lab-policies)
+- [Lab Rules](#lab-rules)
+- [Accessibility Plan](#accessibility-plan)
+- [Discord](#idm-audio-lab-discord)
+- [Contact](#contact-emails)
+
 ## Lab Policies
 
 *What the Audio Lab is:*
@@ -72,7 +78,7 @@ Other students interested in working in the room (e.g. for capstone or thesis wo
 
 The IDM Audio Lab has a Discord channel. Reach out to Luke for the invite link.
 
-## Contact E-mails
+## Contact Emails
 
 Who to write for help:
 
