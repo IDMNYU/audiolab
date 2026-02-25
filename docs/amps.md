@@ -1,4 +1,4 @@
-# The Amps
+# The Amps & The Pedals
 
 The IDM Audio Lab has two instrument amplifiers: a [Blackstar Unity](https://blackstaramps.com/unity/) 30-watt bass amplifier and a [Fender Champion](https://www.fender.com/en-US/guitar-amplifiers/contemporary-digital/champion-40/2330300000.html) 40-watt guitar amplifier: 
 
