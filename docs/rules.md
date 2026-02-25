@@ -1,13 +1,13 @@
 # IDM Audio Lab - READ THIS FIRST
 
-- [Lab Policies](#lab-policies)
-- [Lab Rules](#lab-rules)
+- [Overview](#lab-overview)
+- [Policies](#lab-policies)
 - [Accessibility Plan](#accessibility-plan)
-- [Reservation Procedure](#room-reservation-procedure)
+- [Reservations](#room-reservation-procedure)
 - [Discord](#idm-audio-lab-discord)
 - [Contact](#contact-emails)
 
-## Lab Policies
+## Lab Overview
 
 *What the Audio Lab is:*
 
@@ -26,7 +26,7 @@ The IDM Audio Lab is **not a conventional recording studio**. If you need to rec
 
 The IDM Audio Lab is **not a commercial studio**. Under no circumstances can you bring clients in to work with the equipment and then charge them money.
 
-## Lab Rules
+## Lab Policies
 
 In order to be authorized for Audio Lab access, you will need to be trained on the equipment either by Luke or the IDM audio GRA. We'll then send in your card ID and switch on your access to the space.
 
