@@ -9,6 +9,7 @@ Audio Lab artists, past and present:
 - [Caitlin Berrigan](https://caitlinberrigan.com/)
 - [Lea Bertucci](http://lea-bertucci.com/)
 - [Benjamin Carey](https://bencarey.net/)
+- [Jason Dasent](https://www.jasondasent.com/)
 - [Dani Dobkin](https://www.danibeepboop.studio/)
 - [Amir ElSaffar](https://www.amirelsaffar.com/)
 - [Ted Gordon](https://ted-gordon.net/)
