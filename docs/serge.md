@@ -1,7 +1,7 @@
 # IDM Serge Synthesizers
 
 - [Serge system overview](#serge-system-overview) ( [What makes a Serge a Serge?](#what-makes-a-serge-a-serge) / [Interface standards](#interface-standards) / [Voltages](#voltages) / [Patching](#patching) )
-- [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) / [Panel 6](#panel-6-custom) )
+- [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) / [Panel 6](#panel-6-custom) / [Panel 7](#panel-7-custom) [Panel 8](#panel-8-custom) )
 - [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) / [Voice Panel](#voice-panel) / [Control Panel](#control-panel) / [Preset Panel](#preset-panel) )
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
 - [STS Panels](#sts-panels) ( [Red Control](#red-control) )
@@ -116,7 +116,7 @@ As mentioned above, patching using banana jacks means that you're only connectin
 ## Random Source Serge
 
 <img src = "./img/serge824_photo.jpg" width="100%" title="Random\*Source Serge system" alt="Random\*Source Serge system">
-<img src = "./img/serge824_56_photo.jpg" width="100%" title="Random\*Source Serge Panels 5 and 6" alt="Random\*Source Serge Panels 5 and 6">
+<img src = "./img/serge824_5678_photo.jpg" width="100%" title="Random\*Source Serge Panels 5, 6, 7, and 8" alt="Random\*Source Serge Panels 5, 6, 7, and 8">
 
 The **Random\*Source Serge** was built for IDM in 2018-2019 by Darrin Wiener at Patch Point in Berlin. It's currently configured with four [R\*S "shop" panels](http://randomsource.net/serge_panels) (prebuilt configurations of modules) in a custom zebrawood rack case: a La Bestia II, an Edelweiss II, a Mantra, and a TKB (Touch Activated Keyboard Sequencer). There are also two custom panels of individual modules ("Panel 5" and "Panel 6") housed in a separate case. These panels incorporate many of the module designs sold by Serge Modular Music Systems prior to Tcherepnin's exit from the company in 1986, with a number of innovations by Random\*Source and custom modifications for IDM by Darrin and his colleagues.
 
