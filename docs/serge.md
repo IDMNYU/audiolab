@@ -1700,7 +1700,7 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 - Sending an audio signal into the input (*5*) of the Smooth side of the SSG and sending an envelope into the CV input (*4*) will, depending where the rate knob (*2*) is set, allow you to use the module as a [low-pass gate](https://electronicmusic.fandom.com/wiki/Lowpass_gate), where the gain on the signal rises with the cutoff frequency of the filter. This setup is great for simulating natural sounding instruments such as percussion where the timbre brightens with the attack of the sound.
 - The SSG is quite a complex module, and the Serge fans site has [an entire 4-page article](http://www.serge-fans.com/wiz_SSG1.htm) dedicated to patching ideas using it.
 
-### Preset Paenl
+### Preset Panel
 
 <img src = "./img/serge7375_5.png" width="100%" title="73-75 Panel 5" alt="73-75 Panel 5">
 
