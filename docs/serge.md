@@ -2,7 +2,7 @@
 
 - [Serge system overview](#serge-system-overview) ( [What makes a Serge a Serge?](#what-makes-a-serge-a-serge) / [Interface standards](#interface-standards) / [Voltages](#voltages) / [Patching](#patching)
 - [Random\*Source Serge](#random-source-serge) ( [La Bestia II](#panel-1-la-bestia-ii) / [Edelweiss II](#panel-2-edelweiss-ii) / [Mantra](#panel-3-mantra) / [TKB](#panel-4-tkb) / [Panel 5](#panel-5-custom) / [Panel 6](#panel-6-custom) )
-- [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) / [Voice Panel](#voice-panel) / [Control Panel](#control-panel))
+- [73-73 Serge](#73-75-serge) ( [Homebuilt Panel 1](#homebuilt-panel-1) / [Homebuilt Panel 2](#homebuilt-panel-2) / [Voice Panel](#voice-panel) / [Control Panel](#control-panel) / [Preset Panel](#preset-panel) )
 - [Ian Fritz Panels](#ian-fritz-panels) ( [The Timbre Tantrum](#panel-1-the-timbre-tantrum) / [Chaos Theory](#panel-2-chaos-theory) )
 - [STS Panels](#sts-panels) ( [Red Control](#red-control) )
 - [CGS Panels](#cgs-panels) ( [Black Swamp](#black-swamp) / [Programmer](#programmer) )
@@ -1180,7 +1180,7 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 
 <img src = "./img/serge7375_photo.jpg" width="100%" title="73-75 Serge system" alt="73-75 Serge system">
 
-The **73-75 Serge** is a 4-panel system built from a series of kits designed by the Human Comparator in Stockholm as part of their *73-75* project, which aims to revisit the original Serge Modular DIY designs. The first two panels (called the "Homebuilt" system) were built by Luther Bradfute, and contain a "greatest hits" of Serge modules from the first generation of Tcherepnin's synthesizers, built in his home and sold as kits while he was still working at CalArts from 1973-1975. The second two panels, dubbed the "Voice" and "Control" panels, were built by Matt Gerken, and contain modules oriented towards sound generation and event processing, respectively. In general, these modules are simpler than found on the Random\*Source panels, but contain many examples of Tcherepnin's innovative designs.
+The **73-75 Serge** is a 5-panel system built from a series of kits designed by the Human Comparator in Stockholm as part of their *73-75* project, which aims to revisit the original Serge Modular DIY designs. The first two panels (called the "Homebuilt" system) were built by Luther Bradfute, and contain a "greatest hits" of Serge modules from the first generation of Tcherepnin's synthesizers, built in his home and sold as kits while he was still working at CalArts from 1973-1975. The second two panels, dubbed the "Voice" and "Control" panels, were built by Matt Gerken, and contain modules oriented towards sound generation and event processing, respectively. The fifth panel, dubbed the "Preset" panel, was built by Luke for the audio lab. In general, these modules are simpler than found on the Random\*Source panels, but contain many examples of Tcherepnin's innovative designs.
 
 ### Homebuilt Panel 1
 
@@ -1699,6 +1699,60 @@ The module is divided into two halves: the "Smooth" side at the top, and the "St
 - By a similar token, *any* input can be used on either side of the SSG. In this case, the Smooth side will work as a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) with the maximum slew (or smoothing amount) controlled by the rate; the Stepped side will sample-and-hold any input signal - simple waveforms will create different staircase effects based on the frequency difference between the incoming waveform and the "sampling" being performed.
 - Sending an audio signal into the input (*5*) of the Smooth side of the SSG and sending an envelope into the CV input (*4*) will, depending where the rate knob (*2*) is set, allow you to use the module as a [low-pass gate](https://electronicmusic.fandom.com/wiki/Lowpass_gate), where the gain on the signal rises with the cutoff frequency of the filter. This setup is great for simulating natural sounding instruments such as percussion where the timbre brightens with the attack of the sound.
 - The SSG is quite a complex module, and the Serge fans site has [an entire 4-page article](http://www.serge-fans.com/wiz_SSG1.htm) dedicated to patching ideas using it.
+
+### Preset Panel
+
+<img src = "./img/serge7375_5.png" width="100%" title="73-75 Panel 5" alt="73-75 Panel 5">
+
+#### Sequencer
+
+The 73-75 **Sequencer** is a ten-stage clock which has outputs for each stage. These outputs go HIGH in sequence based on input triggers. These output jacks can then be patched to trigger envelopes, presets on the **Programmer**, etc.
+
+<img src = "./img/serge7375_5_1.png" width="40%" title="Sequencer" alt="Sequencer">
+
+1. Sequencer stage outputs, triggered in sequency by clock input *2* (Pulse OUTPUT)
+2. Clock input to advance the sequencer one step (Pulse INPUT)
+3. Hold input; freezes the sequencer at its current stage when HIGH (Pulse INPUT)
+4. Reset input (Pulse INPUT)
+5. Reset button; both *4* and *5* move the sequencer back to stage 1
+
+*Notes:*
+- The 73-75 Sequencer was designed to be patched into Programmer modules, but can be used to trigger anything else in the Serge system that can be started with a pulse input. 
+
+#### Programmer
+
+The 73-75 **Programmer** is an eight-slot preset module with eight columns of three CV values. These presets can be triggered by pulse inputs or using the buttons at each preset column.
+
+<img src = "./img/serge7375_5_2.png" width="80%" title="Programmer" alt="Programmer">
+
+1. Output that sends a pulse when that preset is selected (Pulse OUTPUT)
+2. CV knob for CV output A
+3. CV knob for CV output B
+4. CV knob for CV output C
+5. Selection input; outputs the A, B, and C values at that preset and sends a pulse out of *1* (Pulse INPUT)
+6. Selection buttons; does the same as an input trigger
+7. Sends an output trigger when any stage is selected (Pulse OUTPUT)
+8. CV output for row A; outputs the value of the currently selected preset (DC OUTPUT)
+9. CV output for row B; outputs the value of the currently selected preset (DC OUTPUT)
+10. CV output for row C; outputs the value of the currently selected preset (DC OUTPUT)
+
+*Notes:*
+- The 73-75 Programmer can be used be used as an eight-stage sequencer when patched with the **Sequencer** module.
+- Like other Serge sequencer modules (such as the **TKB**), it can be used as a rudimentary keyboard to send predetermined CV data to any parameter on other modules. 
+
+#### Bi-Directional Router
+
+The 73-75 **Bi-Directional Router** is a utility module that has three sets of unbuffered, bidirectional gates that can either send an input to one of two outputs or switch between one of two inputs to a single output. It is similar in many ways to the *electronic switch* on an ARP2600.
+
+<img src = "./img/serge7375_5_3.png" width="20%" title="Bi-Directional Router" alt="Bi-Directional Router">
+
+1. A1 jack, connected to *2* based on the signal at *3* (any signal, INPUT or OUTPUT)
+2. B jack, connected to *2* or *4* based on the signal at *3* (any signal, INPUT or OUTPUT)
+3. Selector input; LOW signal connects *1* and *2*; HIGH signal connects *4* and *2* (Pulse INPUT)
+4. A2 jack, connected to *2* based on the signal at *3* (any signal, INPUT or OUTPUT)
+
+*Notes:*
+- The 73-75 Bi-Directional Router can be switched at audio rate, to create a subharmonic clock divider.
 
 [back to top](#top)
 
