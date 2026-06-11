@@ -101,7 +101,13 @@ The two most important rules of Serge patching are:
 
 Both of the above situations may cause the equipment to short circuit or (at minimum) cause modules to not function properly. Additionally, while **you can fan one output to multiple inputs** elsewhere, **you can't stack multiple modules' outputs into one input** - the input voltages will not passively sum and may cause current to flow the wrong way (e.g. from output to output). In other words, *you can scatter, but you can't gather*.
 
-<img src = "./img/serge_goodbad.jpg" width="100%" title="Good and bad patching" alt="Good and bad patching">
+The image below shows an example of *good* patching. Outputs are patched into inputs, and the one use of stacking is to send a _single output into multiple inputs, from the output of the middle Wave Multiplier into the left-hand side input of the Dual Slopes and "In 1" on the Variable Slope VCF):
+
+<img src = "./img/serge_good.jpg" width="100%" title="Good patching" alt="Good patching">
+
+This image shows examples of *bad* patching. The "variable" *output* of the New Timbral Oscillator is patched to the *output* of the middle Wave Multiplier; the 1V/Oct *input* of the NTO is patched to the *input* of the bottom Wave Multipler. Neither of these connections will work and may cause a short. Furthermore, the sine out of the NTO and the left-hand sawtooth output of the Dual Slops are stacked *into* "In 1" on the Variable Slope VCF; this will not work as expected, as electrical signals can't passively sum together in that way.
+
+<img src = "./img/serge_bad.jpg" width="100%" title="Bad patching" alt="Bad patching">
 
 Patching the output of a module delivering one type of voltage into a module jack that expects a *different* type can have unpredictable results. In general, patching a DC (blue/gray) jack into an AC (black/brown) jack will work as expected, though some modules (such as the Mixer) are designed to only modify signals in the audio range, so a slow-moving DC signal may end up getting filtered out. Patching an AC (black/brown) source into a DC (blue/gray) destination may have unusual results - the negative voltage in the signal may end up getting clipped to 0V or rectified (flipped into positive voltage). Modules with pulse (red) destinations will "fire" when an incoming AC or DC voltage source crosses above 2.5V or so, but processing voltage from a pulse (red) source through a DC or AC processing module may transform the signal in a way that eliminates its ability to trigger anything.
 
