@@ -86,7 +86,7 @@ The power for *nearly everything* related to the synthesizers in the Audio Lab i
 
 <img src = "./img/analogpower.jpg" width="100%" title="Furman Power Conditioners" alt="Furman Power Conditioners">
 
-There are two power conditioners found under the main mixing board along the wall, two found on the "80s" rack near the center table, and two found below the table in the leftmost corner of the room when you're facing that mixer:
+There are two power conditioners found on the "80s" rack near the center table, two under the main mixing board along the wall, and two below the table in the leftmost corner of the room when you're facing the main mixer:
 
 <img src = "./img/audiolab_power.png" width="50%" title="Audio Lab power locations" alt="Audio Lab power locations">
 
