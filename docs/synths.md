@@ -82,9 +82,13 @@ First, please remember to read the IDM Audio Lab [**Policies, Rules, and Room Re
 
 ### Power
 
-The power for *nearly everything* related to the synthesizers in the Audio Lab is controlled by *SIX* switches; two found under the main mixing board along the wall, two found on the Furman power conditioners on the "80s" rack near the center table, and two found on the Furman power conditioners in the leftmost corner of the room when you're facing that mixer:
+The power for *nearly everything* related to the synthesizers in the Audio Lab is controlled by the switches on *SIX* Furman power conditioners:
 
 <img src = "./img/analogpower.jpg" width="100%" title="Furman Power Conditioners" alt="Furman Power Conditioners">
+
+There are two power conditioners found under the main mixing board along the wall, two found on the "80s" rack near the center table, and two found below the table in the leftmost corner of the room when you're facing that mixer:
+
+<img src = "./img/audiolab_power.png" width="40%" title="Audio Lab power locations" alt="Audio Lab power locations">
 
 Green lights on the conditioners and power strips will confirm that you've got power.
 **Please use these power switches (and nothing else) to turn on and off the synthesizer equipment in the Audio Lab.**
