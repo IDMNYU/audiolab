@@ -99,7 +99,7 @@ The two most important rules of Serge patching are:
 
 **Never connect an output to an output**
 
-Both of the above situations may cause the equipment to short circuit or (at minimum) cause modules to not function properly. Additionally, while you can fan one output to multiple inputs elsewhere, you can't stack multiple modules' outputs into one input jack - the input voltages will not passively sum and may cause current to flow the wrong way (e.g. from output to output):
+Both of the above situations may cause the equipment to short circuit or (at minimum) cause modules to not function properly. Additionally, while **you can fan one output to multiple inputs** elsewhere, **you can't stack multiple modules' outputs into one input** - the input voltages will not passively sum and may cause current to flow the wrong way (e.g. from output to output). In other words, *you can scatter, but you can't gather*.
 
 <img src = "./img/serge_goodbad.jpg" width="100%" title="Good and bad patching" alt="Good and bad patching">
 
