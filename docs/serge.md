@@ -417,7 +417,7 @@ The **Dual Universal Slope Generator (DUSG)**, like the SSG, is one of the more 
 - If the rise and fall time add to a greater period than a pulse wave sent to the pulse input *12*, the DUSG can be used as a **harmonic subdivider**. generating an oscillator at 1/2, 1/3, etc. the frequency of the incoming signal.
 - The DUSG can be used as a [monostable](https://en.wikipedia.org/wiki/Monostable) **pulse delay**, where a pulse at input *12* will echo at output *3* at the end of the rise and fall times.
 
-#### Control Voltage Processor
+#### Control Voltage Processor #1
 
 The **Control Voltage Processor**, originally called the **Dual Processor**, is one of Tcherepnin's original 1973 modules, and functions as a mixer / scalar for control voltages. The module is split into two halves, with up to three sources in each half that can be scaled independently, with an overall scalar for each half.
 
@@ -768,7 +768,7 @@ The **Variable Q Voltage Controlled Filter (VCFQ)**, sometimes referred to as th
 - The LOW (extended range) mode of the filter allows you to modify control voltage to get filter-like characterists, e.g. ringing cause by high resonance in the filter.
 - The Serge-Fans site has an explanation of [how to use two VCFQs](http://www.serge-fans.com/wiz_filt.htm) in series as a Moog-style 4-pole filter.
 
-#### Equal Power XFader
+#### Equal Power XFader #1
 
 The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepnin's **Cross-Fader** module for the Serge. It crossfades two audio (AC) signals, with an additional control for overall gain and a 1/4" TRS output to connect to external audio equipment. 
 
@@ -1185,6 +1185,78 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 ### Panel 7 (Custom)
 
 <img src = "./img/serge824_7.png" width="100%" title="Random\*Source Serge Panel VII" alt="Random\*Source Serge Panel VII">
+
+#### Audio Interface
+
+blah blah blah
+
+<img src = "./img/serge824_7_1.png" width="20%" title="Audio Interface" alt="Audio Interface">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Equal Power XFader #2
+
+blah blah blah
+
+<img src = "./img/serge824_7_2.png" width="10%" title="XFader" alt="XFader">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Control Voltage Processor #2
+
+blah blah blah
+
+<img src = "./img/serge824_7_3.png" width="10%" title="Control Voltage Processor" alt="Control Voltage Processor">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Voltage-Controlled Resonant Equalizer
+
+blah blah blah
+
+<img src = "./img/serge824_7_4.png" width="60%" title="VC Resonant Equalizer" alt="VC Resonant Equalizer">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Variable Bandwidth Voltage Controlled Filter
+
+blah blah blah
+
+<img src = "./img/serge824_7_5.png" width="20%" title="Variable Bandwidth VCF" alt="Variable Bandwidth VCF">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Dual General Tracking Oscillator
+
+blah blah blah
+
+<img src = "./img/serge824_7_6.png" width="40%" title="Dual GTO" alt="Dual GTO">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
 
 [back to top](#top)
 
