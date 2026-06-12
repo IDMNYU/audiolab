@@ -99,7 +99,7 @@ The two most important rules of Serge patching are:
 
 **Never connect an output to an output**
 
-Both of the above situations may cause the equipment to short circuit or (at minimum) cause modules to not function properly. Additionally, while **you can fan one output to multiple inputs** elsewhere, **you can't stack multiple modules' outputs into one input** - the input voltages will not passively sum and may cause current to flow the wrong way (e.g. from output to output). In other words, *you can scatter, but you can't gather*.
+Both of the above situations may cause the equipment to short circuit or (at minimum) cause modules to not function properly. Additionally, while **you can use the banana cables to send one output signal to multiple inputs**, **you should avoid stacking multiple modules' outputs into one input** - the input voltages will not passively sum and may cause current to flow the wrong way (e.g. from output to output among the sources). In other words, *you can scatter, but you can't gather*.
 
 The image below shows an example of *good* patching. Outputs are patched into inputs, and the one use of stacking is to send a _single output into multiple inputs, from the output of the middle Wave Multiplier into the left-hand side input of the Dual Slopes and "In 1" on the Variable Slope VCF):
 
