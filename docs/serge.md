@@ -1264,6 +1264,102 @@ blah blah blah
 
 <img src = "./img/serge824_8.png" width="100%" title="Random\*Source Serge Panel VIII" alt="Random\*Source Serge Panel VIII">
 
+#### Subharmonic Oscillator
+
+blah blah blah
+
+<img src = "./img/serge824_8_1.png" width="60%" title="Audio Interface" alt="Audio Interface">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Voltage Controlled Filter X #1
+
+blah blah blah
+
+<img src = "./img/serge824_8_2.png" width="20%" title="Voltage Controlled Filter X" alt="Voltage Controlled Filter X">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Mix Pro #1
+
+blah blah blah
+
+<img src = "./img/serge824_8_3.png" width="10%" title="Mix Pro" alt="Mix Pro">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Pulse Divider / Bi-Directional Switches
+
+blah blah blah
+
+<img src = "./img/serge824_8_4.png" width="20%" title="Pulse Divider / Bi-Directional Switches" alt="Pulse Divider / Bi-Directional Switches">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Active Pro+
+
+blah blah blah
+
+<img src = "./img/serge824_8_5.png" width="10%" title="Active Pro+" alt="Active Pro+">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Mix Pro #2
+
+blah blah blah
+
+<img src = "./img/serge824_8_6.png" width="10%" title="Mix Pro" alt="Mix Pro">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Wave Multiplier / Voltage Controlled Filter X #2
+
+blah blah blah
+
+<img src = "./img/serge824_8_7.png" width="20%" title="Wave Multiplier / Voltage Controlled Filter X" alt="Wave Multiplier / Voltage Controlled Filter X">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
+#### Equal Power XFader #3
+
+blah blah blah
+
+<img src = "./img/serge824_8_8.png" width="10%" title="Equal Power XFader" alt="Equal Power XFader">
+
+1. foo
+2. bar
+
+*Notes:*
+- Yikes
+
 [back to top](#top)
 
 
