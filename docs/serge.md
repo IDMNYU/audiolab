@@ -1182,6 +1182,19 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 
 [back to top](#top)
 
+### Panel 7 (Custom)
+
+<img src = "./img/serge824_7.png" width="100%" title="Random\*Source Serge Panel VII" alt="Random\*Source Serge Panel VII">
+
+[back to top](#top)
+
+### Panel 8 (Custom)
+
+<img src = "./img/serge824_8.png" width="100%" title="Random\*Source Serge Panel VIII" alt="Random\*Source Serge Panel VIII">
+
+[back to top](#top)
+
+
 ## 73-75 Serge
 
 <img src = "./img/serge7375_photo.jpg" width="100%" title="73-75 Serge system" alt="73-75 Serge system">
