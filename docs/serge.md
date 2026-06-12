@@ -788,7 +788,7 @@ The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepn
 - Unlike the Active Processor, the XFader is AC-coupled, and will reject static or slow-moving DC signals.
 - Also unlike the Active Processor, the XFader uses equal-power (as opposed to equal gain) crossfading, using [Blackmer](http://www.thatcorp.com/2180-series_Pre-Trimmed_Blackmer_IC_Voltage-Controlled_Amplifiers.shtml) VCAs as signal amplifiers.
 - Like the Stereo Mixer, the voltage at the output of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the output banana jack *2*.
-- in the IDM Audio Lab, the TRS output on the XFader is wired to input 5 on the Tascam Mixer.
+- in the IDM Audio Lab, the TRS output on XFader #1 is wired to input 5 on the Tascam Mixer.
 
 ### Panel 4 (TKB)
 
@@ -1200,15 +1200,24 @@ blah blah blah
 
 #### Equal Power XFader #2
 
-blah blah blah
+The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepnin's **Cross-Fader** module for the Serge. It crossfades two audio (AC) signals, with an additional control for overall gain and a 1/4" TRS output to connect to external audio equipment. 
 
 <img src = "./img/serge824_7_2.png" width="10%" title="XFader" alt="XFader">
 
-1. foo
-2. bar
+1. 1/4" TRS output for the crossfader
+2. Crossfaded signal (AC OUTPUT)
+3. Signal input 1 (AC INPUT)
+4. Signal input 2 (AC INPUT)
+5. Crossfade ("Xfade") position voltage (sums with *6*) (DC INPUT)
+6. Crossfade position knob (sums with *5*)
+7. Voltage control input for overall gain (sums with *8*) (DC INPUT)
+8. Overall gain knob (sums with *7*).
 
 *Notes:*
-- Yikes
+- Like the Active Processor, the XFader can be used as a **VCA**, by applying an envelope signal to either the crossfade CV input *5* or the overall gain CV input *7*.
+- Unlike the Active Processor, the XFader is AC-coupled, and will reject static or slow-moving DC signals.
+- Also unlike the Active Processor, the XFader uses equal-power (as opposed to equal gain) crossfading, using [Blackmer](http://www.thatcorp.com/2180-series_Pre-Trimmed_Blackmer_IC_Voltage-Controlled_Amplifiers.shtml) VCAs as signal amplifiers.
+- Like the Stereo Mixer, the voltage at the output of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the output banana jack *2*.
 
 #### Control Voltage Processor #2
 
@@ -1350,15 +1359,24 @@ blah blah blah
 
 #### Equal Power XFader #3
 
-blah blah blah
+The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepnin's **Cross-Fader** module for the Serge. It crossfades two audio (AC) signals, with an additional control for overall gain and a 1/4" TRS output to connect to external audio equipment. 
 
 <img src = "./img/serge824_8_8.png" width="10%" title="Equal Power XFader" alt="Equal Power XFader">
 
-1. foo
-2. bar
+1. 1/4" TRS output for the crossfader
+2. Crossfaded signal (AC OUTPUT)
+3. Signal input 1 (AC INPUT)
+4. Signal input 2 (AC INPUT)
+5. Crossfade ("Xfade") position voltage (sums with *6*) (DC INPUT)
+6. Crossfade position knob (sums with *5*)
+7. Voltage control input for overall gain (sums with *8*) (DC INPUT)
+8. Overall gain knob (sums with *7*).
 
 *Notes:*
-- Yikes
+- Like the Active Processor, the XFader can be used as a **VCA**, by applying an envelope signal to either the crossfade CV input *5* or the overall gain CV input *7*.
+- Unlike the Active Processor, the XFader is AC-coupled, and will reject static or slow-moving DC signals.
+- Also unlike the Active Processor, the XFader uses equal-power (as opposed to equal gain) crossfading, using [Blackmer](http://www.thatcorp.com/2180-series_Pre-Trimmed_Blackmer_IC_Voltage-Controlled_Amplifiers.shtml) VCAs as signal amplifiers.
+- Like the Stereo Mixer, the voltage at the output of the module is significantly higher than the rest of the synthesizer in order for the TRS outputs to match professional line level (+4dBU). This includes the output banana jack *2*.
 
 [back to top](#top)
 
