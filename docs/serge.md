@@ -105,7 +105,7 @@ The image below shows an example of *good* patching. Outputs are patched into in
 
 <img src = "./img/serge_good.jpg" width="100%" title="Good patching" alt="Good patching">
 
-This image shows examples of *bad* patching. The "variable" *output* of the New Timbral Oscillator is patched to the *output* of the middle Wave Multiplier; the 1V/Oct *input* of the NTO is patched to the *input* of the bottom Wave Multipler. Neither of these connections will work and may cause a short. Furthermore, the sine out of the NTO and the left-hand sawtooth output of the Dual Slops are stacked *into* "In 1" on the Variable Slope VCF; this will not work as expected, as electrical signals can't passively sum together in that way.
+By contrast, the image below shows examples of *bad* patching. The "variable" *output* of the New Timbral Oscillator is patched to the *output* of the middle Wave Multiplier; the 1V/Oct *input* of the NTO is patched to the *input* of the bottom Wave Multipler. Neither of these connections will work and may cause a short. Furthermore, the sine out of the NTO and the left-hand sawtooth output of the Dual Slops are stacked *into* "In 1" on the Variable Slope VCF; this will not work as expected, as electrical signals can't passively sum together in that way.
 
 <img src = "./img/serge_bad.jpg" width="100%" title="Bad patching" alt="Bad patching">
 
