@@ -1239,15 +1239,21 @@ The Random\*Source **Equal Power XFader (XFader)** is a design based on Tcherepn
 
 #### Control Voltage Processor #2
 
-blah blah blah
+This module is compact version of Tcherepnin's **Control Voltage Processor**, with four inputs, each of which has a slightly different capability. At first glance, there is space for three attenuatable inputs, as well as an auxiliary input; however, with no input present, the first input knob can add a DC offset to the signal. In addition, the third input scaling knob is an *attenuverter* which can take the input and both scale and invert it.
 
 <img src = "./img/serge824_7_3.png" width="10%" title="Control Voltage Processor" alt="Control Voltage Processor">
 
-1. foo
-2. bar
+1. Mixed output for the CV signals (DC OUTPUT)
+2. Auxiliary input - this voltage gets added at the very end and cannot be altered by the module (DC INPUT)
+3. CV input 1 (DC INPUT)
+4. Scaling knob for *3*; if no input is present, this knob will add a DC offset to the CV output
+5. CV input 2 (DC INPUT)
+6. Scaling knob for *5*
+7. CV input 3 (DC INPUT)
+8. Scaling knob for *7*; unlike knobs *4* and *6*, this knob is an *attenuverter* allowing for both positive and negative scaling - 12 o'clock is the zero point.
 
 *Notes:*
-- Yikes
+- As with other Serge control voltage processors, this module will mix AC signals as well, but will not filter DC offsets.
 
 #### Voltage-Controlled Resonant Equalizer
 
@@ -1295,7 +1301,7 @@ blah blah blah
 
 blah blah blah
 
-<img src = "./img/serge824_8_1.png" width="60%" title="Audio Interface" alt="Audio Interface">
+<img src = "./img/serge824_8_1.png" width="60%" title="Subharmonic Oscillator" alt="Subharmonic Oscillator">
 
 1. foo
 2. bar
