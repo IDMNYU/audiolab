@@ -1188,15 +1188,33 @@ The **Stereo Mixer** is Random\*Source's take on Tcherepnin's **Dual Channel Ste
 
 #### Audio Interface
 
-blah blah blah
+The Random*Source **Audio Interface** is a module containing a variety of circuitry for bringing in and working with external audio signals inside the Serge modular synthesizer, including a *preamplifier*, a *compressor* circuit, a *voltage-controlled amplifier* with  an integrated *envelope follower*. The is designed so that you can connect instruments, microphones, and other equipment to the synthesizer - the module will then let you match the signal to the voltage levels of the rest of the Serge system.
 
 <img src = "./img/serge824_7_1.png" width="20%" title="Audio Interface" alt="Audio Interface">
 
-1. foo
-2. bar
+1. Consumer-level line input for the preamplifer (3.5mm INPUT)
+2. Balanced audio input for microphones, instruments, etc. (TRS INPUT)
+3. 5V clipping LED - lights up with the input signal at *1* or *2* x *5* is 5 volts peak-to-peak
+4. Preamplifier banana output to connect with the rest of the Serge system (AC OUTPUT)
+5. Gain knob for input *2*.
+6. Main input for the compressor section of the module (AC INPUT)
+7. Input for the compressor [sidechain](https://en.wikipedia.org/wiki/Dynamic_range_compression#Side-chaining) (AC INPUT)
+8. On/off switch to enable the sidechain on the compressor
+9. Output from the compressor (AC OUTPUT)
+10. Knob to control the amount of compression to be applied to input signal *6* based on either its own amplitude or, when *8* is switched on, the sidechain signal *7*
+11. Input to the VCA section of the module (AC INPUT)
+12. Output from the VCA section of the module (AC OUTPUT)
+13. CV input for the VCA gain (DC INPUT)
+14. CV output for the envelope follower on the VCA (DC OUTPUT)
+15. CV output for the envelope follower, modifided by the threshold amounts at *17* and *18*. Signals above the upper threshold will clip, and signals below the lower threshold will output 0V (DC OUTPUT)
+16. Gate output for when the envelope rises above the upper threshold set by *17* (Pulse OUTPUT)
+17. Level for the upper threshold comparator - signals above this level will set *16* to HIGH and clip the gated envelope follower signal at *15*
+18. Gate output for when the envelope falls below the lower threshold set by *19* (Pulse OUTPUT)
+19. Level for the lower threshold comparator - signals below this level will set *18* to HIGH and zero the gated envelope follower signal at *15*
 
 *Notes:*
-- Yikes
+- The compression *amount* set by knob *10* maps to the compression *ratio* on a standard compressor circuit, with the VCA's "gated out" signal *15* allowing for limiter and noise gate-style dynamics effects.
+- Unusually for Serge circuits, this module is "normalled" so that the input in the preamplifier is routed by default to the input jack *6* for the compressor, and hte output of the compressor *9* is connected to the input of the VCA.
 
 #### Equal Power XFader #2
 
