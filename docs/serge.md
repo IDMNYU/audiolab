@@ -1258,27 +1258,53 @@ This module is compact version of Tcherepnin's **Control Voltage Processor**, wi
 
 #### Voltage-Controlled Resonant Equalizer
 
-blah blah blah
+The VC Resonant Equalizer is the left-hand side of the Random*Source "Siegfried" half-panel module. It is a voltage-controllable version of the Serge **Resonant Equalizer**, designed by Tcherepnin in 1979; it consists of a bank of ten parallel bandpass filters, deliberately tuned at a non-integer harmonic interval of a [major seventh](https://en.wikipedia.org/wiki/Major_seventh). The individual filters can boost or cut, and a feedback circuit allows them to resonate as a [comb filter](https://en.wikipedia.org/wiki/Comb_filter), similar to the [Buchla 296](https://modularsynthesis.com/roman/buchla296/296psp.htm). This version of the module, unlike the original, has individual outputs for the filter bands, as well as control voltage inputs for the strength of the different bands; it also has two inputs.
 
 <img src = "./img/serge824_7_4.png" width="60%" title="VC Resonant Equalizer" alt="VC Resonant Equalizer">
 
-1. foo
-2. bar
+1. Output of Resonant EQ (AC OUTPUT)
+2. Positive "Comb" output of Resonant EQ (AC OUTPUT)
+3. Negative "Comb" output of Resonant EQ (AC OUTPUT)
+4. Feedback amount knob
+5. Audio input 1 for the Resonant EQ (AC INPUT)
+6. Gain knob for input 1
+7. Audio input 2 for the Resonant EQ (AC INPUT)
+8. Gain knob for input 2
+9. Outputs for the ten bandpass filters of the EQ (29Hz, 61Hz, 115Hz, 218Hz, 411Hz, 777Hz, 1.5kHz, 2.8kHz, 5.2kHz, 11kHz) (AC OUTPUT)
+10. CV inputs to control the strength of the filters (DC INPUT)
+11. Attenuverter knobs to scale the control voltage at *10*
+12. Boost-cut knobs for the bandpass filters
 
 *Notes:*
-- Yikes
+- the Resonant EQ can be used to simulate the body of acoustic instruments by creating complex frequency resonances from a synthesized input signal.
+- the Resonant EQ bands can all resonate at high gains, independently of the feedback stage of the circuit. 
+- The CV controls on the Resonant EQ can be used with LFOs to fade in and out the different bands in dynamic ways.
 
 #### Variable Bandwidth Voltage Controlled Filter
 
-blah blah blah
+The Serge **Variable Bandwidth Filter (VCF2)** is one of Tcherepnin's filter designs from the "third generation" of Serge modules, released in 1976, alongside the **Variable Slope VCF** and the **Variable Q VCF**. Unike the other two, it is a non-resonant state-variable filter, consisting of two separate filters in series that can be accessed independently.
 
 <img src = "./img/serge824_7_5.png" width="20%" title="Variable Bandwidth VCF" alt="Variable Bandwidth VCF">
 
-1. foo
-2. bar
+1. High-pass output of the filter (AC OUTPUT)
+2. Variable bandwidth output of the filter (AC OUTPUT)
+3. Upper fixed bandpass output of the filter (AC OUTPUT)
+4. Lower fixed bandpass output of the filter (AC OUTPUT)
+5. Low pass output of the first half of the filter (AC OUTPUT)
+6. Low pass output of the second half of the filter (AC OUTPUT)
+7. Audio input to the filter (AC INPUT)
+8. Three-way control switch for the filter frequency CV inputs *9* and *11*; to the left, the CV inputs only control the first filter; to the right, they control the second filter; in the middle position, they sweep both filters.
+9. 1V per octave CV input for the filter frequency (DC INPUT)
+10. 1V per octave CV input for the bandwidth of the filter (DC INPUT)
+11. Scalable linear CV input for the filter frequency (DC INPUT)
+12. Scalable linear CV input for the filter bandwidth (DC INPUT)
+13. Scaling / inverting knob for *11*
+14. Scaling / inverting knob for *12*
+15. Center frequency control knob
+16. Center bandpass control knob
 
 *Notes:*
-- Yikes
+- The *Variable Bandwidth Filter* is a non-resonant filter with a flat response, and so is designed to work more as a smoothing equalizer or crossover than a special effect.
 
 #### Dual General Tracking Oscillator
 
