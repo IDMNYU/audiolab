@@ -1254,6 +1254,7 @@ This module is compact version of Tcherepnin's **Control Voltage Processor**, wi
 
 *Notes:*
 - As with other Serge control voltage processors, this module will mix AC signals as well, but will not filter DC offsets.
+- With no input at *3* and an inverted signal at *7*, you can *subtract* a control voltage from a fixed value set by knob *4*. This can be used to create an inverted signal for envelopes, CV sequences, etc.
 
 #### Voltage-Controlled Resonant Equalizer
 
