@@ -4,34 +4,7 @@ The IDM Audio Lab supports composers, musicians, sound artists, scholars and des
 
 Audio Lab artists, past and present:
 
-- [Messica Arson](https://messicaarson.bandcamp.com/)
-- [Bob Bellerue](https://bobbellerue.net/)
-- [Caitlin Berrigan](https://caitlinberrigan.com/)
-- [Lea Bertucci](http://lea-bertucci.com/)
-- [Benjamin Carey](https://bencarey.net/)
-- [Jason Dasent](https://www.jasondasent.com/)
-- [Dani Dobkin](https://www.danibeepboop.studio/)
-- [Amir ElSaffar](https://www.amirelsaffar.com/)
-- [Ted Gordon](https://ted-gordon.net/)
-- [Sam Hertz](https://samhertzsound.com/)
-- [Kato Hideki](https://www.katohideki.com/)
-- [Rosie K](https://www.discogs.com/artist/8001544-Rosie-Kaplan)
-- [Miatta Kawinzi](https://mkawstudio.com/home.html)
-- [Boris Klompus](https://bandcamp.com/thresholdpeople)
-- [Suzana Lasçu](https://suzanalascu.com/introduction/)
-- [Delia Martinez](https://debit.media/)
-- [Lori Napoleon](http://www.antenes.net/)
-- [Shawn O'Sullivan](https://www.shawnosullivan.net/)
-- [Salima Punjani](https://salimapunjani.com/)
-- [Michael J. Schumacher](https://www.michaeljschumacher.com/)
-- [Eric Singer](https://ericsinger.com/)
-- [C. Lavender Suarez](http://www.clavender.net/)
-- [Hans Tammen](https://tammen.org/)
-- [Alessandra Vertrees](http://www.alessandravertrees.com/)
-- [Lita Vinueza](https://lita.systems/)
-- [Sara Wentworth](https://sarawentworth.bandcamp.com/album/orbits)
-- [Keith Fullerton Whitman](https://keithfullertonwhitman.com/)
-- [Rebecca Yurivna](https://soundcloud.com/rebeccayurivna)
+[Messica Arson](https://messicaarson.bandcamp.com/) / [Bob Bellerue](https://bobbellerue.net/) / [Caitlin Berrigan](https://caitlinberrigan.com/) / [Lea Bertucci](http://lea-bertucci.com/) / [Benjamin Carey](https://bencarey.net/) / [Jason Dasent](https://www.jasondasent.com/) / [Dani Dobkin](https://www.danibeepboop.studio/) / [Amir ElSaffar](https://www.amirelsaffar.com/) / [Ted Gordon](https://ted-gordon.net/) / [Sam Hertz](https://samhertzsound.com/) / [Kato Hideki](https://www.katohideki.com/) / [Rosie K](https://www.discogs.com/artist/8001544-Rosie-Kaplan) / [Miatta Kawinzi](https://mkawstudio.com/home.html) / [Boris Klompus](https://bandcamp.com/thresholdpeople) / [Suzana Lasçu](https://suzanalascu.com/introduction/) / [Delia Martinez](https://debit.media/) / [Lori Napoleon](http://www.antenes.net/) / [Shawn O'Sullivan](https://www.shawnosullivan.net/) / [Salima Punjani](https://salimapunjani.com/) / [Michael J. Schumacher](https://www.michaeljschumacher.com/) / [Eric Singer](https://ericsinger.com/) / [C. Lavender Suarez](http://www.clavender.net/) / [Hans Tammen](https://tammen.org/) / [Alessandra Vertrees](http://www.alessandravertrees.com/) / [Lita Vinueza](https://lita.systems/) / [Sara Wentworth](https://sarawentworth.bandcamp.com/album/orbits) / [Keith Fullerton Whitman](https://keithfullertonwhitman.com/) / [Rebecca Yurivna](https://soundcloud.com/rebeccayurivna)
 
 <img src = "./img/res25.jpg" width="50%" title="Summer 2025 Residencies" alt="Summer 2025 Residencies">
 <img src = "./img/res26.jpg" width="50%" title="Summer 2026 Residencies" alt="Summer 2026 Residencies">
