@@ -15,6 +15,7 @@ The IDM Audio Lab is **for the use of IDM faculty, students, staff, and guests w
 
 - Analog synthesizer studio
 - Audio research lab
+- [Music technology access facility](https://idmnyu.github.io/synthaccess/)
 - Sound electronics workshop
 - Multi-channel audio room
 
