@@ -32,3 +32,7 @@ Audio Lab artists, past and present:
 - [Sara Wentworth](https://sarawentworth.bandcamp.com/album/orbits)
 - [Keith Fullerton Whitman](https://keithfullertonwhitman.com/)
 - [Rebecca Yurivna](https://soundcloud.com/rebeccayurivna)
+
+<img src = "./img/res25.jpg" width="50%" title="Summer 2025 Residencies" alt="Summer 2025 Residencies">
+<img src = "./img/res26.jpg" width="50%" title="Summer 2026 Residencies" alt="Summer 2026 Residencies">
+
