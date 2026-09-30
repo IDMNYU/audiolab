@@ -67,9 +67,9 @@ The IDM Audio Lab is designed to be an inclusive, accessible space, and a number
 
 ## Room Reservation Procedure
 
-Users of the Audio Lab need to be either enrolled in a course that uses the studio, be part of the synth club, or be working on a capstone / thesis project related to sound, with access approved by Luke and Eric. Students in courses and the Synth Club have weekly blocks of time to work in the lab. For the Spring of 2026, these times are:
+Users of the Audio Lab need to be either enrolled in a course that uses the studio, be part of the synth club, or be working on a capstone / thesis project related to sound, with access approved by Luke and Eric. Students in courses and the Synth Club have weekly blocks of time to work in the lab. For the Fall of 2026, these times are:
 
-- *IDM Sound Studio* - Tuesday, Wednesday, Thursday, and Saturday all day
+- *IDM Analog Heaven* - class meetings Tuesday / Thursday from 2-4, studio time Tuesday before class, Wednesday, and Saturday all day
 - *Synth Club* - meetings 4-6 on Thursdays, open hours Friday and Sunday all day
 
 Card access for the IDM Audio Lab is automatically granted for students in IDM audio courses and in the Synth Club who have passed the training.
@@ -85,9 +85,8 @@ The IDM Audio Lab has a Discord channel. Reach out to Luke for the invite link.
 Who to write for help:
 
 - R. Luke DuBois - IDM Research Director - dubois@nyu.edu
-- Craig Fahner - IDM Faculty - craig.fahner@nyu.edu
 - Kelly Heaton - IDM Adjunct Faculty, *Analog Heaven* - kbh8174@nyu.edu
-- Moira Zhang - IDM Audio GRA - fz2384@nyu.edu
+- Aiste Merfeldaite - IDM Audio GRA - am17007@nyu.edu
 - Jason Wallach - IDM Audio Lab Designer-in-Residence - jmw792@nyu.edu
 - Eric Maiello - IDM Administrative Director (*for room access issues only*) - em1680@nyu.edu
 
