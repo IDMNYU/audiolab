@@ -4,9 +4,9 @@ Information about the IDM Audio Lab (2MTC, Room 824)
 
 ![IDM Audio Lab with the lights off](./img/studiolights.jpg)
 
-Last updated Spring, 2026.
+Last updated Fall, 2026.
 
-**[Policies, Rules, Reservations, and Contacts](./rules.md)**
+**[Policies, Rules, Reservations, Accessibility, and Contacts](./rules.md)**
 
 **[The Synthesizers](./synths.md)**
 
